@@ -1,8 +1,9 @@
 # Go to http://wiki.merbivore.com/pages/init-rb
  
-require 'config/dependencies.rb'
- 
-use_orm :datamapper
+# Specify a specific version of a dependency
+# dependency "RedCloth", "> 3.0"
+
+#  use_orm :none
 use_test :rspec
 use_template_engine :erb
  
@@ -11,7 +12,7 @@ Merb::Config.use do |c|
   c[:session_store] = 'cookie'  # can also be 'memory', 'memcache', 'container', 'datamapper
   
   # cookie session store configuration
-  c[:session_secret_key]  = '26a1ff33f3e5fdd059196b21747a0a358665b4a5'  # required for cookie session store
+  c[:session_secret_key]  = 'ff0bc97fd0e7d3a1e9f62389270643c91d0991ec'  # required for cookie session store
   # c[:session_id_key] = '_session_id' # cookie session id key, defaults to "_session_id"
 end
  
