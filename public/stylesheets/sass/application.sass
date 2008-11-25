@@ -1,0 +1,173 @@
+/ THINGS TO HIDE
+span.t, sup[style*="help"], .reference, .portal, .editsection, #protected-icon, .references-small, .sisterproject, .printfooter, .catlinks, .magnify, #siteSub, #jump-to-nav
+  :display none
+  
+.logo
+  text-align: right
+  padding-top: 5px
+  a
+    clear: right
+    
+#main_box
+  margin-top: -20px
+  
+
+/ GLOBALS
+html
+  :font-size 67.5%
+body
+  :line-height 1
+  :font-size 1.2em
+  :color #000
+  :background #fff
+  :font-family sans-serif
+  :overflow-x hidden
+  :-webkit-user-select none
+  :-webkit-text-size-adjust none
+p, li, dl, #featured_article
+  :line-height 1.65
+pre
+  :white-space pre-wrap
+h2
+  :border-bottom 1px solid #aaa
+  :padding 5px 0
+a   
+  :text-decoration none 
+  :color #002bb8
+  &:visited 
+    :color #5a3696
+  &:active 
+    :color #faa700
+  &:hover 
+    :text-decoration underline 
+    
+.links
+  float: left
+  padding: 10px
+
+/ MISC THINGS
+#contentSub, .dablink
+  :margin-bottom 10px
+  
+img.thumbborder
+  :border 1px solid #ccc
+  
+/ IMAGES BOXES    
+.thumb
+  :border 1px solid #ccc
+  :background #f9f9f9
+  :margin-bottom 10px
+  .thumbinner[style]
+    :margin 5px auto
+  .thumbcaption
+    :width 100%
+    :margin 5px 10px 0
+    :text-align center
+    :width auto !important 
+
+/ TABLE INSANITY !!!
+table
+  :border-spacing 0 !important
+  :width 100%
+  :border-collapse collapse !important
+  :border 1px solid #ccc
+  :padding 3px
+  :margin-bottom 15px
+  td, th
+    :border 1px solid #ccc
+    :padding 3px
+  table
+    :border 0
+    td, th
+      :border 0       
+  &.toc
+    :background #f9f9f9
+    h2
+      :border 0
+      :padding 0
+      :margin-top 5px
+  &.navbox
+    :font-size 0.9em
+    :width 100% !important
+    th.navbox-title
+      :background #CCCCFF
+      :padding 5px
+    td.navbox-abovebelow
+      :padding 3px
+    td.navbox-group
+      :background #DDDDFF
+      :width 25%
+      :padding 3px
+    td.navbox-group+td
+      :padding 3px
+    div[style*="padding"]
+      :padding-left 0 !important
+      :padding-right 0 !important
+      a
+        :white-space pre-wrap
+    span[style*="white"]
+      :white-space pre-wrap !important   
+    td, th
+      :padding 0  
+    table
+      :margin-bottom 0  
+  &.wikitable
+    th
+      :background #f3f3f3          
+  &[style]
+    :width 100% !important
+    :float none !important
+    :margin-left 0 !important
+  &.infobox
+    :background #f9f9f9
+    th, td
+      :border 0
+    td[colspan="3"], th[colspan="3"]
+      :border 1px solid #ccc 
+  &.gallery
+    :background #f9f9f9
+    :border-bottom 0
+    th, td
+      :display block
+      :border 0
+      :border-bottom 1px solid #ccc
+    .gallerybox[style]
+      :width auto !important
+      :margin-bottom -16px
+    .thumb[style]
+      :border 0
+      :padding 0 !important
+      :width auto !important
+      :margin 0 auto        
+    .gallerytext
+      :margin-top -12px
+      :text-align center  
+  &.geography[style]
+    th
+      :text-align left  
+    span span
+      :display block
+    td[style*="text-align"], td[colspan="2"]
+      :text-align left !important  
+      :margin-left 0 !important
+      :margin-right 0 !important
+      div[style]
+        :text-align left !important
+         
+table.admin
+  width: 300px
+      
+/ HELP SECTION
+.help
+  dt
+    :font-weight bold
+    :border-bottom 1px solid #aaa
+    :padding-bottom 2px
+    :font-size 1.05em
+  dd
+    :margin-bottom 25px        
+    :margin-left 20px
+
+.today
+  .noprint
+    display: none

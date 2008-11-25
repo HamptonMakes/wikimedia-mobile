@@ -1,11 +1,15 @@
 # Go to http://wiki.merbivore.com/pages/init-rb
  
 # Specify a specific version of a dependency
-# dependency "RedCloth", "> 3.0"
+require "mediawiki"
+
+require Merb.root + "/lib/wikipedia.rb"
+
+dependency "merb-assets"
 
 #  use_orm :none
 use_test :rspec
-use_template_engine :erb
+use_template_engine :haml
  
 Merb::Config.use do |c|
   c[:use_mutex] = false
