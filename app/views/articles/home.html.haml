@@ -1,0 +1,14 @@
+.links
+  %button{:type => "button", :onclick => "window.location = '/wiki/::Random'"} Random Article
+
+.logo 
+  <img src="/images/logo.png" /><br/>
+
+#main_box
+  %h2 Today's Featured Article
+
+  #featured_article= Wikipedia.featured_article
+
+  .today
+    %h2 In The News...
+    = Wikipedia.today

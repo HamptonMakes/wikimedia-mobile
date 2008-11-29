@@ -30,8 +30,7 @@ class Article
                         "script",
                         "div.magnify"         #stupid magnify thing
                       ]
-                       
-                       
+
     doc = Nokogiri::Hpricot html
     
     html = doc.inner_html
