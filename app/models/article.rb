@@ -1,4 +1,6 @@
 require 'nokogiri'
+require 'curb'
+require 'benchmark'
 
 class Article
   attr :title, true
@@ -6,8 +8,14 @@ class Article
   attr :content, true
   attr :server, true
   
+  def self.bench(title, &blk)
+    ret = Benchmark.measure(&blk)
+    puts "#{title}: #{ret.real * 1000}"
+  end
+  
   def self.find(mediawiki_host, term)
-    self.parse(open("http://#{mediawiki_host}/wiki/Special:Search?search=#{term}"))
+    c = Curl::Easy.perform("http://#{mediawiki_host}/wiki/Special:Search?search=#{term}")
+    self.parse(c.body_str)
   end
   
   def self.parse(html)
@@ -31,30 +39,25 @@ class Article
                         "div.magnify"         #stupid magnify thing
                       ]
 
-    doc = Nokogiri::HTML html
-    
-    html = doc.inner_html
-    
     article.server = html.scan(/var wgServer = "([^"]*)";/).first.first
     article.page_name = html.scan(/var wgPageName = "([^"]*)";/).first.first 
-    
-    doc = (doc.css "#content").first
 
+    doc = Nokogiri::XML(html).css("#content").first
+    
     #remove unnecessary content and edit links
     (doc.css items_to_remove.join(",")).remove
     
-    article.title = doc.css(".firstHeading").first.inner_html
+    article.title = doc.css(".firstHeading").first.to_s
 
-    html = doc.inner_html
+    html = doc.to_s
 
     if (html.size > 20000) && !html.include?("No article title matches")
       self.headingize(html)
     else
       html
     end
-    
+        
     article.content = html
-    
     
     return article
   end
