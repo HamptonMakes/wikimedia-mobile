@@ -1,8 +1,6 @@
 # Go to http://wiki.merbivore.com/pages/init-rb
  
 # Specify a specific version of a dependency
-require Merb.root + "/lib/mediawiki-ruby-0.0.2/lib/mediawiki"
-
 require Merb.root + "/lib/wikipedia.rb"
 
 dependency "merb-assets"

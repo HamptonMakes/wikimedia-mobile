@@ -145,18 +145,6 @@ $(function() {
     $('button.show[section_id=' + section_id + ']').show()
   })
   
-  $('a').each(function(element) {
-    var element = $(this);
-    var href = element.attr('href');
-    if(href) {
-      if(href.match(/\?/) == null) {
-        $(this).attr('href', href + '?uniqueID=' + uniqueID)
-      } else {
-        $(this).attr('href', href + '&uniqueID=' + uniqueID);
-      }
-    }
-  })
-  
   // Increase Font Size
   $(".increaseFont").click(function(){
     var currentFontSize = $('#article').css('font-size');

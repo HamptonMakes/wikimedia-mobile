@@ -7,7 +7,7 @@ class Article
   attr :server, true
   
   def self.find(mediawiki_host, term)
-    self.parse(Mediawiki.search_for_html(mediawiki_host, term))
+    self.parse(open("http://#{mediawiki_host}/wiki/Special:Search?search=#{term}"))
   end
   
   def self.parse(html)
@@ -31,17 +31,17 @@ class Article
                         "div.magnify"         #stupid magnify thing
                       ]
 
-    doc = Nokogiri::Hpricot html
+    doc = Nokogiri::HTML html
     
     html = doc.inner_html
     
     article.server = html.scan(/var wgServer = "([^"]*)";/).first.first
     article.page_name = html.scan(/var wgPageName = "([^"]*)";/).first.first 
     
-    doc = (doc/"#content").first
+    doc = (doc.css "#content").first
 
     #remove unnecessary content and edit links
-    (doc/items_to_remove.join(",")).remove
+    (doc.css items_to_remove.join(",")).remove
     
     article.title = doc.css(".firstHeading").first.inner_html
 
@@ -54,6 +54,7 @@ class Article
     end
     
     article.content = html
+    
     
     return article
   end

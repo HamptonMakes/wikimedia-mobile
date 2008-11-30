@@ -6,7 +6,7 @@ class Articles < Application
     if params[:search] == "::Home"
       render :template => "articles/home"
     else
-      @article = Article.find("en.wikipedia.org", params[:search])
+      @article = Article.find("localhost:4567", params[:search])
       render @article.content
     end
   end

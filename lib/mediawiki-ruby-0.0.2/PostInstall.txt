@@ -1,7 +1,0 @@
-
-For more information on mediawiki-ruby, see http://mediawiki-ruby.rubyforge.org
-
-NOTE: Change this information in PostInstall.txt 
-You can also delete it if you don't want it.
-
-
