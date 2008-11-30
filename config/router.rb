@@ -36,7 +36,7 @@ Merb::Router.prepare do
   # clients from calling your create or destroy actions with a GET
   #default_routes
   
-  match(/\/wiki\/(.*)/).to(:controller => "articles", :action => "search", :search => "[1]")
+  match("/wiki/:search", :search => /.*/).to(:controller => "articles", :action => "search")
   
   # Change this for your home page to be available at /
   # match('/').to(:controller => 'whatever', :action =>'index')
