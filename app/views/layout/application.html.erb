@@ -13,15 +13,17 @@
     var server = "<%= @article.server %>";
     
     document.addEventListener("DOMContentLoaded", function() {
+      NodeList.prototype.forEach = Array.prototype.forEach;
+      
       document.querySelectorAll("button.show").forEach(function(button) {
-         addEventListener("click", function(thing) {
-           var section_id = this.getAttribute("section_id");
-           document.getElementById("#content_" + section_id).style.display = "";
-           event.target.style.display = "none";
-           document.querySelectorAll("button.hide[section_id=" + section_id + "]").style.display = ""
-         });
-       });
-     });
+        button.addEventListener("click", function(e) {
+          var section_id = button.getAttribute("section_id");
+          document.getElementById("content_" + section_id).style.display = "";
+          button.style.display = "none";
+          document.querySelector("button.hide[section_id='" + section_id + "']").style.display = ""
+        });
+      });
+    });
     
   </script>
   <% end %>
