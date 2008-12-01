@@ -47,7 +47,7 @@ class Article
     #remove unnecessary content and edit links
     (doc.css items_to_remove.join(",")).remove
     
-    article.title = doc.css(".firstHeading").first.to_s
+    article.title = doc.css(".firstHeading").first.inner_html
 
     html = doc.to_s
 
