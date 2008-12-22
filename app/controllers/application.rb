@@ -1,5 +1,9 @@
 class Application < Merb::Controller
   
+  def send_home
+    redirect "/wiki/::Home"
+  end
+  
  private
   def current_server
     language_code = request.host.split(".").first

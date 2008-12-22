@@ -35,6 +35,8 @@ Merb::Router.prepare do
   # routes, you may want to comment/remove this line to prevent
   # clients from calling your create or destroy actions with a GET
   #default_routes
+  # 
+  match("/").to(:controller => "application", :action => "send_home")
   
   match("/wiki/:search", :search => /.*/).to(:controller => "articles", :action => "search")
   

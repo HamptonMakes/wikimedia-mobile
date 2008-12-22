@@ -8,16 +8,18 @@ class Articles < Application
       # Run the article page.
       # TODO: This home page needs to be modernized... its going out to a lib file, and that's not cool.
       render :template => "articles/home"
-      return true # stop executing
+      
     elsif params[:search] == "::Random"
       # load a random article
       @article = current_server.random_article
+      render @article.content
     else
       # Perform a normal search
       @article = current_server.find_article(params[:search])
+      render @article.content
     end
     
-    render @article.content
+    
   end
   
 end
