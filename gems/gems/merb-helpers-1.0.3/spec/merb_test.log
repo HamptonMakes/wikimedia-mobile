@@ -1,0 +1,42 @@
+ ~ Compiling routes...
+ ~ Started request handling: Fri Nov 07 23:40:11 -0500 2008
+ ~ Params: {"format"=>nil, "action"=>"tag_with_content", "id"=>nil, "controller"=>"tag_helper"}
+ ~ {:after_filters_time=>1.4e-05, :action_time=>0.00059, :before_filters_time=>1.4e-05, :dispatch_time=>0.001015}
+ ~ 
+
+ ~ Started request handling: Fri Nov 07 23:40:11 -0500 2008
+ ~ Params: {"format"=>nil, "action"=>"tag_with_content_in_the_block", "id"=>nil, "controller"=>"tag_helper"}
+ ~ {:after_filters_time=>6.0e-06, :action_time=>0.000356, :before_filters_time=>5.0e-06, :dispatch_time=>0.000582}
+ ~ 
+
+ ~ Started request handling: Fri Nov 07 23:40:11 -0500 2008
+ ~ Params: {"format"=>nil, "action"=>"tag_with_attributes", "id"=>nil, "controller"=>"tag_helper"}
+ ~ {:after_filters_time=>6.0e-06, :action_time=>0.000349, :before_filters_time=>4.0e-06, :dispatch_time=>0.000546}
+ ~ 
+
+ ~ Started request handling: Fri Nov 07 23:40:11 -0500 2008
+ ~ Params: {"format"=>nil, "action"=>"nested_tags", "id"=>nil, "controller"=>"tag_helper"}
+ ~ {:after_filters_time=>5.0e-06, :action_time=>0.000454, :before_filters_time=>4.0e-06, :dispatch_time=>0.000651}
+ ~ 
+
+ ~ Compiling routes...
+ ~ Started request handling: Tue Nov 25 09:37:25 -0800 2008
+ ~ Params: {"format"=>nil, "action"=>"tag_with_content", "id"=>nil, "controller"=>"tag_helper"}
+ ~ {:before_filters_time=>1.6e-05, :dispatch_time=>0.000863, :after_filters_time=>1.6e-05, :action_time=>0.000597}
+ ~ 
+
+ ~ Started request handling: Tue Nov 25 09:37:25 -0800 2008
+ ~ Params: {"format"=>nil, "action"=>"tag_with_content_in_the_block", "id"=>nil, "controller"=>"tag_helper"}
+ ~ {:before_filters_time=>7.0e-06, :dispatch_time=>0.000684, :after_filters_time=>6.0e-06, :action_time=>0.000444}
+ ~ 
+
+ ~ Started request handling: Tue Nov 25 09:37:25 -0800 2008
+ ~ Params: {"format"=>nil, "action"=>"tag_with_attributes", "id"=>nil, "controller"=>"tag_helper"}
+ ~ {:before_filters_time=>5.0e-06, :dispatch_time=>0.000522, :after_filters_time=>7.0e-06, :action_time=>0.000337}
+ ~ 
+
+ ~ Started request handling: Tue Nov 25 09:37:25 -0800 2008
+ ~ Params: {"format"=>nil, "action"=>"nested_tags", "id"=>nil, "controller"=>"tag_helper"}
+ ~ {:before_filters_time=>6.0e-06, :dispatch_time=>0.000631, :after_filters_time=>6.0e-06, :action_time=>0.000445}
+ ~ 
+

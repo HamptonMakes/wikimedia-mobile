@@ -1,3 +1,4 @@
+# TODO: Remove the *double* call and move these into something a bit more efficient. Parsing twice? Really?
 class Wikipedia
   require 'open-uri'
   require 'nokogiri'
@@ -9,7 +10,7 @@ class Wikipedia
   end
 
   def self.today
-    Merb.logger.debug!("Loading featured article")
+    Merb.logger.debug!("Loading today's items")
     data = (Nokogiri::Hpricot(open("http://en.wikipedia.org/wiki/Main_Page")) /"#mp-itn")
     data.first.inner_html
   end

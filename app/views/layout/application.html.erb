@@ -23,6 +23,15 @@
           document.querySelector("button.hide[section_id='" + section_id + "']").style.display = ""
         });
       });
+      
+      document.querySelectorAll("button.hide").forEach(function(button) {
+        button.addEventListener("click", function(e) {
+          var section_id = button.getAttribute("section_id");
+          document.getElementById("content_" + section_id).style.display = "none";
+          button.style.display = "none";
+          document.querySelector("button.show[section_id='" + section_id + "']").style.display = ""
+        });
+      });
     });
     
   </script>

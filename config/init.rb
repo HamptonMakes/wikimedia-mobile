@@ -4,6 +4,7 @@
 require Merb.root + "/lib/wikipedia.rb"
 
 dependency "merb-assets"
+dependency "merb-more"
 
 #  use_orm :none
 use_test :rspec

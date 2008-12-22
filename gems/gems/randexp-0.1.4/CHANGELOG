@@ -1,0 +1,20 @@
+== 0.1.4 "Wally Wisoky" 2008-10-08
+* Added realistic name generation (Matt Aimonetti)
+* Fixed loadpath issues (Gerrit Kaiser)
+
+== 0.1.3 "Oological" 2008-07-08
+* Randgen.word should not return a string that does not match /^\w+$/
+
+== 0.1.2 "I'm Not Saying It's Not Beta"
+* Changed rand to Kernel#rand to avoid conflicting with rails (thanks agile!)
+
+== 0.1.1 "Still Quite Beta" 2008-07-20
+* Added Range#of method.
+* Heavy refactoring of the Parser.parse method.
+* Fixed the /\./ bug.
+
+== 0.1.0 "Very Beta" 2008-07-08
+* Initial version of randexp!
+* Has support for very simple regular expressions.
+* Randgen has limited methods.
+* Dictionary is reading from the local words file.

@@ -1,0 +1,8 @@
+== 0.9.9 2008-11-27
+* Improvements
+  * Added cross compile rake tasks for Windows gems [Jonathan Stott, Luis Lavena]
+  * Added initial support for Ruby 1.9 [John Harrison]
+
+* Bug Fixes
+  * Removed sqlite3.dll from source gem [Dan Kubb]
+  * Removed hard coded .bundle from source [Dirkjan Bussink]

@@ -1,0 +1,91 @@
+require 'rubygems'
+require 'pathname'
+require 'spec/rake/spectask'
+require 'lib/data_objects/version'
+
+ROOT = Pathname(__FILE__).dirname.expand_path
+
+AUTHOR = "Yehuda Katz"
+EMAIL  = "wycats@gmail.com"
+GEM_NAME = "data_objects"
+GEM_VERSION = DataObjects::VERSION
+GEM_DEPENDENCIES = ["addressable", "~>2.0"], ["extlib", "~>0.9.8"]
+GEM_CLEAN = "{coverage,doc,log}/", "profile_results.*", "**/.*.sw?", "*.gem", ".config", "**/.DS_Store"
+GEM_EXTRAS = {}
+
+PROJECT_NAME = "dorb"
+PROJECT_URL  = "http://rubyforge.org/projects/dorb"
+PROJECT_DESCRIPTION = PROJECT_SUMMARY = "The Core DataObjects class"
+
+DRIVER = false
+
+if (tasks_dir = ROOT.parent + 'tasks').directory?
+  require tasks_dir + 'hoe'
+end
+
+# Installation
+
+WINDOWS = (RUBY_PLATFORM =~ /mswin|mingw|cygwin/) rescue nil
+SUDO    = WINDOWS ? '' : ('sudo' unless ENV['SUDOLESS'])
+
+desc "Install #{GEM_NAME} #{GEM_VERSION} (default ruby)"
+task :install => [ :package ] do
+  sh %{#{SUDO} gem install --local pkg/#{GEM_NAME}-#{GEM_VERSION} --no-update-sources}, :verbose => false
+end
+
+desc "Uninstall #{GEM_NAME} #{GEM_VERSION} (default ruby)"
+task :uninstall => [ :clobber ] do
+  sh "#{SUDO} gem uninstall #{GEM_NAME} -v#{GEM_VERSION} -I -x", :verbose => false
+end
+
+# Specs
+
+Spec::Rake::SpecTask.new(:spec) do |t|
+  t.spec_opts << '--format' << 'specdoc' << '--colour'
+  t.spec_opts << '--loadby' << 'random'
+  t.spec_files = Pathname.glob(ENV['FILES'] || 'spec/**/*_spec.rb')
+
+  begin
+    t.rcov = ENV.has_key?('NO_RCOV') ? ENV['NO_RCOV'] != 'true' : true
+    t.rcov_opts << '--exclude' << 'spec'
+    t.rcov_opts << '--text-summary'
+    t.rcov_opts << '--sort' << 'coverage' << '--sort-reverse'
+  rescue Exception
+    # rcov not installed
+  end
+end
+
+# JRuby
+namespace :jruby do
+  desc "Install #{GEM_NAME} #{GEM_VERSION} with JRuby"
+  task :install => [ :package ] do
+    sh %{#{SUDO} jruby -S gem install --local pkg/#{GEM_NAME}-#{GEM_VERSION} --no-update-sources}, :verbose => false
+  end
+end
+
+namespace :ci do
+
+  task :prepare do
+    rm_rf ROOT + "ci"
+    mkdir_p ROOT + "ci"
+    mkdir_p ROOT + "ci/doc"
+    mkdir_p ROOT + "ci/cyclomatic"
+    mkdir_p ROOT + "ci/token"
+  end
+
+  task :publish do
+    out = ENV['CC_BUILD_ARTIFACTS'] || "out"
+    mkdir_p out unless File.directory? out
+
+    mv "ci/rspec_report.html", "#{out}/rspec_report.html"
+    mv "ci/coverage", "#{out}/coverage"
+  end
+
+  task :spec => :prepare do
+    Rake::Task[:spec].invoke
+    mv ROOT + "coverage", ROOT + "ci/coverage"
+  end
+
+end
+
+task :ci => ["ci:spec"]

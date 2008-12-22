@@ -1,0 +1,6 @@
+=== 0.9.7
+
+* 2 major enhancements
+
+  * Reworked unique model generator.
+  * Improved documentation.

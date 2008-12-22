@@ -1,0 +1,4 @@
+== Todo list
+* add a ~/.randexp dir for configuration
+* add [] syntax: /[aeiou]{4}/.gen
+* more generators for Randgen
