@@ -5,6 +5,9 @@ require Merb.root + "/lib/wikipedia.rb"
 
 dependency "merb-assets"
 dependency "merb-more"
+dependency "merb-haml"
+dependency "nokogiri"
+dependency 'curb'
 
 #  use_orm :none
 use_test :rspec

@@ -4,10 +4,6 @@
 # Each article should be unique based on title/server
 # 
 
-require 'nokogiri'
-require 'curb'
-require 'benchmark'
-
 class Article
   attr :title, true
   attr :page_name, true
