@@ -1,6 +1,8 @@
 # This is the place for general todo's
 # TODO: Add a search box
 # TODO: Support WAP with formatters
+# TODO: Finish the CSS selectors in /config/wikipedia.yaml
+# TODO: Add in translations for view strings in /config/wikipedia.yaml
 
 class Application < Merb::Controller
   
