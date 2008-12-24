@@ -4,7 +4,7 @@
 require Merb.root + "/lib/wikipedia.rb"
 
 dependency "merb-assets"
-dependency "merb-more"
+#dependency "merb-more"
 dependency "merb-haml"
 dependency "nokogiri"
 dependency 'curb'
@@ -28,4 +28,5 @@ end
  
 Merb::BootLoader.after_app_loads do
   # This will get executed after your app's classes have been loaded.
+  Wikipedia.settings = YAML::load(open("config/wikipedias.yaml"))
 end

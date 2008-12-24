@@ -4,9 +4,11 @@ class Articles < Application
   # goes to the client...
   def search
     
+    # TODO: These if statements should really be done at the router
     if params[:search] == "::Home"
       # Run the article page.
-      # TODO: This home page needs to be modernized... its going out to a lib file, and that's not cool.
+      
+      @main_page = Wikipedia.main_page(language_code)
       render :template => "articles/home"
       
     elsif params[:search] == "::Random"

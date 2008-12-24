@@ -1,0 +1,29 @@
+en: 
+  main_page: "Main_Page"
+  selectors:
+    article_of_the_day: "#mp-tfa"
+    news_items: "#mp-itn"
+de: 
+  main_page: "Wikipedia:Hauptseite"
+  selectors:
+    article_of_the_day: "#hauptseite-artikel .inhalt"
+    news_items: "#hauptseite-nachrichten .inhalt"
+es:
+  main_page: "Wikipedia:Portada"
+  selectors:
+    article_of_the_day: "/html/body/div/div/div/div[2]/table[3]/tr/td/table/tr[2]/td/div"
+    news_items: "/html/body/div/div/div/div[2]/table[3]/tr/td/table/tr[8]/td"
+fr:
+  main_page: "Accueil"
+  selectors:
+    article_of_the_day: "/html/body/div/div/div/div[2]/table/tr[3]/td[3]/div/div"
+    news_items: "/html/body/div/div/div/div[2]/table/tr[3]/td[3]/div[3]/div"
+jp: 
+  main_page: "メインページ"
+  selectors:
+    article_of_the_day: "/html/body/div/div/div/div[2]/table[3]/tr/td/div"
+pl: 
+  main_page: "Strona_główna"
+  selectors:
+    article_of_the_day: "/html/body/div/div/div/div[2]/div[7]/div[2]/div[3]"
+    news_items: "/html/body/div/div/div/div[2]/div[6]/div/div[3]"

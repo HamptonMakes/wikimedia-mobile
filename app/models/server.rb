@@ -32,10 +32,15 @@ class Server
   # 
   # paths must start with a /
   def fetch(path)
-    (Curl::Easy.perform(base_url + path) do |curl|
-      # This configures Curl::Easy to follow redirects
-      curl.follow_location = true
-    end).body_str
+    begin
+      (Curl::Easy.perform(base_url + path) do |curl|
+        # This configures Curl::Easy to follow redirects
+        curl.follow_location = true
+      end).body_str
+    rescue Curl::Err::HostResolutionError
+      Merb.logger.error("Could not connect to " + base_url + path)
+      return ""
+    end
   end
   
   # This method uses the fetch method to get the string representing

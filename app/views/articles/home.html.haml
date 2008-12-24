@@ -2,13 +2,14 @@
   %button{:type => "button", :onclick => "window.location = '/wiki/::Random'"} Random Article
 
 .logo 
-  <img src="http://upload.wikimedia.org/wikipedia/meta/thumb/7/7c/Wikipedia-word.png/174px-Wikipedia-word.png" /><br/>
+  <img src="/images/logo-en.png" /><br/>
 
 #main_box
-  %h2 Today's Featured Article
+  - if @main_page["article_of_the_day"]
+    %h2 Today's Featured Article
+    #featured_article= @main_page["article_of_the_day"]
 
-  #featured_article= Wikipedia.featured_article
-
-  .today
-    %h2 In The News...
-    = Wikipedia.today
+  - if @main_page["news_items"]
+    .today
+      %h2 In The News...
+      = @main_page["news_items"]

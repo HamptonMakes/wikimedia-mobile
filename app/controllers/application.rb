@@ -5,11 +5,15 @@ class Application < Merb::Controller
   end
   
  private
-  def current_server
+  def language_code
     language_code = request.host.split(".").first
-    if Merb.env == "test"
+    if Merb.env == "test" || language_code == "localhost"
       language_code = "en"
     end
+    language_code
+  end
+ 
+  def current_server
     Server.new("#{language_code}.wikipedia.org", "80")
   end
 end
