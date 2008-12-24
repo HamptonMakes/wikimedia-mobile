@@ -8,16 +8,11 @@ de:
   selectors:
     article_of_the_day: "#hauptseite-artikel .inhalt"
     news_items: "#hauptseite-nachrichten .inhalt"
-es:
-  main_page: "Wikipedia:Portada"
-  selectors:
-    article_of_the_day: "/html/body/div/div/div/div[2]/table[3]/tr/td/table/tr[2]/td/div"
-    news_items: "/html/body/div/div/div/div[2]/table[3]/tr/td/table/tr[8]/td"
 fr:
   main_page: "Accueil"
   selectors:
-    article_of_the_day: "/html/body/div/div/div/div[2]/table/tr[3]/td[3]/div/div"
-    news_items: "/html/body/div/div/div/div[2]/table/tr[3]/td[3]/div[3]/div"
+    article_of_the_day: "#bodyContent table tr:nth-child(3) td:nth-child(3) div:nth-child(1) .accueil_contenu"
+    news_items: "#bodyContent table tr:nth-child(3) td:nth-child(3) div:nth-child(3) .accueil_contenu"
 jp: 
   main_page: "メインページ"
   selectors:
@@ -25,5 +20,5 @@ jp:
 pl: 
   main_page: "Strona_główna"
   selectors:
-    article_of_the_day: "/html/body/div/div/div/div[2]/div[7]/div[2]/div[3]"
-    news_items: "/html/body/div/div/div/div[2]/div[6]/div/div[3]"
+    article_of_the_day: "div[style='padding: 5px; font-size: 9pt;']"
+    news_items: "#bodyContent :nth-child(7) :nth-child(5)"

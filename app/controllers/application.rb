@@ -1,3 +1,7 @@
+# This is the place for general todo's
+# TODO: Add a search box
+# TODO: Support WAP with formatters
+
 class Application < Merb::Controller
   
   def send_home

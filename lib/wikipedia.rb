@@ -15,7 +15,7 @@ module Wikipedia
     setting = self.settings[language_code] || ((language_code = "en") && self.settings["en"] )
 
     html = Curl::Easy.perform("http://#{language_code}.wikipedia.org/wiki/#{setting['main_page']}").body_str
-    parser = Nokogiri::XML(html)
+    parser = Nokogiri::HTML(html)
     
     results = {}
     
