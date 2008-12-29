@@ -7,9 +7,8 @@ class Articles < Application
     # TODO: These if statements should really be done at the router
     if params[:search] == "::Home"
       # Run the article page.
-      
       @main_page = Wikipedia.main_page(language_code)
-      render :template => "articles/home"
+      render :template => "articles/home", :format => content_type
       
     elsif params[:search] == "::Random"
       # load a random article

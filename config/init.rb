@@ -30,3 +30,8 @@ Merb::BootLoader.after_app_loads do
   # This will get executed after your app's classes have been loaded.
   Wikipedia.settings = YAML::load(open("config/wikipedias.yaml"))
 end
+
+# Add our mime-types for device based content type negotiation
+%w[iphone_native iphone_safari webkit wap].each do |type|
+  Merb.add_mime_type("#{type}".to_sym, :to_html, %w[text/html])
+end

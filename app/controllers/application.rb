@@ -29,7 +29,7 @@ class Application < Merb::Controller
   end
   
   def set_content_type
-    content_type = guess_content_type
+    self.content_type = guess_content_type
     Merb.logger.debug "Setting content type as " + content_type.to_s
   end
   
