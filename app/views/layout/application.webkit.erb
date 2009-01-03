@@ -38,7 +38,10 @@
   <% end %>
   <body>
     <div id="content_wrapper">
-      <H2>WEBKIT</h2>
+      <form action="/wiki" method="get">
+        <input name="search" type="text" size="25" value="<%= @article.title if @article %>">
+        <button type="submit">Go</button>
+      </form>
       <%= catch_content :for_layout %>
     </div>
     <script type="text/javascript">

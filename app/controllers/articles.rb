@@ -16,8 +16,8 @@ class Articles < Application
       render @article.content
     else
       # Perform a normal search
-      @article = current_server.find_article(params[:search])
-      render @article.content
+      @article = current_server.article(params[:search] || params[:title])
+      render :format => content_type
     end
     
     

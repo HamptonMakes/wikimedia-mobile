@@ -39,6 +39,8 @@ Merb::Router.prepare do
   match("/").to(:controller => "application", :action => "send_home")
   
   match("/wiki/:search", :search => /.*/).to(:controller => "articles", :action => "search")
+  match("/wiki").to(:controller => "articles", :action => "search")
+  match("/w/index.php").to(:controller => "articles", :action => "search")
   
   # Change this for your home page to be available at /
   # match('/').to(:controller => 'whatever', :action =>'index')

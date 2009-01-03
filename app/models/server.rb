@@ -15,14 +15,21 @@ class Server
     "http://#{@host}:#{@port}"
   end
   
-  # Find an article on this server
-  def find_article(title)
-    path_to_article "/wiki/Special:Search?search=#{title}"
+  def article(title)
+    Article.new(self, title)
   end
   
+  # Find an article on this server
+  def article_html(article)
+    uri = URI::escape(article.title)
+    fetch "/wiki/Special:Search?search=#{uri}"
+  end
+
   # Grab a random article from this server
   def random_article
-    path_to_article "/wiki/Special:Random"
+    article = Article.new(self)
+    article.html = fetch("/wiki/Special:Random")
+    return article
   end
   
  private
@@ -33,22 +40,16 @@ class Server
   # paths must start with a /
   def fetch(path)
     begin
-      (Curl::Easy.perform(base_url + path) do |curl|
+      Merb.logger.debug("loading... " + base_url + path)
+      result = (Curl::Easy.perform(base_url + path) do |curl|
         # This configures Curl::Easy to follow redirects
         curl.follow_location = true
       end).body_str
+      Merb.logger.debug("loaded #{result.size} characters")
+      result
     rescue Curl::Err::HostResolutionError
       Merb.logger.error("Could not connect to " + base_url + path)
       return ""
     end
-  end
-  
-  # This method uses the fetch method to get the string representing
-  # the contents of an article and then puts that in a shiney new
-  # Article object made just for you.
-  def path_to_article(path)
-    article = Article.new(self)
-    article.parse(fetch(path))
-    return article
   end
 end

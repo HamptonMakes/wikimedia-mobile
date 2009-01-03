@@ -36,17 +36,13 @@ class Application < Merb::Controller
   def guess_content_type
     ua = request.user_agent
     if ua.include? "WebKit"
-      if ua.include? "iPhone"
-        if ua.include? "Safari"
-          :iphone_safari
-        else
-          :iphone_native
-        end
+      if ua.include?("iPhone") && !ua.include?("Safari")
+        :webkit_native
       else
         :webkit
       end
     else
-      :wap
+      :wml
     end
   end
   

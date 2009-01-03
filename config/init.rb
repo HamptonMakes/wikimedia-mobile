@@ -32,6 +32,6 @@ Merb::BootLoader.after_app_loads do
 end
 
 # Add our mime-types for device based content type negotiation
-%w[iphone_native iphone_safari webkit wap].each do |type|
+%w[webkit_native webkit wml].each do |type|
   Merb.add_mime_type("#{type}".to_sym, :to_html, %w[text/html])
 end
