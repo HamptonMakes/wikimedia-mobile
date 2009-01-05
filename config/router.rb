@@ -38,6 +38,7 @@ Merb::Router.prepare do
   # 
   match("/").to(:controller => "application", :action => "send_home")
   
+  match(/\/wiki\/File:(.*)/).to(:controller => "articles", :action => "file", :file => "[1]")
   match("/wiki/:search", :search => /.*/).to(:controller => "articles", :action => "search")
   match("/wiki").to(:controller => "articles", :action => "search")
   match("/w/index.php").to(:controller => "articles", :action => "search")

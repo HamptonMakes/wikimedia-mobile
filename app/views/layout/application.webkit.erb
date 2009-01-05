@@ -40,7 +40,7 @@
     <div id="content_wrapper">
       <form action="/wiki" method="get">
         <input name="search" type="text" size="25" value="<%= @article.title if @article %>">
-        <button type="submit">Go</button>
+        <button type="submit"><%= language_object["go"] %></button>
       </form>
       <%= catch_content :for_layout %>
     </div>

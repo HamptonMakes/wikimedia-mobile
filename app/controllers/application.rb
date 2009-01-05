@@ -23,6 +23,10 @@ class Application < Merb::Controller
     end
     language_code
   end
+  
+  def language_object
+    Wikipedia.settings[language_code]
+  end
  
   def current_server
     Server.new("#{language_code}.wikipedia.org", "80")
@@ -42,7 +46,7 @@ class Application < Merb::Controller
         :webkit
       end
     else
-      :wml
+      :html
     end
   end
   

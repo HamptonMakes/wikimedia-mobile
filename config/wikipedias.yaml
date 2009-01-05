@@ -1,24 +1,29 @@
 en: 
   main_page: "Main_Page"
+  go: "Go"
   selectors:
     article_of_the_day: "#mp-tfa"
     news_items: "#mp-itn"
 de: 
   main_page: "Wikipedia:Hauptseite"
+  go: "Artikel"
   selectors:
     article_of_the_day: "#hauptseite-artikel .inhalt"
     news_items: "#hauptseite-nachrichten .inhalt"
 fr:
   main_page: "Accueil"
+  go: "Consulter"
   selectors:
     article_of_the_day: "#bodyContent table tr:nth-child(3) td:nth-child(3) div:nth-child(1) .accueil_contenu"
     news_items: "#bodyContent table tr:nth-child(3) td:nth-child(3) div:nth-child(3) .accueil_contenu"
-jp: 
+ja: 
   main_page: "メインページ"
+  go: "表示"
   selectors:
-    article_of_the_day: "/html/body/div/div/div/div[2]/table[3]/tr/td/div"
+    article_of_the_day: "#bodyContent :nth-child(6) td:first-child"
 pl: 
   main_page: "Strona_główna"
+  go: "Przejdź"
   selectors:
     article_of_the_day: "div[style='padding: 5px; font-size: 9pt;']"
     news_items: "#bodyContent :nth-child(7) :nth-child(5)"

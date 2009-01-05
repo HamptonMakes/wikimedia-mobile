@@ -16,13 +16,12 @@ class Server
   end
   
   def article(title)
-    Article.new(self, title)
+    uri = URI::escape title
+    Article.new(self, title, "/wiki/Special:Search?search=#{uri}")
   end
   
-  # Find an article on this server
-  def article_html(article)
-    uri = URI::escape(article.title)
-    fetch "/wiki/Special:Search?search=#{uri}"
+  def file(title)
+    Article.new(self, title, "/wiki/File:#{title}")
   end
 
   # Grab a random article from this server
@@ -32,9 +31,6 @@ class Server
     return article
   end
   
- private
- 
-  # This internal method is used to go out and fetch the file.
   # In the future, this method might use a cache...
   # 
   # paths must start with a /

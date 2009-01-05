@@ -9,7 +9,6 @@ class Articles < Application
       # Run the article page.
       @main_page = Wikipedia.main_page(language_code)
       render :template => "articles/home", :format => content_type
-      
     elsif params[:search] == "::Random"
       # load a random article
       @article = current_server.random_article
@@ -21,6 +20,12 @@ class Articles < Application
     end
     
     
+  end
+  
+  def file
+    results = current_server.file(params[:file]).html(:image)
+    Merb.logger.debug results
+    render results
   end
   
 end

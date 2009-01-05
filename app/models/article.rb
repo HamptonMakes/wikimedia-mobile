@@ -25,19 +25,23 @@ class Article
   # For this object to be usable, you need to either parse
   # some data from the server, or use the instance variable
   # setters.
-  def initialize(server, title = nil)
-    @server, @title = server, title
+  def initialize(server, title = nil, path = nil)
+    @server, @title, @path = server, title, path
   end
   
   def html(format = :html)
     return @html if @html
     
     # Grab the html from the server object
-    @html = @server.article_html(self)
+    @html = @server.fetch(@path)
     
     # Figure out if we need to do extra formatting...
     if format.to_s.include?("webkit")
       Parsers::WebKit.parse(self)
+    elsif format == :image
+      Parsers::Image.parse(self)
+    else
+      Parsers::XHTML.parse(self)
     end
     
     return @html
