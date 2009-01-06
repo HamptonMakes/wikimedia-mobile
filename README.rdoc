@@ -1,0 +1,49 @@
+= Wikimedia Mobile
+
+This is the new mobile project brought to you by the fine folks at Wikimedia.
+
+The goal of the project is to give access to Wikipedia to all sorts
+of different mobile devices in all sorts of different languages.
+
+The basic principal is to modify the Wikipedia pages in such a way that they
+are well suited to a large number of devices.
+
+Initially, XHTML/WebKit phones are the primary target. However, work has already
+begun on WML devices.
+
+Currently Supported devices:
+  * iPhone
+  * Android
+
+Other targeted devices:
+  * Blackberry (various versions)
+  * Symbian
+  * Windows Mobile
+  
+= We Need You!
+
+This is an open source project and we need lots of help, so go down a bit further to get things
+running.
+
+= Getting Running
+
+1) Install Ruby 1.8 and RubyGems http://www.ruby-lang.org/en/downloads/
+2) Install the Merb stack. http://wiki.merbivore.com/howto/installation/gems
+3) Setup host headers for en.mt.wikipedia.org, *.m.wikipedia.org for any language that
+   you want to test. Honestly, anything works, but it needs to start with a language code.
+   
+   So, you could use ja.wikitest as a host.
+   
+   Point each one at 127.0.0.1 assuming you don't have some sort of freaky setup.
+
+4) Install Git http://git-scm.com/download
+5) Checkout the project with the command... `git clone git://github.com/hcatlin/wikimedia-mobile.git`
+6) Go into the new folder and type `merb`
+7) Browse to http://en.mt.wikipedia.org:4000
+8) Start hacking!
+   
+   
+= Random Useful Things
+
+  * Wikimedia language settings http://en.wikipedia.org/w/api.php?action=sitematrix
+
