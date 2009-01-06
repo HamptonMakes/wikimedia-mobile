@@ -8,7 +8,7 @@ dependency "merb-assets"
 dependency "merb-haml"
 dependency "nokogiri"
 dependency 'curb'
-require 'merb_hoptoad_notifier/lib/merb_hoptoad_notifier'
+require 'lib/merb_hoptoad_notifier/lib/merb_hoptoad_notifier'
 
 #  use_orm :none
 use_test :rspec

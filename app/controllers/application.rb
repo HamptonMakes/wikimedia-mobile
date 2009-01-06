@@ -30,7 +30,7 @@ class Application < Merb::Controller
   
   def language_object
     if supported_language?
-      Wikipedia.settings[language_code][translations]
+      Wikipedia.settings[language_code]['translations']
     else
       {}
     end
