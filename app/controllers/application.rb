@@ -1,6 +1,5 @@
 # This is the place for general todo's
-# TODO: Add a search box
-# TODO: Support WAP with formatters
+# TODO: Build out the application.wml.haml files so that we have WML support
 # TODO: Finish the CSS selectors in /config/wikipedia.yaml
 # TODO: Add in translations for view strings in /config/wikipedia.yaml
 
@@ -45,6 +44,7 @@ class Application < Merb::Controller
     Merb.logger.debug "Setting content type as " + content_type.to_s
   end
   
+  # TODO: This should keep using this method for the UA... BUT, for things that aren't webkit, we should use WURFL
   def guess_content_type
     ua = request.user_agent
     if ua.include? "WebKit"
