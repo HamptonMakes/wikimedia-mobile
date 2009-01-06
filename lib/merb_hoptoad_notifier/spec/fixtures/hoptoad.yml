@@ -1,0 +1,9 @@
+---
+:development: &defaults
+  :api_key: ZOMGLOLROFLMAO
+
+:test:
+  <<: *defaults
+
+:production:
+  :api_key: UBERSECRETSHIT

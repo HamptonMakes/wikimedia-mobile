@@ -1,0 +1,59 @@
+merb_hoptoad_notifier
+---------------------------------------------
+This is merb plugin for exception notification with hoptoad. It should work with
+any merb app that's based on merb 1.0 and higher
+
+This plugin: http://github.com/atmos/merb_hoptoad_notifier/tree/master
+The original: http://github.com/thoughtbot/hoptoad_notifier/tree/master
+
+Usage:
+
+1) Get your api key for your app from hoptoadapp.com
+
+2) Add the api key to config/hoptoad.yml with a similar syntax as the following
+---
+:development: &defaults
+  :api_key: ZOMGLOLROFLMAO
+
+:rake:
+  <<: *defaults
+
+:test:
+  <<: *defaults
+
+:production:
+  :api_key: UBERSECRETSHIT
+
+
+3) Require hoptoad in init.rb
+require 'merb_hoptoad_notifier'
+
+4) Add the following method to your Exceptions controller.  Depending on your merb version you'll need to use the exceptions,standard_error, or internal_server error as the action name.  Kinda weak, but the API changed a lot in 0.9.x
+
+class Exceptions < Merb::Controller
+  if %w( staging production ).include?(Merb.env)
+    def standard_error
+      HoptoadNotifier.notify_hoptoad(request, session)
+      render
+    end
+  end
+end
+
+5) Restart the server, trigger an error(in staging or prod) and check that it arrived at hoptoad :)
+
+
+Filtersing your post environment
+--------------------------------
+If you have environmental variables set in your ruby process that should not be sent to hoptoad,
+there's a mechanism for filtering those attributes now.  Throw something like this in 
+config/init.rb
+
+Merb::BootLoader.after_app_loads do
+  HoptoadNotifier.environment_filters = %w(^AWS ^EC2 SECRET PRIVATE KEY)
+end
+
+Each of these words will be compiled into a regex so you should be able to use anchors if needed.
+
+Thanks to the following GitHubbers
+----------------------------------
+joakimk, fairchild and cv.
