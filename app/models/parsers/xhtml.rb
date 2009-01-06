@@ -25,7 +25,8 @@ module Parsers
                           ".portal",
                           "#protected-icon", 
                           ".printfooter",
-                          ".boilerplate"
+                          ".boilerplate",
+                          "#id-articulo-destacado"
                         ]
 
       page = Nokogiri::HTML(article.html)

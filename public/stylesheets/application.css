@@ -6,6 +6,12 @@
 
 #main_box {
   margin-top: -20px; }
+  
+.notice {
+  padding: 5px;
+  border: 1px solid red;
+  margin-bottom: 5px;
+}
 
 
 html {

@@ -24,8 +24,16 @@ class Application < Merb::Controller
     language_code
   end
   
-  def language_object
+  def supported_language?
     Wikipedia.settings[language_code]
+  end
+  
+  def language_object
+    if supported_language?
+      Wikipedia.settings[language_code][translations]
+    else
+      {}
+    end
   end
  
   def current_server
