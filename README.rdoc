@@ -42,6 +42,13 @@ running.
 7) Browse to http://en.mt.wikipedia.org:4000
 8) Start hacking!
    
+= What should I work on?
+
+Just run this command...
+
+`rake todo:list`
+
+And you should get a nice list of things that are needed
    
 = Random Useful Things
 
