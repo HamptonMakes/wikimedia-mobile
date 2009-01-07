@@ -6,7 +6,7 @@ module Parsers
     def self.parse(article)
       Parsers::XHTML.parse(article)
       
-      html = article.html
+      html = article.raw_html
 
       # If the page is long enough and we didn't get a search results page then...
       if (html.size > 20000) && !html.include?("No article title matches")

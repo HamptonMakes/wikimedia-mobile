@@ -1,4 +1,4 @@
-class FooController < WikiMedia::Spec::ControllerBase
+class FooController < Wikipedia::Spec::ControllerBase
   provides :webkit, :webkit_native
   
   def bar

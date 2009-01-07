@@ -4,7 +4,7 @@
 # TODO: Add in translations for view strings in /config/wikipedia.yaml
 
 class Application < Merb::Controller
-  provides :iphone_native, :iphone_safari, :webkit, :wap
+  provides :webkit_native, :webkit, :wap
   
   if Merb.env == "development"
     before :set_content_type
@@ -17,7 +17,7 @@ class Application < Merb::Controller
  private
   def language_code
     language_code = request.host.split(".").first
-    if Merb.env == "test" || language_code == "localhost" || language_code == "eiximenis" || language_code == "m"
+    if Merb.env?(:test) || language_code.include?("localhost") || language_code == "eiximenis" || language_code == "m"
       language_code = "en"
     end
     language_code
@@ -36,7 +36,7 @@ class Application < Merb::Controller
   end
  
   def current_server
-    Server.new("#{language_code}.wikipedia.org", "80")
+    @current_server ||= Server.new(language_code)
   end
   
   def set_content_type

@@ -1,8 +1,7 @@
 # Go to http://wiki.merbivore.com/pages/init-rb
  
 # Specify a specific version of a dependency
-require Merb.root + "/lib/wikipedia.rb"
-
+# 
 dependency "merb-assets"
 #dependency "merb-more"
 dependency "merb-haml"
@@ -25,6 +24,7 @@ end
  
 Merb::BootLoader.before_app_loads do
   Merb.push_path(:merb_extensions, Merb.root / "merb/extensions", "**/*.rb")  
+  Merb.push_path(:lib_wikipedia, Merb.root / "lib" / "wikipedia", "**/*.rb")
   # This will get executed after dependencies have been loaded but before your app's classes have loaded.
 end
  

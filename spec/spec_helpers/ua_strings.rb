@@ -1,4 +1,4 @@
-module WikiMobile
+module Wikipedia
   module Spec
     module UserAgentStrings
       def webkit_native_ua

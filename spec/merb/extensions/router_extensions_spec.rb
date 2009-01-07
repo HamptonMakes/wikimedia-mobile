@@ -13,6 +13,10 @@ describe "device_formats" do
     end
   end
   
+  after(:all) do
+    load(Merb.root / "config" / "router.rb")
+  end
+  
   it "/device_formats should match as a webkit_native format when the ua is set appropriately" do
     response = request('/device_formats', "HTTP_USER_AGENT" => webkit_native_ua)
     response.body.to_s.should match(/^FORMAT :webkit_native - DEVICE :webkit_native/)

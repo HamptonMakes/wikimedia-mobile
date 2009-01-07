@@ -12,13 +12,14 @@ class Articles < Application
       render :template => "articles/home", :format => content_type
     elsif params[:search] == "::Random"
       # load a random article
-      @article = current_server.random_article
-      redirect "/wiki?search=#{URI.escape(@article.title)}"
+      @article = Article.random_article(current_server)
+      redirect @article.path
     else
       @name = params[:search] || params[:title]
       # Perform a normal search
-      @article = current_server.article(@name)
-      render :format => content_type
+      @article = Article.new(current_server, @name)
+      @article.fetch!
+      display @article
     end
     
     

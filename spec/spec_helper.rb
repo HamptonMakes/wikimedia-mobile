@@ -20,6 +20,6 @@ Spec::Runner.configure do |config|
   config.include(Merb::Test::ViewHelper)
   config.include(Merb::Test::RouteHelper)
   config.include(Merb::Test::ControllerHelper)
-  config.include(WikiMobile::Spec::UserAgentStrings)
-  config.include(WikiMobile::Spec::Request)
+  config.include(Wikipedia::Spec::UserAgentStrings)
+  config.include(Wikipedia::Spec::Request)
 end

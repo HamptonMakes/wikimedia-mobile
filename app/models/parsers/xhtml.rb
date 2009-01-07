@@ -1,7 +1,7 @@
 module Parsers
   class XHTML
     def self.parse(article)
-      raise 'no data passed in' if article.html.size == 0
+      raise 'no data passed in' if article.raw_html.blank?
     
       items_to_remove = [
                           "#contentSub",        #redirection notice
@@ -29,7 +29,7 @@ module Parsers
                           "#id-articulo-destacado"
                         ]
 
-      page = Nokogiri::HTML(article.html)
+      page = Nokogiri::HTML(article.raw_html)
       
       #language_stuff = page.css("div#p-lang div").first
       
@@ -42,7 +42,7 @@ module Parsers
     
       # For getting the human-readable title of the page
       # grab what's in the .first-heading div
-      article.title = doc.css(".firstHeading").first.inner_html
+      article.title ||= doc.css(".firstHeading").first.inner_html
 
       # Ah, hot and fresh html from the parser
       html = doc.inner_html
