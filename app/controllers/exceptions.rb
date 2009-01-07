@@ -2,7 +2,7 @@ class Exceptions < Application
   if %w( staging production ).include?(Merb.env)
     def standard_error
       HoptoadNotifier.notify_hoptoad(request, session)
-      render "Something went wrong...", :format => :html, :layout => false
+      render :format => :html
     end
   end
   
