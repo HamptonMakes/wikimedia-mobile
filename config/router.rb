@@ -27,22 +27,28 @@
 
 Merb.logger.info("Compiling routes...")
 Merb::Router.prepare do
-  # RESTful routes
-  # resources :posts
-
-  # This is the default route for /:controller/:action/:id
-  # This is fine for most cases.  If you're heavily using resource-based
-  # routes, you may want to comment/remove this line to prevent
-  # clients from calling your create or destroy actions with a GET
-  #default_routes
-  # 
-  match("/").to(:controller => "application", :action => "send_home")
+  device_formats do # Sets up the formats for the device that is accessing the route
+    match("/").to(:controller => "application", :action => "send_home")
   
-  match(/\/wiki\/File:(.*)/).to(:controller => "articles", :action => "file", :file => "[1]")
-  match("/wiki/:search", :search => /.*/).to(:controller => "articles", :action => "search")
-  match("/wiki").to(:controller => "articles", :action => "search")
-  match("/w/index.php").to(:controller => "articles", :action => "search")
+    match(/\/wiki\/File:(.*)/).to(:controller => "articles", :action => "file", :file => "[1]")
+    
+    match("/wiki/:search", :search => /.*/).defer_to do |request, params|
+      params[:controller] = "articles"
+      
+      case params[:search]
+      when "::Home"
+        params[:action] = "home"
+      when "::Random"
+        params[:action] = "random"
+      else
+        params[:action] = "show"
+      end
+      params
+    end
+    match("/wiki").to(:controller => "articles", :action => "search")
+    match("/w/index.php").to(:controller => "articles", :action => "search")
   
-  # Change this for your home page to be available at /
-  # match('/').to(:controller => 'whatever', :action =>'index')
+    # Change this for your home page to be available at /
+    # match('/').to(:controller => 'whatever', :action =>'index')
+  end
 end

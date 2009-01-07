@@ -17,7 +17,7 @@ module Merb
     def search_bar
       go_text = language_object["go"] || "Go"
        %|
-       <form action="/wiki" method="get">
+       <form action="/wiki" method="get" class="search_bar">
          <input name="search" type="text" size="25" value="#{@name.gsub("_", " ")}">
          <button type="submit">#{go_text}</button>
        </form>

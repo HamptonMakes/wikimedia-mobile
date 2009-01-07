@@ -21,7 +21,7 @@ class Device
   end
   
   def user_agent
-    request.user_agent
+    request.user_agent || ""
   end
   
 end

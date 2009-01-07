@@ -6,9 +6,9 @@
 class Application < Merb::Controller
   provides :webkit_native, :webkit, :wap
   
-  if Merb.env == "development"
-    before :set_content_type
-  end
+  # if Merb.env == "development"
+    # before :set_content_type
+  # end
   
   def send_home
     redirect "/wiki/::Home"
@@ -46,7 +46,7 @@ class Application < Merb::Controller
   
   # TODO: This should keep using this method for the UA... BUT, for things that aren't webkit, we should use WURFL
   def guess_content_type
-    ua = request.user_agent
+    ua = request.user_agent || "unknown"
     if ua.include? "WebKit"
       if ua.include?("iPhone") && !ua.include?("Safari")
         :webkit_native

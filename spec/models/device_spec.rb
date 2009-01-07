@@ -41,7 +41,7 @@ describe Device do
 
     describe "webkit" do
       it "should be webkit if there is WebKit and Safari in the user string" do
-        ua = "Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1C28 Safari/419.3"
+        ua = webkit_ua
         dev = Device.new(fake_ua_request(ua))
         dev.preferred_format.should == :webkit
       end
@@ -54,6 +54,10 @@ describe Device do
       
       it "should be unknown if there is a blank user string" do
         Device.new(fake_ua_request("")).preferred_format.should == :unknown
+      end
+      
+      it "should be unknown when it's not set" do
+        Device.new(fake_request).preferred_format.should == :unknown
       end
     end
   end
