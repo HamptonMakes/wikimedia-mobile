@@ -24,6 +24,7 @@ Merb::Config.use do |c|
 end
  
 Merb::BootLoader.before_app_loads do
+  Merb.push_path(:merb_extensions, Merb.root / "merb/extensions", "**/*.rb")  
   # This will get executed after dependencies have been loaded but before your app's classes have loaded.
 end
  
@@ -34,5 +35,5 @@ end
 
 # Add our mime-types for device based content type negotiation
 %w[webkit_native webkit wml].each do |type|
-  Merb.add_mime_type("#{type}".to_sym, :to_html, %w[text/html])
+  Merb.add_mime_type(:"#{type}", :to_html, %w[text/html])
 end
