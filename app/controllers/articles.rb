@@ -3,6 +3,7 @@ class Articles < Application
   # ...and remember, everything returned from an action
   # goes to the client...
   def search
+    @name = ""
     
     # TODO: These if statements should really be done at the router
     if params[:search] == "::Home"
