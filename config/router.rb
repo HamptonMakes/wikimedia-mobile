@@ -32,30 +32,11 @@ Merb::Router.prepare do
   
     match(/\/wiki\/File:(.*)/).to(:controller => "articles", :action => "file", :file => "[1]")
     
-    match("/wiki/:search", :search => /.*/).defer_to do |request, params|
-      params[:controller] = "articles"
-      
-      case params[:search]
-      when "::Home"
-        params[:action] = "home"
-      when "::Random"
-        params[:action] = "random"
-      else
-        params[:action] = "show"
-      end
-      params
-    end
-    
-    match("/wiki").defer_to do |request, params|
-      params[:controller] = "articles"
-      if request.params[:search]
-        params[:action] = "search"
-      else
-        params[:action] = "home"
-      end
-      params
-    end
-    match("/w/index.php").to(:controller => "articles", :action => "search")
+    match(/\/wiki\/::Home/).to(:controller => "articles", :action => "home")
+    match(/\/wiki\/::Random/).to(:controller => "articles", :action => "random")
+    match(/\/wiki[\/]?(.*)/).to(:controller => "articles", :action => "show", :title => "[1]")
+
+    match("/w/index.php").to(:controller => "articles", :action => "show")
   
     # Change this for your home page to be available at /
     # match('/').to(:controller => 'whatever', :action =>'index')

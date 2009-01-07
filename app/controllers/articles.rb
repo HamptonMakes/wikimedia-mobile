@@ -11,11 +11,6 @@ class Articles < Application
     redirect @article.path
   end
   
-  def search
-    article = Article.new(current_server, params[:search]).fetch!
-    redirect article.path
-  end
-  
   def show
     @name = params[:search] || params[:title]
     # Perform a normal search
