@@ -17,7 +17,7 @@ class Application < Merb::Controller
  private
   def language_code
     language_code = request.host.split(".").first
-    if Merb.env == "test" || language_code == "localhost" || language_code == "eiximenis"
+    if Merb.env == "test" || language_code == "localhost" || language_code == "eiximenis" || language_code == "m"
       language_code = "en"
     end
     language_code
