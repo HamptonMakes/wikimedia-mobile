@@ -19,7 +19,7 @@ module Wikipedia
     
     results = {}
     
-    setting["selectors"].each do |key, value|
+    (setting["selectors"] || []).each do |key, value|
       #require 'ruby-debug'; debugger
       node = parser.css(value).first
       if node
