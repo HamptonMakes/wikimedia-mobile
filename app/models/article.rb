@@ -35,6 +35,7 @@ class Article < Wikipedia::Resource
   def fetch!(path = nil)
     path ||= @path ||= "/wiki/Special:Search?search=#{escaped_title}"
     super(path)
+    self
   end
 
 end

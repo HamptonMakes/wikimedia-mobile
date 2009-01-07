@@ -8,4 +8,13 @@ class Merb::Request
     @device ||= Device.new(self)
   end
   
+  # Gets the language code for this request
+  def language_code
+    language_code = host.split(".").first
+    if Merb.env?(:test) || language_code.include?("localhost") || language_code == "eiximenis" || language_code == "m"
+      language_code = "en"
+    end
+    language_code
+  end
+  
 end

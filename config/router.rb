@@ -28,7 +28,7 @@
 Merb.logger.info("Compiling routes...")
 Merb::Router.prepare do
   device_formats do # Sets up the formats for the device that is accessing the route
-    match("/").to(:controller => "application", :action => "send_home")
+    match("/").to(:controller => "articles", :action => "home")
   
     match(/\/wiki\/File:(.*)/).to(:controller => "articles", :action => "file", :file => "[1]")
     
@@ -45,8 +45,17 @@ Merb::Router.prepare do
       end
       params
     end
-    match("/wiki").to(:controller => "articles", :action => "search")
-    match("/w/index.php").to(:controller => "articles", :action => "search")
+    
+    match("/wiki").defer_to do |request, params|
+      params[:controller] = "articles"
+      if request.params[:search]
+        params[:action] = "search"
+      else
+        params[:action] = "home"
+      end
+      params
+    end
+    match("/w/index.php").to(:controller => "articles", :action => "home")
   
     # Change this for your home page to be available at /
     # match('/').to(:controller => 'whatever', :action =>'index')

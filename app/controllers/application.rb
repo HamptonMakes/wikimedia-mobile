@@ -6,60 +6,20 @@
 class Application < Merb::Controller
   provides :webkit_native, :webkit, :wap
   
-  # if Merb.env == "development"
-    # before :set_content_type
-  # end
-  
-  def send_home
-    redirect "/wiki/::Home"
-  end
-  
  private
-  def language_code
-    language_code = request.host.split(".").first
-    if Merb.env?(:test) || language_code.include?("localhost") || language_code == "eiximenis" || language_code == "m"
-      language_code = "en"
-    end
-    language_code
-  end
-  
   def supported_language?
-    Wikipedia.settings[language_code]
+    Wikipedia.settings[request.language_code]
   end
   
   def language_object
-    if supported_language?
-      Wikipedia.settings[language_code]['translations']
+    @language_object ||= if supported_language?
+      Wikipedia.settings[request.language_code]['translations']
     else
       {}
     end
   end
  
   def current_server
-    @current_server ||= Server.new(language_code)
-  end
-  
-  def set_content_type
-    self.content_type = guess_content_type
-    Merb.logger.debug "Setting content type as " + content_type.to_s
-  end
-  
-  # TODO: This should keep using this method for the UA... BUT, for things that aren't webkit, we should use WURFL
-  def guess_content_type
-    ua = request.user_agent || "unknown"
-    if ua.include? "WebKit"
-      if ua.include?("iPhone") && !ua.include?("Safari")
-        :webkit_native
-      else
-        :webkit
-      end
-    else
-      :html
-    end
-  end
-  
-  def print_user_agent
-    Merb.logger.debug request.user_agent
-    Merb.logger.debug "Best guess device as... " + current_mime_type.to_s
+    @current_server ||= Server.new(request.language_code)
   end
 end
