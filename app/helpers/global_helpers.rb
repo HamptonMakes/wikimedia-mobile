@@ -18,7 +18,7 @@ module Merb
       go_text = language_object["go"] || "Go"
        %|
        <form action="/wiki" method="get">
-         <input name="search" type="text" size="25" value="#{params[:search] || params[:title]}">
+         <input name="search" type="text" size="25" value="#{@name.gsub("_", " ")}">
          <button type="submit">#{go_text}</button>
        </form>
        |

@@ -14,8 +14,9 @@ class Articles < Application
       @article = current_server.random_article
       render @article.content
     else
+      @name = params[:search] || params[:title]
       # Perform a normal search
-      @article = current_server.article(params[:search] || params[:title])
+      @article = current_server.article(@name)
       render :format => content_type
     end
     
