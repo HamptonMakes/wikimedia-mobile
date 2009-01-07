@@ -31,7 +31,7 @@ module Parsers
 
       page = Nokogiri::HTML(article.html)
       
-      language_stuff = page.css("div#p-lang div").first
+      #language_stuff = page.css("div#p-lang div").first
       
       # Parse the document in our XML parser. Immediately cut out everything that isn't inside
       # the #content div of the page.
@@ -47,10 +47,10 @@ module Parsers
       # Ah, hot and fresh html from the parser
       html = doc.inner_html
 
-      if language_stuff
-        html += "<h3>Also available in...</h3>"
-        html += language_stuff.inner_html.gsub("wikipedia.org", "m.wikipedia.org")
-      end
+      #if language_stuff
+      #  html += "<h3>Also available in...</h3>"
+      #  html += language_stuff.inner_html.gsub("wikipedia.org", "m.wikipedia.org")
+      #end
 
       # TODO: Teach this object how to do nice formatting on search pages.
     
