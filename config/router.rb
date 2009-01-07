@@ -55,7 +55,7 @@ Merb::Router.prepare do
       end
       params
     end
-    match("/w/index.php").to(:controller => "articles", :action => "home")
+    match("/w/index.php").to(:controller => "articles", :action => "search")
   
     # Change this for your home page to be available at /
     # match('/').to(:controller => 'whatever', :action =>'index')
