@@ -43,7 +43,7 @@ class Server
       end).body_str
       Merb.logger.debug("loaded #{result.size} characters")
       result
-    rescue Curl::Err::HostResolutionError
+    rescue Curl::Err::HostResolutionError, Curl::Err::GotNothingError
       Merb.logger.error("Could not connect to " + base_url + path)
       return ""
     end
