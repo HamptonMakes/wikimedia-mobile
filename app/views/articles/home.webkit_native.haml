@@ -1,0 +1,17 @@
+= language_notice if !supported_language?
+
+.links
+  %button{:type => "button", :onclick => "window.location = '/wiki/::Random'"} Random Article
+
+.logo 
+  <img src="/images/logo-en.png" /><br/>
+
+#main_box
+  - if @main_page["article_of_the_day"]
+    %h2 Today's Featured Article
+    #featured_article= @main_page["article_of_the_day"]
+
+  - if @main_page["news_items"]
+    .today
+      %h2 In The News...
+      = @main_page["news_items"]
