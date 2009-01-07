@@ -13,7 +13,7 @@ class Articles < Application
     elsif params[:search] == "::Random"
       # load a random article
       @article = current_server.random_article
-      render @article.content
+      redirect "/wiki?search=#{URI.escape(@article.title)}"
     else
       @name = params[:search] || params[:title]
       # Perform a normal search

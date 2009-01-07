@@ -28,6 +28,7 @@ class Server
   def random_article
     article = Article.new(self)
     article.html = fetch("/wiki/Special:Random")
+    Parsers::XHTML.parse(article)
     return article
   end
   
