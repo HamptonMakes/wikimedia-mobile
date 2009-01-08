@@ -5,6 +5,7 @@
 
 class Application < Merb::Controller
   provides :webkit_native, :webkit, :wap
+  before :print_ua
   
  private
   def supported_language?
@@ -21,5 +22,9 @@ class Application < Merb::Controller
  
   def current_server
     @current_server ||= Server.new(request.language_code)
+  end
+  
+  def print_ua
+    Merb.logger.debug("User Agent: " + request.user_agent)
   end
 end
