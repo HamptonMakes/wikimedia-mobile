@@ -41,9 +41,11 @@ class Server
   private 
   # :api: private
   def fetch_from_web(base, path)
+    start_time = Time.now
     Curl::Easy.perform(base_url + path) do |curl|
       # This configures Curl::Easy to follow redirects
       curl.follow_location = true
     end    
+    Merb.logger.debug("Fetch took " + (Time.now - start_time).to_s + " seconds")
   end
 end
