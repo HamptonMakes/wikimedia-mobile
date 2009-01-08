@@ -57,5 +57,15 @@ module Parsers
       # Store this for later
       article.html = html
     end
+    
+    def self.search_results(article)
+      result = Nokogiri::HTML(article.raw_html).css(".mw-search-results").first
+      
+      if result
+        result.inner_html
+      else
+        false
+      end
+    end
   end
 end

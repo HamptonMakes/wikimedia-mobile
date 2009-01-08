@@ -15,6 +15,14 @@ class Article < Wikipedia::Resource
     article
   end
   
+  def has_search_results?
+    raw_html.include?('var wgCanonicalSpecialPageName = "Search";')
+  end
+  
+  def search_results
+    @search_results ||= Parsers::XHTML.search_results(self)
+  end
+  
   def html(format = :html)
     return @html if @html
     

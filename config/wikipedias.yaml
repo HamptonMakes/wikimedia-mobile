@@ -2,6 +2,8 @@ en:
   main_page: "Main_Page"
   translations:
     go: "Go"
+    search_results: "Search Results"
+    no_article_found: "No Article Found"
   selectors:
     article_of_the_day: "#mp-tfa"
     news_items: "#mp-itn"
@@ -9,6 +11,8 @@ de:
   main_page: "Wikipedia:Hauptseite"
   translations:
     go: "Artikel"
+    search_results: "Search Results"
+    no_article_found: "No Article Found"
   selectors:
     article_of_the_day: "#hauptseite-artikel .inhalt"
     news_items: "#hauptseite-nachrichten .inhalt"
@@ -16,6 +20,8 @@ fr:
   main_page: "Accueil"
   translations:
     go: "Consulter"
+    search_results: "Search Results"
+    no_article_found: "No Article Found"
   selectors:
     article_of_the_day: "#bodyContent table tr:nth-child(3) td:nth-child(3) div:nth-child(1) .accueil_contenu"
     news_items: "#bodyContent table tr:nth-child(3) td:nth-child(3) div:nth-child(3) .accueil_contenu"
@@ -23,10 +29,14 @@ ja:
   main_page: "メインページ"
   translations:
     go: "表示"
+    search_results: "Search Results"
+    no_article_found: "No Article Found"
 pl: 
   main_page: "Strona_główna"
   translations: 
     go: "Przejdź" 
+    search_results: "Search Results"
+    no_article_found: "No Article Found"
   selectors:
     article_of_the_day: "div[style='padding: 5px; font-size: 9pt;']"
     news_items: "#bodyContent :nth-child(7) :nth-child(5)"

@@ -1,1 +1,6 @@
-= @article.html(:webkit)
+- if @article.has_search_results?
+  %h3= language_object['search_results']
+  %ul
+    = @article.search_results
+- else
+  = @article.html(:webkit)
