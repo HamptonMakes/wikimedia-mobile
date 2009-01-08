@@ -31,11 +31,11 @@ Merb::Router.prepare do
     match("/").to(:controller => "articles", :action => "home")
   
     with(:controller => "articles") do
-      match(/\/wiki\/File:(.*)/).to(:controller => "articles", :action => "file", :file => "[1]")
+      match(/\/wiki\/File:(.*)/).to(:action => "file", :file => "[1]")
     
-      match(/\/wiki\/::Home/).to(:controller => "articles", :action => "home")
-      match(/\/wiki\/::Random/).to(:controller => "articles", :action => "random")
-      match(/\/wiki[\/]?(.*)/).to(:controller => "articles", :action => "show", :title => "[1]")
+      match(/\/wiki\/::Home/).to(:action => "home")
+      match(/\/wiki\/::Random/).to(:action => "random")
+      match(/\/wiki[\/]?(.*)/).to(:action => "show", :title => "[1]")
 
       match("/w/index.php").to(:controller => "articles", :action => "show")
     end

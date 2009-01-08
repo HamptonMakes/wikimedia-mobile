@@ -21,13 +21,15 @@ class Article < Wikipedia::Resource
     # Grab the html from the server object
     fetch! unless raw_html
     
-    # Figure out if we need to do extra formatting...
-    if format.to_s.include?("webkit")
-      Parsers::WebKit.parse(self)
-    elsif format == :image
-      Parsers::Image.parse(self)
-    else
-      Parsers::XHTML.parse(self)
+    time_to "parse #{format}" do
+      # Figure out if we need to do extra formatting...
+      if format.to_s.include?("webkit")
+        Parsers::WebKit.parse(self)
+      elsif format == :image
+        Parsers::Image.parse(self)
+      else
+        Parsers::XHTML.parse(self)
+      end
     end
     return @html
   end
