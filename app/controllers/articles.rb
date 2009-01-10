@@ -2,6 +2,7 @@ class Articles < Application
   before :setup_ivars
   
   def home
+    @name = "::Home"
     @main_page = Wikipedia.main_page(request.language_code)
     render
   end

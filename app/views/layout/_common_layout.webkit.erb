@@ -7,7 +7,7 @@
     <meta name = "viewport" content = "width=device-width">
     <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
   </head>
-  <% if @article %>
+<% if @article %>
   <script type="text/javascript">
     var title = "<%= @article.title.gsub("_", " ") %>";
     var server = "<%= @article.server %>";
@@ -35,7 +35,11 @@
     });
     
   </script>
-  <% end %>
+<% elsif @name != "" %>
+    <script type="text/javascript">
+      var title = "<%= @name %>";
+    </script>
+<% end %>
   <body>
     <div id="content_wrapper">
       <%= catch_content :for_search_bar %>
