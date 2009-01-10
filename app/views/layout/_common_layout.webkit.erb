@@ -9,7 +9,7 @@
   </head>
   <% if @article %>
   <script type="text/javascript">
-    var title = "<%= @article.title %>";
+    var title = "<%= @article.title.gsub("_", " ") %>";
     var server = "<%= @article.server %>";
     
     document.addEventListener("DOMContentLoaded", function() {
