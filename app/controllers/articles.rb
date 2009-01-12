@@ -21,12 +21,10 @@ class Articles < Application
   end
   
   def file
-    results = current_server.file(params[:file]).html(:image)
-    Merb.logger.debug results
-    render results
+    render current_server.file(params[:file]).html(:image)
   end
   
-  private 
+ private 
   def setup_ivars
     @name = ""
   end
