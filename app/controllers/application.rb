@@ -25,6 +25,8 @@ class Application < Merb::Controller
   end
   
   def print_ua
-    Merb.logger.debug("User Agent: " + request.user_agent)
+    if Merb.env != "test"
+      Merb.logger.debug("User Agent: " + request.user_agent)
+    end
   end
 end
