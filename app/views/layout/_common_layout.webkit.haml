@@ -1,0 +1,45 @@
+!!!
+%html{:xmlns => "http://www.w3.org/1999/xhtml", 'xml:lang' => "en-us", :lang => "en-us"}
+  %head
+    %title Wikipedia
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    = css_include_tag :application, :bundle => true
+    <meta name = "viewport" content = "width=device-width">
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+    - if @article 
+      :javascript
+        var title = "<%= @article.title.gsub("_", " ") %>";
+        var server = "<%= @article.server %>";
+    
+        document.addEventListener("DOMContentLoaded", function() {
+          NodeList.prototype.forEach = Array.prototype.forEach;
+      
+          document.querySelectorAll("button.show").forEach(function(button) {
+            button.addEventListener("click", function(e) {
+              var section_id = button.getAttribute("section_id");
+              document.getElementById("content_" + section_id).style.display = "";
+              button.style.display = "none";
+              document.querySelector("button.hide[section_id='" + section_id + "']").style.display = ""
+            });
+          });
+      
+          document.querySelectorAll("button.hide").forEach(function(button) {
+            button.addEventListener("click", function(e) {
+              var section_id = button.getAttribute("section_id");
+              document.getElementById("content_" + section_id).style.display = "none";
+              button.style.display = "none";
+              document.querySelector("button.show[section_id='" + section_id + "']").style.display = ""
+            });
+          });
+        });
+    
+    - elsif @name != "" 
+      :javascript
+        var title = "<%= @name %>";
+  %body
+    #content_wrapper
+      = catch_content :for_search_bar
+      = catch_content :for_layout
+    #footer
+      All text is available under the terms of the GNU Free Documentation License.
+      Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a U.S. registered 501(c)(3) tax-deductible nonprofit charity.
