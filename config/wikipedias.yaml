@@ -51,7 +51,7 @@ pl:
   main_page: "Strona_główna"
   translations: 
     go: "Przejdź" 
-    search_results: "Search Results"
+    search_results: "Wyniki wyszukiwania"
     no_article_found: "No Article Found"
     featured_article: "Today's Featured Article"
     in_the_news: "In The News"
@@ -69,11 +69,32 @@ es:
     featured_article: "Artículo destacado"
     in_the_news: "Actualidad"
     random_article: "Página aleatoria"
-    copyright: "Contenido disponible bajo los términos de la Licencia de documentación libre de GNU (véase Derechos de autor).
-Wikipedia® es una marca registrada de la organización sin ánimo de lucro Wikimedia Foundation, Inc."
+    copyright: "Contenido disponible bajo los términos de la Licencia de documentación libre de GNU (véase Derechos de autor).\nWikipedia® es una marca registrada de la organización sin ánimo de lucro Wikimedia Foundation, Inc."
   selectors:
     article_of_the_day: "#bodyContent table:nth-child(6) table:nth-child(1) tr:nth-child(2)"
     news_items: "#bodyContent table:nth-child(6) table:nth-child(1) tr:nth-child(8)"
+pt:
+  main_page: "Página_principal"
+  translations:
+    go: "Ir"
+    search_results: "Resultados de pesquisa"
+    no_article_found: "Não Encontrado artigo"
+    featured_article: "Artigo em destaque"
+    in_the_news: "Eventos recentes"
+    random_article: "Página aleatória"
+    copyright: "O texto desta página está sob a GNU Free Documentation License. \nOs direitos autorais de todas as contribuições para a Wikipédia pertencem aos seus respectivos autores (mais informações em direitos autorais)."
+nl:
+  main_page: "Hoofdpagina"
+  translations:
+    go: "Artikel"
+    search_results: "Zoekresultaten"
+    no_article_found: "Geen resultaten gevonden"
+    featured_article: "Uitgelicht"
+    in_the_news: "Actueel"
+    in_the_news_alt: "In het nieuws"
+    random_article: "Willekeurige pagina"
+    copyright: "De tekst op Wikipedia is zonder enige vorm van garantie beschikbaar onder de GNU Free Documentation License. \nWikipedia® is een geregistreerd handelsmerk van de Wikimedia Foundation, Inc., een in de Verenigde Staten geregistreerde organisatie zonder winstoogmerk."
+    
 fi:
   main_page: "Wikipedia:Etusivu"
   translations:
@@ -87,4 +108,3 @@ fi:
   selectors:
     article_of_the_day: "#bodyContent table tr:nth-child(2) td:nth-child(1) div:nth-child(2) div:nth-child(2)"
     news_items: "#bodyContent table tr:nth-child(2) td:nth-child(2) div:nth-child(1) div:nth-child(2)"
-
