@@ -77,21 +77,19 @@ module Parsers
     # sections. Aka, a show/hide functionality for webkit
     # WEBKIT
     def self.javascriptize(data)
-      # TODO: This is hacky with counting the headings. Takes up extra memory.
-      headings = []
-      
+      # count the section indices we are going to handle
+      index=0
     
       # Go through the whole page looking for headings
       data.gsub!(/<h2(.*)<span class="mw-headline">(.+)<\/span><\/h2>/) do |line|
-        # store this for later using those old ruby hacks like perl with the $ args
-        headings << $2
-
+        index+=1
+        
         # generate the HTML we are going to inject
-        buttons = "<button class='section_heading show' section_id='#{headings.size}'>Show</button><button class='section_heading hide' style='display: none' section_id='#{headings.size}'>Hide</button>"
-        base = "<h2#{$1}#{buttons} <span>#{$2}</span></h2><div style='display:none' class='content_block' id='content_#{headings.size}'>"
+        buttons = "<button class='section_heading show' section_id='#{index}'>Show</button><button class='section_heading hide' style='display: none' section_id='#{index}'>Hide</button>"
+        base = "<h2#{$1}#{buttons} <span>#{$2}</span></h2><div style='display:none' class='content_block' id='content_#{index}'>"
 
         # if we are the first one, don't close
-        if headings.size > 1
+        if index > 1
           base = "</div>" + base
         end
 
@@ -99,7 +97,7 @@ module Parsers
       end
 
       # if we had any, make sure to close the whole thing!
-      if headings.size > 1
+      if index > 1
         data.gsub!('<div class="printfooter">') do |line|
           "</div>#{line}"
         end
