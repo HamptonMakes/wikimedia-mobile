@@ -1,7 +1,7 @@
 - if @article
   :javascript
     var title = "#{@article.title.gsub("_", " ")}";
-    var server = "#{@article.server}";
+    var server = "#{@article.server.base_url}";
 
     document.addEventListener("DOMContentLoaded", function() {
       NodeList.prototype.forEach = Array.prototype.forEach;
