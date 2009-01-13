@@ -41,12 +41,12 @@ ja:
   main_page: "メインページ"
   translations:
     go: "表示"
-    search_results: "Search Results"
-    no_article_found: "No Article Found"
-    featured_article: "Today's Featured Article"
-    in_the_news: "In The News"
-    random_article: "Random Article"
-    copyright: "All text is available under the terms of the GNU Free Documentation License.\n Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a U.S. registered 501(c)(3) tax-deductible nonprofit charity."
+    search_results: "検索結果"
+    no_article_found: "検索した名称のページは存在しませんでした"
+    featured_article: "秀逸な記事"
+    in_the_news: "新着記事"
+    random_article: "つまみ読み"
+    copyright: "すべてのウィキペディアの素材におけるテキストの複製、配布及び改変は、Free Software Foundationが発行するGNU Free Documentation Licenseのバージョンの1.2以上の条件の下に、許諾されます。\n Wikipedia® は Wikimedia Foundation, Inc. の米国およびその他の国における登録商標です"
 pl: 
   main_page: "Strona_główna"
   translations: 
