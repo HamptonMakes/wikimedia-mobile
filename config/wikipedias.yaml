@@ -61,9 +61,9 @@ es:
     go: "Ir"
     search_results: "Buscar"
     no_article_found: "No hay coincidencias"
-    featured_article: "Today's Featured Article"
-    in_the_news: "In The News"
-    random_article: "Random Article"
+    featured_article: "Artículo destacado"
+    in_the_news: "Actualidad"
+    random_article: "Página aleatoria"
   selectors:
     article_of_the_day: "#bodyContent table:nth-child(6) table:nth-child(1) tr:nth-child(2)"
     news_items: "#bodyContent table:nth-child(6) table:nth-child(1) tr:nth-child(8)"
