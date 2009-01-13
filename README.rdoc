@@ -50,7 +50,7 @@ running.
 
   merb
 
-7) Browse to http://en.mt.wikipedia.org:4000
+7) Browse to http://en.m.wikitest.org:4000
 
 8) Start hacking!
 
