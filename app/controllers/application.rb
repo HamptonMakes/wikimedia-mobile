@@ -1,7 +1,6 @@
 # This is the place for general todo's
 # TODO: Build out the application.wml.haml files so that we have WML support
-# TODO: Finish the CSS selectors in /config/wikipedia.yaml
-# TODO: Complete ja in /config/wikipedia.yaml
+# TODO: Complete selectors for ja in /config/wikipedia.yaml
 # TODO: Add pt to /config/wikipedia.yaml
 # TODO: Make a request to m.wikipedia.org (no sub-sub-domain) redirect to whatever their browser's request is asking for
 # TODO: Cache the home page for a *particular* language for a day. Just do it locally in memory for the thread.
