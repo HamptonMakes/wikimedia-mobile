@@ -8,7 +8,7 @@
 
 class Application < Merb::Controller
   provides :webkit_native, :webkit, :wap
-  before :print_ua
+  before :debug_output
   
  private
  
@@ -29,9 +29,10 @@ class Application < Merb::Controller
   end
   
   # This is used right now in the alpha stage to log their user agent
-  def print_ua
+  def debug_output
     if Merb.env != "test"
       Merb.logger.debug("User Agent: " + request.user_agent)
+      Merb.logger.debug("Language Code: " + request.language_code)
     end
   end
 end

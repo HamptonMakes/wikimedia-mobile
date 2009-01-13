@@ -8,8 +8,8 @@ class Exceptions < Application
   
   # handle NotFound exceptions (404)
   def not_found
-    HoptoadNotifier.notify_hoptoad(request, session) if Merb.env == "production"
-    puts request.exceptions.first.inspect
+    #HoptoadNotifier.notify_hoptoad(request, session) if Merb.env == "production"
+    #puts request.exceptions.first.inspect
     render :format => :html
   end
 
