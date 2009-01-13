@@ -78,9 +78,12 @@ module Parsers
     # WEBKIT
     def self.javascriptize(data)
       headings = 0 
+      # count the section indices we are going to handle
+
     
       # Go through the whole page looking for headings
       data.gsub!(/<h2(.*)<span class="mw-headline">(.+)<\/span><\/h2>/) do |line|
+
         # store this for later using those old ruby hacks like perl with the $ args
         headings += 1 
 
@@ -88,8 +91,9 @@ module Parsers
         buttons = "<button class='section_heading show' section_id='#{headings}'>Show</button><button class='section_heading hide' style='display: none' section_id='#{headings}'>Hide</button>"
         base = "<h2#{$1}#{buttons} <span>#{$2}</span></h2><div style='display:none' class='content_block' id='content_#{headings}'>"
 
-        # if we are the first one, don't close
-        base = "</div>" + base unless headings == 1
+        if headings > 1
+          base = "</div>" + base
+        end
 
         base
       end

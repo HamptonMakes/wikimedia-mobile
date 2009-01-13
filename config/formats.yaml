@@ -6,10 +6,12 @@ html: &defaults
 
 webkit:
   <<: *defaults
+  supports_javascript_selectors: true
 
 webkit_native:
   <<: *defaults
   search_bar: false
+  supports_javascript_selectors: true
 
 blackberry:
   <<: *defaults

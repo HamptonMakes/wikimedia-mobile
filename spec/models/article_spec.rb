@@ -3,8 +3,12 @@ require File.join(File.dirname(__FILE__), '..', 'spec_helper.rb')
 describe Article do
   
   before(:all) do
+    # Stub out the device
     @device = Device.new(nil)
     @device.instance_eval("@user_agent = 'Webkit'")
+    
+    # Stubs out networking
+    Curl::Easy.stub!(:perform).and_return ARTICLE_GO_MAN_GO
   end
   
   it "should grab an article" do
@@ -25,6 +29,11 @@ describe Article do
   end  
   
   describe "Random article" do
+    before(:each) do
+      # Stubs out networking
+      Curl::Easy.stub!(:perform).and_return ARTICLE_GO_MAN_GO
+    end
+
     it "should get a random article" do
       article = Article.random("en")
       article.should be_a_kind_of(Article)

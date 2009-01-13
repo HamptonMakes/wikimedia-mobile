@@ -1,10 +1,12 @@
 require File.join(File.dirname(__FILE__), '..', 'spec_helper.rb')
 
 describe "articles" do
-  
+
   describe "that exist" do
     before(:each) do
-      @response = request("/wiki/Sushi")
+      # Stubs out networking
+      Curl::Easy.stub!(:perform).and_return ARTICLE_GO_MAN_GO
+      @response = request("/wiki/Go_Man_Go")
     end
     
     it "should load" do
@@ -16,12 +18,14 @@ describe "articles" do
     end
     
     it "should be the right page" do
-      @response.body.include?('Japan').should be_true
+      @response.body.include?('race horse').should be_true
     end
   end
   
   describe "webkit formatted" do
     before(:each) do
+      # Stubs out networking
+      Curl::Easy.stub!(:perform).and_return ARTICLE_GO_MAN_GO
       @response = request("/wiki/Sushi", "HTTP_USER_AGENT" => webkit_ua)
     end
     
@@ -40,6 +44,11 @@ describe "articles" do
   end
   
   describe "random article" do
+    before(:each) do
+      # Stubs out networking
+      Curl::Easy.stub!(:perform).and_return ARTICLE_GO_MAN_GO
+    end
+
     it "should grab a random article" do
       response = request("/wiki/::Random")
       response.should redirect
