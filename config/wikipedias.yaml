@@ -41,7 +41,7 @@ ja:
   main_page: "メインページ"
   translations:
     go: "表示"
-    search_results: "Search Results"
+    search_results: "検索結果"
     no_article_found: "No Article Found"
     featured_article: "Today's Featured Article"
     in_the_news: "In The News"
