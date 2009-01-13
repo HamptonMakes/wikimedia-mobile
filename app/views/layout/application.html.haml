@@ -3,11 +3,14 @@
   %head
     %title Wikipedia
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    = css_include_tag :application, :bundle => true
+    = css_include_tag request.device.css_file_name
     <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+    <meta name = "viewport" content = "width=device-width">
+    - if request.device.supports_javascript
+      = partial "layout/javascript"
   %body
     #content_wrapper
-      = catch_content :for_search_bar
+      = search_bar if request.device.search_bar
       = catch_content :for_layout
     #footer
       All text is available under the terms of the GNU Free Documentation License.

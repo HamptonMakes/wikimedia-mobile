@@ -2,10 +2,15 @@ require File.join(File.dirname(__FILE__), '..', 'spec_helper.rb')
 
 describe Article do
   
+  before(:all) do
+    @device = Device.new(nil)
+    @device.instance_eval("@user_agent = 'Webkit'")
+  end
+  
   it "should grab an article" do
     article = Article.new("en", "Go Man Go")
-    article.html.should_not be_blank
-    article.html.should have_xpath("//h1[contains(text(), 'Go Man Go')]")
+    article.html(@device).should_not be_blank
+    article.html(@device).should have_xpath("//h1[contains(text(), 'Go Man Go')]")
   end
   
   it "should set the article title" do
@@ -23,7 +28,7 @@ describe Article do
     it "should get a random article" do
       article = Article.random("en")
       article.should be_a_kind_of(Article)
-      article.html.should_not be_nil
+      article.html(@device).should_not be_nil
     end
     
     it "should set the path of the random article" do

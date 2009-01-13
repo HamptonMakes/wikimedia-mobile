@@ -8,20 +8,32 @@ class Device
     @request = request
   end
   
-  def preferred_format
-    @preferred_format ||= if user_agent.include?("WebKit")
+  def self.available_formats=(config_data)
+    @@available_formats = config_data
+  end
+
+  def format
+    @format ||= @@available_formats[format_name.to_s]
+  end
+  
+  def format_name
+    @format_name ||= if user_agent.include?("WebKit")
       if user_agent.include?("iPhone") && !user_agent.include?("Safari")
         :webkit_native
       else
         :webkit
       end
     else
-      :unknown
+      :html
     end
   end
   
   def user_agent
-    request.user_agent || ""
+    @user_agent ||= (request.user_agent || "")
+  end
+  
+  def method_missing(name, *args, &block)
+    format[name.to_s]
   end
   
 end

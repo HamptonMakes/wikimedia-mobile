@@ -1,0 +1,18 @@
+html: &defaults
+  view_format: 'html'
+  search_bar: true
+  css_file_name: "application"
+  supports_javascript: true
+
+webkit:
+  <<: *defaults
+
+webkit_native:
+  <<: *defaults
+  search_bar: false
+
+blackberry:
+  <<: *defaults
+  css_file_name: "blackberry"
+  supports_javascript: false
+

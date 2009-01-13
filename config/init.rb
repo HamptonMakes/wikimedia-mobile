@@ -32,6 +32,7 @@ end
 Merb::BootLoader.after_app_loads do
   # This will get executed after your app's classes have been loaded.
   Wikipedia.settings = YAML::load(open("config/wikipedias.yaml"))
+  Device.available_formats = YAML::load(open("config/formats.yaml"))
 end
 
 # Add our mime-types for device based content type negotiation

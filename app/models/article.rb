@@ -1,4 +1,5 @@
-require "parsers/web_kit"
+require "parsers/xhtml"
+require "parsers/image"
 
 # # This is a non-database model file that focuses on handling parsing and providing information for
 # the views having to do with articles.
@@ -23,22 +24,21 @@ class Article < Wikipedia::Resource
     @search_results ||= Parsers::XHTML.search_results(self)
   end
   
-  def html(format = :html)
+  def html(device)
     return @html if @html
     
     # Grab the html from the server object
-    fetch! unless raw_html
+    fetch! if raw_html.nil?
     
-    time_to "parse #{format}" do
+    time_to "parse #{device}" do
       # Figure out if we need to do extra formatting...
-      if format.to_s.include?("webkit")
-        Parsers::WebKit.parse(self)
-      elsif format == :image
+      if device == :image
         Parsers::Image.parse(self)
-      else
-        Parsers::XHTML.parse(self)
+      else 
+        Parsers::XHTML.parse(self, :javascript => device.supports_javascript)
       end
     end
+    
     return @html
   end
 

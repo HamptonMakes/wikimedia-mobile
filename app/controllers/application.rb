@@ -12,6 +12,7 @@ class Application < Merb::Controller
   before :print_ua
   
  private
+ 
   def supported_language?
     Wikipedia.settings[request.language_code]
   end

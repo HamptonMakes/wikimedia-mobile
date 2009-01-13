@@ -8,6 +8,9 @@ class Merb::Request
     @device ||= Device.new(self)
   end
   
+  def preferred_format
+  end
+  
   # Gets the language code for this request
   def language_code
     language_code = host.split(".").first
