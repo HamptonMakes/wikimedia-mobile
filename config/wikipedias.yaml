@@ -40,3 +40,13 @@ pl:
   selectors:
     article_of_the_day: "div[style='padding: 5px; font-size: 9pt;']"
     news_items: "#bodyContent :nth-child(7) :nth-child(5)"
+es:
+  main_page: "Wikipedia:Portada"
+  translations:
+    go: "Ir"
+    search_results: "Buscar"
+    no_article_found: "No hay coincidencias"
+  selectors:
+    article_of_the_day: "#bodyContent table:nth-child(6) table:nth-child(1) tr:nth-child(2)"
+    news_items: "#bodyContent table:nth-child(6) table:nth-child(1) tr:nth-child(8)"
+
