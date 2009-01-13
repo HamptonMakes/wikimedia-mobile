@@ -7,6 +7,7 @@ en:
     featured_article: "Today's Featured Article"
     in_the_news: "In The News"
     random_article: "Random Article"
+    copyright: "All text is available under the terms of the GNU Free Documentation License.\n Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a U.S. registered 501(c)(3) tax-deductible nonprofit charity."
   selectors:
     article_of_the_day: "#mp-tfa"
     news_items: "#mp-itn"
@@ -19,6 +20,7 @@ de:
     featured_article: "Artikel des Tages"
     in_the_news: "In den Nachrichten"
     random_article: "Random Article"
+    copyright: "All text is available under the terms of the GNU Free Documentation License.\n Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a U.S. registered 501(c)(3) tax-deductible nonprofit charity."
   selectors:
     article_of_the_day: "#hauptseite-artikel .inhalt"
     news_items: "#hauptseite-nachrichten .inhalt"
@@ -31,6 +33,7 @@ fr:
     featured_article: "Today's Featured Article"
     in_the_news: "In The News"
     random_article: "Random Article"
+    copyright: "All text is available under the terms of the GNU Free Documentation License.\n Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a U.S. registered 501(c)(3) tax-deductible nonprofit charity."
   selectors:
     article_of_the_day: "#bodyContent table tr:nth-child(3) td:nth-child(3) div:nth-child(1) .accueil_contenu"
     news_items: "#bodyContent table tr:nth-child(3) td:nth-child(3) div:nth-child(3) .accueil_contenu"
@@ -43,6 +46,7 @@ ja:
     featured_article: "Today's Featured Article"
     in_the_news: "In The News"
     random_article: "Random Article"
+    copyright: "All text is available under the terms of the GNU Free Documentation License.\n Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a U.S. registered 501(c)(3) tax-deductible nonprofit charity."
 pl: 
   main_page: "Strona_główna"
   translations: 
@@ -52,6 +56,7 @@ pl:
     featured_article: "Today's Featured Article"
     in_the_news: "In The News"
     random_article: "Random Article"
+    copyright: "All text is available under the terms of the GNU Free Documentation License.\n Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a U.S. registered 501(c)(3) tax-deductible nonprofit charity."
   selectors:
     article_of_the_day: "div[style='padding: 5px; font-size: 9pt;']"
     news_items: "#bodyContent :nth-child(7) :nth-child(5)"
@@ -64,6 +69,8 @@ es:
     featured_article: "Artículo destacado"
     in_the_news: "Actualidad"
     random_article: "Página aleatoria"
+    copyright: "Contenido disponible bajo los términos de la Licencia de documentación libre de GNU (véase Derechos de autor).
+Wikipedia® es una marca registrada de la organización sin ánimo de lucro Wikimedia Foundation, Inc."
   selectors:
     article_of_the_day: "#bodyContent table:nth-child(6) table:nth-child(1) tr:nth-child(2)"
     news_items: "#bodyContent table:nth-child(6) table:nth-child(1) tr:nth-child(8)"
