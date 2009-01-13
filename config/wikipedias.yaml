@@ -74,4 +74,17 @@ Wikipedia® es una marca registrada de la organización sin ánimo de lucro Wiki
   selectors:
     article_of_the_day: "#bodyContent table:nth-child(6) table:nth-child(1) tr:nth-child(2)"
     news_items: "#bodyContent table:nth-child(6) table:nth-child(1) tr:nth-child(8)"
+fi:
+  main_page: "Wikipedia:Etusivu"
+  translations:
+    go: "Siirry"
+    search_results: "Etsi"
+    no_article_found: "Artikkelia ei löytynyt"
+    featured_article: "Suositeltu artikkeli"
+    in_the_news: "Ajankohtaista"
+    random_article: "Satunnainen artikkeli"
+    copyright: "Teksti on käytettävissä lisenssillä GNU Free Documentation License.\n Wikipedia® on Wikimedia-säätiön rekisteröimä tavaramerkki."
+  selectors:
+    article_of_the_day: "#bodyContent table tr:nth-child(2) td:nth-child(1) div:nth-child(2) div:nth-child(2)"
+    news_items: "#bodyContent table tr:nth-child(2) td:nth-child(2) div:nth-child(1) div:nth-child(2)"
 
