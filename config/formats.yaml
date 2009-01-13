@@ -2,19 +2,22 @@ html: &defaults
   view_format: 'html'
   search_bar: true
   css_file_name: "application"
+  supports_javascript: false
+
+desktop: &capable
+  <<: *defaults
   supports_javascript: true
 
 webkit:
-  <<: *defaults
-  supports_javascript_selectors: true
+  <<: *capable
+  supports_javascript: true
 
 webkit_native:
-  <<: *defaults
+  <<: *capable
   search_bar: false
-  supports_javascript_selectors: true
+  supports_javascript: true
 
 blackberry:
   <<: *defaults
   css_file_name: "blackberry"
-  supports_javascript: false
 

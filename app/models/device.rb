@@ -23,6 +23,9 @@ class Device
       else
         :webkit
       end
+    elsif user_agent.include?("Firefox") || user_agent.include?("Linux") 
+      # Think of some better tests for this...
+      :desktop
     else
       :html
     end
