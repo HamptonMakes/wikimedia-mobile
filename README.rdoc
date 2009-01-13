@@ -27,21 +27,33 @@ running.
 
 = Getting Running
 
-1. Install Ruby 1.8 and RubyGems http://www.ruby-lang.org/en/downloads/
-2. Install the Merb stack. http://wiki.merbivore.com/howto/installation/gems
-3. Setup host headers for en.mt.wikipedia.org, *.m.wikipedia.org for any language that
-   you want to test. Honestly, anything works, but it needs to start with a language code.
+1) Install Ruby 1.8 and RubyGems http://www.ruby-lang.org/en/downloads/
 
-   So, you could use ja.wikitest as a host.
+2) Install the Merb stack. http://wiki.merbivore.com/howto/installation/gems
 
-   Point each one at 127.0.0.1 assuming you don't have some sort of freaky setup.
+3) Setup host headers for en.m.wikitest.org, *.m.wikitest.org for any language that you want to test. Honestly, anything works, but it needs to start with a language code. Point each one at 127.0.0.1 assuming you don't have some sort of freaky setup. For instance...
 
-4. Install Git http://git-scm.com/download
-5. Checkout the project with the command... `git clone git://github.com/hcatlin/wikimedia-mobile.git`
-6. Go into the new folder and type `merb`
-7. Browse to http://en.mt.wikipedia.org:4000
-8. Start hacking!
-   
+  127.0.0.1	en.m.wikitest.org
+  127.0.0.1	ja.m.wikitest.org
+  127.0.0.1	de.m.wikitest.org
+  127.0.0.1	fr.m.wikitest.org
+  127.0.0.1	pl.m.wikitest.org
+  127.0.0.1	es.m.wikitest.org
+
+4) Install Git http://git-scm.com/download
+
+5) Checkout the project with the command... 
+
+  git clone git://github.com/hcatlin/wikimedia-mobile.git
+
+6) Go into the new folder and type 
+
+  merb
+
+7) Browse to http://en.mt.wikipedia.org:4000
+
+8) Start hacking!
+
 = What should I work on?
 
 Just run this command...
@@ -49,6 +61,24 @@ Just run this command...
   rake todo:list
 
 And you should get a nice list of things that are needed
+
+= How are languages used?
+
+In the config/init.rb file, we load up all of the language settings from a file in config/wikipedias.yaml since really each language is a different Wikipedia install. Let's look at an example entry. (May be very out of date!)
+
+    en:                                               #Language code
+      main_page: "Main_Page"                          #URL to find the main page at on the wiki server
+      translations:                                   # List of translations and their keys
+        go: "Go"
+        search_results: "Search Results"
+        no_article_found: "No Article Found"
+        featured_article: "Today's Featured Article"
+        in_the_news: "In The News"
+        random_article: "Random Article"
+        copyright: "All text is available under the terms of the GNU Free Documentation License.\n Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a U.S. registered 501(c)(3) tax-deductible nonprofit charity."
+      selectors:                                      # CSS3 selectors used to find things on the main pages
+        article_of_the_day: "#mp-tfa"
+        news_items: "#mp-itn"
    
 = Random Useful Things
 
