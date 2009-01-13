@@ -13,10 +13,10 @@ de:
   main_page: "Wikipedia:Hauptseite"
   translations:
     go: "Artikel"
-    search_results: "Search Results"
-    no_article_found: "No Article Found"
-    featured_article: "Today's Featured Article"
-    in_the_news: "In The News"
+    search_results: "Suchergebnisse"
+    no_article_found: "Es existiert kein Artikel"
+    featured_article: "Artikel des Tages"
+    in_the_news: "In den Nachrichten"
   selectors:
     article_of_the_day: "#hauptseite-artikel .inhalt"
     news_items: "#hauptseite-nachrichten .inhalt"
