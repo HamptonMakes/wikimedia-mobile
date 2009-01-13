@@ -6,6 +6,10 @@ describe Article do
     @device = Device.new(nil)
     @device.instance_eval("@user_agent = 'Webkit'")
   end
+  before(:each) do
+    # Stubs out networking
+    Curl::Easy.stub!(:perform).and_return ARTICLE_GO_MAN_GO
+  end
   
   it "should grab an article" do
     article = Article.new("en", "Go Man Go")
@@ -25,6 +29,11 @@ describe Article do
   end  
   
   describe "Random article" do
+    before(:each) do
+      # Stubs out networking
+      Curl::Easy.stub!(:perform).and_return ARTICLE_GO_MAN_GO
+    end
+
     it "should get a random article" do
       article = Article.random("en")
       article.should be_a_kind_of(Article)
