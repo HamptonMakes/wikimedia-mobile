@@ -28,12 +28,13 @@ fr:
   main_page: "Accueil"
   translations:
     go: "Consulter"
-    search_results: "Search Results"
-    no_article_found: "No Article Found"
-    featured_article: "Today's Featured Article"
-    in_the_news: "In The News"
-    random_article: "Random Article"
-    copyright: "All text is available under the terms of the GNU Free Documentation License.\n Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a U.S. registered 501(c)(3) tax-deductible nonprofit charity."
+    search_results: "Résultats de la recherche"
+    no_article_found: "Aucun titre de page ne correspond à la recherche"
+    featured_article: "Lumière sur..."
+    in_the_news: "Actualités et événements"
+    random_article: "Un article au hasard"
+    copyright: "Droit d'auteur : Tous les textes sont disponibles sous les termes de la licence de documentation libre GNU (GFDL).
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis."
   selectors:
     article_of_the_day: "#bodyContent table tr:nth-child(3) td:nth-child(3) div:nth-child(1) .accueil_contenu"
     news_items: "#bodyContent table tr:nth-child(3) td:nth-child(3) div:nth-child(3) .accueil_contenu"
@@ -64,7 +65,7 @@ es:
   main_page: "Wikipedia:Portada"
   translations:
     go: "Ir"
-    search_results: "Buscar"
+    search_results: "Resultados de la búsqueda"
     no_article_found: "No hay coincidencias"
     featured_article: "Artículo destacado"
     in_the_news: "Actualidad"
