@@ -35,7 +35,6 @@ describe "articles" do
   end
   
   describe "that is redirected" do
-    
     it "should load the redirected page" do
       response = request("/wiki/Sass")
       response.should be_successful

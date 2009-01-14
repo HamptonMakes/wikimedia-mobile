@@ -7,13 +7,17 @@ class Server
   # Whenever you create a new article
   # you need to give it a host and a port
   def initialize(language_code = "en", opts = {})
-    @host = opts.fetch(:host, "#{language_code}.wikipedia.com")
+    @host = opts.fetch(:host, "#{language_code}.wikipedia.org")
     @port = opts.fetch(:port, "80")
   end
   
   # What is the base URL for this server?
   def base_url
-    "http://#{@host}:#{@port}"
+    if @port.to_i != 80
+      "http://#{@host}:#{@port}"
+    else
+      "http://#{@host}"
+    end
   end
   
   def file(title)
