@@ -88,3 +88,5 @@ In the config/init.rb file, we load up all of the language settings from a file 
 
 Well, because I'm lazy and I hate versioning this kind of thing... check out Ohloh to find out who has worked on this project the most! https://www.ohloh.net/p/wikimedia-mobile/contributors
 
+But seriously, this thing wouldn't be possible at all if it weren't for all of the amazing developers out there who have spent their free time making Wikimedia Mobile totally freaking awesome.
+

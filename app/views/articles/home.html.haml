@@ -1,17 +1,17 @@
-- fetch_fragment({}, {:expire_in => 86400 , :store => :memcached}) do
-  = language_notice if !supported_language?
-  .links
-    %button{:type => "button", :onclick => "window.location = '/wiki/::Random'"}= language_object["random_article"]
+= language_notice if !supported_language?
 
-  .logo 
-    <img src="/images/logo-en.png" /><br/>
+.links
+  %button{:type => "button", :onclick => "window.location = '/wiki/::Random'"}= language_object["random_article"]
 
-  #main_box
-    - if @main_page["article_of_the_day"]
-      %h2= language_object["featured_article"]
-      #featured_article= @main_page["article_of_the_day"]
+.logo 
+  <img src="/images/logo-en.png" /><br/>
 
-    - if @main_page["news_items"]
-      .today
-        %h2= language_object["in_the_news"]
-        = @main_page["news_items"]
+#main_box
+  - if @main_page["article_of_the_day"]
+    %h2= language_object["featured_article"]
+    #featured_article= @main_page["article_of_the_day"]
+
+  - if @main_page["news_items"]
+    .today
+      %h2= language_object["in_the_news"]
+      = @main_page["news_items"]

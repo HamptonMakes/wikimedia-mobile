@@ -3,7 +3,7 @@
   %head
     %title Wikipedia
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    = css_include_tag request.device.css_file_name
+    %link{:type => "text/css", :href => "/stylesheets/#{request.device.css_file_name}.css", :rel => "Stylesheet", :media => "all"}/
     <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
     <meta name = "viewport" content = "width=device-width">
     - if request.device.supports_javascript
