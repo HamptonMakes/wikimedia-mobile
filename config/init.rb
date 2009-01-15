@@ -3,12 +3,14 @@
 # Specify a specific version of a dependency
 # 
 dependency "merb-assets"
+dependency 'merb-cache'
 #dependency "merb-more"
 dependency "merb-haml"
 dependency "nokogiri"
 dependency 'curb'
 require 'lib/merb_hoptoad_notifier/lib/merb_hoptoad_notifier'
 require 'lib/object'
+require 'merb-cache'
 
 #  use_orm :none
 use_test :rspec
@@ -44,3 +46,10 @@ end
 %w[webkit_native webkit wml].each do |type|
   Merb.add_mime_type(:"#{type}", :to_html, %w[text/html])
 end
+
+# Basic setup of Merb::Cache with memcached 
+Merb::Cache.setup do
+  register(:memcached, Merb::Cache::MemcachedStore, 
+           {:namespace => "wikipedia_mobile", 
+            :servers => ["127.0.0.1:11211"]})
+end 

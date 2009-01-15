@@ -3,7 +3,15 @@ class Articles < Application
   
   def home
     @name = "::Home"
-    @main_page = Wikipedia.main_page(request.language_code)
+    unless Merb::Cache[:memcached].exists?("home_page", {:language_code =>  request.language_code}) 
+      @main_page = Wikipedia.main_page(request.language_code)
+      Merb::Cache[:memcached].write("home_page",
+                                    Wikipedia.main_page(request.language_code) ,
+                                     {:language_code =>  request.language_code} , 
+                                      :expires_in => 86400) # i can put 1.day
+    else                                             
+      @main_page = Merb::Cache[:memcached].read("home_page",{:language_code =>  request.language_code})
+    end 
     render
   end
   
