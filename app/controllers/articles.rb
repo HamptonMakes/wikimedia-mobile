@@ -21,7 +21,8 @@ class Articles < Application
   end
   
   def file
-    render current_server.file(params[:file]).html(:image)
+    @article = current_server.file(params[:file])
+    render
   end
   
  private 

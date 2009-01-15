@@ -173,6 +173,13 @@ table.admin {
   margin-bottom: 25px;
   margin-left: 20px; }
 
+#image {
+  padding-top: 15px; }
+
+#footer {
+  padding-top: 20px;
+  font-size: 80%; }
+
 .today .noprint {
   display: none; }
 

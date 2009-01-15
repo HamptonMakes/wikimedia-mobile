@@ -47,6 +47,9 @@ ja:
     in_the_news: "新着記事"
     random_article: "つまみ読み"
     copyright: "すべてのウィキペディアの素材におけるテキストの複製、配布及び改変は、Free Software Foundationが発行するGNU Free Documentation Licenseのバージョンの1.2以上の条件の下に、許諾されます。\n Wikipedia® は Wikimedia Foundation, Inc. の米国およびその他の国における登録商標です"
+  selectors:
+    article_of_the_day: "#bodyContent table:nth-child(8) td:nth-child(1) div:nth-child(3)"
+    news_items:         "#bodyContent table:nth-child(8) td:nth-child(1) div:nth-child(6)"
 pl: 
   main_page: "Strona_główna"
   translations: 
@@ -83,7 +86,10 @@ pt:
     in_the_news: "Eventos recentes"
     random_article: "Página aleatória"
     copyright: "O texto desta página está sob a GNU Free Documentation License. \nOs direitos autorais de todas as contribuições para a Wikipédia pertencem aos seus respectivos autores (mais informações em direitos autorais)."
-nl:
+  selectors:
+    article_of_the_day: "#bodyContent table:nth-child(1) tr:nth-child(2)"
+    news_items: "#bodyContent div table:nth-child(1) tr:nth-child(2)"
+nl: 
   main_page: "Hoofdpagina"
   translations:
     go: "Artikel"
@@ -94,6 +100,9 @@ nl:
     in_the_news_alt: "In het nieuws"
     random_article: "Willekeurige pagina"
     copyright: "De tekst op Wikipedia is zonder enige vorm van garantie beschikbaar onder de GNU Free Documentation License. \nWikipedia® is een geregistreerd handelsmerk van de Wikimedia Foundation, Inc., een in de Verenigde Staten geregistreerde organisatie zonder winstoogmerk."
+  selectors:
+    article_of_the_day: "tr:nth-child(4) table.radius:nth-child(1) tr:nth-child(3) td:nth-child(1) div:nth-child(1)"
+    news_items: "tr:nth-child(4) table.radius:nth-child(2) tr:nth-child(3) td:nth-child(1) div:nth-child(1)"
     
 fi:
   main_page: "Wikipedia:Etusivu"

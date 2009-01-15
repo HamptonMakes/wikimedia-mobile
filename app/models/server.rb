@@ -21,7 +21,7 @@ class Server
   end
   
   def file(title)
-    Article.new(self, title, "/wiki/File:#{title}")
+    Article.new(self, "File:" + title, "/wiki/File:#{title}")
   end
   
   # In the future, this method might use a cache...
