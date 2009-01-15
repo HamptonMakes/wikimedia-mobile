@@ -23,6 +23,10 @@ class Article < Wikipedia::Resource
   def search_results
     @search_results ||= Parsers::XHTML.search_results(self)
   end
+
+  def suggestions
+    @suggestions ||= Parsers::XHTML.suggestions(self)
+  end
   
   def html(device)
     return @html if @html
