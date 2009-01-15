@@ -84,3 +84,7 @@ In the config/init.rb file, we load up all of the language settings from a file 
 
 * Wikimedia language settings http://en.wikipedia.org/w/api.php?action=sitematrix
 
+= People Who Have Helped!
+
+Well, because I'm lazy and I hate versioning this kind of thing... check out Ohloh to find out who has worked on this project the most! https://www.ohloh.net/p/wikimedia-mobile/contributors
+
