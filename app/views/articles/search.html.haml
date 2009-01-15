@@ -5,5 +5,7 @@
       = @article.search_results
   - else
     %h3= language_object['no_article_found']
+    %ul
+      = @article.suggestions
 - else
   = @article.html(request.device)

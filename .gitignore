@@ -16,3 +16,4 @@ src/*
 .hgignore
 .hg/*
 .svn/*
+.*.swp

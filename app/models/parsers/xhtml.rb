@@ -73,6 +73,16 @@ module Parsers
       end
     end
     
+    def self.suggestions(article)
+      result = Nokogiri::HTML(article.raw_html).css(".searchdidyoumean").first
+
+      if result
+        result.inner_html
+      else
+        false
+      end
+    end
+
     # This goes through the HTML and replaces the section headers with buttons for expanding/closing
     # sections. Aka, a show/hide functionality for webkit
     # WEBKIT
