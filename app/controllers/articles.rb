@@ -1,9 +1,11 @@
 class Articles < Application
   before :setup_ivars
+  before :read_cache, :only=>:home
+  after  :write_cache, :only=>:home
   
   def home
     @name = "::Home"
-    @main_page = Wikipedia.main_page(request.language_code)
+    @main_page = Wikipedia.main_page(@lang)
     render
   end
   
@@ -28,6 +30,24 @@ class Articles < Application
  private 
   def setup_ivars
     @name = ""
+    @lang = request.language_code
   end
   
+  def read_cache
+    if data= Cache.read(cache_key)
+      @cached= true
+      throw(:halt, data)
+    end
+  end
+  
+  def write_cache
+    unless @cached
+      Cache.write(cache_key, self.body, :expires=>Time.now+60*60*24) # Cache for 24 hours
+      # TODO: Find a better cache expiring strategy that considers when the original page on wikipedia gets updated
+    end
+  end
+  
+  def cache_key
+    "#{self.class.name}##{self.action_name}##{@lang}"
+  end
 end

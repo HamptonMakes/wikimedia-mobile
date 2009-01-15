@@ -17,6 +17,7 @@ class Merb::Request
     if Merb.env?(:test) || language_code.include?("localhost") || language_code == "eiximenis" || language_code == "m"
       language_code = "en"
     end
+    params[:lang]= language_code
     language_code
   end
   
