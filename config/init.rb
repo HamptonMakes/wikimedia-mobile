@@ -24,12 +24,6 @@ Merb::Config.use do |c|
   # c[:session_id_key] = '_session_id' # cookie session id key, defaults to "_session_id"
 end
  
-dependency "merb-cache" do 
-  Merb::Cache.setup do
-    register(Merb::Cache::ActionStore[Merb::Cache::FileStore])
-  end
-end
-
 Merb::BootLoader.before_app_loads do
   Merb.push_path(:merb_extensions, Merb.root / "merb/extensions", "**/*.rb")  
   Merb.push_path(:lib_wikipedia, Merb.root / "lib" / "wikipedia", "**/*.rb")
@@ -43,15 +37,9 @@ Merb::BootLoader.after_app_loads do
     Device.available_formats = YAML::load(open("config/formats.yaml"))
   rescue Exception => e
     puts "There appears to be a syntax error in your YAML configuration files."
-    raise
     exit
   end
 end
-
-#Merb::Plugins.config[:merb_cache] = {
-#  :store => "memory"
-#}
-
 
 # Add our mime-types for device based content type negotiation
 %w[webkit_native webkit wml].each do |type|
