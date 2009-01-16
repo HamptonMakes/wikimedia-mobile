@@ -1,7 +1,7 @@
 class Articles < Application
   
   def home
-    cache(Time.now+60*60*24) do # Cache for 24 hours
+    Cache.cache(cache_key, Time.now+60*60*24) do # Cache for 24 hours
       @main_page = Wikipedia.main_page(request.language_code)
       render
     end
@@ -27,16 +27,6 @@ class Articles < Application
  private 
   def current_name
     @name ||= (params[:search] || params[:title] || "").gsub("_", " ")
-  end
-  
-  def cache(expires)
-    data= Cache.read(cache_key)
-    unless data
-      data= yield # run action
-      Cache.write(cache_key, data, :expires=>expires)
-      # TODO: Find a better cache expiring strategy that considers when the original page on wikipedia gets updated
-    end
-    data
   end
   
   def cache_key
