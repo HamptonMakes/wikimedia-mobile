@@ -1,4 +1,5 @@
 class Articles < Application
+  provides :wml
   
   def home
     @main_page = Wikipedia.main_page(request.language_code)

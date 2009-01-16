@@ -16,12 +16,27 @@ module Merb
     
     def search_bar
       go_text = language_object["go"] || "Go"
-       %|
-       <form action="/wiki" method="get" class="search_bar">
-         <input name="search" type="text" size="25" value="#{current_name}">
-         <button type="submit">#{go_text}</button>
-       </form>
-       |
+      if request.device.format_name == :wml
+        %|
+        <card>
+          <p>
+            <input name="search_for" />
+            <do type="button" label="#{go_text}">
+              <go method="get" href="/wiki" class="search_bar">
+                <postfield name="search" value="$(search_for)" />
+              </go>
+            </do>
+          </p>
+        </card>
+        |
+      else
+        %|
+        <form action="/wiki" method="get" class="search_bar">
+          <input name="search" type="text" size="25" value="#{current_name}">
+          <button type="submit">#{go_text}</button>
+        </form>
+        |
+      end
     end
   end
 end
