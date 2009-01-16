@@ -1,10 +1,10 @@
 class Articles < Application
-  before :read_cache, :only=>:home
-  after  :write_cache, :only=>:home
   
   def home
-    @main_page = Wikipedia.main_page(request.language_code)
-    render
+    cache(Time.now+60*60*24) do # Cache for 24 hours
+      @main_page = Wikipedia.main_page(request.language_code)
+      render
+    end
   end
   
   def random
@@ -29,18 +29,14 @@ class Articles < Application
     @name ||= (params[:search] || params[:title] || "").gsub("_", " ")
   end
   
-  def read_cache
-    if data= Cache.read(cache_key)
-      @cached= true
-      throw(:halt, data)
-    end
-  end
-  
-  def write_cache
-    unless @cached
-      Cache.write(cache_key, self.body, :expires=>Time.now+60*60*24) # Cache for 24 hours
+  def cache(expires)
+    data= Cache.read(cache_key)
+    unless data
+      data= yield # run action
+      Cache.write(cache_key, data, :expires=>expires)
       # TODO: Find a better cache expiring strategy that considers when the original page on wikipedia gets updated
     end
+    data
   end
   
   def cache_key

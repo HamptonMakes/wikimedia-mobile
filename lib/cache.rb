@@ -21,6 +21,10 @@ class Cache
   def self.expire(key)
     @@_cache[key]= nil
   end
+
+  def self.swipe!
+    @@_cache={}
+  end
   
   def self.dump
     puts @@_cache.keys.map{|key| [key, @@_cache[key][:expires], @@_cache[key][:data][0..100]]}.inspect

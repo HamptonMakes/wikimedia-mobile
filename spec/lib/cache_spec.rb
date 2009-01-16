@@ -21,5 +21,13 @@ describe Cache do
     sleep 2
     Cache.read(:key).should be_nil
   end
+
+  it "should swipe the cache" do
+    data="Little thing in cache"
+    Cache.write(:key, data)
+    Cache.swipe!
+    Cache.read(:key).should be_nil
+  end
+
 end
 
