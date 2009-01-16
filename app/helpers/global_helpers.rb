@@ -10,7 +10,7 @@ module Merb
         languages are supported on many mobile platforms. If you would like to volunteer
         to help with this language, please contact <a href='mailto:hcatlin@wikimedia.org?subject=Language Help'>hcatlin@wikimedia.org</a>
         </p>
-        <p>Your searches will be on <strong>#{language_code}.wikipedia.org</strong></p>
+        <p>Your searches will be on <strong>#{request.language_code}.wikipedia.org</strong></p>
        </div>|
     end
     
