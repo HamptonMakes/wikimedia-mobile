@@ -2,11 +2,11 @@
  
 # Specify a specific version of a dependency
 # 
-dependency "merb-assets"
 
 dependency "merb-haml"
 dependency "nokogiri"
 dependency 'curb'
+
 require 'lib/merb_hoptoad_notifier/lib/merb_hoptoad_notifier'
 require 'lib/object'
 require 'lib/cache'
