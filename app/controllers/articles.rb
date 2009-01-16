@@ -26,7 +26,7 @@ class Articles < Application
   
  private 
   def current_name
-    @name ||= (params[:search] || params[:title] || nil).gsub("_", " ")
+    @name ||= (params[:search] || params[:title] || "").gsub("_", " ")
   end
   
   def read_cache
