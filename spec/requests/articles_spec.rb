@@ -2,6 +2,26 @@ require File.join(File.dirname(__FILE__), '..', 'spec_helper.rb')
 
 describe "articles" do
 
+  describe "homepage" do
+    before(:each) do
+    end
+    
+    it "should load" do
+      @response= request("/")
+      @response.should be_successful
+    end
+
+    it "should be cached" do
+      Cache.swipe!
+      Cache.should_receive(:write).once.with("Articles#home#en", anything(), anything())
+      @response= request("/")
+      page= @response.body.to_s
+      Cache.should_receive(:read).once.with("Articles#home#en").and_return page
+      @response= request("/")
+      @response.body.should ==page
+    end
+  end
+  
   describe "that exist" do
     before(:each) do
       # Stubs out networking

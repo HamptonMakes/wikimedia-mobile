@@ -22,5 +22,6 @@ blackberry:
   css_file_name: "blackberry"
 
 wml:
-  <<: *defaults
- 
+  view_format: 'wml'
+  search_bar: false
+  supports_javascript: false

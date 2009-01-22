@@ -36,10 +36,13 @@ class Article < Wikipedia::Resource
     
     time_to "parse #{device}" do
       # Figure out if we need to do extra formatting...
-      if device == :image
+      case device.view_format
+      when "image"
         Parsers::Image.parse(self)
-      else 
+      when "html"
         Parsers::XHTML.parse(self, :javascript => device.supports_javascript)
+      when "wml"
+        Parsers::WML.parse(self)
       end
     end
     

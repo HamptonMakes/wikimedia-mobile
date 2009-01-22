@@ -17,15 +17,18 @@ class Device
   end
   
   def format_name
-    @format_name ||= if user_agent.include?("WebKit")
+    @format_name ||= case user_agent
+    when /WebKit/
       if user_agent.include?("iPhone") && !user_agent.include?("Safari")
         :webkit_native
       else
         :webkit
       end
-    elsif user_agent.include?("Firefox") || user_agent.include?("Linux") 
+    when /Firefox/, /Linux/ 
       # Think of some better tests for this...
       :desktop
+    when /Nokia/, /WML/
+      :wml
     else
       :html
     end

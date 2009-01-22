@@ -1,9 +1,13 @@
 class Articles < Application
   provides :wml
   
+  provides :html, :wml
+  
   def home
-    @main_page = Wikipedia.main_page(request.language_code)
-    render
+    Cache.cache(cache_key, Time.now+60*60*24) do # Cache for 24 hours
+      @main_page = Wikipedia.main_page(request.language_code)
+      render
+    end
   end
   
   def random
@@ -28,4 +32,7 @@ class Articles < Application
     @name ||= (params[:search] || params[:title] || "").gsub("_", " ")
   end
   
+  def cache_key
+    "#{self.class.name}##{self.action_name}##{request.language_code}"
+  end
 end

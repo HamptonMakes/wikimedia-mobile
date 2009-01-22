@@ -9,6 +9,7 @@ dependency 'curb'
 
 require 'lib/merb_hoptoad_notifier/lib/merb_hoptoad_notifier'
 require 'lib/object'
+require 'lib/cache'
 
 #  use_orm :none
 use_test :rspec
@@ -41,6 +42,7 @@ Merb::BootLoader.after_app_loads do
 end
 
 # Add our mime-types for device based content type negotiation
-%w[webkit_native webkit wml].each do |type|
+%w[webkit_native webkit].each do |type|
   Merb.add_mime_type(:"#{type}", :to_html, %w[text/html])
 end
+Merb.add_mime_type(:wml, :to_wml, %w[text/vnd.wap.wml])
