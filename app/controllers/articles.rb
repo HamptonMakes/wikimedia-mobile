@@ -1,5 +1,7 @@
 class Articles < Application
   
+  provides :html, :wml
+  
   def home
     Cache.cache(cache_key, Time.now+60*60*24) do # Cache for 24 hours
       @main_page = Wikipedia.main_page(request.language_code)
