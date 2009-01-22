@@ -118,3 +118,17 @@ fi:
   selectors:
     article_of_the_day: "#bodyContent table tr:nth-child(2) td:nth-child(1) div:nth-child(2) div:nth-child(2)"
     news_items: "#bodyContent table tr:nth-child(2) td:nth-child(2) div:nth-child(1) div:nth-child(2)"
+it:
+  main_page: "Pagina_principale"
+  translations:
+    go: "Vai"
+    search_results: "Risultati della ricerca"
+    no_article_found: "Nessuna corrispondenza"
+    featured_article: "Vetrina"
+    in_the_news: "Novità"
+    random_article: "Una voce e caso"
+    copyright: "Tutti i testi sono disponibili nel rispetto dei termini della GNU Free Documentation License."
+  selectors:
+    article_of_the_day: "#Vetrina ~ div"
+    news_items: "a[id='Novit.C3.A0'] ~ div"
+  

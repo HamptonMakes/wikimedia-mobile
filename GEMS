@@ -1,0 +1,8 @@
+# There is probably a better way to do this
+merb
+merb-cache
+memcache-client
+haml
+merb-haml
+curb
+nokogiri

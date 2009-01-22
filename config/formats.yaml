@@ -21,3 +21,6 @@ blackberry:
   <<: *defaults
   css_file_name: "blackberry"
 
+wml:
+  <<: *defaults
+ 

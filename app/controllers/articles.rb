@@ -1,4 +1,5 @@
 class Articles < Application
+  provides :wml
   
   def home
     @main_page = Wikipedia.main_page(request.language_code)
@@ -24,7 +25,7 @@ class Articles < Application
   
  private 
   def current_name
-    @name ||= (params[:search] || params[:title]).gsub("_", " ") rescue nil
+    @name ||= (params[:search] || params[:title] || "").gsub("_", " ")
   end
   
 end
