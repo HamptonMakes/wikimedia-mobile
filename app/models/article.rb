@@ -50,9 +50,8 @@ class Article < Wikipedia::Resource
   end
 
   def fetch!(path = nil)
-    path ||= @path ||= "/wiki/Special:Search?search=#{escaped_title}"
-    super(path)
-    self
+    @paths ||= ["/wiki/#{escaped_title}", "/wiki/Special:Search?search=#{escaped_title}"]
+    super(*@paths)
   end
 
 end

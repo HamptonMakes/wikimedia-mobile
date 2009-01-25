@@ -27,19 +27,27 @@ class Server
   # In the future, this method might use a cache...
   # 
   # paths must start with a /
-  def fetch(path)
-    begin
-      Merb.logger.debug("loading... " + base_url + path)
+  #
+  # You can pass in multiple paths, and it will try each one until it gets a 200
+  def fetch(*paths)
+    paths.each do |path|
+      begin
+        Merb.logger.debug("loading... " + base_url + path)
       
-      result = fetch_from_web(base_url, path)
+        result = fetch_from_web(base_url, path)
       
-      Merb.logger.debug("loaded #{result.downloaded_content_length} characters")
-      {:url => result.last_effective_url, :body => result.body_str}
+        Merb.logger.debug("loaded #{result.downloaded_content_length} characters")
       
-    rescue Curl::Err::HostResolutionError, Curl::Err::GotNothingError
-      Merb.logger.error("Could not connect to " + base_url + path)
-      return ""
+        if result.response_code == 200
+          return {:url => result.last_effective_url, :body => result.body_str} 
+        end
+      
+      rescue Curl::Err::HostResolutionError, Curl::Err::GotNothingError
+        Merb.logger.error("Could not connect to " + base_url + path)
+      end
     end
+    
+    return {}
   end
   
   private 

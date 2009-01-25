@@ -36,9 +36,9 @@ module Wikipedia
       @loaded
     end
     
-    def fetch!(path = nil)
-      raise "No path Given" unless path
-      result = @server.fetch(path)
+    def fetch!(*paths)
+      raise "No path Given" unless paths.any?
+      result = @server.fetch(*paths)
       self.path = URI.parse(result[:url]).path
       @raw_html = result[:body]
       @raw_document = Nokogiri::HTML(@raw_html)
