@@ -46,11 +46,16 @@ module Wikipedia
       self.loaded = true
     end
     
-    private
+   private
     # Used internally to get the escaped title
     # :api: public
     def escaped_title
-      @escaped_title ||= URI::escape(title.gsub(" ", "_"))
+      return "" if title.nil?
+      @escaped_title ||= title.gsub(" ", "_")
+    end
+    
+    def uri_escaped_title
+      @uri_escaped_title ||= URI::escape(escaped_title)
     end
   end
 end

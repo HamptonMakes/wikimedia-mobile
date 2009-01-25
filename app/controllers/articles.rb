@@ -16,10 +16,14 @@ class Articles < Application
   end
   
   def show
-    # Perform a normal search
-    @article = Article.new(current_server, current_name)
-    @article.fetch!
-    display @article, :search
+    if current_name == ""
+      redirect "/wiki/::Home"
+    else
+      # Perform a normal search
+      @article = Article.new(current_server, current_name)
+      @article.fetch!
+      display @article, :search
+    end
   end
   
   def file

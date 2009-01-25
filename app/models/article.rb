@@ -28,7 +28,7 @@ class Article < Wikipedia::Resource
     @suggestions ||= Parsers::XHTML.suggestions(self)
   end
   
-  def html(device)
+  def html(device, page_type = :article)
     return @html if @html
     
     # Grab the html from the server object
@@ -49,9 +49,11 @@ class Article < Wikipedia::Resource
     return @html
   end
 
-  def fetch!(path = nil)
-    @paths ||= ["/wiki/#{escaped_title}", "/wiki/Special:Search?search=#{escaped_title}"]
-    super(*@paths)
+  def fetch!(*paths)
+    if !paths.any?
+      paths = (@paths ||= ["/wiki/#{escaped_title}", "/wiki/Special:Search?search=#{uri_escaped_title}"])
+    end
+    super(*paths)
   end
 
 end

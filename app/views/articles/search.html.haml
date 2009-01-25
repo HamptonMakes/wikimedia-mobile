@@ -1,11 +1,9 @@
 - if @article.has_search_results?
   - if @article.search_results
     %h3= language_object['search_results']
-    %ul
-      = @article.search_results
+    %ul= @article.search_results
   - else
     %h3= language_object['no_article_found']
-    %ul
-      = @article.suggestions
+    %ul= @article.suggestions
 - else
   = @article.html(request.device)
