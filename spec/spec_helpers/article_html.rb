@@ -1,6 +1,7 @@
 class ARTICLE_GO_MAN_GO
   def self.last_effective_url; "http://en.wikipedia.org/wiki/Go_Man_Go" end
   def self.downloaded_content_length; end
+  def self.response_code; 200; end
   def self.body_str
     <<END_HTML
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
