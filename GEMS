@@ -6,3 +6,4 @@ haml
 merb-haml
 curb
 nokogiri
+googlecharts

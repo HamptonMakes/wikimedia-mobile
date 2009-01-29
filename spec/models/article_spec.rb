@@ -51,4 +51,16 @@ describe Article do
     end
   end
   
+  describe "Gzipped pages" do
+    before(:each) do
+      Curl::Easy.stub!(:perform).and_return ARTICLE_EXTRAJUDICIAL_GZIPPED
+    end
+    
+    it "should read fine" do
+      article = Article.new("en", "Go Man Go")
+      article.html(@device).should_not be_blank
+      article.html(@device).should have_xpath("//h1[contains(text(), 'Extrajudicial killings and forced disappearances in the Philippines')]")
+    end
+  end
+  
 end

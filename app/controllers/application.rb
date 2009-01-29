@@ -3,6 +3,7 @@
 # TODO: Make a request to m.wikipedia.org (no sub-sub-domain) redirect to whatever their browser's request is asking for
 class Application < Merb::Controller
   before :debug_output
+  before :logger_output
   
  private
  
@@ -21,6 +22,10 @@ class Application < Merb::Controller
   def current_server
     @current_server ||= Server.new(request.language_code)
   end
+  
+  def logger_output
+    Merb.logger.info("ReqLogger #{Time.now.to_s} (#{request.language_code}) #{params[:controller]}/#{params[:action]}")
+  end 
   
   # This is used right now in the alpha stage to log their user agent
   def debug_output

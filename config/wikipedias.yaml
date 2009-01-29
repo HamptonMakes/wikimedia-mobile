@@ -11,6 +11,7 @@ en:
   selectors:
     article_of_the_day: "#mp-tfa"
     news_items: "#mp-itn"
+
 de: 
   main_page: "Wikipedia:Hauptseite"
   translations:
@@ -24,6 +25,7 @@ de:
   selectors:
     article_of_the_day: "#hauptseite-artikel .inhalt"
     news_items: "#hauptseite-nachrichten .inhalt"
+
 fr:
   main_page: "Accueil"
   translations:

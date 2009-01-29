@@ -38,5 +38,7 @@ Merb::Router.prepare do
 
     match("/w/index.php").to(:controller => "articles", :action => "show")
   end
+  
+  match("/statistics/:action").to(:controller => "statistics")
 
 end
