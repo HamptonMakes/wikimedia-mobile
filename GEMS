@@ -7,5 +7,6 @@ merb-haml
 curb
 nokogiri
 googlecharts
+gchart
 do_mysql
 merb_datamapper
