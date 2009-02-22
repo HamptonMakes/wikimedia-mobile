@@ -31,10 +31,10 @@ module Merb
         |
       else
         %|
-        <form action="/wiki" method="get" class="search_bar">
-          <input name="search" type="text" size="25" value="#{URI::unescape(current_name)}">
-          <button type="submit">#{go_text}</button>
-        </form>
+<form action="/wiki" method="get" class="search_bar">
+  <input name="search" type="text" size="28" value="#{URI::unescape(current_name)}">
+  <button type="submit">#{go_text}</button>
+</form>
         |
       end
     end

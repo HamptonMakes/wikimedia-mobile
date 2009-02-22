@@ -1,3 +1,9 @@
+- if params[:random]
+  .notice
+    You were sent to this random article because you clicked the logo on the main page. 
+    %br/
+    Click the W again to go back.
+
 - if @article.has_search_results?
   - if @article.search_results
     %h3= language_object['search_results']
@@ -6,4 +12,7 @@
     %h3= language_object['no_article_found']
     %ul= @article.suggestions
 - else
-  = @article.html(request.device)
+  = preserve @article.html(request.device)
+
+.notice
+  %a{:href => "http://#{request.language_code}/wiki/#{@article.title}"} View this site on traditional Wikipedia

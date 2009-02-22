@@ -1,3 +1,6 @@
+require 'stringio' 
+require 'zlib'
+
 # Server is a model class that represents a media wiki server.
 # This is the base model for getting articles and eventually login-logout stuff.
 class Server
@@ -34,12 +37,29 @@ class Server
       begin
         Merb.logger.debug("loading... " + base_url + path)
       
-        result = fetch_from_web(base_url, path)
-      
-        Merb.logger.debug("loaded #{result.downloaded_content_length} characters")
+        result = fetch_from_web(path)
+
+        compressed_size = result.downloaded_content_length
+
+        Merb.logger.debug("loaded #{result.downloaded_content_length} compressed characters")
+        
+        if result.header_str.include?("Cache: HIT")
+          Merb.logger.debug("Cache HIT")
+        else
+          Merb.logger.debug("Cache MISS")
+        end
       
         if result.response_code == 200
-          return {:url => result.last_effective_url, :body => result.body_str} 
+          body = nil
+          time_to "decompress" do
+            gz = Zlib::GzipReader.new( StringIO.new( result.body_str ) ) 
+            body = gz.read
+            
+          end
+          
+          Merb.logger.debug("Decompressed to #{body.size} characters")
+          
+          return {:url => result.last_effective_url, :body => body} 
         end
       
       rescue Curl::Err::HostResolutionError, Curl::Err::GotNothingError
@@ -49,14 +69,14 @@ class Server
     
     return {}
   end
-  
-  private 
+
   # :api: private
-  def fetch_from_web(base, path)
+  def fetch_from_web(path)
     time_to "fetch" do
       Curl::Easy.perform(base_url + path) do |curl|
         # This configures Curl::Easy to follow redirects
         curl.follow_location = true
+        curl.headers = {"Accept-Encoding" => "compress, gzip"}
       end    
     end
   end

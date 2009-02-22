@@ -11,7 +11,7 @@ require 'lib/merb_hoptoad_notifier/lib/merb_hoptoad_notifier'
 require 'lib/object'
 require 'lib/cache'
 
-#  use_orm :none
+use_orm :datamapper
 use_test :rspec
 use_template_engine :haml
  
@@ -28,6 +28,9 @@ Merb::BootLoader.before_app_loads do
   Merb.push_path(:merb_extensions, Merb.root / "merb/extensions", "**/*.rb")  
   Merb.push_path(:lib_wikipedia, Merb.root / "lib" / "wikipedia", "**/*.rb")
   # This will get executed after dependencies have been loaded but before your app's classes have loaded.
+  # 
+  DataMapper.setup(:default, 'mysql://localhost/wikimedia_mobile')
+  
 end
  
 Merb::BootLoader.after_app_loads do

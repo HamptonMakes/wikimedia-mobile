@@ -7,11 +7,14 @@
     <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
     <meta name = "viewport" content = "width=device-width">
     <meta name = "viewport" content = "initial-scale = 1.0">
-    - if request.device.supports_javascript
-      = partial "layout/javascript"
+    = partial "layout/javascript" if request.device.supports_javascript
   %body
     #content_wrapper
-      = search_bar if request.device.search_bar
+      - if request.device.search_bar
+        #header
+          %a{:href => @main_page ? "/wiki/::Random" : "/wiki/::Home"}
+            %img{:src => "/images/w.gif", :id => "logo"}/
+          = search_bar
       = catch_content :for_layout
     #footer
       = language_object["copyright"]

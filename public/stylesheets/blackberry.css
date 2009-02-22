@@ -1,19 +1,26 @@
 #blackberry {
   test: 1; }
 
-.logo {
-  text-align: right;
-  padding-top: 5px; }
-  .logo a {
-    clear: right; }
-
-#main_box {
-  margin-top: -20px; }
+#header {
+  height: 30px;
+  width: 293px;
+  padding: 8px 0 0 8px;
+  margin: 0 0 10px 0;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px; }
+  #header a, #header img {
+    border: 0px; }
+  #header #logo {
+    float: left;
+    padding-right: 5px; }
 
 .notice {
   padding: 5px;
-  border: 1px solid red;
-  margin-top: 5px; }
+  background: #ddd;
+  -webkit-border-radius: 5px;
+  margin-top: 5px;
+  text-align: center; }
 
 
 html {
@@ -63,6 +70,8 @@ img.thumbborder {
 
 .thumb {
   border: 1px solid #ccc;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
   background: #f9f9f9;
   margin-bottom: 10px; }
   .thumb .thumbinner[style] {
@@ -162,6 +171,12 @@ table {
 
 table.admin {
   width: 300px; }
+
+#featured_article .noprint {
+  display: none; }
+
+#firstHeading {
+  font-size: 140%; }
 
 
 .help dt {
