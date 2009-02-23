@@ -1,5 +1,7 @@
 # This is the place for general todo's
 # TODO: get the log parsing going.... 
+# TODO: Add more languages. See config/wikipedias.yaml
+# TODO: Increase the performance of the main parsers
 # TODO: Make a request to m.wikipedia.org (no sub-sub-domain) redirect to whatever their browser's request is asking for (if its a supported langauge by DNS)
 class Application < Merb::Controller
   before :debug_output
