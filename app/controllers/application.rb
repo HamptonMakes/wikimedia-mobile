@@ -1,6 +1,6 @@
 # This is the place for general todo's
-# TODO: Build out the application.wml.haml files so that we have WML support
-# TODO: Make a request to m.wikipedia.org (no sub-sub-domain) redirect to whatever their browser's request is asking for
+# TODO: get the log parsing going.... 
+# TODO: Make a request to m.wikipedia.org (no sub-sub-domain) redirect to whatever their browser's request is asking for (if its a supported langauge by DNS)
 class Application < Merb::Controller
   before :debug_output
   before :logger_output
