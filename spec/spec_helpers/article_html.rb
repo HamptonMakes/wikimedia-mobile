@@ -1,6 +1,7 @@
 class ARTICLE_GO_MAN_GO
   def self.last_effective_url; "http://en.wikipedia.org/wiki/Go_Man_Go" end
   def self.downloaded_content_length; end
+  def self.header_str; "Cache: HIT"; end
   def self.response_code; 200; end
   def self.body_str
     <<END_HTML

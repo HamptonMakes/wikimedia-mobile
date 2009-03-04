@@ -1,12 +1,11 @@
 class Articles < Application
   provides :wml
-  
-  provides :html, :wml
+  provides :html
   
   def home
     Cache.cache(cache_key, Time.now+60*60*24) do # Cache for 24 hours
       @main_page = Wikipedia.main_page(request.language_code)
-      render
+      render :layout => request.device.with_layout
     end
   end
   
@@ -22,13 +21,13 @@ class Articles < Application
       # Perform a normal search
       @article = Article.new(current_server, current_name)
       @article.fetch!
-      display @article, :search
+      render :layout => request.device.with_layout
     end
   end
   
   def file
     @article = current_server.file(params[:file])
-    render
+    render :layout => request.device.with_layout
   end
   
  private 
@@ -37,6 +36,6 @@ class Articles < Application
   end
   
   def cache_key
-    "#{self.class.name}##{self.action_name}##{request.language_code}"
+    "#{self.class.name}##{self.action_name}##{request.language_code}##{request.device.format_name}"
   end
 end

@@ -35,6 +35,8 @@ fr:
     featured_article: "Lumière sur..."
     in_the_news: "Actualités et événements"
     random_article: "Un article au hasard"
+    random_article_notice: "Vous avez été envoyé ici car vous avez cliqué sur le logo de la page principale, cliquer à nouveau sur le W pour revenir en [arrière|à la page précédente]"
+    link_to_wikipedia: "Regardez cette page sur son site d'origine"
     copyright: "Droit d'auteur : Tous les textes sont disponibles sous les termes de la licence de documentation libre GNU (GFDL).
 Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis."
   selectors:

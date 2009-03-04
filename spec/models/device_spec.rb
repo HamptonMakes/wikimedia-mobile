@@ -12,14 +12,14 @@ describe Device do
     
     describe "webkit_native" do
       
-      it "should be webkit_native if there is Webkit, iPhone and not Safari in the UA string" do
-        ua = "Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1C28"
+      it "should be rhosync if there is rhosync in the UA string" do
+        ua = "Rhosync"
         dev = Device.new(fake_ua_request(ua))
-        dev.format_name.should == :webkit_native
+        dev.format_name.should == :rhosync
       end
       
-      it "should use the webkit_native_ua helper to get a valid :webkit_native format" do
-        Device.new(fake_ua_request(webkit_native_ua)).format_name.should == :webkit_native
+      it "should use the webkit_native_ua helper to get a valid :webkit format since this is depricated" do
+        Device.new(fake_ua_request(webkit_native_ua)).format_name.should == :webkit
       end
       
       it "should not be webkit_native if there is Safari in the UA string" do

@@ -13,10 +13,10 @@ describe "articles" do
 
     it "should be cached" do
       Cache.swipe!
-      Cache.should_receive(:write).once.with("Articles#home#en", anything(), anything())
+      Cache.should_receive(:write).once.with("Articles#home#en#html", anything(), anything())
       @response= request("/")
       page= @response.body.to_s
-      Cache.should_receive(:read).once.with("Articles#home#en").and_return page
+      Cache.should_receive(:read).once.with("Articles#home#en#html").and_return page
       @response= request("/")
       @response.body.should ==page
     end

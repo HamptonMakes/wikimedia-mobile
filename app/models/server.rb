@@ -52,8 +52,14 @@ class Server
         if result.response_code == 200
           body = nil
           time_to "decompress" do
-            gz = Zlib::GzipReader.new( StringIO.new( result.body_str ) ) 
-            body = gz.read
+            
+            begin 
+              gz = Zlib::GzipReader.new( StringIO.new( result.body_str ) )
+              body = gz.read
+            rescue Zlib::GzipFile::Error
+              # If its not looking gzipped, just display it
+              body = result.body_str
+            end
             
           end
           

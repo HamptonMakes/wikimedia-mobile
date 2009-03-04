@@ -10,8 +10,6 @@ class Statistics < Application
   end
   
   def parse
-   
-    
     redirect "/statistics/index"
   end
   

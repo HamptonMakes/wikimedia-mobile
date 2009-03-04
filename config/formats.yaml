@@ -1,6 +1,7 @@
 html: &defaults
   view_format: 'html'
   search_bar: true
+  with_layout: "application"
   css_file_name: "application"
   supports_javascript: false
 
@@ -12,8 +13,9 @@ webkit:
   <<: *capable
   supports_javascript: true
 
-webkit_native:
+rhosync:
   <<: *capable
+  with_layout: false
   search_bar: false
   supports_javascript: true
 

@@ -4,10 +4,11 @@
 # TODO: Increase the performance of the main parsers
 # TODO: Make a request to m.wikipedia.org (no sub-sub-domain) redirect to whatever their browser's request is asking for (if its a supported langauge by DNS)
 class Application < Merb::Controller
+  before :no_language_domain
   before :debug_output
   before :logger_output
   
- private
+ protected
  
   def supported_language?
     Wikipedia.settings[request.language_code]
@@ -28,6 +29,12 @@ class Application < Merb::Controller
   def logger_output
     Merb.logger.info("ReqLogger #{Time.now.to_s} (#{request.language_code}) #{params[:controller]}/#{params[:action]}")
   end 
+  
+  def no_language_domain
+    if request.language_code == "m"
+      throw :halt, redirect("http://#{request.env["HTTP_ACCEPT_LANGUAGE"][0..1]}.#{request.host}")
+    end
+  end
   
   # This is used right now in the alpha stage to log their user agent
   def debug_output
