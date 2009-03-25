@@ -24,6 +24,8 @@ class Device
       :rhosync
     when /Nokia/, /WML/
       :wml
+    when /Kindle\/2.0/
+      :kindle2
     else
       :html
     end
@@ -35,6 +37,10 @@ class Device
   
   def method_missing(name, *args, &block)
     format[name.to_s]
+  end
+  
+  def to_s
+    format_name.to_s
   end
   
 end

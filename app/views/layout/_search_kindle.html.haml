@@ -1,0 +1,13 @@
+%table#header
+  %tr
+    %td
+      %img{:src => "/images/w.gif", :id => "logo"}/
+    %td
+      %form.search_bar{:action => "/wiki", :method => "get"}
+      %input{:name => "search", :type => "text", :size => "40", :value => URI::unescape(current_name)}/
+      %button{:type => "submit"}= go_text
+
+#nav
+  %a{:href => "/wiki/::Home"} Home
+  |
+  %a{:href => "/wiki/::Random"} Random

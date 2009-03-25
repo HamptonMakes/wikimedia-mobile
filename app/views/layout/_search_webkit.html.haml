@@ -1,0 +1,6 @@
+#header
+  %a{:href => @main_page ? "/wiki/::Random" : "/wiki/::Home"}
+    %img{:src => "/images/w.gif", :id => "logo"}/
+  %form.search_bar{:action => "/wiki", :method => "get"}
+    %input{:name => "search", :type => "text", :size => "28", :value => URI::unescape(current_name)}/
+    %button{:type => "submit"}= go_text

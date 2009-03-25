@@ -1,8 +1,8 @@
 html: &defaults
   view_format: 'html'
-  search_bar: true
+  search_bar: 'webkit'
   with_layout: "application"
-  css_file_name: "application"
+  css_file_name: "webkit"
   supports_javascript: false
 
 desktop: &capable
@@ -19,11 +19,16 @@ rhosync:
   search_bar: false
   supports_javascript: true
 
+kindle2:
+  <<: *defaults
+  search_bar: 'kindle'
+  css_file_name: "kindle"
+
 blackberry:
   <<: *defaults
   css_file_name: "blackberry"
 
 wml:
   view_format: 'wml'
-  search_bar: false
+  search_bar: 'wml'
   supports_javascript: false
