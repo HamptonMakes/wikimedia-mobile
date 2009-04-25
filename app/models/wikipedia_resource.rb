@@ -51,7 +51,7 @@ module Wikipedia
     # :api: public
     def escaped_title
       return "" if title.nil?
-      @escaped_title ||= title.gsub(" ", "_").split("|").first.strip
+      @escaped_title ||= title.split("|").first.strip.gsub(" ", "_")
     end
     
     def uri_escaped_title
