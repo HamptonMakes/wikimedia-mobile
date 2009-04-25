@@ -44,7 +44,7 @@ describe Device do
         ua = webkit_ua
         dev = Device.new(fake_ua_request(ua))
         dev.format_name.should == :webkit
-        dev.search_bar.should == true
+        dev.search_bar.should == 'webkit'
       end
     end
     
