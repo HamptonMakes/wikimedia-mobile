@@ -18,6 +18,10 @@ class Device
   
   def format_name
     @format_name ||= case user_agent
+    when /Android/
+      :android
+    when /iPhone/
+      :iphone
     when /WebKit/
       :webkit
     when /Rhosync/

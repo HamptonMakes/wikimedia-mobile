@@ -1,17 +1,25 @@
 html: &defaults
   view_format: 'html'
-  search_bar: 'webkit'
+  search_bar: 'default'
   with_layout: "application"
-  css_file_name: "webkit"
+  css_file_name: "default"
   supports_javascript: false
 
 desktop: &capable
   <<: *defaults
   supports_javascript: true
 
-webkit:
+webkit: &webkit
   <<: *capable
-  supports_javascript: true
+  search_bar: 'webkit'
+  css_file_name: 'webkit'
+  
+android: 
+  <<: *webkit
+  css_file_name: "android"
+
+iphone:
+  <<: *webkit
 
 rhosync:
   <<: *capable

@@ -18,6 +18,10 @@ module Merb
       language_object["go"] || "Go"
     end
     
+    def button_to(text, to)
+      %|<form method="get" action="#{to}"><button type="submit">#{text}</button></form>|
+    end
+    
   end
 end
 

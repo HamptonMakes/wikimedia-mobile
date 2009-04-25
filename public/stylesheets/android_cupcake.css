@@ -1,6 +1,3 @@
-#blackberry {
-  test: 1; }
-
 
 table {
   border-spacing: 0 !important;
@@ -220,3 +217,26 @@ img.thumbborder {
 
 .floatright {
   float: right; }
+
+body {
+  font-size: 140%; }
+
+input {
+  width: 190px; }
+
+form.search_bar {
+  margin-top: -5px;
+  position: absolute;
+  margin-left: 45px; }
+
+#header {
+  height: 35px;
+  padding-top: 10px; }
+
+#nav {
+  width: 200px;
+  height: 40px;
+  margin-top: -2px;
+  padding-top: 0px; }
+  #nav button {
+    margin-left: 18px; }

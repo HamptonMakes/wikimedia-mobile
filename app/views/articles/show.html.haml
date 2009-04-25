@@ -1,9 +1,3 @@
-- if params[:random]
-  .notice
-    You were sent to this random article because you clicked the logo on the main page. 
-    %br/
-    Click the W again to go back.
-
 - if @article.has_search_results?
   - if @article.search_results
     %h3= language_object['search_results']

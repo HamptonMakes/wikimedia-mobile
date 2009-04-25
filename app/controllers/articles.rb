@@ -11,7 +11,7 @@ class Articles < Application
   
   def random
     @article = Article.random(current_server)
-    redirect(@article.path + "?random=true")
+    redirect(@article.path)
   end
   
   def show
