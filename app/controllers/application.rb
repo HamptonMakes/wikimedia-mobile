@@ -27,7 +27,7 @@ class Application < Merb::Controller
   end
   
   def logger_output
-    Merb.logger.info("ReqLogger #{Time.now.to_s} (#{request.language_code}) #{params[:controller]}/#{params[:action]}")
+    Merb.logger.info("ReqLogger #{Time.now.to_s} (#{request.language_code}) #{params[:controller]}/#{params[:action]} | #{request.user_agent} | #{request.device.format_name}")
   end 
   
   def no_language_domain
@@ -39,7 +39,7 @@ class Application < Merb::Controller
   
   # This is used right now in the alpha stage to log their user agent
   def debug_output
-    if Merb.env != "test"
+    if Merb.env == "development"
       Merb.logger.debug("User Agent: " + request.user_agent)
       Merb.logger.debug("Format: " + request.device.format_name.to_s)
       Merb.logger.debug("Language Code: " + request.language_code)
