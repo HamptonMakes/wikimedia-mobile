@@ -39,6 +39,8 @@ Merb::Router.prepare do
     match("/w/index.php").to(:controller => "articles", :action => "show")
   end
   
+  match(/\/w\/extensions\/(.*)/).to(:action => "not_found", :controller => "exceptions")
+  
   # Disable this in production
   #match("/statistics/:action").to(:controller => "statistics")
 
