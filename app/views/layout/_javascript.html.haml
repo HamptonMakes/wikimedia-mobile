@@ -10,3 +10,6 @@
   :javascript
     var title = "#{@name}";
     var server = "#{current_server.base_url}";
+
+- if request.device.format == :iphone_native
+  = javascript_include_tag "http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"
