@@ -35,6 +35,7 @@ Merb::Router.prepare do
     match(/\/wiki\/::Home/).to(:action => "home")
     match(/\/wiki\/::Random/).to(:action => "random")
     match(/\/wiki[\/]?(.*)/).to(:action => "show", :title => "[1]")
+    match(/\/lookup\/([a-z]*).wikipedia.org\/(.*)/).to(:action => "show", :title => "[2]", :lang => "[1]")
 
     match("/w/index.php").to(:controller => "articles", :action => "show")
   end

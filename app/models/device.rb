@@ -20,12 +20,14 @@ class Device
     @format_name ||= case user_agent
     when /Android/
       :android
-    when /iPhone/
+    when /iPhone .* Safari/
       :iphone
-    when /WebKit/
-      :webkit
+    when /iPhone/
+      :native_iphone
     when /Rhosync/
       :rhosync
+    when /WebKit/
+      :webkit
     when /Nokia/, /WML/
       :wml
     when /Kindle\/2.0/

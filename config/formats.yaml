@@ -21,6 +21,11 @@ android:
 iphone:
   <<: *webkit
 
+native_iphone:
+  <<: *capable
+  search_bar: false
+  supports_javascript: true
+
 rhosync:
   <<: *capable
   with_layout: false
