@@ -1,9 +1,12 @@
-- if request.device.supports_javascript
-  - if @article
-    :javascript
-      var title = "#{@article.title.gsub("_", " ")}";
-      var server = "#{@article.server.base_url}";
-  - elsif current_name != ""
-    :javascript
-      var title = "#{@name}";
-      var server = "#{current_server.base_url}";
+
+- if @article
+  :javascript
+    var title = "#{@article.title.gsub("_", " ")}";
+    var server = "#{@article.server.base_url}";
+    function shouldCache() {
+      return true;
+    }
+- elsif current_name != ""
+  :javascript
+    var title = "#{@name}";
+    var server = "#{current_server.base_url}";

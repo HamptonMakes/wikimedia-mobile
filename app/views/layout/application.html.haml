@@ -8,8 +8,8 @@
     <meta name = "viewport" content = "width=device-width">
     <meta name = "viewport" content = "initial-scale = 1.0">
     <link rel="apple-touch-icon" href="http://en.m.wikipedia.org/apple-touch-icon.png" />
-    = partial "layout/javascript"
     - if request.device.supports_javascript
+      = partial "layout/javascript"
       <script type="text/javascript" language="javascript" SRC="/webkit.js"></script>
   %body
     #content_wrapper

@@ -17,6 +17,8 @@ class Articles < Application
   def show
     if current_name == ""
       redirect "/wiki/::Home"
+    elsif current_name[0..1] == "::"
+      redirect "/wiki/#{current_name}"
     else
       # Perform a normal search
       @article = Article.new(current_server, current_name)
