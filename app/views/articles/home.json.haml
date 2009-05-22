@@ -1,0 +1,11 @@
+= language_notice if !supported_language?
+
+#main_box
+  - if @main_page["article_of_the_day"]
+    %h2= language_object["featured_article"]
+    #featured_article= preserve @main_page["article_of_the_day"]
+
+  - if @main_page["news_items"]
+    .today
+      %h2= language_object["in_the_news"]
+      = preserve @main_page["news_items"]
