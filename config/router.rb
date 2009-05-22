@@ -34,10 +34,17 @@ Merb::Router.prepare do
   
     match(/\/wiki\/::Home/).to(:action => "home")
     match(/\/wiki\/::Random/).to(:action => "random")
-    match(/\/wiki[\/]?(.*)/).to(:action => "show", :title => "[1]")
-    match(/\/lookup\/([a-z]*).wikipedia.org\/(.*)/).to(:action => "show", :title => "[2]", :lang => "[1]")
+    
+    with(:action => "show") do
+      # Primary HTML way to access information
+      match(/\/wiki[\/]?(.*)/).to(:title => "[1]")
+      
+      # Legacy support for iwik
+      match(/\/lookup\/([a-z]*).wikipedia.org\/(.*)/).to(:title => "[2]", :lang => "[1]")
 
-    match("/w/index.php").to(:controller => "articles", :action => "show")
+      # Support for links inside wikipedia that point to index.php
+      match("/w/index.php").to(:controller => "articles", :action => "show")
+    end
   end
   
   match(/\/w\/extensions\/(.*)/).to(:action => "not_found", :controller => "exceptions")

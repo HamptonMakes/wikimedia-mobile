@@ -55,5 +55,9 @@ class Article < Wikipedia::Resource
     end
     super(*paths)
   end
+  
+  def to_hash(device)
+    {:name => self.title, :html => self.html(device)}
+  end
 
 end
