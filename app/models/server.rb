@@ -68,7 +68,7 @@ class Server
           return {:url => result.last_effective_url, :body => body} 
         end
       
-      rescue Curl::Err::HostResolutionError, Curl::Err::GotNothingError, Curl::Err::ConnectionFailedError
+      rescue Curl::Err::HostResolutionError, Curl::Err::GotNothingError, Curl::Err::ConnectionFailedError,  Curl::Err::PartialFileError
         Merb.logger.error("Could not connect to " + base_url + path)
       end
     end
