@@ -13,8 +13,8 @@ class Merb::Request
   
   # Gets the language code for this request
   def language_code
-    return params[:lang] if params[:lang]
-    language_code = host.split(".").first
+    return params[:lang].downcase if params[:lang]
+    language_code = host.split(".").first.downcase
     if Merb.env?(:test) || language_code.include?("localhost") || language_code == "eiximenis" || language_code == "iwik"
       language_code = "en"
     end
