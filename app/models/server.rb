@@ -36,7 +36,7 @@ class Server
     paths.each do |path|
       begin
         Merb.logger.debug("loading... " + base_url + path)
-      
+
         result = fetch_from_web(path)
 
         compressed_size = result.downloaded_content_length
@@ -68,7 +68,7 @@ class Server
           return {:url => result.last_effective_url, :body => body} 
         end
       
-      rescue Curl::Err::HostResolutionError, Curl::Err::GotNothingError
+      rescue Curl::Err::HostResolutionError, Curl::Err::GotNothingError, Curl::Err::ConnectionFailedError
         Merb.logger.error("Could not connect to " + base_url + path)
       end
     end
