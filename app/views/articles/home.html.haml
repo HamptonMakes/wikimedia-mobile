@@ -9,3 +9,6 @@
     .today
       %h2= language_object["in_the_news"]
       = preserve @main_page["news_items"]
+
+.notice
+  %a{:href => "http://#{request.language_code}.wikipedia.org/wiki/#{Wikipedia.settings[request.language_code]["main_page"]}?stopMobileRedirect=true"} View this site on regular Wikipedia
