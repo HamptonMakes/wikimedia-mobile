@@ -93,6 +93,6 @@ class Articles < Application
   end
   
   def cache_key
-    "#{current_name}##{request.language_code}##{request.device.format_name}##{content_type}##{params[:callback]}}".gsub(" ", "-")
+    "#{current_name}##{request.language_code}##{request.device.format_name}##{content_type}##{params[:callback]}".gsub(" ", "-")
   end
 end
