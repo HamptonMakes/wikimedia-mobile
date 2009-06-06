@@ -73,7 +73,7 @@ class Articles < Application
       key = cache_key
       cached = Cache[key]
       if cached
-        Merb.logger("CACHE HIT")
+        Merb.logger.debug("CACHE HIT")
         return cached 
       end
     
@@ -83,7 +83,7 @@ class Articles < Application
         Cache.store(key, html, :expires_in => 60 * 60 * 3)
       end
 
-      Merb.logger("CACHE MISS")
+      Merb.logger.debug("CACHE MISS")
       html
     end
   end
