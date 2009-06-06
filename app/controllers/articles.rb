@@ -70,7 +70,7 @@ class Articles < Application
   
   def cache_block(&block)
     time_to "cache block" do
-      return block.call
+      #return block.call
       
       key = cache_key
       cached = Cache[key]
