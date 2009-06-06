@@ -11,7 +11,7 @@ require 'merb-core'
  
 Merb::Config.setup(:merb_root   => File.expand_path(File.dirname(__FILE__)),
                    :environment => ENV['RACK_ENV'])
-Merb.environment = "production" #Merb::Config[:environment]
+Merb.environment = "production"
 Merb.root = Merb::Config[:merb_root]
 Merb::BootLoader.run
  
