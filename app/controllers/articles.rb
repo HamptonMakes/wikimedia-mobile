@@ -5,8 +5,9 @@ class Articles < Application
   override! :content_type
 
   def home
-    Cache.cache(cache_key, Time.now+60*60*24) do # Cache for 24 hours
+    cache_block do
       @main_page = Wikipedia.main_page(request.language_code)
+    
       format_display_with_data do
         {:title => "::Home", :html => render(:layout => false)}
       end
@@ -24,19 +25,23 @@ class Articles < Application
     elsif current_name[0..1] == "::"
       redirect "/wiki/#{current_name}"
     else
-      # Perform a normal search
-      @article = Article.new(current_server, current_name)
-      @article.fetch!
-      format_display_with_data do
-        @article.to_hash(request.device)
+      cache_block do
+        # Perform a normal search
+        @article = Article.new(current_server, current_name)
+        @article.fetch!
+        format_display_with_data do
+          @article.to_hash(request.device)
+        end
       end
     end
   end
   
   def file
-    @article = current_server.file(params[:file])
-    format_display_with_data do
-      @article.to_hash(request.device)
+    cache_block do
+      @article = current_server.file(params[:file])
+      format_display_with_data do
+        @article.to_hash(request.device)
+      end
     end
   end
   
@@ -63,11 +68,21 @@ class Articles < Application
     end
   end
   
+  def cache_block(&block)
+    key = cache_key
+    cached = Cache[key]
+    return cached if cached
+    
+    html = block.call
+    Cache.store(key, html, :expires_in => 60 * 60 * 3)
+    html
+  end
+  
   def current_name
-    @name ||= (params[:search] || params[:title] || "").gsub("_", " ")
+    @name ||= (params[:search] || params[:title] || params[:file] || "").gsub("_", " ")
   end
   
   def cache_key
-    "#{self.class.name}##{self.action_name}##{request.language_code}##{request.device.format_name}##{content_type}##{params[:callback]}}"
+    "#{current_name}##{request.language_code}##{request.device.format_name}##{content_type}##{params[:callback]}}".gsub(" ", "-")
   end
 end
