@@ -69,13 +69,19 @@ class Articles < Application
   end
   
   def cache_block(&block)
-    key = cache_key
-    cached = Cache[key]
-    return cached if cached
+    time_to "Work with moneta " do
+      key = cache_key
+      cached = Cache[key]
+      if cached
+        Merb.logger("CACHE HIT")
+        return cached 
+      end
     
-    html = block.call
-    Cache.store(key, html, :expires_in => 60 * 60 * 3)
-    html
+      html = block.call
+      Cache.store(key, html, :expires_in => 60 * 60 * 3)
+      Merb.logger("CACHE MISS")
+      html
+    end
   end
   
   def current_name
