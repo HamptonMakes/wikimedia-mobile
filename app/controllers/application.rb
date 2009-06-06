@@ -42,6 +42,12 @@ class Application < Merb::Controller
       Merb.logger.debug("User Agent: " + request.user_agent)
       Merb.logger.debug("Format: " + request.device.format_name.to_s)
       Merb.logger.debug("Language Code: " + request.language_code)
+      
     end
+    object_count = 0
+    ObjectSpace.each_object do |o|
+      object_count += 1
+    end
+    Merb.logger.debug("Size! #{object_count}")
   end
 end
