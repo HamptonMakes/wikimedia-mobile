@@ -79,7 +79,7 @@ class Articles < Application
     
       html = block.call
       
-      time_to "store in cache"
+      time_to "store in cache" do
         Cache.store(key, html, :expires_in => 60 * 60 * 3)
       end
 
