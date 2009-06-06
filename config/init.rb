@@ -9,8 +9,8 @@ dependency 'curb'
 
 require 'lib/merb_hoptoad_notifier/lib/merb_hoptoad_notifier'
 require 'lib/object'
-#require 'lib/moneta/lib/moneta'
-#require 'lib/moneta/lib/moneta/file'
+require 'lib/moneta/lib/moneta'
+require 'lib/moneta/lib/moneta/lmc'
 
 use_test :rspec
 use_template_engine :haml
@@ -23,7 +23,7 @@ Merb::Config.use do |c|
   c[:session_secret_key]  = 'ff0bc97fd0e7d3a1e9f62389270643c91d0991ec'  # required for cookie session store
 end
 
-#Cache = Moneta::File.new(:path => (Merb.root + "/tmp/"))
+Cache = Moneta::File.new(:path => (Merb.root + "/tmp/cache.lmc"))
 
 Merb::BootLoader.before_app_loads do
   Merb.push_path(:merb_extensions, Merb.root / "merb/extensions", "**/*.rb")  

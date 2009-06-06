@@ -29,7 +29,7 @@ module Moneta
       def initialize(options = {})
         @hash = LocalMemCache.new(:filename => options[:filename])
         @expiration = Expiration.new(@hash)
-      end    
+      end
 
       def [](key)         @hash[key]          end
       def []=(key, value) @hash[key] = value  end
