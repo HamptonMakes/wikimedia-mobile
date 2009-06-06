@@ -26,11 +26,6 @@ native_iphone:
   search_bar: false
   supports_javascript: true
 
-rhosync:
-  <<: *capable
-  with_layout: false
-  search_bar: false
-  supports_javascript: true
 
 kindle2:
   <<: *defaults
