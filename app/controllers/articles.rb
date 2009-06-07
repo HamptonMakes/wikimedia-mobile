@@ -71,7 +71,9 @@ class Articles < Application
   def cache_block(&block)
     GC.start
     time_to "cache block" do
-      #return block.call
+      if Merb.env == "development"
+        return block.call
+      end
       
       key = cache_key
       html = Cache[key]

@@ -11,6 +11,10 @@ class Device
   def self.available_formats=(config_data)
     @@available_formats = config_data
   end
+  
+  def available_formats
+    @@available_formats
+  end
 
   def format
     @format ||= @@available_formats[format_name.to_s]

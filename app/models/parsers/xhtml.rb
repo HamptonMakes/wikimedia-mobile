@@ -55,7 +55,7 @@ module Parsers
       #end
 
       # # If the page is long enough and we didn't get a search results page then...
-      if options[:javascript] && (html.size > 20000) && !html.include?("No article title matches")
+      if options[:javascript] && (html.size > 4000) && !html.include?("No article title matches")
         # If this is a longish article, then break it down into sections and 'headingize'
         html = self.javascriptize(html)
       end
@@ -91,16 +91,16 @@ module Parsers
       headings = 0 
       # count the section indices we are going to handle
 
-    
+      
       # Go through the whole page looking for headings
-      data.gsub!(/<h2(.*)<span class="mw-headline">(.+)<\/span><\/h2>/) do |line|
-
+      data.gsub!(/<h2(.*)<span class="mw-headline">(.+)<\/span>/) do |line|
+        Merb.logger.debug("HERE")
         # store this for later using those old ruby hacks like perl with the $ args
         headings += 1 
 
         # generate the HTML we are going to inject
         buttons = "<button class='section_heading show' section_id='#{headings}'>Show</button><button class='section_heading hide' style='display: none' section_id='#{headings}'>Hide</button>"
-        base = "<h2#{$1}#{buttons} <span>#{$2}</span></h2><div style='display:none' class='content_block' id='content_#{headings}'>"
+        base = "<h2#{$1}#{buttons} <span>#{$2}</span></h2><div style='display:none' class='content_block' id='content_#{headings}'><h2 style='display: none'>"
 
         if headings > 1
           base = "</div>" + base

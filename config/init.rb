@@ -1,5 +1,4 @@
 # Go to http://wiki.merbivore.com/pages/init-rb
- 
 # Specify a specific version of a dependency
 # 
 
