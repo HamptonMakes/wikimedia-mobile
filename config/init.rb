@@ -23,7 +23,7 @@ Merb::Config.use do |c|
   c[:session_secret_key]  = 'ff0bc97fd0e7d3a1e9f62389270643c91d0991ec'  # required for cookie session store
 end
 
-Cache = Moneta::Rufus.new(:file => "tmp/cache")
+Cache = Moneta::Berkeley.new(:file => "tmp/cache")
 
 Merb::BootLoader.before_app_loads do
   Merb.push_path(:merb_extensions, Merb.root / "merb/extensions", "**/*.rb")  
