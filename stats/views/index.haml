@@ -1,0 +1,26 @@
+%img{:src => line_chart(@hours, [:average_action_time], "Average Request Time")}/
+%img{:src => line_chart(@hours, [:hits], "Traffic")}/
+%img{:src => line_chart(@hours, [:cache_hit_ratio], "Cached Hits")}/
+
+%table{:style => "border: 1px solid"}
+  %tr
+    %td Hour
+    %td Hits
+    %td %Cached
+    %td Languages
+    %td Formats
+  - @hours.each do |hour|
+    %tr
+      %td= hour.time.to_s[0..12]
+      %td= hour.hits
+      %td
+        = (hour.cache_hit_ratio * 100).round
+        \%
+      %td
+        - hour.language_hits.each do |key, value|
+          == #{key}: #{value}
+          %br/
+      %td
+        - hour.format_hits.each do |key, value|
+          == #{key}: #{value}
+          %br/
