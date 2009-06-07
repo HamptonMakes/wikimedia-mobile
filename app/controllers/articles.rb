@@ -71,22 +71,21 @@ class Articles < Application
   def cache_block(&block)
     GC.start
     time_to "cache block" do
-      return block.call
+      #return block.call
       
       key = cache_key
-      cached = Cache[key]
-      if cached
+      html = Cache[key]
+      if html
         Merb.logger.debug("CACHE HIT")
-        return cached 
-      end
-    
-      html = block.call
-      
-      time_to "store in cache" do
-        Cache.store(key, html, :expires_in => 60 * 60 * 3)
-      end
+      else
+        html = block.call
+        
+        time_to "store in cache" do
+          Cache.store(key, html, :expires_in => 60 * 60 * 3)
+        end
 
-      Merb.logger.debug("CACHE MISS")
+        Merb.logger.debug("CACHE MISS")
+      end
       html
     end
   end

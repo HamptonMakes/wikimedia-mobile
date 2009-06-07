@@ -9,8 +9,8 @@ dependency 'curb'
 
 require 'lib/merb_hoptoad_notifier/lib/merb_hoptoad_notifier'
 require 'lib/object'
-#require 'lib/moneta/lib/moneta'
-#require 'lib/moneta/lib/moneta/rufus'
+require 'lib/moneta/lib/moneta'
+require 'lib/moneta/lib/moneta/basic_file'
 
 use_test :rspec
 use_template_engine :haml
@@ -23,7 +23,7 @@ Merb::Config.use do |c|
   c[:session_secret_key]  = 'ff0bc97fd0e7d3a1e9f62389270643c91d0991ec'  # required for cookie session store
 end
 
-#Cache = Moneta::Rufus.new(:file => "tmp/cache")
+Cache = Moneta::BasicFile.new(:path => "tmp")
 
 #if defined?(PhusionPassenger)
 #  PhusionPassenger.on_event(:starting_worker_process) do

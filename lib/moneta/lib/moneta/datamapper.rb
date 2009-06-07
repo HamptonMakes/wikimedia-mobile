@@ -10,7 +10,7 @@ class MonetaHash
   include DataMapper::Resource
 
   property :the_key, String, :key => true
-  property :value, Object, :lazy => false, :length => 40000
+  property :value, Object, :lazy => false
   property :expires, Time
 
   def self.value(key)
