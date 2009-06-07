@@ -10,7 +10,7 @@ dependency 'curb'
 require 'lib/merb_hoptoad_notifier/lib/merb_hoptoad_notifier'
 require 'lib/object'
 require 'lib/moneta/lib/moneta'
-require 'lib/moneta/lib/moneta/berkely'
+require 'lib/moneta/lib/moneta/berkeley'
 
 use_test :rspec
 use_template_engine :haml
