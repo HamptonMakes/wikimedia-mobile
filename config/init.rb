@@ -26,10 +26,8 @@ end
 Cache = Moneta::Rufus.new(:file => "tmp/cache")
 
 if defined?(PhusionPassenger)
-  PhusionPassenger.on_event(:starting_worker_process) do |forked|
-    if forked
-      Cache = Moneta::Rufus.new(:file => "tmp/cache")
-    end
+  PhusionPassenger.on_event(:starting_worker_process) do
+    Cache = Moneta::Rufus.new(:file => "tmp/cache")
   end
 end
 #
