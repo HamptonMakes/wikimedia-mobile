@@ -69,6 +69,7 @@ class Articles < Application
   end
   
   def cache_block(&block)
+    GC.start
     time_to "cache block" do
       return block.call
       
