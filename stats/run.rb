@@ -68,4 +68,4 @@ stats.average_action_time = (total_hit_time / stats.hits)
 
 stats.cache_size = `du -sm #{File::join(path, 'tmp')}`
 
-puts stats.save
+puts stats.save.to_s + " " + Time.now.to_s
