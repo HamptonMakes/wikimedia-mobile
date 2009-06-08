@@ -1,5 +1,3 @@
-require 'parse'
-
 loop do
   if Time.now.min == 0
     `ruby parse.rb #{ARGV[0]} &` 

@@ -54,7 +54,7 @@ def run_parser(path)
 
   cache_hit_count = 0
   cache_miss_count = 0
-  
+
   `cat #{file} | grep Spider`.split("\n").each do |line|
     if line.include?("HIT")
       cache_hit_count += 1
