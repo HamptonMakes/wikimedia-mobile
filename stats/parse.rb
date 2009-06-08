@@ -43,7 +43,7 @@ def run_parser(path)
   `cat #{file} | grep CACHE`.split("\n").each do |line|
     if line.include?("HIT")
       cache_hit_count += 1
-    else 
+    elsif line.include?("MISS")
       cache_miss_count += 1
     end
   end

@@ -11,4 +11,4 @@
       = preserve @main_page["news_items"]
 
 .notice
-  %a{:href => "http://#{request.language_code}.wikipedia.org/wiki/#{Wikipedia.settings[request.language_code]["main_page"]}?stopMobileRedirect=true"} View this site on regular Wikipedia
+  %a{:href => "http://#{request.language_code}.wikipedia.org/wiki/#{Wikipedia.settings[request.language_code]["main_page"]}?stopMobileRedirect=true"}= language_object["regular_wikipedia"]

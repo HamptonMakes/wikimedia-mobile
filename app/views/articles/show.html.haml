@@ -9,4 +9,4 @@
   = preserve @article.html(request.device)
 
 .notice
-  %a{:href => "http://#{request.language_code}.wikipedia.org/wiki/#{@article.title}?stopMobileRedirect=true"} View this site on regular Wikipedia
+  %a{:href => "http://#{request.language_code}.wikipedia.org/wiki/#{@article.title}?stopMobileRedirect=true"}= language_object["regular_wikipedia"]

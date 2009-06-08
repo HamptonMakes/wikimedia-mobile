@@ -1,4 +1,4 @@
-en: 
+en:
   main_page: "Main_Page"
   translations:
     go: "Go"
@@ -6,7 +6,9 @@ en:
     no_article_found: "No Article Found"
     featured_article: "Today's Featured Article"
     in_the_news: "In The News"
-    random_article: "Random Article"
+    home_button: "Home"
+    random_button: "Random"
+    regular_wikipedia: "View this page on regular Wikipedia"
     copyright: "All text is available under the terms of the GNU Free Documentation License.\n Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a U.S. registered 501(c)(3) tax-deductible nonprofit charity."
   selectors:
     article_of_the_day: "#mp-tfa"
@@ -15,12 +17,14 @@ en:
 de: 
   main_page: "Wikipedia:Hauptseite"
   translations:
-    go: "Artikel"
+    go: "Los"
     search_results: "Suchergebnisse"
     no_article_found: "Es existiert kein Artikel"
     featured_article: "Artikel des Tages"
     in_the_news: "In den Nachrichten"
-    random_article: "Zufälliger Artikel"
+    home_button: "Start"
+    random_button: "Zufall"
+    regular_wikipedia: "Diese Seite auf der regulären Wikipedia"
     copyright: "Der Text steht unter der GNU-Lizenz für freie Dokumentation.\n Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc."
   selectors:
     article_of_the_day: "#hauptseite-artikel .inhalt"

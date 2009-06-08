@@ -4,5 +4,5 @@
     %input{:name => "search", :type => "text", :size => "28", :value => URI::unescape(current_name)}/
     %button{:type => "submit"}= go_text
 #nav
-  = button_to "Home", "/wiki/::Home"
-  = button_to "Random", "/wiki/::Random"
+  = button_to language_object["home_button"], "/wiki/::Home"
+  = button_to language_object["random_button"], "/wiki/::Random"

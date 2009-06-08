@@ -42,9 +42,18 @@ class Server
         compressed_size = result.downloaded_content_length
 
         Merb.logger.debug("loaded #{result.downloaded_content_length} compressed characters")
-      
+
         if result.response_code == 200
+          
+          if result.header_str.include?("Cache-Lookup: HIT")
+            Merb.logger.debug("Spider HIT")
+          else
+            Merb.logger.debug("Spider MISS")
+          end
+
           body = nil
+          
+          
           time_to "decompress" do
             
             begin 
