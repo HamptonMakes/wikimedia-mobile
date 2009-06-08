@@ -8,11 +8,38 @@ def run_parser(path)
   `touch #{File.join(path, "tmp/restart.txt")}`
 
   stats = StatSegment.new(:time => Time.now, :time_length => "hour")
+  
+  ## ====================== LANGUAGE AND FORMAT =================================
+
+  languages = {}
+  formats  = {}
+  hits = 0
+
+  `cat #{file} | grep ReqLogger`.split("\n").each do |line|
+    begin 
+      format = line.split("|")[2].strip
+      language = line.scan(/\((..)\)/).first.first
+  
+      formats[format] ||= 0
+      formats[format] += 1
+  
+      languages[language] ||= 0
+      languages[language] += 1
+      hits += 1
+    rescue NoMethodError
+      puts "problem with line #{line}"
+    end
+  end
+
+  stats.language_hits = languages
+  stats.format_hits = formats
+  stats.hits = hits
 
   ## =======================  TOTAL HITS / CACHE HIT RATIO  =================================
 
   cache_hit_count = 0
   cache_miss_count = 0
+  
   `cat #{file} | grep CACHE`.split("\n").each do |line|
     if line.include?("HIT")
       cache_hit_count += 1
@@ -21,28 +48,7 @@ def run_parser(path)
     end
   end
 
-  stats.hits = cache_hit_count + cache_miss_count
-  stats.cache_hit_ratio = cache_hit_count.to_f / stats.hits
-
-
-  ## ====================== LANGUAGE AND FORMAT =================================
-
-  languages = {}
-  formats  = {}
-
-  `cat #{file} | grep ReqLogger`.split("\n").each do |line|
-    format = line.split("|")[2].strip
-    language = line.scan(/\((..)\)/).first.first
-  
-    formats[format] ||= 0
-    formats[format] += 1
-  
-    languages[language] ||= 0
-    languages[language] += 1
-  end
-
-  stats.language_hits = languages
-  stats.format_hits = formats
+  stats.cache_hit_ratio = cache_hit_count.to_f / (cache_hit_count + cache_miss_count)
 
   ## ========================== ACTION SPEED ==================================
 
