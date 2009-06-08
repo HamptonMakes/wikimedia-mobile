@@ -1,3 +1,0 @@
-#!/usr/bin/env ruby
-
-`cd /srv/wikimedia-mobile/stats && ruby run.rb /srv/wikimedia-mobile > /srv/wikimedia-mobile/log/stats_parser.log`

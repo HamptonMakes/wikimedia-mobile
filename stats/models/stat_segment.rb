@@ -12,4 +12,5 @@ class StatSegment
   property :language_hits, Object, :lazy => false
   property :format_hits, Object, :lazy => false
   property :cache_size, Integer
+  property :load_average, Float
 end
