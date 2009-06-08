@@ -51,13 +51,16 @@ def run_parser(path)
   total_hit_time = 0.0
 
   `cat #{file} | grep action_time`.split("\n").each do |line|
-    time = line.scan(/:action_time=>([0-9.]+)/).first.first.to_f
-    total_hit_time += time
-    if time < fastest_hit
-      fastest_hit = time
-    end
-    if time > slowest_hit
-      slowest_hit = time
+    begin 
+      time = line.scan(/:action_time=>([0-9.]+)/).first.first.to_f
+      total_hit_time += time
+      if time < fastest_hit
+        fastest_hit = time
+      end
+      if time > slowest_hit
+        slowest_hit = time
+      end
+    rescue NoMethodError
     end
   end
 
