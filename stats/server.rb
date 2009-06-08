@@ -13,14 +13,17 @@ helpers do
       attributes.each_with_index do |stat_name, index|
         data = array.collect do |stat|
           point = stat.send(stat_name.to_s)
-          if point > max
-            max = point
+          if point
+            if point > max
+              max = point
+            end
+            if point < min
+              min = point
+            end
+            point
           end
-          if point < min
-            min = point
-          end
-          point
         end
+        data.compact!
         sparklines.data stat_name.to_s.gsub("_", " "), data, colors[index]
       end
       sparklines.show_legend = true

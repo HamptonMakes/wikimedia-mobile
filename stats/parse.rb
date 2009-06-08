@@ -35,7 +35,7 @@ def run_parser(path)
   stats.format_hits = formats
   stats.hits = hits
 
-  ## =======================  TOTAL HITS / CACHE HIT RATIO  =================================
+  ## =======================  LOCAL CACHE HIT RATIO  =================================
 
   cache_hit_count = 0
   cache_miss_count = 0
@@ -49,6 +49,21 @@ def run_parser(path)
   end
 
   stats.cache_hit_ratio = cache_hit_count.to_f / (cache_hit_count + cache_miss_count)
+  
+  ## =======================  WIKIPEDIA CACHE HIT RATIO  =================================
+
+  cache_hit_count = 0
+  cache_miss_count = 0
+  
+  `cat #{file} | grep Spider`.split("\n").each do |line|
+    if line.include?("HIT")
+      cache_hit_count += 1
+    elsif line.include?("MISS")
+      cache_miss_count += 1
+    end
+  end
+
+  stats.spider_cache_hit_ratio = cache_hit_count.to_f / (cache_hit_count + cache_miss_count)
 
   ## ========================== ACTION SPEED ==================================
 
@@ -83,3 +98,5 @@ def run_parser(path)
 
   puts stats.save.to_s + " " + Time.now.to_s
 end
+
+run_parser(ARGV[0])

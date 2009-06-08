@@ -1,6 +1,8 @@
 require 'parse'
 
 loop do
-  run_parser(ARGV[0])
-  sleep(3600)
+  if Time.now.min == 0
+    `ruby parse.rb #{ARGV[0]} &` 
+  end
+  sleep(60)
 end
