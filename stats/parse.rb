@@ -61,6 +61,7 @@ def run_parser(path)
         slowest_hit = time
       end
     rescue NoMethodError
+      puts "problem with line #{line}"
     end
   end
 
