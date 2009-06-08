@@ -1,10 +1,12 @@
 require 'init'
 
-live_file = ARGV[0]
+path = ARGV[0]
 
-file = live_file + ".processing"
-`mv #{live_file} #{file}`
-`touch /srv/wikimedia-mobile/tmp/restart.txt`
+log_file = File::join(path, "log", "production.log")
+file = log_file + "." + Time.now.to_i.to_s
+
+`mv #{log_file} #{file}`
+`touch #{File.join(path, "tmp/restart.txt")}`
 
 stats = StatSegment.new(:time => Time.now, :time_length => "hour")
 
@@ -64,5 +66,6 @@ stats.slowest_action_time = slowest_hit
 stats.fastest_action_time = fastest_hit
 stats.average_action_time = (total_hit_time / stats.hits)
 
+stats.cache_size = `du -sm #{File::join(path, 'tmp')}`
+
 stats.save
-`rm -rf #{file}`

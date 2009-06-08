@@ -9,6 +9,7 @@ class StatSegment
   property :slowest_action_time, Float
   property :fastest_action_time, Float
   property :average_action_time, Float
-  property :language_hits, Object
-  property :format_hits, Object
+  property :language_hits, Object, :lazy => false
+  property :format_hits, Object, :lazy => false
+  property :cache_size, Integer
 end
