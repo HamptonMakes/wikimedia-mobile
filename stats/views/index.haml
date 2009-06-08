@@ -1,6 +1,12 @@
+%h1 Hourly Statistics
+%h3 For m.wikipedia.org
+
+%p
+
 %img{:src => line_chart(@hours, [:average_action_time], "Average Request Time")}/
-%img{:src => line_chart(@hours, [:hits], "Traffic")}/
+%img{:src => line_chart(@hours, [:hits, :iphone_hits, :android_hits, :native_iphone_hits], "Traffic")}/
 %img{:src => line_chart(@hours, [:cache_hit_ratio], "Cached Hits")}/
+%img{:src => line_chart(@hours, [:load_average], "Server Load")}
 
 %table{:style => "border: 1px solid"}
   %tr
@@ -9,7 +15,8 @@
     %td %Cached
     %td Languages
     %td Formats
-  - @hours.each do |hour|
+    %td Cache Size
+  - @hours.reverse.each do |hour|
     %tr
       %td= hour.time.to_s[0..12]
       %td= hour.hits
@@ -24,3 +31,5 @@
         - hour.format_hits.each do |key, value|
           == #{key}: #{value}
           %br/
+      %td
+        = (hour.cache_size / 1024.0).to_s[0..4] + " GB"
