@@ -8,6 +8,7 @@ def run_parser(path)
   `touch #{File.join(path, "tmp/restart.txt")}`
 
   stats = StatSegment.new(:time => Time.now, :time_length => "hour")
+  stats.update_time_string
   
   ## ====================== LANGUAGE AND FORMAT =================================
 

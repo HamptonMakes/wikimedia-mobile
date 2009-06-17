@@ -32,10 +32,24 @@ helpers do
     end
     chart.to_url
   end
+  
+  def to_date_url(title, date)
+    date_string = date.strftime("%Y/%m/%d")
+    "<a href='/hourly/#{date_string}'>#{title}</a>"
+  end
+end
+
+get("/hourly/:year/:month/:day") do
+  @date_string = [params[:year], params[:month], params[:day]].join("/")
+  @date = Date.parse(@date_string)
+  @hours = StatSegment.all(:time_length => "hour", :time_string => @date_string)
+  @total_hits = 0
+  @hours.each { |h| @total_hits += h.hits}
+  haml :hourly
 end
 
 get("/") do
-  @hours = StatSegment.all(:time_length => "hour")
-  haml :index
+  @hourly_path = "/hourly/" + Time.now.strftime("%Y/%m/%d")
+  redirect @hourly_path
 end
 

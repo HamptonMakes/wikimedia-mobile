@@ -1,0 +1,50 @@
+%h1
+  = @date.strftime("%B %d, %Y")
+  Hourly Statistics
+
+%h3 For m.wikipedia.org
+
+= to_date_url("Day Before", @date - 1)
+= to_date_url("Next Day", @date + 1)
+
+%h3== #{@total_hits} Total Hits
+
+%p
+
+%img{:src => line_chart(@hours, [:average_action_time], "Average Request Time")}/
+%img{:src => line_chart(@hours, [:hits], "Traffic")}/
+%img{:src => line_chart(@hours, [:iphone_hits, :android_hits, :native_iphone_hits], "Traffic by Format")}/
+%img{:src => line_chart(@hours, [:en_hits, :de_hits, :other_lang_hits], "Traffic by Language")}/
+%img{:src => line_chart(@hours, [:cache_hit_ratio], "Local Cache Hit Ratio")}/
+%img{:src => line_chart(@hours, [:spider_cache_hit_ratio], "Wikipedia Cache Hit Ratio")}/
+%img{:src => line_chart(@hours, [:load_average], "Server Load")}
+
+%table{:style => "border: 1px solid"}
+  %tr
+    %td Hour
+    %td Hits
+    %td Req Per Second
+    %td %Cached
+    %td Languages
+    %td Formats
+    %td Cache Size
+  - @hours.reverse.each_with_index do |hour, index|
+    %tr
+      %td= index
+      %td= hour.hits
+      %td
+        = hour.requests_per_second.to_s[0..4]
+        (req / sec)
+      %td
+        = (hour.cache_hit_ratio * 100).round
+        \%
+      %td
+        - hour.language_hits.each do |key, value|
+          == #{key}: #{value}
+          %br/
+      %td
+        - hour.format_hits.each do |key, value|
+          == #{key}: #{value}
+          %br/
+      %td
+        = (hour.cache_size / 1024.0).to_s[0..4] + " GB"

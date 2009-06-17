@@ -4,6 +4,7 @@ class StatSegment
   property :id, Serial
   property :time, Time, :indexed => true
   property :time_length, String
+  property :time_string, String, :indexed => true
   property :cache_hit_ratio, Float
   property :spider_cache_hit_ratio, Float
   property :hits, Integer
@@ -15,6 +16,10 @@ class StatSegment
   property :language_format_hits, Object, :lazy => false
   property :cache_size, Integer
   property :load_average, Float
+  
+  def update_time_string
+    @time_string = @time.strftime("%Y/%m/%d")
+  end
   
   def requests_per_second
     hits / 60.0 / 60
