@@ -15,7 +15,7 @@ class Articles < Application
   end
   
   def redirect_to
-    cookies.set_cookie("stopMobileRedirect", "true", :expires => (Date.today + (365 * 3)).to_time)
+    cookies.set_cookie("stopMobileRedirect", "true", :expires => (Date.today + (365 * 3)))
     redirect(params[:url])
   end
   
