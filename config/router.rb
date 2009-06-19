@@ -37,7 +37,7 @@ Merb::Router.prepare do
     
     with(:action => "show") do
       # Primary HTML way to access information
-      match(/\/wiki\/(.*)/).to(:title => "[1]")
+      match(/\/wiki\/*(.*)/).to(:title => "[1]")
       
       # Legacy support for iwik
       match(/\/lookup\/([a-z]*).wikipedia.org\/(.*)/).to(:title => "[2]", :lang => "[1]")
