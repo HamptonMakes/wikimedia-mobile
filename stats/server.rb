@@ -42,7 +42,7 @@ end
 get("/hourly/:year/:month/:day") do
   @date_string = [params[:year], params[:month], params[:day]].join("/")
   @date = Date.parse(@date_string)
-  @hours = StatSegment.all(:time_length => "hour", :time_string => @date_string)
+  @hours = StatSegment.all(:time_length => "hour") #, :time_string => @date_string)
   @total_hits = 0
   @hours.each { |h| @total_hits += h.hits}
   haml :hourly

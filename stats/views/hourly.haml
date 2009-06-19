@@ -1,11 +1,10 @@
 %h1
-  = @date.strftime("%B %d, %Y")
   Hourly Statistics
 
 %h3 For m.wikipedia.org
 
-= to_date_url("Day Before", @date - 1)
-= to_date_url("Next Day", @date + 1)
+- to_date_url("Day Before", @date - 1)
+- to_date_url("Next Day", @date + 1)
 
 %h3== #{@total_hits} Total Hits
 
