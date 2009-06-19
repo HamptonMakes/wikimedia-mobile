@@ -39,7 +39,7 @@ module Wikipedia
     def fetch!(*paths)
       raise "No path Given" unless paths.any?
       result = @server.fetch(*paths)
-      self.path = URI.parse(result[:url]).path
+      #self.path = URI.parse(result[:url]).path
       @raw_html = result[:body]
       @raw_document = Nokogiri::HTML(@raw_html)
       self.title ||= raw_document.xpath("//title").first.inner_html.gsub(" - Wikipedia, the free encyclopedia", "")
