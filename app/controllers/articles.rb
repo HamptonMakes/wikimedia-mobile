@@ -14,6 +14,11 @@ class Articles < Application
     end
   end
   
+  def redirect_to
+    cookies.set_cookie("stopMobileRedirect", "true", :expires => (Date.today + (365 * 3)).to_time)
+    redirect(params[:url])
+  end
+  
   def random
     @article = Article.random(current_server)
     redirect(@article.path)

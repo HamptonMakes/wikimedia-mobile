@@ -27,17 +27,17 @@
 
 Merb.logger.info("Compiling routes...")
 Merb::Router.prepare do
-  match("/").to(:controller => "articles", :action => "home")
 
   with(:controller => "articles") do
     match(/\/wiki\/File:(.*)/).to(:action => "file", :file => "[1]")
   
-    match(/\/wiki\/::Home/).to(:action => "home")
+    match("/wiki/\:\:Home").to(:action => "home")
     match(/\/wiki\/::Random/).to(:action => "random")
+    match("/redirect_to").to(:action => "redirect_to")
     
     with(:action => "show") do
       # Primary HTML way to access information
-      match(/\/wiki[\/]?(.*)/).to(:title => "[1]")
+      match(/\/wiki\/(.*)/).to(:title => "[1]")
       
       # Legacy support for iwik
       match(/\/lookup\/([a-z]*).wikipedia.org\/(.*)/).to(:title => "[2]", :lang => "[1]")
@@ -51,5 +51,7 @@ Merb::Router.prepare do
   
   # Disable this in production
   #match("/statistics/:action").to(:controller => "statistics")
+  
+  match("/").to(:controller => "articles", :action => "home")
 
 end

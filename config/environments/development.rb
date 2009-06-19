@@ -7,6 +7,7 @@ Merb::Config.use { |c|
   c[:ignore_tampered_cookies] = true
   c[:log_auto_flush ] = true
   c[:log_level] = :debug
+  c[:default_cookie_domain] = ".wikitest.org"
 
   c[:log_stream] = STDOUT
   c[:log_file]   = nil
