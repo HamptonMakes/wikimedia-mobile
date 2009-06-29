@@ -74,7 +74,7 @@ class Articles < Application
   end
   
   def cache_block(&block)
-    GC.start
+    return block.call
     time_to "cache block" do
       if Merb.env == "development"
         return block.call
