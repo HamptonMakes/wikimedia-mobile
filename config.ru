@@ -1,6 +1,6 @@
 # encoding: UTF-8
 # config.ru
-Encoding.default_external = "UTF-8"
+Encoding.default_internal = Encoding.default_external = "UTF-8"
 
 require 'rubygems'
 

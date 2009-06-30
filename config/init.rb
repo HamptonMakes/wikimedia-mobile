@@ -2,10 +2,13 @@
 # Specify a specific version of a dependency
 # 
 
+Encoding.default_internal = Encoding.default_external = "UTF-8"
+
 dependency "merb-haml"
 dependency "nokogiri"
 dependency 'curb'
 
+require 'cgi'
 require 'lib/merb_hoptoad_notifier/lib/merb_hoptoad_notifier'
 require 'lib/object'
 require 'lib/moneta/lib/moneta'
@@ -22,7 +25,9 @@ Merb::Config.use do |c|
   c[:session_secret_key]  = 'ff0bc97fd0e7d3a1e9f62389270643c91d0991ec'  # required for cookie session store
 end
 
-Cache = Moneta::BasicFile.new(:path => "tmp")
+unless defined?(Cache)
+  Cache = Moneta::BasicFile.new(:path => "tmp")
+end
 
 #if defined?(PhusionPassenger)
 #  PhusionPassenger.on_event(:starting_worker_process) do

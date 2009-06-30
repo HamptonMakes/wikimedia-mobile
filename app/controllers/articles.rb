@@ -99,7 +99,7 @@ class Articles < Application
   end
   
   def current_name
-    @name ||= (params[:search] || params[:title] || params[:file] || "").gsub("_", " ")
+    @name ||= (params[:search] || params[:title] || params[:file] || "").gsub("_", " ").force_encoding("UTF-8")
   end
   
   def cache_key
