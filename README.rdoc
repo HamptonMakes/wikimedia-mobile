@@ -27,11 +27,11 @@ running.
 
 = Getting Running
 
-1) Install Ruby 1.8 and RubyGems http://www.ruby-lang.org/en/downloads/
+1) Install Ruby 1.9 and RubyGems http://www.ruby-lang.org/en/downloads/
 
-2) Install the Merb stack. http://wiki.merbivore.com/howto/installation/gems
+2) Install Merb 1.1 http://wiki.merbivore.com/howto/installation/edge or if its released at http://wiki.merbivore.com/howto/installation/gems
 
-3) Setup host headers for en.m.wikitest.org, *.m.wikitest.org for any language that you want to test. Honestly, anything works, but it needs to start with a language code. Point each one at 127.0.0.1 assuming you don't have some sort of freaky setup. For instance...
+3) Setup host headers for en.m.wikitest.org, *.m.wikitest.org for any language that you want to test. Anything works, but it needs to start with a language code. Point each one at 127.0.0.1 assuming you don't have some sort of freaky setup. For instance...
 
   127.0.0.1	en.m.wikitest.org
   127.0.0.1	ja.m.wikitest.org
@@ -48,7 +48,9 @@ running.
 
 6) Go into the new folder and type 
 
-  merb
+  merb -a thin
+  
+We need to use thin because currently Mongrel doesn't work on Ruby 1.9. If thin isn't installed `gem install thin`
 
 7) Browse to http://en.m.wikitest.org:4000
 

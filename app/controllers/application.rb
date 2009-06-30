@@ -1,5 +1,4 @@
 # This is the place for general todo's
-# TODO: get the log parsing going.... 
 # TODO: Android 1.1 doesn't allow you to redirect twice... if you random then random again, nothing happens
 # TODO: Add more languages. See config/wikipedias.yaml
 class Application < Merb::Controller
