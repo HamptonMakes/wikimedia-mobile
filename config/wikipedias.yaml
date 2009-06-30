@@ -40,8 +40,7 @@ fr:
     random_article: "Un article au hasard"
     random_article_notice: "Vous avez été envoyé ici car vous avez cliqué sur le logo de la page principale, cliquer à nouveau sur le W pour revenir en [arrière|à la page précédente]"
     link_to_wikipedia: "Regardez cette page sur son site d'origine"
-    copyright: "Droit d'auteur : Tous les textes sont disponibles sous les termes de la licence de documentation libre GNU (GFDL).
-Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis."
+    copyright: "<a class='internal' href='/wiki/Wikip%C3%A9dia:Droit_d%27auteur' title='Droit d'auteur'>Droit d'auteur</a> : Les textes sont disponibles sous <a href='http://creativecommons.org/licenses/by-sa/3.0/'>licence Creative Commons attribution partage à l’identique</a> ; d’autres termes peuvent s’appliquer. Voyez les <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>termes d’utilisation</a> pour plus de détails. Wikipedia® est une marque déposée de la <a href='http://wikimediafoundation.org/wiki/Accueil' title='Wikimedia Foundation'>Wikimedia Foundation, Inc.</a>, organisation de bienfaisance régie par le paragraphe <a class='internal' href='/wiki/501c' title='501c'>501(c)(3)</a> du code fiscal des États-Unis."
   selectors:
     article_of_the_day: "#bodyContent table tr:nth-child(3) td:nth-child(3) div:nth-child(1) .accueil_contenu"
     news_items: "#bodyContent table tr:nth-child(3) td:nth-child(3) div:nth-child(3) .accueil_contenu"
@@ -54,7 +53,7 @@ ja:
     featured_article: "秀逸な記事"
     in_the_news: "新着記事"
     random_article: "つまみ読み"
-    copyright: "すべてのウィキペディアの素材におけるテキストの複製、配布及び改変は、Free Software Foundationが発行するGNU Free Documentation Licenseのバージョンの1.2以上の条件の下に、許諾されます。\n Wikipedia® は Wikimedia Foundation, Inc. の米国およびその他の国における登録商標です"
+    copyright: "テキストは<a href='http://creativecommons.org/licenses/by-sa/3.0/deed.ja'>クリエイティブ・コモンズ 表示-継承ライセンス</a>の下で利用可能です。追加の条件が適用される場合があります。詳細は<a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>利用規約</a>を参照してください"
   selectors:
     article_of_the_day: "#bodyContent table:nth-child(8) td:nth-child(1) div:nth-child(3)"
     news_items:         "#bodyContent table:nth-child(8) td:nth-child(1) div:nth-child(6)"
@@ -67,7 +66,7 @@ pl:
     featured_article: "Today's Featured Article"
     in_the_news: "In The News"
     random_article: "Random Article"
-    copyright: "All text is available under the terms of the GNU Free Documentation License.\n Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a U.S. registered 501(c)(3) tax-deductible nonprofit charity."
+    copyright: "Tekst udostępniany na <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.pl'>licencji Creative Commons: uznanie autorstwa, na tych samych warunkach</a>, z możliwością obowiązywania dodatkowych ograniczeń. Zobacz szczegółowe informacje o <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>warunkach korzystania</a>."
   selectors:
     article_of_the_day: "div[style='padding: 5px; font-size: 9pt;']"
     news_items: "#bodyContent :nth-child(7) :nth-child(5)"
@@ -80,7 +79,6 @@ es:
     featured_article: "Artículo destacado"
     in_the_news: "Actualidad"
     random_article: "Página aleatoria"
-    copyright: "Contenido disponible bajo los términos de la Licencia de documentación libre de GNU (véase Derechos de autor).\nWikipedia® es una marca registrada de la organización sin ánimo de lucro Wikimedia Foundation, Inc."
   selectors:
     article_of_the_day: "#bodyContent table:nth-child(6) table:nth-child(1) tr:nth-child(2)"
     news_items: "#bodyContent table:nth-child(6) table:nth-child(1) tr:nth-child(8)"
@@ -93,7 +91,6 @@ pt:
     featured_article: "Artigo em destaque"
     in_the_news: "Eventos recentes"
     random_article: "Página aleatória"
-    copyright: "O texto desta página está sob a GNU Free Documentation License. \nOs direitos autorais de todas as contribuições para a Wikipédia pertencem aos seus respectivos autores (mais informações em direitos autorais)."
   selectors:
     article_of_the_day: "#bodyContent table:nth-child(1) tr:nth-child(2)"
     news_items: "#bodyContent div table:nth-child(1) tr:nth-child(2)"
@@ -107,7 +104,6 @@ nl:
     in_the_news: "Actueel"
     in_the_news_alt: "In het nieuws"
     random_article: "Willekeurige pagina"
-    copyright: "De tekst op Wikipedia is zonder enige vorm van garantie beschikbaar onder de GNU Free Documentation License. \nWikipedia® is een geregistreerd handelsmerk van de Wikimedia Foundation, Inc., een in de Verenigde Staten geregistreerde organisatie zonder winstoogmerk."
   selectors:
     article_of_the_day: "tr:nth-child(4) table.radius:nth-child(1) tr:nth-child(3) td:nth-child(1) div:nth-child(1)"
     news_items: "tr:nth-child(4) table.radius:nth-child(2) tr:nth-child(3) td:nth-child(1) div:nth-child(1)"
@@ -121,7 +117,6 @@ fi:
     featured_article: "Suositeltu artikkeli"
     in_the_news: "Ajankohtaista"
     random_article: "Satunnainen artikkeli"
-    copyright: "Teksti on käytettävissä lisenssillä GNU Free Documentation License.\n Wikipedia® on Wikimedia-säätiön rekisteröimä tavaramerkki."
   selectors:
     article_of_the_day: "#bodyContent table tr:nth-child(2) td:nth-child(1) div:nth-child(2) div:nth-child(2)"
     news_items: "#bodyContent table tr:nth-child(2) td:nth-child(2) div:nth-child(1) div:nth-child(2)"
@@ -134,7 +129,6 @@ it:
     featured_article: "Vetrina"
     in_the_news: "Novità"
     random_article: "Una voce e caso"
-    copyright: "Tutti i testi sono disponibili nel rispetto dei termini della GNU Free Documentation License."
   selectors:
     article_of_the_day: "#Vetrina ~ div"
     news_items: "a[id='Novit.C3.A0'] ~ div"
