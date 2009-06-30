@@ -24,7 +24,7 @@ class Device
     @format_name ||= case user_agent
     when /Android/
       :android
-    when /iPhone .* Safari/
+    when /iPhone.* Safari/
       :iphone
     when /iPhone/
       :native_iphone
