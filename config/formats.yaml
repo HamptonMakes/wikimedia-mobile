@@ -24,8 +24,9 @@ iphone:
 native_iphone:
   <<: *capable
   search_bar: false
-  supports_javascript: true
 
+palm_pre:
+  <<: *webkit
 
 kindle2:
   <<: *defaults

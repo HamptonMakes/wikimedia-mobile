@@ -28,8 +28,8 @@ class Device
       :iphone
     when /iPhone/
       :native_iphone
-    when /Rhosync/
-      :rhosync
+    when /Pre\//
+      :palm_pre
     when /WebKit/
       :webkit
     when /Nokia/, /WML/
