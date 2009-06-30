@@ -1,0 +1,6 @@
+%card
+  %p
+    %input{:name => "search_for"}/
+    %do{:type => "button", :label => go_text}
+      %go.search_bar{:method => "get", :href => "/wiki"}
+        <postfield name="search" value="$(search_for)" />
