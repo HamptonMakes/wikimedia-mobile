@@ -69,7 +69,7 @@ class Articles < Application
     if params[:format]
       params[:format].to_sym
     else
-      :html
+      request.device.view_format.to_sym
     end
   end
   
