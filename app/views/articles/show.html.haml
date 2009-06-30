@@ -1,3 +1,7 @@
+- if request.language_code == "en" && (rand > 0.8)
+  #feedback.notice
+    %a{:href => "mailto:mobile-l@lists.wikimedia.org"} We have just launched this site... please send us your feedback!
+
 - if @article.has_search_results?
   - if @article.search_results
     %h3= language_object['search_results']

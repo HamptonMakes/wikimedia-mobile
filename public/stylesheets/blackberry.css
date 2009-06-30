@@ -131,6 +131,9 @@ table.admin {
   margin-top: 5px;
   text-align: center; }
 
+#feedback {
+  font-size: 15px; }
+
 
 html {
   font-size: 67.5%; }

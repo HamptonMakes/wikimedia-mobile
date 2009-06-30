@@ -4,6 +4,7 @@
 
 Encoding.default_internal = Encoding.default_external = "UTF-8"
 
+require 'lib/haml/lib/haml'
 dependency "merb-haml"
 dependency "nokogiri"
 dependency 'curb'
