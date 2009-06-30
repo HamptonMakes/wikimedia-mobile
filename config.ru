@@ -1,3 +1,4 @@
+# encoding: UTF-8
 # config.ru
 Encoding.default_external = "UTF-8"
 
