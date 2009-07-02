@@ -22,6 +22,20 @@ module Merb
       %|<form method="get" action="#{to}"><button type="submit">#{text}</button></form>|
     end
     
+    def stop_redirect_notice(path)
+      return "" if request.language_code != "en"
+      site = "http://#{request.language_code}.wikipedia.org"
+      temporary_url = "#{site}/mobileRedirect.php?to=#{site}/wiki/#{path}"
+      perm_url = "#{temporary_url}&expires_in_days=#{365 * 10}"
+      
+%|<div class="notice" id="language_notice">
+  <a href=#{temporary_url}>#{language_object["regular_wikipedia"]}</a>
+  <div id="perm">
+    <a href=#{perm_url}>#{language_object["perm_stop_redirect"]}</a>
+  </div>
+</div>|
+    end
+    
   end
 end
 

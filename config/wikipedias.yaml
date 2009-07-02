@@ -9,6 +9,7 @@ en:
     home_button: "Home"
     random_button: "Random"
     regular_wikipedia: "View this page on regular Wikipedia"
+    perm_stop_redirect: "Permanently disable mobile site"
     copyright: "Text is available under the <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; additional terms may apply. See <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> for details. Wikipedia® is a registered trademark of the <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, a non-profit organization."
   selectors:
     article_of_the_day: "#mp-tfa"
@@ -24,7 +25,7 @@ de:
     in_the_news: "In den Nachrichten"
     home_button: "Start"
     random_button: "Zufall"
-    regular_wikipedia: "Der Text ist unter der <a class='internal' href='http://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Commons_Attribution-ShareAlike_3.0_Unported'>„Creative Commons Attribution/Share-Alike“-Lizenz</a> verfügbar; zusätzliche Bedingungen können anwendbar sein. Siehe die <a class='internal' href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Nutzungsbedingungen</a> für Einzelheiten. Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc."
+    copyright: "Der Text ist unter der <a class='internal' href='http://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Commons_Attribution-ShareAlike_3.0_Unported'>„Creative Commons Attribution/Share-Alike“-Lizenz</a> verfügbar; zusätzliche Bedingungen können anwendbar sein. Siehe die <a class='internal' href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Nutzungsbedingungen</a> für Einzelheiten. Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc."
   selectors:
     article_of_the_day: "#hauptseite-artikel .inhalt"
     news_items: "#hauptseite-nachrichten .inhalt"

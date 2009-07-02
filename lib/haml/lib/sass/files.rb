@@ -92,8 +92,7 @@ module Sass
       return unless File.readable?(compiled_filename)
 
       File.open(compiled_filename) do |f|
-        return unless f.readline("\n").strip == Sass::VERSION
-        return unless f.readline("\n").strip == sha
+        #return unless f.readline("\n").strip == sha
         return Marshal.load(f.read)
       end
     rescue TypeError, ArgumentError => e
@@ -107,7 +106,6 @@ module Sass
       return if File.exists?(compiled_filename) && !File.writable?(compiled_filename)
       FileUtils.mkdir_p(File.dirname(compiled_filename))
       File.open(compiled_filename, "w") do |f|
-        f.write(Sass::VERSION)
         f.write("\n")
         f.write(sha)
         f.write("\n")

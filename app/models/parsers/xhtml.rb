@@ -31,7 +31,7 @@ module Parsers
                           "#coordinates"
                         ]
 
-      page = Nokogiri::HTML(article.raw_html)
+      page = article.raw_document || Nokogiri::HTML(article.raw_html)
       
       #language_stuff = page.css("div#p-lang div").first
       

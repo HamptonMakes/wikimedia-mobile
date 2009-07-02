@@ -27,13 +27,13 @@ class Article < Wikipedia::Resource
   def suggestions
     @suggestions ||= Parsers::XHTML.suggestions(self)
   end
-  
+
   def html(device, page_type = :article)
     return @html if @html
-    
+
     # Grab the html from the server object
     fetch! if raw_html.nil?
-    
+
     time_to "parse #{device}" do
       # Figure out if we need to do extra formatting...
       case device.view_format
@@ -45,7 +45,7 @@ class Article < Wikipedia::Resource
         Parsers::WML.parse(self)
       end
     end
-    
+
     return @html
   end
 
@@ -55,7 +55,7 @@ class Article < Wikipedia::Resource
     end
     super(*paths)
   end
-  
+
   def to_hash(device)
     {:title => self.title, :html => self.html(device)}
   end

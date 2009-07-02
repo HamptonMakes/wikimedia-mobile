@@ -10,5 +10,5 @@
       %h2= language_object["in_the_news"]
       = preserve @main_page["news_items"]
 
-.notice
-  %a{:href =>  "/redirect_to?url=" + URI::escape("http://#{request.language_code}.wikipedia.org/wiki/#{Wikipedia.settings[request.language_code]["main_page"]}")}= language_object["regular_wikipedia"]
+- stop_redirect_notice(Wikipedia.settings[request.language_code]["main_page"])
+    

@@ -12,5 +12,4 @@
 - else
   = preserve @article.html(request.device)
 
-.notice
-  %a{:href => "/redirect_to?url=" + URI::escape("http://#{request.language_code}.wikipedia.org/wiki/#{@article.title}")}= language_object["regular_wikipedia"]
+  - stop_redirect_notice(@article.title)
