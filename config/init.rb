@@ -13,7 +13,7 @@ require 'cgi'
 require 'lib/merb_hoptoad_notifier/lib/merb_hoptoad_notifier'
 require 'lib/object'
 require 'lib/moneta/lib/moneta'
-require 'lib/moneta/lib/moneta/basic_file'
+require 'lib/moneta/lib/moneta/memcache'
 
 use_test :rspec
 use_template_engine :haml
@@ -27,7 +27,7 @@ Merb::Config.use do |c|
 end
 
 unless defined?(Cache)
-  Cache = Moneta::BasicFile.new(:path => "tmp")
+  Cache = Moneta::Memcache.new(:server => "127.0.0.1")
 end
 
 #if defined?(PhusionPassenger)
