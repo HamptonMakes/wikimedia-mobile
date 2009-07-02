@@ -83,13 +83,18 @@ class Articles < Application
       
       key = cache_key
       html = Cache[key]
+      
+      if html.is_a? Array
+        html = html.first
+      end
+      
       if html
         Merb.logger.debug("CACHE HIT #{key}")
       else
         html = block.call
         
         time_to "store in cache" do
-          Cache.store(key, html, :expires_in => 60 * 60 * 3)
+          Cache.store(key, html, :expires_in => 60 * 60 * 6)
         end
 
         Merb.logger.debug("CACHE MISS #{key}")
