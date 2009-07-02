@@ -74,8 +74,8 @@ class Articles < Application
   end
   
   def cache_block(&block)
-    Merb.logger.debug("CACHE MISS")
-    return block.call
+    #Merb.logger.debug("CACHE MISS")
+    #return block.call
     time_to "cache block" do
       if Merb.env == "development"
         return block.call
