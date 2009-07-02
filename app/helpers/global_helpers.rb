@@ -26,7 +26,7 @@ module Merb
       return "" if request.language_code != "en"
       site = "http://#{request.language_code}.wikipedia.org"
       path = CGI::escape(path)
-      temporary_url = "#{site}/mobileRedirect.php?to=#{site}/wiki/#{path}"
+      temporary_url = "#{site}/w/mobileRedirect.php?to=#{site}/wiki/#{path}"
       perm_url = "#{temporary_url}&expires_in_days=#{365 * 10}"
       
 %|<div class="notice" id="language_notice">
