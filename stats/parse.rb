@@ -92,7 +92,7 @@ def run_parser(path)
   stats.average_action_time = (total_hit_time / stats.hits)
 
   ## ======================= CACHE SIZE ================================
-  stats.cache_size = `du -sm #{File::join(path, 'tmp')}`
+  stats.cache_size = (`ps -eO rss | grep memcache`.split("\n").first.split(" ")[1].to_f / 1024)
   
   ## ======================= SERVER LOAD ================================
   stats.load_average = `uptime`.scan(/[0-9.]+$/).first.to_f
