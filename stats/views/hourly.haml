@@ -6,7 +6,7 @@
 - to_date_url("Day Before", @date - 1)
 - to_date_url("Next Day", @date + 1)
 
-%h3== #{@total_hits} Total Hits
+%h3== #{@total_hits} Hits in the last 24 hours
 
 %p
 
@@ -27,7 +27,7 @@
     %td Languages
     %td Formats
     %td Cache Size
-  - @hours.reverse.each_with_index do |hour, index|
+  - @hours.each_with_index do |hour, index|
     %tr
       %td= index
       %td= hour.hits
