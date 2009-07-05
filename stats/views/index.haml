@@ -1,0 +1,31 @@
+%h2 Mobile Wikipedia Stats
+
+%h3
+  = number(StatSegment.sum(:hits))
+  Happy Pages Served*
+
+%img{:src => line_chart(@day_stats, ["fetch(:total_hits)"], "Total Traffic")}
+%img{:src => line_chart(@day_stats, ["fetch(:average_action_time)"], "Average Page Serving Speed")}
+
+%h3
+  = to_date_url("See today's incomplete stats", Date.today)
+
+
+%h2 All Complete Days So Far
+
+%table
+  %tr
+    %td Date
+    %td Page Views
+    %td Average Request Time
+    %td Hourly Stats
+  - @day_stats.reverse.each do |stats|
+    %tr
+      %td= stats[:day]
+      %td{:style => "text-align: right"}= number stats[:total_hits]
+      %td= stats[:average_action_time]
+      %td
+        %a{:href => stats[:path]} Stats for the day
+
+
+%em * Includes entire beta period

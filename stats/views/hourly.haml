@@ -1,22 +1,35 @@
 %h1
-  Hourly Statistics
+  Hourly Statistics for
+  = @date.to_s
+  
+%h4
+  %a{:href => "/"} Back to Home
 
-%h3 For m.wikipedia.org
+- if @date > $first_day
+  = to_date_url("Day Before", @date - 1)
+- if @date < Date.today
+  = to_date_url("Next Day", @date + 1)
+  = to_date_url("Today", Date.today)
 
-- to_date_url("Day Before", @date - 1)
-- to_date_url("Next Day", @date + 1)
-
-%h3== #{@total_hits} Total Hits
+- if @hours.size < 24
+  %h3== #{number @total_hits} Hits So Far
+- else
+  %h3== #{number @total_hits} Total Hits
 
 %p
 
-%img{:src => line_chart(@hours, [:average_action_time], "Average Request Time")}/
-%img{:src => line_chart(@hours, [:hits], "Traffic")}/
-%img{:src => line_chart(@hours, [:iphone_hits, :android_hits, :native_iphone_hits], "Traffic by Format")}/
-%img{:src => line_chart(@hours, [:en_hits, :de_hits, :other_lang_hits], "Traffic by Language")}/
-%img{:src => line_chart(@hours, [:cache_hit_ratio], "Local Cache Hit Ratio")}/
+%img{:src => line_chart(@hours, ['average_action_time'], "Average Request Time")}/
+%img{:src => line_chart(@hours, ['hits'], "Traffic")}/
+%img{:src => line_chart(@hours, ["format_hits['android']", "format_hits['native_iphone']", "format_hits['palm_pre']", "format_hits['webkit']"], "Traffic by Other Formats")}/
+%img{:src => line_chart(@hours, ["language_hits['de']", "language_hits['fr']", "language_hits['es']"], "Traffic by Other Languages")}/
+%img{:src => line_chart(@hours, [:cache_hit_ratio], "Local Cache Hit Ratio") { |c| c.axis :y, :range => [0.0, 1.0]}}/
 %img{:src => line_chart(@hours, [:spider_cache_hit_ratio], "Wikipedia Cache Hit Ratio")}/
-%img{:src => line_chart(@hours, [:load_average], "Server Load")}
+%img{:src => line_chart(@hours, [:load_average], "Server Load Average") }
+
+.notice
+  %em All times in UTC
+.notice
+  %em Also, since a large percentage of our hits are iPhone, we are not displaying graphs for iPhone usage.
 
 %table{:style => "border: 1px solid"}
   %tr
@@ -27,9 +40,9 @@
     %td Languages
     %td Formats
     %td Cache Size
-  - @hours.reverse.each_with_index do |hour, index|
+  - @hours.reverse.each do |hour|
     %tr
-      %td= index
+      %td= hour.time.strftime("%I:00 %p<br/>%H00 hours")
       %td= hour.hits
       %td
         = hour.requests_per_second.to_s[0..4]
