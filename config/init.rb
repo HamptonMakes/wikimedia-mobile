@@ -30,6 +30,18 @@ unless defined?(Cache)
   Cache = Moneta::Memcache.new(:server => "127.0.0.1")
 end
 
+if defined?(PhusionPassenger)
+  PhusionPassenger.on_event(:starting_worker_process) do |forked|
+    if forked
+      # We're in smart spawning mode.
+      Merb.logger.debug("FORKED SUCCESSFULLY")
+      Cache = Moneta::Memcache.new(:server => "127.0.0.1")
+    else
+      # We're in conservative spawning mode. We don't need to do anything.
+    end
+  end
+end
+
 #if defined?(PhusionPassenger)
 #  PhusionPassenger.on_event(:starting_worker_process) do
 #    Cache = Moneta::Rufus.new(:file => "tmp/cache")
