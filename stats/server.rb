@@ -22,7 +22,7 @@ get("/") do
   
   @day_stats = @days.collect do |day|
     total_hits = StatSegment.sum(:hits, :conditions => ["DATE(time) = ?", day])
-    average_action_time = StatSegment.avg(:average_action_time, :conditions => ["DATE(time) = ?", day])
+    average_action_time = StatSegment.avg(:average_action_time, :conditions => ["DATE(time) = ?", day], :order => [:time.desc])
     
     {:total_hits => total_hits, :path => "/hourly/" + day.strftime("%Y/%m/%d"), :day => day,
       :average_action_time => average_action_time}
