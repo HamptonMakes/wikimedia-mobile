@@ -1,3 +1,4 @@
+
 class StatSegment
   include DataMapper::Resource
   
@@ -11,30 +12,15 @@ class StatSegment
   property :slowest_action_time, Float
   property :fastest_action_time, Float
   property :average_action_time, Float
+  property :median_action_time, Float
   property :language_hits, Object, :lazy => false
   property :format_hits, Object, :lazy => false
   property :language_format_hits, Object, :lazy => false
   property :cache_size, Integer
   property :load_average, Float
   
-  def update_time_string
-    @time_string = @time.strftime("%Y/%m/%d")
-  end
-  
   def requests_per_second
     hits / 60.0 / 60
-  end
-  
-  def iphone_hits
-    format_hits['iphone']
-  end
-  
-  def android_hits
-    format_hits['android']
-  end
-  
-  def native_iphone_hits
-    format_hits['native_iphone']
   end
   
   def en_hits
