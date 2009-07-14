@@ -94,7 +94,7 @@ def run_parser(path)
   stats.median_action_time = all_times.sort[(all_times.size / 2)]
 
   ## ======================= CACHE SIZE ================================
-  stats.cache_size = (`ps -eO rss | grep memcache`.split("\n").first.split(" ")[1].to_f / 1024)
+  stats.cache_size = ((`ps -eO rss | grep memcache`.split("\n").select {|a| a.include?("11211") }).first.split(" ")[1].to_i / 1024)
   
   ## ======================= SERVER LOAD ================================
   stats.load_average = `uptime`.scan(/[0-9.]+$/).first.to_f
