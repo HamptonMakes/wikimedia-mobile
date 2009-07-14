@@ -76,32 +76,37 @@ class Articles < Application
   def cache_block(&block)
     #Merb.logger.debug("CACHE MISS")
     #return block.call
-    time_to "cache block" do
-      if Merb.env == "development"
-        return block.call
-      end
-      
-      key = cache_key
-      html = Cache[key]
-      
-      if html.is_a? Array
-        html = html.first
-      end
-      
-      #html = html.force_encoding("UTF-8")
-      
-      if html
-        Merb.logger.debug("CACHE HIT #{key}")
-      else
-        html = block.call
-        
-        time_to "store in cache" do
-          Cache.store(key, html, :expires_in => 60 * 60 * 6)
+    begin
+      time_to "cache block" do
+        if Merb.env == "development"
+          return block.call
         end
+      
+        key = cache_key
+        html = Cache[key]
+      
+        if html.is_a? Array
+          html = html.first
+        end
+      
+        #html = html.force_encoding("UTF-8")
+      
+        if html
+          Merb.logger.debug("CACHE HIT #{key}")
+        else
+          html = block.call
+        
+          time_to "store in cache" do
+            Cache.store(key, html, :expires_in => 60 * 60 * 6)
+          end
 
-        Merb.logger.debug("CACHE MISS #{key}")
+          Merb.logger.debug("CACHE MISS #{key}")
+        end
+        html
       end
-      html
+    # If memcached is unavailable for some reason, then don't barf... just fetch
+    rescue MemCache::MemCacheError
+      return block.call
     end
   end
   
