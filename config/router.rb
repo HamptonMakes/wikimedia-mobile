@@ -33,12 +33,11 @@ Merb::Router.prepare do
   
     match("/wiki/\:\:Home").to(:action => "home")
     match(/\/wiki\/::Random/).to(:action => "random")
-    match("/redirect_to").to(:action => "redirect_to")
-    
+
     with(:action => "show") do
       # Primary HTML way to access information
-      match(/\/wiki\/*(.*)/).to(:title => "[1]")
-      
+      match(/\/wiki\/?(.*)/).to(:title => "[1]")
+      match(/\/wiki\/?/).to(:action => "show")
       # Legacy support for iwik
       match(/\/lookup\/([a-z]*).wikipedia.org\/(.*)/).to(:title => "[2]", :lang => "[1]")
 

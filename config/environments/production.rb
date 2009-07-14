@@ -5,7 +5,7 @@ Merb::Config.use { |c|
   c[:log_level] = :debug
   c[:default_cookie_domain] = ".wikipedia.org"
   
-  c[:log_file]  = Merb.root / "log" / "production.log"
+  #c[:log_file]  = Merb.root / "log" / "production.log"
   # or redirect logger using IO handle
-  # c[:log_stream] = STDOUT
+  c[:log_stream] = STDOUT
 }

@@ -64,6 +64,7 @@ class Server
               body = result.body_str
             end
             
+            body = body.force_encoding("UTF-8")
           end
           
           Merb.logger.debug("Decompressed to #{body.size} characters")

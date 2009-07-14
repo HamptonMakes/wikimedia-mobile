@@ -88,6 +88,8 @@ class Articles < Application
         html = html.first
       end
       
+      #html = html.force_encoding("UTF-8")
+      
       if html
         Merb.logger.debug("CACHE HIT #{key}")
       else
@@ -104,7 +106,7 @@ class Articles < Application
   end
   
   def current_name
-    @name ||= (params[:search] || params[:title] || params[:file] || "").gsub("_", " ").force_encoding("UTF-8")
+    @name ||= (params[:search] || params[:title] || params[:file] || "").gsub("_", " ")
   end
   
   def cache_key
