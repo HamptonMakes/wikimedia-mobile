@@ -30,23 +30,19 @@ class Articles < Application
     elsif current_name[0..1] == "::"
       redirect "/wiki/#{current_name}"
     else
-      cache_block do
-        # Perform a normal search
-        @article = Article.new(current_server, current_name)
-        @article.fetch!
-        format_display_with_data do
-          @article.to_hash(request.device)
-        end
+      # Perform a normal search
+      @article = Article.new(current_server, current_name, nil, request.device)
+      #@article.fetch!
+      format_display_with_data do
+        @article.to_hash(request.device)
       end
     end
   end
   
   def file
-    cache_block do
-      @article = current_server.file(params[:file])
-      format_display_with_data do
-        @article.to_hash(request.device)
-      end
+    @article = current_server.file(params[:file])
+    format_display_with_data do
+      @article.to_hash(request.device)
     end
   end
   
@@ -74,30 +70,21 @@ class Articles < Application
   end
   
   def cache_block(&block)
-    #Merb.logger.debug("CACHE MISS")
-    #return block.call
     begin
+      return block.call
       time_to "cache block" do
-        if Merb.env == "development"
-          return block.call
-        end
       
         key = cache_key
         html = Cache[key]
       
-        if html.is_a? Array
-          html = html.first
-        end
-      
-        #html = html.force_encoding("UTF-8")
-      
         if html
           Merb.logger.debug("CACHE HIT #{key}")
+          return html
         else
           html = block.call
         
           time_to "store in cache" do
-            Cache.store(key, html, :expires_in => 60 * 60 * 6)
+            Cache.store(key, html, :expires_in => 60 * 60 * 12)
           end
 
           Merb.logger.debug("CACHE MISS #{key}")
@@ -115,6 +102,6 @@ class Articles < Application
   end
   
   def cache_key
-    "#{request.language_code}/#{request.device.format_name}/#{current_name}##{content_type}##{params[:callback]}".gsub(" ", "-")
+    "#{request.language_code}/#{request.device.format_name}/#{content_type}##{params[:callback]}".gsub(" ", "-")
   end
 end

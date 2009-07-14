@@ -10,6 +10,7 @@ module Wikipedia
     attr_writer :html
     # Server:server the server object that this article is associated with
     attr :server, true
+    attr :device, true
     
     # A flag to know if a resource is loaded
     attr_writer :loaded
@@ -26,9 +27,9 @@ module Wikipedia
     # For this object to be usable, you need to either parse
     # some data from the server, or use the instance variable
     # setters.
-    def initialize(server_or_language, title = nil, path = nil)
+    def initialize(server_or_language, title = nil, path = nil, device = nil)
       @server = server_or_language.kind_of?(Server) ? server_or_language : Server.new(server_or_language)
-      @title, @path = title, path
+      @title, @path, @device = title, path, device
       @loaded = false
     end
     

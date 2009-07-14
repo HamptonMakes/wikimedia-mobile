@@ -16,8 +16,15 @@ class Article < Wikipedia::Resource
     article
   end
   
+  # Caching whete
   def has_search_results?
-    raw_html.include?('var wgCanonicalSpecialPageName = "Search";')
+    if (@html = Cache[key])
+      Merb.logger.debug("CACHE HIT #{key}")
+      return false
+    else
+      fetch! if raw_html.nil?
+      raw_html.include?('var wgCanonicalSpecialPageName = "Search";')
+    end
   end
   
   def search_results
@@ -27,9 +34,25 @@ class Article < Wikipedia::Resource
   def suggestions
     @suggestions ||= Parsers::XHTML.suggestions(self)
   end
+  
+  # TODO: Get better file handling, right now I'm just calling back to regular HTML parser
+  def file(device)
+    @device = device
+    fetch!
+    html
+  end
 
-  def html(device, page_type = :article)
-    return @html if @html
+  def html
+    return @html if @html 
+    
+    time_to "lookup in cache" do
+      if (@html = Cache[key])
+        Merb.logger.debug("CACHE HIT #{key}")
+        return @html
+      else
+        Merb.logger.debug("CACHE MISS #{key}")
+      end
+    end
 
     # Grab the html from the server object
     fetch! if raw_html.nil?
@@ -37,13 +60,15 @@ class Article < Wikipedia::Resource
     time_to "parse #{device}" do
       # Figure out if we need to do extra formatting...
       case device.view_format
-      when "image"
-        Parsers::Image.parse(self)
       when "html"
         Parsers::XHTML.parse(self, :javascript => device.supports_javascript)
       when "wml"
         Parsers::WML.parse(self)
       end
+    end
+    
+    time_to "store in cache" do
+      Cache.store(key, @html, :expires_in => 60 * 60 * 12)
     end
 
     return @html
@@ -58,6 +83,10 @@ class Article < Wikipedia::Resource
 
   def to_hash(device)
     {:title => self.title, :html => self.html(device)}
+  end
+  
+  def key
+    @key ||= "#{@server.host}|#{@title}|#{device.view_format}|#{device.supports_javascript}".gsub(" ", "-")
   end
 
 end
