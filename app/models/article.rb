@@ -84,7 +84,8 @@ class Article < Wikipedia::Resource
   end
 
   def to_hash(device)
-    {:title => self.title, :html => self.html(device)}
+    @device = device
+    {:title => self.title, :html => self.html}
   end
   
   def key
