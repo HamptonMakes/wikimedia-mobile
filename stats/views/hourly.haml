@@ -18,7 +18,8 @@
 
 %p
 
-%img{:src => line_chart(@hours, ['average_action_time'], "Average Request Time")}/
+%img{:src => line_chart(@hours, ['average_action_time'], "Average (Mean) Request Time")}/
+%img{:src => line_chart(@hours, ['median_action_time'], "Median Request Time")}/
 %img{:src => line_chart(@hours, ['hits'], "Traffic")}/
 %img{:src => line_chart(@hours, ["format_hits['android']", "format_hits['native_iphone']", "format_hits['palm_pre']", "format_hits['webkit']"], "Traffic by Other Formats")}/
 %img{:src => line_chart(@hours, ["language_hits['de']", "language_hits['fr']", "language_hits['es']"], "Traffic by Other Languages")}/
@@ -36,6 +37,7 @@
     %td Hour
     %td Hits
     %td Req Per Second
+    %td Median Request Time
     %td %Cached
     %td Languages
     %td Formats
@@ -47,6 +49,11 @@
       %td
         = hour.requests_per_second.to_s[0..4]
         (req / sec)
+      %td
+        - if hour.median_action_time
+          = hour.median_action_time
+        - else
+          N/A
       %td
         = (hour.cache_hit_ratio * 100).round
         \%
