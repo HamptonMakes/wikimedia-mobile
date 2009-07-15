@@ -68,7 +68,6 @@ Merb::BootLoader.after_app_loads do
   trap("USR1") do
     Merb.logger.flush
     Merb::BootLoader::Dependencies.update_logger
-    puts "HIIII"
   end
 end
 
