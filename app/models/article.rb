@@ -48,7 +48,7 @@ class Article < Wikipedia::Resource
     time_to "lookup in cache" do
       if (@html = Cache[key])
         Merb.logger.debug("CACHE HIT #{key}")
-        return @html
+        return @html.force_encoding("UTF-8")
       else
         Merb.logger.debug("CACHE MISS #{key}")
       end
@@ -67,11 +67,13 @@ class Article < Wikipedia::Resource
       end
     end
     
+    @html = @html.force_encoding("UTF-8")
+    
     time_to "store in cache" do
       Cache.store(key, @html, :expires_in => 60 * 60 * 12)
     end
 
-    return @html
+    return @html.force_encoding("UTF-8")
   end
 
   def fetch!(*paths)
