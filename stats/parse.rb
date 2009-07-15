@@ -5,7 +5,7 @@ def run_parser(path)
   file = log_file + "." + Time.now.to_i.to_s
 
   `mv #{log_file} #{file}`
-  `touch #{File.join(path, "tmp/restart.txt")}`
+  `pkill -USR1 ruby`
 
   stats = StatSegment.new(:time => Time.now, :time_length => "hour")
   
