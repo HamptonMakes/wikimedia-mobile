@@ -28,10 +28,11 @@ module Parsers
                           ".printfooter",
                           ".boilerplate",
                           "#id-articulo-destacado",
-                          "#coordinates"
+                          "#coordinates",
+                          "#top"
                         ]
 
-      page = article.raw_document || Nokogiri::HTML(article.raw_html)
+      page = article.raw_document || Nokogiri::XML(article.raw_html)
       
       #language_stuff = page.css("div#p-lang div").first
       
@@ -65,7 +66,7 @@ module Parsers
     end
     
     def self.search_results(article)
-      result = Nokogiri::HTML(article.raw_html).css(".mw-search-results").first
+      result = Nokogiri::XML(article.raw_html).css(".mw-search-results").first
       
       if result
         result.inner_html
@@ -75,7 +76,7 @@ module Parsers
     end
     
     def self.suggestions(article)
-      result = Nokogiri::HTML(article.raw_html).css(".searchdidyoumean").first
+      result = Nokogiri::XML(article.raw_html).css(".searchdidyoumean").first
 
       if result
         result.inner_html

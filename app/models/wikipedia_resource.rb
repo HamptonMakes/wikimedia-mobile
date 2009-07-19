@@ -47,8 +47,8 @@ module Wikipedia
         false
       end
       @raw_html = result[:body]
-      @raw_document = Nokogiri::HTML(@raw_html)
-      self.title ||= raw_document.xpath("//title").first.inner_html.gsub(" - Wikipedia, the free encyclopedia", "")
+      @raw_document = Nokogiri::XML(@raw_html)
+      self.title ||= raw_document.css("title").first.inner_html.gsub(" - Wikipedia, the free encyclopedia", "")
       self.loaded = true
     end
     

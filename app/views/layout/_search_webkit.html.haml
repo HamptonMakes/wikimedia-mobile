@@ -1,5 +1,5 @@
 #header
-  %img{:src => "/images/w.gif", :id => "logo"}/
+  %img{:src => "/images/w.gif", :id => "logo", :alt => "W logo"}/
   %form.search_bar{:action => "/wiki", :method => "get"}
     %input{:name => "search", :type => "text", :size => "28", :value => CGI::unescape(current_name).force_encoding("UTF-8")}/
     %button{:type => "submit"}= go_text
