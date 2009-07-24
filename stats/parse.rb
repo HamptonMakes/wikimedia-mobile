@@ -1,5 +1,8 @@
 require 'init'
 
+trap("USR1") {
+}
+
 def run_parser(path)
   log_file = File::join(path, "log", "production.log")
   file = log_file + "." + Time.now.to_i.to_s
