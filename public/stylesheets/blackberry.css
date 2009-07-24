@@ -134,7 +134,7 @@ table.admin {
     margin-top: 10px;
     font-size: 80%; }
 
-#feedback {
+.message.notice {
   font-size: 15px; }
 
 

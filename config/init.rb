@@ -12,8 +12,6 @@ dependency 'curb'
 require 'cgi'
 require 'lib/merb_hoptoad_notifier/lib/merb_hoptoad_notifier'
 require 'lib/object'
-require 'lib/moneta/lib/moneta'
-require 'lib/moneta/lib/moneta/memcache'
 
 use_test :rspec
 use_template_engine :haml
@@ -28,7 +26,15 @@ Merb::Config.use do |c|
 end
 
 unless defined?(Cache)
-  Cache = Moneta::Memcache.new(:server => "127.0.0.1")
+  require 'lib/moneta/lib/moneta'
+
+  if Merb.env == "production"
+    require 'lib/moneta/lib/moneta/memcache'
+    Cache = Moneta::Memcache.new(:server => "127.0.0.1")
+  else
+    require 'lib/moneta/lib/moneta/memory'
+    Cache = Moneta::Memory.new
+  end
 end
 
 if defined?(PhusionPassenger)
@@ -65,6 +71,7 @@ Merb::BootLoader.after_app_loads do
     exit
   end
   
+  # This is a UNIX signal that can be sent to restart the logger
   trap("USR1") do
     Merb.logger.flush
     Merb::BootLoader::Dependencies.update_logger

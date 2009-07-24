@@ -3,7 +3,6 @@
 # TODO: Add more languages. See config/wikipedias.yaml
 class Application < Merb::Controller
   before :no_language_domain
-  before :debug_output
   before :logger_output
   
  protected
@@ -36,11 +35,22 @@ class Application < Merb::Controller
   end
   
   # This is used right now in the alpha stage to log their user agent
-  def debug_output
-    if Merb.env == "development"
+  
+  
+  # DEVELOPMENT
+  if Merb.env == "development"
+    before :debug_output
+    before :clear_cache
+
+    def debug_output
       Merb.logger.debug("User Agent: " + request.user_agent)
       Merb.logger.debug("Format: " + request.device.format_name.to_s)
       Merb.logger.debug("Language Code: " + request.language_code)
     end
+    
+    def clear_cache
+      Cache.clear
+    end
   end
+
 end
