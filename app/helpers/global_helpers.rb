@@ -30,9 +30,9 @@ module Merb
       perm_url = "#{temporary_url}&expires_in_days=#{365 * 10}"
       
 %|<div class="notice" id="language_notice">
-  <a href=#{temporary_url}>#{language_object["regular_wikipedia"]}</a>
+  <a href="#{temporary_url}">#{language_object["regular_wikipedia"]}</a>
   <div id="perm">
-    <a href=#{perm_url}>#{language_object["perm_stop_redirect"]}</a>
+    <a href="#{perm_url}">#{language_object["perm_stop_redirect"]}</a>
   </div>
 </div>|
     end
