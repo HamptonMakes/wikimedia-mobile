@@ -105,20 +105,18 @@ table.admin {
 
 #nav {
   display: none;
-  height: 50px;
-  width: 190px;
+  height: 28px;
+  width: 135px;
   clear: both;
   z-index: 1;
   background: white;
-  margin: -14px 0px 0px 0px;
-  padding: 0px 0 0 0;
+  margin: -1px 0 0 0;
+  padding: 5px 0 0 5px;
   border: 1px solid #ccc;
   border-top: 0px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px; }
   #nav button {
-    margin-top: 4px;
-    margin-left: 15px;
     float: left; }
 
 .notice {
