@@ -32,7 +32,7 @@ module Parsers
                           "#top"
                         ]
 
-      page = article.raw_document || Nokogiri::XML(article.raw_html)
+      page = article.raw_document || Nokogiri::HTML(article.raw_html)
       
       #language_stuff = page.css("div#p-lang div").first
       
@@ -48,7 +48,7 @@ module Parsers
       article.title ||= doc.css(".firstHeading").first.inner_html
 
       # Ah, hot and fresh html from the parser
-      html = doc.inner_html
+      html = doc.to_xhtml
 
       #if language_stuff
       #  html += "<h3>Also available in...</h3>"
