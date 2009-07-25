@@ -8,7 +8,7 @@ def run_parser(path)
   file = log_file + "." + Time.now.to_i.to_s
 
   `mv #{log_file} #{file}`
-  `pkill -USR1 ruby`
+  `pkill -USR1 thin`
 
   stats = StatSegment.new(:time => Time.now, :time_length => "hour")
   
@@ -103,6 +103,8 @@ def run_parser(path)
   stats.load_average = `uptime`.scan(/[0-9.]+$/).first.to_f
 
   puts stats.save.to_s + " " + Time.now.to_s
+
+  `gzip #{file}`
 end
 
 run_parser(ARGV[0])

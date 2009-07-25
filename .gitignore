@@ -1,9 +1,11 @@
 .DS_Store
 log/*
 tmp/*
+stats/tmp
 TAGS
 *~
 .#*
+public/grammar
 schema/schema.rb
 schema/*_structure.sql
 schema/*.sqlite3
