@@ -8,6 +8,6 @@
     %h3= language_object['no_article_found']
     %ul= @article.suggestions
 - else
-  = preserve @article.html
+  = @article.html
 
   = stop_redirect_notice(@article.title)

@@ -10,3 +10,4 @@ googlecharts
 gchart
 do_mysql
 merb_datamapper
+webrat

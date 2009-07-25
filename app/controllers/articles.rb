@@ -71,7 +71,6 @@ class Articles < Application
   
   def cache_block(&block)
     begin
-      return block.call
       time_to "cache block" do
       
         key = cache_key

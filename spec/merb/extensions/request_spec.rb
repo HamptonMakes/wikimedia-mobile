@@ -8,7 +8,7 @@ describe "requests with devices" do
   end
   
   it "should use have the format set from the request" do
-    req = fake_request( "HTTP_USER_AGENT" => "Rhosync")
-    Device.new(req).format_name.should == :rhosync    
+    req = fake_request( "HTTP_USER_AGENT" => "WebKit Safari")
+    Device.new(req).format_name.should == :webkit    
   end
 end
