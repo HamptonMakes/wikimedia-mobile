@@ -12,38 +12,21 @@ describe Device do
     
     describe "webkit_native" do
       
-      it "should be rhosync if there is rhosync in the UA string" do
-        ua = "Rhosync"
-        dev = Device.new(fake_ua_request(ua))
-        dev.format_name.should == :rhosync
+      it "should use the webkit_native_ua helper to get a valid :native_iphone format since this is depricated" do
+        Device.new(fake_ua_request(webkit_native_ua)).format_name.should == :native_iphone
       end
       
-      it "should use the webkit_native_ua helper to get a valid :webkit format since this is depricated" do
-        Device.new(fake_ua_request(webkit_native_ua)).format_name.should == :webkit
-      end
-      
-      it "should not be webkit_native if there is Safari in the UA string" do
-        ua = "Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1C28 Safari/419.3" 
-        Device.new(fake_ua_request(ua)).format_name.should_not == :webkit_native
-      end
-  
-      it "should not be webkit_native if iPhone is not in the UA string" do 
-        ua = "Mozilla/5.0 (U; CPU like Mac OS X; en) AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1C28"
-        Device.new(fake_ua_request(ua)).format_name.should_not == :webkit_native
-      end
-      
-      it "should not be webkit_native if Webkit is not in the UA string" do
-        ua = "Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) Foo/420+ (KHTML, like Gecko) Version/3.0 Mobile/1C28"
-        Device.new(fake_ua_request(ua)).format_name.should_not == :webkit_native
+      it "should get safari for a non-iphone webkit address" do
+        Device.new(fake_ua_request(safari_ua)).format_name.should == :webkit
       end
       
     end
 
-    describe "webkit" do
-      it "should be webkit if there is WebKit and Safari in the user string" do
-        ua = webkit_ua
+    describe "iphone" do
+      it "should be iphone if there is WebKit and Safari in the user string" do
+        ua = iphone_ua
         dev = Device.new(fake_ua_request(ua))
-        dev.format_name.should == :webkit
+        dev.format_name.should == :iphone
         dev.search_bar.should == 'webkit'
       end
     end

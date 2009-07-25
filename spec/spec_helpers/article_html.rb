@@ -1,3 +1,5 @@
+# encoding: UTF-8
+
 class ARTICLE_GO_MAN_GO
   def self.last_effective_url; "http://en.wikipedia.org/wiki/Go_Man_Go" end
   def self.downloaded_content_length; end

@@ -12,9 +12,9 @@ describe Article do
   end
   
   it "should grab an article" do
-    article = Article.new("en", "Go Man Go")
-    article.html(@device).should_not be_blank
-    article.html(@device).should have_xpath("//h1[contains(text(), 'Go Man Go')]")
+    article = Article.new("en", "Go Man Go", nil, @device)
+    article.html().should_not be_blank
+    article.html().should have_xpath("//h1[contains(text(), 'Go Man Go')]")
   end
   
   it "should set the article title" do
@@ -37,7 +37,7 @@ describe Article do
     it "should get a random article" do
       article = Article.random("en")
       article.should be_a_kind_of(Article)
-      article.html(@device).should_not be_nil
+      article.path.should_not be_nil
     end
     
     it "should set the path of the random article" do
@@ -53,13 +53,13 @@ describe Article do
   
   describe "Gzipped pages" do
     before(:each) do
-      Curl::Easy.stub!(:perform).and_return ARTICLE_EXTRAJUDICIAL_GZIPPED
+      Curl::Easy.stub!(:perform).and_return ARTICLE_GO_MAN_GO_GZIPPED
     end
     
     it "should read fine" do
-      article = Article.new("en", "Go Man Go")
-      article.html(@device).should_not be_blank
-      article.html(@device).should have_xpath("//h1[contains(text(), 'Extrajudicial killings and forced disappearances in the Philippines')]")
+      article = Article.new("en", "Go Man Go", nil, @device)
+      article.html.should_not be_blank
+      article.html.should have_xpath("//h1[contains(text(), 'Go Man Go')]")
     end
   end
   
