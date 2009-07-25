@@ -6,5 +6,8 @@ Sinatra::Application.default_options.merge!(
   #:env => 'production'
 )
 
+trap("USR1") do
+end
+
 require 'server'
 run Sinatra.application
