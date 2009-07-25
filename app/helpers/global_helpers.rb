@@ -3,7 +3,7 @@ module Merb
     # helpers defined here available to all views.  
     # 
     def language_notice
-      %|<div class='notice'><h3>Language Not Fully Supported</h3>
+      %|<div class="notice"><h3>Language Not Fully Supported</h3>
         <p>
         The language that you are currently using is not fully supported
         with Wikipedia Mobile. We are working hard to ensure that all Wikipedia
