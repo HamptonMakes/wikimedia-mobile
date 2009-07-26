@@ -29,7 +29,7 @@ def run_parser(path)
       languages[language] ||= 0
       languages[language] += 1
       hits += 1
-    rescue NoMethodError
+    rescue
       puts "problem with line #{line}"
     end
   end
