@@ -19,7 +19,8 @@ class Article < Wikipedia::Resource
   # Caching whete
   def has_search_results?
     if (@html = Cache[key])
-      Merb.logger.debug("CACHE HIT #{key}")
+      Merb.logger.debug("KEY: #{key}")
+      Merb.logger.debug("CACHE HIT")
       return false
     else
       fetch! if raw_html.nil?
@@ -46,11 +47,12 @@ class Article < Wikipedia::Resource
     return @html if @html 
     
     time_to "lookup in cache" do
+      Merb.logger.debug("KEY: #{key}")
       if (@html = Cache[key])
-        Merb.logger.debug("CACHE HIT #{key}")
+        Merb.logger.debug("CACHE HIT")
         return @html.force_encoding("UTF-8")
       else
-        Merb.logger.debug("CACHE MISS #{key}")
+        Merb.logger.debug("CACHE MISS")
       end
     end
 
