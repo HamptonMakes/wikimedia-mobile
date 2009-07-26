@@ -10,7 +10,9 @@
     <link rel="apple-touch-icon" href="http://en.m.wikipedia.org/apple-touch-icon.png" />
     - if request.device.supports_javascript
       = partial "layout/javascript"
-      <script type="text/javascript" language="javascript" SRC="/webkit.js"></script>
+      <script type="text/javascript" language="javascript" SRC="/javascript/jquery.js"></script>
+      <script type="text/javascript" language="javascript" SRC="/javascript/application.js"></script>
+      
   %body
     
     #content_wrapper

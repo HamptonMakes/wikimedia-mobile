@@ -253,3 +253,9 @@ img.thumbborder {
 
 .floatright {
   float: right; }
+
+#nav {
+  height: 30px;
+  margin: -2px 0 0 0; }
+  #nav button#randomButton {
+    margin-top: -12px; }
