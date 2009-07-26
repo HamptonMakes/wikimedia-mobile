@@ -102,11 +102,34 @@ table.admin {
   #header #logo {
     float: left;
     padding-right: 5px; }
+  #header #clearButton {
+    clear: none;
+    float: left;
+    padding: 0;
+    margin: 0 0 0 -25px; }
+    #header #clearButton img {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      clear: none; }
+  #header input#searchField {
+    float: left;
+    height: 20px;
+    width: 195px;
+    margin-top: -3px;
+    border: 1px solid grey; }
+  #header button#goButton {
+    float: right;
+    margin: -5px 8px 0 0;
+    height: 30px;
+    width: 30px;
+    background: #FFF url(/images/search.gif) no-repeat center;
+    border: 0; }
 
 #nav {
   display: none;
   height: 28px;
-  width: 135px;
+  width: 185px;
   clear: both;
   z-index: 1;
   background: white;
@@ -117,14 +140,20 @@ table.admin {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px; }
   #nav button {
-    float: left; }
+    float: left;
+    background: url(/images/buttonbg.gif) no-repeat center;
+    margin-left: 3px;
+    border: 0px;
+    height: 23px;
+    width: 83px; }
 
 .notice {
   padding: 5px;
   background: #ddd;
   -webkit-border-radius: 5px;
   margin-top: 5px;
-  text-align: center; }
+  text-align: center;
+  border: 1px solid grey; }
   .notice #perm {
     margin-top: 10px;
     font-size: 80%; }

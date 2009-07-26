@@ -18,8 +18,9 @@ module Merb
       language_object["go"] || "Go"
     end
     
-    def button_to(text, to)
-      %|<form method="get" action="#{to}"><button type="submit">#{text}</button></form>|
+    def button_to(text, to, id = nil)
+      id ||= text.downcase
+      %|<form method="get" action="#{to}"><button type="submit" id="#{id}Button">#{text}</button></form>|
     end
     
     def stop_redirect_notice(path)

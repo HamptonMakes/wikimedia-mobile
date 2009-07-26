@@ -13,13 +13,18 @@ webkit: &webkit
   <<: *capable
   search_bar: 'webkit'
   css_file_name: 'webkit'
-  
+
 android: 
   <<: *webkit
   css_file_name: "android"
 
 iphone:
   <<: *webkit
+  css_file_name: 'iphone'
+  
+iphone2:
+  <<: *webkit
+  css_file_name: 'iphone2'
 
 native_iphone:
   <<: *capable
@@ -27,6 +32,7 @@ native_iphone:
 
 palm_pre:
   <<: *webkit
+  css_file_name: 'palm_pre'
 
 kindle2:
   <<: *defaults

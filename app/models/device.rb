@@ -25,7 +25,11 @@ class Device
     when /Android/
       :android
     when /iPhone.* Safari/
-      :iphone
+      if user_agent.include?("iPhone OS 2")
+        :iphone2
+      else
+        :iphone
+      end
     when /iPhone/
       :native_iphone
     when /Pre\//
