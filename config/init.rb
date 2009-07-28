@@ -10,7 +10,6 @@ dependency "nokogiri"
 dependency 'curb'
 
 require 'cgi'
-require 'lib/merb_hoptoad_notifier/lib/merb_hoptoad_notifier'
 require 'lib/object'
 
 use_test :rspec
@@ -27,9 +26,11 @@ end
 
 unless defined?(Cache)
   require 'lib/moneta/lib/moneta'
+  
+  # We need to load this to help catch errors
+  require 'lib/moneta/lib/moneta/memcache'
 
   if Merb.env == "production"
-    require 'lib/moneta/lib/moneta/memcache'
     Cache = Moneta::Memcache.new(:server => "127.0.0.1")
   else
     require 'lib/moneta/lib/moneta/memory'
@@ -64,7 +65,11 @@ end
 Merb::BootLoader.after_app_loads do
   # This will get executed after your app's classes have been loaded.
   begin    
-    Wikipedia.settings = YAML::load(open("config/wikipedias.yaml"))
+    Wikipedia.settings = YAML::load(open("config/wikipedias.yml"))
+    Languages = {}
+    Dir.glob("config/translations/**.yml").each do |file|
+      Languages[file.split("/").last[0..1]] = YAML::load(open(file))
+    end
     Device.available_formats = YAML::load(open("config/formats.yaml"))
   rescue Exception => e
     puts "There appears to be a syntax error in your YAML configuration files."
