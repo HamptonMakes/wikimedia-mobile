@@ -1,3 +1,5 @@
+require 'uri'
+
 module Wikipedia
   # A Wikipedia resource is the base type for all resources
   class Resource
