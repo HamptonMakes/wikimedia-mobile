@@ -67,6 +67,14 @@ def run_parser(path)
   end
 
   stats.spider_cache_hit_ratio = cache_hit_count.to_f / (cache_hit_count + cache_miss_count)
+  
+  ## =========================== REDIRECTS ====================================
+  
+  stats.redirects = `cat #{file} | grep Params | grep wasRedirected`.split("\n").size
+  
+  ## ======================== HOME PAGE VIEWS =================================
+  
+  stats.home_page_views = `cat #{file} | grep Params | grep \"home\"`.split("\n").size
 
   ## ========================== ACTION SPEED ==================================
 
