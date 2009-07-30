@@ -18,8 +18,8 @@
 
 %p
 
-%img{:src => line_chart(@hours, ['average_action_time'], "Average (Mean) Request Time")}/
-%img{:src => line_chart(@hours, ['median_action_time'], "Median Request Time")}/
+%img{:src => line_chart(@hours, ['average_action_time_in_ms'], "Average (Mean) Request Time (ms)")}/
+%img{:src => line_chart(@hours, ['median_action_time_in_ms'], "Median Request Time (ms)")}/
 %img{:src => line_chart(@hours, ['hits'], "Traffic")}/
 %img{:src => line_chart(@hours, ["format_hits['android']", "format_hits['native_iphone']", "format_hits['palm_pre']", "format_hits['webkit']"], "Traffic by Other Formats")}/
 %img{:src => line_chart(@hours, ["language_hits['de']", "language_hits['fr']", "language_hits['es']"], "Traffic by Other Languages")}/
@@ -42,6 +42,9 @@
     %td Languages
     %td Formats
     %td Cache Size
+    %td Error %
+    %td Home Page %
+    %td Redirect %
   - @hours.reverse.each do |hour|
     %tr
       %td= hour.time.strftime("%I:00 %p<br/>%H00 hours")
@@ -51,7 +54,8 @@
         (req / sec)
       %td
         - if hour.median_action_time
-          = hour.median_action_time
+          = hour.median_action_time_in_ms
+          ms
         - else
           N/A
       %td
@@ -67,3 +71,6 @@
           %br/
       %td
         = (hour.cache_size / 1024.0).to_s[0..4] + " GB"
+      %td= hour.percent_of(:errors)
+      %td= hour.percent_of(:home_page_views)
+      %td= hour.percent_of(:redirects)
