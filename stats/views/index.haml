@@ -1,11 +1,11 @@
 %h2 Mobile Wikipedia Stats
 
 %h3
-  = number(StatSegment.sum(:hits))
+  = number(StatSegment.sum(:hits, :conditions => {:time_length => "hour"}))
   Happy Pages Served*
 
-%img{:src => line_chart(@day_stats, ["fetch(:total_hits)"], "Total Traffic")}
-%img{:src => line_chart(@day_stats, ["fetch(:average_action_time)"], "Average Page Serving Speed")}
+%img{:src => line_chart(@days, ["hits"], "Total Traffic by Day")}
+%img{:src => line_chart(@days, ["average_action_time_in_ms"], "Average Page Serving Speed (ms)")}
 
 %h3
   = to_date_url("See today's incomplete stats", Date.today)
@@ -17,15 +17,23 @@
   %tr
     %td Date
     %td Page Views
-    %td Average Request Time
-    %td Hourly Stats
-  - @day_stats.reverse.each do |stats|
+    %td 
+      Average of Hourly 
+      %br/
+      Median Request Time
+    %td Links
+  - @days.reverse.each do |stats|
     %tr
-      %td= stats[:day]
-      %td{:style => "text-align: right"}= number stats[:total_hits]
-      %td= stats[:average_action_time]
+      %td= stats.time.strftime("%Y/%m/%d")
+      %td{:style => "text-align: right"}= number stats.hits
+      %td{:style => "text-align: right"}
+        - if stats.median_action_time_in_ms > 0
+          = stats.median_action_time_in_ms.to_s[0..5]
+          ms
+        - else
+          N/A
       %td
-        %a{:href => stats[:path]} Stats for the day
+        %a{:href => stats.time.strftime("hourly/%Y/%m/%d")} Hourly
 
 
 %em * Includes entire beta period
