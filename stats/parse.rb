@@ -75,6 +75,10 @@ def run_parser(path)
   ## ======================== HOME PAGE VIEWS =================================
   
   stats.home_page_views = `cat #{file} | grep Params | grep \"home\"`.split("\n").size
+  
+  ## ============================= ERRORS ======================================
+  
+  stats.error_count = `cat #{file} | grep "/usr/bin/thin" | grep main`.split("\n").size
 
   ## ========================== ACTION SPEED ==================================
 

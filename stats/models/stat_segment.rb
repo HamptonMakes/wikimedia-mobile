@@ -11,6 +11,7 @@ class StatSegment
   property :hits, Integer
   property :redirects, Integer
   property :home_page_views, Integer
+  property :error_count, Integer
   property :slowest_action_time, Float
   property :fastest_action_time, Float
   property :average_action_time, Float
