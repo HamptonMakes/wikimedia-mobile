@@ -1,0 +1,13 @@
+--- 
+search_submit: Go
+search_results: Search Results
+no_article_found: No Article Found
+featured_article: Today's Featured Article
+in_the_news: In The News
+home_button: Home
+random_button: Random
+regular_wikipedia: View this page on regular Wikipedia
+perm_stop_redirect: Permanently disable mobile site
+error_page_title: We have a problem!
+error_page_text: "Wikipedia mobile is still under active development and we are working hard to fix all of our internal errors. We have been notified about this error and will be fixing it soon. Please check back!"
+copyright: "Text is available under the <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; additional terms may apply. See <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> for details. Wikipedia\xC2\xAE is a registered trademark of the <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, a non-profit organization."

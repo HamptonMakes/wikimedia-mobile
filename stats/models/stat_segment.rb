@@ -9,6 +9,8 @@ class StatSegment
   property :cache_hit_ratio, Float
   property :spider_cache_hit_ratio, Float
   property :hits, Integer
+  property :redirects, Integer
+  property :home_page_views, Integer
   property :slowest_action_time, Float
   property :fastest_action_time, Float
   property :average_action_time, Float

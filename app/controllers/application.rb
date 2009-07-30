@@ -13,9 +13,9 @@ class Application < Merb::Controller
   
   def language_object
     @language_object ||= if supported_language?
-      Wikipedia.settings['en']['translations'].merge(Wikipedia.settings[request.language_code]['translations'])
+      Languages['en'].merge(Languages[request.language_code])
     else
-      Wikipedia.settings['en']['translations']
+      Languages['en']
     end
   end
  

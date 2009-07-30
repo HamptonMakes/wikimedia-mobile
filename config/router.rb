@@ -31,8 +31,9 @@ Merb::Router.prepare do
   with(:controller => "articles") do
     match(/\/wiki\/File:(.*)/).to(:action => "file", :file => "[1]")
   
-    match("/wiki/\:\:Home").to(:action => "home")
+    
     match(/\/wiki\/::Random/).to(:action => "random")
+    match(/\/wiki\/\:\:.*/).to(:action => "home")
     
 
     with(:action => "show") do

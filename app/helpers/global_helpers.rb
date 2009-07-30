@@ -15,7 +15,7 @@ module Merb
     end
     
     def go_text
-      language_object["go"] || "Go"
+      language_object["search_submit"] || "Go"
     end
     
     def button_to(text, to, id = nil)

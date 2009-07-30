@@ -1,2 +1,0 @@
-namespace :merb_hoptoad_notifier do
-end
