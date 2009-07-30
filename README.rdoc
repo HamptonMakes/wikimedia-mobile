@@ -5,18 +5,19 @@ This is the new mobile project brought to you by the fine folks at Wikimedia.
 The goal of the project is to give access to Wikipedia to all sorts
 of different mobile devices in all sorts of different languages.
 
-The basic principal is to modify the Wikipedia pages in such a way that they
+The basic principle is to modify the Wikipedia pages in such a way that they
 are well suited to a large number of devices.
 
 Initially, XHTML/WebKit phones are the primary target. However, work has already
 begun on WML devices.
 
 Currently Supported devices:
-* iPhone
-* Android
-* webOS
+* iPhone  (OS 2 and 3)
+* Android (G1 and G2)
+* webOS   (Palm Pre)
+* Kindle 2
 
-Other targeted devices:
+Hope to target:
 * Blackberry (various versions)
 * Symbian
 * Windows Mobile
@@ -54,9 +55,12 @@ running.
   
 We need to use thin because currently Mongrel doesn't work on Ruby 1.9. If thin isn't installed `gem install thin`
 
-7) Browse to http://en.m.wikitest.org:4000
+7) Browse to http://en.m.wikitest.org:4000 in Safari (most useful as webkit is the main target)
 
-8) Start hacking!
+8) Install Palm Pre, Android, and iPhone Simulators
+  * You can find lots of info about this around the web
+
+9) Start hacking!
 
 = What should I work on?
 
@@ -68,22 +72,86 @@ And you should get a nice list of things that are needed
 
 = How are languages used?
 
-In the config/init.rb file, we load up all of the language settings from a file in config/wikipedias.yaml since really each language is a different Wikipedia install. Let's look at an example entry. (May be very out of date!)
+In the config/init.rb file, we load up all of the language settings from a file in config/translations/#{lang}.yaml since really each language is a different Wikipedia install. Let's look at an example entry. (May be very out of date!)
 
---- 
-go_button_small: Go
-search_results: Search Results
-no_article_found: No Article Found
-featured_article: Today's Featured Article
-in_the_news: In The News
-home_button: Home
-random_button: Random
-regular_wikipedia: View this page on regular Wikipedia
-perm_stop_redirect: Permanently disable mobile site
-error_page_title: We have a problem!
-error_page_text: "Wikipedia mobile is still under active development and we are working hard to fix all of our internal errors. We have been notified about this error and will be fixing it soon. Please check back!"
-copyright: "Text is available under the <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; additional terms may apply. See <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> for details. Wikipedia\xC2\xAE is a registered trademark of the <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, a non-profit organization."
-   
+    --- 
+    go_button_small: Go
+    search_results: Search Results
+    no_article_found: No Article Found
+    featured_article: Today's Featured Article
+    in_the_news: In The News
+    home_button: Home
+    random_button: Random
+    regular_wikipedia: View this page on regular Wikipedia
+    perm_stop_redirect: Permanently disable mobile site
+    error_page_title: We have a problem!
+    error_page_text: "Wikipedia mobile is still under active development and we are working hard to fix all of our internal errors. We have been notified about this error and will be fixing it soon. Please check back!"
+    copyright: "Text is available under the <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; additional terms may apply. See <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> for details. Wikipedia\xC2\xAE is a registered trademark of the <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, a non-profit organization."
+
+= A General Primer
+
+With all of the different formats we have to support, there is a fairly simple system
+for correlating a Device with a Format with some specific actions to take based on that
+Format.
+
+Process:
+* A request comes in from a browser
+* The request generates a Device object in merb/extensions/request_extension.rb
+* The Device object picks a format in Device#format_name
+** Any method_missing that Device receives is looked up in the format specfication
+** The formats are specified in config/formats.yml
+* An Article is fetched for that device
+** First, the article figures out what kind of parser needed to be run on the page
+** It then generates a key with that parser type. 
+** It then checks to see if that has been cached
+** If it is not cached, it grabs scrapes the Wikipedia page and processes it with some /app/models/parsers/* class
+** If it is cached, it returns that cached object
+* The layout is generated with the returned Article#html
+** The device format is used heavily here (aka, "= current_device.stylesheet_name")
+** An "app/views/layouts/_search_#{format}.html.haml" file is rendered in the search area
+** Changes in the search box and CSS fiels are the most different between formats
+
+= A Primer in CSS
+
+This is where we do a lot of work to make sure every format looks great on the device.
+We utilize Sass for this. CSS is now Valid sass, but we use imports to make sure that
+we aren't repeating code and are only loading one CSS file per request.
+
+Whenever we deploy, we generate out a CSS file for each of the formats (some formats share
+them, but that's specified in formats.yml) that contains some shared bits of CSS (namely, _tables.sass and webkit.sass)
+
+If you are going to work on the CSS, do not directly edit the CSS files. They will be automatically
+overwritten by the Sass files.
+
+For more information on Sass, please visit http://www.sass-lang.com for a tutorial about Sass' powerful features
+
+= A Primer in Formats
+
+Formats are the main mechanism used to correlate Devices with their differing behaviours.
+A basic format looks something like this: 
+
+    html: &defaults
+      view_format: 'html'
+      search_bar: 'default'
+      with_layout: "application"
+      css_file_name: "default"
+      supports_javascript: false
+
+    capable: &capable
+      <<: *defaults
+      supports_javascript: true
+
+    webkit: &webkit
+      <<: *capable
+      search_bar: 'webkit'
+      css_file_name: 'webkit'
+      
+
+We are using some of the magic of YAML here to help generate these. "capable" is a copy of the "html" format, but
+with one change... we enable javascript. "webkit" has the same properties as "capable", but we specify a new search
+bar and a new css file name. You can see this throughout the file. It allows us to be very, very specific with
+how we deal with a particular device.
+
 = Random Useful Things
 
 * Wikimedia language settings http://en.wikipedia.org/w/api.php?action=sitematrix

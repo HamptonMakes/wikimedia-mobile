@@ -70,7 +70,7 @@ Merb::BootLoader.after_app_loads do
     Dir.glob("config/translations/**.yml").each do |file|
       Languages[file.split("/").last[0..1]] = YAML::load(open(file))
     end
-    Device.available_formats = YAML::load(open("config/formats.yaml"))
+    Device.available_formats = YAML::load(open("config/formats.yml"))
   rescue Exception => e
     puts "There appears to be a syntax error in your YAML configuration files."
     exit
