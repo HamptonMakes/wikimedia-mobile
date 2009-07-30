@@ -1,0 +1,49 @@
+html: &defaults
+  view_format: 'html'
+  search_bar: 'default'
+  with_layout: "application"
+  css_file_name: "default"
+  supports_javascript: false
+
+capable: &capable
+  <<: *defaults
+  supports_javascript: true
+
+webkit: &webkit
+  <<: *capable
+  search_bar: 'webkit'
+  css_file_name: 'webkit'
+
+android: 
+  <<: *webkit
+  css_file_name: "android"
+
+iphone:
+  <<: *webkit
+  css_file_name: 'iphone'
+  
+iphone2:
+  <<: *webkit
+  css_file_name: 'iphone2'
+
+native_iphone:
+  <<: *capable
+  search_bar: false
+
+palm_pre:
+  <<: *webkit
+  css_file_name: 'palm_pre'
+
+kindle2:
+  <<: *defaults
+  search_bar: 'kindle'
+  css_file_name: "kindle"
+
+blackberry:
+  <<: *defaults
+  css_file_name: "blackberry"
+
+wml:
+  view_format: 'wml'
+  search_bar: 'wml'
+  supports_javascript: false
