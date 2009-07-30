@@ -1,7 +1,8 @@
 --- 
-search_results: Zoekresultaten
-no_article_found: Geen resultaten gevonden
-featured_article: Uitgelicht
-in_the_news: Actueel
-in_the_news_alt: In het nieuws
-random_article: Willekeurige pagina
+search_submit: "Artikel"
+search_results: "Zoekresultaten"
+no_article_found: "Geen resultaten gevonden"
+featured_article: "Uitgelicht"
+in_the_news: "Actueel"
+in_the_news_alt: "In het nieuws"
+random_article: "Willekeurige pagina"

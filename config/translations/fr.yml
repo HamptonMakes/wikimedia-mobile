@@ -1,9 +1,10 @@
 --- 
-search_results: "R\xC3\xA9sultats de la recherche"
-no_article_found: "Aucun titre de page ne correspond \xC3\xA0 la recherche"
-featured_article: "Lumi\xC3\xA8re sur..."
-in_the_news: "Actualit\xC3\xA9s et \xC3\xA9v\xC3\xA9nements"
-random_article: Un article au hasard
-random_article_notice: "Vous avez \xC3\xA9t\xC3\xA9 envoy\xC3\xA9 ici car vous avez cliqu\xC3\xA9 sur le logo de la page principale, cliquer \xC3\xA0 nouveau sur le W pour revenir en [arri\xC3\xA8re|\xC3\xA0 la page pr\xC3\xA9c\xC3\xA9dente]"
-link_to_wikipedia: Regardez cette page sur son site d'origine
-copyright: "<a class='internal' href='/wiki/Wikip%C3%A9dia:Droit_d%27auteur' title='Droit d'auteur'>Droit d'auteur</a> : Les textes sont disponibles sous <a href='http://creativecommons.org/licenses/by-sa/3.0/'>licence Creative Commons attribution partage \xC3\xA0 l\xE2\x80\x99identique</a> ; d\xE2\x80\x99autres termes peuvent s\xE2\x80\x99appliquer. Voyez les <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>termes d\xE2\x80\x99utilisation</a> pour plus de d\xC3\xA9tails. Wikipedia\xC2\xAE est une marque d\xC3\xA9pos\xC3\xA9e de la <a href='http://wikimediafoundation.org/wiki/Accueil' title='Wikimedia Foundation'>Wikimedia Foundation, Inc.</a>, organisation de bienfaisance r\xC3\xA9gie par le paragraphe <a class='internal' href='/wiki/501c' title='501c'>501(c)(3)</a> du code fiscal des \xC3\x89tats-Unis."
+search_submit: "Consulter"
+search_results: "Résultats de la recherche"
+no_article_found: "Aucun titre de page ne correspond à la recherche"
+featured_article: "Lumière sur..."
+in_the_news: "Actualités et événements"
+random_article: "Un article au hasard"
+random_article_notice: "Vous avez été envoyé ici car vous avez cliqué sur le logo de la page principale, cliquer à nouveau sur le W pour revenir en [arrière|à la page précédente]"
+link_to_wikipedia: "Regardez cette page sur son site d'origine"
+copyright: "<a class='internal' href='/wiki/Wikip%C3%A9dia:Droit_d%27auteur' title='Droit d'auteur'>Droit d'auteur</a> : Les textes sont disponibles sous <a href='http://creativecommons.org/licenses/by-sa/3.0/'>licence Creative Commons attribution partage à l’identique</a> ; d’autres termes peuvent s’appliquer. Voyez les <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>termes d’utilisation</a> pour plus de détails. Wikipedia® est une marque déposée de la <a href='http://wikimediafoundation.org/wiki/Accueil' title='Wikimedia Foundation'>Wikimedia Foundation, Inc.</a>, organisation de bienfaisance régie par le paragraphe <a class='internal' href='/wiki/501c' title='501c'>501(c)(3)</a> du code fiscal des États-Unis."

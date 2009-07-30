@@ -1,6 +1,7 @@
 --- 
-search_results: Risultati della ricerca
-no_article_found: Nessuna corrispondenza
-featured_article: Vetrina
-in_the_news: "Novit\xC3\xA0"
-random_article: Una voce e caso
+search_submit: "Vai"
+search_results: "Risultati della ricerca"
+no_article_found: "Nessuna corrispondenza"
+featured_article: "Vetrina"
+in_the_news: "Novità"
+random_article: "Una voce e caso"
