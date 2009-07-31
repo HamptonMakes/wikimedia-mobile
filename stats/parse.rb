@@ -16,9 +16,10 @@ def run_parser(path)
 
   languages = {}
   formats  = {}
-  hits = 0
+  hits = `cat #{file} | grep ReqLogger | wc`.split(" ").first.to_i
 
-  `cat #{file} | grep ReqLogger`.split("\n").each do |line|
+  begin
+   `cat #{file} | grep ReqLogger`.split("\n").each do |line|
     begin 
       format = line.split("|")[2].strip
       language = line.scan(/\((..)\)/).first.first
@@ -28,10 +29,12 @@ def run_parser(path)
   
       languages[language] ||= 0
       languages[language] += 1
-      hits += 1
     rescue
       puts "problem with line #{line}"
     end
+   end
+  rescue
+	puts "problem with line #{line}"
   end
 
   stats.language_hits = languages
