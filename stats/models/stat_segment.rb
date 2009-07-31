@@ -24,7 +24,7 @@ class StatSegment
     if attributes[attribute] == nil
       return "N/A"
     else
-      (attributes[attribute] / hits.to_f).round.to_s + "%"
+      ((attributes[attribute] / hits.to_f) * 100.0).to_s[0..5] + "%"
     end
   end
   
