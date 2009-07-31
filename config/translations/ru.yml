@@ -1,0 +1,10 @@
+--- 
+go: "Искать"
+search_results: "Результаты поиска"
+no_article_found: "Ничего не найдено"
+featured_article: "Статья дня"
+in_the_news: "Новости"
+home_button: "Домой"
+random_button: "Случайная статья"
+regular_wikipedia: "Стандартный вид"
+perm_stop_redirect: "Отключить переадресацию на мобильную версию"
