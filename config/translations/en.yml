@@ -6,6 +6,8 @@ featured_article: Today's Featured Article
 in_the_news: In The News
 home_button: Home
 random_button: Random
+show_button: Show
+hide_button: Hide
 regular_wikipedia: View this page on regular Wikipedia
 perm_stop_redirect: Permanently disable mobile site
 error_page_title: We have a problem!
