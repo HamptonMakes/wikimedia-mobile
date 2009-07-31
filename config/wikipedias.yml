@@ -14,11 +14,6 @@ fr:
   selectors: 
     article_of_the_day: "#bodyContent table tr:nth-child(3) td:nth-child(3) div:nth-child(1) .accueil_contenu"
     news_items: "#bodyContent table tr:nth-child(3) td:nth-child(3) div:nth-child(3) .accueil_contenu"
-ja: 
-  main_page: "\xE3\x83\xA1\xE3\x82\xA4\xE3\x83\xB3\xE3\x83\x9A\xE3\x83\xBC\xE3\x82\xB8"
-  selectors: 
-    article_of_the_day: "#bodyContent table:nth-child(8) td:nth-child(1) div:nth-child(3)"
-    news_items: "#bodyContent table:nth-child(8) td:nth-child(1) div:nth-child(6)"
 pl: 
   main_page: "Strona_g\xC5\x82\xC3\xB3wna"
   selectors: 

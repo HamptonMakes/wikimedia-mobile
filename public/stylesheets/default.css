@@ -257,3 +257,5 @@ img.thumbborder {
   display: block;
   border: 0px;
   margin-top: 3px; }
+  #nav button {
+    padding-bottom: 3px; }
