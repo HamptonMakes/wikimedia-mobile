@@ -23,5 +23,5 @@ $(function() {
 
 var clearText = function() {
   document.getElementById("searchField").value = "";
-  $("#searchField").val("")
+  $("#searchField").val("").focus();
 }
