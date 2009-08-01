@@ -8,7 +8,7 @@ module Merb
         The language that you are currently using is not fully supported
         with Wikipedia Mobile. We are working hard to ensure that all Wikipedia
         languages are supported on many mobile platforms. If you would like to volunteer
-        to help with this language, please contact <a href='mailto:hcatlin@wikimedia.org?subject=Language Help'>hcatlin@wikimedia.org</a>
+        to help with this language, please volunteer at <a href="http://www.translatewiki.net">TranslateWiki</a>.
         </p>
         <p>Your searches will be on <strong>#{request.language_code}.wikipedia.org</strong></p>
        </div>|

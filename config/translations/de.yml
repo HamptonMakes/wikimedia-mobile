@@ -1,9 +1,29 @@
---- 
-search_submit: "Los"
-search_results: "Suchergebnisse"
-no_article_found: "Es existiert kein Artikel"
-featured_article: "Artikel des Tages"
-in_the_news: "In den Nachrichten"
-home_button: "Start"
-random_button: "Zufall"
-copyright: "Der Text ist unter der <a class='internal' href='http://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Commons_Attribution-ShareAlike_3.0_Unported'>„Creative Commons Attribution/Share-Alike“-Lizenz</a> verfügbar; zusätzliche Bedingungen können anwendbar sein. Siehe die <a class='internal' href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Nutzungsbedingungen</a> für Einzelheiten. Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc."
+# Messages for German (Deutsch)
+# Exported from translatewiki.net
+# Author: Hcatlin
+# Author: Pill
+---
+search_submit: Los
+search_results: Suchergebnisse
+no_article_found: Es existiert kein Artikel
+featured_article: Artikel des Tages
+in_the_news: In den Nachrichten
+home_button: Start
+random_button: Zufall
+show_button: Zeige
+hide_button: Ausblenden
+regular_wikipedia: >
+  Zur klassischen Wikipedia-Version
+  wechseln
+perm_stop_redirect: Mobile Version dauerhaft deaktivieren
+error_page_title: Es gibt ein Problem!
+error_page_text: >
+  Die mobile Wikipedia-Version befindet
+  sich noch in der Entwicklung und wir
+  bemühen uns, noch bestehende interne
+  Fehler zu beheben. Wir wurden über
+  diesen Fehler informiert und werden das
+  Problem in Kürze lösen. Bitte versuche
+  es in einiger Zeit noch einmal.
+copyright: |
+  Der Text ist unter der <a class='internal' href='http://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Commons_Attribution-ShareAlike_3.0_Unported'>„Creative Commons Attribution/Share-Alike“-Lizenz</a> verfügbar; zusätzliche Bedingungen können anwendbar sein. Siehe die <a class='internal' href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Nutzungsbedingungen</a> für Einzelheiten. Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc.

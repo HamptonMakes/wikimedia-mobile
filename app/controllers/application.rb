@@ -7,10 +7,11 @@ class Application < Merb::Controller
  protected
  
   def supported_language?
-    Wikipedia.settings[request.language_code]
+    Languages[request.language_code]
   end
   
   def language_object
+    Merb.logger.debug("AHHH: " + Languages[request.language_code].inspect)
     @language_object ||= if supported_language?
       Languages['en'].merge(Languages[request.language_code])
     else

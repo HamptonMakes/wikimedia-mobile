@@ -1,7 +1,15 @@
---- 
-search_submit: "Siirry"
-search_results: "Etsi"
-no_article_found: "Artikkelia ei löytynyt"
-featured_article: "Suositeltu artikkeli"
-in_the_news: "Ajankohtaista"
-random_article: "Satunnainen artikkeli"
+# Messages for Finnish (Suomi)
+# Exported from translatewiki.net
+# Author: Nike
+---
+search_submit: Siirry
+search_results: Etsi
+no_article_found: Artikkelia ei löytynyt
+featured_article: Suositeltu artikkeli
+in_the_news: Ajankohtaista
+home_button: Etusivu
+random_button: Satunnainen
+show_button: Näytä
+hide_button: Piilota
+regular_wikipedia: Näytä tämä normaalissa Wikipediassa
+error_page_title: Virhetilanne

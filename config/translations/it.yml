@@ -1,7 +1,28 @@
---- 
-search_submit: "Vai"
-search_results: "Risultati della ricerca"
-no_article_found: "Nessuna corrispondenza"
-featured_article: "Vetrina"
-in_the_news: "Novità"
-random_article: "Una voce e caso"
+# Messages for Italian (Italiano)
+# Exported from translatewiki.net
+# Author: Darth Kule
+---
+search_submit: Vai
+search_results: Risultati della ricerca
+no_article_found: Nessuna corrispondenza
+featured_article: Vetrina
+in_the_news: Novità
+random_button: Casuale
+show_button: Mostra
+hide_button: Nascondi
+regular_wikipedia: >
+  Visualizza questa pagina su Wikipedia
+  normale
+perm_stop_redirect: >
+  Disabilitare permanentemente sito per
+  dispositivi mobili
+error_page_title: Si è verificato un problema.
+error_page_text: >
+  Wikipedia mobile è ancora in fase di
+  sviluppo attivo e stiamo lavorando sodo
+  per risolvere tutti i nostri errori
+  interni. Questo errore è già stato
+  notificato e verrà presto corretto.
+  Controlla nuovamente.
+copyright: |
+  Il testo è disponibile secondo la <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>licenza Creative Commons Attribuzione-Condividi allo stesso modo</a>; possono applicarsi condizioni ulteriori. Vedi le <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>condizioni d'uso</a> per i dettagli. Wikipedia è un marchio registrato della <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, un'organizzazione non a scopo di lucro.

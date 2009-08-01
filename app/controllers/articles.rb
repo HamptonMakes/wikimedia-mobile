@@ -6,7 +6,11 @@ class Articles < Application
 
   def home
     cache_block do
-      @main_page = Wikipedia.main_page(request.language_code)
+      if Wikipedia.settings[request.language_code]
+        @main_page = Wikipedia.main_page(request.language_code)
+      else
+        @main_page = {}
+      end
     
       format_display_with_data do
         {:title => "::Home", :html => render(:layout => false)}

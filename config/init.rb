@@ -68,7 +68,8 @@ Merb::BootLoader.after_app_loads do
     Wikipedia.settings = YAML::load(open("config/wikipedias.yml"))
     Languages = {}
     Dir.glob("config/translations/**.yml").each do |file|
-      Languages[file.split("/").last[0..1]] = YAML::load(open(file))
+      code = file.split("/").last.split(".").first
+      Languages[code] = YAML::load(open(file))
     end
     Device.available_formats = YAML::load(open("config/formats.yml"))
   rescue Exception => e
