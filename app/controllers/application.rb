@@ -11,7 +11,6 @@ class Application < Merb::Controller
   end
   
   def language_object
-    Merb.logger.debug("AHHH: " + Languages[request.language_code].inspect)
     @language_object ||= if supported_language?
       Languages['en'].merge(Languages[request.language_code])
     else

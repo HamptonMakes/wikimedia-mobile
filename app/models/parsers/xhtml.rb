@@ -58,7 +58,7 @@ module Parsers
       # # If the page is long enough and we didn't get a search results page then...
       if options[:javascript] && (html.size > 4000) && !html.include?("No article title matches")
         # If this is a longish article, then break it down into sections and 'headingize'
-        html = self.javascriptize(html)
+        html = self.javascriptize(article, html)
       end
     
       # Store this for later
@@ -88,10 +88,16 @@ module Parsers
     # This goes through the HTML and replaces the section headers with buttons for expanding/closing
     # sections. Aka, a show/hide functionality for webkit
     # WEBKIT
-    def self.javascriptize(data)
+    def self.javascriptize(article, data)
       headings = 0 
       # count the section indices we are going to handle
 
+      code = article.server.language_code
+      lang = Languages[code] || {}
+      
+      show = lang["show_button"] || "+"
+      hide = lang["hide_button"] || "-"
+        
       
       # Go through the whole page looking for headings
       data.gsub!(/<h2(.*)<span class="mw-headline">(.+)<\/span>/) do |line|
@@ -100,7 +106,7 @@ module Parsers
         headings += 1 
 
         # generate the HTML we are going to inject
-        buttons = "<button class='section_heading show' section_id='#{headings}'>Show</button><button class='section_heading hide' style='display: none' section_id='#{headings}'>Hide</button>"
+        buttons = "<button class='section_heading show' section_id='#{headings}'>#{show}</button><button class='section_heading hide' style='display: none' section_id='#{headings}'>#{hide}</button>"
         base = "<h2#{$1}#{buttons} <span>#{$2}</span></h2><div style='display:none' class='content_block' id='content_#{headings}'><h2 style='display: none'>"
 
         if headings > 1

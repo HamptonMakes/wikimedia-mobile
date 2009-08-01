@@ -6,10 +6,12 @@ require 'zlib'
 class Server
   attr :host
   attr :port
+  attr :language_code
   
   # Whenever you create a new article
   # you need to give it a host and a port
   def initialize(language_code = "en", opts = {})
+    @language_code = language_code
     @host = opts.fetch(:host, "#{language_code}.wikipedia.org")
     @port = opts.fetch(:port, "80")
   end
