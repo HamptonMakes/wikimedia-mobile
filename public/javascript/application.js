@@ -9,7 +9,6 @@ $(function() {
       button.next().show();
       $("#content_" + section_id).show()
     } else {
-      button.removeClass("hide").addClass("show")
       $("#content_" + section_id).hide()
       button.prev().show();
     }
