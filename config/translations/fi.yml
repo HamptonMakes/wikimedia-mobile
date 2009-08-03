@@ -1,6 +1,7 @@
 # Messages for Finnish (Suomi)
 # Exported from translatewiki.net
 # Author: Nike
+# Author: Str4nd
 ---
 search_submit: Siirry
 search_results: Etsi
@@ -13,3 +14,5 @@ show_button: Näytä
 hide_button: Piilota
 regular_wikipedia: Näytä tämä normaalissa Wikipediassa
 error_page_title: Virhetilanne
+copyright: |
+  Teksti on saatavilla <a href="http://fi.wikipedia.org/wiki/Wikipedia:Creative_Commons_Attribution-Share_Alike_3.0_Unported_-lisenssiehdot">Creative Commons Attribution/Share-Alike</a> -lisenssillä; lisäehtoja voi sisältyä. Katso <a href="http://wikimediafoundation.org/wiki/Käyttöehdot">käyttöehdot</a>. Wikipedia on <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.:n</a>, voittoa tavoittelemattoman yleishyödyllisen järjestön rekisteröimä tavaramerkki.

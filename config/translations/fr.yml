@@ -20,5 +20,12 @@ perm_stop_redirect: >
   Désactiver le site mobile de manière
   permanente
 error_page_title: Désolés, nous avons un problème.
+error_page_text: >
+  Wikipédia mobile est toujours en
+  développement actif et nous efforçons
+  de résoudre nos erreurs internes. Nous
+  avons été avisés de cette erreur et
+  nous allons la corriger rapidement.
+  Réessayez bientôt !
 copyright: |
   <a class='internal' href='/wiki/Wikip%C3%A9dia:Droit_d%27auteur' title='Droit d'auteur'>Droit d'auteur</a> : Les textes sont disponibles sous <a href='http://creativecommons.org/licenses/by-sa/3.0/'>licence Creative Commons attribution partage à l’identique</a> ; d’autres termes peuvent s’appliquer. Voyez les <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>termes d’utilisation</a> pour plus de détails. Wikipedia® est une marque déposée de la <a href='http://wikimediafoundation.org/wiki/Accueil' title='Wikimedia Foundation'>Wikimedia Foundation, Inc.</a>, organisation de bienfaisance régie par le paragraphe <a class='internal' href='/wiki/501c' title='501c'>501(c)(3)</a> du code fiscal des États-Unis.

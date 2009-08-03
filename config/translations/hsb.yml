@@ -1,5 +1,6 @@
 # Messages for Upper Sorbian (Hornjoserbsce)
 # Exported from translatewiki.net
+# Author: Hcatlin
 # Author: Michawiki
 ---
 search_submit: Wotpósłać
@@ -7,7 +8,7 @@ search_results: Pytanske wuslědki
 no_article_found: Žadyn nastawk namakany
 featured_article: Nastawk dnja
 in_the_news: W nowinkach
-home_button: Startowa strona
+home_button: Domoj
 random_button: Připad
 show_button: Pokazać
 hide_button: Schować

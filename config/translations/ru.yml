@@ -1,20 +1,39 @@
 # Messages for Russian (Русский)
 # Exported from translatewiki.net
 # Author: Ferrer
+# Author: Александр Сигачёв
 ---
 search_submit: Перейти
 search_results: Результаты поиска
-no_article_found: Ничего не найдено
-featured_article: Статья дня
+no_article_found: Не найдено статей
+featured_article: Избранная статья дня
 in_the_news: Новости
 home_button: Домой
-random_button: Случайная статья
+random_button: Случайная
 show_button: Показать
 hide_button: Скрыть
-regular_wikipedia: Стандартный вид
+regular_wikipedia: >
+  Просмотреть страницу
+  в обычной Википедии
 perm_stop_redirect: >
-  Отключить
-  переадресацию на
-  мобильную версию
+  Отключить мобильный
+  сайт
+error_page_title: У нас проблема!
+error_page_text: >
+  Мобильная Википедия
+  ещё находится в
+  стадии активной
+  разработки, и мы
+  прилагаем максимум
+  усилий, чтобы
+  исправить все наши
+  внутренние ошибки. Мы
+  были уведомлены об
+  этой ошибке и
+  планируем её вскоре
+  исправить.
+  Пожалуйста, проверьте
+  через некоторое
+  время!
 copyright: |
-  Текст доступен под лицензией <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; могут действовать дополнительные условия. Смотрите <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Условия использования</a>. Википедия — зарегистрированная торговая марка <a href='http://www.wikimediafoundation.org/'>Фонда Викимедиа</a>, некоммерческой организации.
+  Текст доступен на условиях лицензии <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution/Share-Alike</a>, в отдельных случаях могут действовать дополнительные условия. Подробнее см. [http://wikimediafoundation.org/wiki/Terms_of_Use/ru Условия использования]. «Wikipedia» — зарегистрированная торговая марка некоммерческой организации <a href='http://www.wikimediafoundation.org/'>«Фонд Викимедиа»</a>.

@@ -2,6 +2,7 @@
 # Exported from translatewiki.net
 # Author: Hcatlin
 # Author: Pill
+# Author: Umherirrender
 ---
 search_submit: Los
 search_results: Suchergebnisse
@@ -26,4 +27,4 @@ error_page_text: >
   Problem in Kürze lösen. Bitte versuche
   es in einiger Zeit noch einmal.
 copyright: |
-  Der Text ist unter der <a class='internal' href='http://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Commons_Attribution-ShareAlike_3.0_Unported'>„Creative Commons Attribution/Share-Alike“-Lizenz</a> verfügbar; zusätzliche Bedingungen können anwendbar sein. Siehe die <a class='internal' href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Nutzungsbedingungen</a> für Einzelheiten. Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc.
+  Der Text ist unter der Lizenz <a class='internal' href='http://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Commons_Attribution-ShareAlike_3.0_Unported'>„Creative Commons Attribution/Share-Alike“</a> verfügbar; zusätzliche Bedingungen können anwendbar sein. Siehe die <a class='internal' href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Nutzungsbedingungen</a> für Einzelheiten. Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc.
