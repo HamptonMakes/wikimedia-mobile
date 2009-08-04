@@ -1,10 +1,11 @@
 # Messages for Hebrew (עברית)
 # Exported from translatewiki.net
+# Author: Rotemliss
 # Author: YaronSh
 ---
 search_submit: חיפוש
 search_results: תוצאות החיפוש
-no_article_found: הערך לא נמצא
+no_article_found: הדף לא נמצא
 featured_article: הערך היומי המומלץ
 in_the_news: בחדשות
 home_button: דף הבית

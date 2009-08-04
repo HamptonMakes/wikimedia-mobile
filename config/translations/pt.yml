@@ -1,8 +1,15 @@
 # Messages for Portuguese (Português)
 # Exported from translatewiki.net
+# Author: Waldir
 ---
 search_submit: Ir
 search_results: Resultados de pesquisa
 no_article_found: Não Encontrado artigo
 featured_article: Artigo em destaque
 in_the_news: Eventos recentes
+home_button: Início
+random_button: Aleatório
+show_button: Mostrar
+hide_button: Esconder
+regular_wikipedia: Ver esta página na Wikipedia normal
+error_page_title: Temos um problema!
