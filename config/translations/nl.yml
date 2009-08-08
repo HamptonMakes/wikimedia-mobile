@@ -1,25 +1,25 @@
 # Messages for Dutch (Nederlands)
 # Exported from translatewiki.net
 # Author: Mwpnl
+# Author: SPQRobin
+# Author: Siebrand
 ---
-search_submit: Artikel
+search_submit: Zoeken
 search_results: Zoekresultaten
 no_article_found: Geen resultaten gevonden
 featured_article: Uitgelicht
 in_the_news: Actueel
 home_button: Hoofdpagina
-random_button: Op goed geluk
+random_button: Willekeurig
 show_button: Weergeven
 hide_button: Verbergen
-regular_wikipedia: Bekijk deze pagina in de normale layout
-perm_stop_redirect: Gebruik altijd de normale layout
-error_page_title: Er is een probleem geconstateerd!
-error_page_text: >
-  Wikipedia mobile is in ontwikkeling en
-  er wordt hard aan gewerkt om alle fouten
-  op te lossen. We hebben deze fout
-  ontvangen en zullen deze zo spoedig
-  mogelijk verhelpen. Binnenkort ziet u
-  hier het resultaat.
-copyright: |
-  De tekst is beschikbaar onder de licentie <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Naamsvermelding/Gelijk delen</a>. Het is mogelijk dat aanvullende voorwaarden van toepassing zijn. Zie de <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Algemene Voorwaarden</a> voor meer informatie.
+regular_wikipedia: >
+  Deze pagina in de standaardweergave
+  bekijken
+perm_stop_redirect: Altijd de standaardweergave gebruiken
+error_page_title: Er is een probleem!
+error_page_text: |
+  Wikipedia mobile is in ontwikkeling en er wordt hard aan gewerkt om alle fouten op te lossen.
+  We hebben deze fout ontvangen en verhelpen deze zo spoedig mogelijk.
+  Binnenkort ziet u hier het resultaat.
+copyright: "De tekst is beschikbaar onder de licentie <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Naamsvermelding/Gelijk delen</a>. Het is mogelijk dat aanvullende voorwaarden van toepassing zijn. Zie de <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Algemene Voorwaarden</a> voor meer informatie."

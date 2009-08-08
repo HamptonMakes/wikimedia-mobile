@@ -20,5 +20,4 @@ perm_stop_redirect: >
 error_page_title: 問題が起こりました！
 error_page_text: >
   ウィキペディア・モバイルはいまだ活発な開発の途中であり、私たちは内部エラーのすべてを修正しようと懸命に努力しています。このエラーについては通知を受けており、すぐに修正する予定です。後でまた確認してみてください。
-copyright: |
-  テキストは<a href='http://creativecommons.org/licenses/by-sa/3.0/deed.ja'>クリエイティブ・コモンズ 表示-継承ライセンス</a>の下で利用可能です。追加の条件が適用される場合があります。詳細は<a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>利用規約</a>を参照してください
+copyright: "テキストは<a href='http://creativecommons.org/licenses/by-sa/3.0/deed.ja'>クリエイティブ・コモンズ 表示-継承ライセンス</a>の下で利用可能です。追加の条件が適用される場合があります。詳細は<a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>利用規約</a>を参照してください"
