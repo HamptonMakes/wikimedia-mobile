@@ -10,7 +10,7 @@ def run_parser(path)
   `mv #{log_file} #{file}`
   `pkill -USR1 thin`
 
-  stats = StatSegment.new(:time => Time.now, :time_length => "hour")
+  stats = StatSegment.new(:time => Time.now, :time_length => "minute")
   
   ## ====================== LANGUAGE AND FORMAT =================================
 
