@@ -105,8 +105,13 @@ module StatMerging
     end
     
     def hours(date = Date.today)
-      current_hour = Time.now.hour
-      ((0..current_hour).to_a.collect do |hour|
+      last_hour_to_track = 23
+      
+      if(date == Date.today)
+        last_hour_to_track = Time.now.hour
+      end
+      
+      ((0..last_hour_to_track).to_a.collect do |hour|
         StatSegment.hour(date, hour)
       end).compact
     end
