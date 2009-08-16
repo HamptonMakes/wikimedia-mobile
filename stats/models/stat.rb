@@ -59,6 +59,17 @@ class StatSegment
     (self.average_action_time || 0.0) * 1000
   end
   
+  def hits_per_second
+    case time_length
+    when "minute"
+      hits / 60
+    when "hour"
+      hits / (60 * 60)
+    when "day"
+      hits / (60 * 60 * 24)
+    end
+  end
+  
   def other_lang_hits
     total = 0
     language_hits.each do |lang, hits|

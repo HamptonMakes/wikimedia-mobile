@@ -87,7 +87,7 @@ module StatMerging
         hour ||= StatSegment.new(:time_length => "hour", :time => date.to_s + " " + hour_number.to_s)
         segments = Stat.minutes(Date.today, hour_number)
         if segments.size == 0
-          if(hour.hits > 0) # In case this is legacy
+          if((hour.hits != nil) && (hour.hits > 0)) # In case this is legacy
             return hour
           else
             return nil
@@ -100,8 +100,12 @@ module StatMerging
       hour
     end
     
-    def minutes(date, hour_number)
-      Stat.all(:conditions => ["DATE(time) = ? AND time_length = ? AND HOUR(time) = ?", date, "minute", hour_number])
+    def minutes(date, hour_number = nil)
+      if hour_number
+        Stat.all(:conditions => ["DATE(time) = ? AND time_length = ? AND HOUR(time) = ?", date, "minute", hour_number])
+      else
+        Stat.all(:conditions => ["DATE(time) = ? AND time_length = ?", date, "minute"])
+      end
     end
     
     def hours(date = Date.today)
