@@ -8,9 +8,9 @@ require 'helpers'
 get("/hourly/:year/:month/:day") do
   @date_string = [params[:year], params[:month], params[:day]].join("/")
   @date = Date.parse(@date_string)
-  @hours = StatSegment.all(:conditions => ["DATE(time) = ? AND time_length = ?", @date, "hour"], :order => [:time.asc])
+  @hours = StatSegment.hours(@date)
   @total_hits = 0
-  @hours.each { |h| @total_hits += h.hits }
+  @hours.each { |h| @total_hits += (h.hits || 0) }
   haml :hourly
 end
 

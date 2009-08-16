@@ -6,7 +6,7 @@ $first_day = Date.parse("2009-06-20")
 
 DataMapper.setup(:default, "mysql://root@localhost/stats")
 
-require 'models/stat_segment'
+require 'models/stat'
 
 class Array
   def mean

@@ -1,5 +1,13 @@
 require 'models/stat_merging'
 
+# Alias as stat
+module Stat
+  def self.method_missing(method, *args, &block)
+    StatSegment.send(method, *args, &block)
+  end
+end
+
+# Actual Implementation
 class StatSegment
   include DataMapper::Resource
   include StatMerging::InstanceMethods

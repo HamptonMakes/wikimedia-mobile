@@ -6,8 +6,7 @@ haml
 merb-haml
 curb
 nokogiri
-googlecharts
-gchart
+gchartrb
 do_mysql
 merb_datamapper
 webrat

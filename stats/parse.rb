@@ -20,21 +20,21 @@ def run_parser(path)
 
   begin
    `cat #{file} | grep ReqLogger`.split("\n").each do |line|
-    begin 
-      format = line.split("|")[2].strip
-      language = line.scan(/\((..)\)/).first.first
+      begin 
+        format = line.split("|")[2].strip
+        language = line.scan(/\((..)\)/).first.first
   
-      formats[format] ||= 0
-      formats[format] += 1
+        formats[format] ||= 0
+        formats[format] += 1
   
-      languages[language] ||= 0
-      languages[language] += 1
-    rescue
-      puts "problem with line #{line}"
-    end
+        languages[language] ||= 0
+        languages[language] += 1
+      rescue
+        puts "problem with line"
+      end
    end
   rescue
-	puts "problem with line #{line}"
+	  puts "problem with line #{line}"
   end
 
   stats.language_hits = languages
