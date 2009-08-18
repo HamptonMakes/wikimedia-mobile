@@ -80,6 +80,7 @@ Merb::BootLoader.after_app_loads do
   # This is a UNIX signal that can be sent to restart the logger
   trap("USR1") do
     Merb.logger.flush
+    Merb::Config[:log_stream].close
     Merb::BootLoader::Dependencies.update_logger
   end
 end
