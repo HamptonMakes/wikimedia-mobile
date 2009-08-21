@@ -1,0 +1,27 @@
+# Messages for Catalan (Català)
+# Exported from translatewiki.net
+# Author: Aleator
+# Author: Paucabot
+---
+search_submit: Vés-hi
+search_results: Resultats de la cerca
+no_article_found: Cap article trobat
+featured_article: Article destacat d'avui
+in_the_news: Actualitat
+home_button: Inici
+random_button: Aleatori
+show_button: Mostra
+hide_button: Amaga
+regular_wikipedia: Vegeu aquesta pàgina a la Viquipèdia
+perm_stop_redirect: >
+  Deshabilitar permanentment el lloc
+  mòbil
+error_page_title: Tenim un problema!
+error_page_text: >
+  Wikipedia mobile encara està en
+  desenvolupament i estem treballant per a
+  resoldre tots els errors interns. Hem
+  estat notificats d'aquest error i el
+  repararem aviat. Si us plau, torni-ho a
+  intentar!
+copyright: "El text està disponible sota la <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.ca'>Llicència de Creative Commons Reconeixement/Compartir-Igual</a>; es poden aplicar termes addicionals. Vegeu <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>els Termes d'ús</a> per a més informació. Wikipedia és marca registrada de <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, una organització sense ànim de lucre."
