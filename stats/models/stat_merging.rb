@@ -83,7 +83,7 @@ module StatMerging
       hour = Stat.first(:conditions => ["DATE(time) = ? and time_length = ? and HOUR(time) = ?", date, "hour", hour_number])
       
       # Recalculate if nil, if its today and its this hour or the hour before
-      if hour.nil? || (date == Date.today && hour_number >= (Time.now.hour - 2))
+      if hour.nil?
         hour ||= StatSegment.new(:time_length => "hour", :time => date.to_s + " " + hour_number.to_s)
         segments = Stat.minutes(date, hour_number)
         if segments.size == 0
@@ -94,7 +94,10 @@ module StatMerging
           end
         end
         hour.attributes = merge(segments)
-        hour.save
+        
+        if !(date == Date.today && hour_number >= (Time.now.hour - 2))
+          hour.save
+        end
       end
       
       hour
