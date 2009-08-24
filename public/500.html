@@ -7,14 +7,14 @@
         language = navigator.language.substr(0,2);
       }
       
-      var path = window.location.pathname
+      var path = window.location.pathname;
       
       if(path.match("::Home")) {
-        path = "/"
+        path = "/";
       }
       
-      var redirectTo = "http://" + language + ".wikipedia.org/w/mobileRedirect.php?to=http://" + language + ".wikipedia.org" + path
-      alert(redirectTo)
+      var redirectTo = "http://" + language + ".wikipedia.org/w/mobileRedirect.php?to=http://" + language + ".wikipedia.org" + path;
+      window.location = redirectTo;
     </script>
   </head>
   <body>
