@@ -39,8 +39,18 @@ class StatSegment
     end
   end
   
+  def percent_change_from(stat, method = :hits)
+    original = stat.send(method)
+    new_number = self.send(method)
+    ((new_number.to_f - original.to_f) / original) * 100
+  end
+  
   def requests_per_second
     hits / 60.0 / 60
+  end
+  
+  def hits_in_millions
+    hits / 1_000_000.0
   end
   
   def en_hits

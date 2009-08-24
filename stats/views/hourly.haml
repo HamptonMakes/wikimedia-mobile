@@ -19,13 +19,13 @@
 %p
 
 %img{:src => line_chart(@minutes, ['average_action_time_in_ms'], "Average (Mean) Request Time (ms)")}/
-%img{:src => line_chart(@hours, ['median_action_time_in_ms'], "Median Request Time (ms)")}/
+%img{:src => line_chart(@minutes, ['median_action_time_in_ms'], "Median Request Time (ms)")}/
 %img{:src => line_chart((@minutes.any? ? @minutes : @hours), ['hits_per_second'], "Traffic per Second")}/
-%img{:src => line_chart(@hours, ["format_hits['android']", "format_hits['native_iphone']", "format_hits['palm_pre']", "format_hits['webkit']"], "Traffic by Other Formats")}/
-%img{:src => line_chart(@hours, ["language_hits['de']", "language_hits['fr']", "language_hits['ja']"], "Traffic by Other Languages")}/
-%img{:src => line_chart(@hours, [:cache_hit_ratio], "Local Cache Hit Ratio") { |c| c.axis :y, :range => [0.0, 1.0]}}/
-%img{:src => line_chart(@hours, [:spider_cache_hit_ratio], "Wikipedia Cache Hit Ratio")}/
-%img{:src => line_chart(@hours, [:load_average], "Server Load Average") }
+%img{:src => line_chart(@minutes, ["format_hits['android']", "format_hits['native_iphone']", "format_hits['palm_pre']", "format_hits['webkit']"], "Traffic by Other Formats")}/
+%img{:src => line_chart(@minutes, ["language_hits['de']", "language_hits['fr']", "language_hits['ja']"], "Traffic by Other Languages")}/
+%img{:src => line_chart(@minutes, [:cache_hit_ratio], "Local Cache Hit Ratio") { |c| c.axis :y, :range => [0.0, 1.0]}}/
+%img{:src => line_chart(@minutes, [:spider_cache_hit_ratio], "Wikipedia Cache Hit Ratio")}/
+%img{:src => line_chart(@minutes, [:load_average], "Server Load Average") }
 
 .notice
   %em All times in UTC

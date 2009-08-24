@@ -16,9 +16,19 @@ get("/hourly/:year/:month/:day") do
 end
 
 get("/") do
+  @time = "Weeks"
   @today_path = "/hourly/" + Time.now.strftime("%Y/%m/%d")
-  @days = StatSegment.days
-  @allTime = StatSegment.all_time
+  @allTime = StatSegment.all_time_hits
+  @stats = Stat.weeks
+
+  haml :index
+end
+
+get "/daily" do
+  @time = "Days"
+  @today_path = "/hourly/" + Time.now.strftime("%Y/%m/%d")
+  @allTime = StatSegment.all_time_hits
+  @stats = Stat.days
 
   haml :index
 end
