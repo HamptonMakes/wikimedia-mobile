@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <script type="text/javascript">
+      var language = window.location.host.split(".")[0];
+      
+      if(language == "m") {
+        language = navigator.language.substr(0,2);
+      }
+      
+      var path = window.location.pathname
+      
+      if(path.match("::Home")) {
+        path = "/"
+      }
+      
+      var redirectTo = "http://" + language + ".wikipedia.org/w/mobileRedirect.php?to=http://" + language + ".wikipedia.org" + path
+      alert(redirectTo)
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
