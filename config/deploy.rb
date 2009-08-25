@@ -1,8 +1,8 @@
-set :application, "wikimedia-mobile"
+set :application, "mobile"
 set :repository,  "git://github.com/hcatlin/wikimedia-mobile.git"
 
 set :scm, :git
-set :user, "root"
+set :user, "deploy"
 set :deploy_to, "/srv/#{application}"
 
 role :web, "mobile1.wikimedia.org"
@@ -19,6 +19,6 @@ namespace :deploy do
   end
   
   task :stop do
-    run "pkill -9 thin"
+    run "/etc/init.d/thin stop"
   end
 end

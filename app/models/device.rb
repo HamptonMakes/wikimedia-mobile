@@ -40,6 +40,8 @@ class Device
       :wml
     when /Kindle\/2.0/
       :kindle2
+    when /Firefox/
+      :capable
     else
       :html
     end
