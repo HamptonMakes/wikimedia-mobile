@@ -12,8 +12,8 @@ de:
 fr: 
   main_page: Accueil
   selectors: 
-    article_of_the_day: "#bodyContent table tr:nth-child(3) td:nth-child(3) div:nth-child(1) .accueil_contenu"
-    news_items: "#bodyContent table tr:nth-child(3) td:nth-child(3) div:nth-child(3) .accueil_contenu"
+    article_of_the_day: "#accueil-lumieresur"
+    news_items: "#accueil-actualite"
 pl: 
   main_page: "Strona_g\xC5\x82\xC3\xB3wna"
   selectors: 
