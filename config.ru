@@ -3,8 +3,6 @@
 Encoding.default_internal = Encoding.default_external = "UTF-8"
 
 require 'rubygems'
-
-
  
 # Uncomment if your app uses bundled gems
 #gems_dir = File.expand_path(File.join(File.dirname(__FILE__), 'gems'))

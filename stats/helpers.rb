@@ -12,15 +12,17 @@ helpers do
     chart = GoogleChart::LineChart.new('500x300', title, false) do |sparklines|
       attributes.each_with_index do |stat_name, index|
         data = array.collect do |stat|
-          point = eval("stat.#{stat_name.to_s}")
-          if point
-            if point > max
-              max = point
+          if stat
+            point = eval("stat.#{stat_name.to_s}")
+            if point
+              if point > max
+                max = point
+              end
+              if point < min
+                min = point
+              end
+              point
             end
-            if point < min
-              min = point
-            end
-            point
           end
         end
         data.compact!
