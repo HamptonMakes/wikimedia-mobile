@@ -1,6 +1,7 @@
 # Messages for Khmer (ភាសាខ្មែរ)
 # Exported from translatewiki.net
 # Author: គីមស៊្រុន
+# Author: វ័ណថារិទ្ធ
 ---
 search_submit: ទៅ
 search_results: លទ្ធផលស្វែងរក
@@ -16,5 +17,16 @@ show_button: បង្ហាញ
 hide_button: លាក់
 regular_wikipedia: >
   បើកមើលទំព័រនេះនៅលើវិគីភីឌាធម្មតា
+perm_stop_redirect: >
+  បិទសុពលភាពវិបសាយចល័តជារៀងរហូត
 error_page_title: >
   យើងមានបញ្ហាហើយ!
+error_page_text: >
+  វិគីភីឌាចល័តកំពុងស្ថិតក្រោមការអភិវឌ្ឍន៍​យ៉ាងសកម្ម
+  ហើយយើងខ្ញុំកំពុង​ប្រឹងប្រែងយ៉ាងខ្លាំងក្លា​ក្នុងការកែប្រែកំហុសផ្ទៃក្នុងទាំងឡាយ។
+  យើងខ្ញុំទទួលការប្រាប់ព័ត៌មាន​អំពីកំហុសទាំងនោះ​ហើយយើងខ្ញុំនឹង​ធ្វើការកែប្រែវានាពេលឆាប់ៗនេះ។
+  សូមត្រលប់មកពិនិត្យមើលម្ដងទៀត!
+copyright: |
+  អត្ថបទ​នេះ​អាចរកបាន ក្រោម​[http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License អាជ្ញាបណ្ណ Creative Commons Attribution/Share-Alike]។ លក្ខខណ្ឌបន្ថែម​ផ្សេងៗទៀតក៏នឹងអាចត្រូវបានអនុវត្ត។​
+  សូមមើល [http://wikimediafoundation.org/wiki/Terms_of_Use/ លក្ខខណ្ឌ​ក្នុងការ​ប្រើប្រាស់] សម្រាប់​ព័ត៌មានលម្អិត​។
+  វិគីភីឌា​គឺជាផ្លាកសញ្ញាដែលបានចុះបញ្ជីពាណិជ្ជកម្ម នៃ[http://www.wikimediafoundation.org មូលនិធិវិគីមេឌា (Wikimedia Foundation, Inc.)] ដែលជាអង្គការមិនរកប្រាក់ចំនេញ​។

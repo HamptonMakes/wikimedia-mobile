@@ -119,7 +119,7 @@ def run_parser(path)
 
   puts stats.save.to_s + " " + Time.now.to_s
 
-  `gzip #{file}`
+  `rm #{file}`
 end
 
 run_parser(ARGV[0])

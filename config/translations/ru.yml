@@ -1,6 +1,7 @@
 # Messages for Russian (Русский)
 # Exported from translatewiki.net
 # Author: Ferrer
+# Author: Lockal
 # Author: Александр Сигачёв
 ---
 search_submit: Перейти
@@ -36,4 +37,4 @@ error_page_text: >
   через некоторое
   время!
 copyright: |
-  Текст доступен на условиях лицензии <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution/Share-Alike</a>, в отдельных случаях могут действовать дополнительные условия. Подробнее см. [http://wikimediafoundation.org/wiki/Terms_of_Use/ru Условия использования]. «Wikipedia» — зарегистрированная торговая марка некоммерческой организации <a href='http://www.wikimediafoundation.org/'>«Фонд Викимедиа»</a>.
+  Текст доступен на условиях лицензии <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution/Share-Alike</a>, в отдельных случаях могут действовать дополнительные условия. Подробнее см. <a href='http://wikimediafoundation.org/wiki/Terms_of_Use/ru'>Условия использования</a>. «Wikipedia» — зарегистрированная торговая марка некоммерческой организации <a href='http://www.wikimediafoundation.org/'>«Фонд Викимедиа»</a>.

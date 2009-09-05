@@ -1,5 +1,6 @@
 # Messages for Portuguese (Português)
 # Exported from translatewiki.net
+# Author: Malafaya
 # Author: Waldir
 ---
 search_submit: Ir
@@ -12,4 +13,5 @@ random_button: Aleatório
 show_button: Mostrar
 hide_button: Esconder
 regular_wikipedia: Ver esta página na Wikipedia normal
+perm_stop_redirect: Desativar sítio móvel permanentemente
 error_page_title: Temos um problema!

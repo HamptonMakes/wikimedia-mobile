@@ -5,10 +5,10 @@
 ---
 search_submit: Przejdź
 search_results: Wyniki wyszukiwania
-no_article_found: No Article Found
-featured_article: Today's Featured Article
-in_the_news: In The News
-home_button: Start
+no_article_found: Artykułu nie odnaleziono
+featured_article: Wyróżniony artykuł
+in_the_news: Aktualności
+home_button: Główna
 random_button: Losuj
 show_button: Pokaż
 hide_button: Ukryj
