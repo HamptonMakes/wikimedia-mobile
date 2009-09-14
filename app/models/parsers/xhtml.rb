@@ -45,7 +45,7 @@ module Parsers
     
       # For getting the human-readable title of the page
       # grab what's in the .first-heading div
-      article.title ||= doc.css(".firstHeading").first.inner_html
+      article.title = doc.css(".firstHeading").first.inner_html
 
       # Ah, hot and fresh html from the parser
       html = doc.to_xhtml
