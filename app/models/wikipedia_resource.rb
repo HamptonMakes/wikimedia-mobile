@@ -53,6 +53,10 @@ module Wikipedia
       self.title ||= raw_document.css("title").first.inner_html.gsub(" - Wikipedia, the free encyclopedia", "")
       self.loaded = true
     end
+
+    def encoded_title
+      CGI::unescape(@title)
+    end
     
    private
     # Used internally to get the escaped title
@@ -61,6 +65,8 @@ module Wikipedia
       return "" if title.nil?
       @escaped_title ||= title.strip.gsub(" ", "_")
     end
+    
+    
     
     def uri_escaped_title
       @uri_escaped_title ||= URI::escape(escaped_title)

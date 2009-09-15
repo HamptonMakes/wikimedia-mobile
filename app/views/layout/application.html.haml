@@ -1,7 +1,7 @@
 !!!
 %html{:xmlns => "http://www.w3.org/1999/xhtml", 'xml:lang' => "en-us", :lang => "en-us"}
   %head
-    %title= @article ? @article.title : "Wikipedia"
+    %title= @article ? @article.encoded_title : "Wikipedia"
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     %link{:type => "text/css", :href => "/stylesheets/#{request.device.css_file_name}.css", :rel => "Stylesheet", :media => "all"}/
     <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
