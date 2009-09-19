@@ -100,7 +100,7 @@ module Parsers
         
       
       # Go through the whole page looking for headings
-      data.gsub!(/<h2(.*)<span class="mw-headline">(.+)<\/span>/) do |line|
+      data.gsub!(/<h2(.*)<span class="mw-headline" [^>]*>(.+)<\/span>/) do |line|
 
         # store this for later using those old ruby hacks like perl with the $ args
         headings += 1 
