@@ -8,8 +8,10 @@ $(function() {
     if(button.hasClass("show")) {
       button.next().show();
       $("#content_" + section_id).show()
+      $("#back_to_top_for_" + section_id).show()
     } else {
       $("#content_" + section_id).hide()
+      $("#back_to_top_for_" + section_id).hide()
       button.prev().show();
     }
   })

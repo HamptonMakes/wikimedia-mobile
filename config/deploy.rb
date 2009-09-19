@@ -15,10 +15,17 @@ namespace :deploy do
   end
   
   task :start do
-    run "/etc/init.d/thin start"
+    begin
+      run "/etc/init.d/thin start"
+    rescue
+      retry
+    end
   end
   
   task :stop do
-    run "/etc/init.d/thin stop"
+    begin
+      run "/etc/init.d/thin stop"
+    rescue
+    end
   end
 end
