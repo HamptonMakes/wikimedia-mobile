@@ -46,11 +46,11 @@ class StatSegment
   end
   
   def requests_per_second
-    hits / 60.0 / 60
+    (hits || 0) / 60.0 / 60
   end
   
   def hits_in_millions
-    hits / 1_000_000.0
+    (hits || 0) / 1_000_000.0
   end
   
   def en_hits

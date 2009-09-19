@@ -153,7 +153,7 @@ module StatMerging
     
     def weeks
       first_week = $first_day.strftime("%V").to_i
-      last_week  = Date.today.strftime("%V").to_i - 1
+      last_week  = Date.today.strftime("%V").to_i - 2
       
       (first_week..last_week).to_a.collect do |week_number|
         self.week(2009, week_number)

@@ -13,6 +13,7 @@ helpers do
       attributes.each_with_index do |stat_name, index|
         data = array.collect do |stat|
           if stat
+            STDOUT.puts "stat.#{stat_name.to_s}"
             point = eval("stat.#{stat_name.to_s}")
             if point
               if point > max
