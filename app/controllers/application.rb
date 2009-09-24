@@ -51,5 +51,10 @@ class Application < Merb::Controller
       Cache.clear
     end
   end
+  
+  # Override in each controller for better control
+  def current_name
+    @title || "Wikipedia"
+  end
 
 end

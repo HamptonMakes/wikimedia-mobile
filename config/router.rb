@@ -53,6 +53,8 @@ Merb::Router.prepare do
   # Disable this in production
   #match("/statistics/:action").to(:controller => "statistics")
   
+  match("/donate").to(:controller => "information", :action => "donate")
+  
   match("/").to(:controller => "articles", :action => "home")
 
 end
