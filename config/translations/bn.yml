@@ -1,51 +1,19 @@
 # Messages for Bengali (বাংলা)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: Bellayet
----
-search_submit: যাও
-search_results: >
-  অনুসন্ধানের
-  ফলাফল
-no_article_found: >
-  কোনো নিবন্ধ
-  পাওয়া যায়নি
-featured_article: >
-  আজকের
-  নির্বাচিত
-  নিবন্ধ
-in_the_news: খবরে
-home_button: প্রধান পাতা
-random_button: অজানা
-show_button: দেখাও
+copyright: এ লেখা <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>ক্রিয়েটিভ কমন্স এট্রিবিউশন/সেয়ার-এলাইক লাইসেন্সের</a> আওতায় প্রকাশিত; এর সাথে বাড়তি পদ যুক্ত হতে পারে। বিস্তারিত জানতে <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>ব্যবহারের শর্তাবলী</a> দেখুন। উইকিপিডিয়া <a href='http://www.wikimediafoundation.org/'>উইকিমিডিয়া ফাউন্ডেশন, ইনকWikimedia Foundation, Inc.</a> এর নিবন্ধিত ট্রেডমার্ক, যা একটি অলাভজনক প্রতিষ্ঠান।
+error_page_text: উইকিপিডিয়া মোবাইল এখনও সক্রিয় উন্নয়নের মধ্যে রয়েছে এবং আমরা এর আভ্যন্তরীন সকল ত্রুটি ঠিক করতে কঠর পরিশ্রম করে যাচ্ছি। আমরা এ ত্রুটি সম্পর্কে জেনেছি এবং খুব শীঘ্রই এটি ঠিক হয়ে যাবে। দয়াকরে আবারও পরীক্ষা করবেন।
+error_page_title: আমাদের কোনো সমস্যা হয়েছে!
+featured_article: আজকের নির্বাচিত নিবন্ধ
 hide_button: আড়াল করো
-regular_wikipedia: >
-  নিয়মিত
-  উইকিপিডিয়াতে
-  এ পাতাটি দেখাও
-perm_stop_redirect: >
-  স্থায়ীভাবে
-  মোবাইল সাইট
-  নিস্ক্রিয় করো
-error_page_title: >
-  আমাদের কোনো
-  সমস্যা হয়েছে!
-error_page_text: >
-  উইকিপিডিয়া
-  মোবাইল এখনও
-  সক্রিয়
-  উন্নয়নের
-  মধ্যে রয়েছে
-  এবং আমরা এর
-  আভ্যন্তরীন সকল
-  ত্রুটি ঠিক
-  করতে কঠর
-  পরিশ্রম করে
-  যাচ্ছি। আমরা এ
-  ত্রুটি
-  সম্পর্কে
-  জেনেছি এবং খুব
-  শীঘ্রই এটি ঠিক
-  হয়ে যাবে।
-  দয়াকরে আবারও
-  পরীক্ষা করবেন।
-copyright: "এ লেখা <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a> আওতায় প্রকাশিত; এর সাথে বাড়তি পদ যুক্ত করা সম্ভব। বিস্তারিত <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> দেখুন। উইকিপিডিয়া <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a> এর নিবন্ধিত ট্রেডমার্ক, যা একটি অলাভজনক প্রতিষ্ঠান।"
+home_button: প্রধান পাতা
+in_the_news: খবরে
+no_article_found: কোনো নিবন্ধ পাওয়া যায়নি
+perm_stop_redirect: স্থায়ীভাবে মোবাইল সাইট নিস্ক্রিয় করো
+random_button: অজানা
+regular_wikipedia: নিয়মিত উইকিপিডিয়াতে এ পাতাটি দেখাও
+search_results: অনুসন্ধানের ফলাফল
+search_submit: যাও
+show_button: দেখাও
+

@@ -1,17 +1,21 @@
 # Messages for Portuguese (Português)
 # Exported from translatewiki.net
+# Export driver: syck
+# Author: Giro720
+# Author: Luckas Blade
 # Author: Malafaya
 # Author: Waldir
----
-search_submit: Ir
-search_results: Resultados de pesquisa
-no_article_found: Não Encontrado artigo
-featured_article: Artigo em destaque
-in_the_news: Eventos recentes
-home_button: Início
-random_button: Aleatório
-show_button: Mostrar
-hide_button: Esconder
-regular_wikipedia: Ver esta página na Wikipedia normal
-perm_stop_redirect: Desativar sítio móvel permanentemente
+copyright: O texto está disponível sob a licença <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; condições adicionais podem-se aplicar. Veja <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Condições de Uso</a> para detalhes. Wikipedia é uma marca registrada da <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, uma organização sem fins lucrativos.
 error_page_title: Temos um problema!
+featured_article: Artigo em destaque
+hide_button: Esconder
+home_button: Início
+in_the_news: Eventos recentes
+no_article_found: Não Encontrado artigo
+perm_stop_redirect: Desativar sítio móvel permanentemente
+random_button: Aleatório
+regular_wikipedia: Ver esta página na Wikipédia normal
+search_results: Resultados de pesquisa
+search_submit: Ir
+show_button: Mostrar
+

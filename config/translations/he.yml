@@ -1,34 +1,20 @@
 # Messages for Hebrew (עברית)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: Rotemliss
 # Author: YaronSh
----
-search_submit: חיפוש
-search_results: תוצאות החיפוש
-no_article_found: הדף לא נמצא
-featured_article: ערך מומלץ
-in_the_news: חדשות ואקטואליה
-home_button: דף הבית
-random_button: ערך אקראי
-show_button: הצגה
-hide_button: הסתרה
-regular_wikipedia: >
-  צפייה בדף זה
-  בוויקיפדיה הרגילה
-perm_stop_redirect: >
-  הפסקה לצמיתות של
-  השימוש באתר המותאם
-  לניידים
+copyright: הטקסט מוגש בכפוף לרישיון <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons ייחוס/שיתוף זהה</a>; ייתכן שיש תנאים נוספים. ראו <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>תנאי השימוש</a> לפרטים. ויקיפדיה היא סימן רשום של <a href='http://www.wikimediafoundation.org/'>קרן ויקמדיה בע"מ</a>, ארגון ללא מטרות רווח.
+error_page_text: הגרסה של ויקיפדיה לניידים עדיין נמצאת בשלבי פיתוח ואנו עובדים קשה כדי לתקן את כל השגיאות הפנימיות שלנו. קיבלנו הודעה על שגיאה זו ונתקן אותה בהקדם. אנא בדקו מאוחר יותר!
 error_page_title: יש לנו תקלה!
-error_page_text: >
-  הגרסה של ויקיפדיה
-  לניידים עדיין נמצאת
-  בשלבי פיתוח ואנו
-  עובדים קשה כדי לתקן את
-  כל השגיאות הפנימיות
-  שלנו. קיבלנו הודעה על
-  שגיאה זו ונתקן אותה
-  בהקדם. אנא בדקו מאוחר
-  יותר!
-copyright: |
-  הטקסט מוגש בכפוף לרישיון <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons ייחוס/שיתוף זהה</a>; ייתכן שיש תנאים נוספים. ראו <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>תנאי השימוש</a> לפרטים. ויקיפדיה היא סימן רשום של <a href='http://www.wikimediafoundation.org/'>קרן ויקמדיה בע"מ</a>, ארגון ללא מטרות רווח.
+featured_article: ערך מומלץ
+hide_button: הסתרה
+home_button: דף הבית
+in_the_news: חדשות ואקטואליה
+no_article_found: הדף לא נמצא
+perm_stop_redirect: הפסקה לצמיתות של השימוש באתר המותאם לניידים
+random_button: ערך אקראי
+regular_wikipedia: צפייה בדף זה בוויקיפדיה הרגילה
+search_results: תוצאות החיפוש
+search_submit: חיפוש
+show_button: הצגה
+

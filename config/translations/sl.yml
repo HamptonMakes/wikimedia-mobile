@@ -1,27 +1,19 @@
 # Messages for Slovenian (Slovenščina)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: Smihael
----
-search_submit: Pojdi
-search_results: Rezultati iskanja
-no_article_found: Najden ni bil noben članek
-featured_article: Današnji izbrani članek
-in_the_news: V novicah
-home_button: Domov
-random_button: Naključno
-show_button: pokaži
-hide_button: skrij
-regular_wikipedia: Oglejte si to stran v navadnem načinu
-perm_stop_redirect: >
-  Mobilna spletna stran je bila trajno
-  onemogočena
+copyright: Besedilo je na razpolago pod <a href="http://creativecommons.org/licenses/by-sa/3.0/">dovoljenjem Creative Commons Priznanje avtorstva-Deljenje pod enakimi pogoji 3.0</a>; dodatni pogoji se lahko uveljavljajo. Glej <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Pogoje uporabe</a> za podrobnosti. Wikipedia je registrirana blagovna znamka neprofitne organizacije <a href='http://www.wikimediafoundation.org/'>Foundacija Wikimedia, Inc.</a>
+error_page_text: Mobilna Wikipedija je še vedno v aktivnem razvoju in trudimo pri odpravljanju vseh naših notranjih napak. O tej napaki smo bili obveščeni  in jo bomo kmalu odpravili. Prosimo, obiščite nas kmalu!
 error_page_title: Imamo problem!
-error_page_text: >
-  Mobilna Wikipedija je še vedno v
-  aktivnem razvoju in trudimo pri
-  odpravljanju vseh naših notranjih
-  napak. O tej napaki smo bili obveščeni
-   in jo bomo kmalu odpravili. Prosimo,
-  obiščite nas kmalu!
-copyright: |
-  Besedilo je na razpolago pod <a href="http://creativecommons.org/licenses/by-sa/3.0/">dovoljenjem Creative Commons Priznanje avtorstva-Deljenje pod enakimi pogoji 3.0</a>; dodatni pogoji se lahko uveljavljajo. Glej <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Pogoje uporabe</a> za podrobnosti. Wikipedia je registrirana blagovna znamka neprofitne organizacije <a href='http://www.wikimediafoundation.org/'>Foundacija Wikimedia, Inc.</a>
+featured_article: Današnji izbrani članek
+hide_button: skrij
+home_button: Domov
+in_the_news: V novicah
+no_article_found: Najden ni bil noben članek
+perm_stop_redirect: Mobilna spletna stran je bila trajno onemogočena
+random_button: Naključno
+regular_wikipedia: Oglejte si to stran v navadnem načinu
+search_results: Rezultati iskanja
+search_submit: Pojdi
+show_button: pokaži
+

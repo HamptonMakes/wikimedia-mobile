@@ -1,28 +1,20 @@
 # Messages for Vietnamese (Tiếng Việt)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: Minh Nguyen
 # Author: Vinhtantran
----
-search_submit: Xem
-search_results: Kết quả tìm kiếm
-no_article_found: Không tìm thấy bài
-featured_article: Bài viết chọn lọc
-in_the_news: Tin tức
-home_button: Trang đầu
-random_button: Ngẫu&npsb;nhiên
-show_button: Hiện
-hide_button: Ẩn
-regular_wikipedia: >
-  Đọc trang này tại Wikipedia bình
-  thường
-perm_stop_redirect: Tắt hẳn website di động
+copyright: Văn bản được phát hành theo <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License?uselang=vi'>Giấy phép Creative Commons Ghi công/Chia sẻ tương tự</a>; có thể áp dụng điều khoản bổ sung. Xem <a href='http://wikimediafoundation.org/wiki/Điều_khoản_Sử_dụng?uselang=vi'>Điều khoản Sử dụng</a> để biết thêm chi tiết. Wikipedia là thương hiệu đã đăng ký của <a href='http://www.wikimediafoundation.org/wiki/Trang_chủ?uselang=vi'>Wikimedia Foundation, Inc.</a>, một tổ chức phi lợi nhuận.
+error_page_text: Wikipedia Di động vẫn đang được phát triển và chúng tôi đang nỗ lực sửa tất cả các lỗi nội bộ. Chúng tôi đã được thông báo về lỗi này và sẽ sớm sửa nó. Hãy ghé thăm lại!
 error_page_title: Thật là xấu hổ quá!
-error_page_text: >
-  Wikipedia Di động vẫn đang
-  được phát triển và chúng tôi
-  đang nỗ lực sửa tất cả các
-  lỗi nội bộ. Chúng tôi đã
-  được thông báo về lỗi này và
-  sẽ sớm sửa nó. Hãy ghé thăm
-  lại!
-copyright: "Văn bản được phát hành theo <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License?uselang=vi'>Giấy phép Creative Commons Ghi công/Chia sẻ tương tự</a>; có thể áp dụng điều khoản bổ sung. Xem <a href='http://wikimediafoundation.org/wiki/Điều_khoản_Sử_dụng?uselang=vi'>Điều khoản Sử dụng</a> để biết thêm chi tiết. Wikipedia là thương hiệu đã đăng ký của <a href='http://www.wikimediafoundation.org/wiki/Trang_chủ?uselang=vi'>Wikimedia Foundation, Inc.</a>, một tổ chức phi lợi nhuận."
+featured_article: Bài viết chọn lọc
+hide_button: Ẩn
+home_button: Trang đầu
+in_the_news: Tin tức
+no_article_found: Không tìm thấy bài
+perm_stop_redirect: Tắt hẳn website di động
+random_button: Ngẫu&npsb;nhiên
+regular_wikipedia: Đọc trang này tại Wikipedia bình thường
+search_results: Kết quả tìm kiếm
+search_submit: Xem
+show_button: Hiện
+

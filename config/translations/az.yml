@@ -1,12 +1,13 @@
 # Messages for Azerbaijani (Azərbaycan)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: Sortilegus
----
-search_results: Axtarışın nəticələri
-no_article_found: Məqalə tapılmadı
-featured_article: Günün seçilmiş məqaləsi
-in_the_news: Xəbərlər
-random_button: Təsadüfi
-show_button: Göstər
-hide_button: Gizlət
 error_page_title: Bizim problemimiz var!
+featured_article: Günün seçilmiş məqaləsi
+hide_button: Gizlət
+in_the_news: Xəbərlər
+no_article_found: Məqalə tapılmadı
+random_button: Təsadüfi
+search_results: Axtarışın nəticələri
+show_button: Göstər
+

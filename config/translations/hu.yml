@@ -1,26 +1,19 @@
 # Messages for Hungarian (Magyar)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: Dani
----
-search_submit: Menj
-search_results: Keresési eredmények
-no_article_found: Nem találtam egyetlen szócikket sem
-featured_article: A nap kiemelt szócikke
-in_the_news: Hírek
-home_button: Kezdőlap
-random_button: Véletlen lap
-show_button: Mutasd
-hide_button: Elrejtés
-regular_wikipedia: >
-  Lap megtekintése a szokásos
-  Wikipédián
-perm_stop_redirect: Mobiloldal letiltása
+copyright: A lap szövege a <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Nevezd meg!-Így add tovább! Licenc</a> alatt van; egyes esetekben más módon is felhasználható. Részletekért lásd a <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>felhasználási feltételeket</a>. A Wikipédia a <a href='http://www.wikimediafoundation.org/'>Wikimedia, Inc.</a> nonprofit szervezet védjegye.
+error_page_text: A mobilos Wikipédia még mindig fejlesztés alatt áll, folyamatosan dolgozunk a hibák javításán. Értesítve lettünk a hibáról, és hamarosan javítjuk. Kérlek, nézz vissza később!
 error_page_title: Hiba történt!
-error_page_text: >
-  A mobilos Wikipédia még mindig
-  fejlesztés alatt áll, folyamatosan
-  dolgozunk a hibák javításán.
-  Értesítve lettünk a hibáról, és
-  hamarosan javítjuk. Kérlek, nézz
-  vissza később!
-copyright: "A lap szövege a <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Nevezd meg!-Így add tovább! Licenc</a> alatt van; egyes esetekben más módon is felhasználható. Részletekért lásd a <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>felhasználási feltételeket</a>. A Wikipédia a <a href='http://www.wikimediafoundation.org/'>Wikimedia, Inc.</a> nonprofit szervezet védjegye."
+featured_article: A nap kiemelt szócikke
+hide_button: Elrejtés
+home_button: Kezdőlap
+in_the_news: Hírek
+no_article_found: Nem találtam egyetlen szócikket sem
+perm_stop_redirect: Mobiloldal letiltása
+random_button: Véletlen lap
+regular_wikipedia: Lap megtekintése a szokásos Wikipédián
+search_results: Keresési eredmények
+search_submit: Menj
+show_button: Mutasd
+

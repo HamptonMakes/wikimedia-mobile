@@ -1,20 +1,19 @@
 # Messages for Romanian (Română)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: KlaudiuMihaila
 # Author: Mihai
 # Author: Stelistcristi
----
-search_submit: Du-te
-search_results: Rezultate căutare
-no_article_found: Nu au fost găsite articole
-in_the_news: Ştiri
-home_button: Acasă
-random_button: Aleatoriu
-show_button: Arată
-hide_button: Ascunde
-regular_wikipedia: Vezi această pagină pe Wikipedia
-perm_stop_redirect: >
-  Dezactivează permanent situl pentru
-  mobil
+copyright: Acest text este disponibil sub licenţa <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Atribuire-Distribuire în condiţii identice</a>; termenii suplimentari se pot aplica. Vedeţi <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Termenii de utilizare</a> pentru detalii. Wikipedia este o marcă înregistrată a <a href='http://www.wikimediafoundation.org/'>Fundaţia Wikimedia, Inc.</a>, o organizaţie nonprofit.
 error_page_title: Avem o problemă!
-copyright: "Acest text este disponibil sub licenţa <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Atribuire-Distribuire în condiţii identice</a>; termenii suplimentari se pot aplica. Vedeţi <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Termenii de utilizare</a> pentru detalii. Wikipedia este o marcă înregistrată a <a href='http://www.wikimediafoundation.org/'>Fundaţia Wikimedia, Inc.</a>, o organizaţie nonprofit."
+hide_button: Ascunde
+home_button: Acasă
+in_the_news: Ştiri
+no_article_found: Nu au fost găsite articole
+perm_stop_redirect: Dezactivează permanent situl pentru mobil
+random_button: Aleatoriu
+regular_wikipedia: Vezi această pagină pe Wikipedia
+search_results: Rezultate căutare
+search_submit: Du-te
+show_button: Arată
+

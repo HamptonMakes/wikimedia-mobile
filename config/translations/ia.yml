@@ -1,26 +1,19 @@
 # Messages for Interlingua (Interlingua)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: McDutchie
----
-search_submit: Ir
-search_results: Resultatos del recerca
-no_article_found: Nulle articulo trovate
-featured_article: Le articulo del die
-in_the_news: Actualitates
-home_button: Initio
-random_button: Aleatori
-show_button: Revelar
-hide_button: Celar
-regular_wikipedia: Vider iste pagina in Wikipedia normal
-perm_stop_redirect: >
-  Disactivar permanentemente le sito
-  mobile
+copyright: Le texto es disponibile sub le licentia <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Attribution/Share-Alike de Creative Commons</a>; altere clausulas pote applicar se. Vide le <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>conditiones de uso</a> pro detalios. Wikipedia es un marca registrate de <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, un organisation sin scopo lucrative.
+error_page_text: Wikipedia mobile es ancora sub disveloppamento active e nos labora intensemente pro reparar tote nostre errores interne. Nos ha essite notificate de iste error e nos lo corrigera tosto. Per favor revisita!
 error_page_title: Nos ha un problema!
-error_page_text: >
-  Wikipedia mobile es ancora sub
-  disveloppamento active e nos labora
-  intensemente pro reparar tote nostre
-  errores interne. Nos ha essite
-  notificate de iste error e nos lo
-  corrigera tosto. Per favor revisita!
-copyright: "Le texto es disponibile sub le licentia <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Attribution/Share-Alike de Creative Commons</a>; altere clausulas pote applicar se. Vide le <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>conditiones de uso</a> pro detalios. Wikipedia es un marca registrate de <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, un organisation sin scopo lucrative."
+featured_article: Le articulo del die
+hide_button: Celar
+home_button: Initio
+in_the_news: Actualitates
+no_article_found: Nulle articulo trovate
+perm_stop_redirect: Disactivar permanentemente le sito mobile
+random_button: Aleatori
+regular_wikipedia: Vider iste pagina in Wikipedia normal
+search_results: Resultatos del recerca
+search_submit: Ir
+show_button: Revelar
+

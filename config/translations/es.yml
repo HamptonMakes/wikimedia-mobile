@@ -1,28 +1,19 @@
 # Messages for Spanish (Español)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: Dferg
----
-search_submit: Ir
-search_results: Resultados de la búsqueda
-no_article_found: No hay coincidencias
-featured_article: Artículo destacado
-in_the_news: Actualidad
-home_button: Inicio
-random_button: Aleatorio
-show_button: Mostrar
-hide_button: Ocultar
-regular_wikipedia: Ver esta página en Wikipedia
-perm_stop_redirect: >
-  Desactivar permanentemente el sitio
-  móvil
+copyright: El texto está disponible bajo la <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Licencia Creative Commons/Atribución Compartir Igual</a>; cláusulas adicionales pueden ser de aplicación. Vea <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>las condiciones de utilización</a> para más detalles. Wikipedia es una marca registrada de <a href='http://www.wikimediafoundation.org/'>La Fundación Wikimedia, Inc.</a>, una organización sin ánimo de lucro.
+error_page_text: Wikipedia para móviles está todavía bajo desarrollo activo y estamos trabajando intensamente para arreglar todos nuestros errores internos. Hemos sido notificados de este error y lo arreglaremos pronto. Por favor, revise regularmente si la petición ha sido o no atendida.
 error_page_title: ¡Tenemos un problema!
-error_page_text: >
-  Wikipedia para móviles está todavía
-  bajo desarrollo activo y estamos
-  trabajando intensamente para arreglar
-  todos nuestros errores internos. Hemos
-  sido notificados de este error y lo
-  arreglaremos pronto. Por favor, revise
-  regularmente si la petición ha sido o
-  no atendida.
-copyright: "El texto está disponible bajo la <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Licencia Creative Commons/Atribución Compartir Igual</a>; cláusulas adicionales pueden ser de aplicación. Vea <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>las condiciones de utilización</a> para más detalles. Wikipedia es una marca registrada de <a href='http://www.wikimediafoundation.org/'>La Fundación Wikimedia, Inc.</a>, una organización sin ánimo de lucro."
+featured_article: Artículo destacado
+hide_button: Ocultar
+home_button: Inicio
+in_the_news: Actualidad
+no_article_found: No hay coincidencias
+perm_stop_redirect: Desactivar permanentemente el sitio móvil
+random_button: Aleatorio
+regular_wikipedia: Ver esta página en Wikipedia
+search_results: Resultados de la búsqueda
+search_submit: Ir
+show_button: Mostrar
+

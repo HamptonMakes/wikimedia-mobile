@@ -1,24 +1,19 @@
 # Messages for Bosnian (Bosanski)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: CERminator
----
-search_submit: Idi
-search_results: Rezultati pretrage
-no_article_found: Nije pronađen nijedan članak
-featured_article: Odabrani članak
-in_the_news: Vijesti
-home_button: Početna
-random_button: Slučajni
-show_button: Pokaži
-hide_button: sakrij
-regular_wikipedia: Vidi ovu stranicu na običnoj Wikipediji
-perm_stop_redirect: Trajno onemogući mobilni sajt
+copyright: Tekst je dostupan pod <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike licencom</a>; mogu se primjeniti i dodatna pravila. Pogledajte <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Pravila upotrebe</a> za više detalja. Wikipedia je registrirana trgovačka marka od <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, neprofitne organizacije.
+error_page_text: Wikipedia mobile je još uvijek u fazi aktivnog razvoja i mi svakodnevno radimo na ispravci svih unutrašnjih grešaka. Obavješteni smo o ovoj grešci i uskoro ćemo je ispraviti. Molimo pokušajte kasnije!
 error_page_title: Žao nam je, nastala je greška!
-error_page_text: >
-  Wikipedia mobile je još uvijek u fazi
-  aktivnog razvoja i mi svakodnevno radimo
-  na ispravci svih unutrašnjih grešaka.
-  Obavješteni smo o ovoj grešci i uskoro
-  ćemo je ispraviti. Molimo pokušajte
-  kasnije!
-copyright: "Tekst je dostupan pod <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike licencom</a>; mogu se primjeniti i dodatna pravila. Pogledajte <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Pravila upotrebe</a> za više detalja. Wikipedia je registrirana trgovačka marka od <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, neprofitne organizacije."
+featured_article: Odabrani članak
+hide_button: sakrij
+home_button: Početna
+in_the_news: Vijesti
+no_article_found: Nije pronađen nijedan članak
+perm_stop_redirect: Trajno onemogući mobilni sajt
+random_button: Slučajni
+regular_wikipedia: Vidi ovu stranicu na običnoj Wikipediji
+search_results: Rezultati pretrage
+search_submit: Idi
+show_button: Pokaži
+

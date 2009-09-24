@@ -1,39 +1,19 @@
 # Messages for Macedonian (Македонски)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: Bjankuloski06
----
-search_submit: Оди
-search_results: >
-  Резултати од
-  пребарувањето
-no_article_found: >
-  Нема пронајдено
-  статија
-featured_article: >
-  Избрана статија за
-  денес
-in_the_news: Вести
-home_button: Почетна
-random_button: Случајна
-show_button: Прикажи
-hide_button: Сокриј
-regular_wikipedia: >
-  Погледајте ја
-  страницава на обична
-  Википедија
-perm_stop_redirect: >
-  Трајно оневозможи ја
-  оваа мобилна страница
+copyright: Текстот е под лиценцата <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Наведи извор/Сподели под исти услови</a>; може да важат и други услови. Видете <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Услови на употреба</a> за повеќе детали. Википедија е регистриран заштитен знак на <a href='http://www.wikimediafoundation.org/'>фондацијата Викимедија.</a>, која е непрофитна организација.
+error_page_text: Википедија мобилен е сè уште во активен развој и работиме напорно за да ги поправиме сите наши внатрешни грешки. Бевме известени за оваа грешка и набргу ќе ја поправиме. Проверете повторно!
 error_page_title: Имаме проблем!
-error_page_text: >
-  Википедија мобилен е
-  сè уште во активен
-  развој и работиме
-  напорно за да ги
-  поправиме сите наши
-  внатрешни грешки.
-  Бевме известени за
-  оваа грешка и набргу
-  ќе ја поправиме.
-  Проверете повторно!
-copyright: "Текстот е под лиценцата <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Наведи извор/Сподели под исти услови</a>; може да важат и други услови. Видете <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Услови на употреба</a> за повеќе детали. Википедија е регистриран заштитен знак на <a href='http://www.wikimediafoundation.org/'>фондацијата Викимедија.</a>, која е непрофитна организација."
+featured_article: Избрана статија за денес
+hide_button: Сокриј
+home_button: Почетна
+in_the_news: Вести
+no_article_found: Нема пронајдено статија
+perm_stop_redirect: Трајно оневозможи ја оваа мобилна страница
+random_button: Случајна
+regular_wikipedia: Погледајте ја страницава на обична Википедија
+search_results: Резултати од пребарувањето
+search_submit: Оди
+show_button: Прикажи
+

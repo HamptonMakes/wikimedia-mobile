@@ -1,25 +1,19 @@
 # Messages for Indonesian (Bahasa Indonesia)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: Bennylin
----
-search_submit: Cari
-search_results: Hasil Pencarian
-no_article_found: Artikel Tidak Ditemukan
-featured_article: Artikel Pilihan Hari Ini
-in_the_news: Peristiwa Terkini
-home_button: Utama
-random_button: Sembarang
-show_button: Tampilkan
-hide_button: Sembunyikan
-regular_wikipedia: Lihat halaman ini di Wikipedia biasa
-perm_stop_redirect: Selamanya matikan situs seluler
+copyright: Teks tersedia di bawah <a href='http://id.wikipedia.org/wiki/Wikipedia:Teks_Lisensi_Creative_Commons_Atribusi-PembagianSerupa_3.0'>Lisensi Creative Commons Atribusi-PembagianSerupa</a>; syarat tambahan mungkin berlaku. Lihat <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Ketentuan Pemakaian</a> untuk detilnya. Wikipedia adalah sebuah merek dagang terdaftar dari <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, sebuah organisasi nirlaba.
+error_page_text: Wikipedia seluler masih berada di dalam tahap pengembangan dan kami bekerja keras untuk memperbaiki kesalahan-kesalahan internal yang terjadi. Kami telah diberitahu tentang kesalahan ini dan akan segera kami perbaiki. Tolong kembali lagi nanti!
 error_page_title: Ada masalah!
-error_page_text: >
-  Wikipedia seluler masih berada di dalam
-  tahap pengembangan dan kami bekerja
-  keras untuk memperbaiki
-  kesalahan-kesalahan internal yang
-  terjadi. Kami telah diberitahu tentang
-  kesalahan ini dan akan segera kami
-  perbaiki. Tolong kembali lagi nanti!
-copyright: "Teks tersedia di bawah <a href='http://id.wikipedia.org/wiki/Wikipedia:Teks_Lisensi_Creative_Commons_Atribusi-PembagianSerupa_3.0'>Lisensi Creative Commons Atribusi-PembagianSerupa</a>; syarat tambahan mungkin berlaku. Lihat <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Ketentuan Pemakaian</a> untuk detilnya. Wikipedia adalah sebuah merek dagang terdaftar dari <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, sebuah organisasi nirlaba."
+featured_article: Artikel Pilihan Hari Ini
+hide_button: Sembunyikan
+home_button: Utama
+in_the_news: Peristiwa Terkini
+no_article_found: Artikel Tidak Ditemukan
+perm_stop_redirect: Selamanya matikan situs seluler
+random_button: Sembarang
+regular_wikipedia: Lihat halaman ini di Wikipedia biasa
+search_results: Hasil Pencarian
+search_submit: Cari
+show_button: Tampilkan
+

@@ -1,36 +1,19 @@
 # Messages for Ukrainian (Українська)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: Ickis
----
-search_submit: Перейти
-search_results: Результати пошуку
-no_article_found: Нічого не знайдено
-featured_article: Вибрана стаття
-in_the_news: Новини
-home_button: Домашня
-random_button: Випадкова
-show_button: Показати
-hide_button: Сховати
-regular_wikipedia: Стандартний вигляд
-perm_stop_redirect: >
-  Вимкнути
-  переадресацію на
-  мобільну версію
+copyright: Текст доступний на умовах ліцензії <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution/Share-Alike</a>, також можуть діяти додаткові умови. Детальніше див. <a href="http://wikimediafoundation.org/wiki/Умови_використання">умови використання</a>. «Wikipedia» — зареєстрована торгова марка некомерційної організації <a href='http://www.wikimediafoundation.org/'>«Фонд Вікімедіа»</a>.
+error_page_text: Мобільна Вікіпедія все ще перебуває в стадії активної розробки, і ми докладаємо максимум зусиль, щоб виправити всі наші внутрішні помилки. Ми були повідомлені про цю помилку, а також плануємо її незабаром виправити. Будь ласка, перевірте через деякий час!
 error_page_title: У нас проблема!
-error_page_text: >
-  Мобільна Вікіпедія
-  все ще перебуває в
-  стадії активної
-  розробки, і ми
-  докладаємо максимум
-  зусиль, щоб виправити
-  всі наші внутрішні
-  помилки. Ми були
-  повідомлені про цю
-  помилку, а також
-  плануємо її незабаром
-  виправити. Будь ласка,
-  перевірте через
-  деякий час!
-copyright: |
-  Текст доступний на умовах ліцензії <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution/Share-Alike</a>, також можуть діяти додаткові умови. Детальніше див. <a href="http://wikimediafoundation.org/wiki/Умови_використання">умови використання</a>. «Wikipedia» — зареєстрована торгова марка некомерційної організації <a href='http://www.wikimediafoundation.org/'>«Фонд Вікімедіа»</a>.
+featured_article: Вибрана стаття
+hide_button: Сховати
+home_button: Домашня
+in_the_news: Новини
+no_article_found: Нічого не знайдено
+perm_stop_redirect: Вимкнути переадресацію на мобільну версію
+random_button: Випадкова
+regular_wikipedia: Стандартний вигляд
+search_results: Результати пошуку
+search_submit: Перейти
+show_button: Показати
+

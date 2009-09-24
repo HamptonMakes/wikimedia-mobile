@@ -1,27 +1,20 @@
 # Messages for Slovak (Slovenčina)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: Helix84
 # Author: Rudko
----
-search_submit: Ísť na
-search_results: Výsledky vyhľadávania
-no_article_found: Nenašiel sa žiadny článok
-featured_article: Článok dňa
-in_the_news: V novinkách
-home_button: Hlavná stránka
-random_button: Náhodná
-show_button: Zobraziť
-hide_button: Skryť
-regular_wikipedia: >
-  Zobraziť stránku na klasickej
-  Wikipédii
-perm_stop_redirect: Trvalo deaktivovať mobilnú stránku
+copyright: Tento text je dostupný za podmienok licencie <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; môžu sa naň vzťahovať dodatočné ďalšie podmienky. Podrobnosti nájdete v <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Podmienkach používania</a>. Wikipédia je registrovaná obchodná značka neziskovej organizácie <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>
+error_page_text: Wikipedia mobile je v aktívnom vývoji a my sa snažíme odtrániť všetky naše interné chyby. O tejto chybe sme boli informovaní a problém v krátkosti odstránime. Skúste sa vrátiť o chvíľu!
 error_page_title: Vyskytol sa problém!
-error_page_text: >
-  Wikipedia mobile je v aktívnom vývoji
-  a my sa snažíme odtrániť všetky
-  naše interné chyby. O tejto chybe sme
-  boli informovaní a problém v
-  krátkosti odstránime. Skúste sa
-  vrátiť o chvíľu!
-copyright: "Tento text je dostupný za podmienok licencie <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; môžu sa naň vzťahovať dodatočné ďalšie podmienky. Podrobnosti nájdete v <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Podmienkach používania</a>. Wikipédia je registrovaná obchodná značka neziskovej organizácie <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>"
+featured_article: Článok dňa
+hide_button: Skryť
+home_button: Hlavná stránka
+in_the_news: V novinkách
+no_article_found: Nenašiel sa žiadny článok
+perm_stop_redirect: Trvalo deaktivovať mobilnú stránku
+random_button: Náhodná
+regular_wikipedia: Zobraziť stránku na klasickej Wikipédii
+search_results: Výsledky vyhľadávania
+search_submit: Ísť na
+show_button: Zobraziť
+

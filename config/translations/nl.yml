@@ -1,25 +1,21 @@
 # Messages for Dutch (Nederlands)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: Mwpnl
 # Author: SPQRobin
 # Author: Siebrand
----
-search_submit: Zoeken
-search_results: Zoekresultaten
-no_article_found: Geen resultaten gevonden
-featured_article: Uitgelicht
-in_the_news: Actueel
-home_button: Hoofdpagina
-random_button: Willekeurig
-show_button: Weergeven
-hide_button: Verbergen
-regular_wikipedia: >
-  Deze pagina in de standaardweergave
-  bekijken
-perm_stop_redirect: Altijd de standaardweergave gebruiken
+copyright: De tekst is beschikbaar onder de licentie <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Naamsvermelding/Gelijk delen</a>. Het is mogelijk dat aanvullende voorwaarden van toepassing zijn. Zie de <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Algemene Voorwaarden</a> voor meer informatie.
+error_page_text: "Wikipedia mobile is in ontwikkeling en er wordt hard aan gewerkt om alle fouten op te lossen.\nWe hebben deze fout ontvangen en verhelpen deze zo spoedig mogelijk.\nBinnenkort ziet u hier het resultaat."
 error_page_title: Er is een probleem!
-error_page_text: |
-  Wikipedia mobile is in ontwikkeling en er wordt hard aan gewerkt om alle fouten op te lossen.
-  We hebben deze fout ontvangen en verhelpen deze zo spoedig mogelijk.
-  Binnenkort ziet u hier het resultaat.
-copyright: "De tekst is beschikbaar onder de licentie <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Naamsvermelding/Gelijk delen</a>. Het is mogelijk dat aanvullende voorwaarden van toepassing zijn. Zie de <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Algemene Voorwaarden</a> voor meer informatie."
+featured_article: Uitgelicht
+hide_button: Verbergen
+home_button: Hoofdpagina
+in_the_news: Actueel
+no_article_found: Geen resultaten gevonden
+perm_stop_redirect: Altijd de standaardweergave gebruiken
+random_button: Willekeurig
+regular_wikipedia: Deze pagina in de standaardweergave bekijken
+search_results: Zoekresultaten
+search_submit: Zoeken
+show_button: Weergeven
+

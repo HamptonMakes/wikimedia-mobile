@@ -1,15 +1,16 @@
 # Messages for Wolof (Wolof)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: Hcatlin
 # Author: Ibou
----
-search_submit: Ayca
-search_results: Njureefu ceet gi
-no_article_found: Giseesul benn jukki
-featured_article: Jukkib bés bi
-in_the_news: Xew-xew
-home_button:  xët wu njëkk
-show_button: Wone
-hide_button: Nëbb
-regular_wikipedia: Wone xët wi ci Wikipedia wees baaxoo
 error_page_title: Danoo ami jafe-jafe!
+featured_article: Jukkib bés bi
+hide_button: Nëbb
+home_button: " xët wu njëkk"
+in_the_news: Xew-xew
+no_article_found: Giseesul benn jukki
+regular_wikipedia: Wone xët wi ci Wikipedia wees baaxoo
+search_results: Njureefu ceet gi
+search_submit: Ayca
+show_button: Wone
+

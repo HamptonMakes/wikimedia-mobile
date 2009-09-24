@@ -1,13 +1,12 @@
 # Messages for Telugu (తెలుగు)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: Veeven
----
-search_submit: వెళ్ళు
-search_results: >
-  అన్వేషణ
-  ఫలితాలు
-in_the_news: వార్తల్లో
-home_button: ముంగిలి
-random_button: యాదృచ్చిక
-show_button: చూపించు
 hide_button: దాచు
+home_button: ముంగిలి
+in_the_news: వార్తల్లో
+random_button: యాదృచ్చిక
+search_results: అన్వేషణ ఫలితాలు
+search_submit: వెళ్ళు
+show_button: చూపించు
+

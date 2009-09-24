@@ -1,28 +1,20 @@
 # Messages for Polish (Polski)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: Leinad
 # Author: Sp5uhe
----
-search_submit: Przejdź
-search_results: Wyniki wyszukiwania
-no_article_found: Artykułu nie odnaleziono
-featured_article: Wyróżniony artykuł
-in_the_news: Aktualności
-home_button: Główna
-random_button: Losuj
-show_button: Pokaż
-hide_button: Ukryj
-regular_wikipedia: >
-  Zobacz tę stronę w standardowej
-  Wikipedii
-perm_stop_redirect: Trwale wyłącz mobilną wersję strony
-error_page_title: Wystąpił problem!
-error_page_text: >
-  Mobilna wersja Wikipedii jest w
-  ciągłym rozwoju i intensywnie
-  pracujemy nad naprawą wszystkich
-  błędów. Zostaliśmy poinformowani o
-  tym błędzie i niedługo go naprawimy.
-  Wróć później aby sprawdzić czy już
-  działa!
 copyright: "Tekst udostępniany na <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.pl'>licencji Creative Commons: uznanie autorstwa, na tych samych warunkach</a>, z możliwością obowiązywania dodatkowych ograniczeń. Zobacz szczegółowe informacje o <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>warunkach korzystania</a>."
+error_page_text: Mobilna wersja Wikipedii jest w ciągłym rozwoju i intensywnie pracujemy nad naprawą wszystkich błędów. Zostaliśmy poinformowani o tym błędzie i niedługo go naprawimy. Wróć później aby sprawdzić czy już działa!
+error_page_title: Wystąpił problem!
+featured_article: Wyróżniony artykuł
+hide_button: Ukryj
+home_button: Główna
+in_the_news: Aktualności
+no_article_found: Artykułu nie odnaleziono
+perm_stop_redirect: Trwale wyłącz mobilną wersję strony
+random_button: Losuj
+regular_wikipedia: Zobacz tę stronę w standardowej Wikipedii
+search_results: Wyniki wyszukiwania
+search_submit: Przejdź
+show_button: Pokaż
+

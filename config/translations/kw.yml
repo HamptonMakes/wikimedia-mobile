@@ -1,16 +1,18 @@
-# Messages for Cornish (Kernewek)
+# Messages for Cornish (Kernowek)
 # Exported from translatewiki.net
+# Export driver: syck
+# Author: Kernoweger
 # Author: Kw-Moon
----
-search_submit: Ke
-search_results: Sewyansow hwilans
-no_article_found: Erthygel vyth kavas
+error_page_title: Yma kudyn dhen!
 featured_article: Erthygel diskwedhys hedhyw
-in_the_news: Y'n nowodhow
-home_button: Pednfolen
-random_button: Dre jons
-show_button: Diskwedhes
 hide_button: Kudha
-regular_wikipedia: Gweles an folen ma war Wikipedia reyth
-perm_stop_redirect: Dialosegi yn fast an wiasva pellgewsel
-error_page_title: Yma kudyn dhyn!
+home_button: Pennfolen
+in_the_news: E'n nowodhow
+no_article_found: Erthygel veth kavas
+perm_stop_redirect: Dialosegi yn fast an wiasva pellgowsel
+random_button: Dre jons
+regular_wikipedia: Gweles an folen-ma war Wikipedya reyth
+search_results: Sewyansow hwilans
+search_submit: Ke
+show_button: Diskwedhes
+

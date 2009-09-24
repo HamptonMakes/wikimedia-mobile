@@ -1,29 +1,21 @@
 # Messages for Finnish (Suomi)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: Nike
 # Author: Silvonen
 # Author: Str4nd
----
-search_submit: Siirry
-search_results: Etsi
-no_article_found: Artikkelia ei löytynyt
-featured_article: Suositeltu artikkeli
-in_the_news: Ajankohtaista
-home_button: Etusivu
-random_button: Satunnainen
-show_button: Näytä
-hide_button: Piilota
-regular_wikipedia: Näytä tämä normaalissa Wikipediassa
-perm_stop_redirect: >
-  Ota mobiilisivusto pois käytöstä
-  pysyvästi
+copyright: Teksti on saatavilla <a href="http://fi.wikipedia.org/wiki/Wikipedia:Creative_Commons_Attribution-Share_Alike_3.0_Unported_-lisenssiehdot">Creative Commons Attribution/Share-Alike</a> -lisenssillä; lisäehtoja voi sisältyä. Katso <a href="http://wikimediafoundation.org/wiki/Käyttöehdot">käyttöehdot</a>. Wikipedia on <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.:n</a>, voittoa tavoittelemattoman yleishyödyllisen järjestön rekisteröimä tavaramerkki.
+error_page_text: Wikipedian mobiiliversiota kehitetään jatkuvasti, ja työskentelemme ahkerasti kaikkien sisäisten virheiden korjaamiseksi. Tiedämme tästä virheestä ja korjaamme sen pian. Yritä myöhemmin uudelleen.
 error_page_title: Virhetilanne
-error_page_text: >
-  Wikipedian mobiiliversiota kehitetään
-  jatkuvasti, ja työskentelemme ahkerasti
-  kaikkien sisäisten virheiden
-  korjaamiseksi. Tiedämme tästä
-  virheestä ja korjaamme sen pian. Yritä
-  myöhemmin uudelleen.
-copyright: |
-  Teksti on saatavilla <a href="http://fi.wikipedia.org/wiki/Wikipedia:Creative_Commons_Attribution-Share_Alike_3.0_Unported_-lisenssiehdot">Creative Commons Attribution/Share-Alike</a> -lisenssillä; lisäehtoja voi sisältyä. Katso <a href="http://wikimediafoundation.org/wiki/Käyttöehdot">käyttöehdot</a>. Wikipedia on <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.:n</a>, voittoa tavoittelemattoman yleishyödyllisen järjestön rekisteröimä tavaramerkki.
+featured_article: Suositeltu artikkeli
+hide_button: Piilota
+home_button: Etusivu
+in_the_news: Ajankohtaista
+no_article_found: Artikkelia ei löytynyt
+perm_stop_redirect: Ota mobiilisivusto pois käytöstä pysyvästi
+random_button: Satunnainen
+regular_wikipedia: Näytä tämä normaalissa Wikipediassa
+search_results: Etsi
+search_submit: Siirry
+show_button: Näytä
+

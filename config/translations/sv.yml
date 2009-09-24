@@ -1,24 +1,19 @@
 # Messages for Swedish (Svenska)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: Ozp
----
-search_submit: Gå till
-search_results: Sökresultat
-no_article_found: Ingen artikel funnen
-featured_article: Dagens utvalda artikel
-in_the_news: På nyheterna
-home_button: Huvudsida
-random_button: Slumpartikel
-show_button: Visa
-hide_button: Göm
-regular_wikipedia: Visa denna sida på vanliga Wikipedia
-perm_stop_redirect: Deaktivera mobilsidan permanent
+copyright: Text är tillgänlig under <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.sv'>Creative Commons Erkännande/Dela Lika-licens</a>; ytterliggare villkor kan gälla. Se <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Villkor</a> för detaljer. Wikipedia är ett registrerat varumärke av den ideella organisationen <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>
+error_page_text: Wikipedia mobil är fortfarande under aktiv utveckling och vi jobbar hårt for att fixa alla interna fel. Vi har blivit meddelade om detta fel och kommer att fixa det snart. Kom gärna tillbaka lite senare!
 error_page_title: Vi har ett problem!
-error_page_text: >
-  Wikipedia mobil är fortfarande under
-  aktiv utveckling och vi jobbar hårt for
-  att fixa alla interna fel. Vi har blivit
-  meddelade om detta fel och kommer att
-  fixa det snart. Kom gärna tillbaka lite
-  senare!
-copyright: "Text är tillgänlig under <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.sv'>Creative Commons Erkännande/Dela Lika-licens</a>; ytterliggare villkor kan gälla. Se <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Villkor</a> för detaljer. Wikipedia är ett registrerat varumärke av den ideella organisationen <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>"
+featured_article: Dagens utvalda artikel
+hide_button: Göm
+home_button: Huvudsida
+in_the_news: På nyheterna
+no_article_found: Ingen artikel funnen
+perm_stop_redirect: Deaktivera mobilsidan permanent
+random_button: Slumpartikel
+regular_wikipedia: Visa denna sida på vanliga Wikipedia
+search_results: Sökresultat
+search_submit: Gå till
+show_button: Visa
+

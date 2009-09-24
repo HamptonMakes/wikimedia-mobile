@@ -1,12 +1,11 @@
 # Messages for Pashto (پښتو)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: Ahmed-Najib-Biabani-Ibrahimkhel
----
-search_submit: ورځه
-search_results: د پلټنې پايلې
-in_the_news: په خبرونو کې
-show_button: ښکاره کول
+error_page_title: موږ يوې ستونزې سره مخ يوو!
 hide_button: پټول
-error_page_title: >
-  موږ يوې ستونزې سره مخ
-  يوو!
+in_the_news: په خبرونو کې
+search_results: د پلټنې پايلې
+search_submit: ورځه
+show_button: ښکاره کول
+

@@ -1,21 +1,19 @@
 # Messages for Limburgish (Limburgs)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: Pahles
----
-search_submit: Gank
-search_results: Zeukrizzeltate
-no_article_found: Gein rizzeltaat gevónje
-featured_article: Sjterartikel
-in_the_news: In 't nuujs
-home_button: Veurblaad
-random_button: Willekäörig
-show_button: Tuin
-hide_button: Versjtaek
-regular_wikipedia: Betrach dees pagina in de normale layout
-perm_stop_redirect: Gebroek ummer de normale layout
+copyright: De teks is besjikbaar ónger de <a href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Naomsvermelding/Geliek Deile</a> licentie. 't Is mäögelik dat aanvöllende veurwaarde van toepassing zeen. Betrach de <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Algemein Veurwaarde</a> veur mie informatie.
+error_page_text: "Wikipedia mobile is in ontwikkeling en d'r weurt hel gewirk om alle foute op te losse. V'r höbbe dees fout óntvange en goon dees zoe sjnel wie mäögelik verhelpe.\nBetrach dit later nog ins!"
 error_page_title: D'r is 'n probleem!
-error_page_text: |
-  Wikipedia mobile is in ontwikkeling en d'r weurt hel gewirk om alle foute op te losse. V'r höbbe dees fout óntvange en goon dees zoe sjnel wie mäögelik verhelpe.
-  Betrach dit later nog ins!
-copyright: |
-  De teks is besjikbaar ónger de <a href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Naomsvermelding/Geliek Deile</a> licentie. 't Is mäögelik dat aanvöllende veurwaarde van toepassing zeen. Betrach de <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Algemein Veurwaarde</a> veur mie informatie.
+featured_article: Sjterartikel
+hide_button: Versjtaek
+home_button: Veurblaad
+in_the_news: In 't nuujs
+no_article_found: Gein rizzeltaat gevónje
+perm_stop_redirect: Gebroek ummer de normale layout
+random_button: Willekäörig
+regular_wikipedia: Betrach dees pagina in de normale layout
+search_results: Zeukrizzeltate
+search_submit: Gank
+show_button: Tuin
+

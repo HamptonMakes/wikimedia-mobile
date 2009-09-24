@@ -1,17 +1,19 @@
 # Messages for Welsh (Cymraeg)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: Lloffiwr
----
-search_submit: Eler
-search_results: Canlyniadau'r chwilio
-no_article_found: Dim Erthygl I'w Gael
-featured_article: Erthygl y Dydd
-in_the_news: Ar y newyddion
-home_button: Hafan
-random_button: Ar hap
-show_button: Dangos
-hide_button: Cuddio
-regular_wikipedia: >
-  Gweld y dudalen hon ar y Wicipedia
-  arferol
+copyright: "Rhoddir testun y dudalen ar gael ar delerau'r drwydded <a href=\"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike</a>;\ngall fod telerau ychwanegol yn perthyn i'r testun.\nGweler <a href=\"http://wikimediafoundation.org/wiki/Terms_of_Use\">Telerau Defnyddio'r Drwydded</a> am fanylion pellach. Mae Wikipedia yn nod masnachol cofrestredig, y mae'r sefydliad di-elw <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a> yn berchen arno."
+error_page_text: Y mae Wicipedia symudol yn dal i gael ei ddatblygu ac rydym wrthi'n ddiwyd yn cywiro'r gwallau mewnol. Rydym wedi cael gwybod am y gwall hwn ac fe fyddwn yn ei gywiro'n fuan. Rhowch gynnig arall arni yn y man.
 error_page_title: Cafwyd problem!
+featured_article: Erthygl y Dydd
+hide_button: Cuddio
+home_button: Hafan
+in_the_news: Ar y newyddion
+no_article_found: Dim Erthygl I'w Gael
+perm_stop_redirect: Analluogi'r cysylltiad at y fersiwn ar gyfer ffôn symudol am byth
+random_button: Ar hap
+regular_wikipedia: Gweld y dudalen hon ar y Wicipedia arferol
+search_results: Canlyniadau'r chwilio
+search_submit: Eler
+show_button: Dangos
+

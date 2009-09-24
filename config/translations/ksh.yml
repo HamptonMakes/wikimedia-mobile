@@ -1,31 +1,20 @@
 # Messages for Ripoarisch (Ripoarisch)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: Hcatlin
 # Author: Purodha
----
-search_submit: Lohß Jonn!
-search_results: Beim Söhke kohm eruß
-no_article_found: Keine Atikel jefonge
-featured_article: Der Atikel vum Daach
-in_the_news: En de Präß
-home_button: Houpsigg
-random_button: Zohfallsigg
-show_button: Zeisch!
-hide_button: Vershteishe!
-regular_wikipedia: >
-  Bekik heh di Sigg en de nomaale
-  Wikipedija
-perm_stop_redirect: >
-  Donn dä mobile Zohjang op Duur
-  ußschallde
+copyright: Dä Täx shtäjt unger dä <a href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'"><span lang="en">Creative Commons Attribution/Share-Alike</span> Lizänz</a>; un et künnt noch mieh Bestemmunge doför jävve. Loor op de <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Sigg met de Bedengunge</a> noh der Einzelheite. Wikipedia es e ennjedraare Waarezeiche vun de <a href="http://www.wikimediafoundation.org/">Wikimedia Shtefftung</a>, en Ojanisazuhn, di kei Jeld verdeent.
+error_page_text: De mobile Wikkipedija ier Täschnek es noch onfäädesch un en Ärbeit, un mer sen draan am werreke, wat ennedren noch nit flupp op de Reih ze krijje. Mer wesse öm dä Fähler un mer wääde en demnääx loss hann. Kumm ens widder loore!
 error_page_title: Mer hann_e Probleem!
-error_page_text: >
-  De mobile Wikkipedija ier Täschnek es
-  noch onfäädesch un en Ärbeit, un mer
-  sen draan am werreke, wat ennedren noch
-  nit flupp op de Reih ze krijje. Mer
-  wesse öm dä Fähler un mer wääde en
-  demnääx loss hann. Kumm ens widder
-  loore!
-copyright: |
-  Dä Täx shtäjt unger dä <a href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'"><span lang="en">Creative Commons Attribution/Share-Alike</span> Lizänz</a>; un et künnt noch mieh Bestemmunge doför jävve. Loor op de <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Sigg met de Bedengunge</a> noh der Einzelheite. Wikipedia es e ennjedraare Waarezeiche vun de <a href="http://www.wikimediafoundation.org/">Wikimedia Shtefftung</a>, en Ojanisazuhn, di kei Jeld verdeent.
+featured_article: Der Atikel vum Daach
+hide_button: Vershteishe!
+home_button: Houpsigg
+in_the_news: En de Präß
+no_article_found: Keine Atikel jefonge
+perm_stop_redirect: Donn dä mobile Zohjang op Duur ußschallde
+random_button: Zohfallsigg
+regular_wikipedia: Bekik heh di Sigg en de nomaale Wikipedija
+search_results: Beim Söhke kohm eruß
+search_submit: Lohß Jonn!
+show_button: Zeisch!
+

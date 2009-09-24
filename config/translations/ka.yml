@@ -1,27 +1,16 @@
 # Messages for Georgian (ქართული)
 # Exported from translatewiki.net
+# Export driver: syck
 # Author: Alsandro
----
-search_submit: აბა ჰე
-search_results: >
-  ძიების
-  შედეგები
-no_article_found: >
-  სტატია არ
-  მოიძებნა
-featured_article: >
-  დღის რჩეული
-  სტატია
-in_the_news: სიახლეებში
-home_button: შინ
-random_button: შემთხვევეთი
-show_button: აჩვენე
+error_page_title: პრობლემა გვაქვს!
+featured_article: დღის რჩეული სტატია
 hide_button: დამალე
-regular_wikipedia: >
-  ამ გვერდის
-  ჩვეულებრივ
-  ვიკიპედიაში
-  ხილვა
-error_page_title: >
-  პრობლემა
-  გვაქვს!
+home_button: შინ
+in_the_news: სიახლეებში
+no_article_found: სტატია არ მოიძებნა
+random_button: შემთხვევეთი
+regular_wikipedia: ამ გვერდის ჩვეულებრივ ვიკიპედიაში ხილვა
+search_results: ძიების შედეგები
+search_submit: აბა ჰე
+show_button: აჩვენე
+
