@@ -19,3 +19,4 @@ src/*
 .hg/*
 .svn/*
 .*.swp
+.project
