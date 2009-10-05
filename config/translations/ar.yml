@@ -3,7 +3,7 @@
 # Export driver: syck
 # Author: OsamaK
 # Author: ترجمان05
-copyright: النصوص كلها منشورة تحت <a href='http://ar.wikipedia.org/wiki/%D9%88%D9%8A%D9%83%D9%8A%D8%A8%D9%8A%D8%AF%D9%8A%D8%A7:%D9%86%D8%B5_%D8%B1%D8%AE%D8%B5%D8%A9_%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D8%B9_%D8%A7%D9%84%D9%85%D8%A8%D8%AF%D8%B9_%D9%86%D8%B3%D8%A8%D8%A9_%D8%A7%D9%84%D9%85%D8%B5%D9%86%D9%81_%D8%A5%D9%84%D9%89_%D9%85%D8%A4%D9%84%D9%81%D9%87_-_%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%A9_%D8%B9%D9%84%D9%89_%D9%82%D8%AF%D9%85_%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D9%88%D8%A7%D8%A9_3.0'>رخصة المشاع المبدع نسبة المصنف إلى مؤلفه - المشاركة على قدم المساواة</a>؛ قد تنطبق شروط أخرى أيضًا. راجع <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>شروط الاستخدام</a> للتفاصيل. ويكيبيديا علامة تجارية مسجلة <a href='http://wikimediafoundation.org/wiki/%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9_%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9'>لمؤسسة ويكيميديا المحدودة</a>، المنظمة غير الهادفة للربح.
+copyright: النصوص كلها منشورة تحت <a href='http://ar.wikipedia.org/wiki/%D9%88%D9%8A%D9%83%D9%8A%D8%A8%D9%8A%D8%AF%D9%8A%D8%A7:%D9%86%D8%B5_%D8%B1%D8%AE%D8%B5%D8%A9_%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D8%B9_%D8%A7%D9%84%D9%85%D8%A8%D8%AF%D8%B9_%D9%86%D8%B3%D8%A8%D8%A9_%D8%A7%D9%84%D9%85%D8%B5%D9%86%D9%81_%D8%A5%D9%84%D9%89_%D9%85%D8%A4%D9%84%D9%81%D9%87_-_%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%A9_%D8%B9%D9%84%D9%89_%D9%82%D8%AF%D9%85_%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D9%88%D8%A7%D8%A9_3.0'>رخصة المشاع المبدع نسبة المصنف إلى مؤلفه - المشاركة على قدم المساواة</a>؛ قد تنطبق بنود أخرى أيضًا. راجع <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>شروط الاستخدام</a> للتفاصيل. ويكيبيديا علامة تجارية مسجلة <a href='http://wikimediafoundation.org/wiki/%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9_%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9'>لمؤسسة ويكيميديا المحدودة</a>، المنظمة غير الهادفة للربح.
 error_page_text: لا تزال ويكيبيديا الجوال تحت التطوير النشط ونحن نعمل بجد لإصلاح كل أخطائنا الداخلية. لقد أبلغنا عن هذا الخطأ وسوف نصلحه قريبًا. .من فضلك ارجع لاحقًا.
 error_page_title: لدينا مشكلة!
 featured_article: مقالة اليوم المختارة
@@ -17,4 +17,3 @@ regular_wikipedia: اعرض هذه الصفحة على ويكيبيديا الا
 search_results: نتائج البحث
 search_submit: اذهب
 show_button: عرض
-

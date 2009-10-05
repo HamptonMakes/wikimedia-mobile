@@ -1,20 +1,18 @@
-# Messages for Russian (Русский)
+# Messages for Kalmyk (Хальмг)
 # Exported from translatewiki.net
 # Export driver: syck
-# Author: Ferrer
-# Author: Lockal
-# Author: Александр Сигачёв
+# Author: Huuchin
 copyright: Текст доступен на условиях лицензии <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution/Share-Alike</a>, в отдельных случаях могут действовать дополнительные условия. Подробнее см. <a href='http://wikimediafoundation.org/wiki/Terms_of_Use/ru'>Условия использования</a>. «Wikipedia» — зарегистрированная торговая марка некоммерческой организации <a href='http://www.wikimediafoundation.org/'>«Фонд Викимедиа»</a>.
 error_page_text: Мобильная Википедия ещё находится в стадии активной разработки, и мы прилагаем максимум усилий, чтобы исправить все наши внутренние ошибки. Мы были уведомлены об этой ошибке и планируем её вскоре исправить. Пожалуйста, проверьте через некоторое время!
-error_page_title: У нас проблема!
-featured_article: Избранная статья дня
-hide_button: Скрыть
-home_button: Домой
-in_the_news: Новости
-no_article_found: Не найдено статей
+error_page_title: Мадн халта!
+featured_article: Өдрә суңһгдсн халх
+hide_button: Бултулх
+home_button: Герт
+in_the_news: Зәңгс
+no_article_found: Халхс олв биш
 perm_stop_redirect: Отключить мобильный сайт
-random_button: Случайная
-regular_wikipedia: Просмотреть страницу в обычной Википедии
-search_results: Результаты поиска
-search_submit: Перейти
-show_button: Показать
+random_button: Уршг
+regular_wikipedia: Кирин Википедин халх хәләх
+search_results: Хәәлһнә ашуд
+search_submit: Ор
+show_button: Үзүлх
