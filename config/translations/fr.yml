@@ -1,6 +1,7 @@
 # Messages for French (Français)
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: Dodoïste
 # Author: Jastrow
 # Author: Kropotkine 113
 # Author: Verdy p
@@ -16,6 +17,5 @@ perm_stop_redirect: Désactiver le site mobile de manière permanente
 random_button: Au hasard
 regular_wikipedia: Afficher cette page sur Wikipédia classique
 search_results: Résultats de la recherche
-search_submit: Consulter
+search_submit: Lire
 show_button: Afficher
-
