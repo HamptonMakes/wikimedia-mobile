@@ -1,12 +1,25 @@
-<form action="http://wikimedia.mcommons.com/profiles/join" method="POST">
-<input type="hidden" name="redirect_to" value="http://mcommons.com/redirect_to_instructions" />
-<label>First name:<br /><input type="text" name="person[first_name]" /></label><br />
-<label>Last name:<br /><input type="text" name="person[last_name]" /></label><br />
-<label>Email:<br /><input type="text" name="person[email]" /></label><br />
-<label>Postal code:<br /><input type="text" name="person[postal_code]" /></label><br />
-<label>Mobile # (with area code):<br /><input type="text" name="person[phone]" /></label><br />
-<input type="hidden" name="fundraising" value="304">Donate$10<br>
 
-<input type="submit" value="Submit" />
-</form>
-<a href="http://mobilecommons.com/terms" style="font-size:75%">Msg&  Data Rates May Apply</a>
+%h1 Help Us!
+
+%p 
+  Wikimedia mobile is entirely funded by donations. We don't advertise, we don't sell anything,
+  we just ask that you help us out when we need it. And, the mobile site needs it!
+
+%h2 Donate!
+
+%p 
+  If you live in the US, you can use the form below to donate via your cellphone! That's right,
+  just enter your information and we will send you a text message verifying that you want to
+  donate. Isn't that cool?
+
+%form{:action => "http://wikimedia.mcommons.com/profiles/join", :method => "POST"}
+  <input type="hidden" name="redirect_to" value="http://mcommons.com/redirect_to_instructions" />
+  <label>First name:<br /><input type="text" name="person[first_name]" /></label><br />
+  <label>Last name:<br /><input type="text" name="person[last_name]" /></label><br />
+  <label>Email:<br /><input type="text" name="person[email]" /></label><br />
+  <label>Zip Code:<br /><input type="text" name="person[postal_code]" /></label><br />
+  <label>Mobile # (with area code):<br /><input type="text" name="person[phone]" /></label><br />
+  <input type="hidden" name="fundraising" value="304">
+  <input type="submit" value="Submit" />
+
+<a href="http://mobilecommons.com/terms" style="font-size:75%">Msg & Data Rates May Apply</a>

@@ -24,6 +24,7 @@ class Application < Merb::Controller
   
   def logger_output
     Merb.logger.info("ReqLogger #{Time.now.to_s} (#{request.language_code}) #{params[:controller]}/#{params[:action]} | #{request.user_agent} | #{request.device.format_name} | #{request.remote_ip} | #{request.referer}")
+    Merb.logger.info(ObjectSpace.count_objects.inspect)
   end 
   
   def no_language_domain
