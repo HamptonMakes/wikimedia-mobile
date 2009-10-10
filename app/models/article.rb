@@ -50,7 +50,11 @@ class Article < Wikipedia::Resource
       Merb.logger.debug("KEY: #{key}")
       if (@html = Cache[key])
         Merb.logger.debug("CACHE HIT")
-        return @html.force_encoding("UTF-8")
+        if is19?
+          return @html.force_encoding("UTF-8")
+        else
+          return @html
+        end
       else
         Merb.logger.debug("CACHE MISS")
       end
@@ -69,13 +73,19 @@ class Article < Wikipedia::Resource
       end
     end
     
-    @html = @html.force_encoding("UTF-8")
+    if is19?
+      @html = @html.force_encoding("UTF-8")
+    end
     
     time_to "store in cache" do
       Cache.store(key, @html, :expires_in => 60 * 60 * 24)
     end
-
-    return @html.force_encoding("UTF-8")
+    
+    if is19?
+      return @html.force_encoding("UTF-8")
+    else
+      return @html
+    end
   end
 
   def fetch!(*paths)
