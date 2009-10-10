@@ -2,15 +2,19 @@
 # Specify a specific version of a dependency
 # 
 
-Encoding.default_internal = Encoding.default_external = "UTF-8"
+def is19?
+  defined?(Encoding)
+end
 
-require 'lib/haml/lib/haml'
+if is19?
+  Encoding.default_internal = Encoding.default_external = "UTF-8"
+end
+
 dependency "merb-haml"
-dependency "nokogiri"
-dependency 'curb'
 
-require 'cgi'
-require 'lib/object'
+require "nokogiri"
+require "curb"
+require "cgi"
 
 use_test :rspec
 use_template_engine :haml
@@ -24,42 +28,12 @@ Merb::Config.use do |c|
   c[:fork_for_class_load] = false
 end
 
-unless defined?(Cache)
-  require 'lib/moneta/lib/moneta'
-  
-  # We need to load this to help catch errors
-  require 'lib/moneta/lib/moneta/memcache'
-
-  if Merb.env == "production"
-    Cache = Moneta::Memcache.new(:server => "127.0.0.1")
-  else
-    require 'lib/moneta/lib/moneta/memory'
-    Cache = Moneta::Memory.new
-  end
-end
-
-if defined?(PhusionPassenger)
-  PhusionPassenger.on_event(:starting_worker_process) do |forked|
-    if forked
-      # We're in smart spawning mode.
-      Merb.logger.debug("FORKED SUCCESSFULLY")
-      Cache = Moneta::Memcache.new(:server => "127.0.0.1")
-    else
-      # We're in conservative spawning mode. We don't need to do anything.
-    end
-  end
-end
-
-#if defined?(PhusionPassenger)
-#  PhusionPassenger.on_event(:starting_worker_process) do
-#    Cache = Moneta::Rufus.new(:file => "tmp/cache")
-#  end
-#end
-#
-
 Merb::BootLoader.before_app_loads do
   Merb.push_path(:merb_extensions, Merb.root / "merb/extensions", "**/*.rb")  
-  Merb.push_path(:lib_wikipedia, Merb.root / "lib" / "wikipedia", "**/*.rb")
+  Merb.push_path(:lib, Merb.root / "lib", "**/*.rb")
+  require Merb.root + '/lib/object.rb'
+  require 'moneta'
+  require 'moneta/memcache'
 end
  
 Merb::BootLoader.after_app_loads do
@@ -75,6 +49,15 @@ Merb::BootLoader.after_app_loads do
   rescue Exception => e
     puts "There appears to be a syntax error in your YAML configuration files."
     exit
+  end
+  
+  unless defined?(Cache)
+    if Merb.env == "production"
+      Cache = Moneta::Memcache.new(:server => "127.0.0.1")
+    else
+      require 'moneta/memory'
+      Cache = Moneta::Memory.new
+    end
   end
   
   # This is a UNIX signal that can be sent to restart the logger
