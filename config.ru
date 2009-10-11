@@ -2,8 +2,15 @@
 # config.ru
 Encoding.default_internal = Encoding.default_external = "UTF-8"
 
-require 'rubygems'
- 
+begin
+  require File.join(File.dirname(__FILE__), "gems/environment")
+rescue LoadError
+  begin 
+    require 'minigems'
+  rescue LoadError 
+    require 'rubygems'
+  end
+end
 
 require 'merb-core'
  
