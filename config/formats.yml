@@ -1,6 +1,7 @@
 html: &defaults
   view_format: 'html'
   search_bar: 'default'
+  footmenu: 'default'
   with_layout: "application"
   css_file_name: "default"
   supports_javascript: false

@@ -4,7 +4,7 @@ module Merb
     # helpers defined here available to all views.  
     # 
     def language_notice
-      %|<div class="notice"><h3>Language Not Fully Supported</h3>
+      %|<div class="notice" id="language_notice"><h3>Language Not Fully Supported</h3>
         <p>
         The language that you are currently using is not fully supported
         with Wikipedia Mobile. We are working hard to ensure that all Wikipedia
@@ -30,12 +30,10 @@ module Merb
       temporary_url = "#{site}/w/mobileRedirect.php?to=#{site}/wiki/#{path}"
       perm_url = "#{temporary_url}&expires_in_days=#{365 * 10}"
       
-%|<div class="notice" id="language_notice">
-  <a href="#{temporary_url}">#{language_object["regular_wikipedia"]}</a>
+%|<a href="#{temporary_url}">#{language_object["regular_wikipedia"]}</a>
   <div id="perm">
     <a href="#{perm_url}">#{language_object["perm_stop_redirect"]}</a>
-  </div>
-</div>|
+  </div>|
     end
     
   end
