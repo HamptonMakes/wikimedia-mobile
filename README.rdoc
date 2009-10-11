@@ -99,7 +99,7 @@ Process:
 * A request comes in from a browser
 * The request generates a Device object in merb/extensions/request_extension.rb
 * The Device object picks a format in Device#format_name
-** Any method_missing that Device receives is looked up in the format specfication
+** Any method_missing that Device receives is looked up in the format specification
 ** The formats are specified in config/formats.yml
 * An Article is fetched for that device
 ** First, the article figures out what kind of parser needed to be run on the page
@@ -110,7 +110,7 @@ Process:
 * The layout is generated with the returned Article#html
 ** The device format is used heavily here (aka, "= current_device.stylesheet_name")
 ** An "app/views/layouts/_search_#{format}.html.haml" file is rendered in the search area
-** Changes in the search box and CSS fiels are the most different between formats
+** Changes in the search box and CSS fields are the most different between formats
 
 = A Primer in CSS
 
