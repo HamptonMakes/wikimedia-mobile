@@ -42,6 +42,12 @@ class Device
       :kindle2
     when /Firefox/
       :capable
+    when /NetFront/
+      :netfront
+    when /PlayStation Portable/
+      :psp
+    when /PLAYSTATION 3/
+      :ps3
     else
       :html
     end

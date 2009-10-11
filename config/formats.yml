@@ -43,6 +43,15 @@ blackberry:
   <<: *defaults
   css_file_name: "blackberry"
 
+netfront: &netfront
+  <<: *defaults
+
+psp:
+  <<: *netfront
+
+ps3:
+  <<: *netfront
+
 wml:
   view_format: 'wml'
   search_bar: 'wml'
