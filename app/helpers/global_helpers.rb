@@ -23,16 +23,31 @@ module Merb
       id ||= text.downcase
       %|<form method="get" action="#{to}"><button type="submit" id="#{id}Button">#{text}</button></form>|
     end
-    
+
+    def path_site
+      %|http://#{request.language_code}.wikipedia.org|
+    end
+
+    def path_encoded(path)
+      CGI::escape(path)
+    end
+
+    def temp_url(path)
+      %|#{path_site}/w/mobileRedirect.php?to=#{path_site}/wiki/#{path_encoded(path)}|
+    end
+
+    def perm_url(path)
+      %|#{temp_url(path)}&expires_in_days=#{365 * 10}|
+    end
+
+    def action_url(path,action)
+      %|#{path_site}/w/index.php?title=#{path_encoded(path)}&action=#{action}&useskin=chick|
+    end
+
     def stop_redirect_notice(path)
-      site = "http://#{request.language_code}.wikipedia.org"
-      path = CGI::escape(path)
-      temporary_url = "#{site}/w/mobileRedirect.php?to=#{site}/wiki/#{path}"
-      perm_url = "#{temporary_url}&expires_in_days=#{365 * 10}"
-      
-%|<a href="#{temporary_url}">#{language_object["regular_wikipedia"]}</a>
+%|<a href="#{temp_url(path)}">#{language_object["regular_wikipedia"]}</a>
   <div id="perm">
-    <a href="#{perm_url}">#{language_object["perm_stop_redirect"]}</a>
+    <a href="#{perm_url(path)}">#{language_object["perm_stop_redirect"]}</a>
   </div>|
     end
     
