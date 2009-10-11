@@ -9,6 +9,11 @@ capable: &capable
   <<: *defaults
   supports_javascript: true
 
+simplehtml: &simplehtml
+  <<: *defaults
+  search_bar: "simple"
+  css_file_name: "simple"
+
 webkit: &webkit
   <<: *capable
   search_bar: 'webkit'
@@ -44,7 +49,7 @@ blackberry:
   css_file_name: "blackberry"
 
 netfront: &netfront
-  <<: *defaults
+  <<: *simplehtml
 
 psp:
   <<: *netfront
