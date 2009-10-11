@@ -1,0 +1,25 @@
+%a.arrow{:href => "#header"} Top &uarr;
+0
+%a#homeButton{:href => "/wiki/::Home", :accesskey => "0"}= language_object["home_button"]
+%br 1
+%a#randomButton{:href => "/wiki/::Random", :accesskey => "1"}= language_object["random_button"]
+%br 2
+%a{:href => "#header", :accesskey => "2"} Top
+%br 3
+- if @article
+  %a{:href => temp_url(@article.title), :accesskey => "4"}= language_object["regular_wikipedia"]
+- else
+  %a{:href => temp_url(""), :accesskey => "4"}= language_object["regular_wikipedia"]
+-# 4 is Talk, 6 Hist
+- if @article
+  %br 5
+  %a{:href => action_url(@article.title, "edit"), :accesskey => "5"} Edit
+  %br 6
+  %a{:href => action_url(@article.title, "history"), :accesskey => "6"} History
+%br 8
+%a{:href => "#footer", :accesskey => "8"} Bottom
+%br
+- if @article
+  %a{:href => perm_url(@article.title)}= language_object["perm_stop_redirect"]
+- else
+  %a{:href => perm_url("")}= language_object["perm_stop_redirect"]
