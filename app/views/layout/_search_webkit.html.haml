@@ -1,8 +1,9 @@
 #header
   %img{:src => "/images/w.gif", :id => "logo", :alt => "W logo"}/
   %form.search_bar{:action => "/wiki", :method => "get"}
-    %input#searchField{:name => "search", :type => "search", :size => "28", :value => CGI::unescape(current_name).force_encoding("UTF-8")}/
+    %input#searchField{:name => "search", :type => "text", :size => "28", :value => CGI::unescape(current_name).force_encoding("UTF-8")}/
     -# Had to do the clearText() for android
+    #clearButton
     %button#goButton{:type => "submit"}
       
 #nav
