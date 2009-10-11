@@ -7,9 +7,9 @@
 %a{:href => "#header", :accesskey => "2"} Top
 %br 3
 - if @article
-  %a{:href => temp_url(@article.title), :accesskey => "4"}= language_object["regular_wikipedia"]
+  %a{:href => temp_url(@article.title), :accesskey => "3"}= language_object["regular_wikipedia"]
 - else
-  %a{:href => temp_url(""), :accesskey => "4"}= language_object["regular_wikipedia"]
+  %a{:href => temp_url(""), :accesskey => "3"}= language_object["regular_wikipedia"]
 -# 4 is Talk, 6 Hist
 - if @article
   %br 5
