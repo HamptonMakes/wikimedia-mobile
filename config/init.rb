@@ -10,11 +10,7 @@ if is19?
   Encoding.default_internal = Encoding.default_external = "UTF-8"
 end
 
-dependency "merb-haml"
-
-require "nokogiri"
-require "curb"
-require "cgi"
+require 'cgi'
 
 use_test :rspec
 use_template_engine :haml

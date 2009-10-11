@@ -31,8 +31,9 @@ running.
 
 1) Install Ruby 1.9 and RubyGems http://www.ruby-lang.org/en/downloads/
 
-2) Install Merb 1.1 http://wiki.merbivore.com/howto/installation/edge or if its released at http://wiki.merbivore.com/howto/installation/gems
-   Also make sure to install all the gems listed in GEMS
+2) Install the latest bundler gem
+    
+  gem install bundler
 
 3) Setup host headers for en.m.wikitest.org, *.m.wikitest.org for any language that you want to test. Anything works, but it needs to start with a language code. Point each one at 127.0.0.1 assuming you don't have some sort of freaky setup. For instance...
 
@@ -49,19 +50,26 @@ running.
 
   git clone git://github.com/hcatlin/wikimedia-mobile.git
 
-6) Go into the new folder and type 
+6) Go into the new folder and type:
 
-  merb -a thin
+  gem bundle --cached
+
+This will expand all the gem files into your local rubygems bundle.
+
+7) start the server with
+
+  bin/merb -a thin
   
-We need to use thin because currently Mongrel doesn't work on Ruby 1.9. If thin isn't installed `gem install thin`
+We need to use thin because currently Mongrel doesn't work on Ruby 1.9. running 
+bin/merb will make sure its using the local bundle requires instead of the system gems
 
-7) Browse to http://en.m.wikitest.org:4000 in Safari (most useful as webkit is the main target)
+8) Browse to http://en.m.wikitest.org:4000 in Safari (most useful as webkit is the main target)
 
-8) Install Palm Pre, Android, and iPhone Simulators
+9) Install Palm Pre, Android, and iPhone Simulators
 
 *You can find lots of info about this around the web*
 
-9) Start hacking!
+10) Start hacking!
 
 = What should I work on?
 
