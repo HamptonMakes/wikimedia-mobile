@@ -48,6 +48,12 @@ class Device
       :psp
     when /PLAYSTATION 3/
       :ps3
+    when /Opera/
+      if user_agent.include?("Nintendo Wii")
+        :wii
+      else
+        :webkit
+      end
     else
       :html
     end

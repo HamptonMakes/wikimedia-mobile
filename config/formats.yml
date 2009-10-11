@@ -58,6 +58,10 @@ psp:
 ps3:
   <<: *netfront
 
+wii:
+  <<: *capable
+  css_file_name: 'wii'
+
 wml:
   view_format: 'wml'
   search_bar: 'wml'
