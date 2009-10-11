@@ -10,3 +10,4 @@ gchartrb
 do_mysql
 merb_datamapper
 webrat
+moneta
