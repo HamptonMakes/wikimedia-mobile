@@ -3,10 +3,10 @@
   %form.search_bar{:action => "/wiki", :method => "get"}
     - @search_field = CGI::unescape(current_name).force_encoding("UTF-8")
     %input#searchField{:name => "search", :type => "search", :value => @search_field}/
-    %input#searchButton{:type =>"image", :src => "/images/s.gif", :alt => "Search"}
+    %input#searchButton{:type =>"image", :src => "/images/s.gif", :alt => go_text}
       
-#nav
-  %a#homeButton{:href => "/wiki/::Home", :accesskey => "0"} Home
+#nav.nav
+  %a#homeButton{:href => "/wiki/::Home", :accesskey => "0"}= language_object["home_button"]
   = " | "
-  %a#randomButton{:href => "/wiki/::Random", :accesskey => "1"} Random
+  %a#randomButton{:href => "/wiki/::Random", :accesskey => "1"}= language_object["random_button"]
   %a#downArrow{:href => "#footer", :accesskey => "8"} &darr;
