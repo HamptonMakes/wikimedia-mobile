@@ -88,12 +88,105 @@ table {
 table.admin {
   width: 300px; }
 
+
+html {
+  font-size: 67.5%; }
+
+body {
+  line-height: 1;
+  font-size: 1.2em;
+  color: #000;
+  background: #fff;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: none; }
+
+p, li, dl, #featured_article {
+  line-height: 1.65; }
+
+pre {
+  white-space: pre-wrap; }
+
+h2 {
+  border-bottom: 1px solid #aaa;
+  padding: 5px 0; }
+
+
+a {
+  text-decoration: none;
+  color: #002bb8; }
+  a:visited {
+    color: #5a3696; }
+  a:active {
+    color: #faa700; }
+  a:hover {
+    text-decoration: underline; }
+
+a.new, a.new:visited, a.new:hover {
+  color: red; }
+
+a.back_to_top, a.back_to_top:visited {
+  margin-top: 7px;
+  color: blue; }
+
+.links {
+  float: left;
+  padding: 10px; }
+
+
+#contentSub, .dablink {
+  margin-bottom: 10px; }
+
+#firstHeading {
+  font-size: 140%; }
+
+.section_anchors a {
+  display: block; }
+
+.section_anchor {
+  height: 1px;
+  width: 1px; }
+
+.noprint, .geo-multipunct, .geo-nondefault {
+  display: none; }
+
+
+.thumb {
+  border: 1px solid #ccc;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  background: #f9f9f9;
+  margin-bottom: 10px; }
+  .thumb .thumbinner[style] {
+    margin: 5px auto; }
+  .thumb .thumbcaption {
+    width: 100%;
+    margin: 5px 10px 0;
+    text-align: center;
+    width: auto !important; }
+
+img.thumbborder {
+  border: 1px solid #ccc; }
+
+
+.help dt {
+  font-weight: bold;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 2px;
+  font-size: 1.05em; }
+.help dd {
+  margin-bottom: 25px;
+  margin-left: 20px; }
+
+
+.floatright {
+  float: right; }
+
+
 #header {
   width: 293px;
   height: 30px;
   padding: 8px 0 0 8px;
-  margin: 2;
-  z-index: 1;
   border: 1px solid #ccc;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px; }
@@ -123,17 +216,16 @@ table.admin {
     background: #FFF url(/images/search.gif) no-repeat center;
     border: 0; }
 
+
 #nav {
-  display: none;
+  display: block;
   height: 28px;
   width: 185px;
   clear: both;
-  z-index: 1;
   background: white;
-  margin: -1px 0 0 0;
+  margin-top: 3px;
   padding: 5px 0 0 5px;
-  border: 1px solid #ccc;
-  border-top: 0px;
+  border: 0px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px; }
   #nav button {
@@ -142,7 +234,9 @@ table.admin {
     margin-left: 3px;
     border: 0px;
     height: 23px;
-    width: 83px; }
+    width: 83px;
+    padding-bottom: 3px; }
+
 
 .notice {
   padding: 5px;
@@ -151,115 +245,29 @@ table.admin {
   margin-top: 5px;
   text-align: center;
   border: 1px solid grey; }
-  .notice #perm {
-    margin-top: 10px;
-    font-size: 80%; }
+
 
 .message.notice {
   font-size: 15px; }
 
-a.new, a.new:visited, a.new:hover {
-  color: red; }
-
-a.back_to_top, a.back_to_top:visited {
-  margin-top: 7px;
-  color: blue; }
-
-.section_anchors a {
-  display: block; }
-
-.section_anchor {
-  height: 1px;
-  width: 1px; }
-
-
-html {
-  font-size: 67.5%; }
-
-body {
-  line-height: 1;
-  font-size: 1.2em;
-  color: #000;
-  background: #fff;
-  font-family: sans-serif;
-  overflow-x: hidden;
-  -webkit-text-size-adjust: none; }
-
-p, li, dl, #featured_article {
-  line-height: 1.65; }
-
-pre {
-  white-space: pre-wrap; }
-
-h2 {
-  border-bottom: 1px solid #aaa;
-  padding: 5px 0; }
-
-a {
-  text-decoration: none;
-  color: #002bb8; }
-  a:visited {
-    color: #5a3696; }
-  a:active {
-    color: #faa700; }
-  a:hover {
-    text-decoration: underline; }
-
-.links {
-  float: left;
-  padding: 10px; }
-
-
-#contentSub, .dablink {
-  margin-bottom: 10px; }
-
-img.thumbborder {
-  border: 1px solid #ccc; }
-
-
-.thumb {
-  border: 1px solid #ccc;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  background: #f9f9f9;
-  margin-bottom: 10px; }
-  .thumb .thumbinner[style] {
-    margin: 5px auto; }
-  .thumb .thumbcaption {
-    width: 100%;
-    margin: 5px 10px 0;
-    text-align: center;
-    width: auto !important; }
-
-#featured_article .noprint {
-  display: none; }
-
-#firstHeading {
-  font-size: 140%; }
-
-
-.help dt {
-  font-weight: bold;
-  border-bottom: 1px solid #aaa;
-  padding-bottom: 2px;
-  font-size: 1.05em; }
-.help dd {
-  margin-bottom: 25px;
-  margin-left: 20px; }
-
-#image {
-  padding-top: 15px; }
 
 #footer {
   padding-top: 20px;
   font-size: 80%; }
 
-.today .noprint {
-  display: none; }
 
+#header {
+  margin: 0px; }
 
-.floatright {
-  float: right; }
+#nav {
+  display: none;
+  border: 1px solid #ccc;
+  border-top: 0px;
+  margin: -1px 0 0 0; }
+
+#perm {
+  margin-top: 10px;
+  font-size: 80%; }
 
 body {
   font-size: 140%; }
