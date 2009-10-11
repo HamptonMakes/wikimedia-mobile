@@ -78,7 +78,7 @@ class Article < Wikipedia::Resource
     end
     
     time_to "store in cache" do
-      Cache.store(key, @html, :expires_in => 60 * 60 * 24)
+      Cache.store(key, @html, :expires_in => 60 * 60 * 1)
     end
     
     if is19?
