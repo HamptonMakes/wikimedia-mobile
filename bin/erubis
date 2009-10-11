@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+require File.join(File.dirname(__FILE__), "../gems/environment")
+load File.join(File.dirname(__FILE__), "../gems/gems/erubis-2.6.5/bin/erubis")

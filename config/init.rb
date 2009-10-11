@@ -8,13 +8,11 @@ end
 
 if is19?
   Encoding.default_internal = Encoding.default_external = "UTF-8"
+else
+  require Merb.root / 'merb' / 'monkey' / 'ruby19_compat'
 end
 
-dependency "merb-haml"
-
-require "nokogiri"
-require "curb"
-require "cgi"
+require 'cgi'
 
 use_test :rspec
 use_template_engine :haml
@@ -31,7 +29,7 @@ end
 Merb::BootLoader.before_app_loads do
   Merb.push_path(:merb_extensions, Merb.root / "merb/extensions", "**/*.rb")  
   Merb.push_path(:lib, Merb.root / "lib", "**/*.rb")
-  require Merb.root + '/lib/object.rb'
+  require Merb.root / 'lib' / 'object.rb'
   require 'moneta'
   require 'moneta/memcache'
 end

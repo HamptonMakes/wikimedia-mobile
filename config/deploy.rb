@@ -9,6 +9,10 @@ role :web, "mobile1.wikimedia.org"
 role :cache, "mobile1.wikimedia.org"
 
 namespace :deploy do
+  
+  # TODO:
+  # after updating the code, run "gem bundle --cached" on the server
+  
   task :restart do
     deploy.stop
     deploy.start

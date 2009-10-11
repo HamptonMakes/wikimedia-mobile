@@ -1,10 +1,7 @@
 #header
   %img{:src => "/images/w.gif", :id => "logo", :alt => "W logo"}/
   %form.search_bar{:action => "/wiki", :method => "get"}
-    - if is19?
-      - @search_field = CGI::unescape(current_name).force_encoding("UTF-8")
-    - else
-      - @search_field = CGI::unescape(current_name)
+    - @search_field = CGI::unescape(current_name).force_encoding("UTF-8")
     %input#searchField{:name => "search", :type => "search", :value => @search_field}/
     %input#searchButton{:type =>"image", :src => "/images/s.gif", :alt => go_text}
       

@@ -66,9 +66,7 @@ class Server
               body = result.body_str
             end
             
-            if is19?
-              body = body.force_encoding("UTF-8")
-            end
+            body = body.force_encoding("UTF-8")
           end
           
           Merb.logger.debug("Decompressed to #{body.size} characters")
