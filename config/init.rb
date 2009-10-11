@@ -8,6 +8,8 @@ end
 
 if is19?
   Encoding.default_internal = Encoding.default_external = "UTF-8"
+else
+  require Merb.root / 'merb' / 'monkey' / 'ruby19_compat'
 end
 
 require 'cgi'
@@ -27,7 +29,7 @@ end
 Merb::BootLoader.before_app_loads do
   Merb.push_path(:merb_extensions, Merb.root / "merb/extensions", "**/*.rb")  
   Merb.push_path(:lib, Merb.root / "lib", "**/*.rb")
-  require Merb.root + '/lib/object.rb'
+  require Merb.root / 'lib' / 'object.rb'
   require 'moneta'
   require 'moneta/memcache'
 end
