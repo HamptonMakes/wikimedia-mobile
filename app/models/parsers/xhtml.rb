@@ -42,6 +42,8 @@ module Parsers
     
       #remove unnecessary content and edit links
       (doc.css items_to_remove.join(",")).remove
+      
+      doc.css(".medialist").first.parent.remove
     
       # For getting the human-readable title of the page
       # grab what's in the .first-heading div
