@@ -145,7 +145,12 @@ a.back_to_top, a.back_to_top:visited {
   height: 1px;
   width: 1px; }
 
-.noprint, .geo-multi-punct, .geo-nondefault {
+
+.printonly, .geo-multi-punct, .geo-nondefault {
+  display: none; }
+
+
+#featured_article .noprint, .today .noprint {
   display: none; }
 
 
