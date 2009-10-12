@@ -64,6 +64,8 @@ Merb::BootLoader.after_app_loads do
     Merb::Config[:log_stream].close
     Merb::BootLoader::Dependencies.update_logger
   end
+  
+  #Merb::Plugin.config[:sass][:style] = :compact
 end
 
 # Add our mime-types for device based content type negotiation
