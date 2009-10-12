@@ -57,8 +57,6 @@ Merb::BootLoader.after_app_loads do
     exit
   end
   
-  Merb::Mailer.delivery_method = :sendmail
-  
   unless defined?(Cache)
     if Merb.env == "production"
       Cache = Moneta::Memcache.new(:server => "127.0.0.1")
