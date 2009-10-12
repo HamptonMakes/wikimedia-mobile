@@ -21,6 +21,11 @@ $(function() {
     $(e.target).parent().children("button:visible").click();
   })
   
+  // If we are on iPhone, scroll down and hide URL bar
+  if(navigator.userAgent.indexOf("iPhone") > 0) {
+    window.scrollTo(0, 1);
+  }
+  
   $("#logo").click(function() {
     $("#nav").toggle();
   })
