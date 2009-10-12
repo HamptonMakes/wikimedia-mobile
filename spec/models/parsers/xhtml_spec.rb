@@ -5,8 +5,9 @@ describe Parsers::XHTML do
   
   it "add javascript show/hide buttons to section headers" do
     page = ORIGINAL_HTML
-    new_page = Parsers::XHTML.javascriptize(page)
-    new_page.include?("Hide</button>").should == true
+    article = Article.new("en")
+    new_page = Parsers::XHTML.javascriptize(article, page)
+    new_page.include?("</button>").should == true
   end
   
 end
