@@ -13,6 +13,7 @@ else
 end
 
 require 'cgi'
+dependency 'merb_exceptions'
 
 use_test :rspec
 use_template_engine :haml
@@ -32,6 +33,15 @@ Merb::BootLoader.before_app_loads do
   require Merb.root / 'lib' / 'object.rb'
   require 'moneta'
   require 'moneta/memcache'
+  
+  Merb::Plugins.config[:exceptions] = {
+        :email_addresses => ['hcatlin@gmail.com'],
+        :app_name        => "Wikimedia Mobile",
+        :environments    => ['production', 'staging'],
+        :email_from      => "errors@wikipedia.org"
+      }
+  Merb::Mailer.delivery_method = :sendmail
+  
 end
  
 Merb::BootLoader.after_app_loads do

@@ -1,8 +1,12 @@
 class Exceptions < Application
+  
+  
   if %w( staging production ).include?(Merb.env)
+    after :notify_of_exceptions, :only => :standard_error
+
     def standard_error
       #HoptoadNotifier.notify_hoptoad(request, session)
-      render :format => :html
+      render_and_notify :format => :html
     end
   end
   

@@ -4,11 +4,15 @@ do_gems_version   = "0.10.0"
 
 # Set bundle path to ./gems. use the "gem bundle" command to generate the bundle
 bundle_path "gems"
+source "http://edge.merbivore.com"
 
-gem "merb-core", merb_gems_version
-gem "merb-assets", merb_gems_version
-gem "merb-cache", merb_gems_version
-gem "merb-haml", merb_gems_version
+gem "merb-core",        merb_gems_version
+gem "merb-assets",      merb_gems_version
+gem "merb-cache",       merb_gems_version
+gem "merb-haml",        merb_gems_version
+gem "merb-mailer",      merb_gems_version
+gem "merb-exceptions",  merb_gems_version
+
 
 gem "memcache-client", :require_as => []
 gem "curb"
