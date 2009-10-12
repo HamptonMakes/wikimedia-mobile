@@ -55,6 +55,7 @@ netfront: &netfront
 
 psp:
   <<: *netfront
+  css_file_name: 'psp'
 
 ps3:
   <<: *netfront
