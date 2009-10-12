@@ -13,7 +13,6 @@ else
 end
 
 require 'cgi'
-dependency 'merb_exceptions'
 
 use_test :rspec
 use_template_engine :haml
