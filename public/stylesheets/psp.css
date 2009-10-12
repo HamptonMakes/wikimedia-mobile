@@ -255,9 +255,8 @@ img.thumbborder {
   #header #logo {
     padding: 2px 2px 0 0; }
   #header input#searchField {
-    height: 25px;
     width: 60%;
-    padding-top: 5px; }
+    margin-top: 2px; }
   #header input#searchButton {
     padding-left: 2px; }
 
@@ -292,7 +291,8 @@ a.arrow {
 .thumb .thumbcaption {
   text-align: left;
   margin: 0;
-  font-size: 90%; }
+  font-size: 90%;
+  padding-top: 0.5em; }
 
 .thumb.tleft {
   float: left;
@@ -303,6 +303,9 @@ a.arrow {
 .thumb .thumbinner[style] {
   padding: 5px;
   margin: 0; }
+
+#searchField {
+  font-size: 1.2em; }
 
 span.idx {
   display: none; }
