@@ -24,7 +24,7 @@ module Parsers
                           "span.t",
                           'sup[style*="help"]',
                           ".portal",
-                          "#protected-icon", 
+                          "#protected-icon",
                           ".printfooter",
                           ".boilerplate",
                           "#id-articulo-destacado",
@@ -43,7 +43,8 @@ module Parsers
       #remove unnecessary content and edit links
       (doc.css items_to_remove.join(",")).remove
       
-      doc.css(".medialist").first.parent.remove
+      # Remove all of the medialists
+      doc.css(".medialist").each { |m| m.parent.remove }
     
       # For getting the human-readable title of the page
       # grab what's in the .first-heading div
