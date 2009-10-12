@@ -6,7 +6,7 @@ class Exceptions < Application
 
     def standard_error
       #HoptoadNotifier.notify_hoptoad(request, session)
-      render_and_notify :format => :html
+      render :format => :html
     end
   end
   
