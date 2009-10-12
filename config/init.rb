@@ -16,7 +16,7 @@ require 'cgi'
 require 'curb'
 require 'merb-haml'
 require 'nokogiri'
-require 'mime-types'
+require 'mime/types'
 
 use_test :rspec
 use_template_engine :haml
