@@ -7,28 +7,31 @@ namespace :lang do
     languages = Nokogiri::XML(open("http://en.wikipedia.org/w/api.php?action=sitematrix&format=xml")).css("language")
   
     languages.each do |lang|
-      code = lang['code']
-      if code =~ /^[a-z]+$/
-        puts "Loading: " + code
-        begin
-          translations = open("http://translatewiki.net/w/i.php?title=Special%3ATranslate&task=export-to-file&group=out-wikimediamobile&language=#{code}").read
-          if translations.include? "Translate - translatewiki.net"
-            puts "Language not supported"
-          else
-            data = YAML.load(translations)
-            if data != nil && data.keys.size > 0
-              file = File.open(Merb.root + "/config/translations/#{code}.yml", "w")
-              file.write(translations)
-              file.close
-              puts "Wrote #{data.keys.size} keys"
+      t = Thread.new do
+        code = lang['code']
+        if code =~ /^[a-z]+$/
+          puts "Loading: " + code
+          begin
+            translations = open("http://translatewiki.net/w/i.php?title=Special%3ATranslate&task=export-to-file&group=out-wikimediamobile&language=#{code}").read
+            if translations.size == 0
+              puts "Language not supported"
             else
-              puts "No translations"
+              data = YAML.load(translations)
+              if data != nil && data.keys.size > 0
+                file = File.open(Merb.root + "/config/translations/#{code}.yml", "w")
+                file.write(translations)
+                file.close
+                puts "Wrote #{data.keys.size} keys"
+              else
+                puts "No translations"
+              end
             end
+          rescue
+            puts "ERROR!!!"
           end
-        rescue
-          puts "ERROR!!!"
         end
       end
+      t.join()
     end
   end
 end
