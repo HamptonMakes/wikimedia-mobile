@@ -16,6 +16,11 @@ $(function() {
     }
   })
   
+  // Make the section headings clickable
+  $("h2.section_heading span").click(function(e) {
+    $(e.target).parent().children("button:visible").click();
+  })
+  
   $("#logo").click(function() {
     $("#nav").toggle();
   })

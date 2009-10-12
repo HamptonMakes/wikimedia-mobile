@@ -88,6 +88,7 @@ module Parsers
     # This goes through the HTML and replaces the section headers with buttons for expanding/closing
     # sections. Aka, a show/hide functionality for webkit
     # WEBKIT
+    # TODO: Make the headline itself clickable also!
     def self.javascriptize(article, data)
       headings = 0 
       # count the section indices we are going to handle
@@ -109,13 +110,11 @@ module Parsers
         base = "<div class='section_anchors'><a class='section_anchor' name='section_#{headings}'></a><a href='#section_#{headings - 1}' class='back_to_top' style='display: none' id='back_to_top_for_#{headings - 1}'>&uarr; #{back_to_top}</a></div>"
 
         # generate the HTML we are going to inject
-        buttons = "<button class='section_heading show' section_id='#{headings}'>#{show}</button><button class='section_heading hide' style='display: none' section_id='#{headings}'>#{hide}</button>"
-        base << "<h2#{$1}#{buttons} <span>#{$2}</span><a name='section_#{headings}'></a></h2><div style='display:none' class='content_block' id='content_#{headings}'><h2 style='display: none'>"
+        buttons = "<button class='show' section_id='#{headings}'>#{show}</button><button class='section_heading hide' style='display: none' section_id='#{headings}'>#{hide}</button>"
+        base << "<h2 class='section_heading'#{$1}#{buttons} <span>#{$2}</span><a name='section_#{headings}'></a></h2><div style='display:none' class='content_block' id='content_#{headings}'><h2 style='display: none'>"
         
         
         if headings > 1
-          
-          
           # Close it up here
           base = "</div>" + base
         end
