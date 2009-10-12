@@ -51,6 +51,10 @@ class Device
     when /Opera/
       if user_agent.include?("Nintendo Wii")
         :wii
+      elsif user_agent.include?("Opera Mini")
+        :operamini
+      elsif user_agent.include?("Opera Mobi")
+        :iphone
       else
         :webkit
       end

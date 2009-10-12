@@ -63,6 +63,10 @@ wii:
   <<: *capable
   css_file_name: 'wii'
 
+operamini:
+  <<: *simplehtml
+  css_file_name: "operamini"
+
 wml:
   view_format: 'wml'
   search_bar: 'wml'
