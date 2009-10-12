@@ -13,7 +13,12 @@ namespace :deploy do
   # TODO:
   # after updating the code, run "gem bundle --cached" on the server
   
+  task :gems do
+    run "cd #{current_path} && gem bundle --cached"
+  end
+  
   task :restart do
+    deploy.gems
     deploy.stop
     deploy.start
   end

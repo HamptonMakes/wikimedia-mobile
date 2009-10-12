@@ -39,7 +39,6 @@ Merb::BootLoader.before_app_loads do
         :environments    => ['production', 'staging'],
         :email_from      => "errors@wikipedia.org"
       }
-  Merb::Mailer.delivery_method = :sendmail
   
 end
  
@@ -57,6 +56,8 @@ Merb::BootLoader.after_app_loads do
     puts "There appears to be a syntax error in your YAML configuration files."
     exit
   end
+  
+  Merb::Mailer.delivery_method = :sendmail
   
   unless defined?(Cache)
     if Merb.env == "production"
