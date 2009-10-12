@@ -243,21 +243,6 @@ img.thumbborder {
   padding-top: 20px;
   font-size: 80%; }
 
-body {
-  width: 790px;
-  font-size: 200%; }
-
-button {
-  font-size: 150%; }
-
-#searchField {
-  padding-top: 5px;
-  width: 20px; }
-
-#clearButton {
-  margin-top: 0px;
-  display: none; }
-
 .thumb {
   margin: 0.5em 0; }
 
@@ -280,3 +265,18 @@ button {
 .thumb .thumbinner[style] {
   padding: 5px;
   margin: 0; }
+
+body {
+  width: 790px;
+  font-size: 200%; }
+
+button {
+  font-size: 150%; }
+
+#searchField {
+  padding-top: 5px;
+  width: 20px; }
+
+#clearButton {
+  margin-top: 0px;
+  display: none; }
