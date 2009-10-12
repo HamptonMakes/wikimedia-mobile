@@ -19,7 +19,7 @@
       - if params['searchBar'] != "false"
         = partial("layout/search_" + request.device.search_bar) if request.device.search_bar
       = catch_content :for_layout
-      #footmenu.notice
+      #footmenu.nav
         - if params['footmenu'] != "false"
           = partial("layout/footmenu_".force_encoding("UTF-8") + request.device.footmenu).force_encoding("UTF-8") if request.device.footmenu
     #footer

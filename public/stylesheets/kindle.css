@@ -82,7 +82,7 @@ table {
     text-align: left !important;
     margin-left: 0 !important;
     margin-right: 0 !important; }
-    table.geography[style] td[style*="text-align"] div[style],     table.geography[style] td[colspan="2"] div[style] {
+    table.geography[style] td[style*="text-align"] div[style], table.geography[style] td[colspan="2"] div[style] {
       text-align: left !important; }
 
 table.admin {

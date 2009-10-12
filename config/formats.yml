@@ -13,6 +13,7 @@ capable: &capable
 simplehtml: &simplehtml
   <<: *defaults
   search_bar: "simple"
+  footmenu: "simple"
   css_file_name: "simple"
 
 webkit: &webkit

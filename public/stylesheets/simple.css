@@ -88,53 +88,6 @@ table {
 table.admin {
   width: 300px; }
 
-#header {
-  height: 30px;
-  border: 1px solid #ccc; }
-  #header a, #header img {
-    border: 0px; }
-  #header #logo {
-    float: left;
-    padding: 5px 5px 0 0; }
-  #header input#searchField {
-    height: 20px;
-    border: 1px solid grey;
-    width: 60%; }
-
-#nav {
-  clear: both;
-  background: white; }
-  a#downArrow {
-  	float: right; }
-
-.notice {
-  padding: 5px;
-  background: #ddd;
-  -webkit-border-radius: 5px;
-  margin-top: 5px;
-  text-align: center;
-  border: 1px solid grey; }
-  .notice #perm {
-    margin-top: 10px;
-    font-size: 80%; }
-
-.message.notice {
-  font-size: 15px; }
-
-a.new, a.new:visited, a.new:hover {
-  color: red; }
-
-a.back_to_top, a.back_to_top:visited {
-  margin-top: 7px;
-  color: blue; }
-
-.section_anchors a {
-  display: block; }
-
-.section_anchor {
-  height: 1px;
-  width: 1px; }
-
 
 html {
   font-size: 67.5%; }
@@ -158,6 +111,7 @@ h2 {
   border-bottom: 1px solid #aaa;
   padding: 5px 0; }
 
+
 a {
   text-decoration: none;
   color: #002bb8; }
@@ -168,6 +122,13 @@ a {
   a:hover {
     text-decoration: underline; }
 
+a.new, a.new:visited, a.new:hover {
+  color: red; }
+
+a.back_to_top, a.back_to_top:visited {
+  margin-top: 7px;
+  color: blue; }
+
 .links {
   float: left;
   padding: 10px; }
@@ -176,8 +137,18 @@ a {
 #contentSub, .dablink {
   margin-bottom: 10px; }
 
-img.thumbborder {
-  border: 1px solid #ccc; }
+#firstHeading {
+  font-size: 140%; }
+
+.section_anchors a {
+  display: block; }
+
+.section_anchor {
+  height: 1px;
+  width: 1px; }
+
+.noprint, .geo-multipunct, .geo-nondefault {
+  display: none; }
 
 
 .thumb {
@@ -194,11 +165,8 @@ img.thumbborder {
     text-align: center;
     width: auto !important; }
 
-#featured_article .noprint {
-  display: none; }
-
-#firstHeading {
-  font-size: 140%; }
+img.thumbborder {
+  border: 1px solid #ccc; }
 
 
 .help dt {
@@ -210,16 +178,112 @@ img.thumbborder {
   margin-bottom: 25px;
   margin-left: 20px; }
 
-#image {
-  padding-top: 15px; }
+
+.floatright {
+  float: right; }
+
+
+#header {
+  width: 293px;
+  height: 30px;
+  padding: 8px 0 0 8px;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px; }
+  #header a, #header img {
+    border: 0px; }
+  #header #logo {
+    float: left;
+    padding-right: 5px; }
+  #header #clearButton {
+    position: absolute;
+    top: 17px;
+    left: 240px;
+    height: 25px;
+    width: 25px;
+    background: url('/images/clearicon.png') no-repeat top left; }
+  #header input#searchField {
+    float: left;
+    height: 20px;
+    width: 195px;
+    margin-top: -3px;
+    border: 1px solid grey; }
+  #header button#goButton {
+    float: right;
+    margin: -5px 8px 0 0;
+    height: 30px;
+    width: 30px;
+    background: #FFF url(/images/search.gif) no-repeat center;
+    border: 0; }
+
+
+#nav {
+  display: block;
+  height: 28px;
+  width: 185px;
+  clear: both;
+  background: white;
+  margin-top: 3px;
+  padding: 5px 0 0 5px;
+  border: 0px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px; }
+  #nav button {
+    float: left;
+    background: url(/images/buttonbg.gif) no-repeat center;
+    margin-left: 3px;
+    border: 0px;
+    height: 23px;
+    width: 83px;
+    padding-bottom: 3px; }
+
+
+.notice {
+  padding: 5px;
+  background: #ddd;
+  -webkit-border-radius: 5px;
+  margin-top: 5px;
+  text-align: center;
+  border: 1px solid grey; }
+
+
+.message.notice {
+  font-size: 1.1em; }
+
 
 #footer {
   padding-top: 20px;
   font-size: 80%; }
 
-.today .noprint {
+#header {
+  border: 0px;
+  padding: 0px;
+  width: 100%; }
+  #header #logo {
+    padding: 2px 2px 0 0; }
+  #header input#searchField {
+    height: 25px;
+    width: 60%;
+    padding-top: 5px; }
+  #header input#searchButton {
+    padding-left: 2px; }
+
+.nav, #nav {
+  border: 0;
+  border-bottom: 2px solid #6D84B4;
+  border-top: 2px solid #6D84B4;
+  width: 100%;
+  height: auto;
+  clear: both;
+  padding: 5px 0 5px 0;
+  margin: 0; }
+
+.notice {
+  text-align: left; }
+
+.message.notice {
   display: none; }
 
-
-.floatright {
-  float: right; }
+a.arrow {
+  float: right;
+  margin-right: 5px; }
