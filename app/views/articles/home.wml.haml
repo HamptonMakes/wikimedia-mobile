@@ -1,0 +1,14 @@
+%card
+  %p
+    Welcome to Wikipedia
+  %p
+    %input{:name => "search_for"}/
+  %p
+    %anchor
+      = go_text
+      %go{:method => "get", :href => "/wiki"}
+        <postfield name="search" value="$(search_for)" />
+  %p
+    %anchor
+      = language_object["random_button"]
+      %go{:method => "get", :href => "/wiki/::Random"}

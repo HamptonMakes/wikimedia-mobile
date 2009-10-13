@@ -5,7 +5,11 @@
     <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
     <meta name="character-set=utf-8" content="charset"/>
     <meta forua="true" http-equiv="Cache-Control" content="max-age=0"/>
-  = partial("layout/search_wml")
+  %template
+    %do{:name => "home", :type => "options", :label => language_object["home_button"]}
+      %go{:href => "/wiki/::Home"}/
+    %do{:name => "random", :type => "options", :label => language_object["random_button"]}
+      %go{:href => "/wiki/::Random"}/
   = catch_content :for_layout
-  %card{:id=>"card2", :title=>"Copyright"}
+  %card{:id=>"copyright", :title=>"Copyright"}
     = language_object["copyright"]
