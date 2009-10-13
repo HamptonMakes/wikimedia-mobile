@@ -6,9 +6,9 @@
     <meta name="character-set=utf-8" content="charset"/>
     <meta forua="true" http-equiv="Cache-Control" content="max-age=0"/>
   %template
-    %do{:name => "home", :type => "options", :label => language_object["home_button"]}
+    %do{:name => "home", :type => "options", :label => language_object["home_button"]}><
       %go{:href => "/wiki/::Home"}/
-    %do{:name => "random", :type => "options", :label => language_object["random_button"]}
+    %do{:name => "random", :type => "options", :label => language_object["random_button"]}><
       %go{:href => "/wiki/::Random"}/
   = catch_content :for_layout
   %card{:id=>"copyright", :title=>"Copyright"}
