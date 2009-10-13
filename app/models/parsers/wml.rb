@@ -4,6 +4,8 @@ module Parsers
     def self.parse(article, options = {})
       html= super(article, options) # Do everything xhtml does like rough cutting of content, setting of page title
       page = Nokogiri::HTML(html)
+      idx= 0
+      toc= "<card id='toc' title='#{article.title}'>"
       result= ""
       block=[]
       block_title= article.title
@@ -12,12 +14,19 @@ module Parsers
         when "p"
           block<< page.encode_special_chars(elem.content)
         when "h2"
-          result<< "<card id='' title='#{block_title}'>#{block.join}</card>" 
+          result<< "<card id='#{idx}' title='#{block_title}'>#{block.join}</card>"
+          if idx == 0
+            toc<< "<p><anchor><go href='##{idx}' /><b>#{block_title}</b></anchor></p>"
+          else
+            toc<< "<anchor><go href='##{idx}' />#{block_title}</anchor><br />"
+          end
+          idx = idx+1
           block_title= elem.content.strip
           block=[]
         end
       end
-      article.html = result
+      toc<< "<p><anchor><go href='#copyright' />Copyright</anchor></p></card>"
+      article.html = toc + result
     end
   end
 end

@@ -10,6 +10,8 @@
       %go{:href => "/wiki/::Home"}/
     %do{:name => "random", :type => "options", :label => language_object["random_button"]}><
       %go{:href => "/wiki/::Random"}/
+    %do{:name => "toc", :type => "options", :label => "TOC"}><
+      %go{:href => "#toc"}/
   = catch_content :for_layout
   %card{:id=>"copyright", :title=>"Copyright"}
     = language_object["copyright"]
