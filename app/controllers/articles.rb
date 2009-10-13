@@ -53,6 +53,8 @@ class Articles < Application
  private 
  
   def format_display_with_data(&block)
+    ct = content_type
+    Merb.logger.debug("CTYPE: #{ct}")
     case content_type
     when :json
       json = JSON.dump(block.call)
@@ -61,6 +63,10 @@ class Articles < Application
       end
       render json, :format => :json
     else
+      case content_type
+      when :wml
+        @headers["Content-Type"] = "text/vnd.wap.wml; charset=utf-8"
+      end
       render :layout => request.device.with_layout
     end
   end
