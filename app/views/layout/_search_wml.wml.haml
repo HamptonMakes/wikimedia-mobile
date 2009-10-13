@@ -1,6 +1,12 @@
 %card
   %p
     %input{:name => "search_for"}/
-    %do{:type => "button", :label => go_text.force_encoding("UTF-8")}
-      %go.search_bar{:method => "get", :href => "/wiki"}
+  %p
+    %anchor
+      = go_text
+      %go{:method => "get", :href => "/wiki"}
         <postfield name="search" value="$(search_for)" />
+  %p
+    %anchor
+      = language_object["random_button"]
+      %go{:method => "get", :href => "/wiki/::Random"}
