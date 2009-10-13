@@ -13,7 +13,7 @@ module Parsers
           block<< page.encode_special_chars(elem.content)
         when "h2"
           result<< "<card id='' title='#{block_title}'>#{block.join}</card>" 
-          block_title= elem.content
+          block_title= elem.content.strip
           block=[]
         end
       end
