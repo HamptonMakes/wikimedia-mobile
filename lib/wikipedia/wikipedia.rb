@@ -1,4 +1,3 @@
-# TODO: Remove the *double* call and move these into something a bit more efficient. Parsing twice? Really?
 module Wikipedia
   
   # Can we do this easier?
@@ -32,11 +31,4 @@ module Wikipedia
     return results
   end
 
-  def self.today(language)
-    Merb.logger.debug!("Loading today's items")
-    data = (Nokogiri::Hpricot(open("http://#{language_code}.wikipedia.org/wiki/Main_Page")) /"#mp-itn")
-    data.first.inner_html
-  end
-
-  
 end
