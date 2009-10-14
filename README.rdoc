@@ -52,7 +52,7 @@ running.
 
 6) Go into the new folder and type:
 
-  gem bundle --cached
+  gem bundle
 
 This will expand all the gem files into your local rubygems bundle.
 
