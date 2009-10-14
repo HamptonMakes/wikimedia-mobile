@@ -1,3 +1,0 @@
-#!/usr/bin/env ruby
-require File.join(File.dirname(__FILE__), "../gems/environment")
-load File.join(File.dirname(__FILE__), "../gems/gems/thin-1.2.4/bin/thin")
