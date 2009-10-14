@@ -55,6 +55,7 @@ netfront: &netfront
 
 psp:
   <<: *netfront
+  css_file_name: 'psp'
 
 ps3:
   <<: *netfront
@@ -62,6 +63,10 @@ ps3:
 wii:
   <<: *capable
   css_file_name: 'wii'
+
+operamini:
+  <<: *simplehtml
+  css_file_name: "operamini"
 
 wml:
   view_format: 'wml'

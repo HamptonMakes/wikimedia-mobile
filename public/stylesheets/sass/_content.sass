@@ -54,7 +54,12 @@ a.back_to_top, a.back_to_top:visited
   height: 1px
   width: 1px
 
-.noprint, .geo-multi-punct, .geo-nondefault
+/ Elements that should never be shown
+.printonly, .geo-multi-punct, .geo-nondefault
+  display: none
+
+/ Elements of the main page we never want to see
+#featured_article .noprint, .today .noprint
   display: none
 
 / IMAGES BOXES    

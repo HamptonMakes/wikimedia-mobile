@@ -248,27 +248,37 @@ img.thumbborder {
   padding-top: 20px;
   font-size: 80%; }
 
-
 #header {
-  margin: 0px; }
+  border: 0px;
+  padding: 0px;
+  width: 100%; }
+  #header #logo {
+    padding: 2px 2px 0 0; }
+  #header input#searchField {
+    width: 60%;
+    margin-top: 2px; }
+  #header input#searchButton {
+    padding-left: 2px; }
 
-#nav {
-  display: none;
-  border: 1px solid #ccc;
-  border-top: 0px;
-  margin: -1px 0 0 0; }
+.nav, #nav {
+  border: 0;
+  border-bottom: 2px solid #6D84B4;
+  border-top: 2px solid #6D84B4;
+  width: 100%;
+  height: auto;
+  clear: both;
+  padding: 5px 0 5px 0;
+  margin: 0; }
 
-#perm {
-  margin-top: 10px;
-  font-size: 80%; }
+.notice {
+  text-align: left; }
 
-body {
-  font-size: 140%; }
+.message.notice {
+  display: none; }
 
-#searchField {
-  padding-top: 5px;
-  width: 20px; }
+a.arrow {
+  float: right;
+  margin-right: 5px; }
 
-#clearButton {
-  margin-top: 0px;
+span.idx {
   display: none; }
