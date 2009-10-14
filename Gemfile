@@ -3,7 +3,7 @@ dm_gems_version   = "0.10.1"
 do_gems_version   = "0.10.0"
 
 # Set bundle path to ./gems. use the "gem bundle" command to generate the bundle
-bundle_path "gems"
+bundle_path("tmp/" + RUBY_RELEASE_DATE)
 source "http://edge.merbivore.com"
 
 gem "merb-core",        merb_gems_version
@@ -14,13 +14,13 @@ gem "merb-mailer",      merb_gems_version
 gem "merb-exceptions",  merb_gems_version
 
 
-gem "memcache-client", :require_as => []
-gem "curb"
-gem "nokogiri"
+gem "memcache-client", "1.7.5", :require_as => []
+gem "curb", "0.5.4.0"
+gem "nokogiri", "1.3.3"
 gem "gchartrb", :require_as => "google_chart"
-gem "sinatra"
+gem "sinatra", "0.9.4"
 gem "mime-types", :require_as => "mime/types"
-gem "moneta"
+gem "moneta", "0.6.0"
 
 only :test do
   gem "thin"
