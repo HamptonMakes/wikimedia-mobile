@@ -9,6 +9,7 @@ class Merb::Request
   end
   
   def preferred_format
+    params[:format] if params[:format]
   end
   
   # Gets the language code for this request

@@ -3,9 +3,11 @@
 # may be extended to provide access to particular devices functionality
 class Device 
   attr_reader :request
+  attr :format_name, true
   
   def initialize(request)
     @request = request
+    @format_name = request.preferred_format # Used to override formatting via Param
   end
   
   def self.available_formats=(config_data)
