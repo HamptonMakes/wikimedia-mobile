@@ -37,7 +37,7 @@ module Merb
     end
 
     def perm_url(path)
-      %|#{temp_url(path)}&expires_in_days=#{365 * 10}|
+      %|#{temp_url(path)}&amp;expires_in_days=#{365 * 10}|
     end
 
     def action_url(path,action)
