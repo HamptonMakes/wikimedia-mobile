@@ -12,6 +12,7 @@ else
   require Merb.root / 'merb' / 'monkey' / 'ruby19_compat'
 end
 
+require 'sass'
 require 'cgi'
 require 'curb'
 require 'merb-haml'
