@@ -14,9 +14,8 @@ schema/*.db
 *.sqlite
 *.sqlite3
 *.db
-gems/gems/*
-gems/specifications/*
-gems/environment.rb
+gems
+bin
 src/*
 .hgignore
 .hg/*
