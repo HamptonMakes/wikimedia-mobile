@@ -64,10 +64,12 @@ class Device
         :webkit
       end
     else
-      if @request.accept.include?("html")
+      if @request.accept.include?("text/html")
         :html
       elsif @request.accept.include?("wml")
         :wml
+      else
+        :html
       end
     end
   end
