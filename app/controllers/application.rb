@@ -45,6 +45,7 @@ class Application < Merb::Controller
       Merb.logger.debug("User Agent: " + request.user_agent)
       Merb.logger.debug("Format: " + request.device.format_name.to_s)
       Merb.logger.debug("Language Code: " + request.language_code)
+      Merb.logger.debug("Accepts: " + request.accept)
     end
     
     def clear_cache

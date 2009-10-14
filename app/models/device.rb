@@ -41,8 +41,6 @@ class Device
       else
         :webkit
       end
-    when /Nokia/, /WML/
-      :wml
     when /Kindle\/2.0/
       :kindle2
     when /Firefox/
@@ -64,7 +62,11 @@ class Device
         :webkit
       end
     else
-      :html
+      if @request.accept.include?("html")
+        :html
+      elsif @request.accept.include?("wml")
+        :wml
+      end
     end
   end
   
