@@ -13,8 +13,9 @@ module Wikipedia
     # Get the settings for this language... default to en if none found
     setting = self.settings[language_code] || ((language_code = "en") && self.settings["en"] )
 
-    html = Curl::Easy.perform("http://#{language_code}.wikipedia.org/wiki/#{setting['main_page']}").body_str
-    parser = Nokogiri::HTML(html)
+    aserver = Server.new(language_code)
+    html = aserver.fetch( "/wiki/#{setting['main_page']}" )[:body]
+    parser = Nokogiri::XML(html)
     
     results = {}
     
@@ -22,7 +23,7 @@ module Wikipedia
       #require 'ruby-debug'; debugger
       node = parser.css(value).first
       if node
-        results[key] = node.inner_html
+        results[key] = node.children.map{ |x| x.to_xhtml }.join
       else
         Merb.logger.error("Failed to use selector: #{value}")
       end
