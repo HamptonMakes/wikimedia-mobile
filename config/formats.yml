@@ -68,6 +68,10 @@ operamini:
   <<: *simplehtml
   css_file_name: "operamini"
 
+nokia_series_60:
+  <<: *webkit
+  css_file_name: "nokia_series_60"
+
 wml:
   view_format: 'wml'
   search_bar: 'wml'

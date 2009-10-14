@@ -1,6 +1,3 @@
-#blackberry {
-  test: 1; }
-
 
 table {
   border-spacing: 0 !important;
@@ -264,3 +261,9 @@ img.thumbborder {
 #perm {
   margin-top: 10px;
   font-size: 80%; }
+
+* {
+  font-size: 1.2em; }
+
+#header input#searchField {
+  font-size: 0.8em; }

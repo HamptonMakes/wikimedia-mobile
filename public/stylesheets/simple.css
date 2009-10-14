@@ -136,7 +136,7 @@ a.back_to_top, a.back_to_top:visited {
   margin-bottom: 10px; }
 
 #firstHeading {
-  font-size: 140%; }
+  font-size: 2em; }
 
 .section_anchors a {
   display: block; }

@@ -35,7 +35,12 @@ class Device
     when /Pre\//
       :palm_pre
     when /WebKit/
-      :webkit
+      case user_agent
+      when /Series60/
+        :nokia_series_60
+      else
+        :webkit
+      end
     when /Nokia/, /WML/
       :wml
     when /Kindle\/2.0/
