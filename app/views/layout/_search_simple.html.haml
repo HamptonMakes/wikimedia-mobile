@@ -6,8 +6,8 @@
     %input#searchButton{:type =>"image", :src => "/images/s.gif", :alt => go_text}
       %input#submitButton{:type=>"submit"}
 
-#nav.nav
-  %a#homeButton{:href => "/wiki/::Home"}= language_object["home_button"]
-  = " | "
-  %a#randomButton{:href => "/wiki/::Random"}= language_object["random_button"]
-  %a.arrow{:href => "#footmenu"} End &darr;
+  #nav.nav
+    %a#homeButton{:href => "/wiki/::Home"}= language_object["home_button"]
+    = " | "
+    %a#randomButton{:href => "/wiki/::Random"}= language_object["random_button"]
+    %a.arrow{:href => "#footmenu"} End &darr;

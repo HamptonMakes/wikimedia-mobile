@@ -5,6 +5,6 @@
     %input#searchField{:name => "search", :type => "text", :size => "28", :value => @search_field}/
     %button#goButton{:type => "submit"}
       
-#nav
-  = button_to language_object["home_button"], "/wiki/::Home"
-  = button_to language_object["random_button"], "/wiki/::Random", "random"
+  #nav.nav
+    = button_to language_object["home_button"], "/wiki/::Home"
+    = button_to language_object["random_button"], "/wiki/::Random", "random"
