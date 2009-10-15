@@ -5,6 +5,7 @@ html: &defaults
   with_layout: "application"
   css_file_name: "default"
   supports_javascript: false
+  parser: 'html'
 
 capable: &capable
   <<: *defaults
@@ -77,3 +78,4 @@ wml:
   view_format: 'wml'
   search_bar: 'wml'
   supports_javascript: false
+  parser: 'wml'

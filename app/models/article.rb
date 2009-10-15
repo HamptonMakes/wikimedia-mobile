@@ -1,3 +1,4 @@
+require "wikipedia_resource"
 require "parsers/xhtml"
 require "parsers/image"
 
@@ -61,7 +62,7 @@ class Article < Wikipedia::Resource
 
     time_to "parse #{device}" do
       # Figure out if we need to do extra formatting...
-      case device.view_format
+      case device.parser
       when "html"
         Parsers::XHTML.parse(self, :javascript => device.supports_javascript)
       when "wml"
@@ -69,7 +70,7 @@ class Article < Wikipedia::Resource
       end
     end
     
-    @html = @html.force_encoding("UTF-8")
+    (@html = @html.force_encoding("UTF-8"))
     
     time_to "store in cache" do
       Cache.store(key, @html, :expires_in => 60 * 60 * 1)
