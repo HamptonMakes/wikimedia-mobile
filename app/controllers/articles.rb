@@ -72,7 +72,7 @@ class Articles < Application
   end
  
   def content_type
-    request.device.view_format.to_sym
+    (params[:format] || request.device.view_format).to_sym
   end
   
   def cache_block(&block)
