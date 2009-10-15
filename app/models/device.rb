@@ -49,6 +49,10 @@ class Device
       :capable
     when /NetFront/
       :netfront
+    when /SEMC-Browser/
+      :wap2
+    when /Series60/
+      :wap2
     when /PlayStation Portable/
       :psp
     when /PLAYSTATION 3/

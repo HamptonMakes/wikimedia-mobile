@@ -55,6 +55,9 @@ blackberry:
 netfront: &netfront
   <<: *simplehtml
 
+wap2:
+  <<: *simplehtml
+
 psp:
   <<: *netfront
   css_file_name: 'psp'
