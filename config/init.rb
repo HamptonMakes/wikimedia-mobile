@@ -6,18 +6,19 @@ def is19?
   defined?(Encoding)
 end
 
-if is19?
-  Encoding.default_internal = Encoding.default_external = "UTF-8"
-else
-  require Merb.root / 'merb' / 'monkey' / 'ruby19_compat'
-end
-
 require 'sass'
 require 'cgi'
 require 'curb'
 require 'merb-haml'
 require 'nokogiri'
 require 'mime/types'
+
+if is19?
+  Encoding.default_internal = Encoding.default_external = "UTF-8"
+  require Merb.root / 'merb' / 'monkey' / 'haml_fix'
+else
+  require Merb.root / 'merb' / 'monkey' / 'ruby19_compat'
+end
 
 use_test :rspec
 use_template_engine :haml

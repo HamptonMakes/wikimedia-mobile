@@ -1,4 +1,4 @@
-unless "".respond_to?(:force_encoding)
+unless defined?(Encoding)
   class String
     def method_missing(method, *args, &block)
       if method == :force_encoding
@@ -10,4 +10,3 @@ unless "".respond_to?(:force_encoding)
     end
   end
 end
-
