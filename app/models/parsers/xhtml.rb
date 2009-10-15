@@ -128,7 +128,7 @@ module Parsers
 
       # if we had any, make sure to close the whole thing!
       if headings > 0
-        data.gsub!('<div class="printfooter">') do |line|
+        data.gsub!('<div class="visualClear">') do |line|
           "</div>#{line}"
         end
       end
