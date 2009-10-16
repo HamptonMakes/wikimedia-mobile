@@ -37,7 +37,6 @@ iphone2:
 native_iphone:
   <<: *capable
   search_bar: false
-  view_format: json
 
 palm_pre:
   <<: *webkit
