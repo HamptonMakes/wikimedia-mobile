@@ -6,10 +6,12 @@ class Articles < Application
 
   def home
     cache_block do
-      if Wikipedia.settings[request.language_code]
-        @main_page = Wikipedia.main_page(request.language_code)
-      else
-        @main_page = {}
+      if settings = Wikipedia.settings[request.language_code]
+        if settings['mobile_main_page']
+          redirect "/wiki/" + settings['mobile_main_page']
+        else
+          @main_page = Wikipedia.main_page(request.language_code)
+        end
       end
     
       format_display_with_data do
@@ -53,8 +55,7 @@ class Articles < Application
  private 
  
   def format_display_with_data(&block)
-    ct = content_type
-    Merb.logger.debug("CTYPE: #{ct}")
+    Merb.logger.debug("CTYPE: #{content_type}")
     case content_type
     when :json
       json = JSON.dump(block.call)

@@ -44,3 +44,5 @@ it:
   selectors: 
     article_of_the_day: "#Vetrina ~ div"
     news_items: a[id='Novit.C3.A0'] ~ div
+sv:
+  mobile_main_page: Portal:Huvudsida_%28mobil%29
