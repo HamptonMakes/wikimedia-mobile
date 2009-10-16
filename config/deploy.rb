@@ -10,9 +10,6 @@ role :cache, "mobile1.wikimedia.org"
 
 namespace :deploy do
   
-  # TODO:
-  # after updating the code, run "gem bundle --cached" on the server
-  
   task :gems do
     run "cd #{current_path} && gem bundle"
   end
