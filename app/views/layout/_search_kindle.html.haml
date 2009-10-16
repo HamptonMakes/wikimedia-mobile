@@ -7,7 +7,8 @@
         %input{:name => "search", :type => "text", :size => "25", :value => search_bar_contents}/
         %button{:type => "submit"}= go_text
 
-#nav
-  %a{:href => "/wiki/::Home"}= language_object["home_button"]
-  |
-  %a{:href => "/wiki/::Random"}= language_object["random_button"]
+  %tr
+    %td#nav{:colspan => "2"}
+      %a{:href => "/wiki/::Home"}= language_object["home_button"]
+      |
+      %a{:href => "/wiki/::Random"}= language_object["random_button"]

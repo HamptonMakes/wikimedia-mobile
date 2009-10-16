@@ -1,68 +1,62 @@
 @import _content.sass
 
-/ Defaults for interface elements #header #nav #message #footer
+/Set margins
+body
+  margin: 0
+
 #header
-  width: 293px
-  height: 30px
-  padding: 8px 0 0 8px
+  margin: 8px 8px 0 8px
+
+#content_wrapper
+  clear: both
+  margin: 0 8px
+
+#footer
+  margin: 0 8px
+
+#header
+  img, form, input, button
+    vertical-align: middle
+    display: inline-block
+
+/ Defaults for interface elements #header #nav #message #footer
+#searchbox
+  width: auto
+  padding: 5px
   border: 1px solid #ccc
   -webkit-border-radius: 2px
   -moz-border-radius: 2px
   a, img
     border: 0px
-  #logo
-    float: left
-    padding-right: 5px
-
-  #clearButton
-    position: absolute
-    top: 17px
-    left: 240px
-    height: 25px
-    width: 25px
-    background: url('/images/clearicon.png') no-repeat top left
-
-  input#searchField
-    float: left
-    height: 20px
-    width: 195px
-    margin-top: -3px
-    border: 1px solid grey
-
-  button#goButton
-    float: right
-    margin: -5px 8px 0 0
-    height: 30px
-    width: 30px
-    background: #FFF url(/images/search.gif) no-repeat center
+    vertical-align: middle
+  #goButton
     border: 0
+    background: url(/images/s.gif) no-repeat top left
+    height: 25px
+    width: 27px
+  #searchField
+    width: auto
 
 / Nav element for Home, Random
 #nav
-  display: block
-  height: 28px
-  width: 185px
-  clear: both
-  background: white
-  margin-top: 3px
-  padding: 5px 0 0 5px
-  border: 0px
   -webkit-border-radius: 2px
   -moz-border-radius: 2px
+  clear: both
+  padding: 5px 0
+  form, button
+    display: inline-block
   button
-    float: left
     background: url(/images/buttonbg.gif) no-repeat center
-    margin-left: 3px
-    border: 0px
+    border: 0
     height: 23px
     width: 83px
-    padding-bottom: 3px
 
 / Notice box
 .notice
   padding: 5px
   background: #ddd
   -webkit-border-radius: 5px
+  -moz-border-radius 5px
   margin-top: 5px
   text-align: center
   border: 1px solid grey
@@ -73,5 +67,10 @@
 
 / Copyright footer
 #footer
-  padding-top: 20px
-  font-size: 80%
+  padding-top: 1em
+  #perm
+    padding-top: 1em
+    font-size: 80%
+  #copyright
+    padding: 1em 0
+    font-size: 80%

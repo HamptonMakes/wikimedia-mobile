@@ -1,9 +1,11 @@
 #header
-  %img{:src => "/images/w.gif", :id => "logo", :alt => "W logo"}/
-  %form.search_bar{:action => "/wiki", :method => "get"}
-    %input#searchField{:name => "search", :type => "text", :size => "28", :value => search_bar_contents}/
-    %button#goButton{:type => "submit"}
+  #searchbox
+    %img{:src => "/images/w.gif", :id => "logo", :alt => "W logo"}/
+    %form.search_bar{:action => "/wiki", :method => "get"}
+      - @search_field = CGI::unescape(current_name).force_encoding("UTF-8")
+      %input#searchField{:name => "search", :type => "text", :size => "28", :value => search_bar_contents}/
+      %button#goButton{:type => "submit"}
       
-#nav
-  = button_to language_object["home_button"], "/wiki/::Home"
-  = button_to language_object["random_button"], "/wiki/::Random", "random"
+  #nav.nav
+    = button_to language_object["home_button"], "/wiki/::Home"
+    = button_to language_object["random_button"], "/wiki/::Random", "random"

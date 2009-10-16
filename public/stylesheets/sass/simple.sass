@@ -1,31 +1,35 @@
 @import default.sass
 
-#header
+#header, #footer, #content_wrapper
+  margin: 0 2px
+
+#searchbox
   border: 0px
-  padding: 0px
-  width: 100%
-  #logo
-    padding: 2px 2px 0 0
+  padding: 2px
+  height: 26px
+  form, button, img, input
+    display: inline
 
   input#searchField
     width: 60%
-    margin-top: 2px
 
   input#searchButton
-    padding-left: 2px
+    margin-left: 2px
 
   input#submitButton
     display: none
     
-.nav, #nav
+.nav
   border: 0
   border-bottom: 2px solid #6D84B4
   border-top: 2px solid #6D84B4
-  width: 100%
   height: auto
   clear: both
   padding: 5px 0 5px 0
   margin: 0
+
+#nav
+  padding: 5px 0 5px 0
 
 .notice
   text-align: left
