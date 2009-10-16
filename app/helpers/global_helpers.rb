@@ -1,6 +1,18 @@
 module Merb
   module GlobalHelpers
     
+    # This decides what populates the search bar on any given
+    # page
+    #
+    # The real rule here, is that if its a home page, leave it empty
+    def search_bar_contents
+      if current_wiki['mobile_main_page'] != current_name
+        CGI::unescape(current_name).force_encoding("UTF-8")
+      else
+        ""
+      end
+    end
+    
     # helpers defined here available to all views.  
     # 
     def language_notice

@@ -5,17 +5,33 @@ class Articles < Application
   override! :content_type
 
   def home
+    # This whole block is cached here in the controller
+    # instead of the Article level... as articles are done.
     cache_block do
-      if settings = Wikipedia.settings[request.language_code]
-        if settings['mobile_main_page']
-          redirect "/wiki/" + settings['mobile_main_page']
-        else
+      
+      # If we have a specific mobile_main_page
+      # maintained at the wiki-admin level, then
+      # we render home as if its an article.
+      # Except, this article, we tell it its name
+      if current_wiki['mobile_main_page']
+        @name = current_wiki['mobile_main_page']
+        # Call down to the show action
+        show
+        # Rendering is handled by show
+      else
+        # This is if we have a specific set of selectors for 
+        # the general-purpose main page
+        if current_wiki['selectors']
           @main_page = Wikipedia.main_page(request.language_code)
         end
-      end
-    
-      format_display_with_data do
-        {:title => "::Home", :html => render(:layout => false)}
+        # If we don't have selectors or a mobile_main_page
+        # then we just display a search box with nothing below.
+        # The home template should know what to do with no
+        # @main_page object.
+        
+        format_display_with_data do
+          {:title => "::Home", :html => render(:layout => false)}
+        end
       end
     end
   end
@@ -31,10 +47,18 @@ class Articles < Application
     elsif current_name[0..1] == "::"
       redirect "/wiki/#{current_name}"
     else
+      
       # Perform a normal search
       @article = Article.new(current_server, current_name, nil, request.device)
       
-      format_display_with_data do
+      # The inner block is for data formats... aka, JSON and YAML and XML
+      # The page is rendered with the template if we aren't doing a special
+      # format... so basically, this does "render"
+      #
+      # Here, we also specify :show, because this #show method is used by
+      # some language's home page.... they are more articles than specific
+      # home pages.
+      format_display_with_data(:show) do
         @article.to_hash(request.device)
       end
     end
@@ -49,7 +73,7 @@ class Articles < Application
   
  private 
  
-  def format_display_with_data(&block)
+  def format_display_with_data(html = nil, &block)
     Merb.logger.debug("CTYPE: #{content_type}")
     case content_type
     when :json
@@ -63,7 +87,7 @@ class Articles < Application
       when :wml
         @headers["Content-Type"] = "text/vnd.wap.wml; charset=utf-8"
       end
-      render :layout => request.device.with_layout
+      render html, :layout => request.device.with_layout
     end
   end
  
@@ -98,6 +122,8 @@ class Articles < Application
       return block.call
     end
   end
+
+ protected
   
   def current_name
     @name ||= (params[:search] || params[:title] || params[:file] || "").gsub("_", " ")

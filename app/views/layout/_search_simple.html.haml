@@ -1,8 +1,7 @@
 #header
   %img{:src => "/images/w.gif", :id => "logo", :alt => "W logo"}/
   %form.search_bar{:action => "/wiki", :method => "get"}
-    - @search_field = CGI::unescape(current_name).force_encoding("UTF-8")
-    %input#searchField{:name => "search", :type => "text", :value => @search_field}/
+    %input#searchField{:name => "search", :type => "text", :value => search_bar_contents}/
     %input#searchButton{:type =>"image", :src => "/images/s.gif", :alt => go_text}
       %input#submitButton{:type=>"submit"}
 
