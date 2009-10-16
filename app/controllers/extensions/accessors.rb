@@ -21,5 +21,15 @@ module ControllerExtensions
     def current_wiki
       Wikipedia.settings[request.language_code] || {}
     end
+    
+    def home_page_path
+      name = language_object["home_button"]
+      "/wiki/::#{name}"
+    end
+    
+    def random_page_path
+      name = language_object["random_button"]
+      "/wiki/::#{name}"
+    end
   end
 end

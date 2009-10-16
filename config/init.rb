@@ -32,7 +32,17 @@ Merb::Config.use do |c|
   c[:fork_for_class_load] = false
 end
 
+Languages = {}
+
 Merb::BootLoader.before_app_loads do
+  
+  Dir.glob("config/translations/**.yml").each do |file|
+    code = file.split("/").last.split(".").first
+    Languages[code] = YAML::load(open(file))
+  end
+
+  
+
   Merb.push_path(:merb_extensions, Merb.root / "merb/extensions", "**/*.rb")  
   Merb.push_path(:lib, Merb.root / "lib", "**/*.rb")
   require Merb.root / 'lib' / 'object.rb'
@@ -50,18 +60,8 @@ end
  
 Merb::BootLoader.after_app_loads do
   # This will get executed after your app's classes have been loaded.
-  begin    
-    Wikipedia.settings = YAML::load(open("config/wikipedias.yml"))
-    Languages = {}
-    Dir.glob("config/translations/**.yml").each do |file|
-      code = file.split("/").last.split(".").first
-      Languages[code] = YAML::load(open(file))
-    end
-    Device.available_formats = YAML::load(open("config/formats.yml"))
-  rescue Exception => e
-    puts "There appears to be a syntax error in your YAML configuration files."
-    exit
-  end
+  Device.available_formats = YAML::load(open("config/formats.yml"))
+  Wikipedia.settings = YAML::load(open("config/wikipedias.yml"))
   
   unless defined?(Cache)
     if Merb.env == "production"

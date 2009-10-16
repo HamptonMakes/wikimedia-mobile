@@ -7,5 +7,5 @@
       %button#goButton{:type => "submit"}
       
   #nav.nav
-    = button_to language_object["home_button"], "/wiki/::Home"
-    = button_to language_object["random_button"], "/wiki/::Random", "random"
+    = button_to language_object["home_button"], home_page_path
+    = button_to language_object["random_button"], random_page_path, "random"

@@ -30,10 +30,18 @@ Merb::Router.prepare do
 
   with(:controller => "articles") do
     match(/\/wiki\/File:(.*)/).to(:action => "file", :file => "[1]")
-  
-    
-    match(/\/wiki\/::Random/).to(:action => "random")
-    match(/\/wiki\/\:\:.*/).to(:action => "home")
+
+    Languages.each do |code, strings|
+      if random_button = strings['random_button']
+        random_button = CGI::escape(random_button).gsub("+", "%20")
+        match("/wiki/::#{random_button}").to(:action => "random")
+      end
+      if home_button = strings['home_button']
+        home_button = CGI::escape(home_button).gsub("+", "%20")
+        puts "/wiki/::#{home_button}"
+        match("/wiki/::#{home_button}").to(:action => "home")
+      end
+    end
     
 
     with(:action => "show") do

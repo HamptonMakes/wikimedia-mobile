@@ -8,7 +8,7 @@
         %input#submitButton{:type=>"submit"}/
 
   #nav.nav
-    %a#homeButton{:href => "/wiki/::Home"}= language_object["home_button"]
+    %a#homeButton{:href => home_page_path}= language_object["home_button"]
     = " | "
-    %a#randomButton{:href => "/wiki/::Random"}= language_object["random_button"]
+    %a#randomButton{:href => random_page_path}= language_object["random_button"]
     %a.arrow{:href => "#footmenu"} End &darr;
