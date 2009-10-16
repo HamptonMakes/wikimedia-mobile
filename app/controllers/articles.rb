@@ -33,7 +33,7 @@ class Articles < Application
     else
       # Perform a normal search
       @article = Article.new(current_server, current_name, nil, request.device)
-      #@article.fetch!
+      
       format_display_with_data do
         @article.to_hash(request.device)
       end
