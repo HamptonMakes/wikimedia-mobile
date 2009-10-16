@@ -14,7 +14,7 @@ module Parsers
         when "p"
           block<< page.encode_special_chars(elem.content)
         when "h2"
-          result<< "<card id='#{idx}' title='#{block_title}'>#{block.join}</card>"
+          result<< "<card id='#{idx}' title='#{block_title}'><p>#{block.join}</p></card>"
           if idx == 0
             toc<< "<p><anchor><go href='##{idx}' /><b>#{block_title}</b></anchor></p>"
           else
