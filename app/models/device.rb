@@ -68,7 +68,9 @@ class Device
     when /PLAYSTATION 3/
       :ps3
     else
-      if @request.accept.include?("wml")
+      if @request.accept.include?("application/vnd.wap.xhtml+xml")
+        :wap2
+      elsif @request.accept.include?("vnd.wap.wml")
         :wml
       else
         :html
