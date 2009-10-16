@@ -1,15 +1,16 @@
 @import default.sass
 
 / Webkit specific overrides
-#header
-  margin: 0px
+
+/ We don't need the clear button, we have type=search
+#clearButton
+  display: none
 
 #nav
   display: none
+  width: 172px
   border: 1px solid #ccc
   border-top: 0px
   margin: -1px 0 0 0
-
-#perm
-  margin-top: 10px
-  font-size: 80%
+  background: white
+  padding: 0 5px 5px 5px

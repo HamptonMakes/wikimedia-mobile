@@ -21,4 +21,4 @@
     #footer
       - if params['footmenu'] != "false"
         = partial("layout/footmenu_".force_encoding("UTF-8") + request.device.footmenu) if request.device.footmenu
-      = language_object["copyright"]
+      #copyright= language_object["copyright"]

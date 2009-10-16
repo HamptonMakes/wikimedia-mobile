@@ -7,7 +7,8 @@
         %input{:name => "search", :type => "text", :size => "25", :value => CGI::unescape(current_name).force_encoding("UTF-8")}/
         %button{:type => "submit"}= go_text
 
-  #nav.nav
-    %a{:href => "/wiki/::Home"}= language_object["home_button"]
-    |
-    %a{:href => "/wiki/::Random"}= language_object["random_button"]
+  %tr
+    %td#nav{:colspan => "2"}
+      %a{:href => "/wiki/::Home"}= language_object["home_button"]
+      |
+      %a{:href => "/wiki/::Random"}= language_object["random_button"]
