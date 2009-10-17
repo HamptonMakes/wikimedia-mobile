@@ -38,7 +38,6 @@ Merb::Router.prepare do
       end
       if home_button = strings['home_button']
         home_button = CGI::escape(home_button).gsub("+", "%20")
-        puts "/wiki/::#{home_button}"
         match("/wiki/::#{home_button}").to(:action => "home")
       end
     end
