@@ -1,6 +1,6 @@
 module ControllerExtensions
   module Logging
-    def self.extends(klass)
+    def self.included(klass)
       klass.before :logger_output
       
       # DEVELOPMENT
