@@ -110,11 +110,11 @@ module Parsers
         headings += 1 
         
         # Back to top link
-        base = "<div class='section_anchors'><a class='section_anchor' name='section_#{headings}'></a><a href='#section_#{headings - 1}' class='back_to_top' style='display: none' id='back_to_top_for_#{headings - 1}'>&uarr; #{back_to_top}</a></div>"
+        base = "<div class='section_anchors'><a class='section_anchor' id='section_#{headings}'></a><a href='#section_#{headings - 1}' class='back_to_top' style='display: none' id='back_to_top_for_#{headings - 1}'>&uarr; #{back_to_top}</a></div>"
 
         # generate the HTML we are going to inject
         buttons = "<button class='section_heading show' section_id='#{headings}'>#{show}</button><button class='section_heading hide' section_id='#{headings}'>#{hide}</button>"
-        base << "<h2 class='section_heading'#{$1}#{buttons} <span>#{$2}</span><a name='section_#{headings}'></a></h2><div class='content_block' id='content_#{headings}'>"
+        base << "<h2 class='section_heading'#{$1}#{buttons} <span>#{$2}</span><a id='section_#{headings}'></a></h2><div class='content_block' id='content_#{headings}'>"
         
         
         if headings > 1
