@@ -1,7 +1,7 @@
 var navShowing = false;
 
 $(function() {
-  $("button").click(function() {
+  $("button.section_heading").click(function() {
     var button = $(this);
     var section_id = this.getAttribute("section_id");
     button.hide();
