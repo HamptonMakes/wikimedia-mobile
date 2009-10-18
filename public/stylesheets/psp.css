@@ -250,6 +250,11 @@ body {
     padding: 1em 0;
     font-size: 80%; }
 
+
+content_block,
+button.section_heading.hide {
+  display: none; }
+
 #header, #footer, #content_wrapper {
   margin: 0 2px; }
 

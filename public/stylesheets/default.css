@@ -249,3 +249,8 @@ body {
   #footer #copyright {
     padding: 1em 0;
     font-size: 80%; }
+
+
+content_block,
+button.section_heading.hide {
+  display: none; }
