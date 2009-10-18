@@ -251,6 +251,7 @@ body {
     font-size: 80%; }
 
 
-content_block,
+.content_block,
+.section_anchors,
 button.section_heading.hide {
   display: none; }
