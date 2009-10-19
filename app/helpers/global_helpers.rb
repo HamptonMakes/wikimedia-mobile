@@ -53,7 +53,7 @@ module Merb
     end
 
     def action_url(path,action)
-      %|#{path_site}/w/index.php?title=#{path_encoded(path)}&action=#{action}&useskin=chick|
+      %|#{path_site}/w/index.php?title=#{path_encoded(path)}&amp;action=#{action}&amp;useskin=chick|
     end
 
     def stop_redirect_notice(path)
