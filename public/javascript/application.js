@@ -4,7 +4,7 @@ $(document).ready(function(){
   })
 
   $("h2.section_heading").click(function() {
-    var section_idx = parseInt($(this).children("a").get(0).id.replace( /section_(\d+)/, "$1" ));
+    var section_idx = parseInt($(this).get(0).id.replace( /section_(\d+)/, "$1" ));
     wm_toggle_section( section_idx );
   })
 
@@ -25,7 +25,7 @@ function wm_reveal_for_hash( hash ) {
  var targetel = $(hash)
  if(targetel) {
    var parentdiv = targetel.parents("div.content_block")
-   if(parentdiv && ! parentdiv.is(':visible')) {
+   if(parentdiv.length > 0 && ! parentdiv.is(':visible')) {
      var section_idx = parseInt(parentdiv.get(0).id.replace( /content_(\d+)/, "$1" ));
      wm_toggle_section( section_idx )
    }
@@ -33,8 +33,8 @@ function wm_reveal_for_hash( hash ) {
 }
 
 function wm_toggle_section( section_id ) {
-  var buttons = $("a#section_"+section_id).siblings("button.show").toggle();
-  var buttonh = $("a#section_"+section_id).siblings("button.hide").toggle();
+  var buttons = $("h2#section_"+section_id).children("button.show").toggle();
+  var buttonh = $("h2#section_"+section_id).children("button.hide").toggle();
 
   $("div#content_"+section_id).slideToggle("fast")
   $("div#anchor_"+section_id).slideToggle("fast")

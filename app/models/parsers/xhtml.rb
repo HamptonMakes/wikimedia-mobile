@@ -104,7 +104,7 @@ module Parsers
       back_to_top = lang["back_to_top_of_section"] || "&uarr;"
       
       # Go through the whole page looking for headings
-      data.gsub!(/<h2(.*)<span class="mw-headline" [^>]*>(.+)<\/span>/) do |line|
+      data.gsub!(/<h2(.*)<span class="mw-headline" [^>]*>(.+)<\/span>\w*<\/h2>/) do |line|
 
         # store this for later using those old ruby hacks like perl with the $ args
         headings += 1 
@@ -113,8 +113,8 @@ module Parsers
         base = "<div class='section_anchors' id='anchor_#{headings - 1}'><a href='#section_#{headings - 1}' class='back_to_top'>&uarr; #{back_to_top}</a></div>"
 
         # generate the HTML we are going to inject
-        buttons = "<button class='section_heading show' section_id='#{headings}'>#{show}</button><button class='section_heading hide' section_id='#{headings}'>#{hide}</button>"
-        base << "<h2 class='section_heading'#{$1}#{buttons} <span>#{$2}</span><a id='section_#{headings}'></a></h2><div class='content_block' id='content_#{headings}'><h2 style='display: none;'>"
+        buttons = "<button class='section_heading show'>#{show}</button><button class='section_heading hide'>#{hide}</button>"
+        base << "<h2 class='section_heading' id='section_#{headings}'#{$1}#{buttons} <span>#{$2}</span></h2><div class='content_block' id='content_#{headings}'>"
         
         
         if headings > 1
