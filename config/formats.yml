@@ -70,6 +70,7 @@ ps3:
 
 wii:
   <<: *capable
+  search_bar: wii
   css_file_name: 'wii'
 
 operamini:

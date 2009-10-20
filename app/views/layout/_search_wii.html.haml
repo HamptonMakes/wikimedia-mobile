@@ -1,0 +1,10 @@
+#header
+  #searchbox
+    #homeButton
+      %a{:href => "/wiki/"}
+        %img#logo{:src => "/images/100px-globe.png", :alt => "Wikipedia logo, a globe made of puzzle pieces"}/
+    #search_bar
+      %form.search_bar{:action => "/wiki", :method => "get"}
+        %input#searchField{:name => "search", :type => "text", :value => search_bar_contents}/
+        %button#searchButton{:type =>"submit"}
+          Search

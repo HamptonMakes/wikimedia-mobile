@@ -1,16 +1,74 @@
-@import default.sass
+@import _content.sass
 @import _inlineimages.sass
 
+/Set margins
 body
-  width: 790px
+  margin: 0
+
+#header
+  padding: 8px
+
+#content_wrapper
+  background: white
+  clear: both
+  padding: 8px
+
+#footer
+  background: white
+  padding: 0 8px
+
+/ Wii layout
+body
+  width: 798px
+  background: #6EE4FF
   font-size: 200%
 
-button
+button, input
   font-size: 150%
 
-#searchField
-  padding-top: 5px
-  width: 20px
-#clearButton
-  margin-top: 0px
+#header
+  #logo
+    margin-right: 8px
+  height: 100px
+  #homeButton
+    float: left
+  #search_bar
+    padding-top: 20px
+  #searchField
+    width: 450px
+
+/ Notice box
+.notice
+  padding: 5px
+  background: #ddd
+  -webkit-border-radius: 5px
+  -moz-border-radius 5px
+  margin-top: 5px
+  text-align: center
+  border: 1px solid grey
+
+/ Sitenotice like message
+.message.notice
+  font-size: 1.1em
+
+/ Copyright footer
+#footer
+  padding-top: 1em
+  #perm
+    padding-top: 1em
+    font-size: 80%
+  #copyright
+    padding: 1em 0
+    font-size: 80%
+
+/ Highlight clicked reference in blue to help navigation
+ol.references > li:target,
+sup.reference:target,
+span.citation:target, cite:target
+  background-color: #DEF
+
+/ Javascript
+.content_block,
+.section_anchors,
+button.section_heading.hide
   display: none

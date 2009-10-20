@@ -177,55 +177,65 @@ img.thumbborder {
 .floatright {
   float: right; }
 
+.thumb {
+  margin: 0.5em 0; }
+
+.thumb.tright {
+  float: right;
+  clear: right;
+  margin-left: 0.5em; }
+
+.thumb .thumbcaption {
+  text-align: left;
+  margin: 0;
+  font-size: 90%;
+  padding-top: 0.5em; }
+
+.thumb.tleft {
+  float: left;
+  clear: left;
+  margin-right: 0.5em; }
+
+.thumb .thumbinner,
+.thumb .thumbinner[style] {
+  padding: 5px;
+  margin: 0; }
+
 
 body {
   margin: 0; }
 
 #header {
-  margin: 8px 8px 0 8px; }
+  padding: 8px; }
 
 #content_wrapper {
+  background: white;
   clear: both;
-  margin: 0 8px; }
+  padding: 8px; }
 
 #footer {
-  margin: 0 8px; }
-
-#header img, #header form, #header input, #header button {
-  vertical-align: middle;
-  display: inline-block; }
+  background: white;
+  padding: 0 8px; }
 
 
-#searchbox {
-  width: auto;
-  padding: 5px;
-  border: 1px solid #ccc;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px; }
-  #searchbox a, #searchbox img {
-    border: 0px;
-    vertical-align: middle; }
-  #searchbox #goButton {
-    border: 0;
-    background: url(/images/s.gif) no-repeat top left;
-    height: 25px;
-    width: 27px; }
-  #searchbox #searchField {
-    width: auto; }
+body {
+  width: 798px;
+  background: #6EE4FF;
+  font-size: 200%; }
 
+button, input {
+  font-size: 150%; }
 
-#nav {
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  clear: both;
-  padding: 5px 0; }
-  #nav form, #nav button {
-    display: inline-block; }
-  #nav button {
-    background: url(/images/buttonbg.gif) no-repeat center;
-    border: 0;
-    height: 23px;
-    width: 83px; }
+#header {
+  height: 100px; }
+  #header #logo {
+    margin-right: 8px; }
+  #header #homeButton {
+    float: left; }
+  #header #search_bar {
+    padding-top: 20px; }
+  #header #searchField {
+    width: 450px; }
 
 
 .notice {
@@ -260,43 +270,4 @@ span.citation:target, cite:target {
 .content_block,
 .section_anchors,
 button.section_heading.hide {
-  display: none; }
-
-.thumb {
-  margin: 0.5em 0; }
-
-.thumb.tright {
-  float: right;
-  clear: right;
-  margin-left: 0.5em; }
-
-.thumb .thumbcaption {
-  text-align: left;
-  margin: 0;
-  font-size: 90%;
-  padding-top: 0.5em; }
-
-.thumb.tleft {
-  float: left;
-  clear: left;
-  margin-right: 0.5em; }
-
-.thumb .thumbinner,
-.thumb .thumbinner[style] {
-  padding: 5px;
-  margin: 0; }
-
-body {
-  width: 790px;
-  font-size: 200%; }
-
-button {
-  font-size: 150%; }
-
-#searchField {
-  padding-top: 5px;
-  width: 20px; }
-
-#clearButton {
-  margin-top: 0px;
   display: none; }
