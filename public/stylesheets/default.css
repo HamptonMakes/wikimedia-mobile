@@ -148,7 +148,7 @@ h2 {
   width: 1px; }
 
 
-.printonly, .geo-multi-punct, .geo-nondefault {
+.printonly, .geo-multi-punct, .geo-nondefault, .Z3988 {
   display: none; }
 
 
@@ -249,3 +249,15 @@ body {
   #footer #copyright {
     padding: 1em 0;
     font-size: 80%; }
+
+
+ol.references > li:target,
+sup.reference:target,
+span.citation:target, cite:target {
+  background-color: #DEF; }
+
+
+.content_block,
+.section_anchors,
+button.section_heading.hide {
+  display: none; }

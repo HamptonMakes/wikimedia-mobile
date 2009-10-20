@@ -148,7 +148,7 @@ h2 {
   width: 1px; }
 
 
-.printonly, .geo-multi-punct, .geo-nondefault {
+.printonly, .geo-multi-punct, .geo-nondefault, .Z3988 {
   display: none; }
 
 
@@ -251,11 +251,32 @@ body {
     font-size: 80%; }
 
 
+ol.references > li:target,
+sup.reference:target,
+span.citation:target, cite:target {
+  background-color: #DEF; }
 
-#clearButton {
+
+.content_block,
+.section_anchors,
+button.section_heading.hide {
   display: none; }
 
+#searchbox {
+  height: 25px; }
+  #searchbox #logo {
+    display: block;
+    float: left;
+    margin-right: 4px; }
+  #searchbox #searchField {
+    border: 1px solid grey;
+    height: 20px;
+    width: 216px; }
+  #searchbox #clearButton {
+    display: block; }
+
 #nav {
+  height: 23px;
   display: none;
   width: 172px;
   border: 1px solid #ccc;
@@ -266,25 +287,3 @@ body {
 
 body {
   font-size: 14px; }
-
-#header {
-  margin: -9px 0 0 -10px;
-  padding-top: 12px;
-  padding-bottom: 7px;
-  width: 320px; }
-  #header input#searchField {
-    margin-top: -3px;
-    height: 25px;
-    width: 200px;
-    -webkit-border-radius: 4px; }
-  #header #clearButton {
-    margin-top: 1px;
-    margin-left: 5px; }
-  #header button#goButton {
-    margin-right: 15px; }
-
-#nav {
-  margin-left: -10px;
-  padding-top: 3px; }
-  #nav #randomButton {
-    margin-top: -14px; }

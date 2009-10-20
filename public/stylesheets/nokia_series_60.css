@@ -148,7 +148,7 @@ h2 {
   width: 1px; }
 
 
-.printonly, .geo-multi-punct, .geo-nondefault {
+.printonly, .geo-multi-punct, .geo-nondefault, .Z3988 {
   display: none; }
 
 
@@ -251,11 +251,32 @@ body {
     font-size: 80%; }
 
 
+ol.references > li:target,
+sup.reference:target,
+span.citation:target, cite:target {
+  background-color: #DEF; }
 
-#clearButton {
+
+.content_block,
+.section_anchors,
+button.section_heading.hide {
   display: none; }
 
+#searchbox {
+  height: 25px; }
+  #searchbox #logo {
+    display: block;
+    float: left;
+    margin-right: 4px; }
+  #searchbox #searchField {
+    border: 1px solid grey;
+    height: 20px;
+    width: 216px; }
+  #searchbox #clearButton {
+    display: block; }
+
 #nav {
+  height: 23px;
   display: none;
   width: 172px;
   border: 1px solid #ccc;

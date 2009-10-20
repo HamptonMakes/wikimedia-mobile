@@ -22,8 +22,12 @@ webkit: &webkit
   search_bar: 'webkit'
   css_file_name: 'webkit'
 
+webkit_old: &webkit_old
+  <<: *capable
+  css_file_name: 'webkit_old'
+
 android: 
-  <<: *webkit
+  <<: *webkit_old
   css_file_name: "android"
 
 iphone:
@@ -31,7 +35,7 @@ iphone:
   css_file_name: 'iphone'
   
 iphone2:
-  <<: *webkit
+  <<: *webkit_old
   css_file_name: 'iphone2'
 
 native_iphone:
@@ -39,7 +43,7 @@ native_iphone:
   search_bar: false
 
 palm_pre:
-  <<: *webkit
+  <<: *webkit_old
   css_file_name: 'palm_pre'
 
 kindle2:
@@ -73,7 +77,7 @@ operamini:
   css_file_name: "operamini"
 
 nokia_series_60:
-  <<: *webkit
+  <<: *webkit_old
   css_file_name: "nokia_series_60"
 
 wml:

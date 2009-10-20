@@ -74,3 +74,15 @@ body
   #copyright
     padding: 1em 0
     font-size: 80%
+
+/ Highlight clicked reference in blue to help navigation
+ol.references > li:target,
+sup.reference:target,
+span.citation:target, cite:target
+  background-color: #DEF
+
+/ Javascript
+.content_block,
+.section_anchors,
+button.section_heading.hide
+  display: none
