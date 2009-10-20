@@ -109,7 +109,7 @@ def run_parser(path)
   stats.slowest_action_time = slowest_hit
   stats.fastest_action_time = fastest_hit
   stats.average_action_time = (total_hit_time / stats.hits)
-  stats.median_action_time = all_times.sort[(all_times.size / 2)]
+  stats.median_action_time  = all_times.sort[(all_times.size / 2)]
 
   ## ======================= CACHE SIZE ================================
   stats.cache_size = ((`ps -eO rss | grep memcache`.split("\n").select {|a| a.include?("11211") }).first.split(" ")[1].to_i / 1024)
