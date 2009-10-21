@@ -22,3 +22,4 @@ src/*
 .svn/*
 .*.swp
 .project
+.settings
