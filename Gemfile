@@ -13,7 +13,6 @@ gem "merb-haml",        merb_gems_version
 gem "merb-mailer",      merb_gems_version
 gem "merb-exceptions",  merb_gems_version
 
-
 gem "memcache-client", "1.7.5", :require_as => []
 gem "curb", "0.5.4.0"
 gem "nokogiri", "1.3.3"
