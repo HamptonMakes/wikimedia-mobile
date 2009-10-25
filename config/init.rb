@@ -8,10 +8,15 @@ end
 
 require 'sass'
 require 'cgi'
-require 'curb'
 require 'merb-haml'
 require 'nokogiri'
 require 'mime/types'
+
+begin 
+  require 'curb'
+rescue 
+  puts "no curb installed.. using open-uri"
+end
 
 if is19?
   Encoding.default_internal = Encoding.default_external = "UTF-8"

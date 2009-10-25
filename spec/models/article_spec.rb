@@ -4,7 +4,12 @@ describe Article do
   
   before(:all) do
     # Stub out the device
-    @device = Device.new(nil)
+    request = mock("request")
+    request.stub!("preferred_format").and_return nil
+    request.stub!("accept").and_return "xhtml"
+    
+    
+    @device = Device.new(request)
     @device.instance_eval("@user_agent = 'Webkit'")
     
     # Stubs out networking
