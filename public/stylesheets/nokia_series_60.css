@@ -284,9 +284,3 @@ button.section_heading.hide {
   margin: -1px 0 0 0;
   background: white;
   padding: 0 5px 5px 5px; }
-
-* {
-  font-size: 1.2em; }
-
-#header input#searchField {
-  font-size: 0.8em; }
