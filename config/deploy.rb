@@ -22,7 +22,7 @@ namespace :deploy do
   
   task :start do
     begin
-      run "/etc/init.d/thin start"
+      run "/etc/init.d/cluster start"
     rescue
       retry
     end
@@ -30,7 +30,7 @@ namespace :deploy do
   
   task :stop do
     begin
-      run "/etc/init.d/thin stop"
+      run "/etc/init.d/cluster stop"
     rescue
     end
   end
