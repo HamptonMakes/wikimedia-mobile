@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $("#logo").click(function() {
-    $("#nav").slideToggle("fast");
+    $("#nav").toggle();
   })
 
   $("h2.section_heading").click(function() {
@@ -33,11 +33,11 @@ function wm_reveal_for_hash( hash ) {
 }
 
 function wm_toggle_section( section_id ) {
-  var buttons = $("h2#section_"+section_id).children("button.show").toggle();
-  var buttonh = $("h2#section_"+section_id).children("button.hide").toggle();
+  $("h2#section_" + section_id).children("button.show").toggle();
+  $("h2#section_" + section_id).children("button.hide").toggle();
 
-  $("div#content_"+section_id).slideToggle("fast")
-  $("div#anchor_"+section_id).slideToggle("fast")
+  $("div#content_" + section_id).toggle()
+  $("div#anchor_" + section_id).toggle()
 }
 
 var wm_clearText = function() {
