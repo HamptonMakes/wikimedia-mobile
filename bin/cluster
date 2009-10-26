@@ -12,6 +12,8 @@
 # Original author: Forrest Robertson
 # Modified by: Hampton Catlin
 
+trap "echo Trapped!" USR1
+
 # Do NOT "set -e"
 
 DAEMON=/usr/bin/thin
