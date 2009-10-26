@@ -15,14 +15,14 @@ namespace :deploy do
   end
   
   task :restart do
-    deploy.gems
+    #deploy.gems
     deploy.stop
     deploy.start
   end
   
   task :start do
     begin
-      run "/etc/init.d/cluster start"
+      run "#{current_path}/bin/cluster start"
     rescue
       retry
     end
@@ -30,7 +30,7 @@ namespace :deploy do
   
   task :stop do
     begin
-      run "/etc/init.d/cluster stop"
+      run "#{current_path}/bin/cluster stop"
     rescue
     end
   end

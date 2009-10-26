@@ -1,0 +1,18 @@
+--- 
+chdir: /srv/mobile/current
+environment: production
+address: 127.0.0.1
+port: 1982
+timeout: 30
+log: log/thin.log
+pid: tmp/pids/thin.pid
+max_conns: 1024
+max_persistent_conns: 512
+require: []
+user: deploy
+group: deploy
+tag: cluster
+
+rackup: /srv/mobile/current/config.ru
+servers: 30
+daemonize: true
