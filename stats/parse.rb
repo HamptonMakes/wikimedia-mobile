@@ -84,15 +84,16 @@ def run_parser(path)
         content_types[content_type] += 1
         
         # Action Speed
-        
-        time = d[:action_time]
-        total_hit_time += time
-        all_times << time
-        if time < fastest_hit
-          fastest_hit = time
-        end
-        if time > slowest_hit
-          slowest_hit = time
+
+        if time = d[:action_time]
+          total_hit_time += time
+          all_times << time
+          if time < fastest_hit
+            fastest_hit = time
+          end
+          if time > slowest_hit
+            slowest_hit = time
+          end
         end
       rescue
         puts "problem with line"

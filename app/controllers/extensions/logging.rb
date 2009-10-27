@@ -15,8 +15,10 @@ module ControllerExtensions
     end
 
     def logger_output
+      action_time = @timer ? (Time.now - @timer) : nil
+
       logged_data = {:time => Time.now.to_s, 
-                     :action_time => (Time.now - @timer),
+                     :action_time => action_time,
                      :language_code => request.language_code, 
                      :country_code => request.country_code,
                      :user_agent => request.user_agent,
