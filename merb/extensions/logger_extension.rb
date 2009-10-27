@@ -10,7 +10,7 @@ class Merb::Logger
   end
   
   def dump_logger_hash
-    result = @logged_hash
+    result = @logged_hash || {}
     @logged_hash = nil
     return result
   end
