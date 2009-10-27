@@ -38,28 +38,25 @@ class Server
     paths.each do |path|
       result = nil
 
-      Merb.logger.debug("loading... " + base_url + path)
-
       result = fetch_from_web(path)
       
 
       compressed_size = result.downloaded_content_length
 
-      Merb.logger.debug("loaded #{result.downloaded_content_length} compressed characters")
+      Merb.logger[:gzipped_raw_article_content_length] = result.downloaded_content_length
 
       if result.response_code == 200
         
         if result.header_str.include?("Cache-Lookup: HIT")
-          Merb.logger.debug("Spider HIT")
+          Merb.logger[:wikipedia_cache_hit] = true
         else
-          Merb.logger.debug("Spider MISS")
+          Merb.logger[:wikipedia_cache_hit] = false
         end
 
         body = nil
-        
-        
-        time_to "decompress" do
-          
+
+        time_to "decompress downloaded article" do
+
           begin 
             gz = Zlib::GzipReader.new( StringIO.new( result.body_str ) )
             body = gz.read
@@ -71,7 +68,7 @@ class Server
           body = body.force_encoding("UTF-8")
         end
         
-        Merb.logger.debug("Decompressed to #{body.size} characters")
+        Merb.logger[:raw_article_content_length] = body.size
         
         return {:url => result.last_effective_url, :body => body} 
       end
@@ -84,7 +81,7 @@ class Server
 
   # :api: private
   def fetch_from_web(path)
-    time_to "fetch" do
+    time_to "download article from web" do
       if defined?(Curl)
         begin
           Curl::Easy.perform(base_url + path) do |curl|

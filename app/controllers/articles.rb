@@ -71,7 +71,8 @@ class Articles < Application
  private 
  
   def format_display_with_data(html = nil, &block)
-    Merb.logger.debug("CTYPE: #{content_type}")
+    Merb.logger[:content_type] = content_type
+
     case content_type
     when :json
       json = JSON.dump(block.call)
@@ -101,7 +102,7 @@ class Articles < Application
         Merb.logger.debug("KEY: #{key}")
       
         if html
-          Merb.logger.debug("CACHE HIT")
+          Merb.logger[:cache_hit] = true
           return html
         else
           html = block.call
@@ -110,7 +111,7 @@ class Articles < Application
             Cache.store(key, html, :expires_in => 60 * 60 * 12)
           end
 
-          Merb.logger.debug("CACHE MISS")
+          Merb.logger[:cache_hit] = false
         end
         html
       end

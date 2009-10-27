@@ -14,8 +14,8 @@ class StatSegment
   extend StatMerging::ClassMethods
   
   property :id, Serial
-  property :time, Time, :indexed => true
-  property :time_length, String, :indexed => true
+  property :time, Time, :index => true
+  property :time_length, String, :index => true
   property :cache_hit_ratio, Float
   property :spider_cache_hit_ratio, Float
   property :hits, Integer
@@ -28,6 +28,9 @@ class StatSegment
   property :median_action_time, Float, :default => 0.0
   property :language_hits, Object, :lazy => false
   property :format_hits, Object, :lazy => false
+  property :country_hits, Object, :lazy => false
+  property :user_agent_hits, Object, :lazy => false
+  property :content_type_hits, Object, :lazy => false
   property :cache_size, Integer
   property :load_average, Float
   

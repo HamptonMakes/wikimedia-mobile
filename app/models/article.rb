@@ -21,7 +21,7 @@ class Article < Wikipedia::Resource
   def has_search_results?
     if (@html = Cache[key])
       Merb.logger.debug("KEY: #{key}")
-      Merb.logger.debug("CACHE HIT")
+      Merb.logger[:cache_hit] = true
       return false
     else
       fetch! if raw_html.nil?
@@ -50,17 +50,17 @@ class Article < Wikipedia::Resource
     time_to "lookup in cache" do
       Merb.logger.debug("KEY: #{key}")
       if (@html = Cache[key])
-        Merb.logger.debug("CACHE HIT")
+        Merb.logger[:cache_hit] = true
         return @html.force_encoding("UTF-8")
       else
-        Merb.logger.debug("CACHE MISS")
+        Merb.logger[:cache_hit] = false
       end
     end
 
     # Grab the html from the server object
     fetch! if raw_html.nil?
 
-    time_to "parse #{device}" do
+    time_to "parse and modify xml" do
       # Figure out if we need to do extra formatting...
       case device.parser
       when "html"
