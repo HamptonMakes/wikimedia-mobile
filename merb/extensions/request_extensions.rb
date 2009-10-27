@@ -12,6 +12,10 @@ class Merb::Request
     params[:format_name] if params[:format_name]
   end
   
+  def country_code
+    @country_code ||= GeoIP.lookup(self.remote_ip)
+  end
+  
   # Gets the language code for this request
   def language_code
     return params[:lang].downcase if params[:lang]
