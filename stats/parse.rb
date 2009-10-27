@@ -105,7 +105,7 @@ def run_parser(path)
   stat.language_hits = languages
   stat.format_hits = formats
   stat.country_hits = countries
-  stat.user_agent_hits = user_agents
+  #stat.user_agent_hits = user_agents
   stat.content_type_hits = content_types
   stat.hits = hits
   stat.cache_hit_ratio = cache_hit_count.to_f / hits
