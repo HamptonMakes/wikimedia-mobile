@@ -5,10 +5,10 @@ trap("USR1") {
 
 def run_parser(path)
   log_file = File::join(path, "log", "production.log")
-  file = log_file #+ "." + Time.now.to_i.to_s
+  file = log_file + "." + Time.now.to_i.to_s
 
-  #{}`mv #{log_file} #{file}`
-  #{}`pkill -USR1 thin`
+  `mv #{log_file} #{file}`
+  `pkill -USR1 thin`
 
   stat = Stat.new(:time => Time.now, :time_length => "minute")
   
