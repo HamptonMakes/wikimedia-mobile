@@ -44,13 +44,8 @@ helpers do
       attributes.each_with_index do |stat_name, index|
         data = array.collect do |stat|
           if stat
-            point = nil
-            
-            if values[index]
-              point = values[index]
-            elsif stat.responds_to?(stat_name)
-              point = stat.send(stat_name)
-            end
+            point = stat.send(stat_name)
+
             
             if point
               if point > max
