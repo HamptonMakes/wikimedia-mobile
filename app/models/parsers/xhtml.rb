@@ -114,9 +114,8 @@ module Parsers
 
         # generate the HTML we are going to inject
         buttons = "<button class='section_heading show' section_id='#{headings}'>#{show}</button><button class='section_heading hide' section_id='#{headings}'>#{hide}</button>"
-        base << "<h2 class='section_heading' id='section_#{headings}'#{$1}#{buttons} <span>#{$2}</span></h2><div class='content_block' id='content_#{headings}'>"
-        
-        
+        base << "<h2 class='section_heading' id='section_#{headings}'#{$1}#{buttons} <span>#{$2}</span></h2><div class='content_block' id='content_#{headings} style='display: none'>"
+
         if headings > 1
           # Close it up here
           base = "</div>" + base
