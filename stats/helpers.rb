@@ -45,7 +45,7 @@ helpers do
       attributes.each_with_index do |stat_name, index|
         data = array.collect do |stat|
           if stat
-            point = stat.eval(stat_name)
+            point = stat.instance_eval(stat_name)
 
             
             if point
