@@ -41,7 +41,6 @@ iphone2:
 native_iphone:
   <<: *capable
   search_bar: false
-  supports_javascript: false
 
 palm_pre:
   <<: *webkit_old

@@ -1,3 +1,6 @@
+/* Super gross hack implemented where MOST of the JS is repeated in lib/native_app_hack.rb 
+If you make significant changes here, make sure to update that version too!*/
+
 $(document).ready(function(){
   $("#logo").click(function() {
     $("#nav").toggle();

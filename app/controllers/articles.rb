@@ -78,6 +78,10 @@ class Articles < Application
       json = JSON.dump(block.call)
       if params[:callback]
         json = "#{params[:callback]}(#{json})"
+        
+        if(request.device.format_name == :native_iphone)
+          json = NativeAppHack.js + "\n" + json
+        end
       end
       render json, :format => :json
     else
