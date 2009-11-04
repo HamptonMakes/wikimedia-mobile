@@ -39,6 +39,7 @@ helpers do
     max = 0
     min = 0
     values = []
+    colors = %w(#097054 #FFDE00 #6599FF #FF9900 #993300 #99CC99 #003366)
 
     chart = GoogleChart::LineChart.new('500x300', title, false) do |sparklines|
       attributes.each_with_index do |stat_name, index|
