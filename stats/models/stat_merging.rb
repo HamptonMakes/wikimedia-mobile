@@ -35,7 +35,7 @@ module StatMerging
         :mean
       when :hits, :redirects, :home_page_views, :error_count
         :sum
-      when :format_hits, :language_hits
+      when :format_hits, :language_hits, :country_hits, :content_type_hits, :user_agent_hits
         :hash_sum
       else
         nil
