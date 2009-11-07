@@ -6,6 +6,7 @@
 
 %img{:src => line_chart(@stats, ["hits_in_millions"], "Total Traffic in Millions")}
 %img{:src => line_chart(@stats, ["average_action_time_in_ms"], "Average Page Serving Speed (ms)")}
+%img{:src => line_chart(@stats, ["load_average"], "Mean Server Load")}
 
 %h3
   = to_date_url("See today's incomplete stats", Date.today)
