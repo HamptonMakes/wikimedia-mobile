@@ -262,21 +262,12 @@ span.citation:target, cite:target {
 button.section_heading.hide {
   display: none; }
 
-#searchbox {
-  height: 25px; }
-  #searchbox #logo {
-    display: block;
-    float: left;
-    margin-right: 4px; }
-  #searchbox #searchField {
-    border: 1px solid grey;
-    height: 20px;
-    width: 216px; }
-  #searchbox #clearButton {
-    display: block; }
+
+
+#clearButton {
+  display: none; }
 
 #nav {
-  height: 23px;
   display: none;
   width: 172px;
   border: 1px solid #ccc;
