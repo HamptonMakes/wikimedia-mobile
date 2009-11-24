@@ -1,0 +1,14 @@
+%h1
+  Are you sure ???
+%p
+  Are you sure that you want to disable the mobile version of Wikipedia ? If you choose <b>Disable</b>,
+  then from now on, when you visit Wikipedia, you will not be redirected to this mobile view of Wikipedia.
+
+#disableButtons
+  %form{:action => redirect_url, :method => "get"}
+    %input{:type => "hidden", :name => "to", :value => "#{path_site}/wiki/#{path_encoded(@path)}"}
+    %input{:type => "hidden", :name => "expires_in_days", :value => "#{365 * 10}"}
+    %button#disableButton{:type => "submit"} Disable
+
+  %form{:action => "/wiki/#{@path}", :method => "get" }
+    %button#backButton{:type => "submit"} Back
