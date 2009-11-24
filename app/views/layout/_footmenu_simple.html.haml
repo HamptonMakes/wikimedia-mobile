@@ -29,6 +29,6 @@
   %a{:href => "#footmenu", :accesskey => "8"}= language_object["nav_end"]
   %br>
   - if @article
-    %a{:href => perm_url(@article.title)}= language_object["perm_stop_redirect"]
+    %a{:href => disable_url(@article.title)}= language_object["perm_stop_redirect"]
   - else
-    %a{:href => perm_url("")}= language_object["perm_stop_redirect"]
+    %a{:href => disable_url("")}= language_object["perm_stop_redirect"]
