@@ -18,3 +18,8 @@ error_page_text: "Wikipedia mobile is still under active development and we are 
 copyright: "Text is available under the <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; additional terms may apply. See <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> for details. Wikipedia is a registered trademark of the <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, a non-profit organization."
 are_you_sure: Are you sure ???
 explain_disable: Are you sure that you want to disable the mobile version of Wikipedia ? If you choose <b>Disable</b>, then from now on, when you visit Wikipedia, you will not be redirected to this mobile view of Wikipedia.
+nav_end: End
+nav_top: Top
+nav_edit: Edit
+nav_history: History
+search_text: Search

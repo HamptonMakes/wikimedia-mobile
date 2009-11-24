@@ -1,5 +1,7 @@
 #footmenu.nav
-  %a.arrow{:href => "#header"} Top &uarr;
+  %a.arrow{:href => "#header"}
+    = language_object["nav_top"]
+    = "&uarr;"
   %span.idx 0
   %a#homeButton{:href => "/wiki/::Home", :accesskey => "0"}= language_object["home_button"]
   %br>
@@ -7,7 +9,7 @@
   %a#randomButton{:href => "/wiki/::Random", :accesskey => "1"}= language_object["random_button"]
   %br>
   %span.idx 2
-  %a{:href => "#header", :accesskey => "2"} Top
+  %a{:href => "#header", :accesskey => "2"}= language_object["nav_top"]
   %br>
   %span.idx 3
   - if @article
@@ -18,13 +20,13 @@
   - if @article
     %br>
     %span.idx 5
-    %a{:href => action_url(@article.title, "edit"), :accesskey => "5"} Edit
+    %a{:href => action_url(@article.title, "edit"), :accesskey => "5"}= language_object["nav_edit"]
     %br>
     %span.idx 6
-    %a{:href => action_url(@article.title, "history"), :accesskey => "6"} History
+    %a{:href => action_url(@article.title, "history"), :accesskey => "6"}= language_object["nav_history"]
   %br>
   %span.idx 8
-  %a{:href => "#footmenu", :accesskey => "8"} Bottom
+  %a{:href => "#footmenu", :accesskey => "8"}= language_object["nav_end"]
   %br>
   - if @article
     %a{:href => perm_url(@article.title)}= language_object["perm_stop_redirect"]

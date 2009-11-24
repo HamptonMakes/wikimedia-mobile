@@ -10,4 +10,6 @@
     %a#homeButton{:href => home_page_path}= language_object["home_button"]
     = " | "
     %a#randomButton{:href => random_page_path}= language_object["random_button"]
-    %a.arrow{:href => "#footmenu"} End &darr;
+    %a.arrow{:href => "#footmenu"}
+      = language_object["nav_end"]
+      = "&darr;"
