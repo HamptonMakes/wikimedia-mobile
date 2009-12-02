@@ -1,18 +1,29 @@
 # Messages for Piedmontese (Piemontèis)
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: Borichèt
 # Author: Dragonòt
+are_you_sure: Ses-to sicur ???
+back_button: André
+back_to_top_of_section: Sàuta andré ëd na Session
 copyright: Ël test a l'é disponìbil sota la <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; condission adissionaj a peulo aplichesse. Varda <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> për ij detaj. Wikipedia a l'é un march argistrà ëd la <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, n'organisassion non-profit.
+disable_button: Disabìlita
 error_page_text: Wikipedia "mobile" a l'é ancó sota ativ dësvilup e i stoma travajand sech për fissé tùit ij nòst eror antern. Noi i soma stàit avisà dë sto eror-sì e i lo fisseroma prest. Për piasì torna prové!
 error_page_title: I l'oma un problema!
+explain_disable: Ses-to sicur ëd vorèj disabilité la version mòbil ëd Wikipedia? S'it serne <b>Disabìlita</b>, da col moment an peui, quand it vìsite Wikipedia, is saras pa ridiressionà a sta version mòbil ëd Wikipedia.
 featured_article: Artìcol dël dì
 hide_button: Stërma
 home_button: Pàgina Prinsipal
 in_the_news: Ant le Neuve
+nav_edit: Modìfica
+nav_end: Fin
+nav_history: Stòria
+nav_top: Inissi
 no_article_found: Pa gnun artìcoj trovà
 perm_stop_redirect: Disabilité permanentement ël sit "mobile"
 random_button: A cas
 regular_wikipedia: Varda sta pàgina-sì an Wikipedia regolar
 search_results: Arzultà dl'arserca
 search_submit: Va
+search_text: Sërca
 show_button: Mosta

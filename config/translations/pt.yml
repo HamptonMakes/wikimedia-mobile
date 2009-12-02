@@ -2,21 +2,32 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: Giro720
+# Author: Hamilton Abreu
 # Author: Indech
 # Author: Luckas Blade
 # Author: Malafaya
 # Author: Waldir
-copyright: O texto está disponível sob a licença <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; condições adicionais podem-se aplicar. Veja <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Condições de Uso</a> para detalhes. Wikipedia é uma marca registrada da <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, uma organização sem fins lucrativos.
-error_page_text: Wikipédia móvel ainda está sob desenvolvimento ativo e estamos trabalhando duro para corrigir todos os nossos erros internos. Fomos notificados sobre esse erro e ele será corrigido em breve. Por favor, dê retorno!
+are_you_sure: Tem a certeza ???
+back_button: Voltar
+back_to_top_of_section: Retroceder Uma Secção
+copyright: Este texto é disponibilizado nos termos da licença <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; pode estar sujeito a condições adicionais. Consulte as <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Condições de Uso</a> para mais detalhes. Wikipedia é uma marca registrada da <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, uma organização sem fins lucrativos.
+disable_button: Desactivar
+error_page_text: A Wikipédia móvel ainda está em desenvolvimento e estamos corrigindo os erros internos. Fomos notificados deste erro e ele será corrigido brevemente. Por favor, verifique dentro de algum tempo se a correcção já está disponivel!
 error_page_title: Temos um problema!
-featured_article: Artigo em destaque
+explain_disable: Tem a certeza de que pretende desactivar a versão móvel da Wikipédia? Se escolher <b>Desactivar</b>, a partir de agora ao visitar a Wikipédia deixará de ser reencaminhado para esta versão móvel.
+featured_article: Artigo em Destaque
 hide_button: Esconder
 home_button: Início
-in_the_news: Eventos recentes
-no_article_found: Não Encontrado artigo
-perm_stop_redirect: Desativar sítio móvel permanentemente
+in_the_news: Actualidades
+nav_edit: Editar
+nav_end: Fim
+nav_history: Histórico
+nav_top: Topo
+no_article_found: Nenhum Artigo Encontrado
+perm_stop_redirect: Desactivar permanentemente o sítio móvel
 random_button: Aleatório
 regular_wikipedia: Ver esta página na Wikipédia normal
-search_results: Resultados de pesquisa
+search_results: Resultados da Pesquisa
 search_submit: Ir
+search_text: Pesquisar
 show_button: Mostrar

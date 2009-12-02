@@ -3,17 +3,27 @@
 # Export driver: syck
 # Author: Minh Nguyen
 # Author: Vinhtantran
-copyright: Văn bản được phát hành theo <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License?uselang=vi'>Giấy phép Creative Commons Ghi công/Chia sẻ tương tự</a>; có thể áp dụng điều khoản bổ sung. Xem <a href='http://wikimediafoundation.org/wiki/Điều_khoản_Sử_dụng?uselang=vi'>Điều khoản Sử dụng</a> để biết thêm chi tiết. Wikipedia là thương hiệu đã đăng ký của <a href='http://www.wikimediafoundation.org/wiki/Trang_chủ?uselang=vi'>Wikimedia Foundation, Inc.</a>, một tổ chức phi lợi nhuận.
+are_you_sure: Bạn có chắc không?
+back_button: Trở về
+back_to_top_of_section: Nhảy về đầu phần
+copyright: Văn bản được phát hành theo <a href='http://vi.wikipedia.org/wiki/Wikipedia:Nguyên_văn_Giấy_phép_Creative_Commons_Ghi_công–Chia_sẻ_tương_tự_phiên_bản_3.0_Chưa_chuyển_đổi?uselang=vi'>Giấy phép Creative Commons Ghi công/Chia sẻ tương tự</a>; có thể áp dụng điều khoản bổ sung. Xem <a href='http://wikimediafoundation.org/wiki/Điều_khoản_Sử_dụng?uselang=vi'>Điều khoản Sử dụng</a> để biết thêm chi tiết. Wikipedia là thương hiệu đã đăng ký của <a href='http://www.wikimediafoundation.org/wiki/Trang_chủ?uselang=vi'>Wikimedia Foundation, Inc.</a>, một tổ chức phi lợi nhuận.
+disable_button: Tắt
 error_page_text: Wikipedia Di động vẫn đang được phát triển và chúng tôi đang nỗ lực sửa tất cả các lỗi nội bộ. Chúng tôi đã được thông báo về lỗi này và sẽ sớm sửa nó. Hãy ghé thăm lại!
 error_page_title: Thật là xấu hổ quá!
+explain_disable: Bạn có chắc muốn tắt phiên bản di động của Wikipedia? Nếu chọn <b>Tắt</b>, từ nay bạn sẽ được đổi hướng đến phiên bản thường của Wikipedia.
 featured_article: Bài viết chọn lọc
 hide_button: Ẩn
 home_button: Trang đầu
 in_the_news: Tin tức
+nav_edit: Sửa đổi
+nav_end: Cuối
+nav_history: Lịch sử
+nav_top: Đầu
 no_article_found: Không tìm thấy bài
 perm_stop_redirect: Tắt hẳn website di động
-random_button: Ngẫu&npsb;nhiên
+random_button: Ngẫu nhiên
 regular_wikipedia: Đọc trang này tại Wikipedia bình thường
 search_results: Kết quả tìm kiếm
 search_submit: Xem
+search_text: Tìm kiếm
 show_button: Hiện

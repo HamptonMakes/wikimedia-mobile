@@ -2,17 +2,27 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: Michawiki
+are_you_sure: Sy se wěsty?
+back_button: Slědk
+back_to_top_of_section: Wótrězk slědk skócyś
 copyright: Tekst stoj pód <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a> k dispoziciji; pśidatne wuměnjenja mógu se nałožowaś. Glědaj <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Wužywańske wuměnjenja</a> za drobnostki. Wikipedija jo zregistrěrowana wikowańska marka załožby <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, za wše wužytneje organizacije.
+disable_button: Znjemóžniś
 error_page_text: Mobilna Wikipedija se hyšći wuwija a źěłamy žurnje, aby my wše naše interne zmólki wótpórali. Smy se wó toś tej zmólce informěrowali a wótpórajomy jen skóro. Pšosym wopytaj pózdźej hyšći raz!
 error_page_title: Mamy problem!
+explain_disable: Coš napšawdu mobilnu wersiju Wikipedije znjemóžniś? Jolic wuběraš <b>Znjemóžniś</b>, njebuźoš se wot togo casa k mobilnemu naglědoju Wikipedije dalej pósrědnjaś, gaž woglědujoš se Wikipediju.
 featured_article: Nastawk dnja
 hide_button: Schowaś
 home_button: Startowy bok
 in_the_news: W nowosćach
+nav_edit: Wobźěłaś
+nav_end: Kóńc
+nav_history: Historija
+nav_top: Górjejce
 no_article_found: Žeden nastawk namakany
 perm_stop_redirect: Mobilne sedło na pśecej znjemóžniś
 random_button: Pśipad
 regular_wikipedia: Toś ten bok se w normalnej Wikipediji woglědaś
 search_results: Pytańske wuslědki
 search_submit: Wótpósłaś
+search_text: Pytaś
 show_button: Pokazaś

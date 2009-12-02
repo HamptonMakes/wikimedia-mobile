@@ -2,7 +2,8 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: Dferg
-copyright: El texto está disponible bajo la <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Licencia Creative Commons/Atribución Compartir Igual</a>; cláusulas adicionales pueden ser de aplicación. Vea <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>las condiciones de utilización</a> para más detalles. Wikipedia es una marca registrada de <a href='http://www.wikimediafoundation.org/'>La Fundación Wikimedia, Inc.</a>, una organización sin ánimo de lucro.
+# Author: Locos epraix
+copyright: El texto está disponible bajo la <a href='http://es.wikipedia.org/wiki/Wikipedia:Texto de la Licencia Creative Commons Atribución/Compartir-Igual 3.0'>Licencia Creative Commons Atribución/Compartir-Igual</a>; cláusulas adicionales pueden aplicar. Véase <a href='http://wikimediafoundation.org/wiki/Términos_de_Uso'>los términos de uso</a> para más detalles. Wikipedia es una marca registrada de la <a href='http://wikimediafoundation.org/'>Fundación Wikimedia, Inc.</a>, una organización sin ánimo de lucro.
 error_page_text: Wikipedia para móviles está todavía bajo desarrollo activo y estamos trabajando intensamente para arreglar todos nuestros errores internos. Hemos sido notificados de este error y lo arreglaremos pronto. Por favor, revise regularmente si la petición ha sido o no atendida.
 error_page_title: ¡Tenemos un problema!
 featured_article: Artículo destacado

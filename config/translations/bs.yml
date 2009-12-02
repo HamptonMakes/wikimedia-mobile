@@ -2,17 +2,27 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: CERminator
+are_you_sure: Da li ste sigurni ???
+back_button: Nazad
+back_to_top_of_section: Skoči nazad za jednu sekciju
 copyright: Tekst je dostupan pod <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike licencom</a>; mogu se primjeniti i dodatna pravila. Pogledajte <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Pravila upotrebe</a> za više detalja. Wikipedia je registrirana trgovačka marka od <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, neprofitne organizacije.
+disable_button: Onemogući
 error_page_text: Wikipedia mobile je još uvijek u fazi aktivnog razvoja i mi svakodnevno radimo na ispravci svih unutrašnjih grešaka. Obavješteni smo o ovoj grešci i uskoro ćemo je ispraviti. Molimo pokušajte kasnije!
 error_page_title: Žao nam je, nastala je greška!
+explain_disable: Da li ste sigurni da želite onemogućiti mobilnu verziju Wikipedije ? Ako odaberete <b>Onemogući</b>, poslije toga, pri posjeti Wikipediji, nećete biti preusmjereni na ovu mobilnu Wikipediju.
 featured_article: Odabrani članak
 hide_button: sakrij
 home_button: Početna
 in_the_news: Vijesti
+nav_edit: Uredi
+nav_end: Kraj
+nav_history: Historija
+nav_top: Vrh
 no_article_found: Nije pronađen nijedan članak
 perm_stop_redirect: Trajno onemogući mobilni sajt
 random_button: Slučajni
 regular_wikipedia: Vidi ovu stranicu na običnoj Wikipediji
 search_results: Rezultati pretrage
 search_submit: Idi
+search_text: Traži
 show_button: Pokaži

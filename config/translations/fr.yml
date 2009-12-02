@@ -2,20 +2,31 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: Dodoïste
+# Author: IAlex
 # Author: Jastrow
 # Author: Kropotkine 113
 # Author: Verdy p
+are_you_sure: Êtes-vous certain ?
+back_button: En arrière
+back_to_top_of_section: Revenir d'une section
 copyright: "<a class='internal' href='/wiki/Wikip%C3%A9dia:Droit_d%27auteur' title='Droit d'auteur'>Droit d'auteur</a> : les textes sont disponibles sous <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.fr'>licence Creative Commons paternité–partage à l’identique</a> ; d’autres conditions peuvent s’appliquer. Voyez les <a href='http://wikimediafoundation.org/wiki/Conditions_d'utilisation'>conditions d’utilisation</a> pour plus de détails. Wikipedia® est une marque déposée de la <a href='http://wikimediafoundation.org/wiki/Accueil' title='Wikimedia Foundation'>Wikimedia Foundation, Inc.</a>, une organisation à but non lucratif."
+disable_button: Désactiver
 error_page_text: Wikipédia mobile est toujours en développement actif et nous nous efforçons de résoudre nos erreurs internes. Nous avons été avisés de cette erreur et nous allons la corriger rapidement. Réessayez bientôt !
 error_page_title: Désolé ! Nous avons un problème.
+explain_disable: Êtes-vous certain de vouloir désactiver la version mobile de Wikipédia ? Si vous choisissez <b>Désactiver</b>, à chaque fois que vous visiterez Wikipédia, vous ne serez pas redirigé vers cette version mobile de Wikipédia.
 featured_article: Lumière sur...
 hide_button: Masquer
 home_button: Accueil
 in_the_news: Actualités et événements
+nav_edit: Modifier
+nav_end: Fin
+nav_history: Historique
+nav_top: Haut
 no_article_found: Aucun titre de page ne correspond à la recherche
 perm_stop_redirect: Désactiver le site mobile de manière permanente
 random_button: Au hasard
 regular_wikipedia: Afficher cette page sur Wikipédia classique
 search_results: Résultats de la recherche
 search_submit: Lire
+search_text: Rechercher
 show_button: Afficher

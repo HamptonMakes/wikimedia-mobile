@@ -1,9 +1,11 @@
 # Messages for Thai (ไทย)
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: Octahedron80
 # Author: Woraponboonkerd
 copyright: "ข้อความทั้งหมดอยู่ภายใต้ <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>สัญญาอนุญาตครีเอทีฟคอมมอนส์/Share-Alike</a> และ<a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>เงื่อนไขอื่นเพิ่มเติม</a>ตามนโยบายด้านลิขสิทธิ์\nWikipedia® เป็นเครื่องหมายการค้าจดทะเบียนของ <a href='http://www.wikimediafoundation.org/'>มูลนิธิวิกิมีเดีย</a>"
 error_page_text: วิกิพีเดียสำหรับมือถือกำลังอยู่ในระหว่างการพัฒนาอย่างเต็มที่ และเรากำลังทำงานหนักเพื่อแก้ไขความผิดพลาดภายในทั้งหมด เรารับรู้ถึงความผิดพลาดนี้แล้วจะแก้ไขให้เร็วที่สุด กรุณามาใหม่อีกครั้งหนึ่ง!
 no_article_found: ไม่พบหัวข้อ
 search_results: ผลการค้นหา
 search_submit: ไป
+show_button: แสดง

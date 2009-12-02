@@ -4,17 +4,27 @@
 # Author: Mwpnl
 # Author: SPQRobin
 # Author: Siebrand
+are_you_sure: Weet u het zeker?
+back_button: Terug
+back_to_top_of_section: Een kopje terugspringen
 copyright: De tekst is beschikbaar onder de licentie <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Naamsvermelding/Gelijk delen</a>. Het is mogelijk dat aanvullende voorwaarden van toepassing zijn. Zie de <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Algemene Voorwaarden</a> voor meer informatie.
+disable_button: Uitschakelen
 error_page_text: "Wikipedia mobile is in ontwikkeling en er wordt hard aan gewerkt om alle fouten op te lossen.\nWe hebben deze fout ontvangen en verhelpen deze zo spoedig mogelijk.\nBinnenkort ziet u hier het resultaat."
 error_page_title: Er is een probleem!
+explain_disable: Weet u zeker dat u de mobiele versie van Wikipedia wilt uitschakelen? Als u <b>Uitschakelen</b> kiest, dan wordt u vanaf dat moment niet doorverwezen naar deze mobiele versie van Wikipedia als u Wikipedia bezoekt.
 featured_article: Uitgelicht
 hide_button: Verbergen
 home_button: Hoofdpagina
 in_the_news: Actueel
+nav_edit: Bewerken
+nav_end: Onderaan
+nav_history: Geschiedenis
+nav_top: Bovenaan
 no_article_found: Geen resultaten gevonden
 perm_stop_redirect: Altijd de standaardweergave gebruiken
 random_button: Willekeurig
 regular_wikipedia: Deze pagina in de standaardweergave bekijken
 search_results: Zoekresultaten
 search_submit: Zoeken
+search_text: Zoeken
 show_button: Weergeven
