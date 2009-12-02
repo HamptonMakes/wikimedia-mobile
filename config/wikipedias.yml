@@ -42,7 +42,7 @@ fi:
 it: 
   main_page: Pagina_principale
   selectors: 
-    article_of_the_day: "#Vetrina ~ div"
-    news_items: a[id='Novit.C3.A0'] ~ div
+    article_of_the_day: "#bodyContent div:nth-child(7) div:nth-child(1) div:nth-child(1) div:nth-child(2)"
+    news_items: "#bodyContent div:nth-child(8) div:nth-child(2) div:nth-child(1) div:nth-child(2)"
 sv:
   mobile_main_page: Portal:Huvudsida_%28mobil%29
