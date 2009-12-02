@@ -228,6 +228,17 @@ body {
     width: 83px; }
 
 
+#disableButtons {
+  text-align: center; }
+  #disableButtons button {
+    background: url(/images/buttonbg.gif) no-repeat center;
+    border: 0;
+    height: 23px;
+    width: 83px; }
+  #disableButtons #backButton {
+    margin-top: 5em; }
+
+
 .notice {
   padding: 5px;
   background: #ddd;

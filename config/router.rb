@@ -61,6 +61,8 @@ Merb::Router.prepare do
   #match("/statistics/:action").to(:controller => "statistics")
   
   match("/donate").to(:controller => "information", :action => "donate")
+  match(/\/disable\/(.*)/).to(:controller => "information", :action => "disable", :title =>"[1]")
+  match("/disable").to(:controller => "information", :action => "disable")
   
   match("/").to(:controller => "articles", :action => "home")
 

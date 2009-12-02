@@ -44,8 +44,16 @@ module Merb
       CGI::escape(path)
     end
 
+    def redirect_url
+      %|#{path_site}/w/mobileRedirect.php|
+    end
+
     def temp_url(path)
-      %|#{path_site}/w/mobileRedirect.php?to=#{path_site}/wiki/#{path_encoded(path)}|
+      %|#{redirect_url}?to=#{path_site}/wiki/#{path_encoded(path)}|
+    end
+
+    def disable_url(path)
+      %|/disable/#{path_encoded(path)}|
     end
 
     def perm_url(path)
@@ -59,7 +67,7 @@ module Merb
     def stop_redirect_notice(path)
 %|<a href="#{temp_url(path)}">#{language_object["regular_wikipedia"]}</a>
   <div id="perm">
-    <a href="#{perm_url(path)}">#{language_object["perm_stop_redirect"]}</a>
+    <a href="#{disable_url(path)}">#{language_object["perm_stop_redirect"]}</a>
   </div>|
     end
     

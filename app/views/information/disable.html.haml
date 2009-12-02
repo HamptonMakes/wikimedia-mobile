@@ -1,0 +1,13 @@
+%h1
+  = language_object['are_you_sure']
+%p
+  = language_object['explain_disable']
+
+#disableButtons
+  %form{:action => redirect_url, :method => "get"}
+    %input{:type => "hidden", :name => "to", :value => "#{path_site}/wiki/#{path_encoded(@path)}"}
+    %input{:type => "hidden", :name => "expires_in_days", :value => "#{365 * 10}"}
+    %button#disableButton{:type => "submit"}= language_object['disable_button']
+
+  %form{:action => "/wiki/#{@path}", :method => "get" }
+    %button#backButton{:type => "submit"}= language_object['back_button']
