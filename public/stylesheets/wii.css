@@ -177,6 +177,9 @@ img.thumbborder {
 .floatright {
   float: right; }
 
+#content_wrapper.home h1#firstHeading {
+  display: none; }
+
 .thumb {
   margin: 0.5em 0; }
 

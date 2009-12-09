@@ -8,6 +8,14 @@ class Merb::Request
     @device ||= Device.new(self)
   end
   
+  def action_name
+    @action_name ||= "show"
+  end
+  
+  def action_name=(act)
+    @action_name = act
+  end
+  
   def preferred_format
     params[:format_name] if params[:format_name]
   end

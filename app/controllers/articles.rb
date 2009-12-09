@@ -9,6 +9,8 @@ class Articles < Application
     # instead of the Article level... as articles are done.
     cache_block do
       
+      request.action_name = "home"
+      
       # If we have a specific mobile_main_page
       # maintained at the wiki-admin level, then
       # we render home as if its an article.
@@ -24,6 +26,7 @@ class Articles < Application
         if current_wiki['selectors']
           @main_page = Wikipedia.main_page(request.language_code)
         end
+        
         # If we don't have selectors or a mobile_main_page
         # then we just display a search box with nothing below.
         # The home template should know what to do with no
