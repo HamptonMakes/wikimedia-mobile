@@ -29,7 +29,8 @@ module Parsers
                           ".boilerplate",
                           "#id-articulo-destacado",
                           "#coordinates",
-                          "#top"
+                          "#top",
+                          ".hiddenStructure"
                         ]
 
       page = article.raw_document || Nokogiri::XML(article.raw_html)
