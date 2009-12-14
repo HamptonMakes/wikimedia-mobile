@@ -2,18 +2,27 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: McDutchie
+are_you_sure: Es tu secur?
+back_button: Retro
 back_to_top_of_section: Retroceder un section
 copyright: Le texto es disponibile sub le licentia <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Attribution/Share-Alike de Creative Commons</a>; altere clausulas pote applicar se. Vide le <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>conditiones de uso</a> pro detalios. Wikipedia es un marca registrate de <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, un organisation sin scopo lucrative.
+disable_button: Disactivar
 error_page_text: Wikipedia mobile es ancora sub disveloppamento active e nos labora intensemente pro reparar tote nostre errores interne. Nos ha essite notificate de iste error e nos lo corrigera tosto. Per favor revisita!
 error_page_title: Nos ha un problema!
+explain_disable: Es tu secur de voler disactivar le version mobile de Wikipedia? Si tu selige <b>Disactivar</b>, alora, quando tu visita Wikipedia, tu non essera plus redirigite verso iste version mobile de Wikipedia.
 featured_article: Le articulo del die
 hide_button: Celar
 home_button: Initio
 in_the_news: Actualitates
+nav_edit: Modificar
+nav_end: Fin
+nav_history: Historia
+nav_top: Alto
 no_article_found: Nulle articulo trovate
 perm_stop_redirect: Disactivar permanentemente le sito mobile
 random_button: Aleatori
 regular_wikipedia: Vider iste pagina in Wikipedia normal
 search_results: Resultatos del recerca
 search_submit: Ir
+search_text: Cercar
 show_button: Revelar

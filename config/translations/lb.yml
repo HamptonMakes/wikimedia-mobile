@@ -2,18 +2,24 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: Robby
+are_you_sure: Sidd Dir sécher???
+back_button: Zréck
 back_to_top_of_section: En Abschnitt zrécksprangen
 copyright: Den Text ass ënner der <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike Lizens</a> disponibel; zousätzlech Konditiounen kënne gëllen. Kuckt <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Notzungsbedingungen</a> fir méi Detailer. Wikipedia ass eng registréiert Marque vun der <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, enger Organisatioun ouni Gewënnzweck.
+disable_button: Ausschalten
 error_page_text: Wikipedia-Mobil gëtt nach ëmmer weiderentwéckelt a mir schaffen drun fir all eis intern Feeler ze verbesseren. Mir goufe vun dësem Feeler informéiert a wäerten en esou séier wéi méiglech verbesseren. Versicht et w.e.g. geschwënn nachemol!
 error_page_title: Mir hunn e Problem!
 featured_article: Den Artikel vum Dag
 hide_button: Verstoppen
 home_button: Haaptsäit
 in_the_news: An den Noriichten
+nav_edit: Änneren
+nav_end: Schluss
 no_article_found: Keen Artikel fonnt
 perm_stop_redirect: Mobile Site dauerhaft ausschalten
 random_button: Zoufall
 regular_wikipedia: Dës Säit als klassesch Wikiedia-Säit weisen
 search_results: Reaultater vun der Sich
 search_submit: Lass
+search_text: Sichen
 show_button: Weisen

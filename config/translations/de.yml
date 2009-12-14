@@ -4,18 +4,27 @@
 # Author: Hcatlin
 # Author: Pill
 # Author: Umherirrender
+are_you_sure: Bist du dir sicher?
+back_button: Zurück
 back_to_top_of_section: Ein Abschnitt zurück springen
 copyright: Der Text ist unter der Lizenz <a class='internal' href='http://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Commons_Attribution-ShareAlike_3.0_Unported'>„Creative Commons Attribution/Share-Alike“</a> verfügbar; zusätzliche Bedingungen können anwendbar sein. Einzelheiten sind in den <a class='internal' href='http://wikimediafoundation.org/wiki/Nutzungsbedingungen'>Nutzungsbedingungen</a> beschrieben. Wikipedia® ist eine eingetragene Marke der <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation Inc.</a>
+disable_button: Deaktivieren
 error_page_text: Die mobile Wikipedia-Version befindet sich noch in der Entwicklung und wir bemühen uns, noch bestehende interne Fehler zu beheben. Wir wurden über diesen Fehler informiert und werden das Problem in Kürze lösen. Bitte versuche es in einiger Zeit noch einmal.
 error_page_title: Es gibt ein Problem!
+explain_disable: Bist du dir sicher, die mobile Wikipedia-Version zu deaktivieren? Wenn du <b>Deaktivieren</b> wählst, wirst du von nun an bei einem Besuch von Wikipedia nicht mehr automatisch auf die mobile Wikipedia-Version weitergeleitet.
 featured_article: Artikel des Tages
 hide_button: Ausblenden
 home_button: Start
 in_the_news: In den Nachrichten
+nav_edit: Bearbeiten
+nav_end: Ende
+nav_history: Versionsgeschichte
+nav_top: Oben
 no_article_found: Es existiert kein Artikel
 perm_stop_redirect: Mobile Version dauerhaft deaktivieren
 random_button: Zufall
 regular_wikipedia: Zur klassischen Wikipedia-Version wechseln
 search_results: Suchergebnisse
 search_submit: Los
+search_text: Suche
 show_button: Zeige
