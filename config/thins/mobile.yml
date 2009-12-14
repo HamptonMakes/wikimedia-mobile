@@ -14,5 +14,5 @@ group: deploy
 tag: cluster
 
 rackup: /srv/mobile/current/config.ru
-servers: 30
+servers: 25
 daemonize: true
