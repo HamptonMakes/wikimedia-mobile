@@ -1,48 +1,95 @@
+#
+#  ================= WIKIPEDIA MAIN PAGE REFERENCE ===================
+#
+# Wikipedia home pages have lots of different characteristics as each
+# is maintained by their respective communities. This document is an
+# attempt at bringing some order to that system. We are attempting to
+# keep here functioning CSS selectors and Main_Page names for each
+# of the major Wikipedia languages.
+#
+# ==== SELECTORS ====
+#
+# Selectors are CSS2 selectors that are used to identify common elements on different
+# Wikipedia home pages.
+#
+# Each language can have any number of the following selectors.
+# Listed is the key name *AND* the preferred selector
+#
+#       featured_article:       "#mp-tfa"
+#       news_items:             "#mp-itn"
+#       on_this_day:            "#mp-otd"
+#       featured_picture:       "#mp-tfp"
+#       facts:                  "#mp-dyk"
+#       good_article:           "#mp-tfga"
+#       quote_of_the_day:       "#mp-qotd"
+#
+#
+# === AUTHOR ===
+# 
+#  This list was created and is maintained by Hampton Catlin (hcatlin@wikimedia.org)
+#  Contact him with any issues.
+#
+
 --- 
 en: 
   main_page: Main_Page
   selectors: 
-    article_of_the_day: "#mp-tfa"
+    featured_article: "#mp-tfa"
     news_items: "#mp-itn"
+    on_this_day: "#mp-otd"
+    featured_picture: "#mp-tfp"
+    facts: "#mp-dyk"
+
 de: 
   main_page: Wikipedia:Hauptseite
   selectors: 
-    article_of_the_day: "#hauptseite-artikel .inhalt"
+    featured_article: "#hauptseite-artikel .inhalt"
     news_items: "#hauptseite-nachrichten .inhalt"
-fr: 
+
+es: 
+  main_page: Wikipedia:Portada
+  selectors:
+    featured_article: "#mp-tfa"
+    news_items: "#mp-itn"
+    on_this_day: "#mp-otd"
+    featured_picture: "#mp-tfp"
+    facts: "#mp-dyk"
+    good_article: "#mp-tfga"
+    quote_of_the_day: "#mp-qotd"
+
+fr:
   main_page: Accueil
   selectors: 
-    article_of_the_day: "#accueil-lumieresur"
+    featured_article: "#accueil-lumieresur"
     news_items: "#accueil-actualite"
+    facts: "#SaviezVous"
+    featured_picture: "#ImageDuJour"
+
 pl: 
   main_page: "Strona_g\xC5\x82\xC3\xB3wna"
   selectors: 
-    article_of_the_day: "div[style='padding: 5px; font-size: 9pt;']"
+    featured_article: "div[style='padding: 5px; font-size: 9pt;']"
     news_items: "#bodyContent :nth-child(7) :nth-child(5)"
-es: 
-  main_page: Wikipedia:Portada
-  selectors: 
-    article_of_the_day: "#bodyContent table:nth-child(6) table:nth-child(1) tr:nth-child(2)"
-    news_items: "#bodyContent table:nth-child(6) table:nth-child(1) tr:nth-child(8)"
+
 pt: 
   main_page: "P\xC3\xA1gina_principal"
   selectors: 
-    article_of_the_day: "#bodyContent table:nth-child(1) tr:nth-child(2)"
+    featured_article: "#bodyContent table:nth-child(1) tr:nth-child(2)"
     news_items: "#bodyContent div table:nth-child(1) tr:nth-child(2)"
 nl: 
   main_page: Hoofdpagina
   selectors: 
-    article_of_the_day: tr:nth-child(4) table.radius:nth-child(1) tr:nth-child(3) td:nth-child(1) div:nth-child(1)
+    featured_article: tr:nth-child(4) table.radius:nth-child(1) tr:nth-child(3) td:nth-child(1) div:nth-child(1)
     news_items: tr:nth-child(4) table.radius:nth-child(2) tr:nth-child(3) td:nth-child(1) div:nth-child(1)
 fi: 
   main_page: Wikipedia:Etusivu
   selectors: 
-    article_of_the_day: "#bodyContent table tr:nth-child(2) td:nth-child(1) div:nth-child(2) div:nth-child(2)"
+    featured_article: "#bodyContent table tr:nth-child(2) td:nth-child(1) div:nth-child(2) div:nth-child(2)"
     news_items: "#bodyContent table tr:nth-child(2) td:nth-child(2) div:nth-child(1) div:nth-child(2)"
 it: 
   main_page: Pagina_principale
   selectors: 
-    article_of_the_day: "#bodyContent div:nth-child(7) div:nth-child(1) div:nth-child(1) div:nth-child(2)"
+    featured_article: "#bodyContent div:nth-child(7) div:nth-child(1) div:nth-child(1) div:nth-child(2)"
     news_items: "#bodyContent div:nth-child(8) div:nth-child(2) div:nth-child(1) div:nth-child(2)"
 sv:
   mobile_main_page: Portal:Huvudsida_%28mobil%29
