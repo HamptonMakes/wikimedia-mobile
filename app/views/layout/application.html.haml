@@ -16,7 +16,7 @@
   %body
     - if (params['searchBar'] || "") != "false"
       = partial("layout/search_".force_encoding("UTF-8") + request.device.search_bar) if request.device.search_bar
-    #content_wrapper{:class => request.action_name}
+    #content_wrapper{:class => [request.action_name, current_wiki]}
       = catch_content :for_layout
     #footer
       - if params['footmenu'] != "false"

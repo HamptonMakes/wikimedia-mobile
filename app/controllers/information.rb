@@ -5,6 +5,7 @@ class Information < Application
     params[:footmenu] = "false"
     render
   end
+
   def disable
     @title = ""
     @path = params[:title] || ""
