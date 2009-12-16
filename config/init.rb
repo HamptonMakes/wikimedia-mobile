@@ -51,6 +51,7 @@ Merb::BootLoader.before_app_loads do
   Merb.push_path(:merb_extensions, Merb.root / "merb/extensions", "**/*.rb")  
   Merb.push_path(:lib, Merb.root / "lib", "**/*.rb")
   require Merb.root / 'lib' / 'object.rb'
+  require Merb.root / 'lib' / 'compression.rb'
   require 'moneta'
   require 'moneta/memcache'
   

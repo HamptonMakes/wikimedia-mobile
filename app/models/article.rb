@@ -20,6 +20,7 @@ class Article < Wikipedia::Resource
   # Caching whete
   def has_search_results?
     if (@html = Cache[key])
+      @html = @html.unzip
       Merb.logger.debug("KEY: #{key}")
       Merb.logger[:cache_hit] = true
       return false
@@ -50,6 +51,7 @@ class Article < Wikipedia::Resource
     time_to "lookup in cache" do
       Merb.logger.debug("KEY: #{key}")
       if (@html = Cache[key])
+        @html = @html.unzip
         Merb.logger[:cache_hit] = true
         return @html.force_encoding("UTF-8")
       else
@@ -73,7 +75,7 @@ class Article < Wikipedia::Resource
     (@html = @html.force_encoding("UTF-8"))
     
     time_to "store in cache" do
-      Cache.store(key, @html, :expires_in => 60 * 60 * 2)
+      Cache.store(key, @html.zip, :expires_in => 60 * 60 * 2)
     end
     
     return @html.force_encoding("UTF-8")
@@ -92,7 +94,7 @@ class Article < Wikipedia::Resource
   end
   
   def key
-    @key ||= "#{@server.host}|#{@title}|#{device.view_format}|#{device.supports_javascript}".gsub(" ", "-")
+    @key ||= "#{@server.language_code}|#{@title[0..150]}|#{device.view_format}|#{device.supports_javascript}".gsub(" ", "-")
   end
 
 end

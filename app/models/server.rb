@@ -52,19 +52,11 @@ class Server
         else
           Merb.logger[:wikipedia_cache_hit] = false
         end
-
+        
         body = nil
 
         time_to "decompress downloaded article" do
-
-          begin 
-            gz = Zlib::GzipReader.new( StringIO.new( result.body_str ) )
-            body = gz.read
-          rescue Zlib::GzipFile::Error
-            # If its not looking gzipped, just display it
-            body = result.body_str
-          end
-          
+          body = result.body_str.unzip
           body = body.force_encoding("UTF-8")
         end
         
