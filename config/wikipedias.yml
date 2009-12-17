@@ -68,8 +68,13 @@ fr:
 pl: 
   main_page: "Strona_g\xC5\x82\xC3\xB3wna"
   selectors: 
-    featured_article: "div[style='padding: 5px; font-size: 9pt;']"
-    news_items: "#bodyContent :nth-child(7) :nth-child(5)"
+    featured_article: "#mp-tfa"
+    news_items: "#mp-itn"
+    on_this_day: "#mp-otd"
+    featured_picture: "#mp-tfp"
+    facts: "#mp-dyk"
+    good_article: "#mp-tfga"
+    quote_of_the_day: "#mp-qotd"
 
 pt: 
   main_page: "P\xC3\xA1gina_principal"
@@ -79,8 +84,14 @@ pt:
 nl: 
   main_page: Hoofdpagina
   selectors: 
-    featured_article: tr:nth-child(4) table.radius:nth-child(1) tr:nth-child(3) td:nth-child(1) div:nth-child(1)
-    news_items: tr:nth-child(4) table.radius:nth-child(2) tr:nth-child(3) td:nth-child(1) div:nth-child(1)
+    featured_article: "#mp-tfa"
+    news_items: "#mp-itn"
+    on_this_day: "#mp-otd"
+    featured_picture: "#mp-tfp"
+    facts: "#mp-dyk"
+    good_article: "#mp-tfga"
+    quote_of_the_day: "#mp-qotd"
+
 fi: 
   main_page: Wikipedia:Etusivu
   selectors: 

@@ -12,9 +12,9 @@ require 'merb-haml'
 require 'nokogiri'
 require 'mime/types'
 
-begin 
+begin
   require 'curb'
-rescue 
+rescue
   puts "no curb installed.. using open-uri"
 end
 

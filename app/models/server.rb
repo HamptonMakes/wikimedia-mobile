@@ -79,7 +79,13 @@ class Server
           Curl::Easy.perform(base_url + path) do |curl|
             # This configures Curl::Easy to follow redirects
             curl.follow_location = true
-            curl.headers = {"Accept-Encoding" => "compress, gzip"}
+            curl.headers = {"Accept-Encoding" => "gzip,deflate",
+                            "User-Agent" => "Mozilla/5.0 Wikimedia Mobile",
+                            "Accept-Charset" => "utf-8;q=0.7,*;q=0.7",
+                            "Accept-Language" => "en-us,en;q=0.5",
+                            "Keep-Alive" => "300",
+                            "Connection" => "keep-alive",
+                            "Cookie" => "__utma=154748705.92078747.1238860615.1259773473.1260439590.33; __utmz=154748705.1258499043.27.3.utmcsr=localhost:9292|utmccn=(referral)|utmcmd=referral|utmcct=/"}
           end
         rescue Curl::Err::HostResolutionError, Curl::Err::GotNothingError, Curl::Err::ConnectionFailedError,  Curl::Err::PartialFileError
           Merb.logger.error("Could not connect to " + base_url + path)

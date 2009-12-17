@@ -14,11 +14,14 @@ module Wikipedia
     setting = self.settings[language_code] || ((language_code = "en") && self.settings["en"] )
 
     aserver = Server.new(language_code)
+    #Merb.logger.debug("Loading /wiki/#{setting['main_page']}")
     html = aserver.fetch( "/wiki/#{setting['main_page']}" )[:body]
     parser = Nokogiri::XML(html)
-    
+
+    #Merb.logger.debug(html.include?("mp-tfa").inspect)
+
     results = {}
-    
+
     (setting["selectors"] || []).each do |key, value|
       #require 'ruby-debug'; debugger
       node = parser.css(value).first
