@@ -37,7 +37,7 @@ class Article < Wikipedia::Resource
   def suggestions
     @suggestions ||= Parsers::XHTML.suggestions(self)
   end
-  
+
   # TODO: Get better file handling, right now I'm just calling back to regular HTML parser
   def file(device)
     @device = device
@@ -47,7 +47,7 @@ class Article < Wikipedia::Resource
 
   def html
     return @html if @html 
-    
+
     time_to "lookup in cache" do
       Merb.logger.debug("KEY: #{key}")
       if (@html = Cache[key])
