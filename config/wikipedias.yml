@@ -75,7 +75,6 @@ pl:
     facts: "#mp-dyk"
     good_article: "#mp-tfga"
     quote_of_the_day: "#mp-qotd"
-
 pt: 
   main_page: "P\xC3\xA1gina_principal"
   selectors: 
