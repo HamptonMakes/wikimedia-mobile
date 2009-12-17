@@ -68,8 +68,8 @@ fr:
 pl: 
   main_page: "Strona_g\xC5\x82\xC3\xB3wna"
   selectors: 
-    featured_article: "div[style='padding: 5px; font-size: 9pt;']"
-    news_items: "#bodyContent :nth-child(7) :nth-child(5)"
+    featured_article: "#mp-tfa"
+    news_items: "#mp-itn"
 
 pt: 
   main_page: "P\xC3\xA1gina_principal"
