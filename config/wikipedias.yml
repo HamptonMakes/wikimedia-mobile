@@ -97,9 +97,6 @@ fi:
     featured_article: "#bodyContent table tr:nth-child(2) td:nth-child(1) div:nth-child(2) div:nth-child(2)"
     news_items: "#bodyContent table tr:nth-child(2) td:nth-child(2) div:nth-child(1) div:nth-child(2)"
 it: 
-  main_page: Pagina_principale
-  selectors: 
-    featured_article: "#bodyContent div:nth-child(7) div:nth-child(1) div:nth-child(1) div:nth-child(2)"
-    news_items: "#bodyContent div:nth-child(8) div:nth-child(2) div:nth-child(1) div:nth-child(2)"
+  mobile_main_page: Pagina_Principale_%28mobile%29
 sv:
   mobile_main_page: Portal:Huvudsida_%28mobil%29
