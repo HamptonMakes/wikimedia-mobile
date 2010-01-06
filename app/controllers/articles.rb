@@ -128,9 +128,9 @@ class Articles < Application
   end
 
  protected
-  
+  # This is URI encoded.
   def current_name
-    @name ||= (params[:search] || params[:title] || params[:file] || "").gsub("_", " ")
+    @name ||= (params[:search] || params[:title] || params[:file] || "")
   end
   
   def cache_key
