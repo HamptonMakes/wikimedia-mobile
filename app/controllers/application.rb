@@ -22,4 +22,21 @@ class Application < Merb::Controller
     @title || "Wikipedia"
   end
 
+  ## URI helpers
+  #
+  # Encode a query part. Much like CGI:escape, but retains +
+  # For ?title=http:// --> ?title=http%3A%2F%2F
+  def encode_query_component(value)
+    URI::escape(value, Regexp.new("[^#{URI::PATTERN::UNRESERVED}]"))
+  end
+
+  def decode_query_component(value)
+    URI::unescape(value, Regexp.new("[^#{URI::PATTERN::UNRESERVED}]"))
+  end
+
+  # URLs printed in HTML need & -> &amp;
+  def url_to_html(url)
+    CGI::escapeHTML(url)
+  end
+
 end
