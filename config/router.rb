@@ -27,7 +27,6 @@
 
 Merb.logger.info("Compiling routes...")
 Merb::Router.prepare do
-  match("/sr-ec").redirect("/wiki")
 
   with(:controller => "articles") do
     match(/\/wiki\/File:(.*)/).to(:action => "file", :file => "[1]")
