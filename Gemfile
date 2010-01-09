@@ -16,13 +16,15 @@ gem "gchartrb", nil, :require_as => "google_chart"
 gem "sinatra", "0.9.4"
 gem "mime-types", nil, :require_as => "mime/types"
 gem "moneta", "0.6.0"
+gem "json_pure"
+gem "yaml"
 
-gem "merb-core",        merb_gems_version, :source => "http://edge.merbivore.com"
-gem "merb-assets",      merb_gems_version, :source => "http://edge.merbivore.com"
-gem "merb-cache",       merb_gems_version, :source => "http://edge.merbivore.com"
-gem "merb-haml",        merb_gems_version, :source => "http://edge.merbivore.com"
-gem "merb-mailer",      merb_gems_version, :source => "http://edge.merbivore.com"
-gem "merb-exceptions",  merb_gems_version, :source => "http://edge.merbivore.com"
+gem "merb-core",        merb_gems_version
+gem "merb-assets",      merb_gems_version
+gem "merb-cache",       merb_gems_version
+gem "merb-haml",        merb_gems_version
+gem "merb-mailer",      merb_gems_version
+gem "merb-exceptions",  merb_gems_version
 
 #only :test do
   gem "thin"
