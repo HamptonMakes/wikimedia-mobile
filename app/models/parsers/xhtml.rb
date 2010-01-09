@@ -47,10 +47,6 @@ module Parsers
       # Remove all of the medialists
       doc.css(".medialist").each { |m| m.parent.remove }
     
-      # For getting the human-readable title of the page
-      # grab what's in the .first-heading div
-      article.title = doc.css(".firstHeading").first.inner_html
-
       # Ah, hot and fresh html from the parser
       html = doc.to_xhtml
 

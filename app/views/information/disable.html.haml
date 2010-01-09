@@ -5,7 +5,7 @@
 
 #disableButtons
   %form{:action => redirect_url, :method => "get"}
-    %input{:type => "hidden", :name => "to", :value => "#{path_site}/wiki/#{path_encoded(@path)}"}
+    %input{:type => "hidden", :name => "to", :value => encode_query_component(path_site + "/wiki/" + URI::decode(@path))}
     %input{:type => "hidden", :name => "expires_in_days", :value => "#{365 * 10}"}
     %button#disableButton{:type => "submit"}= language_object['disable_button']
 
