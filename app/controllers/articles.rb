@@ -45,6 +45,14 @@ class Articles < Application
   end
   
   def show
+
+    if /action=([^&]*)/.match(request.env["QUERY_STRING"]) then
+        wikiaction = $1
+        if wikiaction != "" && wikiaction != "view" then
+          redirect "http://#{request.language_code}.wikipedia.org/w/index.php?"+request.env["QUERY_STRING"] + "&useskin=chick"
+        end
+    end
+
     if current_name == ""
       redirect(home_page_path)
     else
