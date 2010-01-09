@@ -4,7 +4,7 @@ environment: development
 address: 0.0.0.0
 port: 3000
 timeout: 30
-log: log/thin.log
+log: ../log/thin.log
 pid: tmp/pids/thin.pid
 max_conns: 1024
 max_persistent_conns: 512
