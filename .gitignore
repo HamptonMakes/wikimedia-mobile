@@ -1,4 +1,7 @@
 .DS_Store
+bin/*
+vendor/gems/*
+!vendor/gems/cache/
 log/*
 tmp/*
 stats/tmp

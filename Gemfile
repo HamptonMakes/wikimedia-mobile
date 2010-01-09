@@ -17,7 +17,6 @@ gem "sinatra", "0.9.4"
 gem "mime-types", nil, :require_as => "mime/types"
 gem "moneta", "0.6.0"
 gem "json_pure"
-gem "yaml"
 
 gem "merb-core",        merb_gems_version
 gem "merb-assets",      merb_gems_version

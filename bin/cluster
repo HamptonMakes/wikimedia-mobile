@@ -16,7 +16,7 @@ trap "echo Trapped!" USR1
 
 # Do NOT "set -e"
 
-DAEMON=/usr/bin/thin
+DAEMON=/srv/mobile/current/bin
 SCRIPT_NAME=/srv/mobile/current/bin/cluster
 CONFIG_PATH=/srv/mobile/current/config/thins
 
