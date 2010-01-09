@@ -58,25 +58,18 @@ namespace :manage do
   task :build do
     as_sudo_user
 
-    #install
-    #setup_user
+    apt_install
+    install_ruby
+
+    setup_deploy_user
 
     deploy.setup
     sudo "chown -R deploy:deploy /srv/*"
-    
-    run "whoami"
 
     #  Need a fresh env to run as deploy
     `cap deploy:update`
-    
-    #sudo "chmod"
 
     configure
-  end
-  
-  task :install do
-    apt_install
-    install_ruby
   end
   
   task :apt_install do
@@ -97,9 +90,9 @@ namespace :manage do
       mobile-ruby setup.rb|.split("\n").join(";"))
     sudo "mobile-gem install bundler"
   end
-  
+
   desc "Create the deploy user"
-  task :setup_user do
+  task :setup_deploy_user do
     as_sudo_user
     #sudo "useradd -m deploy"
     #sudo "mkdir ~deploy/.ssh"
@@ -107,7 +100,7 @@ namespace :manage do
     sudo "mv deploy.keys ~deploy/.ssh/authorized_keys"
     sudo "chown -R deploy ~deploy/.ssh"
   end
-  
+
   # Can be run as often as you like
   desc("Configure the server, can be re-run often if you like")
   task :configure do
