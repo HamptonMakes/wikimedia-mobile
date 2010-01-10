@@ -1,4 +1,9 @@
+
+puts RUBY_VERSION
 require 'rubygems'
+
+require "../vendor/gems/ruby/1.9.1/environment"
+
 require 'sinatra'
 
 Sinatra::Application.default_options.merge!(

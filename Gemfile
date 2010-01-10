@@ -16,10 +16,10 @@ gem "mime-types", nil, :require_as => "mime/types"
 gem "moneta", "0.6.0"
 gem "json_pure"
 
-#gem "dm-core", dm_gems_version
-#gem "do_mysql", ""
-
 gem "thin"
+gem "dm-core", dm_gems_version
+gem "dm-aggregates", dm_gems_version
+gem "do_mysql", do_gems_version
 
 gem "merb-core",        merb_gems_version
 gem "merb-assets",      merb_gems_version

@@ -1,4 +1,5 @@
 .DS_Store
+build_options.yml
 vendor/gems/ruby/1.9.1/*
 !vendor/gems/ruby/1.9.1/cache
 bin/*
