@@ -17,8 +17,7 @@ namespace :deploy do
   end
   
   task :restart do
-    deploy.stop
-    deploy.start
+    run "#{current_path}/bin/cluster restart"
   end
   
   task :start do

@@ -63,9 +63,9 @@ module Merb
     end
 
     def stop_redirect_notice(path)
-      %|<a href="#{temp_url(path)}">#{language_object["regular_wikipedia"]}</a>
+      %|<a href="#{temp_url(path)}">#{language_object["regular_wikipedia"].force_encoding("UTF-8")}</a>
   <div id="perm">
-    <a href="#{disable_url(path)}">#{language_object["perm_stop_redirect"]}</a>
+    <a href="#{disable_url(path)}">#{language_object["perm_stop_redirect"].force_encoding("UTF-8")}</a>
   </div>|
     end
     
