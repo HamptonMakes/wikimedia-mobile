@@ -16,7 +16,7 @@ trap "echo Trapped!" USR1
 
 # Do NOT "set -e"
 
-DAEMON=/srv/mobile/current/bin/thin
+DAEMON=/srv/mobile/current/bin/unstoppable_thin
 SCRIPT_NAME=/srv/mobile/current/bin/cluster
 CONFIG_PATH=/srv/mobile/current/config/thins
 
@@ -25,13 +25,13 @@ CONFIG_PATH=/srv/mobile/current/config/thins
 
 case "$1" in
   start)
-	$DAEMON start --all $CONFIG_PATH
+	ruby $DAEMON start --all $CONFIG_PATH
 	;;
   stop)
 	pkill -9 thin
 	;;
   restart)
-	$DAEMON restart --all $CONFIG_PATH
+	ruby $DAEMON restart --all $CONFIG_PATH
 	;;
   *)
 	echo "Usage: $SCRIPT_NAME {start|stop|restart}" >&2

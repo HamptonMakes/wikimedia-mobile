@@ -5,7 +5,7 @@ merb_gems_version = "1.1"
 dm_gems_version   = "0.10.1"
 do_gems_version   = "0.10.0"
 
-disable_system_gems
+#disable_system_gems
 
 gem "memcache-client", "1.7.5", :require_as => []
 gem "curb", "0.5.4.0"
@@ -19,7 +19,8 @@ gem "json_pure"
 gem "thin"
 gem "dm-core", dm_gems_version
 gem "dm-aggregates", dm_gems_version
-gem "do_mysql", do_gems_version
+#gem "do_mysql", :bundle => false
+#gem "mysql", :bundle => false
 
 gem "merb-core",        merb_gems_version
 gem "merb-assets",      merb_gems_version
