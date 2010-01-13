@@ -4,6 +4,7 @@ set :repository,  "git://github.com/hcatlin/wikimedia-mobile.git"
 set :scm, :git
 set :user, "deploy"
 set :deploy_to, "/srv/#{application}"
+set :branch, "stable"
 
 role :web, "mobile1.wikimedia.org"
 role :cache, "mobile1.wikimedia.org"
@@ -15,9 +16,7 @@ namespace :deploy do
   end
   
   task :restart do
-    #deploy.gems
-    deploy.stop
-    deploy.start
+    run "#{current_path}/bin/cluster restart"
   end
   
   task :start do
