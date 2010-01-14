@@ -21,5 +21,6 @@ src/*
 .hg/*
 .svn/*
 .*.swp
+build_options.yml
 .project
 .settings
