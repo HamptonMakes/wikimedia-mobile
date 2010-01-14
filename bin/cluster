@@ -31,7 +31,7 @@ case "$1" in
 	pkill -9 thin
 	;;
   restart)
-	$DAEMON restart --all $CONFIG_PATH
+	$DAEMON restart -O --all $CONFIG_PATH
 	;;
   *)
 	echo "Usage: $SCRIPT_NAME {start|stop|restart}" >&2
