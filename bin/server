@@ -7,4 +7,5 @@ trap("USR1") do
 end
 require 'rubygems'
 require 'thin'
+require '../lib/thin_connection.rb'
 Thin::Runner.new(ARGV).run!

@@ -41,6 +41,10 @@ Languages = {}
 
 Merb::BootLoader.before_app_loads do
   
+  if defined?(Thin)
+    #Thin::Logging.trace = true
+  end
+  
   Dir.glob("config/translations/**.yml").each do |file|
     code = file.split("/").last.split(".").first
     Languages[code] = YAML::load(open(file))
