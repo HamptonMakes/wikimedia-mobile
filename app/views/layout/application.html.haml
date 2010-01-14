@@ -11,8 +11,8 @@
     <link rel="apple-touch-icon" href="http://en.m.wikipedia.org/apple-touch-icon.png" />
     - if request.device.supports_javascript
       = partial "layout/javascript"
-      <script type="text/javascript" language="javascript" SRC="/javascript/jquery.js"></script>
-      <script type="text/javascript" language="javascript" SRC="/javascript/application.js"></script>
+      <script type="text/javascript" language="javascript" SRC="/javascripts/jquery.js"></script>
+      <script type="text/javascript" language="javascript" SRC="/javascripts/application.js"></script>
   %body
     - if (params['searchBar'] || "") != "false"
       = partial("layout/search_".force_encoding("UTF-8") + request.device.search_bar) if request.device.search_bar
