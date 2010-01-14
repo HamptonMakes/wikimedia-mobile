@@ -5,6 +5,6 @@
 trap("USR1") do
   puts "Trapped USR1"
 end
-
+require 'rubygems'
 require 'thin'
 Thin::Runner.new(ARGV).run!
