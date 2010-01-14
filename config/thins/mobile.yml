@@ -11,8 +11,7 @@ max_persistent_conns: 512
 require: []
 user: deploy
 group: deploy
-tag: cluster
 
 rackup: /srv/mobile/current/config.ru
-servers: 25
+servers: 35
 daemonize: true

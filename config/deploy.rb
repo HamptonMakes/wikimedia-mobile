@@ -16,7 +16,7 @@ namespace :deploy do
   end
   
   task :restart do
-    run "#{current_path}/bin/cluster restart"
+    run "#{current_path}/bin/server --onebyone -C config/thins/mobile.yml restart"
   end
   
   task :start do
