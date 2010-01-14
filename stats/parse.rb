@@ -8,7 +8,12 @@ def run_parser(path)
   file = log_file + "." + Time.now.to_i.to_s
 
   `mv #{log_file} #{file}`
-  `pkill -USR1 thin`
+  
+  pids = Dir["/srv/mobile/shared/pids/*"].collect do |pid_file|
+    File.open(pid_file).read
+  end
+  
+  `kill -USR1 #{pids.join(" ")}`
 
   stat = Stat.new(:time => Time.now, :time_length => "minute")
   
