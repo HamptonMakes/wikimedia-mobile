@@ -1,4 +1,8 @@
 .DS_Store
+build_options.yml
+vendor/gems/ruby/1.9.1/*
+!vendor/gems/ruby/1.9.1/cache
+bin/*
 log/*
 tmp/*
 stats/tmp
@@ -11,8 +15,6 @@ schema/*_structure.sql
 schema/*.sqlite3
 schema/*.sqlite
 schema/*.db
-bin
-gems
 *.sqlite
 *.sqlite3
 *.db

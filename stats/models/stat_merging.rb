@@ -83,7 +83,7 @@ module StatMerging
       
       # Recalculate if nil, if its today and its this hour or the hour before
       if hour.nil?
-        hour ||= StatSegment.new(:time_length => "hour", :time => date.to_s + " " + hour_number.to_s)
+        hour ||= StatSegment.new(:time_length => "hour", :time => date.to_s + " " + hour_number.to_s, :date => date)
         segments = Stat.minutes(date, hour_number)
         if segments.size == 0
           if((hour.hits != nil) && (hour.hits > 0)) # In case this is legacy
@@ -103,17 +103,16 @@ module StatMerging
     end
     
     def days
-      days = ($first_day..(Date.today - 1)).to_a
-      days.collect do |date|
-        StatSegment.day(date)
-      end
+      days = StatSegment.all(:conditions => ["time_length = ? AND DATE(time) >= ? AND DATE(time) < ?", "day", $first_day, (Date.today - 2)])
+      days.push(Stat.day(Date.today - 1)) # Add on yesterday
+      days
     end
   
     def day(date = Date.today)
       day = StatSegment.first(:conditions => ["DATE(time) = ? and time_length = ?", date, "day"])
     
       if day.nil? || date == Date.today || date == (Date.today - 1)
-        day ||= StatSegment.new(:time_length => "day", :time => date)
+        day ||= StatSegment.new(:time_length => "day", :time => date, :date => date)
         day.attributes = merge(hours(date))
         day.save
       end

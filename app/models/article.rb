@@ -83,7 +83,7 @@ class Article < Wikipedia::Resource
 
   def fetch!(*paths)
     if !paths.any?
-      paths = (@paths ||= ["/wiki/#{escaped_title}", "/wiki/Special:Search?search=#{uri_escaped_title}"])
+      paths = (@paths ||= ["/wiki/#{title}", "/wiki/Special:Search?search=#{uri_escaped_title}"])
     end
     super(*paths)
   end

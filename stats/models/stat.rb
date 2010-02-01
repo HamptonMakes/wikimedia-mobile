@@ -15,6 +15,7 @@ class StatSegment
   
   property :id, Serial
   property :time, Time, :index => true
+  property :date, Date, :index => true
   property :time_length, String, :index => true
   property :cache_hit_ratio, Float
   property :spider_cache_hit_ratio, Float

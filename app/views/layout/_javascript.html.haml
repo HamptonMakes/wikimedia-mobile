@@ -1,7 +1,7 @@
 
 - if @article
   :javascript
-    var title = "#{h @article.title.gsub("_", " ")}";
+    var title = "#{h @article.page_name}";
     var server = "#{@article.server.base_url}";
     function shouldCache() {
       return true;

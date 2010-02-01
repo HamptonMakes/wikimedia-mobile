@@ -1,5 +1,6 @@
 set :application, "mobile"
 set :repository,  "git://github.com/hcatlin/wikimedia-mobile.git"
+set :branch, "stable"
 
 set :scm, :git
 set :user, "deploy"
