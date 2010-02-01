@@ -79,6 +79,7 @@ class Server
           Curl::Easy.perform(base_url + path) do |curl|
             # This configures Curl::Easy to follow redirects
             curl.follow_location = true
+            curl.connect_timeout = 0.4
             curl.headers = {"Accept-Encoding" => "gzip,deflate",
                             "User-Agent" => "Mozilla/5.0 Wikimedia Mobile",
                             "Accept-Charset" => "utf-8;q=0.7,*;q=0.7",
