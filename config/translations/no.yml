@@ -3,17 +3,28 @@
 # Export driver: syck
 # Author: Hcatlin
 # Author: Laaknor
+# Author: Nghtwlkr
+are_you_sure: Er du sikker ???
+back_button: Tilbake
+back_to_top_of_section: Gå ett avsnitt tilbake
 copyright: Tekst er tilgjengelig under <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike Lisens</a>. Tillegg til lisensen kan gjelde. Se  <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>bruksvilkår</a> for detaljer. Wikipedia er et registrert varemerk av den ideele organisasjonen <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>.
+disable_button: Deaktiver
 error_page_text: Wikipedia mobil er fortsatt under aktiv utvikling og vi jobber hardt med å fikse alle våre interne feil. Vi har blitt varslet om denne feilen, og vil fikse den snart. Kom gjerne tilbake senere!
 error_page_title: Vi har et problem!
+explain_disable: Er du sikker på at du vil deaktivere den mobile utgaven av Wikipedia? Dersom du velger <b>Deaktiver</b> vil du fra nå av, hver gang du besøker Wikipedia, ikke lenger bli omdirigert til denne mobilvisningen av Wikipedia.
 featured_article: Dagens utvalgte artikkel
 hide_button: Skjul
 home_button: Hjem
 in_the_news: I nyhetene
+nav_edit: Rediger
+nav_end: Slutt
+nav_history: Historikk
+nav_top: Topp
 no_article_found: Ingen artikler funnet
 perm_stop_redirect: Deaktiver mobilside permanent
 random_button: Tilfeldig
 regular_wikipedia: Vis denne siden på vanlig Wikipedia
 search_results: Søkeresultater
 search_submit: Gå
+search_text: Søk
 show_button: Vis

@@ -2,14 +2,22 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: An13sa
+are_you_sure: Ziur zaude ???
+back_button: Atzera
+disable_button: Ezgaitu
 error_page_title: Arazo bat dugu!
 featured_article: Gaur Nabarmendutako Artikulua
 hide_button: Ezkutatu
 home_button: Azala
 in_the_news: Albisteetan
+nav_edit: Aldatu
+nav_end: Amaiera
+nav_history: Historia
+nav_top: Gora
 no_article_found: Ez da artikulurik aurkitu
 random_button: Ausazkoa
 regular_wikipedia: Ikusi orrialde hau Wikipedia arruntean
 search_results: Bilaketaren emaitzak
 search_submit: Joan
+search_text: Bilatu
 show_button: Erakutsi

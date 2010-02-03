@@ -10,11 +10,13 @@ copyright: Text je dostupný pod <a href="http://creativecommons.org/licenses/by
 disable_button: Vypnout
 error_page_text: Wikipedia Mobile se stále aktivně vyvíjí a my tvrdě pracujeme, abychom odstranili všechny chyby. O nastalém problému se už odeslalo hlášení, za chvilku to zkusíme opravit. Zkuste to znovu za chvíli!
 error_page_title: Máme problém!
+explain_disable: Chcete skutečně vypnout mobilní verzi Wikipedie? Pokud vyberete <b>Vypnout<b>, nebudete už při dalších návštěvách Wikipedie přesměrováni na tuto mobilní verzi Wikipedie.
 featured_article: Článek dne
 hide_button: Skrýt
 home_button: Domů
 in_the_news: Aktuality
 nav_edit: Upravit
+nav_end: Konec
 nav_history: Historie
 nav_top: Nahoru
 no_article_found: Článek nenalezen

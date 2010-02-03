@@ -2,18 +2,28 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: Fulup
+# Author: Y-M D
+are_you_sure: Ha sur oc'h ?
+back_button: Distreiñ
 back_to_top_of_section: Lammat ur rann war-gil
 copyright: Gallout a reer ober gant an destenn-mañ zo diouzh an <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Aotre Creative Commons/Aotre Rannañ Heñvel</a>; diferadurioù ouzhpenn a c'hall talvezout ivez. Gwelet <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>an doare implijout</a> evit gouzout hiroc'h. Ur merk marilhet gant <a href='http://www.wikimediafoundation.org/'>Diazezadur Wikimedia, Inc.</a>, anezhañ un aozadur hep pal arc'hant, eo Wikipedia.
+disable_button: Diweredekaat
 error_page_text: Emeur atav o diorren a-zevri Wikipedia hezoug ha strivañ a reomp evit diskoulmañ ar fazioù diabarzh. Kelaouet omp bet eus ar fazi-mañ ha talet e vo outañ prestik. Klaskit en-dro a-raok pell !
 error_page_title: Bastik, ur gudenn zo !
+explain_disable: Ha sur oc'h o peus c'hoant diweredekaat al lec'hienn hezoug eus Wikipedia ? Ma tibaboc'h <b>Diweredekaat</b>, neuze ne voc'h ket henchet ken war zu ar stumm hezoug pa zafec'h war Wikipedia.
 featured_article: Un tamm sell war...
 hide_button: Kuzhat
 home_button: Degemer
 in_the_news: Er C'heleier
+nav_edit: Kemmañ
+nav_end: Fin
+nav_history: Istor
+nav_top: Penn uhelañ
 no_article_found: Pennad ebet kavet
 perm_stop_redirect: Diweredekaat al lec'hienn hezoug da vat
 random_button: Dargouezhek
 regular_wikipedia: Diskouez ar bajenn-mañ war ar Wikipedia boas
 search_results: Disoc'hoù klask
 search_submit: Mont
+search_text: Klask
 show_button: Diskouez
