@@ -1,5 +1,5 @@
 if defined?(Thin)
-  module Thin::Connection
+  class Thin::Connection
      # Called when data is received from the client.
     def receive_data(data)
       trace { data }
