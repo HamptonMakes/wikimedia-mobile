@@ -5,10 +5,10 @@ module Parsers
       html= super(article, options) # Do everything xhtml does like rough cutting of content, setting of page title
       page = Nokogiri::HTML(html)
       idx= 0
-      toc= "<card id='toc' title='#{article.display_title}'>"
+      toc= "<card id='toc' title='#{article.display_name}'>"
       result= ""
       block=[]
-      block_title= article.display_title
+      block_title= article.display_name
       page.xpath("//h2|//p").each do |elem|
         case elem.name
         when "p"
