@@ -42,7 +42,7 @@ module ControllerExtensions
     end
 
     def clear_cache
-      Cache.clear
+      #Cache.clear
     end
 
     

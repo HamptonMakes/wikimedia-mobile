@@ -1,6 +1,6 @@
 #footmenu.nav
   .notice
     - if @article
-      = stop_redirect_notice(@article.page_name)
+      = stop_redirect_notice(@article.title)
     - else
       = stop_redirect_notice("")

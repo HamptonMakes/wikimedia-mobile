@@ -45,11 +45,10 @@ class Articles < Application
   end
   
   def show
-
     if /action=([^&]*)/.match(request.env["QUERY_STRING"]) then
         wikiaction = $1
         if wikiaction != "" && wikiaction != "view" then
-          redirect "http://#{request.language_code}.wikipedia.org/w/index.php?"+request.env["QUERY_STRING"] + "&useskin=chick"
+          redirect "http://#{request.language_code}.wikipedia.org/w/index.php?" + request.env["QUERY_STRING"] + "&useskin=chick"
         end
     end
 
@@ -78,7 +77,7 @@ class Articles < Application
       @article.to_hash(request.device)
     end
   end
-  
+
  private 
  
   def format_display_with_data(html = nil, &block)

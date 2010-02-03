@@ -5,11 +5,7 @@ module Wikipedia
   class Resource
     # String:title The requested title (normally URI encoded)
     attr :title, true
-    # String:display_title The human readable version of the title
-    attr :display_title, true
-    # String:page_name The canonical pagename of the article
-    attr :page_name, true
-    
+
     # String:path if path is set, then we are specifying where fetching happens to the server object
     attr :path, true 
     # String:html the place to cache and store html.. reading happens below
@@ -37,8 +33,6 @@ module Wikipedia
       @server = server_or_language.kind_of?(Server) ? server_or_language : Server.new(server_or_language)
       @title, @path, @device = title, path, device
       @loaded = false
-      @display_title = "ERROR: blank title"
-      @page_name = "ERROR: blank page_name"
     end
     
     def loaded?
@@ -57,14 +51,11 @@ module Wikipedia
       @raw_html = result[:body]
       @raw_document = Nokogiri::XML(@raw_html)
 
-      # For getting the human-readable title of the page
-      # grab what's in the .first-heading div
-      # Test with iPod and M<sup>+</sup>_Fonts
-      self.display_title = raw_document.css(".firstHeading").first.text
-
-      vars = raw_document.css('script:contains("wgPageName")').first.text
-      self.page_name = /^wgPageName=\"(.*)\"/.match( vars )[1]
       self.loaded = true
+    end
+    
+    def display_name
+      @unescaped_title ||= URI::unescape(title)
     end
 
    private
@@ -77,8 +68,7 @@ module Wikipedia
     end
 
     def uri_escaped_title
-      @unescaped_title ||= URI::unescape(escaped_title)
-      @uri_escaped_title ||= URI::escape(@unescaped_title, Regexp.new("[^#{URI::PATTERN::UNRESERVED}]"))
+      @uri_escaped_title ||= URI::escape(self.display_name, Regexp.new("[^#{URI::PATTERN::UNRESERVED}]"))
     end
   end
 end

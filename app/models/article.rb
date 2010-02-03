@@ -88,6 +88,7 @@ class Article < Wikipedia::Resource
     super(*paths)
   end
 
+
   def to_hash(device)
     @device = device
     {:title => self.title, :html => self.html}
