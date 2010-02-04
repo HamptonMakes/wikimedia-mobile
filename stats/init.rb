@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'dm-core'
 require 'dm-aggregates'
+require 'activesupport'
 
 $first_day = Date.parse("2009-06-20")
 

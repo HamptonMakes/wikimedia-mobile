@@ -29,6 +29,8 @@ gem "merb-haml",        merb_gems_version
 gem "merb-mailer",      merb_gems_version
 gem "merb-exceptions",  merb_gems_version
 
+gem "activesupport"
+
 #only :test do
   
   gem "rake"

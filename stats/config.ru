@@ -11,6 +11,11 @@ Sinatra::Application.default_options.merge!(
   #:env => 'production'
 )
 
+set :logging, true
+
+require 'dm-core'
+DataMapper::Logger.new(STDOUT, :debug)
+
 trap("USR1") do
 end
 

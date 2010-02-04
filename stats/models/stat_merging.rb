@@ -60,9 +60,9 @@ module StatMerging
     
     def minutes(date, hour_number = nil)
       if hour_number
-        Stat.all(:conditions => ["DATE(time) = ? AND time_length = ? AND HOUR(time) = ?", date, "minute", hour_number])
+        Stat.all(:conditions => ["time_length = ? AND DATE(time) = ? AND HOUR(time) = ?", "minute", date, hour_number])
       else
-        Stat.all(:conditions => ["DATE(time) = ? AND time_length = ?", date, "minute"])
+        Stat.all(:conditions => ["time_length = ? AND DATE(time) = ?", "minute", date])
       end
     end
     
@@ -73,31 +73,34 @@ module StatMerging
         last_hour_to_track = Time.now.hour
       end
       
-      ((0..last_hour_to_track).to_a.collect do |hour|
-        StatSegment.hour(date, hour)
-      end).compact
+      hours = StatSegment.all(:conditions => ["time_length = ? AND DATE(time) = ?", "hour", date])
+      
+      if hours.size < 23
+        hours = ((0..last_hour_to_track).to_a.collect do |hour|
+          StatSegment.hour(date, hour)
+        end).compact
+      else
+        hours
+      end
     end
     
     def hour(date, hour_number)
-      hour = Stat.first(:conditions => ["DATE(time) = ? and time_length = ? and HOUR(time) = ?", date, "hour", hour_number])
+      hour = Stat.first(:conditions => ["time_length = ? and DATE(time) = ? and HOUR(time) = ?", "hour", date, hour_number])
       
       # Recalculate if nil, if its today and its this hour or the hour before
       if hour.nil?
-        hour ||= StatSegment.new(:time_length => "hour", :time => date.to_s + " " + hour_number.to_s, :date => date)
+        time = Time.parse(date.to_s + " " + hour_number.to_s)
+        hour ||= StatSegment.new(:time_length => "hour", :time => time, :date => date)
         segments = Stat.minutes(date, hour_number)
-        if segments.size == 0
-          if((hour.hits != nil) && (hour.hits > 0)) # In case this is legacy
-            return hour
-          else
-            return nil
-          end
-        end
+
         hour.attributes = merge(segments)
         
-        if !(date == Date.today && hour_number >= (Time.now.hour - 2))
+        if time < 2.hours.ago
           hour.save
         end
       end
+      
+      puts "hi"
       
       hour
     end
@@ -109,7 +112,7 @@ module StatMerging
     end
   
     def day(date = Date.today)
-      day = StatSegment.first(:conditions => ["DATE(time) = ? and time_length = ?", date, "day"])
+      day = StatSegment.first(:conditions => ["time_length = ? and DATE(time) = ?", "day" , date])
     
       if day.nil? || date == Date.today || date == (Date.today - 1)
         day ||= StatSegment.new(:time_length => "day", :time => date, :date => date)
@@ -126,7 +129,7 @@ module StatMerging
       first_day_of_week = Date.parse("#{day_number_for_first_day_of_week}-#{year}")
       
       
-      week = Stat.first(:conditions => ["DATE(time) = ? and time_length = ?", first_day_of_week, "week"])
+      week = Stat.first(:conditions => ["time_length = ? AND DATE(time) = ? ", "week", first_day_of_week])
       
       if week.nil?
         current_day = first_day_of_week
