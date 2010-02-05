@@ -16,6 +16,10 @@ namespace :deploy do
     run "cd #{current_path} && gem bundle"
   end
   
+  task :after_update do
+    gems
+  end
+  
   task :restart do
     run "#{current_path}/bin/server --onebyone -C #{current_path}/config/thins/mobile.yml restart"
   end

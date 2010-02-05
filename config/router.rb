@@ -46,7 +46,7 @@ Merb::Router.prepare do
     with(:action => "show") do
       # Primary HTML way to access information
       match("/:variant/:title", :variant => /^(wiki|sr-ec|sr-el|zh|zh-hans|zh-hant|zh-cn|zh-hk|zh-sg|zh-tw)$/).to(:action => "show")
-      match(/\/wiki\/?/).to(:action => "show")
+      match(/\/wiki\/?(.*)/).to(:action => "show", :title => "[1]")
 
       # Legacy support for iwik
       match(/\/lookup\/([a-z]*).wikipedia.org\/(.*)/).to(:title => "[2]", :lang => "[1]")
