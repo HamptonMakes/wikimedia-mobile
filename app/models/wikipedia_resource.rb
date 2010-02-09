@@ -55,7 +55,9 @@ module Wikipedia
     end
     
     def display_name
-      @unescaped_title ||= URI::unescape(title).force_encoding("UTF-8").gsub("_", " ")
+      @unescaped_title ||= URI::decode(title.force_encoding(Encoding::UTF_8)).gsub("_", " ")
+    rescue ArgumentError
+      title.force_encoding(Encoding::UTF_8).gsub("_", " ")
     end
 
    private

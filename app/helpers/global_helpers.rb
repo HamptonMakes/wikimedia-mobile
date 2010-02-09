@@ -1,13 +1,17 @@
 module Merb
   module GlobalHelpers
     
+    def display_name
+      @article.display_name
+    end
+    
     # This decides what populates the search bar on any given
     # page
     #
     # The real rule here, is that if its a home page, leave it empty
     def search_bar_contents
       if current_wiki['mobile_main_page'] != current_name
-        URI::unescape(current_name).force_encoding("UTF-8").gsub( "_", " ")
+        display_name
       else
         ""
       end

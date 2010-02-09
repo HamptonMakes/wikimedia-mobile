@@ -21,6 +21,7 @@ end
 if is19?
   Encoding.default_internal = Encoding.default_external = "UTF-8"
   require Merb.root / 'merb' / 'monkey' / 'haml_fix'
+  require Merb.root / 'lib' / 'encoding'
 else
   require Merb.root / 'merb' / 'monkey' / 'ruby19_compat'
 end

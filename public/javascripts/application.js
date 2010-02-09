@@ -23,6 +23,11 @@ $(document).ready(function(){
   }
   
   updateOrientation();
+  
+  decode = $("#searchField");
+  decode.val(unescape(decode.val()));
+  decode = $("title");
+  decode.html(unescape(decode.html()));
 
 });
 
