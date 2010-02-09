@@ -2,7 +2,7 @@ module Merb
   module GlobalHelpers
     
     def display_name
-      @article.display_name
+      @article ? @article.display_name : current_name
     end
     
     # This decides what populates the search bar on any given
