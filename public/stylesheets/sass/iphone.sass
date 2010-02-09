@@ -1,4 +1,28 @@
 @import webkit.sass
 
+/ Defaults for interface elements #header #nav #message #footer
+#searchbox
+  width: 292px
+  padding: 5px
+  border: 1px solid #ccc
+  -webkit-border-radius: 2px
+  -moz-border-radius: 2px
+  a, img
+    border: 0px
+    vertical-align: middle
+  #goButton
+    border: 0
+    background: url(/images/s.gif) no-repeat top left
+    height: 25px
+    width: 27px
+  #searchField
+    width: 220px
+    height: 27px
+    font-size: 16px
+  body.landscape &
+    width: 450px
+    #searchField
+      width: 375px
+
 #header
   max-width: 290px

@@ -290,5 +290,29 @@ button.section_heading.hide {
   background: white;
   padding: 0 5px 5px 5px; }
 
+
+#searchbox {
+  width: 292px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px; }
+  #searchbox a, #searchbox img {
+    border: 0px;
+    vertical-align: middle; }
+  #searchbox #goButton {
+    border: 0;
+    background: url(/images/s.gif) no-repeat top left;
+    height: 25px;
+    width: 27px; }
+  #searchbox #searchField {
+    width: 220px;
+    height: 27px;
+    font-size: 16px; }
+  body.landscape #searchbox {
+    width: 450px; }
+    body.landscape #searchbox #searchField {
+      width: 375px; }
+
 #header {
   max-width: 290px; }

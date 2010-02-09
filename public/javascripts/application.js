@@ -21,8 +21,29 @@ $(document).ready(function(){
   if( document.location.hash.indexOf("#") == 0 ) {
     wm_reveal_for_hash( document.location.hash )
   }
+  
+  updateOrientation();
 
 });
+
+/* updateOrientation checks the current orientation, sets the body's class attribute to portrait, landscapeLeft, or landscapeRight, 
+   and displays a descriptive message on "Handling iPhone or iPod touch Orientation Events".  */
+function updateOrientation()
+{
+  switch(window.orientation)
+  {
+    case 0:
+        document.body.setAttribute("class","portrait");
+        break;  
+    case 90:
+    case -90:
+        document.body.setAttribute("class","landscape");
+  }
+}
+
+// Point to the updateOrientation function when iPhone switches between portrait and landscape modes.
+window.onorientationchange = updateOrientation;
+
 
 function wm_reveal_for_hash( hash ) {
  var targetel = $(hash)
