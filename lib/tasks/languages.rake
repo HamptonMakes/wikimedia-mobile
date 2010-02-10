@@ -4,12 +4,12 @@ namespace :lang do
     require 'nokogiri'
     require 'open-uri'
     require 'yaml'
-    languages = Nokogiri::XML(open("http://en.wikipedia.org/w/api.php?action=sitematrix&format=xml")).css("language")
+
+    languages = Nokogiri::HTML(open("http://translatewiki.net/wiki/Translating:Wikimedia_mobile")).css("table.sortable:first tr td:first-child").to_a
 
     languages.each do |lang|
-      
-      code = lang['code']
-      if code =~ /^[a-z]+$/
+      code = lang.text
+      if code =~ /^[-a-z]+$/
         puts "Loading: " + code
         begin
           translations = open("http://translatewiki.net/w/i.php?title=Special%3ATranslate&task=export-to-file&group=out-wikimediamobile&language=#{code}").read

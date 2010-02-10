@@ -2,13 +2,20 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: Avjoska
+# Author: Pikne
 are_you_sure: Oled Sa kindel ???
 back_button: Tagasi
+copyright: "Tekst on kasutatav Creative Commonsi litsentsi <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Attribution/Share-Alike</a> tingimustel; sellele võivad lisanduda täiendavad tingimused.\nÜksikasjad leiad <a href=\"http://wikimediafoundation.org/wiki/Terms_of_Use\">Wikimedia kasutustingimustest</a>. Wikipedia on mittetulundusliku organisatsiooni <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc</a> registreeritud kaubamärk."
+disable_button: Keela
 error_page_title: Meil on probleem
+explain_disable: Oled kindel, et soovid Vikipeedia mobiiliversiooni keelata? Pärast <b>Keela</b> valimist ei ümber suunata sind enam Vikipeedia mobiilivaatesse, kui külastad Vikipeediat.
 hide_button: Peida
+home_button: Esileht
 in_the_news: Pressiülevaade
 nav_history: Ajalugu
 nav_top: Üles
+perm_stop_redirect: Keela mobiiliversioon jäädavalt
 random_button: Juhuslik
+regular_wikipedia: Vaata lehekülge harilikus Vikipeedias
 search_text: Otsi
 show_button: Näita
