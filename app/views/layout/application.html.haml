@@ -21,6 +21,6 @@
       - if params['footmenu'] != "false"
         = partial("layout/footmenu_".force_encoding("UTF-8") + request.device.footmenu) if request.device.footmenu
       #copyright= language_object["copyright"]
-
-      #help
-        = language_object["contact_us"].gsub("mobile@wikipedia.org", "<a href='mailto:mobile@wikipedia.org'>mobile@wikipedia.org</a>")
+      - if false
+        #help
+          = language_object["contact_us"].gsub("mobile@wikipedia.org", "<a href='mailto:mobile@wikipedia.org'>mobile@wikipedia.org</a>")
