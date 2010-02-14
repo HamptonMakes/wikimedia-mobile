@@ -2,10 +2,15 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: Veeven
+back_button: వెనక్కి
 hide_button: దాచు
 home_button: ముంగిలి
 in_the_news: వార్తల్లో
+nav_edit: మార్చు
+nav_history: చరిత్ర
+nav_top: పైకి
 random_button: యాదృచ్చిక
 search_results: అన్వేషణ ఫలితాలు
 search_submit: వెళ్ళు
+search_text: వెతుకు
 show_button: చూపించు
