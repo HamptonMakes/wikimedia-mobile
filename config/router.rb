@@ -31,7 +31,7 @@ Merb::Router.prepare do
   with(:controller => "articles") do
     variantsRe = /^(wiki|sr-ec|sr-el|zh|zh-hans|zh-hant|zh-cn|zh-hk|zh-sg|zh-tw)$/
 
-    match(/\/wiki\/File:(.*)/).to(:action => "file", :file => "[1]")
+    match("/:variant/:file", :variant => variantsRe, :file => /^File:(.*)$/).to(:action => "file" )
 
     Languages.each do |code, strings|
       if random_button = strings['random_button']
