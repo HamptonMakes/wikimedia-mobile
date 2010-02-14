@@ -63,7 +63,7 @@ module Merb
     end
 
     def action_url(path,action)
-      %|#{path_site}/w/index.php?title=#{encode_query_component(path)}&action=#{action}&useskin=chick|
+      %|#{redirect_url}?to=#{encode_query_component(path_site + '/w/index.php?title='+path+ '&action=' + action +'&useskin=chick')}|
     end
 
     def stop_redirect_notice(path)
