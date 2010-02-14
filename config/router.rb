@@ -29,23 +29,25 @@ Merb.logger.info("Compiling routes...")
 Merb::Router.prepare do
 
   with(:controller => "articles") do
+    variantsRe = /^(wiki|sr-ec|sr-el|zh|zh-hans|zh-hant|zh-cn|zh-hk|zh-sg|zh-tw)$/
+
     match(/\/wiki\/File:(.*)/).to(:action => "file", :file => "[1]")
 
     Languages.each do |code, strings|
       if random_button = strings['random_button']
         random_button = CGI::escape(random_button).gsub("+", "%20")
-        match("/wiki/::#{random_button}").to(:action => "random")
+        match("/:variant/::#{random_button}", :variant => variantsRe).to(:action => "random")
       end
       if home_button = strings['home_button']
         home_button = CGI::escape(home_button).gsub("+", "%20")
-        match("/wiki/::#{home_button}").to(:action => "home")
+        match("/:variant/::#{home_button}", :variant => variantsRe).to(:action => "home")
       end
     end
     
 
     with(:action => "show") do
       # Primary HTML way to access information
-      match("/:variant/:title", :variant => /^(wiki|sr-ec|sr-el|zh|zh-hans|zh-hant|zh-cn|zh-hk|zh-sg|zh-tw)$/).to(:action => "show")
+      match("/:variant/:title", :variant => variantsRe).to(:action => "show")
       match(/\/wiki\/?(.*)/).to(:action => "show", :title => "[1]")
 
       # Legacy support for iwik
