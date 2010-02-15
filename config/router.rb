@@ -27,43 +27,38 @@
 
 Merb.logger.info("Compiling routes...")
 Merb::Router.prepare do
-
   with(:controller => "articles") do
-    match(/\/wiki\/File:(.*)/).to(:action => "file", :file => "[1]")
-
-    Languages.each do |code, strings|
-      if random_button = strings['random_button']
-        random_button = CGI::escape(random_button).gsub("+", "%20")
-        match("/wiki/::#{random_button}").to(:action => "random")
-      end
-      if home_button = strings['home_button']
-        home_button = CGI::escape(home_button).gsub("+", "%20")
-        match("/wiki/::#{home_button}").to(:action => "home")
-      end
-    end
-    
+    match("/")
 
     with(:action => "show") do
       # Primary HTML way to access information
-      match("/:variant/:title", :variant => /^(wiki|sr-ec|sr-el|zh|zh-hans|zh-hant|zh-cn|zh-hk|zh-sg|zh-tw)$/).to(:action => "show")
-      match(/\/wiki\/?(.*)/).to(:action => "show", :title => "[1]")
+      # Can just be /wiki/:title for common use
+      match("/:variant/:title").to()
 
       # Legacy support for iwik
       match(/\/lookup\/([a-z]*).wikipedia.org\/(.*)/).to(:title => "[2]", :lang => "[1]")
 
       # Support for links inside wikipedia that point to index.php
-      match("/w/index.php").to(:controller => "articles", :action => "show")
+      match("/w/index.php").to()
     end
+    
+    match(/\/wiki\/File:(.*)/).to(:action => "file", :file => "[1]")
   end
   
   match(/\/w\/extensions\/(.*)/).to(:action => "not_found", :controller => "exceptions")
   
-  # Disable this in production
-  #match("/statistics/:action").to(:controller => "statistics")
-  
-  match("/donate").to(:controller => "information", :action => "donate")
   match("/disable(/:title)").to(:controller => "information", :action => "disable")
   
-  match("/").to(:controller => "articles", :action => "home")
+  
+  Languages.each do |code, strings|
+    if random_button = strings['random_button']
+      random_button = CGI::escape(random_button).gsub("+", "%20")
+      match("/wiki/::#{random_button}").to(:action => "random")
+    end
+    if home_button = strings['home_button']
+      home_button = CGI::escape(home_button).gsub("+", "%20")
+      match("/wiki/::#{home_button}").to(:action => "home")
+    end
+  end
 
 end
