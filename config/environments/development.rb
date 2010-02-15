@@ -14,3 +14,7 @@ Merb::Config.use { |c|
   # Or redirect logging into a file:
   #c[:log_file]  = Merb.root / "log" / "development.log"
 }
+
+if "irb" == $0
+  ActiveRecord::Base.logger = Logger.new(STDOUT)
+end
