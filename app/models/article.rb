@@ -11,8 +11,8 @@ require "parsers/image"
 class Article < Wikipedia::Resource
   
   # grabs a random article
-  def self.random(server_or_lang = "en")
-    article = Article.new(server_or_lang)
+  def self.random(server_or_lang = "en", variant = "wiki")
+    article = Article.new(server_or_lang, nil, nil, variant)
     article.fetch!("/wiki/Special:Random")
     article
   end
@@ -83,7 +83,7 @@ class Article < Wikipedia::Resource
 
   def fetch!(*paths)
     if !paths.any?
-      paths = (@paths ||= ["/wiki/#{title}", "/wiki/Special:Search?search=#{uri_escaped_title}"])
+      paths = (@paths ||= ["/#{variant}/#{title}", "/#{variant}/Special:Search?search=#{uri_escaped_title}"])
     end
     super(*paths)
   end
@@ -95,7 +95,7 @@ class Article < Wikipedia::Resource
   end
   
   def key
-    @key ||= "#{@server.language_code}|#{@title[0..150]}|#{device.view_format}|#{device.supports_javascript}".gsub(" ", "-")
+    @key ||= "#{@server.language_code}|#{@variant}|#{@title[0..150]}|#{device.view_format}|#{device.supports_javascript}".gsub(" ", "-")
   end
 
 end

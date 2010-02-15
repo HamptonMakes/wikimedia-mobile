@@ -5,6 +5,8 @@ module Wikipedia
   class Resource
     # String:title The requested title (normally URI encoded)
     attr :title, true
+    # String:variant The requested language variant
+    attr :variant, true
 
     # String:path if path is set, then we are specifying where fetching happens to the server object
     attr :path, true 
@@ -29,9 +31,9 @@ module Wikipedia
     # For this object to be usable, you need to either parse
     # some data from the server, or use the instance variable
     # setters.
-    def initialize(server_or_language, title = nil, path = nil, device = nil)
+    def initialize(server_or_language, title = nil, path = nil, device = nil, variant = "wiki")
       @server = server_or_language.kind_of?(Server) ? server_or_language : Server.new(server_or_language)
-      @title, @path, @device = title, path, device
+      @title, @path, @device, @variant = title, path, device, variant
       @loaded = false
     end
     
