@@ -25,8 +25,8 @@ class Server
     end
   end
   
-  def file(title, variant = "wiki")
-    Article.new(self, "File:" + title, "/#{variant}/File:#{title}", nil, variant)
+  def file(title)
+    Article.new(self, "File:" + title, "/wiki/File:#{title}")
   end
   
   # In the future, this method might use a cache...

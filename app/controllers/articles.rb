@@ -40,7 +40,7 @@ class Articles < Application
   end
   
   def random
-    @article = Article.random(current_server, params[:variant])
+    @article = Article.random(current_server)
     redirect(@article.path)
   end
   
@@ -56,7 +56,7 @@ class Articles < Application
       redirect(home_page_path)
     else
       # Perform a normal search
-      @article = Article.new(current_server, current_name, nil, request.device, params[:variant])
+      @article = Article.new(current_server, current_name, nil, request.device)
       
       # The inner block is for data formats... aka, JSON and YAML and XML
       # The page is rendered with the template if we aren't doing a special
@@ -72,7 +72,7 @@ class Articles < Application
   end
   
   def file
-    @article = current_server.file(params[:file], params[:variant])
+    @article = current_server.file(params[:file])
     format_display_with_data do
       @article.to_hash(request.device)
     end

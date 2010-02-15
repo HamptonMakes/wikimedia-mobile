@@ -28,6 +28,8 @@
 Merb.logger.info("Compiling routes...")
 Merb::Router.prepare do
   with(:controller => "articles") do
+    match("/")
+
     with(:action => "show") do
       # Primary HTML way to access information
       # Can just be /wiki/:title for common use
@@ -40,23 +42,22 @@ Merb::Router.prepare do
       match("/w/index.php").to()
     end
     
-    match("/").to(:action => "home")
-    
-    match(/\/(.*)\/File:(.*)/).to(:action => "file", :variant => "[1]", :file => "[2]")
+    match(/\/wiki\/File:(.*)/).to(:action => "file", :file => "[1]")
   end
-
+  
   match(/\/w\/extensions\/(.*)/).to(:action => "not_found", :controller => "exceptions")
-
+  
   match("/disable(/:title)").to(:controller => "information", :action => "disable")
-
+  
+  
   Languages.each do |code, strings|
     if random_button = strings['random_button']
       random_button = CGI::escape(random_button).gsub("+", "%20")
-      match("/:variant/::#{random_button}").to(:action => "random")
+      match("/wiki/::#{random_button}").to(:action => "random")
     end
     if home_button = strings['home_button']
       home_button = CGI::escape(home_button).gsub("+", "%20")
-      match("/:variant/::#{home_button}").to(:action => "home")
+      match("/wiki/::#{home_button}").to(:action => "home")
     end
   end
 
