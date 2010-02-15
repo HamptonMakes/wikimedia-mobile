@@ -55,12 +55,9 @@ Merb::Router.prepare do
       end
     end
   end
-  
+
   match(/\/w\/extensions\/(.*)/).to(:action => "not_found", :controller => "exceptions")
-  
+
   match("/disable(/:title)").to(:controller => "information", :action => "disable")
-  
-  
-  
 
 end
