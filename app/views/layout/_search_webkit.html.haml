@@ -1,7 +1,7 @@
 #header
   #searchbox
     %img{:src => "/images/w.gif", :id => "logo", :alt => "W logo"}/
-    %form.search_bar{:action => "/wiki", :method => "get"}
+    %form.search_bar{:action => "/#{variant_name}", :method => "get"}
       %input#searchField{:name => "search", :type => "search", :size => "27", :value => search_bar_contents}/
       #clearButton
       %button#goButton{:type => "submit"}

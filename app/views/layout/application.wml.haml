@@ -7,9 +7,9 @@
     <meta forua="true" http-equiv="Cache-Control" content="max-age=0"/>
   %template
     %do{:name => "home", :type => "options", :label => language_object["home_button"]}><
-      %go{:href => "/wiki/::Home"}/
+      %go{:href => "/#{variant_name}/::Home"}/
     %do{:name => "random", :type => "options", :label => language_object["random_button"]}><
-      %go{:href => "/wiki/::Random"}/
+      %go{:href => "/#{variant_name}/::Random"}/
     %do{:name => "toc", :type => "options", :label => "TOC"}><
       %go{:href => "#toc"}/
   = catch_content :for_layout
