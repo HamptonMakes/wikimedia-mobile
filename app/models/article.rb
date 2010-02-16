@@ -13,7 +13,7 @@ class Article < Wikipedia::Resource
   # grabs a random article
   def self.random(server_or_lang = "en", variant = "wiki")
     article = Article.new(server_or_lang, nil, nil, variant)
-    article.fetch!("/wiki/Special:Random")
+    article.fetch!("/#{variant}/Special:Random")
     article
   end
   
