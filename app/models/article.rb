@@ -98,4 +98,8 @@ class Article < Wikipedia::Resource
     @key ||= "#{@server.language_code}|#{@variant}|#{@title[0..150]}|#{device.view_format}|#{device.supports_javascript}".gsub(" ", "-")
   end
 
+  def dir
+    return @dir if @dir
+  end
+
 end

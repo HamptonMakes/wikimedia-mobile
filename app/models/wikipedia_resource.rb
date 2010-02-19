@@ -12,6 +12,8 @@ module Wikipedia
     attr :path, true 
     # String:html the place to cache and store html.. reading happens below
     attr_writer :html
+    # String:dir the text directionality that this page should use
+    attr_writer :dir
     # Server:server the server object that this article is associated with
     attr :server, true
     attr :device, true
