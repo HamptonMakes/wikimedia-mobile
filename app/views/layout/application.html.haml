@@ -1,6 +1,6 @@
 
 !!!
-%html{:xmlns => "http://www.w3.org/1999/xhtml", 'xml:lang' => "en-us", :lang => "en-us", :dir => @article ? @article.dir : "ltr"}
+%html{:xmlns => "http://www.w3.org/1999/xhtml", 'xml:lang' => current_language, :lang => current_language, :dir => @article ? @article.dir : "ltr"}
   %head
     %title= @article ? @article.display_name : "Wikipedia"
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
