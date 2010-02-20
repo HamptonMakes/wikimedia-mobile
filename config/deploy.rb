@@ -13,7 +13,7 @@ role :cache, "mobile1.wikimedia.org"
 namespace :deploy do
   
   task :gems do
-    run "cd #{current_path} && gem bundle"
+    run "cd #{current_path} && bundle install"
   end
   
   task :after_update do
@@ -26,7 +26,7 @@ namespace :deploy do
   
   task :start do
     begin
-      run "#{current_path}/bin/cluster start"
+      run "#{current_path}/bin/server -C #{current_path}/config/thins/mobile.yml start"
     rescue
       retry
     end
@@ -34,7 +34,7 @@ namespace :deploy do
   
   task :stop do
     begin
-      run "#{current_path}/bin/cluster stop"
+      run "#{current_path}/bin/server -C #{current_path}/config/thins/mobile.yml stop"
     rescue
     end
   end
