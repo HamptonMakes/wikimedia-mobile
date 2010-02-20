@@ -1,10 +1,10 @@
 #header
   #searchbox
     #homeButton
-      %a{:href => "/wiki/"}
+      %a{:href => "/#{variant_name}/"}
         %img#logo{:src => "/images/100px-globe.png", :alt => "Wikipedia logo, a globe made of puzzle pieces"}/
     #search_bar
-      %form.search_bar{:action => "/wiki", :method => "get"}
+      %form.search_bar{:action => "/#{variant_name}", :method => "get"}
         %input#searchField{:name => "search", :type => "text", :value => search_bar_contents}/
         %button#searchButton{:type =>"submit"}
           = language_object["search_text"]

@@ -4,6 +4,10 @@ module Merb
     def display_name
       @article ? @article.display_name : current_name
     end
+
+    def variant_name
+      @article ? @article.variant : "wiki"
+    end
     
     # This decides what populates the search bar on any given
     # page
@@ -51,7 +55,7 @@ module Merb
     end
 
     def temp_url(path)
-      %|#{redirect_url}?to=#{encode_query_component(path_site + "/wiki/" + path)}|
+      %|#{redirect_url}?to=#{encode_query_component(path_site + "/#{variant_name}/" + path)}|
     end
 
     def disable_url(path)

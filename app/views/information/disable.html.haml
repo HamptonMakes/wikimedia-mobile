@@ -5,9 +5,9 @@
 
 #disableButtons
   %form{:action => redirect_url, :method => "get"}
-    %input{:type => "hidden", :name => "to", :value => encode_query_component(path_site + "/wiki/" + URI::decode(@path))}
+    %input{:type => "hidden", :name => "to", :value => encode_query_component(path_site + "/#{variant_name}/" + URI::decode(@path))}
     %input{:type => "hidden", :name => "expires_in_days", :value => "#{365 * 10}"}
     %button#disableButton{:type => "submit"}= language_object['disable_button']
 
-  %form{:action => "/wiki/#{@path}", :method => "get" }
+  %form{:action => "/#{variant_name}/#{@path}", :method => "get" }
     %button#backButton{:type => "submit"}= language_object['back_button']

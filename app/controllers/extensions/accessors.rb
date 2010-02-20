@@ -28,12 +28,12 @@ module ControllerExtensions
     
     def home_page_path
       name = language_object["home_button"]
-      "/wiki/::#{name}"
+      "/#{variant_name}/::#{name}"
     end
     
     def random_page_path
       name = language_object["random_button"]
-      "/wiki/::#{name}"
+      "/#{variant_name}/::#{name}"
     end
   end
 end

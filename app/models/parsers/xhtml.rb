@@ -34,7 +34,8 @@ module Parsers
                         ]
 
       page = article.raw_document || Nokogiri::XML(article.raw_html)
-      
+      article.dir = page.css("html").first[:dir]
+
       #language_stuff = page.css("div#p-lang div").first
       
       # Parse the document in our XML parser. Immediately cut out everything that isn't inside

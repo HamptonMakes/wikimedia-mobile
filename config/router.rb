@@ -28,12 +28,13 @@
 Merb.logger.info("Compiling routes...")
 Merb::Router.prepare do
   with(:controller => "articles") do
+    variantsRe = /^(wiki|sr-ec|sr-el|zh|zh-hans|zh-hant|zh-cn|zh-hk|zh-sg|zh-tw)$/
     match("/").to(:action => "home")
 
     with(:action => "show") do
       # Primary HTML way to access information
       # Can just be /wiki/:title for common use
-      match("/:variant(/:title)", :title => /^[^:].*/).to()
+      match("/:variant(/:title)", :variant => variantsRe, :title => /^[^:].*/).to()
 
       # Legacy support for iwik
       match(/\/lookup\/([a-z]*).wikipedia.org\/(.*)/).to(:title => "[2]", :lang => "[1]")
@@ -42,25 +43,25 @@ Merb::Router.prepare do
       match("/w/index.php").to()
     end
     
-    match(/\/wiki\/File:(.*)/).to(:action => "file", :file => "[1]")
-    
-    Languages.each do |code, strings|
-      if random_button = strings['random_button']
-        random_button = CGI::escape(random_button).gsub("+", "%20")
-        match("/wiki/::#{random_button}").to(:action => "random")
-      end
-      if home_button = strings['home_button']
-        home_button = CGI::escape(home_button).gsub("+", "%20")
-        match("/wiki/::#{home_button}").to(:action => "home")
+    match( "/:variant", :variant => variantsRe ) do |varm|
+
+      varm.match(/\/File:(.*)/).to(:action => "file", :file => "[1]")
+
+      Languages.each do |code, strings|
+        if random_button = strings['random_button']
+          random_button = CGI::escape(random_button).gsub("+", "%20")
+          varm.match("/::#{random_button}").to(:action => "random")
+        end
+        if home_button = strings['home_button']
+          home_button = CGI::escape(home_button).gsub("+", "%20")
+          varm.match("/::#{home_button}").to(:action => "home")
+        end
       end
     end
   end
-  
+
   match(/\/w\/extensions\/(.*)/).to(:action => "not_found", :controller => "exceptions")
-  
+
   match("/disable(/:title)").to(:controller => "information", :action => "disable")
-  
-  
-  
 
 end
