@@ -1,6 +1,8 @@
-= language_notice if !supported_language?
-
-- if @main_page
+- if !supported_language?
+  = language_notice
+- elsif !@main_page
+  = homepage_notice
+- else
   #main_box
     - if @main_page["featured_article"]
       %h2= language_object["featured_article"]
