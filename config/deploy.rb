@@ -7,7 +7,7 @@ set :user, "deploy"
 set :deploy_to, "/srv/#{application}"
 set :branch, "stable"
 
-role :web, "mobile1.wikimedia.org", "mobile2.wikimedia.org"
+role :web, "mobile1.wikimedia.org"#, "mobile2.wikimedia.org"
 role :cache, "mobile1.wikimedia.org"
 
 namespace :deploy do
