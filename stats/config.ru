@@ -2,7 +2,7 @@
 puts RUBY_VERSION
 require 'rubygems'
 
-require "../vendor/gems/environment"
+require "../vendor/gems/ruby/1.9.1/environment"
 
 require 'sinatra'
 
