@@ -3,18 +3,28 @@
 # Export driver: syck
 # Author: Leinad
 # Author: Sp5uhe
+are_you_sure: Czy jesteś pewien?
+back_button: Powrót
 back_to_top_of_section: Wróć do wcześniejszej sekcji
+contact_us: Jeśli masz jakieś pytania lub uwagi, prosimy o kontakt na adres mobile@wikipedia.org
 copyright: "Tekst udostępniany na <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.pl'>licencji Creative Commons: uznanie autorstwa, na tych samych warunkach</a>, z możliwością obowiązywania dodatkowych ograniczeń. Zobacz szczegółowe informacje o <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>warunkach korzystania</a>."
+disable_button: Wyłącz
 error_page_text: Mobilna wersja Wikipedii jest w ciągłym rozwoju i intensywnie pracujemy nad naprawą wszystkich błędów. Zostaliśmy poinformowani o tym błędzie i niedługo go naprawimy. Wróć później aby sprawdzić czy już działa!
 error_page_title: Wystąpił problem!
+explain_disable: Czy na pewno chcesz wyłączyć mobilną wersję Wikipedii? Jeśli wybierzesz opcję <b>Wyłącz</b>, to następnym razem odwiedzając Wikipedię, nie zostaniesz przekierowany do obecnie włączonej wersji mobilnej Wikipedii.
 featured_article: Wyróżniony artykuł
 hide_button: Ukryj
 home_button: Główna
 in_the_news: Aktualności
+nav_edit: Edytuj
+nav_end: Zakończ
+nav_history: Historia
+nav_top: Do góry
 no_article_found: Artykułu nie odnaleziono
 perm_stop_redirect: Trwale wyłącz mobilną wersję strony
 random_button: Losuj
 regular_wikipedia: Zobacz tę stronę w standardowej Wikipedii
 search_results: Wyniki wyszukiwania
 search_submit: Przejdź
+search_text: Szukaj
 show_button: Pokaż

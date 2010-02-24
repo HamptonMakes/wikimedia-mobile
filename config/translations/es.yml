@@ -3,17 +3,28 @@
 # Export driver: syck
 # Author: Dferg
 # Author: Locos epraix
+are_you_sure: ¿Estás seguro???
+back_button: Atrás
+back_to_top_of_section: Ir atrás una sección
+contact_us: Si tienes alguna pregunta o comentario siéntete libre de enviarnos un correo electrónico a mobile@wikipedia.org
 copyright: El texto está disponible bajo la <a href='http://es.wikipedia.org/wiki/Wikipedia:Texto de la Licencia Creative Commons Atribución/Compartir-Igual 3.0'>Licencia Creative Commons Atribución/Compartir-Igual</a>; cláusulas adicionales pueden aplicar. Véase <a href='http://wikimediafoundation.org/wiki/Términos_de_Uso'>los términos de uso</a> para más detalles. Wikipedia es una marca registrada de la <a href='http://wikimediafoundation.org/'>Fundación Wikimedia, Inc.</a>, una organización sin ánimo de lucro.
+disable_button: Deshabilitar
 error_page_text: Wikipedia para móviles está todavía bajo desarrollo activo y estamos trabajando intensamente para arreglar todos nuestros errores internos. Hemos sido notificados de este error y lo arreglaremos pronto. Por favor, revise regularmente si la petición ha sido o no atendida.
 error_page_title: ¡Tenemos un problema!
+explain_disable: Estas seguro que deseas desactivar la versión móvil de Wikipedia? Si escoges <b>Desactivar</b>, de ahora en adelante, cuando visites Wikipedia, no serás redirigido a esta vista móvil de Wikipedia.
 featured_article: Artículo destacado
 hide_button: Ocultar
 home_button: Inicio
 in_the_news: Actualidad
+nav_edit: Editar
+nav_end: Fin
+nav_history: Historial
+nav_top: Arriba
 no_article_found: No hay coincidencias
 perm_stop_redirect: Desactivar permanentemente el sitio móvil
 random_button: Aleatorio
 regular_wikipedia: Ver esta página en Wikipedia
 search_results: Resultados de la búsqueda
 search_submit: Ir
+search_text: Buscar
 show_button: Mostrar

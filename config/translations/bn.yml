@@ -2,18 +2,28 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: Bellayet
+are_you_sure: আপনি কি নিশ্চিত ???
+back_button: পিছনে
 back_to_top_of_section: কোনো অনুচ্ছেদে ফিরে যাও
+contact_us: যদি কোন প্রশ্ন বা মন্তব্য থাকে অনুগ্রহ করে নির্দ্বিধায় mobile@wikipedia.org ঠিকানায় আমাদের ইমেইল করুন।
 copyright: এ লেখা <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>ক্রিয়েটিভ কমন্স এট্রিবিউশন/সেয়ার-এলাইক লাইসেন্সের</a> আওতায় প্রকাশিত; এর সাথে বাড়তি পদ যুক্ত হতে পারে। বিস্তারিত জানতে <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>ব্যবহারের শর্তাবলী</a> দেখুন। উইকিপিডিয়া <a href='http://www.wikimediafoundation.org/'>উইকিমিডিয়া ফাউন্ডেশন, ইনকর্পোরেশন</a> এর নিবন্ধিত ট্রেডমার্ক, যা একটি অলাভজনক প্রতিষ্ঠান।
+disable_button: নিস্ক্রিয়
 error_page_text: উইকিপিডিয়া মোবাইল এখনও সক্রিয় উন্নয়নের মধ্যে রয়েছে এবং আমরা এর আভ্যন্তরীন সকল ত্রুটি ঠিক করতে কঠর পরিশ্রম করে যাচ্ছি। আমরা এ ত্রুটি সম্পর্কে জেনেছি এবং খুব শীঘ্রই এটি ঠিক হয়ে যাবে। দয়াকরে আবারও পরীক্ষা করবেন।
 error_page_title: আমাদের কোনো সমস্যা হয়েছে!
+explain_disable: আপনি কি নিশ্চিত যে আপনি উইকিপিডিয়ার মোবাইল সংস্করণ নিস্ক্রিয় করতে চান? আপনি যদি <b>নিস্ক্রিয়</b> বেছে নেন, তাহলে এখন থেকে, যখন আপনি উইকিপিডিয়া ব্রাউজ করবেন, আপনাকে উইকিপিডিয়ার মোবাইল সংস্করণে পুনর্নির্দেশ করা হবে না।
 featured_article: আজকের নির্বাচিত নিবন্ধ
 hide_button: আড়াল করো
 home_button: প্রধান পাতা
 in_the_news: খবরে
+nav_edit: সম্পাদনা
+nav_end: শেষ
+nav_history: ইতিহাস
+nav_top: উপরে
 no_article_found: কোনো নিবন্ধ পাওয়া যায়নি
 perm_stop_redirect: স্থায়ীভাবে মোবাইল সাইট নিস্ক্রিয় করো
 random_button: অজানা
 regular_wikipedia: নিয়মিত উইকিপিডিয়াতে এ পাতাটি দেখাও
 search_results: অনুসন্ধানের ফলাফল
 search_submit: যাও
+search_text: অনুসন্ধান
 show_button: দেখাও
