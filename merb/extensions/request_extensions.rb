@@ -24,6 +24,10 @@ class Merb::Request
     @country_code ||= GeoIP.lookup(self.remote_ip)
   end
   
+  def remote_ip
+    request.env[Merb::Const::HTTP_X_FORWARDED_FOR]
+  end
+  
   # Gets the language code for this request
   def language_code
     return params[:lang].downcase if params[:lang]
