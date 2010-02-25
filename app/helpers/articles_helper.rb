@@ -11,6 +11,7 @@ module Merb
         end
         
         picked_notice = notices[rand(notices.size)]
+        Merb.logger[:notice_shown] = picked_notice
         partial "notices/#{picked_notice}"
       end
     end

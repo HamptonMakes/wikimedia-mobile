@@ -1,5 +1,5 @@
 require 'rubygems'
-require "../vendor/gems/ruby/1.9.1/environment"
+#require "../vendor/gems/ruby/1.9.1/environment"
 
 #begin
   require 'activesupport'
