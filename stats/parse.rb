@@ -15,7 +15,7 @@ def run_parser(path)
   
   `kill -USR1 #{pids.join(" ")}`
 
-  stat = Stat.new(:time => Time.now, :time_length => "minute", :date => Date.today)
+  stat = Stat.new(:created_at => Time.now, :time_length => "minute", :date => Date.today)
   
   ## ====================== LANGUAGE AND FORMAT =================================
 
