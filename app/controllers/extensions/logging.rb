@@ -25,7 +25,8 @@ module ControllerExtensions
                      :referer => request.referer,
                      :format_name => request.device.format_name,
                      :was_redirected => params[:wasRedirected],
-                     :was_home_page => (params[:action] == "home")
+                     :was_home_page => (params[:action] == "home"),
+                     :ip_address => request.remote_ip
                      }
 
       if @article
