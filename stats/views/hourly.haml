@@ -63,13 +63,11 @@
           = (hour.cache_hit_ratio * 100).round
           \%
       %td
-        - hour.language_hits.each do |key, value|
-          == #{key.to_s}: #{value.to_s}
-          %br/
+        - (hour.language_hits || {}).each do |key, value|
+          == #{key.to_s}: #{value.to_s}, 
       %td
-        - hour.format_hits.each do |key, value|
-          == #{key.to_s}: #{value.to_s}
-          %br/
+        - (hour.format_hits || {}).each do |key, value|
+          == #{key.to_s}: #{value.to_s}, 
       %td
         = ((hour.cache_size || 0) / 1024.0).to_s[0..4] + " GB"
       %td= hour.percent_of(:errors)

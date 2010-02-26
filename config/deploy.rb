@@ -13,7 +13,7 @@ role :cache, "mobile1.wikimedia.org"
 namespace :deploy do
   
   task :gems do
-    run "cd #{current_path} && bundle install"
+    #run "cd #{current_path} && bundle install"
   end
   
   task :after_update do
