@@ -24,7 +24,7 @@ module Merb
     # helpers defined here available to all views.  
     # 
     def language_notice
-      %|<div class="notice" id="language_notice"><h3>Language Not Fully Supported</h3>
+      %|<div class="mwm-notice" id="language_notice"><h3>Language Not Fully Supported</h3>
         <p>
         The language that you are currently using is not fully supported
         with Wikipedia Mobile. We are working hard to ensure that all Wikipedia
@@ -36,7 +36,7 @@ module Merb
     end
 
     def homepage_notice
-      %|<div class="notice" id="homepage_notice"><h3>Homepage Not Yet Configured</h3>
+      %|<div class="mwm-notice" id="homepage_notice"><h3>Homepage Not Yet Configured</h3>
         <p>
         The homepage for the language you are currently using is not yet configured for Wikipedia Mobile.
         Please see our <a href="http://techblog.wikimedia.org/2009/12/mobile-homepage-in-your-language/">

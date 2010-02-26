@@ -241,7 +241,7 @@ button, input {
     width: 450px; }
 
 
-.notice {
+.mwm-notice {
   padding: 5px;
   background: #ddd;
   -webkit-border-radius: 5px;
@@ -250,7 +250,7 @@ button, input {
   border: 1px solid grey; }
 
 
-.message.notice {
+.mwm-message.mwm-notice {
   font-size: 1.1em; }
 
 

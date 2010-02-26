@@ -242,7 +242,7 @@ body {
     margin-top: 5em; }
 
 
-.notice {
+.mwm-notice {
   padding: 5px;
   background: #ddd;
   -webkit-border-radius: 5px;
@@ -251,7 +251,7 @@ body {
   border: 1px solid grey; }
 
 
-.message.notice {
+.mwm-message.mwm-notice {
   font-size: 1.1em; }
 
 
