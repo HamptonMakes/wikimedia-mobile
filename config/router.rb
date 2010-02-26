@@ -29,7 +29,7 @@ Merb.logger.info("Compiling routes...")
 Merb::Router.prepare do
   with(:controller => "articles") do
     variantsRe = /^(wiki|sr-ec|sr-el|zh|zh-hans|zh-hant|zh-cn|zh-hk|zh-sg|zh-tw)$/
-    match("/").to(:action => "home")
+    match("/").to(:action => "home", :variant => "wiki" )
 
     with(:action => "show") do
       # Primary HTML way to access information
