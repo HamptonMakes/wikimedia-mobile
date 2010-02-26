@@ -59,18 +59,19 @@
         - else
           N/A
       %td
-        = (hour.cache_hit_ratio * 100).round
-        \%
+        - if hour.cache_hit_ratio
+          = (hour.cache_hit_ratio * 100).round
+          \%
       %td
         - hour.language_hits.each do |key, value|
-          == #{key}: #{value}
+          == #{key.to_s}: #{value.to_s}
           %br/
       %td
         - hour.format_hits.each do |key, value|
-          == #{key}: #{value}
+          == #{key.to_s}: #{value.to_s}
           %br/
       %td
-        = (hour.cache_size / 1024.0).to_s[0..4] + " GB"
+        = ((hour.cache_size || 0) / 1024.0).to_s[0..4] + " GB"
       %td= hour.percent_of(:errors)
       %td= hour.percent_of(:home_page_views)
       %td= hour.percent_of(:redirects)
