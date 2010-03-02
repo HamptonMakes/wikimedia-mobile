@@ -39,7 +39,7 @@ module Merb
       %|<div class="mwm-notice" id="homepage_notice"><h3>Homepage Not Yet Configured</h3>
         <p>
         The homepage for the language you are currently using is not yet configured for Wikipedia Mobile.
-        Please see our <a href="http://techblog.wikimedia.org/2009/12/mobile-homepage-in-your-language/">
+        Please see our <a href="http://meta.wikimedia.org/wiki/Mobile#Mobile_homepage">
         documentation</a> on how to configure a mobile version of the homepage
         for this language.</p>
         <p>Your searches will be on <strong>#{request.language_code}.wikipedia.org</strong></p>
