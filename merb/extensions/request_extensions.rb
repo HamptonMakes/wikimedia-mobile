@@ -25,7 +25,7 @@ class Merb::Request
   end
   
   def remote_ip
-    self.env[Merb::Const::HTTP_X_FORWARDED_FOR]
+    self.env[Merb::Const::HTTP_X_FORWARDED_FOR] || "127.0.0.1"
   end
   
   # Gets the language code for this request
