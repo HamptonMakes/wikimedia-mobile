@@ -3,9 +3,11 @@
 # Export driver: syck
 # Author: Dani
 # Author: Glanthor Reviol
+# Author: Tgr
 are_you_sure: Biztos vagy benne?
 back_button: Vissza
 back_to_top_of_section: Vissza egy bekezdést
+contact_us: Ha bármilyen kérdésed vagy megjegyzésed van, írd meg a mobile@wikipedia.org címre
 copyright: A lap szövege a <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Nevezd meg!-Így add tovább! Licenc</a> alatt van; egyes esetekben más módon is felhasználható. Részletekért lásd a <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>felhasználási feltételeket</a>. A Wikipédia a <a href='http://www.wikimediafoundation.org/'>Wikimedia, Inc.</a> nonprofit szervezet védjegye.
 disable_button: Letiltás
 error_page_text: A mobilos Wikipédia még mindig fejlesztés alatt áll, folyamatosan dolgozunk a hibák javításán. Értesítve lettünk a hibáról, és hamarosan javítjuk. Kérlek, nézz vissza később!

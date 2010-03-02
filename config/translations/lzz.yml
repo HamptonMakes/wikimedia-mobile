@@ -2,10 +2,15 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: Bombola
+are_you_sure: Mtinite ginoni?
 back_button: Uk'uni
 back_to_top_of_section: Ar burme uk'uni idi
+contact_us: Eger k'itxalape varna k'omment'epe giğunna, Mu iqven! mobile@wikipedia.org coxoni emailis k'ont'akt'i qvit.
 copyright: Tekst'i <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike Lisansi</a>şi doloxe ren; çkva şeyepeti ixvenen. Detayepe şeni <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Oxmaruşi K'aidepe</a>s o3'k'edit. Vik'ip'edia mogapa na var ikips ar k'idala na ren <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>-şi tesciloni mark'a muşi ren.
+disable_button: Tilifoniş versiyoni ip't'ali qvi
+error_page_text: Xolo Tilifoniş vik'ip'edia versiyoni şeni viçalişept do mtel çilatape oktiru şeni viçalişept. Am çilata miçkinan do yakini oras çilatape viktiraten. Mu iqven xolo ik'ont'rolit!
 error_page_title: Ar p'roblemi ren!
+explain_disable: Vik'ip'ediaşi tilifoniş versiyoni ip't'ali oqvapu ginoni? Egeri <b>Tilifoniş versiyoni ip't'ali qvi</b> t'uşis gebaz'ga na, a3'işk'ule, Vik'ip'ediaşa na moxti ora, Vik'ip'ediaşi am tilifoni versiyonişa var idare.
 featured_article: Dolonişi Favori St'at'ia
 hide_button: Doşinaxi
 home_button: Dudi
@@ -15,6 +20,9 @@ nav_end: Çodina
 nav_history: Tarixi
 nav_top: Dudi
 no_article_found: Çkar but'k'a va ren
+perm_stop_redirect: Tilifoniş sait'i mtelurot ip't'ali qvi
+random_button: Randomi
+regular_wikipedia: Am but'k'a normaluri Vik'ip'edias ko3'iri
 search_results: Ogoru sonucepe
 search_submit: İgzali
 search_text: Mgori

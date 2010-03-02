@@ -1,11 +1,31 @@
 # Messages for Thai (ไทย)
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: Manop
 # Author: Octahedron80
 # Author: Woraponboonkerd
+are_you_sure: แน่ใจหรือไม่
+back_button: กลับ
+back_to_top_of_section: กลับไปหนึ่งหัวข้อ
+contact_us: ถ้ามีคำถามหรือข้อสงสัย กรุณาส่งอีเมลมาที่ mobile@wikipedia.org
 copyright: "ข้อความทั้งหมดอยู่ภายใต้ <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>สัญญาอนุญาตครีเอทีฟคอมมอนส์/Share-Alike</a> และ<a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>เงื่อนไขอื่นเพิ่มเติม</a>ตามนโยบายด้านลิขสิทธิ์\nWikipedia® เป็นเครื่องหมายการค้าจดทะเบียนของ <a href='http://www.wikimediafoundation.org/'>มูลนิธิวิกิมีเดีย</a>"
+disable_button: ปิดการใช้งาน
 error_page_text: วิกิพีเดียสำหรับมือถือกำลังอยู่ในระหว่างการพัฒนาอย่างเต็มที่ และเรากำลังทำงานหนักเพื่อแก้ไขความผิดพลาดภายในทั้งหมด เรารับรู้ถึงความผิดพลาดนี้แล้วจะแก้ไขให้เร็วที่สุด กรุณามาใหม่อีกครั้งหนึ่ง!
+error_page_title: มีปัญหาเกิดขึ้น
+explain_disable: แน่ใจหรือไม่ที่จะระงับการใช้วิกิพีเดียรุ่นโมบายล์ ถ้าคุณเลือก<b>ระงับการใช้</b> หลังจากนี้ถ้าคุณเข้าชมวิกิพีเดีย คุณจะไม่ถูกเปลี่ยนทางมาที่วิกิพีเดียรุ่นโมบายล์
+featured_article: บทความคัดสรรวันนี้
+hide_button: ซ่อน
+home_button: หน้าหลัก
+in_the_news: ในข่าว
+nav_edit: แก้ไข
+nav_end: จบ
+nav_history: ประวัติ
+nav_top: บน
 no_article_found: ไม่พบหัวข้อ
+perm_stop_redirect: ยกเลิกการใช้ไซต์โมบายล์ถาวร
+random_button: สุ่ม
+regular_wikipedia: ดูหน้านี้ในวิกิพีเดียรุ่นปกติ
 search_results: ผลการค้นหา
 search_submit: ไป
+search_text: ค้นหา
 show_button: แสดง

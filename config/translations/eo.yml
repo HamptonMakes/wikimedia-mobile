@@ -2,8 +2,24 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: Lucas
+# Author: Yekrats
+are_you_sure: Ĉu vi certas ???
+back_button: Reen
+disable_button: Malŝalti
+error_page_title: Ni havas problemon!
+featured_article: Prezentita Artikolo por Hodiaŭ
 hide_button: Kaŝi
 home_button: Ĉefpaĝo
+in_the_news: Aktuale
+nav_edit: Redakti
+nav_end: Fino
+nav_history: Historio
+nav_top: Supre
+no_article_found: Artiklo Ne Trovita
+perm_stop_redirect: Daŭre malŝalti ĉeltelefonan version
+random_button: Hazarda paĝo
+regular_wikipedia: Vidi ĉi tiun paĝon en norma Vikipedio
 search_results: Serĉaj Trovaĵoj
 search_submit: Ek
+search_text: Serĉi
 show_button: Montri
