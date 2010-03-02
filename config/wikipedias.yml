@@ -106,6 +106,13 @@ he:
     facts: "#mp-dyk"
     on_this_day: "#mp-otd"
 
+nn:
+  main_page: "Hovudside"
+  selectors:
+    featured_article: "#mp-tfa"
+    on_this_day: "#mp-otd"
+    facts: "#mp-dyk"
+
 it: 
   mobile_main_page: Pagina_Principale_%28mobile%29
 sv:
