@@ -2,9 +2,9 @@ module Merb
   module ArticlesHelper
     def notice
       # Show 20% of the time
-      if request.language_code == "en" && request.device.search_bar && (rand > 0.6)
+      if request.language_code == "en" && request.device.search_bar
         if request.country_code == "US"
-          notices = ["donate", "tip_hidden_menu"]
+          notices = ["donate", "donate", "donate", "donate", "donate",  "donate", "donate", "donate", "tip_hidden_menu"]
           #notices = ["twitter", "tip_hidden_menu"]
         else
           notices = ["tip_hidden_menu"]
