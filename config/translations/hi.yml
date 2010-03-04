@@ -1,7 +1,10 @@
 # Messages for Hindi (हिन्दी)
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: Jyothis
 # Author: Vsrawat
+are_you_sure: क्या आप को यकीन है???
+back_button: पीछे
 copyright: इस भाषा के लिए मानक प्रकाशनाधिकार।
 error_page_text: विकीमीडिया मोबाइल का अभी भी सक्रिय विकास किया जा रहा है और हम अपनी सारी आंतरिक समस्याओं का समाधान करने के लिए कड़ी मेहनत कर रहे हैं। हमें इस त्रुटी के बारे में सूचना मिल चुकी है और हम इसका समाधान शीघ्र ही करेंगे। कृपया वापस जाँचें!
 error_page_title: हमें एक समस्या है!
@@ -9,10 +12,14 @@ featured_article: आज का विशेष लेख
 hide_button: छुपायें
 home_button: गृह
 in_the_news: समाचारों में
+nav_edit: संपादित करें
+nav_end: अंत
+nav_history: इतिहास
 no_article_found: कोई लेख नहीं मिला
 perm_stop_redirect: मोबाइल साइट को स्थायी रुप से असमर्थ करें
 random_button: बेतरतीब
 regular_wikipedia: यह पृष्ठ नियमित विकीपीडिया में देखें
 search_results: खोज के परिणाम
 search_submit: जाएँ
+search_text: खोजें
 show_button: दिखायें

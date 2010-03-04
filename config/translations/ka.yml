@@ -2,14 +2,27 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: Alsandro
+# Author: გიორგიმელა
+are_you_sure: დარწმუნებული ბრძანდებით?
+back_button: უკან
+back_to_top_of_section: დაბრუნება უკან
+copyright: ეს ტექსტი ვრცელდება <a  href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative  Commons Attribution/Share-Alike ლიცენზიით</a>; ზოგ შემთხვევაში შესაძლებელია დამატებითი პირობები. იხილეთ <a  href='http://wikimediafoundation.org/wiki/Terms_of_Use/ru'>გამოყენების პირობი</a>. «Wikipedia» — არაკომერციული ორგანიზაციია <a  href='http://www.wikimediafoundation.org/'>«ფონდ ვიკიმედიის»</a> პროექტია.
+disable_button: გათიშვა
 error_page_title: პრობლემა გვაქვს!
+explain_disable: თქვენ დარწმუნებული ხართ, რომ გსურთ ვიკიპედიის მობილური ვერსიის გათიშვა? თუ თქვენ აირჩევთ <b>გათიშვა</b> ღილაკს, ვიკიპედიის შემდეგი ჩართვისას თქვენ აღარ გადამისამართდებით ვიკიპედიის მობილურ ვერსიაზე.
 featured_article: დღის რჩეული სტატია
 hide_button: დამალე
 home_button: შინ
 in_the_news: სიახლეებში
+nav_edit: რედაქტირება
+nav_end: დასასრული
+nav_history: ისტორია
+nav_top: დასაწყისში
 no_article_found: სტატია არ მოიძებნა
+perm_stop_redirect: გათიშეთ მობილური საიტი
 random_button: შემთხვევეთი
 regular_wikipedia: ამ გვერდის ჩვეულებრივ ვიკიპედიაში ხილვა
 search_results: ძიების შედეგები
 search_submit: აბა ჰე
+search_text: ძიება
 show_button: აჩვენე

@@ -1,4 +1,23 @@
 namespace :lang do
+  desc "Statistics"
+  task :status do
+    mobile_page = 0
+    standardized_sections = 0
+    settings = YAML::load(open("config/wikipedias.yml"))
+    settings.each do |key, wiki|
+      if wiki["mobile_main_page"]
+        mobile_page += 1
+      else
+        standardized_sections += 1
+      end
+    end
+    
+    puts "#{mobile_page} Wikis with customized mobile pages"
+    puts "#{standardized_sections} standardized sections"
+    puts "#{settings.keys.size} total"
+    
+  end
+  
   desc "Import and refresh all language strings"
   task :import do
     Encoding.default_internal = Encoding.default_external = "ASCII-8BIT"
