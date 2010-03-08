@@ -33,12 +33,12 @@
 --- 
 en: 
   main_page: Main_Page
-  selectors: 
+  selectors: &defaults
     featured_article: "#mp-tfa"
     news_items: "#mp-itn"
-    on_this_day: "#mp-otd"
+    #on_this_day: "#mp-otd"
     featured_picture: "#mp-tfp"
-    facts: "#mp-dyk"
+    #facts: "#mp-dyk"
 
 de: 
   main_page: Wikipedia:Hauptseite
@@ -96,6 +96,11 @@ fi:
   selectors: 
     featured_article: "#bodyContent table tr:nth-child(2) td:nth-child(1) div:nth-child(2) div:nth-child(2)"
     news_items: "#bodyContent table tr:nth-child(2) td:nth-child(2) div:nth-child(1) div:nth-child(2)"
+
+cs:
+  main_page: Hlavní_strana
+  selectors:
+    <<: *defaults
 
 he:
   main_page: "%D7%A2%D7%9E%D7%95%D7%93_%D7%A8%D7%90%D7%A9%D7%99"

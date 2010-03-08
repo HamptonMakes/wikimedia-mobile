@@ -1,6 +1,30 @@
 # Messages for Kannada (ಕನ್ನಡ)
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: HPN
 # Author: Nayvik
+are_you_sure: ಮುಂದುವರೆಯೋಣವೆ?
+back_button: ಹಿಂದಕ್ಕೆ
+back_to_top_of_section: ಒಂದು ವಿಭಾಗ ಹಿಂದಕ್ಕೆ ಹೋಗಿ
+contact_us: ನಿಮ್ಮಲ್ಲಿ ಪ್ರಶ್ನೆಗಳು ಅಥವ ಪ್ರತಿಕ್ರಿಯೆಗಳಿದ್ದಲ್ಲಿ mobile@wikipedia.org ವಿಳಾಸಕ್ಕೆ ಬರೆಯಬಹುದು
+copyright: ಈ ಮಾಹಿತಿ <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>ಕ್ರಿಯೇಟಿವ್ ಕಾಮನ್ಸ್ ಆಟ್ರಿಬ್ಯೂಶನ್ ಶೇರ್ ಅಲೈಕ್ ಲೈಸೆನ್ಸಿನಡಿ</a> ಲಭ್ಯವಿದೆ. ಕೆಲವು ಹೆಚ್ಚಿನ ನಿಬಂಧನೆಗಳು ಕೂಡ ಅನ್ವಯಿಸಬಹುದು. ಮಾಹಿತಿಗೆ <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>ಬಳಕೆಯ ನಿಬಂಧನೆಗಳು</a> ಪುಟ ನೋಡಿ. ವಿಕಿಪೀಡಿಯ <a href='http://www.wikimediafoundation.org/'>ವಿಕಿಮೀಡಿಯ ಫೌಂಡೇಶನ್</a> ಎಂಬ ಲಾಭರಹಿತ ಸಂಸ್ಥೆಯ ಟ್ರೇಡ್ ಮಾರ್ಕ್.
+disable_button: ಮರೆಮಾಡಿ
+error_page_text: ವಿಕಿಪೀಡಿಯ ಮೊಬೈಲ್ ಆವೃತ್ತಿ ಇನ್ನೂ ಸತತ ನಿರ್ಮಾಣ ಹಂತದಲ್ಲಿದೆ. ನಾವುಗಳು ಇಲ್ಲಿಯ ತಂತ್ರಾಂಶದ ದೋಷಗಳನ್ನು ಸರಿಪಡಿಸಲು ಶ್ರಮದಿಂದ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದೇವೆ. ಈಗಾದ ದೋಷದ ಬಗ್ಗೆ ವಿವರ ನಮಗೆ ತಲುಪಿದೆ. ಇದನ್ನು ಸದ್ಯದಲ್ಲೇ ಸರಿಪಡಿಸಲಾಗುವುದು. ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ!
+error_page_title: ಇಲ್ಲೇನೋ ತೊಂದರೆಯಾಗಿದೆ!
+explain_disable: ವಿಕಿಪೀಡಿಯದ ಮೊಬೈಲ್ ಆವೃತ್ತಿ ಮರೆ ಮಾಡಲು ಹೊರಟಿದ್ದೀರಿ. ಮುಂದುವರೆಯೋಣವೆ? ನೀವು <b>ಮರೆ ಮಾಡಿ</b> ಎಂಬ ಆಯ್ಕೆ ಸೆಲೆಕ್ಟ್ ಮಾಡಿದರೆ ಈಗಿನಿಂದ ವಿಕಿಪೀಡಿಯ ಭೇಟಿ ಕೊಟ್ಟಾಗಲೆಲ್ಲ ವಿಕಿಪೀಡಿಯದ ಮೊಬೈಲ್ ಆವೃತ್ತಿಗೆ ನಿಮಗೆ ಕರೆದುಕೊಂಡು ಹೋಗದು.
+featured_article: ಇಂದಿನ ವಿಶೇಷ ಲೇಖನ
+hide_button: ಮರೆ ಮಾಡಿ
+home_button: ಮುಖ್ಯಪುಟ
+in_the_news: ಸುದ್ದಿಯಲ್ಲಿ
+nav_edit: ಬದಲಾಯಿಸಿ
+nav_end: ಕೊನೆ
+nav_history: ಇತಿಹಾಸ
+nav_top: ಮೇಲಕ್ಕೆ
+no_article_found: ಯಾವುದೇ ಲೇಖನ ಸಿಗಲಿಲ್ಲ
+perm_stop_redirect: ಮೊಬೈಲ್ ಆವೃತ್ತಿಯನ್ನು ಶಾಶ್ವತವಾಗಿ ಮರೆಮಾಡಿ
+random_button: ಹೀಗೇ ಒಂದು ಪುಟ
+regular_wikipedia: ವಿಕಿಪೀಡಿಯದ ಎಂದಿನ ಆವೃತ್ತಿಯಲ್ಲಿ ಈ ಪುಟ ನೋಡಿ
+search_results: ಸರ್ಚ್ ಫಲಿತಾಂಶಗಳು
 search_submit: ಹೋಗು
+search_text: ಸರ್ಚ್
 show_button: ತೋರಿಸು

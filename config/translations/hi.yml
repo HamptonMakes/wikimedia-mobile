@@ -1,13 +1,18 @@
 # Messages for Hindi (हिन्दी)
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: Harish
 # Author: Jyothis
 # Author: Vsrawat
 are_you_sure: क्या आप को यकीन है???
 back_button: पीछे
+back_to_top_of_section: पीछला अनुभाग
+contact_us: यदि आपके कोई प्रश्न या टिप्पणी है हमारे mobile@wikipedia.org पर ईमेल कर्ने में संकोच न करें
 copyright: इस भाषा के लिए मानक प्रकाशनाधिकार।
+disable_button: अशक्त कर देना
 error_page_text: विकीमीडिया मोबाइल का अभी भी सक्रिय विकास किया जा रहा है और हम अपनी सारी आंतरिक समस्याओं का समाधान करने के लिए कड़ी मेहनत कर रहे हैं। हमें इस त्रुटी के बारे में सूचना मिल चुकी है और हम इसका समाधान शीघ्र ही करेंगे। कृपया वापस जाँचें!
 error_page_title: हमें एक समस्या है!
+explain_disable: क्या तुम्हें यकीन है कि तुम विकिपीडिया के मोबाइल संस्करण को निष्क्रिय करना चाहते हैं? यदि आप <b>अक्षम</b> चुनते हैं, तो अब से, जब आप विकिपीडिया जाये, आप विकिपीडिया का यह मोबाइल दृश्य देखने के लिए नहीं भेजा जाएगा.
 featured_article: आज का विशेष लेख
 hide_button: छुपायें
 home_button: गृह
@@ -15,6 +20,7 @@ in_the_news: समाचारों में
 nav_edit: संपादित करें
 nav_end: अंत
 nav_history: इतिहास
+nav_top: सिरा
 no_article_found: कोई लेख नहीं मिला
 perm_stop_redirect: मोबाइल साइट को स्थायी रुप से असमर्थ करें
 random_button: बेतरतीब

@@ -1,20 +1,32 @@
 # Messages for Greek (Ελληνικά)
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: Lou
 # Author: Omnipaedista
 # Author: ZaDiak
 # Author: Απεργός
+are_you_sure: Είστε σίγουρος(η);;;
+back_button: Πίσω
+back_to_top_of_section: Πίσω στην αρχή της ενότητας
+contact_us: Για ερωτήσεις ή σχόλια μπορείτε να μας στείλετε ένα email στο mobile@wikipedia.org
 copyright: Το κείμενα είναι διαθέσιμο κάτω από την άδεια <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike</a>; μπορεί να ισχύουν πρόσθετοι όροι. Δείτε του <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Όρους Χρήσης</a> για λεπτομέρειες. Η Βικιπαίδεια είναι κατοχυρωμένο σήμα του <a href='http://www.wikimediafoundation.org/'>Ιδρύματος Wikimedia, Inc.</a>, ένας μη-κερδοφόρος οργανισμός.
+disable_button: Απενεργοποίηση
 error_page_text: Η κινητή Βικιπαίδεια είναι ακόμα υπό ανάπτυξη και δουλεύουμε σκληρά για να διορθωθούν όλα τα εσωτερικά μας σφάλματα. Έχουμε ειδοποιηθεί για αυτό το σφάλμα και θα φτιαχθεί σύντομα. Παρακαλώ ελέγξτε ξανά!
 error_page_title: Έχουμε πρόβλημα!
+explain_disable: Είστε σίγουρος(η) ότι θέλετε να απενεργοποιήσετε την έκδοση της Βικιπαίδειας για κινητά; Εάν διαλέξετε <b>Απενεργοποίηση</b>, τότε, από δω κι εμπρός, όταν επισκέπτεστε τη Βικιπαίδεια, δεν θα ανακατευθύνεστε σ' αυτή την έκδοση της Βικιπαίδειας για κινητά.
 featured_article: Σημερινό Επιλεγμένο Άρθρο
 hide_button: Απόκρυψη
 home_button: Κύρια σελίδα
 in_the_news: Στον Τύπο
+nav_edit: Επεξ.
+nav_end: Τέλος
+nav_history: Ιστορικό
+nav_top: Αρχή
 no_article_found: Δεν βρέθηκε κάποιο άρθρο
 perm_stop_redirect: Απενεργοποίηση για πάντα της ιστοσελίδας για κινητά
 random_button: Τυχαία
 regular_wikipedia: Δείτε αυτή τη σελίδα στην κανονική Βικιπαίδεια
 search_results: Αποτελέσματα Αναζήτησης
 search_submit: Μετάβαση
+search_text: Αναζήτηση
 show_button: Εμφάνιση
