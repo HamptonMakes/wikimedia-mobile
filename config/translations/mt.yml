@@ -2,16 +2,28 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: Chrisportelli
+are_you_sure: Inti żgur?
+back_button: Lura
+back_to_top_of_section: Aqbeż sezzjoni lura
+contact_us: Jekk għandek xi mistoqsijiet jew kummenti, ħossok liberu li tikkuntatjana fuq mobile@wikipedia.org
 copyright: It-test hu disponibbli taħt il-<a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Liċenzja Creative Commons Attribution/Share-Alike</a>; termini addizjonali jistgħu japplikaw. Ara t-<a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>termini ta' użu</a> għal aktar dettalji. Il-Wikipedija hija trejdmark reġistrata mill-<a href='http://www.wikimediafoundation.org/'>Fondazzjoni Wikimedia, Inc.</a>, organizzazzjoni mingħajr ebda fini ta' profitt.
+disable_button: Invalida
 error_page_text: Wikipedia mobile għadu f'fażi ta' żvilupp u qegħdin naħdmu biex insolvu l-iżbalji interni tagħna. Diġà ġejna notifikati b'dan l-iżball u se nagħmlu l-almu tagħna biex insolbuh. Ikkontrolla iktar tard!
 error_page_title: Ġiet verifikata problema!
+explain_disable: Inti żgur li trid tinvalida l-verżjoni tal-mowbajl tal-Wikipedija? Jekk tagħżel <b>Invalida</b>, minn issa 'l quddiem, meta żżur 'l-Wikipedija, mintix se tiġi riindirizzat għal din id-dehra tal-mowbajl tal-Wikipedija.
 featured_article: Vetrina
 hide_button: Aħbi
 home_button: Daħla
 in_the_news: L-aħħar aħbarijiet
+nav_edit: Editja
+nav_end: Tmiem
+nav_history: Kronoloġija
+nav_top: Fuq
 no_article_found: L-ebda artiklu ma nstab
+perm_stop_redirect: Invalida għal dejjem is-sit għall-mowbajl
 random_button: Paġna kwalunkwe
 regular_wikipedia: Ara din il-paġna fuq il-Wikipedija normali
 search_results: Riżultati tat-tfittxija
 search_submit: Mur
+search_text: Fittex
 show_button: Uri
