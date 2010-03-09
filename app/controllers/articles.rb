@@ -45,6 +45,10 @@ class Articles < Application
   end
   
   def show
+    if request.env["REQUEST_PATH"].include?("/wiki//")
+      @name = "/" + current_name
+    end
+
     if /action=([^&]*)/.match(request.env["QUERY_STRING"]) then
         wikiaction = $1
         if wikiaction != "" && wikiaction != "view" then
