@@ -45,6 +45,9 @@ class Articles < Application
   end
   
   def show
+    
+    # This is to cover the case when we have path's like "/wiki//dev/null"
+    # Merb strips the second / and so we are re-instituting it here
     if request.env["REQUEST_PATH"].include?("/wiki//")
       @name = "/" + current_name
     end
