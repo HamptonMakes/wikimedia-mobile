@@ -79,10 +79,8 @@ class Articles < Application
   end
   
   def file
-    @article = current_server.file(params[:file], params[:variant])
-    format_display_with_data do
-      @article.to_hash(request.device)
-    end
+    @image = Image.new(current_server, params[:file], nil, request.device, params[:variant])
+    render :image
   end
 
  private 
@@ -144,7 +142,7 @@ class Articles < Application
  protected
   # This is URI encoded.
   def current_name
-    @name ||= (params[:search] || params[:title] || params[:file] || "")
+    @name ||= (params[:search] || params[:title] || "")
   end
   
   def cache_key

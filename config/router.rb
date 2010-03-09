@@ -30,6 +30,8 @@ Merb::Router.prepare do
   with(:controller => "articles") do
     variantsRe = /^(wiki|sr-ec|sr-el|zh|zh-hans|zh-hant|zh-cn|zh-hk|zh-sg|zh-tw)$/
     match("/").to(:action => "home", :variant => "wiki" )
+    
+    match(/\/[^\/]+\/File:(.*)/).to(:action => "file", :file => "[1]")
 
     with(:action => "show") do
       # Primary HTML way to access information
@@ -43,9 +45,7 @@ Merb::Router.prepare do
       match("/w/index.php").to()
     end
     
-    match( "/:variant", :variant => variantsRe ) do |varm|
-
-      varm.match(/\/File:(.*)/).to(:action => "file", :file => "[1]")
+    match("/:variant", :variant => variantsRe ) do |varm|
 
       Languages.each do |code, strings|
         if random_button = strings['random_button']
@@ -58,6 +58,8 @@ Merb::Router.prepare do
         end
       end
     end
+    
+    
   end
 
   match(/\/w\/extensions\/(.*)/).to(:action => "not_found", :controller => "exceptions")
