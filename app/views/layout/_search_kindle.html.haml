@@ -3,7 +3,7 @@
     %td
       %img{:src => "/images/w.gif", :id => "logo", :alt => "W logo"}/
     %td
-      %form.search_bar{:action => @variant, :method => "get"}
+      %form.search_bar{:action => "/#{variant_name}", :method => "get"}
         %input{:name => "search", :type => "text", :size => "25", :value => search_bar_contents}/
         %button{:type => "submit"}= go_text
 

@@ -43,6 +43,8 @@ class Device
       else
         :webkit
       end
+    when /Kindle\/1.0/
+      :kindle
     when /Kindle\/2.0/
       :kindle2
     when /Firefox/
