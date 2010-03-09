@@ -4,7 +4,7 @@
 source :gemcutter
 #source "http://edge.merbivore.com"
 
-merb_gems_version = "1.1"
+merb_gems_version = "1.1.0.pre"
 dm_gems_version   = "0.10.1"
 do_gems_version   = "0.10.0"
 

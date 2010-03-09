@@ -29,11 +29,13 @@ running.
 
 = Getting Running
 
-1) Install Ruby 1.9 and RubyGems http://www.ruby-lang.org/en/downloads/
+1) Install Ruby 1.9.1 and RubyGems version 1.3.6 from http://www.ruby-lang.org/en/downloads/
 
 2) Install the latest bundler gem
     
-  gem install bundler
+  gem install bundler --version="0.9.10"
+  
+  (or brave other versions if you like)
 
 3) Setup host headers for en.m.wikitest.org, *.m.wikitest.org for any language that you want to test. Anything works, but it needs to start with a language code. Point each one at 127.0.0.1 assuming you don't have some sort of freaky setup. For instance...
 
@@ -52,13 +54,13 @@ running.
 
 6) Go into the new folder and type:
 
-  gem bundle
+  bundle install
 
 This will expand all the gem files into your local rubygems bundle.
 
 7) start the server with
 
-  bin/merb -a thin
+  merb -a thin
   
 We need to use thin because currently Mongrel doesn't work on Ruby 1.9. running 
 bin/merb will make sure its using the local bundle requires instead of the system gems
