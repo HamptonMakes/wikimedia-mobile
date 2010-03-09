@@ -46,10 +46,13 @@ palm_pre:
   <<: *webkit_old
   css_file_name: 'palm_pre'
 
-kindle2:
+kindle: &kindle
   <<: *defaults
   search_bar: 'kindle'
   css_file_name: "kindle"
+
+kindle2:
+  <<: *kindle
 
 blackberry:
   <<: *defaults
