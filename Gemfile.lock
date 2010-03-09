@@ -1,0 +1,159 @@
+--- 
+hash: 0bdac3e2fdfc69b90509010705c34909f646aac7
+sources: 
+- Rubygems: 
+    uri: http://gemcutter.org
+specs: 
+- thor: 
+    version: 0.13.4
+- eventmachine: 
+    version: 0.12.10
+- daemons: 
+    version: 1.0.10
+- json_pure: 
+    version: 1.2.2
+- haml: 
+    version: 2.2.20
+- abstract: 
+    version: 1.0.0
+- erubis: 
+    version: 2.6.5
+- activesupport: 
+    version: 2.3.5
+- dm-aggregates: 
+    version: 0.10.1
+- rake: 
+    version: 0.8.7
+- rspec: 
+    version: 1.3.0
+- addressable: 
+    version: 2.1.1
+- extlib: 
+    version: 0.9.14
+- dm-core: 
+    version: 0.10.1
+- data_objects: 
+    version: 0.10.0
+- moneta: 
+    version: 0.6.0
+- sinatra: 
+    version: 0.9.4
+- gchartrb: 
+    version: "0.8"
+- nokogiri: 
+    version: 1.3.3
+- mime-types: 
+    version: "1.16"
+- mailfactory: 
+    version: 1.4.0
+- merb-core: 
+    version: "1.1"
+- merb-haml: 
+    version: "1.1"
+- merb-exceptions: 
+    version: "1.1"
+- merb-mailer: 
+    version: "1.1"
+- merb-cache: 
+    version: "1.1"
+- merb-assets: 
+    version: "1.1"
+- curb: 
+    version: 0.5.4.0
+- memcache-client: 
+    version: 1.7.5
+- rack: 
+    version: 1.1.0
+- thin: 
+    version: 1.2.7
+dependencies: 
+  memcache-client: 
+    version: = 1.7.5
+    group: 
+    - :default
+    require: []
+
+  curb: 
+    version: = 0.5.4.0
+    group: 
+    - :default
+  nokogiri: 
+    version: = 1.3.3
+    group: 
+    - :default
+  gchartrb: 
+    version: ">= 0"
+    group: 
+    - :default
+    require: 
+    - google_chart
+  sinatra: 
+    version: = 0.9.4
+    group: 
+    - :default
+  mime-types: 
+    version: ">= 0"
+    group: 
+    - :default
+    require: 
+    - mime/types
+  moneta: 
+    version: = 0.6.0
+    group: 
+    - :default
+  json_pure: 
+    version: ">= 0"
+    group: 
+    - :default
+  thin: 
+    version: ">= 0"
+    group: 
+    - :default
+  merb-core: 
+    version: = 1.1
+    group: 
+    - :default
+  merb-assets: 
+    version: = 1.1
+    group: 
+    - :default
+  merb-cache: 
+    version: = 1.1
+    group: 
+    - :default
+  merb-haml: 
+    version: = 1.1
+    group: 
+    - :default
+  merb-mailer: 
+    version: = 1.1
+    group: 
+    - :default
+  merb-exceptions: 
+    version: = 1.1
+    group: 
+    - :default
+  activesupport: 
+    version: ">= 0"
+    group: 
+    - :default
+  data_objects: 
+    version: = 0.10.0
+    group: 
+    - :default
+  dm-core: 
+    version: = 0.10.1
+    group: 
+    - :default
+  dm-aggregates: 
+    version: = 0.10.1
+    group: 
+    - :default
+  rake: 
+    version: ">= 0"
+    group: 
+    - :default
+  rspec: 
+    version: ">= 0"
+    group: 
+    - :default
