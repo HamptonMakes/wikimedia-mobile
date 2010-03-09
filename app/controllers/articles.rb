@@ -87,7 +87,7 @@ class Articles < Application
 
  private 
  
-  def format_display_with_data(html = nil, &block)
+  def format_display_with_data(template_name = nil, &block)
     Merb.logger[:content_type] = content_type
 
     case content_type
@@ -106,7 +106,7 @@ class Articles < Application
       when :wml
         @headers["Content-Type"] = "text/vnd.wap.wml; charset=utf-8"
       end
-      render html, :layout => request.device.with_layout
+      render template_name, :layout => request.device.with_layout
     end
   end
  

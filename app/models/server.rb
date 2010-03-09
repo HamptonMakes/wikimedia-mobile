@@ -39,7 +39,6 @@ class Server
       result = nil
 
       result = fetch_from_web(path)
-      
 
       compressed_size = result.downloaded_content_length
 

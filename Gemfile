@@ -31,11 +31,13 @@ gem "merb-haml",        merb_gems_version
 gem "merb-mailer",      merb_gems_version
 gem "merb-exceptions",  merb_gems_version
 
-# Stuff for stats
-gem "activesupport"
-gem "data_objects", do_gems_version
-gem "dm-core", dm_gems_version
-gem "dm-aggregates", dm_gems_version
+if false
+  # Stuff for stats
+  gem "activesupport"
+  gem "data_objects", do_gems_version
+  gem "dm-core", dm_gems_version
+  gem "dm-aggregates", dm_gems_version
+end
 
 #only :test do
   
