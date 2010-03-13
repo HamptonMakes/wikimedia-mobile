@@ -149,3 +149,11 @@ ca:
     on_this_day: "#mp-otd"
     news_items: "#mp-itn"
     featured_picture: "#mp-tfp"
+
+mr:
+  homepage: "%E0%A4%AE%E0%A5%81%E0%A4%96%E0%A4%AA%E0%A5%83%E0%A4%B7%E0%A5%8D%E0%A4%A0"
+  selectors:
+    featured_article: "#mp-tfa"
+    facts: "#mp-dyk"
+    on_this_day: "#mp-otd"
+    featured_picture: "#mp-tfp"
