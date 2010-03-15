@@ -33,9 +33,9 @@ gem "merb-exceptions",  merb_gems_version
 
 # Stuff for stats
 gem "activesupport"
-gem "data_objects", do_gems_version
-gem "dm-core", dm_gems_version
-gem "dm-aggregates", dm_gems_version
+#gem "data_objects", do_gems_version
+#gem "dm-core", dm_gems_version
+#gem "dm-aggregates", dm_gems_version
 
 #only :test do
   

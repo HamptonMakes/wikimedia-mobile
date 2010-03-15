@@ -2,6 +2,10 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: Ivanko
+# Author: Spiritia
+are_you_sure: Сигурни ли сте???
+back_button: Назад
+contact_us: Ако имате въпроси или коментари, моля, свържете се с нас по електронна поща на адрес mobile@wikipedia.org
 copyright: Този текст е лицензиран под условията на <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.bg'>Признание-Споделяне на споделеното 3.0 Нелокализиран</a> Договор; допълнителни условия могат да са в сила. Вижте <a http://wikimediafoundation.org/wiki/%D0%A3%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F_%D0%B7%D0%B0_%D0%BF%D0%BE%D0%BB%D0%B7%D0%B2%D0%B0%D0%BD%D0%B5'>Условия за ползване</a> за подробности. Уикипедия е запазена марка на <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, организация с нестопанска цел.
 error_page_text: Мобилната Уикипедия все още е в активна разработка и ние работим упорито по отстраняване на всички наши грешки. Уведомени сме за тази грешка и тя скоро ще бъде поправена. Моля, проверете по-късно!
 error_page_title: Имаме проблем!
@@ -9,10 +13,13 @@ featured_article: Избрана статия на деня
 hide_button: "-"
 home_button: Начало
 in_the_news: В новините
+nav_end: Край
+nav_history: История
 no_article_found: Няма открита статия
 perm_stop_redirect: Трайно изключване на мобилния сайт
 random_button: Случайна
 regular_wikipedia: Класически изглед на Уикипедия
 search_results: Резултати от търсенето
 search_submit: Отваряне
+search_text: Търсене
 show_button: +

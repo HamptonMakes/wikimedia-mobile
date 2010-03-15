@@ -2,8 +2,28 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: HalanTul
+are_you_sure: Кырдьык дуо?
+back_button: Төнүн
+back_to_top_of_section: Биир салаанан кэнники бар
+contact_us: "Туох эрэ ыйытыылаах эбэтэр этиилээх буоллаххына манна суруйаар: mobile@wikipedia.org"
 copyright: Бу тиэкис  <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution/Share-Alike</a> лицензиянан тарҕанар, сорох түбэлтэлэргэ эбии көрдөбүллэр баар буолуохтары сөп. Сиһилии <a href='http://wikimediafoundation.org/wiki/Terms_of_Use/ru'>Условия использования</a> көр. «Wikipedia» — <a href='http://www.wikimediafoundation.org/'>«Викимедиа пуондата»</a> диэн барыыс киллэрбэт тэрилтэ бигэргэтиллибит тус бэйэтин бэлиэтэ.
+disable_button: Араар
+error_page_text: Бикипиэдьийэ мобильнай барыла билигин тупсарылла турар, биһиги алҕастары көннөрүүгэ туох баар күүспүтүн уурабыт. Алҕас туһунан биллэриини туттубут уонна сотору көннөрүөхпүт. Бука диэн, сотору кэминэн тургутан көрөөр!
+error_page_title: Алҕас таҕыста!
+explain_disable: Бикипиэдьийэ мобильнай барылын араараары гынаҕын дуо? Өскө <b>Араар</b> диэни таллаххына, аныгыскы киириигэр саайт мобильнай барылыгар утаарыллыаҥ суоҕа.
+featured_article: Бүгүҥҥү талыы ыстатыйа
+hide_button: Кистээ
 home_button: Дьиэлээ
+in_the_news: Сонуннар
+nav_edit: Уларыт
+nav_end: Кэннигэр
+nav_history: Устуоруйата
+nav_top: Саҕаланыытыгар
 no_article_found: Ыстатыйалар булуллубатылар
+perm_stop_redirect: Мобильнай саайты араар
+random_button: Түбэспиччэ
+regular_wikipedia: Сирэйи көннөрү Бикипиэдьийэҕэ көр
+search_results: Булулунна
 search_submit: Таһаар
+search_text: Көрдөө
 show_button: Көрдөр

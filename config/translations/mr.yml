@@ -3,26 +3,29 @@
 # Export driver: syck
 # Author: Harish
 # Author: Jyothis
+# Author: कोल्हापुरी
 are_you_sure: नक्की?
 back_button: मागे
-back_to_top_of_section: मागची भाग जाणे
-contact_us: काहीही प्रश्न या टिप्पणीसाठी mobile@wikipedia.org येथे इमैल् करा
-disable_button: दुर्बल करणे
-error_page_text: विकिपीडीया मोबाइल् साइट् पुर्ण् झालेला नाही, आणी आम्ही आमचा अंतर्गत चुका स्थिर करण्याची कार्यक्षम चालू आहे. आम्हाला या चुका बद्दल् खबर मिळाले आहे आणी लवकरच् स्थिर क्र्‍रेल् . कृपया पुन्हा पहा!
-error_page_title: अडचण घडले !
-featured_article: आजचा प्रमुख लेख
+back_to_top_of_section: एक विभाग मागे जा
+contact_us: कोणत्याही प्रश्न  किंवा सुचनांसाठी mobile@wikipedia.org येथे विरोप (इमेल) पाठवा
+copyright: लेख <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; नुसार उपलब्ध आहेत, अधिक अटी असू शकतात. विशेष माहितीसाठी <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> पाहा. विकीपिडीया हे <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a> या ना-नफा तत्त्वावर चालणार्‍या संस्थेचे नोंदणीकृत व्यवसायचिन्ह आहे.
+disable_button: अक्षम करा
+error_page_text: विकिपीडिया मोबाइल संकेतस्थळ पूर्ण झालेले नाही, आणि आम्ही आमच्या अंतर्गत चुका दुरूस्त करत आहोत. आम्हाला या चुकीबद्दल खबर मिळाली आहे आणि लवकरच ती दुरुस्त केली जाईल . कृपया पुन्हा पाहा!
+error_page_title: काहीतरी विपरित घडले !
+explain_disable: तुम्हाला नक्की विकीपीडिया मोबाईल आवृत्ती अक्षम करायची आहे का? तुम्ही <b>अक्षम</b> केल्यानंतर तुम्ही विकीपीडियाला भेट द्याल तेंव्हा तुम्हाला विकीपीडिया मोबाईल आवृत्तीवर  पाठवले जाणार नाही.
+featured_article: आजचा लेख
 hide_button: लपवा
-home_button: गृह
-in_the_news: समाचार मध्ये
+home_button: मुखपृष्ठ
+in_the_news: बातम्यांमध्ये
 nav_edit: संपादन
-nav_end: अंत
+nav_end: शेवट
 nav_history: इतिहास
 nav_top: वर
-no_article_found: काही लेख् मिळाले नाही
-perm_stop_redirect: कायमचा मोबाइल साइट दुर्बल करणे
-random_button: सहज
-regular_wikipedia: पृष्ठ नेहमीचे विकिपीदीयात् पहा
-search_results: शोध परिणाम
-search_submit: जाणे
+no_article_found: लेख मिळाला नाही
+perm_stop_redirect: कायमचे मोबाईल संकेतस्थळ अक्षम करा
+random_button: अविशिष्ट
+regular_wikipedia: हे पृष्ठ नेहमीच्या विकिपीडियात पाहा
+search_results: शोधनिकाल
+search_submit: चला
 search_text: शोध
 show_button: दाखवा
