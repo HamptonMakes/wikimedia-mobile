@@ -48,7 +48,11 @@ Merb::BootLoader.before_app_loads do
   
   Dir.glob("config/translations/**.yml").each do |file|
     code = file.split("/").last.split(".").first
-    Languages[code] = YAML::load(open(file))
+    begin
+      Languages[code] = YAML::load(open(file))
+    rescue
+      puts "Loading #{code} failed"
+    end
   end
 
   
