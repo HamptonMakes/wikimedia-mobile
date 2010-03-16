@@ -1,3 +1,9 @@
-%img{:src => @image.url}/
+%h2= @image.name
 
-= current_name
+- if params[:backlink]
+  %a{:href => params[:backlink]} <<< Back to Article
+
+#image_wrapper
+  %img{:src => @image.url(params[:size] || "310"), :alt => params[:file]}/
+
+%a{:href => @image.original_url} Download Full Version

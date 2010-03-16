@@ -2,5 +2,7 @@
   .mwm-notice
     - if @article
       = stop_redirect_notice(@article.title)
+    - elsif @image
+      = stop_redirect_notice(@image.wiki_name)
     - else
       = stop_redirect_notice("")

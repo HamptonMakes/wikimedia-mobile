@@ -119,7 +119,6 @@ module Parsers
           base = "</div>" + base
         end
 
-
         base
       end
 
