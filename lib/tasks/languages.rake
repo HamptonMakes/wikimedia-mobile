@@ -38,7 +38,7 @@ namespace :lang do
           r = Typhoeus::Request.new("http://translatewiki.net/w/i.php?title=Special%3ATranslate&task=export-to-file&group=out-wikimediamobile&language=#{code}")
           r.on_complete do |response|
             begin
-              if response.body.size == 0
+              if response.body.size == 0 || response.body.include?("wgFormattedNamespaces")
                 puts "Language not supported"
               else
                 file = File.open(Merb.root + "/config/translations/#{code}.yml", "w")
