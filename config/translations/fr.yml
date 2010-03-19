@@ -5,6 +5,7 @@
 # Author: IAlex
 # Author: Jastrow
 # Author: Kropotkine 113
+# Author: Peter17
 # Author: Verdy p
 are_you_sure: Êtes-vous certain ?
 back_button: En arrière
@@ -31,3 +32,4 @@ search_results: Résultats de la recherche
 search_submit: Lire
 search_text: Rechercher
 show_button: Afficher
+wikipedia: Wikipédia

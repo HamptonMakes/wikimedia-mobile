@@ -4,8 +4,13 @@
 # Author: An13sa
 are_you_sure: Ziur zaude ?
 back_button: Atzera
+back_to_top_of_section: Atal Bat Atzera Joan
+contact_us: Edozein galdera edo zalantza baduzu mesedez bidali iezaiguzu eposta bat mobile@wikipedia.org helbidera
+copyright: Testua ondorengo lizentziapean dago <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Atribuzioa/Partekatu-Alike Lizentzia</a>. Informazio gehiagorako <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Erabilpen-baldintzak</a> ikusi. Wikipedia <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, erakundearen irabazi-asmorik gabeko erregistratutako proiektua da.
 disable_button: Ezgaitu
+error_page_text: Wikipedia mobile garapen prozesuan dago oraindik eta lanean ari gara ezodein barne-errore konpontzeko. Errore hau jakinarazi digute eta laister konponduko dugu. Mesedez itzuli beranduago!
 error_page_title: Arazo bat dugu!
+explain_disable: Ziur zaude Wikipediako mugikorrerako bertsioa ezgaitu nahi duzula? <b>Ezgaitu</b> aukeratzen baduzu, hemendik aurrera, Wikipedia bisitatzen duzunean, Wikipediaren mugikorrerako orri honetara ez zara birzuzendua izango.
 featured_article: Gaur Nabarmendutako Artikulua
 hide_button: Ezkutatu
 home_button: Azala
@@ -15,9 +20,11 @@ nav_end: Amaiera
 nav_history: Historia
 nav_top: Gora
 no_article_found: Ez da artikulurik aurkitu
+perm_stop_redirect: Mugikorrerako gunea betirako ezgaitu
 random_button: Ausazkoa
 regular_wikipedia: Ikusi orrialde hau Wikipedia arruntean
 search_results: Bilaketaren emaitzak
 search_submit: Joan
 search_text: Bilatu
 show_button: Erakutsi
+wikipedia: Wikipedia
