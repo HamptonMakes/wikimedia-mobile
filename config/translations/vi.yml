@@ -6,6 +6,7 @@
 are_you_sure: Bạn có chắc không?
 back_button: Trở về
 back_to_top_of_section: Nhảy về đầu phần
+contact_us: Nếu bạn có câu hỏi hoặc nhận xét gì, xin vui lòng gửi thư cho chúng tôi tại mobile@wikipedia.org
 copyright: Văn bản được phát hành theo <a href='http://vi.wikipedia.org/wiki/Wikipedia:Nguyên_văn_Giấy_phép_Creative_Commons_Ghi_công–Chia_sẻ_tương_tự_phiên_bản_3.0_Chưa_chuyển_đổi?uselang=vi'>Giấy phép Creative Commons Ghi công/Chia sẻ tương tự</a>; có thể áp dụng điều khoản bổ sung. Xem <a href='http://wikimediafoundation.org/wiki/Điều_khoản_Sử_dụng?uselang=vi'>Điều khoản Sử dụng</a> để biết thêm chi tiết. Wikipedia là thương hiệu đã đăng ký của <a href='http://www.wikimediafoundation.org/wiki/Trang_chủ?uselang=vi'>Wikimedia Foundation, Inc.</a>, một tổ chức phi lợi nhuận.
 disable_button: Tắt
 error_page_text: Wikipedia Di động vẫn đang được phát triển và chúng tôi đang nỗ lực sửa tất cả các lỗi nội bộ. Chúng tôi đã được thông báo về lỗi này và sẽ sớm sửa nó. Hãy ghé thăm lại!
@@ -27,3 +28,4 @@ search_results: Kết quả tìm kiếm
 search_submit: Xem
 search_text: Tìm kiếm
 show_button: Hiện
+wikipedia: Wikipedia

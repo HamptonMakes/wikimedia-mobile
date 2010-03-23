@@ -2,17 +2,29 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: Huuchin
+are_you_sure: Та иткмҗтә бәәнәт?
+back_button: Хәрү
+back_to_top_of_section: Хүвәр хәрү
+contact_us: Сурврта аль аҗгллһта бәәхлә, буйн болтха, биднд mobile@wikipedia.org хайгт бичтн.
 copyright: Текст доступен на условиях лицензии <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution/Share-Alike</a>, в отдельных случаях могут действовать дополнительные условия. Подробнее см. <a href='http://wikimediafoundation.org/wiki/Terms_of_Use/ru'>Условия использования</a>. «Wikipedia» — зарегистрированная торговая марка некоммерческой организации <a href='http://www.wikimediafoundation.org/'>«Фонд Викимедиа»</a>.
+disable_button: Унтрах
 error_page_text: Мобильная Википедия ещё находится в стадии активной разработки, и мы прилагаем максимум усилий, чтобы исправить все наши внутренние ошибки. Мы были уведомлены об этой ошибке и планируем её вскоре исправить. Пожалуйста, проверьте через некоторое время!
 error_page_title: Мадн халта!
+explain_disable: Та иткмҗтә мобил Бикипедин янз унтрахар йовнат? <b>Унтрах</b> тәвхлә, дарани Бикипедид орхла, та эн мобил Бикипедин дүрт авч одҗ бәәх биш.
 featured_article: Өдрә суңһгдсн халх
 hide_button: Бултулх
 home_button: Герт
 in_the_news: Зәңгс
+nav_edit: Чиклх
+nav_end: Эцуст
+nav_history: Тууҗ
+nav_top: Ора
 no_article_found: Халхс олв биш
 perm_stop_redirect: Отключить мобильный сайт
 random_button: Уршг
-regular_wikipedia: Кирин Википедин халх хәләх
+regular_wikipedia: Кирин Бикипедин халх хәләх
 search_results: Хәәлһнә ашуд
 search_submit: Ор
+search_text: Хәәх
 show_button: Үзүлх
+wikipedia: Бикипеди

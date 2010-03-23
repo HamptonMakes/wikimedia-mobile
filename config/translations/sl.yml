@@ -1,18 +1,31 @@
 # Messages for Slovenian (Slovenščina)
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: Dbc334
 # Author: Smihael
+are_you_sure: Ali ste prepričani?
+back_button: Nazaj
+back_to_top_of_section: Skoči nazaj za oddelek
+contact_us: Če imate kakršna koli vprašanja ali pripombe, nam prosimo pišite na mobile@wikipedia.org
 copyright: Besedilo je na razpolago pod <a href="http://creativecommons.org/licenses/by-sa/3.0/">dovoljenjem Creative Commons Priznanje avtorstva-Deljenje pod enakimi pogoji 3.0</a>; dodatni pogoji se lahko uveljavljajo. Glej <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Pogoje uporabe</a> za podrobnosti. Wikipedia je registrirana blagovna znamka neprofitne organizacije <a href='http://www.wikimediafoundation.org/'>Foundacija Wikimedia, Inc.</a>
+disable_button: Onemogoči
 error_page_text: Mobilna Wikipedija je še vedno v aktivnem razvoju in trudimo pri odpravljanju vseh naših notranjih napak. O tej napaki smo bili obveščeni  in jo bomo kmalu odpravili. Prosimo, obiščite nas kmalu!
 error_page_title: Imamo problem!
+explain_disable: Ste prepričani, da želite onemogočiti mobilno različico Wikipedije? Če izberete <b>Onemogoči</b>, od zdaj naprej, ko boste obiskali Wikipedijo, ne boste preusmerjeni na ta mobilni pogled Wikipedije.
 featured_article: Današnji izbrani članek
 hide_button: skrij
 home_button: Domov
 in_the_news: V novicah
+nav_edit: Uredi
+nav_end: Dno
+nav_history: Zgodovina
+nav_top: Vrh
 no_article_found: Najden ni bil noben članek
-perm_stop_redirect: Mobilna spletna stran je bila trajno onemogočena
+perm_stop_redirect: Trajno onemogoči mobilno spletno stran
 random_button: Naključno
 regular_wikipedia: Oglejte si to stran v navadnem načinu
 search_results: Rezultati iskanja
 search_submit: Pojdi
+search_text: Iskanje
 show_button: pokaži
+wikipedia: Wikipedija
