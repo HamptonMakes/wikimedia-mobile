@@ -1,6 +1,7 @@
 # Messages for Swedish (Svenska)
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: Ainali
 # Author: Ozp
 # Author: Per
 # Author: Sertion
@@ -29,3 +30,4 @@ search_results: Sökresultat
 search_submit: Gå till
 search_text: Sök
 show_button: Visa
+wikipedia: Wikipedia

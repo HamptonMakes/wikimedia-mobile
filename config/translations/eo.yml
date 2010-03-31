@@ -5,6 +5,8 @@
 # Author: Yekrats
 are_you_sure: Ĉu vi certas ?
 back_button: Reen
+contact_us: Se vi havas iujn ajn demandojn aŭ komentojn, bonvolu retpoŝti nin ĉe mobile@wikipedia.org
+copyright: Teksto estas disponebla sub la Permisilo <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Krea Komunaĵo Atribuite-Samkondiĉe</a>; pluaj reguloj povas apliki. Vidi <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Regularon de Uzado</a> por detaloj. Vikipedio estas registrita komercmarko de la <a href='http://www.wikimediafoundation.org/'>Fondaĵo Wikimedia, Inc.</a>, senprofitcela korporacio.
 disable_button: Malŝalti
 error_page_title: Ni havas problemon!
 featured_article: Prezentita Artikolo por Hodiaŭ
@@ -23,3 +25,4 @@ search_results: Serĉaj Trovaĵoj
 search_submit: Ek
 search_text: Serĉi
 show_button: Montri
+wikipedia: Vikipedio

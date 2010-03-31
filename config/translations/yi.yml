@@ -1,6 +1,7 @@
 # Messages for Yiddish (ייִדיש)
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: Ainali
 # Author: פוילישער
 are_you_sure: זענט איר זיכער?
 back_button: צוריק
@@ -27,3 +28,4 @@ search_results: זוכן רעזולטאַטן
 search_submit: גיי
 search_text: זוכן
 show_button: ווײַזן
+wikipedia: Wikipedia

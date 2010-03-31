@@ -1,6 +1,7 @@
 # Messages for Finnish (Suomi)
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: Ainali
 # Author: Centerlink
 # Author: Crt
 # Author: Nike
@@ -31,3 +32,4 @@ search_results: Etsi
 search_submit: Siirry
 search_text: Etsi
 show_button: Näytä
+wikipedia: Wikipedia

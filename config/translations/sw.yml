@@ -1,6 +1,7 @@
 # Messages for Swahili (Kiswahili)
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: Lloffiwr
 # Author: Muddyb Blast Producer
 are_you_sure: Una uhakika ?
 back_button: Rudi
@@ -27,3 +28,4 @@ search_results: Matokeo ya utafutaji
 search_submit: Nenda
 search_text: Tafuta
 show_button: Onyesha
+wikipedia: Wikipedia
