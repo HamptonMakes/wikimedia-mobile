@@ -15,6 +15,7 @@ module ControllerExtensions
     end
 
     def logger_output
+      
       action_time = @timer ? (Time.now - @timer) : nil
 
       logged_data = {:time => Time.now.to_s, 
@@ -28,6 +29,10 @@ module ControllerExtensions
                      :was_home_page => (params[:action] == "home"),
                      :ip_address => request.remote_ip
                      }
+
+       Merb.logger.info(Merb.logger.to_squid_format(request))
+       return false
+
 
       if @article
         logged_data[:article_title] = @article.title
