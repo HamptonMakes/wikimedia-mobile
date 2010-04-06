@@ -2,6 +2,7 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: Demmy
+are_you_sure: Ṣódáyin lójú?
 back_button: Ṣẹ́yìn
 hide_button: Bòmọ́lẹ̀
 home_button: Ìbẹ̀rẹ̀
@@ -10,5 +11,8 @@ nav_end: Òpin
 nav_history: Ìtàn
 nav_top: Lókè
 random_button: Ojúewé àrìnnàkò
+search_results: Àwọn Èsì Àwárí
 search_submit: Lọ
+search_text: Ṣàwáàrí
 show_button: Fihàn
+wikipedia: Wikipedia

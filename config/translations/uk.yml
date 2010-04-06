@@ -1,6 +1,7 @@
 # Messages for Ukrainian (Українська)
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: AS
 # Author: Ickis
 # Author: NickK
 # Author: Prima klasy4na
@@ -29,3 +30,4 @@ search_results: Результати пошуку
 search_submit: Перейти
 search_text: Пошук
 show_button: Показати
+wikipedia: Вікіпедія
