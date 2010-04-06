@@ -1,6 +1,7 @@
 # Messages for Hebrew (עברית)
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: Amire80
 # Author: Dorit
 # Author: Rotemliss
 # Author: YaronSh
@@ -29,3 +30,4 @@ search_results: תוצאות החיפוש
 search_submit: חיפוש
 search_text: חיפוש
 show_button: הצגה
+wikipedia: ויקיפדיה
