@@ -1,6 +1,7 @@
 # Messages for Italian (Italiano)
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: Beta16
 # Author: Darth Kule
 # Author: Melos
 # Author: Ninniuz
@@ -29,3 +30,4 @@ search_results: Risultati della ricerca
 search_submit: Vai
 search_text: Cerca
 show_button: Mostra
+wikipedia: Wikipedia

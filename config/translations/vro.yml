@@ -2,17 +2,29 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: Võrok
+are_you_sure: Kas olõt kimmäs?
+back_button: Tagasi
+back_to_top_of_section: Mineq tagasi  jakko A
+contact_us: Ku sul om midägi küssüq vai kommõntiiriq, sis kirodaq aadrõsi pääle mobile@wikipedia.org
 copyright: Tekst om ilmutõt <a href="http://fi.wikipedia.org/wiki/Wikipedia:Creative_Commons_Attribution-Share_Alike_3.0_Unported_-lisenssiehdot">Creative Commons Attribution/Share-Alike</a> litsendsi perrä; kost või löüdäq lisateedüst. Kaeq <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> ligembält siist. Vikipeediä om <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.:n</a>, mittetullosaamisütisüse kirjäpant kaubamärk.
+disable_button: Keeläq
 error_page_text: Wikipedia mobiilikujjo arõndõdas edesi ja tetäs tüüd kõiki tallitusviko parandamisõs. Mi tiiä taad vika ja parandami taa pia ärq. Proomiq mõni tõõnõ kõrd viil.
 error_page_title: Tallitusviga
+explain_disable: Kas olõt kimmäs, et tahat Vikipeediä mobiilikujjo ärq keeldäq? Perän <b>Keeläq</b> valimist saadõta-ai sinno Vikipeediä kaemisõs inämb ümbre Vikipeediä mobiilikaehustõ.
 featured_article: Täämbädse päävä artikli
 hide_button: Käkiq
 home_button: Pääleht
 in_the_news: Miä vahtsõt
+nav_edit: Toimõndaq
+nav_end: Lõppu
+nav_history: Aolugu
+nav_top: Üles
 no_article_found: Lövvä-äs säänest artiklit
 perm_stop_redirect: Võtaq mobiilileht käügist maaha
 random_button: Johuslinõ leht
 regular_wikipedia: Näütäq seod lehte hariligun Vikipeediän
 search_results: Otsmisõ tulõmiq
 search_submit: Mineq
+search_text: Otsiq
 show_button: Näütäq
+wikipedia: Vikipeediä

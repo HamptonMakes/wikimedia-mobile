@@ -1,14 +1,17 @@
 # Messages for Korean (한국어)
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: Devunt
 # Author: ITurtle
 # Author: Klutzy
 # Author: ToePeu
 are_you_sure: 모바일을 사용하지 않겠습니까?
 back_button: 돌아가기
+back_to_top_of_section: 문단 처음으로
+contact_us: 질문이나 의견이 있으시면 mobile@wikipedia.org 로 이메일을 보내 주시기 바랍니다.
 copyright: 모든 문서는 <a href="http://ko.wikipedia.org/wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0</a>에 따라 사용할 수 있습니다. 추가적인 조건이 적용될 수 있습니다. 자세한 내용은 <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">이용 규칙</a>을 참고하십시오. Wikipedia®는 미국 및 다른 국가에 등록되어 있는, <a class='internal' href="http://www.wikimediafoundation.org">Wikimedia Foundation, Inc.</a> 소유의 등록 상표입니다.
 disable_button: 사용하지 않기
-error_page_text: 위키백과 모바일판은 아직 개발중이며 내부적인 문제를 고치기 위해 노력하고 있습니다. 저희는 이 문제에 대해 알고 있으며 잠시 뒤 고쳐질 것입니다. 잠시 마실 다녀오신 후 다시 시도해보세요.
+error_page_text: 위키백과 모바일판은 아직 개발중이며 내부적인 문제를 고치기 위해 노력하고 있습니다. 저희는 이 문제에 대해 알고 있으며 잠시 뒤 고쳐질 것입니다. 잠시 후 다시 시도해보세요.
 error_page_title: 사이트에 문제가 있습니다.
 explain_disable: 위키백과 모바일을 사용하지 않겠습니까? 만약 사용하지 <b>않을</b> 경우, 앞으로 위키백과에 접속할 때 자동으로 모바일 사이트로 넘어가지 않습니다.
 featured_article: 알찬 글 읽어보기

@@ -3,6 +3,7 @@
 # Export driver: syck
 # Author: Kuvaly
 # Author: Mormegil
+# Author: Reaperman
 are_you_sure: Chcete to udělat ?
 back_button: Zpět
 back_to_top_of_section: Skočit zpět o sekci
@@ -28,3 +29,4 @@ search_results: Výsledky hledání
 search_submit: Hledat
 search_text: Vyhledávat
 show_button: Zobrazit
+wikipedia: Wikipedie
