@@ -46,6 +46,12 @@ de:
     featured_article: "#hauptseite-artikel .inhalt"
     news_items: "#hauptseite-nachrichten .inhalt"
 
+ru:
+  main_page: Заглавная_страница
+  selectors:
+    featured_article: "#mp-tfa"
+    facts: "#mp-dyk"
+
 es: 
   main_page: Wikipedia:Portada
   selectors:
