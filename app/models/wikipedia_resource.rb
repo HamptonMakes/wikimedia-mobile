@@ -47,7 +47,8 @@ module Wikipedia
       raise "No path Given" unless paths.any?
       result = @server.fetch(*paths)
       begin
-        self.path = URI.parse(result[:url]).path
+        uri = URI.parse(result[:url])
+        self.path = uri.path + "?" + uri.query
       rescue
         #path failed
         false
@@ -60,8 +61,12 @@ module Wikipedia
     
     def display_name
       @unescaped_title ||= URI::decode(title.force_encoding(Encoding::UTF_8)).gsub("_", " ")
-    rescue ArgumentError
-      title.force_encoding(Encoding::UTF_8).gsub("_", " ")
+    rescue ArgumentError, NoMethodError
+      if title != nil
+        title.force_encoding(Encoding::UTF_8).gsub("_", " ")
+      else
+        nil
+      end
     end
 
    private

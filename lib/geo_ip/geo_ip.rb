@@ -22,7 +22,7 @@ module GeoIP
   # Table is an array
   def self.ip_search_in_table(ip_address, table)
     record_max = table.length/10-1
-    
+
     # build a 4-char string representation of IP address
     # in network byte order so it can be a string compare below
     ipstr= ip_address.split(".").map {|x| x.to_i.chr}.join
