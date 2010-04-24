@@ -47,8 +47,8 @@ module Wikipedia
       raise "No path Given" unless paths.any?
       result = @server.fetch(*paths)
       #begin
-        uri = URI.parse(result[:url])
-        self.path = "#{uri.path}?#{uri.query}"
+        #uri = URI.parse(result[:url])
+        self.path = result[:url]#{}"#{uri.path}?#{uri.query}"
       #rescue
       #  #path failed
       #  Merb.logger.error("Path parsing failed for #{paths.inspect}")
