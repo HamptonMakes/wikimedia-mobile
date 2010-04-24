@@ -39,7 +39,7 @@ module ControllerExtensions
       # Dump it out!
       yaml = logged_data.to_yaml
       yaml_flat = yaml.gsub("\n", "\\n")
-      Merb.logger.warn("~~~~" + yaml_flat)
+      #Merb.logger.warn("~~~~" + yaml_flat)
     end
 
     def clear_cache

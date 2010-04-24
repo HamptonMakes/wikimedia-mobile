@@ -48,9 +48,10 @@ module Wikipedia
       result = @server.fetch(*paths)
       begin
         uri = URI.parse(result[:url])
-        self.path = uri.path + "?" + uri.query
+        self.path = "#{uri.path}?#{uri.query}"
       rescue
         #path failed
+        Merb.logger.error("Path parsing failed for #{paths.inspect}")
         false
       end
       @raw_html = result[:body]
