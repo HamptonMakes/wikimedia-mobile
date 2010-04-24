@@ -46,14 +46,14 @@ module Wikipedia
     def fetch!(*paths)
       raise "No path Given" unless paths.any?
       result = @server.fetch(*paths)
-      begin
+      #begin
         uri = URI.parse(result[:url])
         self.path = "#{uri.path}?#{uri.query}"
-      rescue
-        #path failed
-        Merb.logger.error("Path parsing failed for #{paths.inspect}")
-        false
-      end
+      #rescue
+      #  #path failed
+      #  Merb.logger.error("Path parsing failed for #{paths.inspect}")
+      #  false
+      #end
       @raw_html = result[:body]
       @raw_document = Nokogiri::XML(@raw_html)
 
