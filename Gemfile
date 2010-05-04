@@ -1,5 +1,3 @@
-# This isn't technically a Bundler gemfile anymore...
-# To install these gems, run bin/install_gems
 
 source :gemcutter
 #source "http://edge.merbivore.com"
