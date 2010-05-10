@@ -26,6 +26,8 @@ else
   require Merb.root / 'merb' / 'monkey' / 'ruby19_compat'
 end
 
+$request_count = 0
+
 use_test :rspec
 use_template_engine :haml
  

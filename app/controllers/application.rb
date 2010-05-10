@@ -5,10 +5,17 @@ require File.join(File.dirname(__FILE__), "extensions", "accessors")
 # TODO: Add more languages. See config/wikipedias.yaml
 class Application < Merb::Controller
   before :no_language_domain
+  before :increment_request_count
   include ControllerExtensions::Logging
   include ControllerExtensions::Accessors
 
  protected
+ 
+  # This is used by the squid logger to count the number
+  # of times this particular cluster item has responded
+  def increment_request_count
+    $request_count += 1
+  end
 
   def no_language_domain
     if request.language_code == "m"
