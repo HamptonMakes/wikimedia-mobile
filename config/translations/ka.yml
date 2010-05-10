@@ -3,6 +3,7 @@
 # Export driver: syck
 # Author: Alsandro
 # Author: BRUTE
+# Author: Temuri rajavi
 # Author: გიორგიმელა
 are_you_sure: დარწმუნებული ბრძანდებით?
 back_button: უკან
@@ -29,3 +30,4 @@ search_results: ძიების შედეგები
 search_submit: აბა ჰე
 search_text: ძიება
 show_button: აჩვენე
+wikipedia: ვიკიპედია
