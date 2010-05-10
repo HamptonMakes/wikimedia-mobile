@@ -1,2 +1,5 @@
 %image.source
-	= @image.url
+  - if @image
+	  = @image.url
+	- else
+	  Not Found
