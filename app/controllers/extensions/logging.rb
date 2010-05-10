@@ -30,7 +30,7 @@ module ControllerExtensions
                      :ip_address => request.remote_ip
                      }
 
-       Merb.logger.info(Merb.logger.to_squid_format(request))
+       #Merb.logger.info(Merb.logger.to_squid_format(request))
     end
 
     def clear_cache
