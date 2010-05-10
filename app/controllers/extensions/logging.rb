@@ -15,7 +15,6 @@ module ControllerExtensions
     end
 
     def logger_output
-      
       action_time = @timer ? (Time.now - @timer) : nil
 
       logged_data = {:time => Time.now.to_s, 
@@ -30,7 +29,7 @@ module ControllerExtensions
                      :ip_address => request.remote_ip
                      }
 
-       #Merb.logger.info(Merb.logger.to_squid_format(request))
+       Merb.logger.info(logged_data.inspect)
     end
 
     def clear_cache

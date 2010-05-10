@@ -41,6 +41,13 @@ module Parsers
       # Parse the document in our XML parser. Immediately cut out everything that isn't inside
       # the #content div of the page.
       doc = page.css("#content").first
+      
+      doc.css("a.new").each do |redlink|
+        #name = 
+        #redlink.parent
+        redlink.name = "span"
+        #redlink.replace(redlink.inner_text)
+      end
     
       #remove unnecessary content and edit links
       (doc.css items_to_remove.join(",")).remove
