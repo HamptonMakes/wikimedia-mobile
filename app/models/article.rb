@@ -26,6 +26,7 @@ class Article < Wikipedia::Resource
       return false
     else
       fetch! if raw_html.nil?
+      return nil if raw_html.nil?
       raw_html.include?('var wgCanonicalSpecialPageName = "Search";')
     end
   end

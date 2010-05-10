@@ -1,11 +1,13 @@
 = notice
 
-- if @article.has_search_results?
+- if @article.has_search_results? == true
   - if @article.search_results
     %h3= language_object['search_results']
     %ul= @article.search_results
   - else
     %h3= language_object['no_article_found']
     %ul= @article.suggestions
-- else
+- elsif @article.has_search_results? == false
   = @article.html
+- else
+  %h3= language_object['no_article_found']
