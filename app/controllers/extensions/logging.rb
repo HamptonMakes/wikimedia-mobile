@@ -31,20 +31,6 @@ module ControllerExtensions
                      }
 
        Merb.logger.info(Merb.logger.to_squid_format(request))
-       return false
-
-
-      if @article
-        logged_data[:article_title] = @article.title
-      end
-
-      # This is an extension that we added to logger
-      logged_data.merge!(Merb.logger.dump_logger_hash)
-
-      # Dump it out!
-      yaml = logged_data.to_yaml
-      yaml_flat = yaml.gsub("\n", "\\n")
-      #Merb.logger.warn("~~~~" + yaml_flat)
     end
 
     def clear_cache
