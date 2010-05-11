@@ -29,7 +29,7 @@ module ControllerExtensions
                      :ip_address => request.remote_ip
                      }
 
-       Merb.logger.info(logged_data.inspect)
+       Merb.logger.warn("#{logged_data[:cache_hit]} - #{logged_data[:action_time]}")
     end
 
     def clear_cache
