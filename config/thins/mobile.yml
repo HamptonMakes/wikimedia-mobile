@@ -13,5 +13,5 @@ user: deploy
 group: deploy
 
 rackup: /srv/mobile/current/config.ru
-servers: 35
+servers: 40
 daemonize: true
