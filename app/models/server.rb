@@ -78,7 +78,8 @@ class Server
             # This configures Curl::Easy to follow redirects
             curl.follow_location = true
             curl.max_redirects = 4
-            curl.connect_timeout = 0.5
+            curl.connect_timeout = 1
+            curl.timeout = 20
             curl.headers = {"Accept-Encoding" => "gzip,deflate",
                             "User-Agent" => "Mozilla/5.0 Wikimedia Mobile",
                             "Accept-Charset" => "utf-8;q=0.7,*;q=0.7",
