@@ -48,7 +48,7 @@ class Articles < Application
     
     # This is to cover the case when we have path's like "/wiki//dev/null"
     # Merb strips the second / and so we are re-instituting it here
-    if (request.env["REQUEST_PATH"] || request.env["PATH_INFO"]).include?("/wiki//")
+    if (request.env["PATH_INFO"] || request.env["REQUEST_PATH"]).include?("/wiki//")
       @name = "/" + current_name
     end
 
