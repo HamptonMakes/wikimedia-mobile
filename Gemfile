@@ -13,7 +13,6 @@ gem "mime-types", nil, :require => "mime/types"
 gem "moneta", "0.6.0"
 gem "json_pure"
 gem "typhoeus"
-gem "unicorn"
 gem "haml"
 
 #gem "do_mysql", :bundle => false
