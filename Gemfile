@@ -3,11 +3,9 @@ source :gemcutter
 #source "http://edge.merbivore.com"
 
 merb_gems_version = "1.1.0"
-#disable_system_gems
 
 gem "bundler", "0.9.5"
 gem "memcache-client"
-gem "curb", "0.5.4.0"
 gem "nokogiri", "1.3.3"
 gem "sinatra", "0.9.4"
 gem "mime-types", nil, :require => "mime/types"
@@ -16,6 +14,7 @@ gem "json"
 gem "typhoeus"
 gem "haml"
 gem "abstract"
+gem "patron"
 
 #gem "do_mysql", :bundle => false
 #gem "mysql", :bundle => false
@@ -29,3 +28,7 @@ gem "merb-exceptions",  merb_gems_version
 
 gem "rake"
 gem "rspec"
+
+group :development do
+  gem "unicorn"
+end

@@ -15,7 +15,7 @@ require 'merb-core'
  
 Merb::Config.setup(:merb_root   => ::File.expand_path(::File.dirname(__FILE__)),
                    :environment => ENV['RACK_ENV'])
-Merb.environment = "production"
+#Merb.environment = "production"
 Merb.root = Merb::Config[:merb_root]
 Merb::BootLoader.run
 
@@ -24,6 +24,7 @@ if defined?(PhusionPassenger)
       if forked
           puts "RESETTING MEMCACHED"
           Cache.instance_variable_get(:@cache).reset
+          Server.reset
       else
           # We're in conservative spawning mode. We don't need to do anything.
       end
