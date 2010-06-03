@@ -62,7 +62,7 @@ Merb::Router.prepare do
     
   end
   
-  match("crash").to(:controller => "information", :action => "crash")
+  match("/crash").to(:controller => "information", :action => "crash")
 
   match(/\/w\/extensions\/(.*)/).to(:action => "not_found", :controller => "exceptions")
 
