@@ -24,9 +24,9 @@ if defined?(PhusionPassenger)
       if forked
           puts "RESETTING MEMCACHED"
           Cache.instance_variable_get(:@cache).reset
-          if defined?(Server)
-            Server.reset!
-          end
+          #if defined?(Server)
+            #@Server.reset!
+          #end
       else
           # We're in conservative spawning mode. We don't need to do anything.
       end
