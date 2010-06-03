@@ -20,8 +20,17 @@ namespace :deploy do
   task :after_update do
     gems
   end
+  
+  task :start, :roles => :app do
+    run "touch #{current_release}/tmp/restart.txt"
+  end
 
-  task :restart do
-    run "touch #{current_path}/tmp/restart.txt"
+  task :stop, :roles => :app do
+    # Do nothing.
+  end
+
+  desc "Restart Application"
+  task :restart, :roles => :app do
+    run "touch #{current_release}/tmp/restart.txt"
   end
 end

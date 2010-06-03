@@ -44,10 +44,6 @@ Languages = {}
 
 Merb::BootLoader.before_app_loads do
   
-  if defined?(Thin)
-    #Thin::Logging.trace = true
-  end
-  
   Dir.glob("config/translations/**.yml").each do |file|
     code = file.split("/").last.split(".").first
     begin
@@ -88,6 +84,15 @@ Merb::BootLoader.after_app_loads do
       Cache = Moneta::Memory.new
     end
   end
+  
+  if defined?(PhusionPassenger)
+      PhusionPassenger.on_event(:starting_worker_process) do |forked|
+          if forked
+              Cache = Moneta::Memcache.new(:server => "127.0.0.1")
+          else
+              # We're in conservative spawning mode. We don't need to do anything.
+          end
+      end
   
   # This is a UNIX signal that can be sent to restart the logger
   trap("USR1") do
