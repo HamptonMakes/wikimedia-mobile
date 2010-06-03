@@ -40,7 +40,7 @@ class Server
     paths.each do |path|
       result = fetch_from_web(path)
 
-      if result.status < 400
+      if result != nil && result.status < 400
         body = nil
 
         time_to "decompress downloaded article" do
@@ -80,7 +80,12 @@ class Server
   # :api: private
   def fetch_from_web(path)
     time_to "download article from web" do
-      resp = connection.get(@host + path)
+      begin
+        connection.get(@host + path)
+      rescue Patron::ConnectionFailed
+        Merb.logger.error("Connection failed to " + @host + @path)
+        return nil
+      end
     end
   end
 end
