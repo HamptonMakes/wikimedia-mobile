@@ -14,7 +14,7 @@ gem "json"
 gem "typhoeus"
 gem "haml"
 gem "abstract"
-gem "patron"
+gem "curb"
 
 #gem "do_mysql", :bundle => false
 #gem "mysql", :bundle => false
