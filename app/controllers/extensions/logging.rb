@@ -29,7 +29,7 @@ module ControllerExtensions
                      :ip_address => request.remote_ip
                      }
 
-       Merb.logger.warn("#{Time.now.to_f} #{request.language_code} #{logged_data[:action_time]} request.device.format_name")
+       Merb.logger.warn("#{Time.now.to_f} #{request.language_code} #{logged_data[:action_time]} #{request.device.format_name}")
     end
 
     def clear_cache
