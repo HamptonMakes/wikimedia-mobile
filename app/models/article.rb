@@ -19,21 +19,15 @@ class Article < Wikipedia::Resource
   
   # Caching whete
   def has_search_results?
-    begin
-      if (@html = Cache[key])
-        @html = @html.unzip
-        Merb.logger.debug("KEY: #{key}")
-        Merb.logger[:cache_hit] = true
-        return false
-      else
-        fetch! if raw_html.nil?
-        return nil if raw_html.nil?
-        raw_html.include?('var wgCanonicalSpecialPageName = "Search";')
-      end
-    rescue MemCache::MemCacheError
-      # Reset here
-      Cache.instance_variable_get(:@cache).reset
-      retry
+    if (@html = Cache[key])
+      @html = @html.unzip
+      Merb.logger.debug("KEY: #{key}")
+      Merb.logger[:cache_hit] = true
+      return false
+    else
+      fetch! if raw_html.nil?
+      return nil if raw_html.nil?
+      raw_html.include?('var wgCanonicalSpecialPageName = "Search";')
     end
   end
   
