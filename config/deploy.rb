@@ -9,12 +9,12 @@ set :branch, "stable"
 
 set :use_sudo, false
 
-role :web, "mobile1.wikimedia.org", "mobile2.wikimedia.org"
+role :web, "mobile2.wikimedia.org"
 
 namespace :deploy do
 
   task :gems do
-    #run "cd #{current_path} && bundle install"
+    run "cd #{current_path} && /var/lib/gems/1.9.1/bin/bundle install"
   end
 
   task :after_update do

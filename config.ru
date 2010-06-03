@@ -9,6 +9,7 @@ rescue LoadError
 end
 
 require 'bundler'
+Bundler.setup
 
 require 'merb-core'
  
