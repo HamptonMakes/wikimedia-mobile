@@ -8,6 +8,8 @@ rescue LoadError
   require 'rubygems'
 end
 
+require 'bundler'
+
 require 'merb-core'
  
 Merb::Config.setup(:merb_root   => ::File.expand_path(::File.dirname(__FILE__)),
