@@ -76,7 +76,7 @@ class Article < Wikipedia::Resource
     (@html = @html.force_encoding("UTF-8"))
     
     time_to "store in cache" do
-      Cache.store(key.force_encoding("UTF-8"), @html.zip.force_encoding("UTF-8"), :expires_in => 60 * 60 * 2)
+      Cache.store(key.force_encoding("ASCII-8BIT"), @html.zip.force_encoding("ASCII-8BIT"), :expires_in => 60 * 60 * 2)
     end
     
     return @html.force_encoding("UTF-8")
