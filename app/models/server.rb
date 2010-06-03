@@ -83,10 +83,10 @@ class Server
       begin
         connection.get(@host + path)
       rescue Patron::ConnectionFailed
-        Merb.logger.error("Connection failed to " + @host + @path)
+        Merb.logger.error("Connection failed to " + @host + path)
         return nil
       rescue Patron::TimeoutError
-        Merb.logger.error("Connection timeout to " + @host + @path)
+        Merb.logger.error("Connection timeout to " + @host + path)
         return nil
       end
     end
