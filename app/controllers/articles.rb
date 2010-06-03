@@ -41,7 +41,8 @@ class Articles < Application
   
   def random
     @article = Article.random(current_server, params[:variant])
-    redirect(@article.path)
+    
+    redirect("/wiki/" + @article.path.split("/").last)
   end
   
   def show
