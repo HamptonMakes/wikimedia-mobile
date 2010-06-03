@@ -10,4 +10,4 @@
     %button#disableButton{:type => "submit"}= language_object['disable_button'].force_encoding("UTF-8")
 
   %form{:action => "/#{variant_name}/#{@path}", :method => "get" }
-    %button#backButton{:type => "submit"}= language_object['back_button']
+    %button#backButton{:type => "submit"}= language_object['back_button'].force_encoding("UTF-8")
