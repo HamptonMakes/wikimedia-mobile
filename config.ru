@@ -19,6 +19,16 @@ Merb.environment = "production"
 Merb.root = Merb::Config[:merb_root]
 Merb::BootLoader.run
 
+if defined?(PhusionPassenger)
+  PhusionPassenger.on_event(:starting_worker_process) do |forked|
+      if forked
+          Cache.instance_variable_get(:@cache).reset
+      else
+          # We're in conservative spawning mode. We don't need to do anything.
+      end
+  end
+end
+
 require "lib/udp_logger"
 
 use Merb::Rack::UDPLogger

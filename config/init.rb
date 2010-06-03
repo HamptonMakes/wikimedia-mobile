@@ -70,19 +70,6 @@ Merb::BootLoader.before_app_loads do
       }
   
 end
-
-if defined?(PhusionPassenger)
-  PhusionPassenger.on_event(:starting_worker_process) do |forked|
-      if forked
-          Cache.instance_eval("@cache.reset")
-          Merb.logger.flush
-          Merb::Config[:log_stream].close
-          Merb::BootLoader::Dependencies.update_logger
-      else
-          # We're in conservative spawning mode. We don't need to do anything.
-      end
-  end
-end
  
 Merb::BootLoader.after_app_loads do
   # This will get executed after your app's classes have been loaded.
