@@ -67,7 +67,7 @@ class Server
     con = @@conn
     if con.nil?
       con = Patron::Session.new
-      con.timeout = 10
+      con.timeout = 20
       con.max_redirects = 4
       con.headers.merge!({'User-Agent'       => "Mozilla/5.0 Wikimedia Mobile",
                         "Accept-Encoding" => "gzip,deflate",
@@ -84,6 +84,9 @@ class Server
         connection.get(@host + path)
       rescue Patron::ConnectionFailed
         Merb.logger.error("Connection failed to " + @host + @path)
+        return nil
+      rescue Patron::TimeoutError
+        Merb.logger.error("Connection timeout to " + @host + @path)
         return nil
       end
     end
