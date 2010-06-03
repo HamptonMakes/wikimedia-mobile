@@ -74,7 +74,7 @@ end
 if defined?(PhusionPassenger)
   PhusionPassenger.on_event(:starting_worker_process) do |forked|
       if forked
-          Cache = Moneta::Memcache.new(:server => "127.0.0.1")
+          Cache.instance_eval("@cache.reset")
           Merb.logger.flush
           Merb::Config[:log_stream].close
           Merb::BootLoader::Dependencies.update_logger
