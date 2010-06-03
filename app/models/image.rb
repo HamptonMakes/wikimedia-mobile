@@ -1,7 +1,12 @@
 class Image < Wikipedia::Resource
   def url(width = "310")
     parser = Nokogiri::XML.parse(@server.fetch("/w/api.php?format=xml&action=query&prop=imageinfo&titles=File:#{title}&iiprop=url&iiurlwidth=#{width}")[:body])
-    parser.css("api query pages page imageinfo ii").first["thumburl"]
+    item = parser.css("api query pages page imageinfo ii").first
+    if !item.nil?
+      return item["thumburl"]
+    else
+      ""
+    end
   end
   
   def original_url
