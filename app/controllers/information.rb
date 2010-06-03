@@ -12,5 +12,9 @@ class Information < Application
     params[:footmenu] = "false"
     render
   end
+  
+  def crash
+    please_dont_hurt_me_incredibad / -1
+  end
 
 end
