@@ -9,7 +9,7 @@ set :branch, "stable"
 
 set :use_sudo, false
 
-role :web, "mobile2.wikimedia.org"
+role :app, "mobile2.wikimedia.org"
 
 namespace :deploy do
 

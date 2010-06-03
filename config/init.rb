@@ -70,6 +70,19 @@ Merb::BootLoader.before_app_loads do
       }
   
 end
+
+if defined?(PhusionPassenger)
+  PhusionPassenger.on_event(:starting_worker_process) do |forked|
+      if forked
+          Cache = Moneta::Memcache.new(:server => "127.0.0.1")
+          Merb.logger.flush
+          Merb::Config[:log_stream].close
+          Merb::BootLoader::Dependencies.update_logger
+      else
+          # We're in conservative spawning mode. We don't need to do anything.
+      end
+  end
+end
  
 Merb::BootLoader.after_app_loads do
   # This will get executed after your app's classes have been loaded.
@@ -85,23 +98,6 @@ Merb::BootLoader.after_app_loads do
     end
   end
   
-  if defined?(PhusionPassenger)
-      PhusionPassenger.on_event(:starting_worker_process) do |forked|
-          if forked
-              Cache = Moneta::Memcache.new(:server => "127.0.0.1")
-          else
-              # We're in conservative spawning mode. We don't need to do anything.
-          end
-      end
-  
-  # This is a UNIX signal that can be sent to restart the logger
-  trap("USR1") do
-    Merb.logger.flush
-    Merb::Config[:log_stream].close
-    Merb::BootLoader::Dependencies.update_logger
-  end
-  
-  #Merb::Plugin.config[:sass][:style] = :compact
 end
 
 # Add our mime-types for device based content type negotiation
