@@ -78,13 +78,11 @@ class Server
             # This configures Curl::Easy to follow redirects
             curl.follow_location = true
             curl.max_redirects = 4
-            curl.connect_timeout = 0.5
+            curl.connect_timeout = 5
+            curl.timeout = 20
             curl.headers = {"Accept-Encoding" => "gzip,deflate",
                             "User-Agent" => "Mozilla/5.0 Wikimedia Mobile",
-                            "Accept-Charset" => "utf-8;q=0.7,*;q=0.7",
-                            "Accept-Language" => "en-us,en;q=0.5",
-                            "Keep-Alive" => "300",
-                            "Connection" => "keep-alive"}
+                            "Accept-Charset" => "utf-8;q=0.7,*;q=0.7"}
           end
         rescue Curl::Err::HostResolutionError, Curl::Err::GotNothingError, Curl::Err::ConnectionFailedError,  Curl::Err::PartialFileError
           Merb.logger.error("Could not connect to " + base_url + path)
