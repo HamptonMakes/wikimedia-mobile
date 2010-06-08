@@ -1,6 +1,7 @@
 # Messages for Chinese (China) (‪中文(中国大陆)‬)
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: Mys 721tx
 # Author: Shizhao
 are_you_sure: 你确定吗？
 back_button: 后退
@@ -27,3 +28,4 @@ search_results: 搜索结果
 search_submit: 进入
 search_text: 搜索
 show_button: 展开
+wikipedia: 维基百科

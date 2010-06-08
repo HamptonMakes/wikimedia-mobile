@@ -1,18 +1,31 @@
 # Messages for Serbian Latin ekavian (Srpski (latinica))
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: Charmed94
 # Author: Michaello
-copyright: Ovaj tekst je dostupan pod <a href='<a href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License</a>'>Creative Commons Attribution/Share-Alike Licencom</a>; mogao bi biti podložan i dodatnim uslovima. Vidite <a href='<a href="http://wikimediafoundation.org/wiki/Terms_of_Use">http://wikimediafoundation.org/wiki/Terms_of_Use</a>'>uslove korišćenja</a> za više pojedinosti. Vikipedija je registrovani znak <a href='<a href="http://www.wikimediafoundation.org/">http://www.wikimediafoundation.org/</a>'>Vikimedija Fondacije, Inc.</a>, neprofitne organizacije.
-error_page_text: Mobilna Vikipedija je još uvek u fazi aktivnog razvoja, i mi radimo istrajno na popravci svih internih grešaka. Obavešteni smo o ovoj grešci i popravićemo je uskoro. Svratite nam opet!
+are_you_sure: Da li ste sigurni?
+back_button: Nazad
+back_to_top_of_section: Vrati se na prethodni odeljak
+contact_us: Ako imate bilo kakvih pitanja ili primedbi, slobodno nam pišite na mobile@wikipedia.org
+copyright: Ovaj tekst je dostupan pod <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Autorstvom/Deliti pod istim uslovima licencom</a>; mogao bi biti podložan i dodatnim uslovima. Vidite <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>uslove korišćenja</a> za više informacija. Vikipedija je registrovani znak <a href='http://www.wikimediafoundation.org/'>Vikimedijine Fondacije, Inc.</a>, neprofitne organizacije.
+disable_button: Onemogući
+error_page_text: Mobilna Vikipedija je još uvek u fazi aktivnog razvoja, i mi radimo istrajno na popravci svih unutrašnjih grešaka. Obavešteni smo o ovoj grešci i popravićemo je uskoro. Svratite nam opet!
 error_page_title: Imamo problem sa sajtom!
+explain_disable: Da li ste sigurni da želite da onemogućite mobilno izdanje Vikipedije? Ako izaberete <b>Onemogući</b>, od sada pa nadalje nećete biti preusmereni na ovaj mobilni prikaz kada posetite Vikipediju.
 featured_article: Današnji izabrani članak
 hide_button: Sakrij
 home_button: Na početak
 in_the_news: U vestima
+nav_edit: Uredi
+nav_end: Kraj
+nav_history: Istorijat
+nav_top: Vrh
 no_article_found: Članak nije pronađen
 perm_stop_redirect: Trajno onemogući mobilni sajt
 random_button: Slučajna strana
 regular_wikipedia: Poseti ovu stranu na običnoj Vikipediji
 search_results: Rezultati pretrage
 search_submit: Idi
+search_text: Pretraga
 show_button: Prikaži
+wikipedia: Vikipedija

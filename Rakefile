@@ -24,10 +24,10 @@ task :merb_env do
   Merb.start_environment(:environment => init_env, :adapter => 'runner')
 end
 
-require 'spec/rake/spectask'
-require 'merb-core/test/tasks/spectasks'
-desc 'Default: run spec examples'
-task :default => 'spec'
+#require 'spec/rake/spectask'
+#require 'merb-core/test/tasks/spectasks'
+#desc 'Default: run spec examples'
+#task :default => 'spec'
 
 ##############################################################################
 # ADD YOUR CUSTOM TASKS IN /lib/tasks
