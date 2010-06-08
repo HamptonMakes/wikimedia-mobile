@@ -27,13 +27,11 @@ module ControllerExtensions
     end
     
     def home_page_path
-      name = language_object["home_button"]
-      "/#{variant_name}/::#{name}"
+      "/"
     end
     
     def random_page_path
-      name = language_object["random_button"]
-      "/#{variant_name}/::#{name}"
+      "/#{variant_name}/::Random"
     end
   end
 end
