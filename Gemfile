@@ -24,7 +24,7 @@ gem "merb-assets",      merb_gems_version
 gem "merb-cache",       merb_gems_version
 gem "merb-haml",        merb_gems_version
 gem "merb-mailer",      merb_gems_version
-gem "merb-exceptions",  merb_gems_version
+#gem "merb-exceptions",  merb_gems_version
 
 gem "rake"
 gem "rspec"

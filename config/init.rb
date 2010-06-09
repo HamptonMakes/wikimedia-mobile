@@ -54,12 +54,12 @@ Merb::BootLoader.before_app_loads do
   require 'moneta'
   require 'moneta/memcache'
   
-  Merb::Plugins.config[:exceptions] = {
-        :email_addresses => ['hcatlin@gmail.com'],
-        :app_name        => "Wikimedia Mobile",
-        :environments    => ['production', 'staging'],
-        :email_from      => "errors@wikipedia.org"
-      }
+  #Merb::Plugins.config[:exceptions] = {
+  #      :email_addresses => ['hcatlin@gmail.com'],
+  #      :app_name        => "Wikimedia Mobile",
+  #      :environments    => ['production', 'staging'],
+  #      :email_from      => "errors@wikipedia.org"
+  #    }
   
 end
  
