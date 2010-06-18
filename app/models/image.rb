@@ -12,6 +12,8 @@ class Image < Wikipedia::Resource
   def original_url
     parser = Nokogiri::XML.parse(@server.fetch("/w/api.php?format=xml&action=query&titles=File:#{title}&prop=imageinfo&iiprop=url")[:body])
     parser.css("api query pages page imageinfo ii").first["url"]
+  rescue
+    ""
   end
   
   def name

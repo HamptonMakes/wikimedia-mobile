@@ -6,4 +6,5 @@
 #image_wrapper
   %img{:src => @image.url(params[:size] || "310"), :alt => params[:file].force_encoding("UTF-8")}/
 
-%a{:href => @image.original_url.force_encoding("UTF-8")} Download Full Version
+- if @image.original_url
+  %a{:href => @image.original_url.force_encoding("UTF-8")} Download Full Version

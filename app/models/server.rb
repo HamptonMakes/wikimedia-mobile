@@ -84,7 +84,7 @@ class Server
                             "User-Agent" => "Mozilla/5.0 Wikimedia Mobile",
                             "Accept-Charset" => "utf-8;q=0.7,*;q=0.7"}
           end
-        rescue Curl::Err::HostResolutionError, Curl::Err::GotNothingError, Curl::Err::ConnectionFailedError,  Curl::Err::PartialFileError
+        rescue Curl::Err::HostResolutionError, Curl::Err::GotNothingError, Curl::Err::ConnectionFailedError,  Curl::Err::PartialFileError, Curl::Err::TimeoutError
           Merb.logger.error("Could not connect to " + base_url + path)
         end
       else
