@@ -4,7 +4,11 @@ source :gemcutter
 
 merb_gems_version = "1.1.0"
 
-gem "bundler", "0.9.5"
+group :production do
+  gem "bundler", "0.9.5"
+end
+
+gem "bundler"
 gem "memcache-client"
 gem "nokogiri", "1.3.3"
 gem "sinatra", "0.9.4"
