@@ -2,6 +2,7 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: Capmo
+# Author: Giro720
 # Author: Hamilton Abreu
 # Author: Luckas Blade
 # Author: Marcionunes
@@ -25,8 +26,9 @@ nav_top: Topo
 no_article_found: Nenhum artigo encontrado
 perm_stop_redirect: Desabilitar o site móvel permanentemente
 random_button: Aleatório
-regular_wikipedia: Ver esta página na Wikipedia normal
+regular_wikipedia: Ver esta página na Wikipédia normal
 search_results: Resultados de pesquisa
 search_submit: Ir
 search_text: Pesquisar
 show_button: Mostrar
+wikipedia: Wikipédia

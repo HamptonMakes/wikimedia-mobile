@@ -2,6 +2,7 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: Marozols
+# Author: Xil
 error_page_text: Vikipēdijas mobilā versija joprojām tiek aktīvi izstrādāta, un mēs ieguldām lielu darbu, lai novērstu visas iekšējās kļūmes. Mēs esam saņēmuši informāciju par šo kļūdu un ceram to drīz novērst. Lūdzu, pamēģiniet vēlreiz pēc kāda laiciņa!
 error_page_title: Mums ir radusies problēma!
 featured_article: Vērtīgais raksts
@@ -13,5 +14,5 @@ perm_stop_redirect: Turpmāk izmantot parasto Vikipēdiju
 random_button: Nejaušs raksts
 regular_wikipedia: Apskatīt šo lapu parastajā Vikipēdijā
 search_results: Meklēšanas rezultāti
-search_submit: Aiziet!
+search_submit: Meklēt
 show_button: Parādīt

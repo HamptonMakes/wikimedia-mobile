@@ -2,11 +2,13 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: Alexsh
+# Author: Horacewai2
 # Author: Liangent
 # Author: MM21
 are_you_sure: 你確定嗎？
 back_button: 後退
 back_to_top_of_section: 向後跳一節
+contact_us: 如果您有任何問題或意見，請隨時給我們發電子郵件 (mobile@wikipedia.org)
 copyright: "本站的全部文字在<a href='http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0协议文本>共享創意 姓名標示-相同方式分享 3.0 協議之條款下提供，附加條款亦可能應用。（請參閱<a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>使用條款）\nWikipedia®和維基百科標誌是<a href='http://www.wikimediafoundation.org/'>維基媒體基金會的註冊商標；維基™是維基媒體基金會的商標。\n維基媒體基金會是在美國佛羅里達州登記的501(c)(3)<a href='http://wikimediafoundation.org/wiki/资助的免税政策'>免稅</a>、非營利、慈善機構。"
 disable_button: 禁用
 error_page_text: 行動版維基百科仍然在開發當中，我們正在不斷修復其錯誤的地方。我們經已收到了這次錯誤的信息，並將會盡快修復。請稍後再到此頁，謝謝！
@@ -28,3 +30,4 @@ search_results: 搜尋結果
 search_submit: 進入
 search_text: 搜索
 show_button: 顯示
+wikipedia: 維基百科
