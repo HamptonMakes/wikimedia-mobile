@@ -5,6 +5,7 @@ html: &defaults
   with_layout: "application"
   css_file_name: "default"
   supports_javascript: false
+  disable_zoom: true
   parser: 'html'
 
 capable: &capable
@@ -29,6 +30,7 @@ webkit_old: &webkit_old
 android: 
   <<: *webkit_old
   css_file_name: "android"
+  disable_zoom: false
 
 iphone:
   <<: *webkit
