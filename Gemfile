@@ -19,7 +19,6 @@ gem "typhoeus"
 gem "haml"
 gem "abstract"
 gem "curb"
-#gem 'thin'
 
 #gem "do_mysql", :bundle => false
 #gem "mysql", :bundle => false
@@ -35,5 +34,5 @@ gem "rake"
 gem "rspec"
 
 group :development do
-  gem "unicorn"
+  gem "thin"
 end

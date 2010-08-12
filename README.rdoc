@@ -33,7 +33,7 @@ running.
 
 2) Install the latest bundler gem
     
-  gem install bundler --version="0.9.10"
+  gem install bundler
   
   (or brave other versions if you like)
 
@@ -60,7 +60,7 @@ This will expand all the gem files into your local rubygems bundle.
 
 7) start the server with
 
-  merb -a thin
+  bundle exec merb -a thin
   
 We need to use thin because currently Mongrel doesn't work on Ruby 1.9. running 
 bin/merb will make sure its using the local bundle requires instead of the system gems
