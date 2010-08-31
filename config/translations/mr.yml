@@ -3,6 +3,7 @@
 # Export driver: syck
 # Author: Harish
 # Author: Jyothis
+# Author: Mahitgar
 # Author: कोल्हापुरी
 are_you_sure: नक्की?
 back_button: मागे
@@ -29,3 +30,4 @@ search_results: शोधनिकाल
 search_submit: चला
 search_text: शोध
 show_button: दाखवा
+wikipedia: विकिपीडिया

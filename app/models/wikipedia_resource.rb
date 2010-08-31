@@ -61,10 +61,11 @@ module Wikipedia
     end
     
     def display_name
-      @unescaped_title ||= URI::decode(title.force_encoding(Encoding::UTF_8)).gsub("_", " ")
+      title = URI::decode(title.force_encoding(Encoding::UTF_8))
+      @unescaped_title ||= title.gsub("_", " ")
     rescue ArgumentError, NoMethodError
       if title != nil
-        title.force_encoding(Encoding::UTF_8).gsub("_", " ")
+        title.force_encoding(Encoding::UTF_8).gsub("_", " ") if is_19?
       else
         nil
       end

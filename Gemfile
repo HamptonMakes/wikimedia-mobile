@@ -11,15 +11,13 @@ end
 #gem "bundler"
 gem "memcache-client"
 gem "nokogiri", "1.3.3"
-gem "sinatra", "0.9.4"
-gem "mime-types", nil, :require => "mime/types"
-gem "moneta", "0.6.0"
+gem "mime-types", :require => "mime/types"
+gem "moneta"
 gem "json"
 gem "typhoeus"
 gem "haml"
 gem "abstract"
 gem "curb"
-#gem 'thin'
 
 #gem "do_mysql", :bundle => false
 #gem "mysql", :bundle => false
@@ -35,5 +33,5 @@ gem "rake"
 gem "rspec"
 
 group :development do
-  #gem "unicorn"
+  gem "thin"
 end

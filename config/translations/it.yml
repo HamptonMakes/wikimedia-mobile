@@ -3,6 +3,7 @@
 # Export driver: syck
 # Author: Beta16
 # Author: Darth Kule
+# Author: Gianfranco
 # Author: Melos
 # Author: Ninniuz
 are_you_sure: Sei sicuro?
@@ -11,9 +12,9 @@ back_to_top_of_section: Vai a inizio sezione
 contact_us: Se avete domande o commenti potete contattarci via email all'indirizzo mobile@wikipedia.org
 copyright: Il testo è disponibile secondo la <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>licenza Creative Commons Attribuzione-Condividi allo stesso modo</a>; possono applicarsi condizioni ulteriori. Vedi le <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>condizioni d'uso</a> per i dettagli. Wikipedia è un marchio registrato della <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, un'organizzazione non a scopo di lucro.
 disable_button: Disabilita
-error_page_text: Wikipedia mobile è ancora in fase di sviluppo attivo e stiamo lavorando sodo per risolvere tutti i nostri errori interni. Questo errore è già stato notificato e verrà presto corretto. Controlla nuovamente.
-error_page_title: Si è verificato un problema.
-explain_disable: Vuoi davvero disabilitare la versione mobile di Wikipedia? Se scegli <b>Disabilita</b>, d'ora in poi, ogni volta che visiti Wikipedia non sarai rediretto sulla versione mobile di Wikipedia.
+error_page_text: Wikipedia mobile è ancora in fase di sviluppo attivo e stiamo lavorando sodo per risolvere tutti gli errori interni. Questo errore è già stato notificato e verrà presto corretto. Ricontrolla a breve.
+error_page_title: Si è verificato un problema!
+explain_disable: Vuoi davvero disabilitare la versione mobile di Wikipedia? Se scegli <b>Disabilita</b>, d'ora in poi ogni volta che visiti Wikipedia non sarai più reindirizzato alla versione mobile di Wikipedia.
 featured_article: Vetrina
 hide_button: Nascondi
 home_button: Pagina principale
