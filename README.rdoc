@@ -29,7 +29,7 @@ running.
 
 = Getting Running
 
-1) Install Ruby 1.9.1 and RubyGems version 1.3.6 from http://www.ruby-lang.org/en/downloads/
+1) Install Ruby 1.9.2 and RubyGems version 1.3.6 from http://www.ruby-lang.org/en/downloads/
 
 2) Install the latest bundler gem
     
