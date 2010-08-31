@@ -33,13 +33,27 @@ class Device
         :iphone
       end
     when /iPhone/
-      :native_iphone
+      if user_agent.include?("Opera")
+        :operamini
+      else
+        :native_iphone
+      end
     when /Pre\//
       :palm_pre
     when /WebKit/
       case user_agent
       when /Series60/
         :nokia_series_60
+      else
+        :webkit
+      end
+    when /Opera/
+      if user_agent.include?("Nintendo Wii")
+        :wii
+      elsif user_agent.include?("Opera Mini")
+        :operamini
+      elsif user_agent.include?("Opera Mobi")
+        :iphone
       else
         :webkit
       end
@@ -51,16 +65,6 @@ class Device
       :capable
     when /NetFront/
       :netfront
-    when /Opera/
-      if user_agent.include?("Nintendo Wii")
-        :wii
-      elsif user_agent.include?("Opera Mini")
-        :operamini
-      elsif user_agent.include?("Opera Mobi")
-        :iphone
-      else
-        :webkit
-      end
     when /SEMC-Browser/
       :wap2
     when /Series60/
