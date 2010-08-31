@@ -17,7 +17,7 @@ gem "json"
 gem "typhoeus"
 gem "haml"
 gem "abstract"
-gem "curb"
+gem "curb", "0.7.7.1"
 
 #gem "do_mysql", :bundle => false
 #gem "mysql", :bundle => false
