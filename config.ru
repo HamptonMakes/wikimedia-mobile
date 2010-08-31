@@ -19,6 +19,7 @@ Merb::Config.setup(:merb_root   => ::File.expand_path(::File.dirname(__FILE__)),
                    :environment => "production")
 
 Merb.root = Merb::Config[:merb_root]
+Merb.environment = "production"
 Merb::BootLoader.run
 
 if defined?(PhusionPassenger)
