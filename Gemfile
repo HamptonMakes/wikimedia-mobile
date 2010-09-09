@@ -5,7 +5,7 @@ source :gemcutter
 merb_gems_version = "1.1.0"
 
 group :production do
-  #gem "bundler", "0.9.5"
+  gem "bundler", "0.9.5"
 end
 
 #gem "bundler"
