@@ -4,8 +4,8 @@
   = language_object['explain_disable'].force_encoding("UTF-8")
 
 #disableButtons
-  %form{:action => redirect_url, :method => "get"}
-    %input{:type => "hidden", :name => "to", :value => "#{path_site}/"}
+  %form{:action => redirect_url.force_encoding("UTF-8"), :method => "get"}
+    %input{:type => "hidden", :name => "to", :value => "#{path_site.force_encoding("UTF-8")}/"}
     %input{:type => "hidden", :name => "expires_in_days", :value => "#{365 * 10}"}
     %button#disableButton{:type => "submit"}= language_object['disable_button'].force_encoding("UTF-8")
 
