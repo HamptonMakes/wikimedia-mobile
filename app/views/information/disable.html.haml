@@ -1,7 +1,7 @@
 %h1
-  = language_object['are_you_sure']
+  = language_object['are_you_sure'].force_encoding("UTF-8")
 %p
-  = language_object['explain_disable']
+  = language_object['explain_disable'].force_encoding("UTF-8")
 
 #disableButtons
   %form{:action => redirect_url, :method => "get"}
