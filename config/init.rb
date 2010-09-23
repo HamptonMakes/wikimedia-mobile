@@ -45,22 +45,10 @@ Merb::BootLoader.before_app_loads do
     end
   end
 
-  
-
   Merb.push_path(:merb_extensions, Merb.root / "merb/extensions", "**/*.rb")  
   Merb.push_path(:lib, Merb.root / "lib", "**/*.rb")
   require Merb.root / 'lib' / 'object.rb'
   require Merb.root / 'lib' / 'compression.rb'
-  require 'moneta'
-  require 'moneta/memcache'
-  
-  #Merb::Plugins.config[:exceptions] = {
-  #      :email_addresses => ['hcatlin@gmail.com'],
-  #      :app_name        => "Wikimedia Mobile",
-  #      :environments    => ['production', 'staging'],
-  #      :email_from      => "errors@wikipedia.org"
-  #    }
-  
 end
  
 Merb::BootLoader.after_app_loads do
@@ -68,12 +56,12 @@ Merb::BootLoader.after_app_loads do
   Device.available_formats = YAML::load(open("config/formats.yml"))
   Wikipedia.settings = YAML::load(open("config/wikipedias.yml"))
   
-  unless defined?(Cache)
+  unless defined?(::Cache)
     if Merb.env == "production"
-      Cache = Moneta::Memcache.new(:server => "127.0.0.1")
+      ::Cache = Dalli::Client.new('localhost:11211')
     else
-      require 'moneta/memory'
-      Cache = Moneta::Memory.new
+      require Merb.root / 'lib' / 'dalli_mocker.rb'
+      ::Cache = DalliMocker.new
     end
   end
   
