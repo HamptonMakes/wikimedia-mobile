@@ -15,12 +15,8 @@ bin = "/var/lib/gems/1.9.1/bin"
 
 namespace :deploy do
 
-  task :gems do
-    run "cd #{current_path} && #{bin}/bundle install"
-  end
-
-  after :update do
-    gems
+  after "deploy:update_code" do
+    run "cd #{current_release} && #{bin}/bundle install"
   end
   
   task :start, :roles => :app do

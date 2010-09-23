@@ -58,7 +58,7 @@ Merb::BootLoader.after_app_loads do
   
   unless defined?(::Cache)
     if Merb.env == "production"
-      ::Cache = Dalli::Client.new('localhost:11211')
+      ::Cache = Dalli::Client.new('127.0.0.1:11211')
     else
       require Merb.root / 'lib' / 'dalli_mocker.rb'
       ::Cache = DalliMocker.new

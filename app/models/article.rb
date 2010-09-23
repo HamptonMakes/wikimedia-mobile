@@ -16,19 +16,22 @@ class Article < Wikipedia::Resource
     article.fetch!("/#{variant}/Special:Random")
     article
   end
-  
-  # Caching whete
+
   def has_search_results?
-    if (@html = Cache.get(key))
-      @html = @html.unzip
-      Merb.logger.debug("KEY: #{key}")
-      Merb.logger[:cache_hit] = true
-      return false
-    else
-      fetch! if raw_html.nil?
-      return nil if raw_html.nil?
-      raw_html.include?('var wgCanonicalSpecialPageName = "Search";')
+    begin
+      if (@html = Cache.get(key))
+        @html = @html.unzip
+        Merb.logger.debug("KEY: #{key}")
+        Merb.logger[:cache_hit] = true
+        return false
+      end
+    rescue Dalli::NetworkError
+      puts "Had Memcached Network Error"
     end
+
+    fetch! if raw_html.nil?
+    return nil if raw_html.nil?
+    raw_html.include?('var wgCanonicalSpecialPageName = "Search";')
   end
   
   def search_results
