@@ -6,7 +6,7 @@ module ControllerExtensions
       
       # DEVELOPMENT
       if Merb.env == "development"
-        klass.before :clear_cache
+        #klass.before :clear_cache
       end
     end
     
@@ -31,11 +31,5 @@ module ControllerExtensions
 
        Merb.logger.warn("#{Time.now.to_f} #{request.language_code} #{logged_data[:action_time]} #{request.device.format_name}")
     end
-
-    def clear_cache
-      #Cache.clear
-    end
-
-    
   end
 end

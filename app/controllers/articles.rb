@@ -118,7 +118,7 @@ class Articles < Application
       time_to "cache block" do
       
         key = cache_key
-        html = Cache[key]
+        html = Cache.get(key)
       
         if html
           Merb.logger[:cache_hit] = true
@@ -127,7 +127,7 @@ class Articles < Application
           html = block.call
         
           time_to "store in cache" do
-            Cache.store(key, html, :expires_in => 60 * 60 * 1)
+            Cache.set(key, html, 60 * 60 * 3)
           end
 
           Merb.logger[:cache_hit] = false
@@ -135,7 +135,7 @@ class Articles < Application
         html
       end
     # If memcached is unavailable for some reason, then don't barf... just fetch
-    rescue MemCache::MemCacheError
+    rescue Dalli::DalliError
       return block.call
     end
   end

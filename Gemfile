@@ -8,11 +8,9 @@ group :production do
   gem "bundler", "0.9.5"
 end
 
-#gem "bundler"
-gem "memcache-client"
+gem "dalli"
 gem "nokogiri", "1.3.3"
 gem "mime-types", :require => "mime/types"
-gem "moneta"
 gem "json"
 gem "typhoeus"
 gem "haml"
@@ -34,4 +32,5 @@ gem "rspec"
 
 group :development do
   gem "thin"
+  gem "moneta"
 end
