@@ -12,18 +12,23 @@ module Merb::Rack
     end
 
     def call(env)
-      request_count = Cache.incr("request_count", 1, 60 * 60 * 24, 1)
-      start = Time.now
       status, headers, body = @app.call(env)
-      took = (Time.now - start).to_s
-      req = Rack::Request.new(env)
-      content_type = headers['Content-Type'] ? headers['Content-Type'].split(";").first : '-'
-      timestamp = start.getutc.iso8601(2)[0..-2]
-      datagram = "#{@hostname} #{request_count} #{timestamp} #{took} #{req.ip} TCP_MISS/#{status} #{body.size + headers.size} #{req.request_method.upcase} #{req.url} NONE/- #{content_type} #{env['HTTP_REFERRER'] || '-'} #{env['X-Forwarded-For'] || '-'} #{URI::encode(env['HTTP_USER_AGENT'] || '')}"
 
-      puts datagram
+      begin
+        request_count = Cache.incr("request_count", 1, 60 * 60 * 24, 1)
+        start = Time.now
+        took = (Time.now - start).to_s
+        req = Rack::Request.new(env)
+        content_type = headers['Content-Type'] ? headers['Content-Type'].split(";").first : '-'
+        timestamp = start.getutc.iso8601(2)[0..-2]
+        datagram = "#{@hostname} #{request_count} #{timestamp} #{took} #{req.ip} TCP_MISS/#{status} #{body.size + headers.size} #{req.request_method.upcase} #{req.url} NONE/- #{content_type} #{env['HTTP_REFERRER'] || '-'} #{env['X-Forwarded-For'] || '-'} #{URI::encode(env['HTTP_USER_AGENT'] || '')}"
 
-      @sock.send(datagram, 0, "208.80.152.138", 8420)
+        puts datagram
+
+        @sock.send(datagram, 0, "208.80.152.138", 8420)
+      rescue Dalli::NetworkError
+        puts "NO LOGGING REPORTED"
+      end
 
       [status, headers, body]
     end
