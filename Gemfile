@@ -4,10 +4,6 @@ source :gemcutter
 
 merb_gems_version = "1.1.0"
 
-group :production do
-  gem "bundler", "0.9.5"
-end
-
 gem "dalli"
 gem "nokogiri", "1.3.3"
 gem "mime-types", :require => "mime/types"
@@ -33,4 +29,9 @@ gem "rspec"
 group :development do
   gem "thin"
   gem "moneta"
+end
+
+# Only for the production servers
+if RUBY_VERSION == "1.9.1" && RUBY_PLATFORM.include?("linux")
+  gem "bundler", "0.9.5"
 end
