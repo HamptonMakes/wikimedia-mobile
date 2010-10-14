@@ -4,7 +4,7 @@ module Merb::Rack
     def initialize(app)
       @app = app
       @sock = UDPSocket.open
-      @sock.bind("208.80.152.138")
+      @sock.bind("208.80.152.138", 8420)
       @hostname = `hostname --fqdn`.chomp
     end
 
