@@ -8,6 +8,7 @@ set :deploy_to, "/srv/#{application}"
 set :branch, "stable"
 
 set :use_sudo, false
+set :deploy_via, :remote_cache
 
 role :app, "mobile1.wikimedia.org", "mobile2.wikimedia.org", "mobile3.wikimedia.org"
 
@@ -16,7 +17,7 @@ bin = "/var/lib/gems/1.9.1/bin"
 namespace :deploy do
 
   after "deploy:update_code" do
-    run "rm #{previous_release}/Gemfile.lock"
+    run "rm #{current_release}/Gemfile.lock"
     run "cd #{current_release} && #{bin}/bundle install"
   end
   

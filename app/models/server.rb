@@ -29,7 +29,7 @@ class Server
   
   # What is the base URL for this server?
   def base_url
-    "http://#{@@ip}:#{@port}"
+    "http://#{@host}:#{@port}"
   end
   
   def file(title, variant = "wiki")
@@ -81,8 +81,8 @@ class Server
     retry_counter = 0
     time_to "download article from web" do
       begin
-        Merb.logger.debug "URL: " + (@@conn.url = base_url + path)
-        Merb.logger.debug "Host: " + (@@conn.headers['Host'] = @host)
+        @@conn.url = base_url + path
+        @@conn.headers['Host'] = @host
         @@conn.perform
         @@conn
       rescue Curl::Err::HostResolutionError, Curl::Err::GotNothingError, Curl::Err::ConnectionFailedError,  Curl::Err::PartialFileError, Curl::Err::TimeoutError
