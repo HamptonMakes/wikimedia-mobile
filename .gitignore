@@ -26,4 +26,5 @@ src/*
 .*.swp
 build_options.yml
 .project
+.yardoc
 .settings
