@@ -8,27 +8,23 @@ gem "dalli"
 gem "nokogiri", "1.3.3"
 gem "mime-types", :require => "mime/types"
 gem "json"
-gem "typhoeus"
 gem "haml"
-gem "abstract"
-gem "curb"
-
-#gem "do_mysql", :bundle => false
-#gem "mysql", :bundle => false
 
 gem "merb-core",        merb_gems_version
 gem "merb-assets",      merb_gems_version
-gem "merb-cache",       merb_gems_version
 gem "merb-haml",        merb_gems_version
 gem "merb-mailer",      merb_gems_version
 #gem "merb-exceptions",  merb_gems_version
 
 gem "rake"
-gem "rspec"
 
 group :development do
-  gem "thin"
-  gem "moneta"
+  gem "thin", :bundle => false     # for local development
+  gem "typhoeus"                   # for language import rake task
+end
+
+group :test do
+  gem "rspec"
 end
 
 # Only for the production servers
