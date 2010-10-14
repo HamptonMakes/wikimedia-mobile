@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html lang=en>
+<meta charset=utf-8>
+<title>Translate - translatewiki.net</title>
+<meta name=generator content="MediaWiki 1.17alpha">
+<meta name=robots content=noindex,nofollow>
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel=search type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="translatewiki.net (en)">
+<link rel=alternate type="application/atom+xml" title="translatewiki.net Atom feed" href="/w/i.php?title=Special:RecentChanges&amp;feed=atom">
+<link rel=stylesheet href="/w/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%7Cmediawiki.legacy.shared%7Ctranslate-css%7Cvector&amp;only=styles&amp;skin=vector">
+<link rel=stylesheet href="/w/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;version=20101004T232000Z">
+<link rel=stylesheet href="/w/load.php?debug=false&amp;lang=en&amp;modules=user&amp;only=styles&amp;skin=vector&amp;version=19700101T000000Z">
+<style>@media all{a.new,#quickbar a.new{color:#ba0000}}</style>
+<link rel=stylesheet href="/w/extensions/SlippyMap/SlippyMap.css?301">
+<body class="mediawiki ltr ns--1 ns-special page-Special_Translate skin-vector">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><div id="localNotice"><div style="text-align:center;font-size:x-small;" class="plainlinks ltr" dir="ltr">
+<p>Translatewiki.net is looking for volunteer PHP developers to further improve the site. <a href="/wiki/Special:WebChat" title=Special:WebChat>Talk to us</a> if you can help out. (<a href="/wiki/Project:News" title=Project:News>Other news...</a>)
+</p>
+</div>
+</div></div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading">Translate</h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+				<!-- tagline -->
+				<div id="siteSub">From translatewiki.net</div>
+				<!-- /tagline -->
+				<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav">
+					Jump to: <a href="#mw-head">navigation</a>,
+					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodytext -->
+				<div lang=en dir=ltr><fieldset class="mw-sp-translate-settings"><legend>Settings</legend><form action="/w/i.php" method="get"><input type=hidden value=Special:Translate name=title><table><tr><td><label for="task">I want to</label></td><td><select name="task" id="task"><option value="view">View all messages from</option>
+<option value="untranslated">View all untranslated messages from</option>
+<option value="optional">View optional messages from</option>
+<option value="suggestions">View messages with suggestions from translation memory</option>
+<option value="review">Review changes to</option>
+<option value="reviewall">Review all translated messages in</option>
+<option value="export-as-po">Export translation in Gettext format</option>
+<option value="export-to-file" selected="selected">Export translation to file from</option></select></td></tr><tr><td><label for="group">Group</label></td><td><select name="group" id="group"><option value="core">MediaWiki</option>
+<option value="core-0-mostused">MediaWiki (most used)</option>
+<option value="core-1.15">MediaWiki 1.15</option>
+<option value="core-1.16">MediaWiki 1.16</option>
+<option value="ext-0-all">MediaWiki extensions</option>
+<option value="ext-0-wikimedia">Extensions used by Wikimedia</option>
+<option value="ext-0-wikimedia-main">Extensions used by Wikimedia - Main</option>
+<option value="ext-abc">ABC</option>
+<option value="ext-absenteelandlord">Absentee Landlord</option>
+<option value="ext-abusefilter">Abuse Filter</option>
+<option value="ext-addmediawizard">Add Media Wizard</option>
+<option value="ext-addmediawizard-addmedia">Add Media Wizard - Add Media</option>
+<option value="ext-addmediawizard-clipedit">Add Media Wizard - Clip Edit</option>
+<option value="ext-adminlinks">Admin Links</option>
+<option value="ext-advancedrandom">Advanced Random</option>
+<option value="ext-ajaxlogin">Ajax Login</option>
+<option value="ext-ajaxquerypages">Ajax Query Pages</option>
+<option value="ext-ajaxshoweditors">Ajax Show Editors</option>
+<option value="ext-amazonplus">Amazon Plus</option>
+<option value="ext-antibot">Anti Bot</option>
+<option value="ext-antispoof">Anti Spoof</option>
+<option value="ext-apc">APC</option>
+<option value="ext-apisvgproxy">Api SVG Proxy</option>
+<option value="ext-approvedrevs">Approved Revs</option>
+<option value="ext-articleassessmentpilot">Article Assessment Pilot</option>
+<option value="ext-articletocategory2">Article To Category 2</option>
+<option value="ext-asksql">Asksql</option>
+<option value="ext-assertedit">Assert Edit</option>
+<option value="ext-authorprotect">Author Protect</option>
+<option value="ext-autoincrement">Autoincrement</option>
+<option value="ext-babel">Babel</option>
+<option value="ext-backandforth">Back and Forth</option>
+<option value="ext-badimage">Bad Image</option>
+<option value="ext-blahtex">Blahtex</option>
+<option value="ext-blocktitles">Block Titles</option>
+<option value="ext-bookinformation">Book Information</option>
+<option value="ext-breadcrumbs">Bread Crumbs</option>
+<option value="ext-call">Call</option>
+<option value="ext-cassandra">Cassandra</option>
+<option value="ext-categorybrowser">Category Browser</option>
+<option value="ext-categoryfeed">Category Feed</option>
+<option value="ext-categoryintersection">Category Intersection</option>
+<option value="ext-categorymultisort">Category Multisort</option>
+<option value="ext-categorymultisortchinese">Category Multisort Chinese</option>
+<option value="ext-categoryonupload">Category On Upload</option>
+<option value="ext-categorystepper">Category Stepper</option>
+<option value="ext-categorytests">Category Tests</option>
+<option value="ext-categorytree">Category Tree</option>
+<option value="ext-categorywatch">Category Watch</option>
+<option value="ext-centralauth">Central Auth</option>
+<option value="ext-centralnotice">Central Notice</option>
+<option value="ext-changeauthor">Change Author</option>
+<option value="ext-charinsert">Char Insert</option>
+<option value="ext-checkpoint">Checkpoint</option>
+<option value="ext-checkuser">Check User</option>
+<option value="ext-chemistry">Chemistry</option>
+<option value="ext-cite">Cite</option>
+<option value="ext-citespecial">Special Cite</option>
+<option value="ext-cldr">CLDR</option>
+<option value="ext-cleanchanges">Clean Changes</option>
+<option value="ext-clicktracking">Click Tracking</option>
+<option value="ext-clientside">Client Side</option>
+<option value="ext-closewikis">Close Wikis</option>
+<option value="ext-codereview">Code Review</option>
+<option value="ext-collection-0-all">All Collection messages</option>
+<option value="ext-collection-core">Collection - Core</option>
+<option value="ext-collection-other">Collection - Other</option>
+<option value="ext-commentbox">Commentbox</option>
+<option value="ext-commentpages">Comment Pages</option>
+<option value="ext-commentspammer">Comment Spammer</option>
+<option value="ext-communityvoice">Community Voice</option>
+<option value="ext-conditionalshowsection">Conditional Show Section</option>
+<option value="ext-configure">Configure</option>
+<option value="ext-configuresettings">Configure Settings</option>
+<option value="ext-confirmaccount">Confirm Account</option>
+<option value="ext-confirmedit">Confirm Edit</option>
+<option value="ext-confirmeditfancycaptcha">ConfirmEdit Fancy Captcha</option>
+<option value="ext-confirmeditquestycaptcha">ConfirmEdit Questy Captcha</option>
+<option value="ext-contactpage">Contact Page</option>
+<option value="ext-contributionreporting">Contribution Reporting</option>
+<option value="ext-contributionscores">Contribution Scores</option>
+<option value="ext-contributionseditcount">Contributions Edit Count</option>
+<option value="ext-contributiontracking">Contribution Tracking</option>
+<option value="ext-contributors">Contributors</option>
+<option value="ext-contributorsaddon">Contributors Add-on</option>
+<option value="ext-cooperationstatistics">Cooperation Statistics</option>
+<option value="ext-countedits">Count Edits</option>
+<option value="ext-createbox">Create Box</option>
+<option value="ext-crossnamespacelinks">Cross Namespace Links</option>
+<option value="ext-crosswikiblock">Crosswiki Block</option>
+<option value="ext-crowdauthentication">Crowd Authentication</option>
+<option value="ext-css">CSS</option>
+<option value="ext-datatransclusion">Data Transclusion</option>
+<option value="ext-datatransfer">Data Transfer</option>
+<option value="ext-datediff">Date Diff</option>
+<option value="ext-delayeddefinition">Delayed Definition</option>
+<option value="ext-deletebatch">Delete Batch</option>
+<option value="ext-deletequeue">Delete Queue</option>
+<option value="ext-di-di">Donation Interface - Donate Interface</option>
+<option value="ext-di-pfpg">Donation Interface - Payflow Pro Gateway</option>
+<option value="ext-didyoumean">Did You Mean</option>
+<option value="ext-discussionthreading">Discussion Threading</option>
+<option value="ext-dismissablesitenotice">Dismissable SiteNotice</option>
+<option value="ext-dontswitchmeover">Dont Switch Me Over</option>
+<option value="ext-doublewiki">Double Wiki</option>
+<option value="ext-dplforum">DPL Forum</option>
+<option value="ext-drafts">Drafts</option>
+<option value="ext-duplicator">Duplicator</option>
+<option value="ext-dynamicsidebar">Dynamic Sidebar</option>
+<option value="ext-editcount">Edit count</option>
+<option value="ext-editmessages">Edit Messages</option>
+<option value="ext-editown">Edit Own</option>
+<option value="ext-editsectionhilitelink">Edit Section Hilite Link</option>
+<option value="ext-editsimilar">Edit Similar</option>
+<option value="ext-editsubpages">Edit Subpages</option>
+<option value="ext-edituser">Edit User</option>
+<option value="ext-emailaddressimage">Email Address Image</option>
+<option value="ext-embedvideo">Embed Video</option>
+<option value="ext-emergencydesysop">Emergency DeSysop</option>
+<option value="ext-errorhandler">Error Handler</option>
+<option value="ext-eval">Eval</option>
+<option value="ext-expandtemplates">Expand Templates</option>
+<option value="ext-extensiondistributor">Extension Distributor</option>
+<option value="ext-externaldata">External Data</option>
+<option value="ext-externalpages">External Pages</option>
+<option value="ext-farmer">Farmer</option>
+<option value="ext-fbconnect">FB Connect</option>
+<option value="ext-fckeditor">FCK editor</option>
+<option value="ext-filepagemasking">File Page Masking</option>
+<option value="ext-findspam">Find Spam</option>
+<option value="ext-firefoggchunkedupload">Firefogg Chunked Upload</option>
+<option value="ext-fixedimage">Fixed Image</option>
+<option value="ext-flaggedrevs-0-all">All Flagged Revs messages</option>
+<option value="ext-flaggedrevs-configuredpages">Flagged Revisions - Configured Pages</option>
+<option value="ext-flaggedrevs-flaggedrevs">Flagged Revisions - Flagged Revs</option>
+<option value="ext-flaggedrevs-pendingchanges">Flagged Revisions - Pending Changes</option>
+<option value="ext-flaggedrevs-problemchanges">Flagged Revisions - Problem Changes</option>
+<option value="ext-flaggedrevs-qualityoversight">Flagged Revisions - Quality Oversight</option>
+<option value="ext-flaggedrevs-reviewedpages">Flagged Revisions - Reviewed Pages</option>
+<option value="ext-flaggedrevs-reviewedversions">Flagged Revisions - Reviewed Versions</option>
+<option value="ext-flaggedrevs-stabilization">Flagged Revisions - Stabilization</option>
+<option value="ext-flaggedrevs-stablepages">Flagged Revisions - Stable Pages</option>
+<option value="ext-flaggedrevs-unreviewedpages">Flagged Revisions - Unreviewed Pages</option>
+<option value="ext-flaggedrevs-validationstatistics">Flagged Revisions - Validation Statistics</option>
+<option value="ext-flvhandler">Flv Handler</option>
+<option value="ext-forcepreview">Force Preview</option>
+<option value="ext-form">Form</option>
+<option value="ext-formatemail">Format Email</option>
+<option value="ext-framedvideo">Framed Video</option>
+<option value="ext-frontbackmatterforcedwikilinks">Front Back Matter Forced Wikilinks</option>
+<option value="ext-fundraiserportal">Fundraiser Portal</option>
+<option value="ext-gadgets">Gadgets</option>
+<option value="ext-geolite">GeoLite</option>
+<option value="ext-getfamily">Get Family</option>
+<option value="ext-globalblocking">Global Blocking</option>
+<option value="ext-globalusage">Global Usage</option>
+<option value="ext-globaluserrights">Global User rights</option>
+<option value="ext-gnuplot">Gnuplot</option>
+<option value="ext-googleadsense">Google AdSense</option>
+<option value="ext-googleanalytics">Google Analytics</option>
+<option value="ext-googlemaps">Google Maps</option>
+<option value="ext-googlenewssitemap">Google News Sitemap</option>
+<option value="ext-gotocategory">Go To Category</option>
+<option value="ext-groupssidebar">Groups Sidebar</option>
+<option value="ext-hidenamespace">Hide Namespace</option>
+<option value="ext-honeypotintegration">Honeypot Integration</option>
+<option value="ext-htmlets">HTMLets</option>
+<option value="ext-i18ntags">Parser i18n tags</option>
+<option value="ext-icon">Icon</option>
+<option value="ext-imagemap">Image Map</option>
+<option value="ext-imagetagging">Image Tagging</option>
+<option value="ext-importfreeimages">Import Free Images</option>
+<option value="ext-importusers">Import Users</option>
+<option value="ext-imstatus">IM Status</option>
+<option value="ext-indexfunction">Index Function</option>
+<option value="ext-inputbox">Input Box</option>
+<option value="ext-inspectcache">Inspect Cache</option>
+<option value="ext-installer">Installer</option>
+<option value="ext-interlanguage">Interlanguage</option>
+<option value="ext-intersection">Intersection</option>
+<option value="ext-interwiki">Interwiki</option>
+<option value="ext-interwikilist">Interwiki List</option>
+<option value="ext-invitations">Invitations</option>
+<option value="ext-ipauth">IP Auth</option>
+<option value="ext-jsbreadcrumbs">JS Bread Crumbs</option>
+<option value="ext-jskit">JS Kit</option>
+<option value="ext-labeledsectiontransclusion">Labeled Section Transclusion</option>
+<option value="ext-languageselector">Language Selector</option>
+<option value="ext-lastuserlogin">Last User Login</option>
+<option value="ext-latexdoc">Latex Doc</option>
+<option value="ext-ldapauthentication">Ldap Authentication</option>
+<option value="ext-linkopenid">Link OpenID</option>
+<option value="ext-liquidthreads">Liquid Threads</option>
+<option value="ext-livelets">Livelets</option>
+<option value="ext-localisationupdate">Localisation Update</option>
+<option value="ext-lockdown">Lockdown</option>
+<option value="ext-logentry">Log Entry</option>
+<option value="ext-logofunctions">Logo Functions</option>
+<option value="ext-lookupuser">Lookup User</option>
+<option value="ext-lua">Lua</option>
+<option value="ext-magicnonumberedheadings">Magic No Numbered Headings</option>
+<option value="ext-maintenance">Maintenance</option>
+<option value="ext-maps">Maps</option>
+<option value="ext-massblank">Mass Blank</option>
+<option value="ext-masseditregex">Mass Edit Regex</option>
+<option value="ext-mathstatfunctions">Math Stat Functions</option>
+<option value="ext-mediafunctions">Media Functions</option>
+<option value="ext-metadataedit">Metadata Edit</option>
+<option value="ext-metakeywords">Meta Keywords</option>
+<option value="ext-metavidwiki">Metavid Wiki</option>
+<option value="ext-microid">MicroID</option>
+<option value="ext-minidonation">Mini Donation</option>
+<option value="ext-minify">Minify</option>
+<option value="ext-minimumnamelength">Minimum Name Length</option>
+<option value="ext-minipreview">Mini Preview</option>
+<option value="ext-mirrortools">Mirror Tools</option>
+<option value="ext-mostrevisors">Most Revisors</option>
+<option value="ext-multiboilerplate">Multi Boilerplate</option>
+<option value="ext-multiupload">Multi Upload</option>
+<option value="ext-mwembed">MwEmbed</option>
+<option value="ext-mwembed-mwembedmodule">MwEmbed - MwEmbedModule</option>
+<option value="ext-mwsearch">MediaWiki Search</option>
+<option value="ext-naturallanguagelist">Natural Language List</option>
+<option value="ext-navigationpopups">Navigation Popups</option>
+<option value="ext-negref">Negref</option>
+<option value="ext-networkauth">Network Auth</option>
+<option value="ext-newestpages">Newest Pages</option>
+<option value="ext-news">News</option>
+<option value="ext-newschannel">News Channel</option>
+<option value="ext-newusermessage">New User Message</option>
+<option value="ext-newusernotification">New User Notification</option>
+<option value="ext-nsfilerepo">NS File Repo</option>
+<option value="ext-nssmysqlauth">Nss MySQL Auth</option>
+<option value="ext-nuke">Nuke</option>
+<option value="ext-oai">OAI-PMH repository</option>
+<option value="ext-ogghandler">Ogg Handler</option>
+<option value="ext-onlinestatus">Online Status</option>
+<option value="ext-openid">OpenID</option>
+<option value="ext-opensearchxml">Open Search Xml</option>
+<option value="ext-othersites">Other Sites</option>
+<option value="ext-packageforce">Package Force</option>
+<option value="ext-pageby">Page By</option>
+<option value="ext-pagedtiffhandler">Paged Tiff Handler</option>
+<option value="ext-pageobjectmodel">Page Object Model</option>
+<option value="ext-parserfunctions">Parser Functions</option>
+<option value="ext-parserwiki">Parser Wiki</option>
+<option value="ext-passwordreset">Password Reset</option>
+<option value="ext-patroller">Patroller</option>
+<option value="ext-pdfhandler">Pdf Handler</option>
+<option value="ext-peoplecategories">People Categories</option>
+<option value="ext-pipeescape">Pipe Escape</option>
+<option value="ext-piwik">Piwik</option>
+<option value="ext-player">Player</option>
+<option value="ext-plotters">Plotters</option>
+<option value="ext-pnghandler">PNG Handler</option>
+<option value="ext-poem">Poem</option>
+<option value="ext-poolcounter">Pool Counter</option>
+<option value="ext-postcomment">Post comment</option>
+<option value="ext-povwatch">POV Watch</option>
+<option value="ext-prefstats">Pref Stats</option>
+<option value="ext-prefswitch">Pref Switch</option>
+<option value="ext-preloader">Preloader</option>
+<option value="ext-profilemonitor">Profile Monitor</option>
+<option value="ext-proofreadpage">Proofread Page</option>
+<option value="ext-protectsection">Protect Section</option>
+<option value="ext-psinotocnum">PSI NoTocNum</option>
+<option value="ext-purewikideletion">Pure Wiki Deletion</option>
+<option value="ext-purge">Purge</option>
+<option value="ext-purgecache">Purge Cache</option>
+<option value="ext-qpoll">QPoll</option>
+<option value="ext-qrcode">Qr Code</option>
+<option value="ext-quiz">Quiz</option>
+<option value="ext-randomimage">Random Image</option>
+<option value="ext-randomincategory">Random In Category</option>
+<option value="ext-randomrootpage">Random root page</option>
+<option value="ext-randomuserswithavatars">Random Users With Avatars</option>
+<option value="ext-rdfio">RDFIO</option>
+<option value="ext-readerfeedback-0-all">All Reader Feedback messages</option>
+<option value="ext-readerfeedback-ratedpages">Reader Feedback - Rated Pages</option>
+<option value="ext-readerfeedback-ratinghistory">Reader Feedback - Rating History</option>
+<option value="ext-readerfeedback-readerfeedback">Reader Feedback</option>
+<option value="ext-recordadmin">Record Admin</option>
+<option value="ext-redirect">Redirect</option>
+<option value="ext-refhelper">Ref Helper</option>
+<option value="ext-reflect">Reflect</option>
+<option value="ext-refreshspecial">Refresh Special</option>
+<option value="ext-regexblock">Regex Block</option>
+<option value="ext-regexfunctions">Regex Functions</option>
+<option value="ext-renameuser">Rename user</option>
+<option value="ext-replaceset">Replace Set</option>
+<option value="ext-replacetext">Replace Text</option>
+<option value="ext-rightfunctions">Right Functions</option>
+<option value="ext-rped">RPED</option>
+<option value="ext-rss">RSS</option>
+<option value="ext-rt">RT</option>
+<option value="ext-scanset">Scan Set</option>
+<option value="ext-searchbox">Search Box</option>
+<option value="ext-securepasswords">Secure Passwords</option>
+<option value="ext-securepoll">Secure Poll</option>
+<option value="ext-seealso">See also</option>
+<option value="ext-selectcategory">Select Category</option>
+<option value="ext-semanticcompoundqueries">Semantic Compound Queries</option>
+<option value="ext-semanticdrilldown">Semantic Drilldown</option>
+<option value="ext-semanticforms">Semantic Forms</option>
+<option value="ext-semanticformsinputs">Semantic Forms Inputs</option>
+<option value="ext-semanticinternalobjects">Semantic Internal Objects</option>
+<option value="ext-semanticmaps">Semantic Maps</option>
+<option value="ext-semanticmediawiki">Semantic MediaWiki</option>
+<option value="ext-semanticresultformats">Semantic Result Formats</option>
+<option value="ext-semantictasks">Semantic Tasks</option>
+<option value="ext-sendmailtowiki">Sendmail To Wiki</option>
+<option value="ext-shareduserrights">Shared User Rights</option>
+<option value="ext-showprocesslist">Show Processlist</option>
+<option value="ext-sidebardonatebox">Sidebar Donate Box</option>
+<option value="ext-signdocument">Sign Document</option>
+<option value="ext-signdocumentspecial">Sign Document Special</option>
+<option value="ext-signdocumentspecialcreate">Sign Document Special Create</option>
+<option value="ext-simpleantispam">Simple Anti Spam</option>
+<option value="ext-simplesecurity">Simple Security</option>
+<option value="ext-sitematrix">Site Matrix</option>
+<option value="ext-skinperpage">Skin Per Page</option>
+<option value="ext-slimboxthumbs">Slimbox Thumbs</option>
+<option value="ext-slippymap">Slippy Map</option>
+<option value="ext-smoothgallery">Smooth Gallery</option>
+<option value="ext-socialprofile-0-all">All Social Profile messages</option>
+<option value="ext-socialprofile-systemgifts">Social Profile - System Gifts</option>
+<option value="ext-socialprofile-useractivity">Social Profile - User Activity</option>
+<option value="ext-socialprofile-userboard">Social Profile - User Board</option>
+<option value="ext-socialprofile-usergifts">Social Profile - User Gifts</option>
+<option value="ext-socialprofile-userprofile">Social Profile - User Profile</option>
+<option value="ext-socialprofile-userrelationship">Social Profile - User Relationship</option>
+<option value="ext-socialprofile-userstats">Social Profile - User Stats</option>
+<option value="ext-socialprofile-userwelcome">Social Profile - User Welcome</option>
+<option value="ext-spamblacklist">Spam Blacklist</option>
+<option value="ext-spamdifftool">Spam Diff Tool</option>
+<option value="ext-spamregex">Spam Regex</option>
+<option value="ext-specialfilelist">Special File List</option>
+<option value="ext-specialtalk">Special Talk</option>
+<option value="ext-sphinxsearch">Sphinx Search</option>
+<option value="ext-stalepages">Stale Pages</option>
+<option value="ext-stalkerlog">Stalker Log</option>
+<option value="ext-stockcharts">Stock Charts</option>
+<option value="ext-storyboard">Storyboard</option>
+<option value="ext-strategywiki-activestrategy">Strategy Wiki - Active Strategy</option>
+<option value="ext-stringfunctions">String Functions</option>
+<option value="ext-subpagelist3">Sub Page List 3</option>
+<option value="ext-svgzoom">SVG Zoom</option>
+<option value="ext-syntaxhighlightgeshi">Syntax Highlight GeSHi</option>
+<option value="ext-tab0">Tab0</option>
+<option value="ext-tablemod">Table Mod</option>
+<option value="ext-talkhere">Talk Here</option>
+<option value="ext-tasks">Tasks</option>
+<option value="ext-templateinfo">Template Info</option>
+<option value="ext-templatelink">Template Link</option>
+<option value="ext-tidytab">TidyTab</option>
+<option value="ext-timedmediahandler">Timed Media Handler</option>
+<option value="ext-timedmediahandler-embedplayer">Timed Media Handler - Embed Player</option>
+<option value="ext-timedmediahandler-timedtext">Timed Media Handler - Timed Text</option>
+<option value="ext-timeline">Timeline</option>
+<option value="ext-titleblacklist">Title Blacklist</option>
+<option value="ext-titlekey">Title Key</option>
+<option value="ext-todo">Todo</option>
+<option value="ext-todotasks">Todo Tasks</option>
+<option value="ext-tooltip">Tooltip</option>
+<option value="ext-torblock">Tor Block</option>
+<option value="ext-translate-0-all">All Translate messages</option>
+<option value="ext-translate-core">Translate - Core</option>
+<option value="ext-translate-firststeps">Translate - First Steps</option>
+<option value="ext-translate-groupdescs">Translate - Message Group Descriptions</option>
+<option value="ext-translate-pagetranslation">Translate - Page Translation</option>
+<option value="ext-transliterator">Transliterator</option>
+<option value="ext-trustedxff">Trusted XFF</option>
+<option value="ext-tspoll">TSPoll</option>
+<option value="ext-ukgeocodingformaps">UK Geocoding For Maps</option>
+<option value="ext-unicodeconverter">Unicode Converter</option>
+<option value="ext-uniwiki-0-all">All Uniwiki messages</option>
+<option value="ext-uniwiki-authors">Uniwiki - Authors</option>
+<option value="ext-uniwiki-autocreatecategorypages">Uniwiki - Auto Create Category Pages</option>
+<option value="ext-uniwiki-catboxattop">Uniwiki - Cat Box At Top</option>
+<option value="ext-uniwiki-createpage">Uniwiki - Create Page</option>
+<option value="ext-uniwiki-csshooks">Uniwiki - Css Hooks</option>
+<option value="ext-uniwiki-customtoolbar">Uniwiki - Custom Toolbar</option>
+<option value="ext-uniwiki-formatchanges">Uniwiki - Format Changes</option>
+<option value="ext-uniwiki-formatsearch">Uniwiki - Format Search</option>
+<option value="ext-uniwiki-genericeditpage">Uniwiki - Generic Edit Page</option>
+<option value="ext-uniwiki-javascript">Uniwiki - Javascript</option>
+<option value="ext-uniwiki-layouts">Uniwiki - Layouts</option>
+<option value="ext-uniwiki-mootools12core">Uniwiki - Moo Tools 12 core</option>
+<option value="ext-uploadblacklist">Upload Blacklist</option>
+<option value="ext-uploadwizard">Upload Wizard</option>
+<option value="ext-usagestatistics">Usage Statistics</option>
+<option value="ext-usercontactlinks">User Contact Links</option>
+<option value="ext-userdailycontribs">User Daily Contribs</option>
+<option value="ext-userimages">User Images</option>
+<option value="ext-usermerge">User Merge</option>
+<option value="ext-useroptionstats">User Option Stats</option>
+<option value="ext-userpageeditprotection">User Page Edit Protection</option>
+<option value="ext-userrightsnotif">User Rights Notif</option>
+<option value="ext-userthrottle">User Throttle</option>
+<option value="ext-validator">Validator</option>
+<option value="ext-variablepage">Variable Page</option>
+<option value="ext-vector">Vector</option>
+<option value="ext-vote">Vote</option>
+<option value="ext-watchers">Watchers</option>
+<option value="ext-watchsubpages">Watch Subpages</option>
+<option value="ext-webchat">Web Chat</option>
+<option value="ext-webstore">Web Store</option>
+<option value="ext-whatismyip">What Is My IP</option>
+<option value="ext-whitelistedit">White List Edit</option>
+<option value="ext-whoiswatching">Who Is Watching</option>
+<option value="ext-whosonline">Whos Online</option>
+<option value="ext-widgets">Widgets</option>
+<option value="ext-wikiarticlefeeds">Wiki Article Feeds</option>
+<option value="ext-wikiathome">Wiki At Home</option>
+<option value="ext-wikidata">Wikidata</option>
+<option value="ext-wikieditor">WikiEditor</option>
+<option value="ext-wikihiero">Wikihiero</option>
+<option value="ext-wikilog">Wikilog</option>
+<option value="ext-wikilogfeed">Wikilog Feed</option>
+<option value="ext-wikimediaincubator">Wikimedia Incubator</option>
+<option value="ext-wikimedialicensetexts">Wikimedia License Texts</option>
+<option value="ext-wikimediamessages">Wikimedia Messages</option>
+<option value="ext-wikimediamobile">Wikimedia Mobile</option>
+<option value="ext-wikitextloggedinout">Wiki Text Logged In Out</option>
+<option value="ext-woopra">Woopra</option>
+<option value="ext-xmlrc">XMLRC</option>
+<option value="ext-youtubeauthsub">YouTube Auth Sub</option>
+<option value="out-freecol">FreeCol</option>
+<option value="out-fudforum">FUDforum</option>
+<option value="out-mantis-0-all">All MantisBT messages</option>
+<option value="out-mantis-core">MantisBT</option>
+<option value="out-mantis-mantiscoreformatting">MantisBT - Mantis Core Formatting</option>
+<option value="out-mantis-mantisgraph">MantisBT - Mantis Graph</option>
+<option value="out-mantis-xmlimportexport">MantisBT - Xml Import Export</option>
+<option value="out-mifos-0-all">All Mifos messages</option>
+<option value="out-mifos-questionnaire">Mifos - Questionnaire</option>
+<option value="out-mwlibrl">Mwlib.rl</option>
+<option value="out-nocc">NOCC</option>
+<option value="out-okawix-0-all">All Okawix messages</option>
+<option value="out-okawix-doc">Okawix - Documentation</option>
+<option value="out-okawix-dtd">Okawix - DTD</option>
+<option value="out-okawix-prop">Okawix - Properties</option>
+<option value="out-openlayers">OpenLayers</option>
+<option value="out-osm-0-all">All OpenStreetMap messages</option>
+<option value="out-osm-potlatch">OpenStreetMap - Potlatch</option>
+<option value="out-osm-site">OpenStreetMap - Website</option>
+<option value="out-shapado-0-all">All Shapado messages</option>
+<option value="out-shapado-ads">Shapado - Ads</option>
+<option value="out-shapado-announcements">Shapado - Announcements</option>
+<option value="out-shapado-answers">Shapado - Answers</option>
+<option value="out-shapado-badges">Shapado - Badges</option>
+<option value="out-shapado-closerequests">Shapado - Close requests</option>
+<option value="out-shapado-comments">Shapado - Comments</option>
+<option value="out-shapado-doc">Shapado - Doc</option>
+<option value="out-shapado-errors">Shapado - Errors</option>
+<option value="out-shapado-favorites">Shapado - Favorites</option>
+<option value="out-shapado-flags">Shapado - Flags</option>
+<option value="out-shapado-global">Shapado - Global</option>
+<option value="out-shapado-groups">Shapado - Groups</option>
+<option value="out-shapado-imports">Shapado - Imports</option>
+<option value="out-shapado-js">Shapado - JavaScript</option>
+<option value="out-shapado-layouts">Shapado - Layouts</option>
+<option value="out-shapado-mailers">Shapado - Mailers</option>
+<option value="out-shapado-manage">Shapado - Manage</option>
+<option value="out-shapado-members">Shapado - Members</option>
+<option value="out-shapado-moderate">Shapado - Moderate</option>
+<option value="out-shapado-notifier">Shapado - Notifier</option>
+<option value="out-shapado-openrequests">Shapado - Open Requests</option>
+<option value="out-shapado-pages">Shapado - Pages</option>
+<option value="out-shapado-questions">Shapado - Questions</option>
+<option value="out-shapado-searches">Shapado - Searches</option>
+<option value="out-shapado-sessions">Shapado - Sessions</option>
+<option value="out-shapado-shared">Shapado - Shared</option>
+<option value="out-shapado-unfavorites">Shapado - Unfavorites</option>
+<option value="out-shapado-users">Shapado - Users</option>
+<option value="out-shapado-votes">Shapado - Votes</option>
+<option value="out-shapado-welcome">Shapado - Welcome</option>
+<option value="out-shapado-widgets">Shapado - Widgets</option>
+<option value="out-shapado-wiki">Shapado - Wiki</option>
+<option value="out-statusnet-0-all">All StatusNet messages</option>
+<option value="out-statusnet-core">StatusNet - Core</option>
+<option value="out-statusnet-plugin-0-all">All StatusNet plugin messages</option>
+<option value="out-statusnet-plugin-adsense">StatusNet - Adsense</option>
+<option value="out-statusnet-plugin-anonymousfave">StatusNet - AnonymousFave</option>
+<option value="out-statusnet-plugin-apc">StatusNet - APC</option>
+<option value="out-statusnet-plugin-autocomplete">StatusNet - Autocomplete</option>
+<option value="out-statusnet-plugin-autosandbox">StatusNet - AutoSandbox</option>
+<option value="out-statusnet-plugin-bitlyurl">StatusNet - BitlyUrl</option>
+<option value="out-statusnet-plugin-blacklist">StatusNet - Blacklist</option>
+<option value="out-statusnet-plugin-blankad">StatusNet - BlankAd</option>
+<option value="out-statusnet-plugin-blogspamnet">StatusNet - BlogspamNet</option>
+<option value="out-statusnet-plugin-cachelog">StatusNet - CacheLog</option>
+<option value="out-statusnet-plugin-casauthentication">StatusNet - CasAuthentication</option>
+<option value="out-statusnet-plugin-clientsideshorten">StatusNet - ClientSideShorten</option>
+<option value="out-statusnet-plugin-comet">StatusNet - Comet</option>
+<option value="out-statusnet-plugin-directiondetector">StatusNet - DirectionDetector</option>
+<option value="out-statusnet-plugin-diskcache">StatusNet - DiskCache</option>
+<option value="out-statusnet-plugin-disqus">StatusNet - Disqus</option>
+<option value="out-statusnet-plugin-echo">StatusNet - Echo</option>
+<option value="out-statusnet-plugin-emailauthentication">StatusNet - EmailAuthentication</option>
+<option value="out-statusnet-plugin-facebook">StatusNet - Facebook</option>
+<option value="out-statusnet-plugin-firephp">StatusNet - FirePHP</option>
+<option value="out-statusnet-plugin-forcegroup">StatusNet - ForceGroup</option>
+<option value="out-statusnet-plugin-geonames">StatusNet - Geonames</option>
+<option value="out-statusnet-plugin-geourl">StatusNet - GeoURL</option>
+<option value="out-statusnet-plugin-googleanalytics">StatusNet - GoogleAnalytics</option>
+<option value="out-statusnet-plugin-gravatar">StatusNet - Gravatar</option>
+<option value="out-statusnet-plugin-groupfavorited">StatusNet - GroupFavorited</option>
+<option value="out-statusnet-plugin-imap">StatusNet - Imap</option>
+<option value="out-statusnet-plugin-infinitescroll">StatusNet - InfiniteScroll</option>
+<option value="out-statusnet-plugin-ldapauthentication">StatusNet - LdapAuthentication</option>
+<option value="out-statusnet-plugin-ldapauthorization">StatusNet - LdapAuthorization</option>
+<option value="out-statusnet-plugin-lilurl">StatusNet - LilUrl</option>
+<option value="out-statusnet-plugin-linkback">StatusNet - Linkback</option>
+<option value="out-statusnet-plugin-mapstraction">StatusNet - Mapstraction</option>
+<option value="out-statusnet-plugin-memcache">StatusNet - Memcache</option>
+<option value="out-statusnet-plugin-memcached">StatusNet - Memcached</option>
+<option value="out-statusnet-plugin-meteor">StatusNet - Meteor</option>
+<option value="out-statusnet-plugin-minify">StatusNet - Minify</option>
+<option value="out-statusnet-plugin-mobileprofile">StatusNet - MobileProfile</option>
+<option value="out-statusnet-plugin-noticetitle">StatusNet - NoticeTitle</option>
+<option value="out-statusnet-plugin-openexternallinktarget">StatusNet - OpenExternalLinkTarget</option>
+<option value="out-statusnet-plugin-openid">StatusNet - OpenID</option>
+<option value="out-statusnet-plugin-ostatus">StatusNet - OStatus</option>
+<option value="out-statusnet-plugin-piwikanalytics">StatusNet - PiwikAnalytics</option>
+<option value="out-statusnet-plugin-postdebug">StatusNet - PostDebug</option>
+<option value="out-statusnet-plugin-poweredbystatusnet">StatusNet - PoweredByStatusNet</option>
+<option value="out-statusnet-plugin-ptiturl">StatusNet - PtitUrl</option>
+<option value="out-statusnet-plugin-recaptcha">StatusNet - Recaptcha</option>
+<option value="out-statusnet-plugin-registerthrottle">StatusNet - RegisterThrottle</option>
+<option value="out-statusnet-plugin-requirevalidatedemail">StatusNet - RequireValidatedEmail</option>
+<option value="out-statusnet-plugin-reverseusernameauthentication">StatusNet - ReverseUsernameAuthentication</option>
+<option value="out-statusnet-plugin-rsscloud">StatusNet - RSSCloud</option>
+<option value="out-statusnet-plugin-sample">StatusNet - Sample</option>
+<option value="out-statusnet-plugin-sharenotice">StatusNet - ShareNotice</option>
+<option value="out-statusnet-plugin-simpleurl">StatusNet - SimpleUrl</option>
+<option value="out-statusnet-plugin-sitemap">StatusNet - Sitemap</option>
+<option value="out-statusnet-plugin-slicedfavorites">StatusNet - SlicedFavorites</option>
+<option value="out-statusnet-plugin-sphinxsearch">StatusNet - SphinxSearch</option>
+<option value="out-statusnet-plugin-submirror">StatusNet - SubMirror</option>
+<option value="out-statusnet-plugin-subscriptionthrottle">StatusNet - SubscriptionThrottle</option>
+<option value="out-statusnet-plugin-tabfocus">StatusNet - TabFocus</option>
+<option value="out-statusnet-plugin-tighturl">StatusNet - TightUrl</option>
+<option value="out-statusnet-plugin-tinymce">StatusNet - TinyMCE</option>
+<option value="out-statusnet-plugin-twitterbridge">StatusNet - TwitterBridge</option>
+<option value="out-statusnet-plugin-userflag">StatusNet - UserFlag</option>
+<option value="out-statusnet-plugin-userlimit">StatusNet - UserLimit</option>
+<option value="out-statusnet-plugin-wikihashtags">StatusNet - WikiHashtags</option>
+<option value="out-statusnet-plugin-wikihowprofile">StatusNet - WikiHowProfile</option>
+<option value="out-statusnet-plugin-xcache">StatusNet - XCache</option>
+<option value="out-statusnet-plugin-yammerimport">StatusNet - YammerImport</option>
+<option value="out-voctrain">Voctrain</option>
+<option value="out-wikiblame">WikiBlame</option>
+<option value="out-wikimediamobile" selected="selected">Wikimedia Mobile Interface</option>
+<option value="out-wikireader">WikiReader</option>
+<option value="page-0-all">Translatable pages</option>
+<option value="page|Osm:Potlatch-help-html">Osm:Potlatch-help-html</option>
+<option value="page|Project list">Project list</option>
+<option value="page|Project:About">Project:About</option>
+<option value="page|Project:Privacy policy">Project:Privacy policy</option>
+<option value="page|Technology">Technology</option>
+<option value="page|Translating:How to start">Translating:How to start</option>
+<option value="page|Translating:Intro">Translating:Intro</option>
+<option value="page|Translating:New project">Translating:New project</option>
+<option value="page|User:FuzzyBot">User:FuzzyBot</option>
+<option value="page|Web interface">Web interface</option>
+<option value="wiki-betawiki">Translatewiki.net</option>
+<option value="wiki-twn-mainpage">Translatewiki.net main page</option>
+<option value="wikia-0-all">Wikia MediaWiki extensions</option>
+<option value="wikia-achievementsii">Achievements II</option>
+<option value="wikia-actionpanel">Action Panel</option>
+<option value="wikia-adss">Ad SS</option>
+<option value="wikia-ajaxpoll">Ajax Poll</option>
+<option value="wikia-autocreatewiki">Auto Create Wiki</option>
+<option value="wikia-autohubspages">Auto Hubs Pages</option>
+<option value="wikia-badges">Badges</option>
+<option value="wikia-batchuserrights">Batch User Rights</option>
+<option value="wikia-blogs">Blogs</option>
+<option value="wikia-categoryhubs">Category Hubs</option>
+<option value="wikia-categoryselect">Category Select</option>
+<option value="wikia-cloakcheck">Cloak Check</option>
+<option value="wikia-comboajaxlogin">Combo Ajax Login</option>
+<option value="wikia-commentsforum">Comments Forum</option>
+<option value="wikia-communitymessages">Community Messages</option>
+<option value="wikia-contesttool">Contest Tool</option>
+<option value="wikia-createpage">Create Page</option>
+<option value="wikia-daemonloader">Daemon Loader</option>
+<option value="wikia-editaccount">Edit Account</option>
+<option value="wikia-editingtips">Editing Tips</option>
+<option value="wikia-editresearch">Edit Research</option>
+<option value="wikia-follow">Follow</option>
+<option value="wikia-forcesubjectfornewsection">Force Subject For New Section</option>
+<option value="wikia-founderemails">Founder Emails</option>
+<option value="wikia-globalwatchlist">Global Watchlist</option>
+<option value="wikia-graceexpired">Grace Expired</option>
+<option value="wikia-hawelcome">HA Welcome</option>
+<option value="wikia-healthcheck">Health Check</option>
+<option value="wikia-helperpanel">Helper Panel</option>
+<option value="wikia-imageplaceholder">Image Placeholder</option>
+<option value="wikia-interstitial-outboundscreen">Interstitial - Outbound Screen</option>
+<option value="wikia-interwikidispatcher">Interwiki Dispatcher</option>
+<option value="wikia-landingpage">Landing Page</option>
+<option value="wikia-linksuggest">Link Suggest</option>
+<option value="wikia-lookupcontribs">Lookup Contribs</option>
+<option value="wikia-masthead">Masthead</option>
+<option value="wikia-mostpopulararticles">Most Popular Articles</option>
+<option value="wikia-mostpopularcategories">Most Popular Categories</option>
+<option value="wikia-mostvisitedpages">Most Visited Pages</option>
+<option value="wikia-multitasks">Multi Tasks</option>
+<option value="wikia-myhome">My Home</option>
+<option value="wikia-neweditpage">New Edit Page</option>
+<option value="wikia-our404handler">Our 404 Handler</option>
+<option value="wikia-partnerfeed">Partner Feed</option>
+<option value="wikia-problemreports">Problem Reports</option>
+<option value="wikia-quickcreate">Quick Create</option>
+<option value="wikia-randomwiki">Random Wiki</option>
+<option value="wikia-recipestweaks">Recipes Tweaks</option>
+<option value="wikia-relatedpages">Related Pages</option>
+<option value="wikia-rte-base">RTE - Base</option>
+<option value="wikia-rte-ckwikia">RTE - CK Wikia</option>
+<option value="wikia-search">Search</option>
+<option value="wikia-sharedhelp">Shared Help</option>
+<option value="wikia-sharefeature">Share Feature</option>
+<option value="wikia-sitemap">Sitemap</option>
+<option value="wikia-sitewidemessages">Site Wide Messages</option>
+<option value="wikia-slidertag">Slider Tag</option>
+<option value="wikia-specialinterwikiedit">Special Interwiki Edit</option>
+<option value="wikia-specialminiupload">Special Mini Upload</option>
+<option value="wikia-specialmultiplelookup">Special Multiple Lookup</option>
+<option value="wikia-specialprivatedomains">Special Private Domains</option>
+<option value="wikia-specialprotectsite">Special Protect Site</option>
+<option value="wikia-specialsponsorpage">Special Sponsor Page</option>
+<option value="wikia-specialwidgetdashboard">Special Widget Dashboard</option>
+<option value="wikia-staffpowers">Staff Powers</option>
+<option value="wikia-tagsreport">Tags Report</option>
+<option value="wikia-taskmanager">Task Manager</option>
+<option value="wikia-textregex">Text Regex</option>
+<option value="wikia-themedesigner">Theme Designer</option>
+<option value="wikia-theorytab">Theory tab</option>
+<option value="wikia-titleedit">Title Edit</option>
+<option value="wikia-toplists">Top Lists</option>
+<option value="wikia-videoembedtool">Video Embed Tool</option>
+<option value="wikia-watchsubpages">Watch Sub Pages</option>
+<option value="wikia-whereisextension">Where Is Extension</option>
+<option value="wikia-widgetspecialpage">Widget Special Page</option>
+<option value="wikia-wikiaircgateway">Wikia Irc Gateway</option>
+<option value="wikia-wikiaminiupload">Wikia Mini Upload</option>
+<option value="wikia-wikiaphotogallery">Wikia Photo Gallery</option>
+<option value="wikia-wikiastats">Wikia Stats</option>
+<option value="wikia-wikiaupload">Wikia Upload</option>
+<option value="wikia-wikiavideo">Wikia Video</option>
+<option value="wikia-wikiavideoadd">Wikia Video Add</option>
+<option value="wikia-wikiawidget">Wikia Widget</option>
+<option value="wikia-wikifactory">Wiki Factory</option>
+<option value="wikia-wikifactorydumps">Wiki Factory Dumps</option>
+<option value="wikia-wikifactoryreporter">Wiki Factory Reporter</option>
+<option value="wikia-wikistickies">Wiki Stickies</option>
+<option value="wikia-withoutimages">Without images</option></select></td></tr><tr><td><label for="language">Language</label></td><td><select name="language" id="language"><option value="aa">aa - Afar</option>
+<option value="ab">ab - Abkhazian</option>
+<option value="ace">ace - Achinese</option>
+<option value="ady-cyrl">ady-cyrl - адыгэбзэ</option>
+<option value="af">af - Afrikaans</option>
+<option value="ak">ak - Akan</option>
+<option value="akz">akz - Albaamo innaaɬiilka</option>
+<option value="aln">aln - Gheg Albanian</option>
+<option value="als">als - Tosk</option>
+<option value="am">am - Amharic</option>
+<option value="an">an - Aragonese</option>
+<option value="ang">ang - Old English</option>
+<option value="anp">anp - Angika</option>
+<option value="ar">ar - Arabic</option>
+<option value="arc">arc - Aramaic</option>
+<option value="arn">arn - Araucanian</option>
+<option value="aro">aro - Araona</option>
+<option value="arq">arq - Algerian Spoken Arabic</option>
+<option value="ary">ary - Moroccan Spoken Arabic</option>
+<option value="arz">arz - Egyptian Spoken Arabic</option>
+<option value="as">as - Assamese</option>
+<option value="ase">ase - American sign language</option>
+<option value="ast">ast - Asturian</option>
+<option value="av">av - Avaric</option>
+<option value="avk">avk - Kotava</option>
+<option value="ay">ay - Aymara</option>
+<option value="az">az - Azerbaijani</option>
+<option value="ba">ba - Bashkir</option>
+<option value="bar">bar - Bavarian</option>
+<option value="bat-smg">bat-smg - Samogitian</option>
+<option value="bcc">bcc - Southern Balochi</option>
+<option value="bcl">bcl - Bikol Central</option>
+<option value="be">be - Belarusian</option>
+<option value="be-tarask">be-tarask - Belarusian (Taraškievica orthography)</option>
+<option value="be-x-old">be-x-old - Беларуская (тарашкевіца)</option>
+<option value="bew">bew - Bahasa Betawi</option>
+<option value="bfq">bfq - படகா</option>
+<option value="bg">bg - Bulgarian</option>
+<option value="bh">bh - Bihari</option>
+<option value="bi">bi - Bislama</option>
+<option value="bjn">bjn - Bahasa Banjar</option>
+<option value="bm">bm - Bambara</option>
+<option value="bn">bn - Bengali</option>
+<option value="bo">bo - Tibetan</option>
+<option value="bpy">bpy - Bishnupria Manipuri</option>
+<option value="bqi">bqi - Bakhtiari</option>
+<option value="br">br - Breton</option>
+<option value="brh">brh - Bráhuí</option>
+<option value="bs">bs - Bosnian</option>
+<option value="bto">bto - Iriga Bicolano</option>
+<option value="bug">bug - Buginese</option>
+<option value="bxr">bxr - Буряад</option>
+<option value="ca">ca - Catalan</option>
+<option value="cbk-zam">cbk-zam - Chavacano de Zamboanga</option>
+<option value="cdo">cdo - Min Dong Chinese</option>
+<option value="ce">ce - Chechen</option>
+<option value="ceb">ceb - Cebuano</option>
+<option value="ch">ch - Chamorro</option>
+<option value="cho">cho - Choctaw</option>
+<option value="chr">chr - Cherokee</option>
+<option value="chy">chy - Cheyenne</option>
+<option value="ckb">ckb - Sorani</option>
+<option value="co">co - Corsican</option>
+<option value="cps">cps - Capiznon</option>
+<option value="cr">cr - Cree</option>
+<option value="crh">crh - Crimean Turkish</option>
+<option value="crh-cyrl">crh-cyrl - Crimean Turkish (Cyrillic)</option>
+<option value="crh-latn">crh-latn - Crimean Turkish (Latin)</option>
+<option value="cs">cs - Czech</option>
+<option value="csb">csb - Kashubian</option>
+<option value="cu">cu - Church Slavic</option>
+<option value="cv">cv - Chuvash</option>
+<option value="cy">cy - Welsh</option>
+<option value="da">da - Danish</option>
+<option value="de">de - German</option>
+<option value="de-at">de-at - Austrian German</option>
+<option value="de-ch">de-ch - Swiss High German</option>
+<option value="de-formal">de-formal - German (formal address)</option>
+<option value="diq">diq - Zazaki</option>
+<option value="dsb">dsb - Lower Sorbian</option>
+<option value="dv">dv - Divehi</option>
+<option value="dz">dz - Dzongkha</option>
+<option value="ee">ee - Ewe</option>
+<option value="el">el - Greek</option>
+<option value="eml">eml - Emiliano-Romagnolo</option>
+<option value="en">en - English</option>
+<option value="en-gb">en-gb - British English</option>
+<option value="eo">eo - Esperanto</option>
+<option value="es">es - Spanish</option>
+<option value="es-419">es-419 - Latin American Spanish</option>
+<option value="et">et - Estonian</option>
+<option value="eu">eu - Basque</option>
+<option value="ext">ext - Extremaduran</option>
+<option value="fa">fa - Persian</option>
+<option value="ff">ff - Fulah</option>
+<option value="fi">fi - Finnish</option>
+<option value="fiu-vro">fiu-vro - Võro</option>
+<option value="fj">fj - Fijian</option>
+<option value="fo">fo - Faroese</option>
+<option value="fr">fr - French</option>
+<option value="frc">frc - Cajun French</option>
+<option value="frp">frp - Franco-Provençal</option>
+<option value="frr">frr - Northern Frisian</option>
+<option value="fur">fur - Friulian</option>
+<option value="fy">fy - Western Frisian</option>
+<option value="ga">ga - Irish</option>
+<option value="gag">gag - Gagauz</option>
+<option value="gah">gah - Alekano</option>
+<option value="gan">gan - Gan</option>
+<option value="gan-hans">gan-hans - Simplified Gan script</option>
+<option value="gan-hant">gan-hant - Traditional Gan script</option>
+<option value="gcf">gcf - Guadeloupean Creole French</option>
+<option value="gd">gd - Scottish Gaelic</option>
+<option value="gl">gl - Galician</option>
+<option value="glk">glk - Gilaki</option>
+<option value="gn">gn - Guarani</option>
+<option value="gom">gom - Goanese Konkani</option>
+<option value="gom-deva">gom-deva - Goanese Konkani (Devanagari script)</option>
+<option value="gom-latn">gom-latn - Goanese Konkani (Latin script)</option>
+<option value="got">got - Gothic</option>
+<option value="grc">grc - Ancient Greek</option>
+<option value="gsw">gsw - Swiss German</option>
+<option value="gu">gu - Gujarati</option>
+<option value="guc">guc - Wayúu</option>
+<option value="gv">gv - Manx</option>
+<option value="ha">ha - Hausa</option>
+<option value="hak">hak - Hakka</option>
+<option value="haw">haw - Hawaiian</option>
+<option value="he">he - Hebrew</option>
+<option value="hi">hi - Hindi</option>
+<option value="hif">hif - Fiji Hindi</option>
+<option value="hif-deva">hif-deva - फ़ीजी हिन्दी</option>
+<option value="hif-latn">hif-latn - Fiji Hindi</option>
+<option value="hil">hil - Hiligaynon</option>
+<option value="ho">ho - Hiri Motu</option>
+<option value="hr">hr - Croatian</option>
+<option value="hsb">hsb - Upper Sorbian</option>
+<option value="ht">ht - Haitian</option>
+<option value="hu">hu - Hungarian</option>
+<option value="hu-formal">hu-formal - Magyar (magázó)</option>
+<option value="hy">hy - Armenian</option>
+<option value="hz">hz - Herero</option>
+<option value="ia">ia - Interlingua</option>
+<option value="id">id - Indonesian</option>
+<option value="ie">ie - Interlingue</option>
+<option value="ig">ig - Igbo</option>
+<option value="ii">ii - Sichuan Yi</option>
+<option value="ik">ik - Inupiaq</option>
+<option value="ike-cans">ike-cans - Eastern Canadian (Unified Canadian Aboriginal Syllabics)</option>
+<option value="ike-latn">ike-latn - Eastern Canadian (Latin)</option>
+<option value="ilo">ilo - Iloko</option>
+<option value="inh">inh - Ingush</option>
+<option value="io">io - Ido</option>
+<option value="is">is - Icelandic</option>
+<option value="it">it - Italian</option>
+<option value="iu">iu - Inuktitut</option>
+<option value="ja">ja - Japanese</option>
+<option value="jam">jam - Jamaican Creole English</option>
+<option value="jbo">jbo - Lojban</option>
+<option value="jut">jut - Jutish</option>
+<option value="jv">jv - Javanese</option>
+<option value="ka">ka - Georgian</option>
+<option value="kaa">kaa - Kara-Kalpak</option>
+<option value="kab">kab - Kabyle</option>
+<option value="kbd">kbd - Kabardian</option>
+<option value="kbd-cyrl">kbd-cyrl - къэбэрдеибзэ</option>
+<option value="kbd-latn">kbd-latn - qabardjajəbza</option>
+<option value="kea">kea - Kabuverdianu</option>
+<option value="kg">kg - Kongo</option>
+<option value="kgp">kgp - Kaingáng</option>
+<option value="khw">khw - کھوار</option>
+<option value="ki">ki - Kikuyu</option>
+<option value="kiu">kiu - Kirmanjki</option>
+<option value="kj">kj - Kuanyama</option>
+<option value="kk">kk - Kazakh</option>
+<option value="kk-arab">kk-arab - Kazakh (Arabic script)</option>
+<option value="kk-cn">kk-cn - Kazakh (China)</option>
+<option value="kk-cyrl">kk-cyrl - Kazakh (Cyrillic script)</option>
+<option value="kk-kz">kk-kz - Kazakh (Kazakhstan)</option>
+<option value="kk-latn">kk-latn - Kazakh (Latin script)</option>
+<option value="kk-tr">kk-tr - Kazakh (Turkey)</option>
+<option value="kl">kl - Kalaallisut</option>
+<option value="km">km - Khmer</option>
+<option value="kn">kn - Kannada</option>
+<option value="ko">ko - Korean</option>
+<option value="ko-kp">ko-kp - 한국어 (조선)</option>
+<option value="koi">koi - Komi-Permyak</option>
+<option value="kr">kr - Kanuri</option>
+<option value="krc">krc - Karachay-Balkar</option>
+<option value="kri">kri - Krio</option>
+<option value="krj">krj - Kinaray-a</option>
+<option value="krl">krl - Karelian</option>
+<option value="ks">ks - Kashmiri</option>
+<option value="ksh">ksh - Colognian</option>
+<option value="ku">ku - Kurdish</option>
+<option value="ku-arab">ku-arab - ‫كوردي (عەرەبی)‬</option>
+<option value="ku-latn">ku-latn - ‪Kurdî (latînî)‬</option>
+<option value="kv">kv - Komi</option>
+<option value="kw">kw - Cornish</option>
+<option value="ky">ky - Kirghiz</option>
+<option value="la">la - Latin</option>
+<option value="lad">lad - Ladino</option>
+<option value="lb">lb - Luxembourgish</option>
+<option value="lbe">lbe - Лакку</option>
+<option value="lez">lez - Lezghian</option>
+<option value="lfn">lfn - Lingua Franca Nova</option>
+<option value="lg">lg - Ganda</option>
+<option value="li">li - Limburgish</option>
+<option value="lij">lij - Líguru</option>
+<option value="lld">lld - Ladin</option>
+<option value="lmo">lmo - Lumbaart</option>
+<option value="ln">ln - Lingala</option>
+<option value="lo">lo - Lao</option>
+<option value="loz">loz - Lozi</option>
+<option value="lt">lt - Lithuanian</option>
+<option value="ltg">ltg - Latgalian</option>
+<option value="lus">lus - Lushai</option>
+<option value="lv">lv - Latvian</option>
+<option value="lzh">lzh - Literary Chinese</option>
+<option value="lzz">lzz - Lazuri</option>
+<option value="mai">mai - Maithili</option>
+<option value="map-bms">map-bms - Basa Banyumasan</option>
+<option value="mdf">mdf - Moksha</option>
+<option value="mg">mg - Malagasy</option>
+<option value="mh">mh - Marshallese</option>
+<option value="mhr">mhr - Eastern Mari</option>
+<option value="mi">mi - Maori</option>
+<option value="min">min - Minangkabau</option>
+<option value="mk">mk - Macedonian</option>
+<option value="ml">ml - Malayalam</option>
+<option value="mn">mn - Mongolian</option>
+<option value="mnc">mnc - Manchu</option>
+<option value="mni">mni - Manipuri</option>
+<option value="mo">mo - Moldavian</option>
+<option value="mr">mr - Marathi</option>
+<option value="mrj">mrj - Hill Mari</option>
+<option value="ms">ms - Malay</option>
+<option value="mt">mt - Maltese</option>
+<option value="mui">mui - Musi</option>
+<option value="mus">mus - Creek</option>
+<option value="mwl">mwl - Mirandese</option>
+<option value="mwv">mwv - Behase Mentawei</option>
+<option value="my">my - Burmese</option>
+<option value="myv">myv - Erzya</option>
+<option value="mzn">mzn - Mazanderani</option>
+<option value="na">na - Nauru</option>
+<option value="nah">nah - Nahuatl</option>
+<option value="nan">nan - Min Nan Chinese</option>
+<option value="nap">nap - Neapolitan</option>
+<option value="nb">nb - Norwegian Bokmål</option>
+<option value="nds">nds - Low German</option>
+<option value="nds-nl">nds-nl - Nedersaksisch</option>
+<option value="ne">ne - Nepali</option>
+<option value="new">new - Newari</option>
+<option value="ng">ng - Ndonga</option>
+<option value="niu">niu - Niuean</option>
+<option value="njo">njo - Ao Naga</option>
+<option value="nl">nl - Dutch</option>
+<option value="nl-be">nl-be - Flemish</option>
+<option value="nl-informal">nl-informal - Nederlands (informeel)</option>
+<option value="nn">nn - Norwegian Nynorsk</option>
+<option value="no">no - Norwegian (bokmål)‬</option>
+<option value="nov">nov - Novial</option>
+<option value="nrm">nrm - Nouormand</option>
+<option value="nso">nso - Northern Sotho</option>
+<option value="nv">nv - Navajo</option>
+<option value="ny">ny - Nyanja</option>
+<option value="oc">oc - Occitan</option>
+<option value="om">om - Oromo</option>
+<option value="or">or - Oriya</option>
+<option value="os">os - Ossetic</option>
+<option value="pa">pa - Punjabi</option>
+<option value="pag">pag - Pangasinan</option>
+<option value="pam">pam - Pampanga</option>
+<option value="pap">pap - Papiamento</option>
+<option value="pcd">pcd - Picard</option>
+<option value="pdc">pdc - Deitsch</option>
+<option value="pdt">pdt - Plautdietsch</option>
+<option value="pfl">pfl - Pfälzisch</option>
+<option value="pi">pi - Pali</option>
+<option value="pih">pih - Norfuk / Pitkern</option>
+<option value="pko">pko - Pökoot</option>
+<option value="pl">pl - Polish</option>
+<option value="plm">plm - Palembang</option>
+<option value="pms">pms - Piedmontese</option>
+<option value="pnb">pnb - Western Punjabi</option>
+<option value="pnt">pnt - Pontic</option>
+<option value="prg">prg - Prussian</option>
+<option value="pru">pru - Prūsiskan</option>
+<option value="ps">ps - Pashto</option>
+<option value="pt">pt - Portuguese</option>
+<option value="pt-br">pt-br - Brazilian Portuguese</option>
+<option value="qqq">qqq - Message documentation</option>
+<option value="qu">qu - Quechua</option>
+<option value="rap">rap - Rapanui</option>
+<option value="rgn">rgn - Romagnol</option>
+<option value="rif">rif - Tarifit</option>
+<option value="rki">rki - ရခိုင်</option>
+<option value="rm">rm - Romansh</option>
+<option value="rmy">rmy - Romani</option>
+<option value="rn">rn - Rundi</option>
+<option value="ro">ro - Romanian</option>
+<option value="roa-rup">roa-rup - Aromanian</option>
+<option value="roa-tara">roa-tara - Tarandíne</option>
+<option value="rtm">rtm - Faeag Rotuma</option>
+<option value="ru">ru - Russian</option>
+<option value="rue">rue - Rusyn</option>
+<option value="ruq">ruq - Megleno-Romanian</option>
+<option value="ruq-cyrl">ruq-cyrl - Megleno-Romanian (Cyrillic script)</option>
+<option value="ruq-grek">ruq-grek - Megleno-Romanian (Greek script)</option>
+<option value="ruq-latn">ruq-latn - Megleno-Romanian (Latin script)</option>
+<option value="rw">rw - Kinyarwanda</option>
+<option value="ryu">ryu - ʔucināguci</option>
+<option value="sa">sa - Sanskrit</option>
+<option value="sah">sah - Yakut</option>
+<option value="sc">sc - Sardinian</option>
+<option value="scn">scn - Sicilian</option>
+<option value="sco">sco - Scots</option>
+<option value="sd">sd - Sindhi</option>
+<option value="sdc">sdc - Sassaresu</option>
+<option value="se">se - Northern Sami</option>
+<option value="sei">sei - Cmique Itom</option>
+<option value="sg">sg - Sango</option>
+<option value="sgs">sgs - Žemaitėška</option>
+<option value="sh">sh - Serbo-Croatian</option>
+<option value="shi">shi - Tachelhit</option>
+<option value="si">si - Sinhala</option>
+<option value="simple">simple - Simple English</option>
+<option value="sk">sk - Slovak</option>
+<option value="sl">sl - Slovenian</option>
+<option value="sli">sli - Lower Silesian</option>
+<option value="slr">slr - Salırça</option>
+<option value="sm">sm - Samoan</option>
+<option value="sma">sma - Southern Sami</option>
+<option value="sn">sn - Shona</option>
+<option value="so">so - Somali</option>
+<option value="sq">sq - Albanian</option>
+<option value="sr">sr - Serbian</option>
+<option value="sr-ec">sr-ec - Serbian Cyrillic ekavian</option>
+<option value="sr-el">sr-el - Serbian Latin ekavian</option>
+<option value="srn">srn - Sranan Tongo</option>
+<option value="ss">ss - Swati</option>
+<option value="st">st - Southern Sotho</option>
+<option value="stq">stq - Seeltersk</option>
+<option value="su">su - Sundanese</option>
+<option value="sv">sv - Swedish</option>
+<option value="sw">sw - Swahili</option>
+<option value="swb">swb - Comorian</option>
+<option value="sxu">sxu - Säggssch</option>
+<option value="szl">szl - Silesian</option>
+<option value="ta">ta - Tamil</option>
+<option value="tcy">tcy - Tulu</option>
+<option value="te">te - Telugu</option>
+<option value="test">test - Test (site admin only)</option>
+<option value="tet">tet - Tetum</option>
+<option value="tg">tg - Tajik</option>
+<option value="tg-cyrl">tg-cyrl - Тоҷикӣ</option>
+<option value="tg-latn">tg-latn - tojikī</option>
+<option value="th">th - Thai</option>
+<option value="ti">ti - Tigrinya</option>
+<option value="tk">tk - Turkmen</option>
+<option value="tl">tl - Tagalog</option>
+<option value="tn">tn - Tswana</option>
+<option value="to">to - Tonga</option>
+<option value="tokipona">tokipona - Toki Pona</option>
+<option value="tp">tp - Toki Pona (deprecated:tokipona)</option>
+<option value="tpi">tpi - Tok Pisin</option>
+<option value="tr">tr - Turkish</option>
+<option value="trp">trp - Kokborok (Tripuri)</option>
+<option value="ts">ts - Tsonga</option>
+<option value="tsd">tsd - Τσακωνικά</option>
+<option value="tt">tt - Tatar</option>
+<option value="tt-cyrl">tt-cyrl - Татарча</option>
+<option value="tt-latn">tt-latn - Tatarça</option>
+<option value="ttt">ttt - Tati</option>
+<option value="tum">tum - Tumbuka</option>
+<option value="tw">tw - Twi</option>
+<option value="twd">twd - Tweants</option>
+<option value="ty">ty - Tahitian</option>
+<option value="tyv">tyv - Tuvinian</option>
+<option value="tzm">tzm - Central Morocco Tamazight</option>
+<option value="udm">udm - Udmurt</option>
+<option value="ug">ug - Uighur</option>
+<option value="ug-arab">ug-arab - ئۇيغۇرچە</option>
+<option value="ug-latn">ug-latn - Uyghurche‎</option>
+<option value="uk">uk - Ukrainian</option>
+<option value="ur">ur - Urdu</option>
+<option value="uz">uz - Uzbek</option>
+<option value="ve">ve - Venda</option>
+<option value="vec">vec - Vèneto</option>
+<option value="vep">vep - Veps</option>
+<option value="vi">vi - Vietnamese</option>
+<option value="vls">vls - West-Vlams</option>
+<option value="vmf">vmf - Upper Franconian</option>
+<option value="vo">vo - Volapük</option>
+<option value="vot">vot - Votic</option>
+<option value="vro">vro - Võro</option>
+<option value="wa">wa - Walloon</option>
+<option value="war">war - Waray</option>
+<option value="wls">wls - Faka'uvea</option>
+<option value="wo">wo - Wolof</option>
+<option value="wuu">wuu - Wu</option>
+<option value="xal">xal - Kalmyk</option>
+<option value="xh">xh - Xhosa</option>
+<option value="xmf">xmf - Mingrelian</option>
+<option value="ydd">ydd - Eastern Yiddish</option>
+<option value="yi">yi - Yiddish</option>
+<option value="yo">yo - Yoruba</option>
+<option value="yrl">yrl - ñe'engatú</option>
+<option value="yue">yue - Cantonese</option>
+<option value="za">za - Zhuang</option>
+<option value="zea">zea - Zeeuws</option>
+<option value="zh" selected="selected">zh - Chinese</option>
+<option value="zh-classical">zh-classical - Classical Chinese</option>
+<option value="zh-cn">zh-cn - Chinese (China)</option>
+<option value="zh-hans">zh-hans - Simplified Chinese</option>
+<option value="zh-hant">zh-hant - Traditional Chinese</option>
+<option value="zh-hk">zh-hk - Chinese (Hong Kong)</option>
+<option value="zh-min-nan">zh-min-nan - Bân-lâm-gú</option>
+<option value="zh-mo">zh-mo - ‪中文(澳門)‬</option>
+<option value="zh-my">zh-my - ‪中文(马来西亚)‬</option>
+<option value="zh-sg">zh-sg - Chinese (Singapore)</option>
+<option value="zh-tw">zh-tw - Chinese (Taiwan)</option>
+<option value="zh-yue">zh-yue - Cantonese</option>
+<option value="zu">zu - Zulu</option></select></td></tr><tr><td><label for="limit">Limit</label></td><td><select name="limit" id="limit"><option value="100" selected="selected">100 messages per page</option>
+<option value="250">250 messages per page</option>
+<option value="500">500 messages per page</option>
+<option value="1000">1,000 messages per page</option>
+<option value="2500">2,500 messages per page</option></select></td></tr><tr><td><input type=submit value=Fetch></td><td> </td></tr></table></form></fieldset><p>Translations to this language in this group have been disabled.
+Reason:
+</p><p><i>This language code should remain unused. Localise in  please.</i>
+</p></div><div class="printfooter">
+Retrieved from "<a href="http://translatewiki.net/wiki/Special:Translate">http://translatewiki.net/wiki/Special:Translate</a>"</div>
+				<!-- /bodytext -->
+								<!-- catlinks -->
+				<div id='catlinks' class='catlinks catlinks-allhidden'></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<!-- header -->
+		<div id="mw-head" class="noprint">
+			
+<!-- 0 -->
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+					<li  id="pt-login"><a href="/w/i.php?title=Special:UserLogin&amp;returnto=Special:Translate&amp;returntoquery=task%3Dexport-to-file%26group%3Dout-wikimediamobile%26language%3Dzh" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in / create account</a></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+			<div id="left-navigation">
+				
+<!-- 0 -->
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li  id="ca-special" class="selected"><span><a href="/w/i.php?title=Special%3ATranslate&amp;task=export-to-file&amp;group=out-wikimediamobile&amp;language=zh" >Special page</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" class="vectorMenu emptyPortlet">
+		<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+			</div>
+			<div id="right-navigation">
+				
+<!-- 0 -->
+<div id="p-views" class="vectorTabs emptyPortlet">
+	<h5>Views</h5>
+	<ul>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="/w/i.php" id="searchform">
+		<input type='hidden' name="title" value="Special:Search"/>
+				<div id="simpleSearch">
+			<input id="searchInput" name="search" type="text"  title="Search translatewiki.net [f]" accesskey="f"  value="" />
+			<button id="searchButton" type='submit' name='button'  title="Search the pages for this text"><img src="//bits.translatewiki.net/w/skins/vector/images/search-ltr.png?301" alt="Search" /></button>
+		</div>
+			</form>
+</div>
+
+<!-- /2 -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo"><a style="background-image: url(//bits.translatewiki.net/static/logo.png);" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- bw-sidebar-translators -->
+<div class="portal" id='p-bw-sidebar-translators'>
+	<h5>Translators</h5>
+	<div class="body">
+				<ul>
+					<li id="n-bw-sidebar-intro"><a href="/wiki/Special:FirstSteps">Introduction</a></li>
+					<li id="n-bw-sidebar-translate"><a href="http://translatewiki.net/w/i.php?title=Special:LanguageStats&amp;suppresscomplete=1">Translation tool</a></li>
+					<li id="n-bw-sidebar-portal"><a href="/wiki/Portal:En">Portal for English</a></li>
+					<li id="n-bw-sidebar-changes-lang"><a href="http://translatewiki.net/w/i.php?title=Special:RecentChanges&amp;translations=only&amp;trailer=/en">Translations in English</a></li>
+					<li id="n-bw-sidebar-languages"><a href="/wiki/Translating:Languages">Maintained languages</a></li>
+				</ul>
+			</div>
+</div>
+
+<!-- /bw-sidebar-translators -->
+
+<!-- navigation -->
+<div class="portal" id='p-navigation'>
+	<h5>Navigation</h5>
+	<div class="body">
+				<ul>
+					<li id="n-mainpage"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main Page</a></li>
+					<li id="n-bw-sidebar-news"><a href="/wiki/Project:News">News</a></li>
+					<li id="n-bw-mainpage-support-title"><a href="/wiki/Support">Support</a></li>
+					<li id="n-bw-sidebar-chat"><a href="/wiki/Special:WebChat">Chat</a></li>
+					<li id="n-bw-sidebar-changes-wiki"><a href="http://translatewiki.net/w/i.php?title=Special:RecentChanges&amp;translations=filter">Site changes</a></li>
+				</ul>
+			</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- TOOLBOX -->
+<div class="portal" id="p-tb">
+	<h5>Toolbox</h5>
+	<div class="body">
+		<ul>
+																																							<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+													</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- googleadsense -->
+<div class="portal" id='p-googleadsense'>
+	<h5>Google AdSense</h5>
+	<div class="body">
+				<script type="text/javascript">
+/* <![CDATA[ */
+google_ad_client = "pub-8440046403419693";
+/* translatewiki-2 */
+google_ad_slot = "9240280893";
+google_ad_width = 120;
+google_ad_height = 240;
+/* ]]> */
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>			</div>
+</div>
+
+<!-- /googleadsense -->
+
+<!-- LANGUAGES -->
+
+<!-- /LANGUAGES -->
+			</div>
+		<!-- /panel -->
+		<!-- footer -->
+		<div id="footer">
+																		<ul id="footer-places">
+																	<li id="footer-places-privacy"><a href="/wiki/Project:Privacy_policy" title="Project:Privacy policy">Privacy policy</a></li>
+																							<li id="footer-places-about"><a href="/wiki/Project:About" title=Project:About>About translatewiki.net</a></li>
+																							<li id="footer-places-disclaimer"><a href="/wiki/Project:General_disclaimer" title="Project:General disclaimer">Disclaimers</a></li>
+															</ul>
+															<ul id="footer-icons" class="noprint">
+																	<li id="footer-icons-poweredbyico"><div class='mw_poweredby'><a href="http://www.netcup.de/" title="Powered by netcup - Webspace and vServer" target="_blank">Powered by netcup - Webspace and vServer</a></div></li>
+															</ul>
+										<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		
+<script src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<script>if ( window.mediaWiki ) {
+	mediaWiki.config.set( {"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Translate","wgNamespaceNumber":-1,"wgPageName":"Special:Translate","wgTitle":"Translate","wgAction":"view","wgArticleId":0,"wgIsArticle":false,"wgUserName":null,"wgUserGroups":["*"],"wgCurRevisionId":0,"wgCategories":[],"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgSearchNamespaces":[0,8,1200,1202,1204,1206,1208,1210,1212,1214,1216,1218,1220,1222,1224,1226,1228,1230],"wgCollapsibleNavBucketTest":false,"wgCollapsibleNavForceNewVersion":false,"wgSlippyMapCode":"Wikicode for this map view:","wgSlippyMapButtonCode":"Get wikicode","wgSlippyMapResetview":"Reset view","wgSlippyMapLanguageCode":"en","wgSlippyMapSlippyByDefault":false} );
+}
+</script>
+<script>if ( window.mediaWiki ) { mediaWiki.loader.load( ["mediawiki.legacy.wikibits","mediawiki.legacy.ajax","mediawiki.legacy.mwsuggest","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.vector.simpleSearch"] ); mediaWiki.loader.go(); }</script>
+<script>if ( window.mediaWiki ) {
+	mediaWiki.user.options.set({"ccmeonemails":0,"cols":80,"contextchars":50,"contextlines":5,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":1,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":1,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"translate":0,"translate-editlangs":"default","translate-jsedit":1,"lqtnotifytalk":false,"lqtdisplaydepth":5,"lqtdisplaycount":25,"lqtcustomsignatures":true,"lqt-watch-threads":true,"vector-simplesearch":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":true,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs90":false,"searchNs91":false,"searchNs92":false,"searchNs93":false,"searchNs100":false,"searchNs101":false,"searchNs1102":false,"searchNs1103":false,"searchNs1198":false,"searchNs1199":false,"searchNs1200":true,"searchNs1201":false,"searchNs1202":true,"searchNs1203":false,"searchNs1204":true,"searchNs1205":false,"searchNs1206":true,"searchNs1207":false,"searchNs1208":true,"searchNs1209":false,"searchNs1210":true,"searchNs1211":false,"searchNs1212":true,"searchNs1213":false,"searchNs1214":true,"searchNs1215":false,"searchNs1216":true,"searchNs1217":false,"searchNs1218":true,"searchNs1219":false,"searchNs1220":true,"searchNs1221":false,"searchNs1222":true,"searchNs1223":false,"searchNs1224":true,"searchNs1225":false,"searchNs1226":true,"searchNs1227":false,"searchNs1228":true,"searchNs1229":false,"searchNs1230":true,"searchNs1231":false});
+	mediaWiki.loader.state({"user.options":"ready"});
+}
+</script>
+<script src="/w/extensions/SlippyMap/OpenLayers/public/OpenLayers.js?301&amp;301"></script>
+<script src="/w/extensions/SlippyMap/js/SlippyMapCassini.js?301&amp;301"></script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/skins/vector/csshover.htc")}</style><![endif]-->
+<script src="/w/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;version=20101004T232000Z"></script>
+		<!-- fixalpha -->
+		<script type="text/javascript"> if ( window.isMSIE55 ) fixalpha(); </script>
+		<!-- /fixalpha -->
+		<!-- Served in 0.168 secs. -->			</body>
+</html>
