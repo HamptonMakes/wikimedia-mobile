@@ -9,7 +9,6 @@ require "parsers/image"
 # 
 
 class Article < Wikipedia::Resource
-  
   # grabs a random article
   def self.random(server_or_lang = "en", variant = "wiki")
     article = Article.new(server_or_lang, nil, nil, variant)
@@ -33,7 +32,7 @@ class Article < Wikipedia::Resource
     return nil if raw_html.nil?
     raw_html.include?('var wgCanonicalSpecialPageName = "Search";')
   end
-  
+
   def search_results
     @search_results ||= Parsers::XHTML.search_results(self)
   end
@@ -97,7 +96,8 @@ class Article < Wikipedia::Resource
   end
   
   def key
-    @key ||= "#{@server.language_code}|#{@variant}|#{@title[0..150]}|#{device.view_format}|#{device.supports_javascript}".gsub(" ", "-")
+    key_title = URI::encode(@title[0..150])
+    @key ||= "#{@server.language_code}|#{@variant}|#{key_title}|#{device.view_format}|#{device.supports_javascript}".gsub(" ", "-")
   end
 
   def dir
