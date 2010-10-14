@@ -13,13 +13,11 @@ gem "haml"
 gem "merb-core",        merb_gems_version
 gem "merb-assets",      merb_gems_version
 gem "merb-haml",        merb_gems_version
-gem "merb-mailer",      merb_gems_version
-#gem "merb-exceptions",  merb_gems_version
 
 gem "rake"
 
 group :development do
-  gem "thin", :bundle => false     # for local development
+  gem "thin"                       # for local development
   gem "typhoeus"                   # for language import rake task
 end
 
