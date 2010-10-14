@@ -4,7 +4,7 @@ require 'curb'
 describe "articles" do
   before :all do 
     # Stubs out networking
-    Curl::Easy.any_instance.stubs(:perform).returns ARTICLE_GO_MAN_GO
+    Server.any_instance.stubs(:fetch_from_web).returns ARTICLE_GO_MAN_GO
     Article.any_instance.stubs(:device).returns stub(:parser => "html")
   end
 

@@ -11,7 +11,7 @@ describe Article do
     Article.any_instance.stubs(:device).returns @device
     
     # Stubs out networking
-    Curl::Easy.any_instance.stubs(:perform).returns ARTICLE_GO_MAN_GO
+    Server.any_instance.stubs(:fetch_from_web).returns ARTICLE_GO_MAN_GO
   end
   
   it "should grab an article" do
