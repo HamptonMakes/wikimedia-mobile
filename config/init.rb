@@ -32,7 +32,9 @@ Merb::Config.use do |c|
   c[:fork_for_class_load] = false
 end
 
-Languages = {}
+if !defined?(Languages)
+  Languages = {}
+end
 
 Merb::BootLoader.before_app_loads do
   

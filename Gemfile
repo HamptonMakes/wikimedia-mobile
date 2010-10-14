@@ -2,13 +2,14 @@
 source :gemcutter
 #source "http://edge.merbivore.com"
 
-merb_gems_version = "1.1.0"
+merb_gems_version = "1.1.3"
 
 gem "dalli"
 gem "nokogiri", "1.3.3"
 gem "mime-types", :require => "mime/types"
 gem "json"
 gem "haml"
+gem "curb"
 
 gem "merb-core",        merb_gems_version
 gem "merb-assets",      merb_gems_version
@@ -22,7 +23,9 @@ group :development do
 end
 
 group :test do
-  gem "rspec"
+  gem "rspec", "2.0"#, "~> 1.3"
+  gem "webrat"
+  gem 'mocha'
 end
 
 # Only for the production servers

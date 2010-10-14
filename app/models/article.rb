@@ -13,7 +13,7 @@ class Article < Wikipedia::Resource
   def self.random(server_or_lang = "en", variant = "wiki")
     article = Article.new(server_or_lang, nil, nil, variant)
     article.fetch!("/#{variant}/Special:Random")
-    article
+    article.url.split("/").last
   end
 
   def has_search_results?
@@ -52,8 +52,7 @@ class Article < Wikipedia::Resource
     return @html if @html 
 
     time_to "lookup in cache" do
-      Merb.logger.debug("KEY: #{key}")
-      if (@html = Cache.get(key))
+      if @title && (@html = Cache.get(key))
         @html = @html.unzip
         Merb.logger[:cache_hit] = true
         return @html.force_encoding("UTF-8")
@@ -96,7 +95,7 @@ class Article < Wikipedia::Resource
   end
   
   def key
-    key_title = URI::encode(@title[0..150])
+    key_title = URI::encode(title[0..150])
     @key ||= "#{@server.language_code}|#{@variant}|#{key_title}|#{device.view_format}|#{device.supports_javascript}".gsub(" ", "-")
   end
 

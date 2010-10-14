@@ -1,6 +1,4 @@
 class Exceptions < Application
-  
-  
   if %w( staging production ).include?(Merb.env)
     #after :notify_of_exceptions, :only => :standard_error
 

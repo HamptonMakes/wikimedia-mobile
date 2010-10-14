@@ -1,4 +1,9 @@
 require 'rubygems'
+
+require 'bundler'
+Bundler.setup
+
+
 require 'rake/rdoctask'
 
 require 'merb-core'
@@ -25,9 +30,13 @@ task :merb_env do
 end
 
 #require 'spec/rake/spectask'
-#require 'merb-core/test/tasks/spectasks'
-#desc 'Default: run spec examples'
-#task :default => 'spec'
+require 'rspec/core/rake_task'
+RSpec::Core::RakeTask.new do |t|
+  t.rspec_opts = ["-c", "-f progress", "-r ./spec/spec_helper.rb"]
+  t.pattern = 'spec/**/*_spec.rb'
+end
+desc 'Default: run spec examples'
+task :default => 'spec'
 
 ##############################################################################
 # ADD YOUR CUSTOM TASKS IN /lib/tasks

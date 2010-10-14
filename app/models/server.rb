@@ -71,6 +71,7 @@ class Server
 
   # :api: private
   def fetch_from_web(path)
+    retry_counter = 0
     time_to "download article from web" do
       if defined?(Curl)
         begin
@@ -86,6 +87,12 @@ class Server
           end
         rescue Curl::Err::HostResolutionError, Curl::Err::GotNothingError, Curl::Err::ConnectionFailedError,  Curl::Err::PartialFileError, Curl::Err::TimeoutError
           Merb.logger.error("Could not connect to " + base_url + path)
+          retry_counter = retry_counter + 1
+          if retry_counter < 3
+            retry
+          else
+            throw "Connection attempted #{retry_counter} times"
+          end
         end
       else
         # This is for if we are using a non-curl supported version of Ruby

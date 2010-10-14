@@ -9,7 +9,7 @@ module Wikipedia
     attr :variant, true
 
     # String:path if path is set, then we are specifying where fetching happens to the server object
-    attr :path, true 
+    attr :url, true 
     # String:html the place to cache and store html.. reading happens below
     attr_writer :html
     # String:dir the text directionality that this page should use
@@ -33,9 +33,9 @@ module Wikipedia
     # For this object to be usable, you need to either parse
     # some data from the server, or use the instance variable
     # setters.
-    def initialize(server_or_language, title = nil, path = nil, device = nil, variant = "wiki")
+    def initialize(server_or_language, title = nil, url = nil, device = nil, variant = "wiki")
       @server = server_or_language.kind_of?(Server) ? server_or_language : Server.new(server_or_language)
-      @title, @path, @device, @variant = title, path, device, variant
+      @title, @url, @device, @variant = title, url, device, variant
       @loaded = false
     end
     
@@ -46,14 +46,8 @@ module Wikipedia
     def fetch!(*paths)
       raise "No path Given" unless paths.any?
       result = @server.fetch(*paths)
-      #begin
-        #uri = URI.parse(result[:url])
-        self.path = result[:url]#{}"#{uri.path}?#{uri.query}"
-      #rescue
-      #  #path failed
-      #  Merb.logger.error("Path parsing failed for #{paths.inspect}")
-      #  false
-      #end
+      self.url = result[:url]
+
       @raw_html = result[:body]
       @raw_document = Nokogiri::XML(@raw_html)
 

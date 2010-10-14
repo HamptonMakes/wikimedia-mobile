@@ -40,13 +40,10 @@ class Articles < Application
   end
   
   def random
-    @article = Article.random(current_server, params[:variant])
-    
-    redirect("/wiki/" + @article.path.split("/").last)
+    redirect("/wiki/" + Article.random(current_server, params[:variant]))
   end
   
   def show
-    
     # This is to cover the case when we have path's like "/wiki//dev/null"
     # Merb strips the second / and so we are re-instituting it here
     if (request.env["PATH_INFO"] || request.env["REQUEST_PATH"]).include?("/wiki//")

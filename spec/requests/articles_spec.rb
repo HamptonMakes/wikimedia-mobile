@@ -1,10 +1,14 @@
 require File.join(File.dirname(__FILE__), '..', 'spec_helper.rb')
+require 'curb'
 
 describe "articles" do
+  before :all do 
+    # Stubs out networking
+    Curl::Easy.any_instance.stubs(:perform).returns ARTICLE_GO_MAN_GO
+    Article.any_instance.stubs(:device).returns stub(:parser => "html")
+  end
 
   describe "homepage" do
-    before(:each) do
-    end
     
     it "should load" do
       @response = request("/")
@@ -17,7 +21,7 @@ describe "articles" do
       #Cache.should_receive(:store).once
       @response = request("/")
       page = @response.body.to_s
-      Cache.should_receive("[]").once
+      Cache.should_receive("get")
       @response = request("/")
       @response.body.should == page
     end
@@ -25,8 +29,6 @@ describe "articles" do
   
   describe "that exist" do
     before(:each) do
-      # Stubs out networking
-      Curl::Easy.stub!(:perform).and_return ARTICLE_GO_MAN_GO
       @response = request("/wiki/Go_Man_Go")
     end
     
@@ -45,38 +47,38 @@ describe "articles" do
   
   describe "webkit formatted" do
     before(:each) do
-      # Stubs out networking
-      Curl::Easy.stub!(:perform).and_return ARTICLE_GO_MAN_GO
-      @response = request("/wiki/Sushi", "HTTP_USER_AGENT" => iphone_ua)
+      webrat_session.header "HTTP_USER_AGENT", iphone_ua
+      request("/wiki/Sushi")
     end
     
     it "should have script in it" do
-      @response.should have_selector("script")
+      response.should have_selector("script")
     end
   end
   
   describe "that is redirected" do
     it "should load the redirected page" do
-      response = request("/wiki/Sass")
+      response = request("/wiki/" + Article.random("en"))
       response.should be_successful
-      response.body.include?("Rudeness").should be_true
+
+      response.body.include?("stylesheet").should be_true
     end
   end
   
   describe "random article" do
-    before(:each) do
-      # Stubs out networking
-      Curl::Easy.stub!(:perform).and_return ARTICLE_GO_MAN_GO
-    end
 
-    it "should grab a random article" do
-      response = request("/wiki/::Random")
-      response.should redirect
-    end
-    
     it "should get a random article" do
       response = visit("/wiki/::Random")
       response.should be_successful
+      response.body.include?("bodytext").should be_true
     end
+  end
+  
+  def request(*params)
+    @response = webrat_session.visit(*params)
+  end
+  
+  def response
+    @response
   end
 end
