@@ -32,7 +32,7 @@ namespace :lang do
     languages.each do |lang|
       
       code = lang.text
-      if code =~ /^[-a-z]+$/ && code != "en"
+      if code =~ /^[-a-z]+$/ && code != "en" && code != "zh"
         puts "Loading: " + code
       #begin
           r = Typhoeus::Request.new("http://translatewiki.net/w/i.php?title=Special%3ATranslate&task=export-to-file&group=out-wikimediamobile&language=#{code}")
