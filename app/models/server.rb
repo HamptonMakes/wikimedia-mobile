@@ -5,19 +5,23 @@ require 'zlib'
 # This is the base model for getting articles and eventually login-logout stuff.
 class Server
   @@ip = "208.80.152.2"
-  @@conn = Curl::Easy.new
-  @@conn.follow_location = true
-  @@conn.max_redirects = 4
-  @@conn.connect_timeout = 5
-  @@conn.dns_cache_timeout = 30 * 60 # Keep the DNS cache for 30 minutes
-  @@conn.timeout = 20
-  @@conn.headers = {"Accept-Encoding" => "gzip,deflate",
-                    "User-Agent" => "Mozilla/5.0 Wikimedia Mobile",
-                    "Accept-Charset" => "utf-8;q=0.7,*;q=0.7"}
-
   attr :host
   attr :port
   attr :language_code
+  
+  def self.setup
+    @@conn = Curl::Easy.new
+    @@conn.follow_location = true
+    @@conn.max_redirects = 4
+    @@conn.connect_timeout = 5
+    @@conn.dns_cache_timeout = 60 * 60 # Keep the DNS cache for 60 minutes
+    @@conn.timeout = 20
+    @@conn.headers = {"Accept-Encoding" => "gzip,deflate",
+                      "User-Agent" => "Mozilla/5.0 Wikimedia Mobile",
+                      "Accept-Charset" => "utf-8;q=0.7,*;q=0.7"}
+  end
+  
+  self.setup
   
   # Whenever you create a new article
   # you need to give it a host and a port
@@ -30,6 +34,9 @@ class Server
   # What is the base URL for this server?
   def base_url
     "http://#{@host}:#{@port}"
+  end
+  
+  def reset_connection
   end
   
   def file(title, variant = "wiki")

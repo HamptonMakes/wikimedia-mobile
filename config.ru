@@ -26,6 +26,7 @@ if defined?(PhusionPassenger)
   PhusionPassenger.on_event(:starting_worker_process) do |forked|
     if forked
       Cache.reset
+      Server.setup # reset our curl connection
     else
       # We're in conservative spawning mode. We don't need to do anything.
     end
