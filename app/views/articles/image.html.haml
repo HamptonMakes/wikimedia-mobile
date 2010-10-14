@@ -7,4 +7,7 @@
   %img{:src => @image.url(params[:size] || "310"), :alt => params[:file].force_encoding("UTF-8")}/
 
 - if @image.original_url
-  %a{:href => @image.original_url.force_encoding("UTF-8")} Download Full Version
+  %a{:href => @image.original_url.force_encoding("UTF-8")}= language_object["download_full_version"]
+
+%p.authorship 
+  %a{:href => temp_url(@image.display_name)}= language_object["author_link"]
