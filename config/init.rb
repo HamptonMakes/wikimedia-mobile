@@ -57,6 +57,7 @@ Merb::BootLoader.after_app_loads do
   # This will get executed after your app's classes have been loaded.
   Device.available_formats = YAML::load(open("config/formats.yml"))
   Wikipedia.settings = YAML::load(open("config/wikipedias.yml"))
+  Server.setup
   
   unless defined?(::Cache)
     if Merb.env == "production"

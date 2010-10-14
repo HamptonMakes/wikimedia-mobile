@@ -21,8 +21,6 @@ class Server
                       "Accept-Charset" => "utf-8;q=0.7,*;q=0.7"}
   end
   
-  self.setup
-  
   # Whenever you create a new article
   # you need to give it a host and a port
   def initialize(language_code = "en", opts = {})
@@ -33,7 +31,7 @@ class Server
   
   # What is the base URL for this server?
   def base_url
-    "http://#{@host}:#{@port}"
+    "http://#{@host}"
   end
   
   def reset_connection
@@ -89,7 +87,7 @@ class Server
     time_to "download article from web" do
       begin
         @@conn.url = base_url + path
-        @@conn.headers['Host'] = @host
+        #@@conn.headers['Host'] = @host
         @@conn.perform
         @@conn
       rescue Curl::Err::HostResolutionError, Curl::Err::GotNothingError, Curl::Err::ConnectionFailedError,  Curl::Err::PartialFileError, Curl::Err::TimeoutError
