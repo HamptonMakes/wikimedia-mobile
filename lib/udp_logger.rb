@@ -4,7 +4,7 @@ module Merb::Rack
     def initialize(app)
       @app = app
       @sock = UDPSocket.open
-      @sock.connect("208.80.152.138", 8420)
+      #@sock.connect("208.80.152.138", 8420)
       @hostname = `hostname --fqdn`.chomp
     end
 
@@ -26,7 +26,7 @@ module Merb::Rack
 
         Merb.logger.warn datagram.force_encoding("UTF-8")
 
-        @sock.send(datagram, 0)
+        @sock.send(datagram, 0, "208.80.152.138", 8420)
       rescue Dalli::NetworkError
          Merb.logger.warn "NO LOGGING REPORTED - DALLI NETWORK ERROR"
       end
