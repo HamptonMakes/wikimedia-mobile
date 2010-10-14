@@ -4,6 +4,17 @@ require 'zlib'
 # Server is a model class that represents a media wiki server.
 # This is the base model for getting articles and eventually login-logout stuff.
 class Server
+  @@conn = Curl::Easy.new
+  @@conn.follow_location = true
+  @@conn.max_redirects = 4
+  @@conn.connect_timeout = 5
+  @@conn.dns_cache_timeout = 30 * 60 # Keep the DNS cache for 30 minutes
+  @@conn.timeout = 20
+  #@@conn.proxy_url = "208.80.152.2"
+  @@conn.headers = {"Accept-Encoding" => "gzip,deflate",
+                    "User-Agent" => "Mozilla/5.0 Wikimedia Mobile",
+                    "Accept-Charset" => "utf-8;q=0.7,*;q=0.7"}
+                
   attr :host
   attr :port
   attr :language_code
@@ -73,31 +84,18 @@ class Server
   def fetch_from_web(path)
     retry_counter = 0
     time_to "download article from web" do
-      if defined?(Curl)
-        begin
-          Curl::Easy.perform(base_url + path) do |curl|
-            # This configures Curl::Easy to follow redirects
-            curl.follow_location = true
-            curl.max_redirects = 4
-            curl.connect_timeout = 5
-            curl.timeout = 20
-            curl.headers = {"Accept-Encoding" => "gzip,deflate",
-                            "User-Agent" => "Mozilla/5.0 Wikimedia Mobile",
-                            "Accept-Charset" => "utf-8;q=0.7,*;q=0.7"}
-          end
-        rescue Curl::Err::HostResolutionError, Curl::Err::GotNothingError, Curl::Err::ConnectionFailedError,  Curl::Err::PartialFileError, Curl::Err::TimeoutError
-          Merb.logger.error("Could not connect to " + base_url + path)
-          retry_counter = retry_counter + 1
-          if retry_counter < 3
-            retry
-          else
-            throw "Connection attempted #{retry_counter} times"
-          end
+      begin
+        @@conn.url = base_url + path
+        @@conn.perform
+        @@conn
+      rescue Curl::Err::HostResolutionError, Curl::Err::GotNothingError, Curl::Err::ConnectionFailedError,  Curl::Err::PartialFileError, Curl::Err::TimeoutError
+        Merb.logger.error("Could not connect to " + base_url + path)
+        retry_counter = retry_counter + 1
+        if retry_counter < 3
+          retry
+        else
+          throw "Connection attempted #{retry_counter} times"
         end
-      else
-        # This is for if we are using a non-curl supported version of Ruby
-        require 'open-uri'
-        open(base_url + path).read
       end
     end
   end

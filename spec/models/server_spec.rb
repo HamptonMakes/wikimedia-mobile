@@ -6,7 +6,7 @@ describe Server do
       # Turns off error logging
       # and count retry with the Merb logger line
       Merb.logger.stubs(:error).returns(nil).at_least(3)
-      
+
       Curl::Easy.any_instance.stubs(:perform).raises(Curl::Err::GotNothingError)
       @server = Server.new("en")
 
