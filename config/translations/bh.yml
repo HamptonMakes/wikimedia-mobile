@@ -2,8 +2,14 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: Ganesh
+back_to_top_of_section: एक खण्ड पिछे जाईं
 disable_button: अयोग्य
+explain_disable: का सही में रउआ विकिपीडिया के मोबाईल संस्करण अयोग्य करे के चाहत बानी ? यदि रउआ चुनब <b>अयोग्य</b>, त अभी से अयोग्य हो जाई, यदि रउआ विकिपीडिया पर फेर आयेब, तब रउआ के विकिपीडिया के मोबाईल संस्करण पर  पुन:निर्देशित ना करल जाई।
+featured_article: आज के महत्वपुर्ण लेख
 home_button: गृह
+in_the_news: समाचार में
 nav_edit: सम्पादन
 nav_end: अन्त
+nav_history: इतिहास
+search_results: खोज परिणाम
 wikipedia: विकिपीडिया
