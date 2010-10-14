@@ -16,7 +16,7 @@ bin = "/var/lib/gems/1.9.1/bin"
 namespace :deploy do
 
   after "deploy:update_code" do
-    #run "cp #{previous_release}/Gemfile.lock #{current_release}"
+    run "rm #{previous_release}/Gemfile.lock"
     run "cd #{current_release} && #{bin}/bundle install"
   end
   
