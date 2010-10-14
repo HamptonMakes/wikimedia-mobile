@@ -24,7 +24,7 @@ module Merb::Rack
         timestamp = start.getutc.iso8601(2)[0..-2]
         datagram = "#{@hostname} #{request_count} #{timestamp} #{took} #{req.ip} TCP_MISS/#{status} #{body.size + headers.size} #{req.request_method.upcase} #{req.url} NONE/- #{content_type} #{env['HTTP_REFERRER'] || '-'} #{env['X-Forwarded-For'] || '-'} #{URI::encode(env['HTTP_USER_AGENT'] || '')}"
 
-        Merb.logger.warn datagram
+        Merb.logger.warn datagram.force_encoding("UTF-8")
 
         @sock.send(datagram, 0)
       rescue Dalli::NetworkError

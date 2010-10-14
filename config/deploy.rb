@@ -8,6 +8,7 @@ set :deploy_to, "/srv/#{application}"
 set :branch, "stable"
 
 set :use_sudo, false
+set :deploy_via, :remote_cache
 
 role :app, "mobile1.wikimedia.org", "mobile2.wikimedia.org", "mobile3.wikimedia.org"
 

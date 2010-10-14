@@ -95,7 +95,7 @@ class Article < Wikipedia::Resource
   end
   
   def key
-    key_title = URI::encode(title[0..150])
+    key_title = URI::encode(title)[0..150]
     @key ||= "#{@server.language_code}|#{@variant}|#{key_title}|#{device.view_format}|#{device.supports_javascript}".gsub(" ", "-")
   end
 
