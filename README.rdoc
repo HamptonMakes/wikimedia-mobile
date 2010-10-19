@@ -29,13 +29,11 @@ running.
 
 = Getting Running
 
-1) Install Ruby 1.9.2 and RubyGems version 1.3.6 from http://www.ruby-lang.org/en/downloads/
+1) Install Ruby 1.9.2 and RubyGems version 1.3.6+ from http://www.ruby-lang.org/en/downloads/
 
 2) Install the latest bundler gem
     
-  gem install bundler
-  
-  (or brave other versions if you like)
+  gem install bundler rake
 
 3) Setup host headers for en.m.wikitest.org, *.m.wikitest.org for any language that you want to test. Anything works, but it needs to start with a language code. Point each one at 127.0.0.1 assuming you don't have some sort of freaky setup. For instance...
 
@@ -162,6 +160,10 @@ We are using some of the magic of YAML here to help generate these. "capable" is
 with one change... we enable javascript. "webkit" has the same properties as "capable", but we specify a new search
 bar and a new css file name. You can see this throughout the file. It allows us to be very, very specific with
 how we deal with a particular device.
+
+= Running the Test Suite
+
+  rake spec
 
 = Random Useful Things
 
