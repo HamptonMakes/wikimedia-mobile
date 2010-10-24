@@ -13,17 +13,17 @@
   %br>
   %span.idx 3
   - if @article
-    %a{:href => temp_url(@article.display_name), :accesskey => "3"}= language_object["regular_wikipedia"]
+    %a{:href => temp_url(@article.title), :accesskey => "3"}= language_object["regular_wikipedia"]
   - else
     %a{:href => temp_url(""), :accesskey => "3"}= language_object["regular_wikipedia"]
   -# 4 is Talk, 6 Hist
   - if @article
     %br>
     %span.idx 5
-    %a{:href => action_url(@article.display_name, "edit"), :accesskey => "5"}= language_object["nav_edit"]
+    %a{:href => action_url(@article.title, "edit"), :accesskey => "5"}= language_object["nav_edit"]
     %br>
     %span.idx 6
-    %a{:href => action_url(@article.display_name, "history"), :accesskey => "6"}= language_object["nav_history"]
+    %a{:href => action_url(@article.title, "history"), :accesskey => "6"}= language_object["nav_history"]
   %br>
   %span.idx 8
   %a{:href => "#footmenu", :accesskey => "8"}= language_object["nav_end"]
