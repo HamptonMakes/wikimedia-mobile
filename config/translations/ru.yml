@@ -6,13 +6,15 @@
 # Author: HalanTul
 # Author: Lockal
 # Author: MaxSem
+# Author: TarzanASG
 # Author: Александр Сигачёв
 are_you_sure: Вы уверены?
 back_button: Назад
 back_to_top_of_section: Вернуться на раздел назад
 contact_us: Если у вас есть вопросы или замечания, пожалуйста, напишите нам на mobile@wikipedia.org
-copyright: Текст доступен на условиях <a href="http://creativecommons.org/licenses/by-sa/3.0/">лицензии Creative Commons Attribution/Share-Alike</a>, в отдельных случаях могут действовать дополнительные условия. Подробнее см. <a href='http://wikimediafoundation.org/wiki/Terms_of_Use/ru'>Условия использования</a>. «Wikipedia» — зарегистрированная торговая марка некоммерческой организации <a href='http://www.wikimediafoundation.org/'>«Фонд Викимедиа»</a>.
+copyright: Текст доступен по <a href="http://creativecommons.org/licenses/by-sa/3.0/">лицензии Creative Commons Attribution/Share-Alike</a>, в отдельных случаях могут действовать дополнительные условия. Подробнее см. <a href='http://wikimediafoundation.org/wiki/Terms_of_Use/ru'>Условия использования</a>. «Wikipedia» — зарегистрированная торговая марка некоммерческой организации <a href='http://www.wikimediafoundation.org/'>«Фонд Викимедиа»</a>.
 disable_button: Отключить
+download_full_version: Скачать полную версию
 error_page_text: Мобильная Википедия ещё находится в стадии активной разработки, и мы прилагаем максимум усилий, чтобы исправить все наши внутренние ошибки. Мы были уведомлены об этой ошибке и планируем её вскоре исправить. Пожалуйста, проверьте через некоторое время!
 error_page_title: У нас проблема!
 explain_disable: Вы уверены, что вы хотите отключить мобильную версию Википедии? Если вы выберете <b>Отключить</b>, то при последующем посещении Википедии, вы не будете перенаправляться на версию сайта для мобильных устройств.

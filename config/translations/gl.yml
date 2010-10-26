@@ -3,11 +3,13 @@
 # Export driver: syck
 # Author: Toliño
 are_you_sure: Está seguro?
+author_link: Ollar este ficheiro na Wikipedia normal para ver a información sobre a autoría, a licenza e calquera descrición adicional.
 back_button: Volver
 back_to_top_of_section: Volver ao comezo da sección
 contact_us: Se ten calquera pregunta, comentario ou dúbida, síntase libre de enviarnos un correo electrónico a mobile@wikipedia.org
 copyright: Todo o texto está dispoñible baixo a <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.gl'>licenza Creative Commons recoñecemento compartir igual 3.0</a>; pódense aplicar termos adicionais. Consulte os <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>termos de uso</a> para obter máis información. Wikipedia é unha marca rexistrada da <a href='http://www.wikimediafoundation.org/wiki/Portada_galega'>Wikimedia Foundation, Inc.</a>, unha organización sen fins lucrativos.
 disable_button: Desactivar
+download_full_version: Descargar a versión completa
 error_page_text: Wikipedia móbil aínda está en desenvolvemento activo e estamos a traballar arreo para arranxar os nosos erros internos. Xa se nos avisou deste erro e axiña o resolveremos. Ata a próxima!
 error_page_title: Vaites, temos un problema!
 explain_disable: Está seguro de querer desactivar a versión móbil da Wikipedia? Se escolle a opción "<b>Desactivar</b>", a partir de entón, cando visite a Wikipedia, non será redirixido a esta versión móbil da Wikipedia.
