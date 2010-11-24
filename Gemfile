@@ -8,7 +8,7 @@ gem "dalli"
 gem "nokogiri", "1.3.3"
 gem "mime-types", :require => "mime/types"
 gem "json"
-gem "haml"
+gem "haml", "3.0.21"
 gem "curb"
 
 gem "merb-core",        merb_gems_version
