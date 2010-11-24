@@ -82,9 +82,9 @@ operamini:
   <<: *simplehtml
   css_file_name: "operamini"
 
-nokia_series_60:
-  <<: *webkit_old
-  css_file_name: "nokia_series_60"
+nokia:
+  <<: *webkit
+  css_file_name: "nokia"
 
 wml:
   view_format: 'wml'

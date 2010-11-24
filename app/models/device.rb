@@ -43,7 +43,7 @@ class Device
     when /WebKit/
       case user_agent
       when /Series60/
-        :nokia_series_60
+        :nokia
       else
         :webkit
       end
