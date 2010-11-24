@@ -1,13 +1,12 @@
-
 table {
   border-spacing: 0 !important;
   width: 100%;
   border-collapse: collapse !important;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   padding: 3px;
   margin-bottom: 15px; }
   table td, table th {
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
     padding: 3px; }
   table table {
     border: 0; }
@@ -23,15 +22,15 @@ table {
     font-size: 0.9em;
     width: 100% !important; }
     table.navbox th.navbox-title {
-      background: #CCCCFF;
+      background: #ccccff;
       padding: 5px; }
     table.navbox td.navbox-abovebelow {
       padding: 3px; }
     table.navbox td.navbox-group {
-      background: #DDDDFF;
+      background: #ddddff;
       width: 25%;
       padding: 3px; }
-    table.navbox td.navbox-group+td {
+    table.navbox td.navbox-group + td {
       padding: 3px; }
     table.navbox div[style*="padding"] {
       padding-left: 0 !important;
@@ -55,14 +54,14 @@ table {
     table.infobox th, table.infobox td {
       border: 0; }
     table.infobox td[colspan="3"], table.infobox th[colspan="3"] {
-      border: 1px solid #ccc; }
+      border: 1px solid #cccccc; }
   table.gallery {
     background: #f9f9f9;
     border-bottom: 0; }
     table.gallery th, table.gallery td {
       display: block;
       border: 0;
-      border-bottom: 1px solid #ccc; }
+      border-bottom: 1px solid #cccccc; }
     table.gallery .gallerybox[style] {
       width: auto !important;
       margin-bottom: -16px; }

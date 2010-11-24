@@ -1,13 +1,12 @@
-
 table {
   border-spacing: 0 !important;
   width: 100%;
   border-collapse: collapse !important;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   padding: 3px;
   margin-bottom: 15px; }
   table td, table th {
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
     padding: 3px; }
   table table {
     border: 0; }
@@ -23,15 +22,15 @@ table {
     font-size: 0.9em;
     width: 100% !important; }
     table.navbox th.navbox-title {
-      background: #CCCCFF;
+      background: #ccccff;
       padding: 5px; }
     table.navbox td.navbox-abovebelow {
       padding: 3px; }
     table.navbox td.navbox-group {
-      background: #DDDDFF;
+      background: #ddddff;
       width: 25%;
       padding: 3px; }
-    table.navbox td.navbox-group+td {
+    table.navbox td.navbox-group + td {
       padding: 3px; }
     table.navbox div[style*="padding"] {
       padding-left: 0 !important;
@@ -55,14 +54,14 @@ table {
     table.infobox th, table.infobox td {
       border: 0; }
     table.infobox td[colspan="3"], table.infobox th[colspan="3"] {
-      border: 1px solid #ccc; }
+      border: 1px solid #cccccc; }
   table.gallery {
     background: #f9f9f9;
     border-bottom: 0; }
     table.gallery th, table.gallery td {
       display: block;
       border: 0;
-      border-bottom: 1px solid #ccc; }
+      border-bottom: 1px solid #cccccc; }
     table.gallery .gallerybox[style] {
       width: auto !important;
       margin-bottom: -16px; }
@@ -86,14 +85,13 @@ table {
 table.admin {
   width: 300px; }
 
-
 html {
   font-size: 0.8em; }
 
 body {
   line-height: 1;
-  color: #000;
-  background: #fff;
+  color: black;
+  background: white;
   font-family: sans-serif;
   overflow-x: hidden;
   -webkit-text-size-adjust: none; }
@@ -105,9 +103,8 @@ pre {
   white-space: pre-wrap; }
 
 h2 {
-  border-bottom: 1px solid #aaa;
+  border-bottom: 1px solid #aaaaaa;
   padding-top: 0.3em; }
-
 
 a {
   text-decoration: none;
@@ -130,7 +127,6 @@ a.back_to_top, a.back_to_top:visited {
   float: left;
   padding: 10px; }
 
-
 #contentSub, .dablink {
   margin-bottom: 10px; }
 
@@ -147,17 +143,14 @@ h2 {
   height: 1px;
   width: 1px; }
 
-
 .printonly, .geo-multi-punct, .geo-nondefault, .Z3988 {
   display: none; }
-
 
 #featured_article .noprint, .today .noprint {
   display: none; }
 
-
 .thumb {
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   background: #f9f9f9;
@@ -171,15 +164,13 @@ h2 {
     width: auto !important; }
 
 img.thumbborder {
-  border: 1px solid #ccc; }
-
+  border: 1px solid #cccccc; }
 
 .floatright {
   float: right; }
 
 #content_wrapper.home h1#firstHeading {
   display: none; }
-
 
 body {
   margin: 0; }
@@ -198,11 +189,10 @@ body {
   vertical-align: middle;
   display: inline-block; }
 
-
 #searchbox {
   width: auto;
   padding: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px; }
   #searchbox a, #searchbox img {
@@ -215,7 +205,6 @@ body {
     width: 27px; }
   #searchbox #searchField {
     width: auto; }
-
 
 #nav {
   -webkit-border-radius: 2px;
@@ -230,7 +219,6 @@ body {
     height: 23px;
     width: 83px; }
 
-
 #disableButtons {
   text-align: center; }
   #disableButtons button {
@@ -241,22 +229,19 @@ body {
   #disableButtons #backButton {
     margin-top: 5em; }
 
-
 .mwm-notice {
   padding: 5px;
-  background: #ddd;
+  background: #dddddd;
   -webkit-border-radius: 5px;
   margin-top: 5px;
   text-align: center;
   border: 1px solid grey; }
-
 
 .mwm-message.mwm-notice {
   font-size: 1.1em; }
 
 #image_wrapper {
   margin: 8px 0 8px -3px; }
-
 
 #footer {
   padding-top: 1em; }
@@ -267,12 +252,10 @@ body {
     padding: 1em 0;
     font-size: 80%; }
 
-
 ol.references > li:target,
 sup.reference:target,
 span.citation:target, cite:target {
-  background-color: #DEF; }
-
+  background-color: #ddeeff; }
 
 .content_block,
 .section_anchors,
@@ -297,8 +280,8 @@ button.section_heading.hide {
 
 .nav {
   border: 0;
-  border-bottom: 2px solid #6D84B4;
-  border-top: 2px solid #6D84B4;
+  border-bottom: 2px solid #6d84b4;
+  border-top: 2px solid #6d84b4;
   height: auto;
   clear: both;
   padding: 5px 0 5px 0;
