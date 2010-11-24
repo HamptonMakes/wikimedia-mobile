@@ -1,62 +1,301 @@
-/*
-Syntax error: Invalid CSS after "": expected selector, was "/ Defaults for ..."
-        on line 3 of /Users/hcatlin/dev/wikimedia-mobile/public/stylesheets/sass/iphone.sass
+table {
+  border-spacing: 0 !important;
+  width: 100%;
+  border-collapse: collapse !important;
+  border: 1px solid #cccccc;
+  padding: 3px;
+  margin-bottom: 15px; }
+  table td, table th {
+    border: 1px solid #cccccc;
+    padding: 3px; }
+  table table {
+    border: 0; }
+    table table td, table table th {
+      border: 0; }
+  table.toc {
+    background: #f9f9f9; }
+    table.toc h2 {
+      border: 0;
+      padding: 0;
+      margin-top: 5px; }
+  table.navbox {
+    font-size: 0.9em;
+    width: 100% !important; }
+    table.navbox th.navbox-title {
+      background: #ccccff;
+      padding: 5px; }
+    table.navbox td.navbox-abovebelow {
+      padding: 3px; }
+    table.navbox td.navbox-group {
+      background: #ddddff;
+      width: 25%;
+      padding: 3px; }
+    table.navbox td.navbox-group + td {
+      padding: 3px; }
+    table.navbox div[style*="padding"] {
+      padding-left: 0 !important;
+      padding-right: 0 !important; }
+      table.navbox div[style*="padding"] a {
+        white-space: pre-wrap; }
+    table.navbox span[style*="white"] {
+      white-space: pre-wrap !important; }
+    table.navbox td, table.navbox th {
+      padding: 0; }
+    table.navbox table {
+      margin-bottom: 0; }
+  table.wikitable th {
+    background: #f3f3f3; }
+  table[style] {
+    width: 100% !important;
+    float: none !important;
+    margin-left: 0 !important; }
+  table.infobox {
+    background: #f9f9f9; }
+    table.infobox th, table.infobox td {
+      border: 0; }
+    table.infobox td[colspan="3"], table.infobox th[colspan="3"] {
+      border: 1px solid #cccccc; }
+  table.gallery {
+    background: #f9f9f9;
+    border-bottom: 0; }
+    table.gallery th, table.gallery td {
+      display: block;
+      border: 0;
+      border-bottom: 1px solid #cccccc; }
+    table.gallery .gallerybox[style] {
+      width: auto !important;
+      margin-bottom: -16px; }
+    table.gallery .thumb[style] {
+      border: 0;
+      padding: 0 !important;
+      width: auto !important;
+      margin: 0 auto; }
+    table.gallery .gallerytext {
+      margin-top: -12px;
+      text-align: center; }
+  table.geography[style] th {
+    text-align: left; }
+  table.geography[style] td[style*="text-align"], table.geography[style] td[colspan="2"] {
+    text-align: left !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important; }
+    table.geography[style] td[style*="text-align"] div[style], table.geography[style] td[colspan="2"] div[style] {
+      text-align: left !important; }
 
-1: @import webkit.sass
-2: 
-3: / Defaults for interface elements #header #nav #message #footer
-4: #searchbox
-5:   width: 292px
-6:   padding: 5px
-7:   border: 1px solid #ccc
-8:   -webkit-border-radius: 2px
+table.admin {
+  width: 300px; }
 
-Backtrace:
-/Users/hcatlin/dev/wikimedia-mobile/public/stylesheets/sass/iphone.sass:3
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/haml-3.0.21/lib/sass/scss/parser.rb:821:in `expected'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/haml-3.0.21/lib/sass/scss/parser.rb:796:in `expected'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/haml-3.0.21/lib/sass/scss/parser.rb:779:in `expr!'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/haml-3.0.21/lib/sass/scss/static_parser.rb:18:in `parse_selector'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/haml-3.0.21/lib/sass/tree/rule_node.rb:189:in `perform!'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/haml-3.0.21/lib/sass/tree/node.rb:305:in `_perform'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/haml-3.0.21/lib/sass/tree/node.rb:213:in `perform'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/haml-3.0.21/lib/sass/tree/node.rb:326:in `block in perform_children'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/haml-3.0.21/lib/sass/tree/node.rb:326:in `map'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/haml-3.0.21/lib/sass/tree/node.rb:326:in `perform_children'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/haml-3.0.21/lib/sass/tree/node.rb:317:in `perform!'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/haml-3.0.21/lib/sass/tree/root_node.rb:59:in `perform!'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/haml-3.0.21/lib/sass/tree/node.rb:305:in `_perform'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/haml-3.0.21/lib/sass/tree/node.rb:213:in `perform'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/haml-3.0.21/lib/sass/tree/root_node.rb:37:in `perform'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/haml-3.0.21/lib/sass/tree/root_node.rb:29:in `render'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/haml-3.0.21/lib/sass/plugin.rb:220:in `update_stylesheet'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/haml-3.0.21/lib/sass/plugin.rb:85:in `block (2 levels) in update_stylesheets'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/haml-3.0.21/lib/sass/plugin.rb:78:in `each'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/haml-3.0.21/lib/sass/plugin.rb:78:in `block in update_stylesheets'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/haml-3.0.21/lib/sass/plugin.rb:76:in `each'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/haml-3.0.21/lib/sass/plugin.rb:76:in `update_stylesheets'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/haml-3.0.21/lib/sass/plugin.rb:50:in `check_for_updates'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/haml-3.0.21/lib/sass/plugin/rack.rb:40:in `call'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/thin-1.2.7/lib/thin/connection.rb:76:in `block in pre_process'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/thin-1.2.7/lib/thin/connection.rb:74:in `catch'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/thin-1.2.7/lib/thin/connection.rb:74:in `pre_process'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/thin-1.2.7/lib/thin/connection.rb:57:in `process'
-/Users/hcatlin/dev/wikimedia-mobile/lib/thin_connection.rb:6:in `receive_data'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/thin-1.2.7/lib/thin/backends/base.rb:57:in `start'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/thin-1.2.7/lib/thin/server.rb:156:in `start'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/merb-core-1.1.3/lib/merb-core/rack/adapter/thin.rb:30:in `start_server'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/merb-core-1.1.3/lib/merb-core/rack/adapter/abstract.rb:305:in `start_at_port'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/merb-core-1.1.3/lib/merb-core/rack/adapter/abstract.rb:138:in `start'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/merb-core-1.1.3/lib/merb-core/server.rb:174:in `bootup'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/merb-core-1.1.3/lib/merb-core/server.rb:42:in `start'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/merb-core-1.1.3/lib/merb-core.rb:165:in `start'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/gems/merb-core-1.1.3/bin/merb:20:in `<top (required)>'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/bin/merb:19:in `load'
-/Users/hcatlin/.rvm/gems/ruby-1.9.1-p378/bin/merb:19:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"\": expected selector, was \"/ Defaults for ...\"\A         on line 3 of /Users/hcatlin/dev/wikimedia-mobile/public/stylesheets/sass/iphone.sass\A \A 1: @import webkit.sass\A 2: \A 3: / Defaults for interface elements #header #nav #message #footer\A 4: #searchbox\A 5:   width: 292px\A 6:   padding: 5px\A 7:   border: 1px solid #ccc\A 8:   -webkit-border-radius: 2px"; }
+html {
+  font-size: 0.8em; }
+
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: none; }
+
+p, li, dl, #featured_article {
+  line-height: 1.65; }
+
+pre {
+  white-space: pre-wrap; }
+
+h2 {
+  border-bottom: 1px solid #aaaaaa;
+  padding-top: 0.3em; }
+
+a {
+  text-decoration: none;
+  color: #002bb8; }
+  a:visited {
+    color: #5a3696; }
+  a:active {
+    color: #faa700; }
+  a:hover {
+    text-decoration: underline; }
+
+a.new, a.new:visited, a.new:hover {
+  color: red; }
+
+a.back_to_top, a.back_to_top:visited {
+  margin-top: 7px;
+  color: blue; }
+
+.links {
+  float: left;
+  padding: 10px; }
+
+#contentSub, .dablink {
+  margin-bottom: 10px; }
+
+#firstHeading {
+  font-size: 1.7em; }
+
+h2 {
+  font-size: 1.3em; }
+
+.section_anchors a {
+  display: block; }
+
+.section_anchor {
+  height: 1px;
+  width: 1px; }
+
+.printonly, .geo-multi-punct, .geo-nondefault, .Z3988 {
+  display: none; }
+
+#featured_article .noprint, .today .noprint {
+  display: none; }
+
+.thumb {
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  background: #f9f9f9;
+  margin-bottom: 10px; }
+  .thumb .thumbinner[style] {
+    margin: 5px auto; }
+  .thumb .thumbcaption {
+    width: 100%;
+    margin: 5px 10px 0;
+    text-align: center;
+    width: auto !important; }
+
+img.thumbborder {
+  border: 1px solid #cccccc; }
+
+.floatright {
+  float: right; }
+
+#content_wrapper.home h1#firstHeading {
+  display: none; }
+
+body {
+  margin: 0; }
+
+#header {
+  margin: 8px 8px 0 8px; }
+
+#content_wrapper {
+  clear: both;
+  margin: 0 8px; }
+
+#footer {
+  margin: 0 8px; }
+
+#header img, #header form, #header input, #header button {
+  vertical-align: middle;
+  display: inline-block; }
+
+#searchbox {
+  width: auto;
+  padding: 5px;
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px; }
+  #searchbox a, #searchbox img {
+    border: 0px;
+    vertical-align: middle; }
+  #searchbox #goButton {
+    border: 0;
+    background: url(/images/s.gif) no-repeat top left;
+    height: 25px;
+    width: 27px; }
+  #searchbox #searchField {
+    width: auto; }
+
+#nav {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  clear: both;
+  padding: 5px 0; }
+  #nav form, #nav button {
+    display: inline-block; }
+  #nav button {
+    background: url(/images/buttonbg.gif) no-repeat center;
+    border: 0;
+    height: 23px;
+    width: 83px; }
+
+#disableButtons {
+  text-align: center; }
+  #disableButtons button {
+    background: url(/images/buttonbg.gif) no-repeat center;
+    border: 0;
+    height: 23px;
+    width: 83px; }
+  #disableButtons #backButton {
+    margin-top: 5em; }
+
+.mwm-notice {
+  padding: 5px;
+  background: #dddddd;
+  -webkit-border-radius: 5px;
+  margin-top: 5px;
+  text-align: center;
+  border: 1px solid grey; }
+
+.mwm-message.mwm-notice {
+  font-size: 1.1em; }
+
+#image_wrapper {
+  margin: 8px 0 8px -3px; }
+
+#footer {
+  padding-top: 1em; }
+  #footer #perm {
+    padding-top: 2em;
+    font-size: 90%; }
+  #footer #copyright {
+    padding: 1em 0;
+    font-size: 80%; }
+
+ol.references > li:target,
+sup.reference:target,
+span.citation:target, cite:target {
+  background-color: #ddeeff; }
+
+.content_block,
+.section_anchors,
+button.section_heading.hide {
+  display: none; }
+
+#clearButton {
+  display: none; }
+
+#nav {
+  display: none;
+  width: 172px;
+  border: 1px solid #cccccc;
+  border-top: 0px;
+  margin: -1px 0 0 0;
+  background: white;
+  padding: 0 5px 5px 5px; }
+
+#searchbox {
+  width: 292px;
+  padding: 5px;
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px; }
+  #searchbox a, #searchbox img {
+    border: 0px;
+    vertical-align: middle; }
+  #searchbox #goButton {
+    border: 0;
+    background: url(/images/s.gif) no-repeat top left;
+    height: 25px;
+    width: 27px; }
+  #searchbox #searchField {
+    width: 220px;
+    height: 27px;
+    font-size: 16px; }
+  body.landscape #searchbox {
+    width: 450px; }
+    body.landscape #searchbox #searchField {
+      width: 375px; }
+
+#header {
+  max-width: 290px; }
