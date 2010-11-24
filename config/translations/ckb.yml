@@ -1,5 +1,32 @@
 # Messages for Sorani (کوردی)
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: Asoxor
+are_you_sure: دڵنیایت؟
+author_link: سەردانی ئەم پەڕگەی میدیایە لەسەر ویکیپیدیای ئاسایی بکە بۆ بینینی زانیاری سەبارەت بە خاوەنێتی، مۆڵەتنامە و شرۆڤەی زۆرتر.
+back_button: بگەڕێوە
+back_to_top_of_section: بپەڕێوە بۆ بە بەشی پێشوو
+contact_us: ئەگەر پرسیار یان بۆچوونێکت ھەیە تکایە بە ئیمێڵی mobile@wikipedia.org بۆمان بنێرە
+copyright: دەق لەژێر <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>لەبەردەست‌دایە؛ لەوانەیە مەرجی تریشی پێ زیاد ببێ.  سەیری <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>مەرجەکانی بەکارھێنان</a> بکە بۆ وردەکارییەکان. Wikipedia is a registered trademark of the <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, a non-profit organization.
+disable_button: ناچالاک بکە
+download_full_version: داگرتنی وەشانی تەواو
+error_page_text: مۆبایڵی ویکیپیدیا ھێشتا لەژێر پەرەپێدانی چالاکدایە و بە سەختی لەسەر چاککردنەوەی گشت ھەڵەکانی کاردەکەین. ئاگادار کراینەتەوە لەسەر ئەم ھەڵانە و بەم زووانە چاکیان دەکەینەوە. تکایە سەر بدەنەوە!
+error_page_title: کێشەیەکمان ھەیە!
+explain_disable: دڵنیایت دەتەوێ وەشانۆ مۆنبایڵی ویکیپیدیا ناچالاک بکەیت؟ ئەگەر <b>ناچالاک بکە</b> ھەڵبژێری، لەمەو بەدوا، کاتێک سەردانی ویکیپیدیا دەکەی، بۆ ئەم بینینەوەی مۆبایڵەی ویکیپیدیا ڕەوانە ناکرێی.
+featured_article: وتاری ھەڵبژاردەی ئەمڕۆ
+hide_button: شاردنەوە
+home_button: سەرەتا
+in_the_news: لە ھەواڵەکاندا
+nav_edit: دەستکاری
+nav_end: دوایی
+nav_history: مێژوو
+nav_top: سەرەوە
+no_article_found: ھیچ وتارێک نەدۆزرایەوە
+perm_stop_redirect: بۆ ھەمیشە سایتی مۆبایڵ ناچالاک بکە
+random_button: بە ھەڵکەوت
+regular_wikipedia: بینینی ئەم پەڕە لەسەر ویکیپیدیای ئاسایی
+search_results: ئاکامەکانی گەڕان
 search_submit: بڕۆ
 search_text: گەڕان
+show_button: نیشانبدە
+wikipedia: ویکیپیدیا

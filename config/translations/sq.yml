@@ -6,23 +6,24 @@ are_you_sure: Je i/e sigurt?
 back_button: Prapa
 back_to_top_of_section: Kalo në seksionin A
 contact_us: N.q.s. ke ndonjë pyetje apo koment mos nguro të na dërgosh email në mobile@wikipedia.org
-copyright: "Përmbajtja është në dispozicion nën <a href='http://en.wikipedia.org/wiki/Wikipedia:\nText_of_Creative_Commons_Attribution_ShareAlike_3.0_Unported_License'>Krijuesi i  atributeve të përbashkëta/License e ndarë njësoj</a> kushte shtesë mund të aplikohen. Shiko <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Kushtet e përdorimit</a> për detaje. Wikipedia është një markë e regjistruar e <a href='http://www.wikimediafoundation.org/'> Wikimedia Foundation, Inc.</a>, një organizatë jo fitim prurëse."
+copyright: "Përmbajtja është në dispozicion nën <a href='http://en.wikipedia.org/wiki/Wikipedia:\nText_of_Creative_Commons_Attribution_ShareAlike_3.0_Unported_License'>Krijuesi i  atributeve të përbashkëta/License e ndarë njësoj</a>; kushte shtesë mund të aplikohen. Shiko <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Kushtet e përdorimit</a> për detaje. Wikipedia është një markë e regjistruar e <a href='http://www.wikimediafoundation.org/'> Wikimedia Foundation, Inc.</a>, një organizatë jo fitim prurëse."
 disable_button: Çaktivizo
+download_full_version: Shkarko versionin e plotë
 error_page_text: Wikipedia në telefon është ende në zhvillim e sipër dhe ne po punojmë shumë për të zgjidhur të gjitha problemet tona të brendshme. Ne kemi qenë në dijeni të këtij problemi dhe do ta zgjidhim atë shumë shpejt. Të lutemi kontrollo përseri më vonë!
 error_page_title: Ne kemi një problem!
 explain_disable: Je i/e sigurt që dëshiron te çaktivizozh versionin e Wikipedia-s në telefon? N.q.s. zgjedh <b>Çaktivizo</b> nga ky moment, kur ti të vizitosh Wikipedia-n, nuk do të ridrejtohesh më tek versioni i telefonit të Wikipedia-s.
-featured_article: Kryeartikulli i sotëm
+featured_article: Artikulli i ditës
 hide_button: Fshih
-home_button: Faqja Kryesore
+home_button: Kryefaqja
 in_the_news: Në lajme
 nav_edit: Redakto
 nav_end: Shko në fund
-nav_history: Historia
+nav_history: Historiku
 nav_top: Ngjitu në krye
 no_article_found: Nuk u gjet asnjë artikull
 perm_stop_redirect: Çaktivizo përgjithmonë Wikipedia-n në telefon
 random_button: Artikull rastësor
-regular_wikipedia: Shiko këtë faqe në version e rregullt
+regular_wikipedia: Shiko këtë faqe në versionin e rregullt të Wikpedia-s.
 search_results: Rezultatet e kërkimit
 search_submit: Shko
 search_text: Kërko

@@ -3,14 +3,17 @@
 # Export driver: syck
 # Author: EugeneZelenko
 # Author: Jim-by
+# Author: Red Winged Duck
 # Author: Wizardist
 # Author: Zedlik
 are_you_sure: Вы ўпэўнены?
+author_link: Паглядзець гэты мэдыя-файл у звычайнай Вікіпэдыі, каб пабачыць інфармацыю пра аўтарства, ліцэнзію і дадатковае апісаньне.
 back_button: Назад
 back_to_top_of_section: Вярнуцца да папярэдняй сэкцыі
 contact_us: Калі вы маеце нейкія пытаньні ці заўвагі, калі ласка, дашліце нам ліст на mobile@wikipedia.org
 copyright: "Тэкст распаўсюджваецца на ўмовах ліцэнзіі <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; могуць прымяняцца дадатковыя ўмовы. Глядзіце \nпадрабязнасьці ва <a href='http://wikimediafoundation.org/wiki/Умовы_выкарыстаньня'>Ўмовах карыстаньня</a>. «Wikipedia» — зарэгістраваная гандлёвая марка некамэрцыйнай арганізацыі <a href='http://www.wikimediafoundation.org/'>фундацыя «Вікімэдыя»</a>."
 disable_button: Выключыць
+download_full_version: Загрузіць поўную вэрсію
 error_page_text: Мабільная Вікіпэдыя дагэтуль знаходзіцца ў стадыі актыўнай распрацоўкі, і мы шмат працуем дзеля выпраўленьня ўсіх унутраных памылак. Нам ужо паведамілі пра гэтую памылку і яна выпраўляецца. Калі ласка, праверце празь нейкі час!
 error_page_title: Мы маем праблемы!
 explain_disable: Вы ўпэўненыя, што жадаеце выключыць мабільную вэрсію Вікіпэдыі? Калі вы абераце <b>Выключыць</b>, то падчас наступнага наведваньня вы ня будзеце перанакіраваныя да мабільнай вэрсіі сайта.

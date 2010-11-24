@@ -3,11 +3,13 @@
 # Export driver: syck
 # Author: Iltever
 are_you_sure: Таукелмисиз ?
+author_link: Авторну, лицензияны юсюнден информацияны эмда къошакъ билгиле билир ючюн бу медиа-файлгъа Википедияда къарагъыз.
 back_button: Артха
 back_to_top_of_section: Бир бёлюмге артха атла
 contact_us: "Сорууларыгъыз неда башламчылыкъларыгъыз бар эсе, бу адресге джазыгъыз: mobile@wikipedia.org."
-copyright: "Текст <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\">Creative Commons Attribution/Share-Alike</a> лицензияны келишимлери бла бериледи, бир бирледе къошакъ келишимле да болургъа боллукъдула. Толуракъ къарагъыз: <a href='http://wikimediafoundation.org/wiki/Terms_of_Use/'>Хайырланыу келишимле</a>. «Wikipedia» — <a href='http://www.wikimediafoundation.org/'>«Викимедиа» фонд</a> атлы коммерциялыкъсыз организацияны регистрация ётген сатыу маркасыды."
+copyright: "Текст, <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\">Creative Commons Attribution/Share-Alike</a> лицензияны шартларында бериледи, бир-бирледе къошакъ шартла да болургъа боллукъдула. Толуракъ къарагъыз: <a href='http://wikimediafoundation.org/wiki/Terms_of_Use/'>Хайырланыу шартла</a>. «Wikipedia», <a href='http://www.wikimediafoundation.org/'>«Викимедиа» фонд</a> коммерциялыкъсыз организацияны регистрация ётген сатыу маркасыды."
 disable_button: Джукълат
+download_full_version: Толу версияны ал
 error_page_text: Мобил Википедия тири ишлене тургъан стадиядады, биз бек кюрешебиз бютеу ичиндеги халатларыбызны кетерирге деб. Бу халатны юсюнден билдириу келгенди бизге, къысха заманны ичинде тюзетирге деб турабыз. Кесек замандан джангыдан къарагъыз.
 error_page_title: Проблемабыз барды!
 explain_disable: Википедияны мобил версиясын джукълатыргъа таукелмисиз? <b>Джукълатны</b> сайласагъыз, Википедиягъа энди кирген сагъатыгъызда сайтны мобил аппартлагъа версиясына автомат джибериллик тюйюлсюз.
@@ -27,3 +29,4 @@ search_results: Излеуню эсеблери
 search_submit: Бар
 search_text: Излеу
 show_button: Кёргюз
+wikipedia: Википедия

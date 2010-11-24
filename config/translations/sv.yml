@@ -2,6 +2,7 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: Ainali
+# Author: GameOn
 # Author: Ozp
 # Author: Per
 # Author: Sertion
@@ -9,7 +10,7 @@ are_you_sure: Är du säker?
 back_button: Tillbaka
 back_to_top_of_section: Hoppa ett avsnitt bakåt
 contact_us: Om du har några frågor eller kommentarer får du gärna skicka ett e-post till mobile@wikipedia.org
-copyright: Text är tillgänlig under <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.sv'>Creative Commons Erkännande/Dela Lika-licens</a>; ytterliggare villkor kan gälla. Se <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Villkor</a> för detaljer. Wikipedia är ett registrerat varumärke av den ideella organisationen <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>
+copyright: Text är tillgänglig under <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.sv'>Creative Commons Erkännande/Dela Lika-licens</a>; ytterligare villkor kan gälla. Se <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Villkor</a> för detaljer. Wikipedia är ett registrerat varumärke av den ideella organisationen <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>
 disable_button: Inaktivera
 error_page_text: Wikipedia mobil är fortfarande under aktiv utveckling och vi jobbar hårt for att fixa alla interna fel. Vi har blivit meddelade om detta fel och kommer att fixa det snart. Kom gärna tillbaka lite senare!
 error_page_title: Vi har ett problem!
