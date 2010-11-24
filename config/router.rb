@@ -30,8 +30,6 @@ Merb::Router.prepare do
   with(:controller => "articles") do
     variantsRe = /^(wiki|sr-ec|sr-el|zh|zh-hans|zh-hant|zh-cn|zh-hk|zh-sg|zh-tw)$/
     match("/").to(:action => "home", :variant => "wiki" )
-    
-    match(/\/[^\/]+\/File:(.*)/).to(:action => "file", :file => "[1]")
 
     with(:action => "show") do
       # Primary HTML way to access information
@@ -55,6 +53,11 @@ Merb::Router.prepare do
         if home_button = strings['home_button']
           home_button = CGI::escape(home_button).gsub("+", "%20")
           varm.match("/::#{home_button}").to(:action => "home")
+        end
+        
+        # File namespace
+        if strings['file_namespace']
+          match(Regexp.new("/\/[^\/]+\/#{strings['file_namespace']}:(.*)/")).to(:action => "file", :file => "[1]")
         end
       end
     end
