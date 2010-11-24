@@ -4,12 +4,12 @@ module Haml
   # It's called from within the precompiled code,
   # and helps reduce the amount of processing done within `instance_eval`ed code.
   class Buffer
-    alias push_text_encoding_problems push_text  
+    #alias push_text_encoding_problems push_text  
     
-    def push_text(text, tab_change, dont_tab_up)
-      text = text.force_encoding("UTF-8")
+    #def push_text(text, tab_change, dont_tab_up)
+    #  text = text.force_encoding("UTF-8")
       
-      push_text_encoding_problems(text, tab_change, dont_tab_up)
-    end
+    #  push_text_encoding_problems(text, tab_change, dont_tab_up)
+    #end
   end
 end
