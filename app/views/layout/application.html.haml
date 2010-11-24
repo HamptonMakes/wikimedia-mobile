@@ -25,3 +25,6 @@
       - if false
         #help
           = language_object["contact_us"].gsub("mobile@wikipedia.org", "<a href='mailto:mobile@wikipedia.org'>mobile@wikipedia.org</a>")
+    /
+      == Backend Server: '#{Socket.gethostname}'
+      == Ruby Version: '#{RUBY_VERSION}'
