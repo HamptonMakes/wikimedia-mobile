@@ -133,6 +133,24 @@ nn:
     on_this_day: "#mp-otd"
     facts: "#mp-dyk"
 
+bh:
+  main_page: "%E0%A4%AA%E0%A4%B9%E0%A4%BF%E0%A4%B2%E0%A4%95%E0%A4%BE_%E0%A4%AA%E0%A4%A8%E0%A5%8D%E0%A4%A8%E0%A4%BE"
+  selectors:
+    featured_article: "#mp-featured_article"
+    featured_picture: "#mp-featured_picture"
+br:
+  main_page: Degemer
+  selectors:
+    featured_article: "#mp-tfa"
+    news_items: "#mp-itn"
+    on_this_day: "#mp-otd"
+    featured_picture: "#mp-tfp"
+    facts: "#mp-dyk"
+    good_article: "#mp-tfga"
+    quote_of_the_day: "#mp-qotd"
+
+tr:
+  mobile_main_page: Vikipedi:Ana_Sayfa_%28mobil%29
 it: 
   mobile_main_page: Pagina_Principale_%28mobile%29
 sv:
