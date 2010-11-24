@@ -28,7 +28,7 @@ class Merb::Request
   def language_code
     return params[:lang].downcase if params[:lang]
     language_code = host.split(".").first.downcase
-    if Merb.env?(:test) || language_code.include?("localhost") || host.include?(".local") || language_code.include?("deneb") || host.include?("wikimedia.org") || language_code == "iwik"
+    if Merb.env?(:test) || language_code.include?("localhost") || host.include?(".local") || language_code.include?("deneb") || host.include?("wikimedia.org") || language_code == "iwik" || language_code == "192"
       language_code = "en"
     end
     params[:lang] ||= language_code
