@@ -30,18 +30,6 @@ Merb::Router.prepare do
   with(:controller => "articles") do
     variantsRe = /^(wiki|sr-ec|sr-el|zh|zh-hans|zh-hant|zh-cn|zh-hk|zh-sg|zh-tw)$/
     match("/").to(:action => "home", :variant => "wiki" )
-
-    with(:action => "show") do
-      # Primary HTML way to access information
-      # Can just be /wiki/:title for common use
-      match("/:variant(/:title)", :variant => variantsRe, :title => /^[^:].*/).to()
-
-      # Legacy support for iwik
-      match(/\/lookup\/([a-z]*).wikipedia.org\/(.*)/).to(:title => "[2]", :lang => "[1]")
-
-      # Support for links inside wikipedia that point to index.php
-      match("/w/index.php").to()
-    end
     
     match("/:variant", :variant => variantsRe ) do |varm|
 
@@ -57,9 +45,23 @@ Merb::Router.prepare do
         
         # File namespace
         if strings['file_namespace']
-          match(Regexp.new("/\/[^\/]+\/#{strings['file_namespace']}:(.*)/")).to(:action => "file", :file => "[1]")
+          regex = Regexp.new("\/#{strings['file_namespace']}:(.*)")
+          puts regex.inspect
+          varm.match(regex).to(:action => "file", :file => "[3]")
         end
       end
+    end
+
+    with(:action => "show") do
+      # Primary HTML way to access information
+      # Can just be /wiki/:title for common use
+      match("/:variant(/:title)", :variant => variantsRe, :title => /^[^:].*/).to()
+
+      # Legacy support for iwik
+      match(/\/lookup\/([a-z]*).wikipedia.org\/(.*)/).to(:title => "[2]", :lang => "[1]")
+
+      # Support for links inside wikipedia that point to index.php
+      match("/w/index.php").to()
     end
     
     
