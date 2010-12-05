@@ -38,12 +38,12 @@ class Device
       else
         :native_iphone
       end
-    when /Pre\//
-      :palm_pre
     when /WebKit/
       case user_agent
       when /Series60/
         :nokia
+      when /webOS/
+        :palm_pre
       else
         :webkit
       end
