@@ -3,15 +3,18 @@
 # Export driver: syck
 # Author: Lloffiwr
 are_you_sure: Ydych chi'n bendant am wneud hyn ?
+author_link: Edrychwch ar y ffeil gyfrwng hon ar y Wikipedia arferol er mwyn cael gwybodaeth am yr awduron, y drwydded a disgrifiadau ychwanegol.
 back_button: Yn ôl
 back_to_top_of_section: Neidio Un Adran Am Nôl
 contact_us: Os oes gennych unrhyw gwestiynau neu sylwadau mae croeso ichi anfon e-bost atom yn mobile@wikipedia.org
 copyright: "Rhoddir testun y dudalen ar gael ar delerau'r drwydded <a href=\"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike</a>;\ngall fod telerau ychwanegol yn perthyn i'r testun.\nGweler <a href=\"http://wikimediafoundation.org/wiki/Terms_of_Use\">Telerau Defnyddio'r Drwydded</a> am fanylion pellach. Mae Wikipedia yn nod masnachol cofrestredig, y mae'r sefydliad di-elw <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a> yn berchen arno."
 disable_button: Analluogi
+download_full_version: Islwytho'r fersiwn cyflawn
 error_page_text: Y mae Wicipedia symudol yn dal i gael ei ddatblygu ac rydym wrthi'n ddiwyd yn cywiro'r gwallau mewnol. Rydym wedi cael gwybod am y gwall hwn ac fe fyddwn yn ei gywiro'n fuan. Rhowch gynnig arall arni yn y man.
 error_page_title: Cafwyd problem!
 explain_disable: Ydych chi'n bendant am analluogi fersiwn Wicipedia ar gyfer ffonau symudol? Os y dewiswch <b>Analluogi</b>, yna pan ymwelwch â Wicipedia, ni chewch eich ailgyfeirio at y wedd hon o Wicipedia ar gyfer ffonau symudol.
 featured_article: Erthygl y Dydd
+file_namespace: Ffeil
 hide_button: Cuddio
 home_button: Hafan
 in_the_news: Ar y newyddion

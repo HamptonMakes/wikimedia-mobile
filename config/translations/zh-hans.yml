@@ -1,6 +1,7 @@
 # Messages for Simplified Chinese (‪中文(简体)‬)
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: Hydra
 # Author: Liangent
 # Author: PhiLiP
 # Author: Shizhao
@@ -17,6 +18,7 @@ error_page_text: 维基百科移动版尚在开发之中，我们正努力修复
 error_page_title: 错误！
 explain_disable: 你确定要禁用维基百科移动版？如果你选择<b>禁用</b>，那么从现在开始，当你访问维基百科时，你不会被重定向至维基百科移动版视图。
 featured_article: 特色条目
+file_namespace: 文件
 hide_button: 隐藏
 home_button: 首页
 in_the_news: 新闻动态

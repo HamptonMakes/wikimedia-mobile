@@ -20,6 +20,7 @@ error_page_text: A Wikipédia móvel ainda está em desenvolvimento e estamos co
 error_page_title: Temos um problema!
 explain_disable: Tem a certeza de que pretende desactivar a versão móvel da Wikipédia? Se escolher <b>Desactivar</b>, a partir de agora ao visitar a Wikipédia deixará de ser reencaminhado para esta versão móvel.
 featured_article: Artigo em Destaque
+file_namespace: Ficheiro
 hide_button: Esconder
 home_button: Início
 in_the_news: Actualidades

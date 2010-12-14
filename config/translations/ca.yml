@@ -6,15 +6,18 @@
 # Author: SMP
 # Author: Toniher
 are_you_sure: N'esteu segur?
+author_link: Vegeu aquest fitxer multimèdia a la Viquipèdia normal per veure informació de l'autoria, llicència i descripcions addicionals.
 back_button: Enrere
 back_to_top_of_section: Salteu enrere una secció
 contact_us: Si teniu cap pregunta o comentari, no dubteu a contactar-nos per correu a mobile@wikipedia.org
 copyright: El text està disponible sota la <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.ca'>Llicència de Creative Commons Reconeixement/Compartir-Igual</a>; es poden aplicar termes addicionals. Vegeu <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>els Termes d'ús</a> per a més informació. Wikipedia és marca registrada de <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, una organització sense ànim de lucre.
 disable_button: Inhabilita
+download_full_version: Baixa la versió sencera
 error_page_text: Wikipedia mobile encara està en desenvolupament i estem treballant per a resoldre tots els errors interns. Hem estat notificats d'aquest error i el repararem aviat. Si us plau, torneu-ho a intentar!
 error_page_title: Tenim un problema!
 explain_disable: Esteu segur que voleu inhabilitar la versió mòbil de la Viquipèdia? Si trieu <b>Inhabilita</b>, a partir d'aleshores, quan visiteu la Viquipèdia, no se us redirigirà a la versió mòbil.
 featured_article: Article destacat d'avui
+file_namespace: Fitxer
 hide_button: Amaga
 home_button: Inici
 in_the_news: Actualitat

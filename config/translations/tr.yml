@@ -1,19 +1,23 @@
 # Messages for Turkish (Türkçe)
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: Emperyan
 # Author: Homonihilis
 # Author: Joseph
 # Author: Vito Genovese
 are_you_sure: Emin misiniz ?
+author_link: Bu medya dosyasını Vikipedi'de yazarlık, lisans ve ek açıklamaları hakkında bilgi için görüntüleyin.
 back_button: Geri
 back_to_top_of_section: Bir Bölüm Geri Atla
 contact_us: Eğer herhangi bir sorunuz veya yorumunuz varsa lütfen bize mobile@wikipedia.org adresinde e-posta göndermekten çekinmeyin
 copyright: Metin <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike Lisansı</a> altındadır; ek koşullar uygulanabilir. Ayrıntılar için <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Kullanım Koşulları</a>na bakın. Wikipedia kar-gütmeyen bir kuruluş olan <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>'in tescilli markasıdır.
 disable_button: Devre dışı bırak
+download_full_version: Tam Sürümü İndir
 error_page_text: Mobil Vikipedi hala etkin geliştirme altında ve tüm dahili hatalarımızı düzeltmek için çalışıyoruz. Bu hata hakkında bilgilendirildik ve yakında düzeltiyor olacağız. Lütfen tekrar kontrol edin!
 error_page_title: Bir problem var!
 explain_disable: Vikipedinin mobil sürümünü devre dışı bırakmak istediğinize emin misiniz? Eğer <b>Devre dışı bırak</b>'ı seçerseniz, bundan sonra, Vikipediyi ziyaret ettiğinizde, Vikipedinin bu mobil görünümüne yönlendirilmeyeceksiniz.
 featured_article: Haftanın Seçkin Maddesi
+file_namespace: Dosya
 hide_button: Gizle
 home_button: Ana
 in_the_news: Haberlerde
