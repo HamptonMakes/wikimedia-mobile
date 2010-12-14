@@ -19,7 +19,7 @@ module Parsers
                           "form",
                           "div.sister-project",
                           "script",
-                          "div.magnify",         #stupid magnify thing
+                          "div.magnify",        #stupid magnify thing
                           ".editsection",
                           "span.t",
                           'sup[style*="help"]',
