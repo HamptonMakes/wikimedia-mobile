@@ -1,6 +1,7 @@
 # Messages for Greek (Ελληνικά)
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: Geraki
 # Author: Lou
 # Author: Omnipaedista
 # Author: ZaDiak
@@ -9,7 +10,7 @@ are_you_sure: Είστε σίγουρος(η);;;
 back_button: Πίσω
 back_to_top_of_section: Πίσω στην αρχή της ενότητας
 contact_us: Για ερωτήσεις ή σχόλια μπορείτε να μας στείλετε ένα email στο mobile@wikipedia.org
-copyright: Τα κείμενα είναι διαθέσιμα υπό την άδεια <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike</a>; μπορεί να ισχύουν πρόσθετοι όροι. Δείτε τους <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Όρους Χρήσης</a> για λεπτομέρειες. Το όνομα «Wikipedia» είναι κατοχυρωμένο σήμα του <a href='http://www.wikimediafoundation.org/'>Ιδρύματος Wikimedia, Inc.</a>, ένας μη-κερδοφόρος οργανισμός.
+copyright: Τα κείμενα είναι διαθέσιμα υπό την άδεια <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.el">Creative Commons Attribution/Share-Alike</a>, μπορεί να ισχύουν πρόσθετοι όροι. Δείτε τους <a href='http://wikimediafoundation.org/wiki/%CE%8C%CF%81%CE%BF%CE%B9_%CE%A7%CF%81%CE%AE%CF%83%CE%B7%CF%82'>Όρους Χρήσης</a> για λεπτομέρειες. Το όνομα «Wikipedia» είναι κατοχυρωμένο σήμα του <a href='http://www.wikimediafoundation.org/'>Ιδρύματος Wikimedia, Inc.</a>, ενός μη κερδοσκοπικού οργανισμού.
 disable_button: Απενεργοποίηση
 error_page_text: Η κινητή Βικιπαίδεια είναι ακόμα υπό ανάπτυξη και δουλεύουμε σκληρά για να διορθωθούν όλα τα εσωτερικά μας σφάλματα. Έχουμε ειδοποιηθεί για αυτό το σφάλμα και θα φτιαχθεί σύντομα. Παρακαλώ ελέγξτε ξανά!
 error_page_title: Έχουμε πρόβλημα!

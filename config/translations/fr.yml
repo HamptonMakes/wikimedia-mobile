@@ -1,6 +1,7 @@
 # Messages for French (Français)
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: Dalinanir
 # Author: Dodoïste
 # Author: IAlex
 # Author: Jastrow
@@ -29,10 +30,10 @@ nav_history: Historique
 nav_top: Haut
 no_article_found: Aucun titre de page ne correspond à la recherche
 perm_stop_redirect: Désactiver le site mobile de manière permanente
-random_button: Au hasard
+random_button: S zhr.
 regular_wikipedia: Afficher cette page sur Wikipédia classique
 search_results: Résultats de la recherche
-search_submit: Lire
+search_submit: Ftu siǧl
 search_text: Rechercher
 show_button: Afficher
 wikipedia: Wikipédia
