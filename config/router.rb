@@ -45,9 +45,9 @@ Merb::Router.prepare do
         
         # File namespace
         if strings['file_namespace']
-          regex = Regexp.new("\/#{strings['file_namespace']}:(.*)")
+          regex = Regexp.new("\/(#{strings['file_namespace']}):(.*)")
           puts regex.inspect
-          varm.match(regex).to(:action => "file", :file => "[3]")
+          varm.match(regex).to(:action => "file", :file => "[4]", :file_namespace => "[3]")
         end
       end
     end
