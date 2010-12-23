@@ -19,12 +19,13 @@ error_page_text: Die mobile Wikipedia-Version befindet sich noch in der Entwickl
 error_page_title: Es gibt ein Problem!
 explain_disable: Bist du dir sicher, die mobile Wikipedia-Version zu deaktivieren? Wenn du <b>Deaktivieren</b> wählst, wirst du von nun an bei einem Besuch von Wikipedia nicht mehr automatisch auf die mobile Wikipedia-Version weitergeleitet.
 featured_article: Artikel des Tages
+file_namespace: Datei
 hide_button: Ausblenden
 home_button: Start
 in_the_news: In den Nachrichten
 nav_edit: Bearbeiten
 nav_end: Ende
-nav_history: Versionsgeschichte
+nav_history: Verlauf
 nav_top: Oben
 no_article_found: Kein Artikel gefunden
 perm_stop_redirect: Mobile Version dauerhaft deaktivieren
@@ -33,5 +34,5 @@ regular_wikipedia: Zur klassischen Wikipedia-Version wechseln
 search_results: Suchergebnisse
 search_submit: Los
 search_text: Suche
-show_button: Zeige
+show_button: Anzeigen
 wikipedia: Wikipedia

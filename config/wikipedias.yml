@@ -155,8 +155,10 @@ it:
   mobile_main_page: Pagina_Principale_%28mobile%29
 sv:
   mobile_main_page: Portal:Huvudsida_%28mobil%29
+'no':
+  mobile_main_page: Portal:Forside_%28mobil%29
 da:
-  mobile_main_page: Forside_(mobil)
+  mobile_main_page: Forside (mobil)
 et:
   mobile_main_page: Portaal:Esileht_(mobiilseadmetele)
 el:
