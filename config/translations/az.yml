@@ -1,12 +1,22 @@
 # Messages for Azerbaijani (Azərbaycanca)
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: PPerviz
 # Author: Sortilegus
+back_button: Geri
 error_page_title: Bizim problemimiz var!
 featured_article: Günün seçilmiş məqaləsi
+file_namespace: Fayl
 hide_button: Gizlət
+home_button: Ana səhifə
 in_the_news: Xəbərlər
+nav_edit: Redaktə
+nav_end: Son
+nav_history: Tarixçə
 no_article_found: Məqalə tapılmadı
 random_button: Təsadüfi
 search_results: Axtarışın nəticələri
+search_submit: Get
+search_text: Axtar
 show_button: Göstər
+wikipedia: Vikipediya

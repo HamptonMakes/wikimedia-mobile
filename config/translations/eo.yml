@@ -4,9 +4,11 @@
 # Author: Iketsi
 # Author: Lucas
 # Author: Michawiki
+# Author: Mihxil
 # Author: Petrus Adamus
 # Author: Yekrats
 are_you_sure: Ĉu vi certas ?
+author_link: Spektu tiun ĉi aŭdvidan dosieron je normala Vikipedio por vidu informojn pri aŭtoro, permisloj kaj kromaj priskriboj.
 back_button: Reen
 back_to_top_of_section: Je sekcio reen
 contact_us: Se vi havas iujn ajn demandojn aŭ komentojn, bonvolu retpoŝti nin ĉe mobile@wikipedia.org
@@ -17,6 +19,7 @@ error_page_text: Movebla Vikipedio ankoraŭ estas evoluigata kaj ni tre klopodas
 error_page_title: Ni havas problemon!
 explain_disable: Ĉu vi vere volas malfunkciigi la moveblan version de Vikipedio? Se vi elektas <b>Malfunkciigi</b> tiam de nun vi ne plu estas redirektata al ĉi tiu movebla vido de Vikipedio, kiam vi vizitas Vikipedion.
 featured_article: Artikolo prezentita hodiaŭ
+file_namespace: Dosiero
 hide_button: Kaŝi
 home_button: Ĉefpaĝo
 in_the_news: Aktuale

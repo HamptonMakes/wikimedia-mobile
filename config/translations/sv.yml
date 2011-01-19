@@ -6,16 +6,20 @@
 # Author: Ozp
 # Author: Per
 # Author: Sertion
+# Author: Tobulos1
 are_you_sure: Är du säker?
+author_link: Visa den här mediefilen på Wikipedia för att se information om dess upphovsman, licensiering och ytterligare beskrivningar.
 back_button: Tillbaka
 back_to_top_of_section: Hoppa ett avsnitt bakåt
 contact_us: Om du har några frågor eller kommentarer får du gärna skicka ett e-post till mobile@wikipedia.org
 copyright: Text är tillgänglig under <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.sv'>Creative Commons Erkännande/Dela Lika-licens</a>; ytterligare villkor kan gälla. Se <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Villkor</a> för detaljer. Wikipedia är ett registrerat varumärke av den ideella organisationen <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>
 disable_button: Inaktivera
+download_full_version: Ladda ner Full Version
 error_page_text: Wikipedia mobil är fortfarande under aktiv utveckling och vi jobbar hårt for att fixa alla interna fel. Vi har blivit meddelade om detta fel och kommer att fixa det snart. Kom gärna tillbaka lite senare!
 error_page_title: Vi har ett problem!
 explain_disable: Är du säker på att du vill inaktivera den mobila versionen av Wikipedia? Om du väljer <b>Inaktivera</b>, kommer du från och med nu, varje gång du besöker Wikipedia, inte bli omdirigerad till denna mobila version av Wikipedia.
 featured_article: Dagens utvalda artikel
+file_namespace: Fil
 hide_button: Göm
 home_button: Huvudsida
 in_the_news: På nyheterna

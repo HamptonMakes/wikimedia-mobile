@@ -3,26 +3,29 @@
 # Export driver: syck
 # Author: Sasan700
 are_you_sure: Хьан шéко йуй?
+author_link: Хьажа хlокху шагойтучу-хlумне майарра Википедийа чохь, куьгдех болу хаам хаарна, бакъонаш а кхин тlе хаамаш.
 back_button: Юхаяккха
-back_to_top_of_section: Юхагlо оцу дакъан
+back_to_top_of_section: Юхагlо оцу даакъан
 contact_us: Нагахь шу хаттар далахь йа билгалдаккхар, дехар до, яздайш тхоьга оцу чу mobile@wikipedia.org
 copyright: Йоза тlекхочучехь ду оцу хьола бакъойаларца <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution/Share-Alike</a>, цхьайолчу хенахь хила мега хьоле хьаьжжина локхаллий таронца. Мадарра хьажа. <a href="http://wikimediafoundation.org/wiki/Terms_of_Use/ce">Лелоран хьал</a>. «Wikipedia» — дlаязъйинайолу йохкаэцар доцуш вовшахтохаран <a href='http://www.wikimediafoundation.org/'>«Хьундуз Викимедийа»</a>.
 disable_button: Дlакъовла
+download_full_version: Чуйаккха йуззина башхо
 error_page_text: Аттон Википедийа хlинца а жигар белхаца а кхолламяхь йу, оха тхайна далуриг деш ду, тхай чоьхьара гlалаташ дlадохуш. Тхуна хаам кхечира оцу гlалатах а ойлайу иза мяллаа сихо нисйа. Дехар до, хьажа йуху а жим хан ялча.
-error_page_title: Тхоьхь хало ю!
-explain_disable: Хьо тéшнавуй, хlара Википедийн лерагlирс башхо дlакъовларна? Нагахь ахьа харжахь <b>Дlакъовла</b>, тlаккха хьо йуху чуволуш Википедийна, хьо хьажор вац оцу карахь лолайочу лерагlирса аттон башхоне.
+error_page_title: Тхоьхь хало йу!
+explain_disable: Хьо тéшнавуй, хlара Википедийн лерагlирс варси дlакъовларна? Нагахь ахьа харжахь <b>Дlакъовла</b>, тlаккха хьо йуху чуволуш Википедийна, хьо хьажор вац оцу карахь лолайочу лерагlирса аттон варсийн.
 featured_article: Хаьржина яззам
+file_namespace: Хlум
 hide_button: Къайла яккха
 home_button: Цlехьа
 in_the_news: Хаамаш
 nav_edit: Нисйé
 nav_end: Тlеххьа
-nav_history: Исцlарера
+nav_history: Исторе
 nav_top: Юьхьигé
 no_article_found: Кара цайина агlо
 perm_stop_redirect: Дlакъовли лерагlирса меттиг
 random_button: Нисделларг
-regular_wikipedia: Хьажа гуттаралера Википедийа агоне
+regular_wikipedia: Хьажа гуттаралера Википедийа агlоне
 search_results: Лахарна хилам
 search_submit: Дехьа вала
 search_text: Лахар

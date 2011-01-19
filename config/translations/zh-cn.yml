@@ -2,10 +2,11 @@
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: Hydra
+# Author: Mmyangfl
 # Author: Mys 721tx
 # Author: PhiLiP
 # Author: Shizhao
-are_you_sure: 你确定吗？
+are_you_sure: 您确定吗？
 back_button: 后退
 back_to_top_of_section: 向后跳一节
 contact_us: 如果你有任何问题或建议请给我们发送电子邮件到mobile@wikipedia.org
@@ -16,6 +17,7 @@ error_page_text: 维基百科手机版尚在开发之中，我们正在努力修
 error_page_title: 我们遇到麻烦了！
 explain_disable: 您确定您想要禁用维基百科的移动版本？如果您选择<b>禁用</b>，那么从现在开始，当您访问维基百科时，您不会被重定向到维基百科的这个移动视图。
 featured_article: 特色条目
+file_namespace: 文件
 hide_button: 隐藏
 home_button: 首页
 in_the_news: 新闻动态
@@ -30,5 +32,5 @@ regular_wikipedia: 在原版维基百科浏览本页
 search_results: 搜索结果
 search_submit: 进入
 search_text: 搜索
-show_button: 展开
+show_button: 显示
 wikipedia: 维基百科

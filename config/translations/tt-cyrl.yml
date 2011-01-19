@@ -1,17 +1,21 @@
 # Messages for Tatar (Cyrillic) (Татарча/Tatarça (Cyrillic))
 # Exported from translatewiki.net
 # Export driver: syck
+# Author: Ильнар
 # Author: Рашат Якупов
 are_you_sure: Шигегез юкмы?
+author_link: Әлеге медиа-файлны гади Википедия бизәлешендә карыгыз. Анда бу файлның авторлыгы, лицензиясе һәм башка мәгълүматлары бирелгән.
 back_button: Артка
 back_to_top_of_section: Бер бүлеккә артка
 contact_us: Әгәр сездә сораулар булса, безгә mobile@wikipedia.org адресына языгыз.
 copyright: Текст <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution/Share-Alike</a> лицензиясе шартларында ачык, махсус очракларда өстәмә шартлар кулланыла ала. Күбрәк <a href='http://wikimediafoundation.org/wiki/Terms_of_Use/ru'>Условия использования</a> кара. «Wikipedia» — <a href='http://www.wikimediafoundation.org/'>«Викимедиа фонды»</a> табышсыз оешманың теркәлгән сәүдә маркасы.
 disable_button: Сүндерергә
+download_full_version: Тулы юраманы алу
 error_page_text: Мобиль Википедия әле актив җитештерү стадиясендә, һәм без эчке хаталарны төзәтүгә бөтен көчләребезне куябыз. Без бу хата турында хәбәрдар булдык, һәм аны тиздән төзәтәчәкбез. Зинһар, бераз вакыттан соң тикшерегез!
 error_page_title: Бездә проблема!
 explain_disable: Сез Википедиянең мобиль версиясен чыннап сүндерергә телисезме? Әгәр сез <b>Сүндерергә</b> төймәсен сайласагыз, киләсе тапкыр Википедиягә кергәндә, Сез мобиль версиягә автоматик рәвештә юнәлтелмәячәксез.
 featured_article: Көннең сайланган мәкаләсе
+file_namespace: Файл
 hide_button: Яшерү
 home_button: Өйгә
 in_the_news: Хәбәрләр

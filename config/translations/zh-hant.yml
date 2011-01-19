@@ -5,16 +5,21 @@
 # Author: Horacewai2
 # Author: Liangent
 # Author: MM21
+# Author: Mark85296341
+# Author: Waihorace
 are_you_sure: 你確定嗎？
-back_button: 後退
-back_to_top_of_section: 向後跳一節
+author_link: 在維基百科主站上檢視這一媒體檔案的作者、許可協議和其他附加說明。
+back_button: 返回
+back_to_top_of_section: 跳轉至前一段落
 contact_us: 如果您有任何問題或意見，請隨時給我們發電子郵件 (mobile@wikipedia.org)
 copyright: "本站的全部文字在<a href='http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0协议文本>共享創意 姓名標示-相同方式分享 3.0 協議之條款下提供，附加條款亦可能應用。（請參閱<a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>使用條款）\nWikipedia®和維基百科標誌是<a href='http://www.wikimediafoundation.org/'>維基媒體基金會的註冊商標；維基™是維基媒體基金會的商標。\n維基媒體基金會是在美國佛羅里達州登記的501(c)(3)<a href='http://wikimediafoundation.org/wiki/资助的免税政策'>免稅</a>、非營利、慈善機構。"
 disable_button: 禁用
-error_page_text: 行動版維基百科仍然在開發當中，我們正在不斷修復其錯誤的地方。我們經已收到了這次錯誤的信息，並將會盡快修復。請稍後再到此頁，謝謝！
-error_page_title: 發生故障
-explain_disable: 您確定您想要禁用維基百科的移動版本？如果您選擇<b>禁用</b>，那麼從現在開始，當您訪問維基百科時，您不會被重定向到維基百科的這個移動視圖。
+download_full_version: 下載完整版本
+error_page_text: 行動版維基百科仍然在開發當中，我們正在不斷修復其錯誤的地方。我們已收到了這次錯誤的通知，並將會盡快修復。請稍後再到此頁，謝謝！
+error_page_title: 發生故障！
+explain_disable: 您確定您想要停用維基百科的行動版本？如果您選擇<b>停用</b>，那麼從現在開始，當您訪問維基百科時，您不會被重定向到維基百科的這個行動版畫面。
 featured_article: 特色條目
+file_namespace: 檔案
 hide_button: 隱藏
 home_button: 首頁
 in_the_news: 新聞動態
@@ -23,11 +28,11 @@ nav_end: 結束
 nav_history: 歷史
 nav_top: 頂端
 no_article_found: 找不到相關條目
-perm_stop_redirect: 以後不載入流動版維基百科
+perm_stop_redirect: 永久禁用移動版網站
 random_button: 隨機條目
 regular_wikipedia: 在原版維基百科瀏覽此頁
 search_results: 搜尋結果
 search_submit: 進入
-search_text: 搜索
+search_text: 搜尋
 show_button: 顯示
 wikipedia: 維基百科

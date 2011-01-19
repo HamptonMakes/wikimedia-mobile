@@ -17,6 +17,7 @@ error_page_text: Wikipedian mobiiliversiota kehitetään jatkuvasti, ja työsken
 error_page_title: Virhetilanne
 explain_disable: Oletko varma, että haluat poistaa mobiiliversion Wikipediasta? Jos valitset <b>Poista käytöstä</b>, niin tästä lähtien, kun käyt Wikipediassa, et ohjaudu tähän Wikipedian mobiilinäkymään.
 featured_article: Suositeltu artikkeli
+file_namespace: Tiedosto
 hide_button: Piilota
 home_button: Etusivu
 in_the_news: Ajankohtaista

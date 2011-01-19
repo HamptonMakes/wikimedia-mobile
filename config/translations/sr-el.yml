@@ -1,31 +1,35 @@
-# Messages for Serbian Latin ekavian (Srpski (latinica))
+# Messages for Serbian Latin ekavian (‪Srpski (latinica)‬)
 # Exported from translatewiki.net
 # Export driver: syck
 # Author: Charmed94
 # Author: Michaello
-are_you_sure: Da li ste sigurni?
+# Author: Rancher
+are_you_sure: Jeste li sigurni?
+author_link: Prikaži ovu datoteku na običnoj Vikipediji za pregled podataka o autorskim pravima, licenciranju i dodatnim opisima.
 back_button: Nazad
-back_to_top_of_section: Vrati se na prethodni odeljak
+back_to_top_of_section: Vrati me na prethodni odeljak
 contact_us: Ako imate bilo kakvih pitanja ili primedbi, slobodno nam pišite na mobile@wikipedia.org
-copyright: Ovaj tekst je dostupan pod <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Autorstvom/Deliti pod istim uslovima licencom</a>; mogao bi biti podložan i dodatnim uslovima. Vidite <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>uslove korišćenja</a> za više informacija. Vikipedija je registrovani znak <a href='http://www.wikimediafoundation.org/'>Vikimedijine Fondacije, Inc.</a>, neprofitne organizacije.
+copyright: Ovaj tekst je dostupan pod licencom <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Kriejtiv komons Autorstvo-Deliti pod istim uslovima </a>; mogao bi biti podložan i dodatnim uslovima. Pogledajte <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>uslove korišćenja</a> za detalje. Vikipedija je registrovani znak <a href='http://www.wikimediafoundation.org/'>Vikimedijine fondacije</a>, neprofitne organizacije.
 disable_button: Onemogući
-error_page_text: Mobilna Vikipedija je još uvek u fazi aktivnog razvoja, i mi radimo istrajno na popravci svih unutrašnjih grešaka. Obavešteni smo o ovoj grešci i popravićemo je uskoro. Svratite nam opet!
-error_page_title: Imamo problem sa sajtom!
-explain_disable: Da li ste sigurni da želite da onemogućite mobilno izdanje Vikipedije? Ako izaberete <b>Onemogući</b>, od sada pa nadalje nećete biti preusmereni na ovaj mobilni prikaz kada posetite Vikipediju.
+download_full_version: Preuzmi puno izdanje
+error_page_text: Mobilna Vikipedija je još uvek u fazi aktivnog razvoja i radimo naporno na popravci svih unutrašnjih grešaka. Obavešteni smo o ovoj grešci i ispravićemo je uskoro. Svratite nam opet!
+error_page_title: Došlo je do problema!
+explain_disable: Želite li da onemogućite mobilno izdanje Vikipedije? Ako izaberete <i>Onemogući</i>, od sada pa nadalje nećete biti preusmeravani na ovaj mobilni prikaz kada posetite Vikipediju.
 featured_article: Današnji izabrani članak
+file_namespace: Datoteka
 hide_button: Sakrij
-home_button: Na početak
-in_the_news: U vestima
+home_button: Početak
+in_the_news: Vesti
 nav_edit: Uredi
 nav_end: Kraj
 nav_history: Istorijat
 nav_top: Vrh
 no_article_found: Članak nije pronađen
-perm_stop_redirect: Trajno onemogući mobilni sajt
-random_button: Slučajna strana
-regular_wikipedia: Poseti ovu stranu na običnoj Vikipediji
+perm_stop_redirect: Trajno onemogući mobilni prikaz
+random_button: Nasumice
+regular_wikipedia: Prikaži ovu stranicu na običnoj Vikipediji
 search_results: Rezultati pretrage
-search_submit: Idi
+search_submit: Pređi
 search_text: Pretraga
 show_button: Prikaži
 wikipedia: Vikipedija
