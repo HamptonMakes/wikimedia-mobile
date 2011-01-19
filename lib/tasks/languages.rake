@@ -31,7 +31,7 @@ namespace :lang do
 
     languages.each do |lang|
       
-      code = lang.text
+      code = lang.text.strip
       if code =~ /^[-a-z]+$/ && code != "en" && code != "zh"
         puts "Loading: " + code
       #begin
