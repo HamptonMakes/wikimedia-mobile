@@ -90,7 +90,7 @@ class Articles < Application
     when :json
       json = JSON.dump(block.call)
       if params[:callback]
-        json = "#{params[:callback]}(#{json})"
+        json = "#{URI::escape(params[:callback])}(#{json})"
         
         if(request.device.format_name == :native_iphone)
           json = NativeAppHack.js + "\n" + json
