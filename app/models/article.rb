@@ -91,7 +91,7 @@ class Article < Wikipedia::Resource
 
   def to_hash(device)
     @device = device
-    {:title => self.title, :html => self.html}
+    {:title => self.title.gsub(/[><]*/, ""), :html => self.html}
   end
   
   def key
