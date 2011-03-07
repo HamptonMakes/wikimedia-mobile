@@ -100,7 +100,7 @@ class Articles < Application
           json = ""
         end
       end
-      render json, :format => :json
+      send_data json, :format => :json, :disposition => "attachment"
     else
       case content_type
       when :wml
