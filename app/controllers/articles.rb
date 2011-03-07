@@ -95,6 +95,10 @@ class Articles < Application
         if(request.device.format_name == :native_iphone)
           json = NativeAppHack.js + "\n" + json
         end
+        
+        if ["html", "htm"].include?(current_name.split(".").last)
+          json = ""
+        end
       end
       render json, :format => :json
     else
