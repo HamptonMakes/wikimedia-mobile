@@ -3,91 +3,32 @@
 # Export driver: syck-pecl
 # Author: Minh Nguyen
 # Author: Vinhtantran
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipedia"
-
-? "download_full_version"
-: "T\xE1\xBA\xA3i xu\xE1\xBB\x91ng phi\xC3\xAAn b\xE1\xBA\xA3n \xC4\x91\xE1\xBA\xA7y \xC4\x91\xE1\xBB\xA7"
-
-? "nav_end"
-: "Cu\xE1\xBB\x91i"
-
-? "home_button"
-: "Trang \xC4\x91\xE1\xBA\xA7u"
-
-? "copyright"
-: "V\xC4\x83n b\xE1\xBA\xA3n \xC4\x91\xC6\xB0\xE1\xBB\xA3c ph\xC3\xA1t h\xC3\xA0nh theo <a href='http://vi.wikipedia.org/wiki/Wikipedia:Nguy\xC3\xAAn_v\xC4\x83n_Gi\xE1\xBA\xA5y_ph\xC3\xA9p_Creative_Commons_Ghi_c\xC3\xB4ng\xE2\x80\x93Chia_s\xE1\xBA\xBB_t\xC6\xB0\xC6\xA1ng_t\xE1\xBB\xB1_phi\xC3\xAAn_b\xE1\xBA\xA3n_3.0_Ch\xC6\xB0a_chuy\xE1\xBB\x83n_\xC4\x91\xE1\xBB\x95i?uselang=vi'>Gi\xE1\xBA\xA5y ph\xC3\xA9p Creative Commons Ghi c\xC3\xB4ng\xE2\x80\x93Chia s\xE1\xBA\xBB t\xC6\xB0\xC6\xA1ng t\xE1\xBB\xB1</a>; c\xC3\xB3 th\xE1\xBB\x83 \xC3\xA1p d\xE1\xBB\xA5ng \xC4\x91i\xE1\xBB\x81u kho\xE1\xBA\xA3n b\xE1\xBB\x95 sung. Xem <a href='http://wikimediafoundation.org/wiki/\xC4\x90i\xE1\xBB\x81u_kho\xE1\xBA\xA3n_S\xE1\xBB\xAD_d\xE1\xBB\xA5ng?uselang=vi'>\xC4\x90i\xE1\xBB\x81u kho\xE1\xBA\xA3n S\xE1\xBB\xAD d\xE1\xBB\xA5ng</a> \xC4\x91\xE1\xBB\x83 bi\xE1\xBA\xBFt th\xC3\xAAm chi ti\xE1\xBA\xBFt. Wikipedia l\xC3\xA0 th\xC6\xB0\xC6\xA1ng hi\xE1\xBB\x87u \xC4\x91\xC3\xA3 \xC4\x91\xC4\x83ng k\xC3\xBD c\xE1\xBB\xA7a <a href='http://www.wikimediafoundation.org/wiki/Trang_ch\xE1\xBB\xA7?uselang=vi'>Wikimedia Foundation, Inc.</a>, m\xE1\xBB\x99t t\xE1\xBB\x95 ch\xE1\xBB\xA9c phi l\xE1\xBB\xA3i nhu\xE1\xBA\xADn."
-
-? "disable_button"
-: "T\xE1\xBA\xAFt"
-
-? "nav_edit"
-: "S\xE1\xBB\xADa \xC4\x91\xE1\xBB\x95i"
-
-? "in_the_news"
-: "Tin t\xE1\xBB\xA9c"
-
-? "search_results"
-: "K\xE1\xBA\xBFt qu\xE1\xBA\xA3 t\xC3\xACm ki\xE1\xBA\xBFm"
-
-? "explain_disable"
-: "B\xE1\xBA\xA1n c\xC3\xB3 ch\xE1\xBA\xAFc mu\xE1\xBB\x91n t\xE1\xBA\xAFt phi\xC3\xAAn b\xE1\xBA\xA3n di \xC4\x91\xE1\xBB\x99ng c\xE1\xBB\xA7a Wikipedia? N\xE1\xBA\xBFu ch\xE1\xBB\x8Dn <b>T\xE1\xBA\xAFt</b>, t\xE1\xBB\xAB nay b\xE1\xBA\xA1n s\xE1\xBA\xBD \xC4\x91\xC6\xB0\xE1\xBB\xA3c \xC4\x91\xE1\xBB\x95i h\xC6\xB0\xE1\xBB\x9Bng \xC4\x91\xE1\xBA\xBFn phi\xC3\xAAn b\xE1\xBA\xA3n th\xC6\xB0\xE1\xBB\x9Dng c\xE1\xBB\xA7a Wikipedia."
-
-? "back_to_top_of_section"
-: "Nh\xE1\xBA\xA3y v\xE1\xBB\x81 \xC4\x91\xE1\xBA\xA7u ph\xE1\xBA\xA7n"
-
-? "featured_article"
-: "B\xC3\xA0i vi\xE1\xBA\xBFt ch\xE1\xBB\x8Dn l\xE1\xBB\x8Dc"
-
-? "nav_history"
-: "L\xE1\xBB\x8Bch s\xE1\xBB\xAD"
-
-? "error_page_text"
-: "Wikipedia Di \xC4\x91\xE1\xBB\x99ng v\xE1\xBA\xABn \xC4\x91ang \xC4\x91\xC6\xB0\xE1\xBB\xA3c ph\xC3\xA1t tri\xE1\xBB\x83n v\xC3\xA0 ch\xC3\xBAng t\xC3\xB4i \xC4\x91ang n\xE1\xBB\x97 l\xE1\xBB\xB1c s\xE1\xBB\xADa t\xE1\xBA\xA5t c\xE1\xBA\xA3 c\xC3\xA1c l\xE1\xBB\x97i n\xE1\xBB\x99i b\xE1\xBB\x99. Ch\xC3\xBAng t\xC3\xB4i \xC4\x91\xC3\xA3 \xC4\x91\xC6\xB0\xE1\xBB\xA3c th\xC3\xB4ng b\xC3\xA1o v\xE1\xBB\x81 l\xE1\xBB\x97i n\xC3\xA0y v\xC3\xA0 s\xE1\xBA\xBD s\xE1\xBB\x9Bm s\xE1\xBB\xADa n\xC3\xB3. H\xC3\xA3y gh\xC3\xA9 th\xC4\x83m l\xE1\xBA\xA1i!"
-
-? "file_namespace"
-: "T\xE1\xBA\xADp tin"
-
-? "perm_stop_redirect"
-: "T\xE1\xBA\xAFt h\xE1\xBA\xB3n website di \xC4\x91\xE1\xBB\x99ng"
-
-? "back_button"
-: "Tr\xE1\xBB\x9F v\xE1\xBB\x81"
-
-? "search_submit"
-: "Xem"
-
-? "no_article_found"
-: "Kh\xC3\xB4ng t\xC3\xACm th\xE1\xBA\xA5y b\xC3\xA0i"
-
-? "show_button"
-: "Hi\xE1\xBB\x87n"
-
-? "regular_wikipedia"
-: "\xC4\x90\xE1\xBB\x8Dc trang n\xC3\xA0y t\xE1\xBA\xA1i Wikipedia b\xC3\xACnh th\xC6\xB0\xE1\xBB\x9Dng"
-
-? "contact_us"
-: "N\xE1\xBA\xBFu b\xE1\xBA\xA1n c\xC3\xB3 c\xC3\xA2u h\xE1\xBB\x8Fi ho\xE1\xBA\xB7c nh\xE1\xBA\xADn x\xC3\xA9t g\xC3\xAC, xin vui l\xC3\xB2ng g\xE1\xBB\xADi th\xC6\xB0 cho ch\xC3\xBAng t\xC3\xB4i t\xE1\xBA\xA1i mobile@wikipedia.org"
-
-? "error_page_title"
-: "Th\xE1\xBA\xADt l\xC3\xA0 x\xE1\xBA\xA5u h\xE1\xBB\x95 qu\xC3\xA1!"
-
-? "search_text"
-: "T\xC3\xACm ki\xE1\xBA\xBFm"
-
-? "nav_top"
-: "\xC4\x90\xE1\xBA\xA7u"
-
-? "author_link"
-: "Xem th\xC3\xB4ng tin t\xC3\xA1c gi\xE1\xBA\xA3, gi\xE1\xBA\xA5y ph\xC3\xA9p, v\xC3\xA0 mi\xC3\xAAu t\xE1\xBA\xA3 \xC4\x91\xE1\xBA\xA7y \xC4\x91\xE1\xBB\xA7 c\xE1\xBB\xA7a t\xE1\xBA\xADp tin ph\xC6\xB0\xC6\xA1ng ti\xE1\xBB\x87n n\xC3\xA0y t\xE1\xBA\xA1i Wikipedia b\xC3\xACnh th\xC6\xB0\xE1\xBB\x9Dng."
-
-? "are_you_sure"
-: "B\xE1\xBA\xA1n c\xC3\xB3 ch\xE1\xBA\xAFc kh\xC3\xB4ng?"
-
-? "hide_button"
-: "\xE1\xBA\xA8n"
-
-? "random_button"
-: "Ng\xE1\xBA\xABu nhi\xC3\xAAn"
-
+are_you_sure: Bạn có chắc không?
+author_link: Xem thông tin tác giả, giấy phép, và miêu tả đầy đủ của tập tin phương tiện này tại Wikipedia bình thường.
+back_button: Trở về
+back_to_top_of_section: Nhảy về đầu phần
+contact_us: Nếu bạn có câu hỏi hoặc nhận xét gì, xin vui lòng gửi thư cho chúng tôi tại mobile@wikipedia.org
+copyright: Văn bản được phát hành theo <a href='http://vi.wikipedia.org/wiki/Wikipedia:Nguyên_văn_Giấy_phép_Creative_Commons_Ghi_công–Chia_sẻ_tương_tự_phiên_bản_3.0_Chưa_chuyển_đổi?uselang=vi'>Giấy phép Creative Commons Ghi công–Chia sẻ tương tự</a>; có thể áp dụng điều khoản bổ sung. Xem <a href='http://wikimediafoundation.org/wiki/Điều_khoản_Sử_dụng?uselang=vi'>Điều khoản Sử dụng</a> để biết thêm chi tiết. Wikipedia là thương hiệu đã đăng ký của <a href='http://www.wikimediafoundation.org/wiki/Trang_chủ?uselang=vi'>Wikimedia Foundation, Inc.</a>, một tổ chức phi lợi nhuận.
+disable_button: Tắt
+download_full_version: Tải xuống phiên bản đầy đủ
+error_page_text: Wikipedia Di động vẫn đang được phát triển và chúng tôi đang nỗ lực sửa tất cả các lỗi nội bộ. Chúng tôi đã được thông báo về lỗi này và sẽ sớm sửa nó. Hãy ghé thăm lại!
+error_page_title: Thật là xấu hổ quá!
+explain_disable: Bạn có chắc muốn tắt phiên bản di động của Wikipedia? Nếu chọn <b>Tắt</b>, từ nay bạn sẽ được đổi hướng đến phiên bản thường của Wikipedia.
+featured_article: Bài viết chọn lọc
+file_namespace: Tập tin
+hide_button: Ẩn
+home_button: Trang đầu
+in_the_news: Tin tức
+nav_edit: Sửa đổi
+nav_end: Cuối
+nav_history: Lịch sử
+nav_top: Đầu
+no_article_found: Không tìm thấy bài
+perm_stop_redirect: Tắt hẳn website di động
+random_button: Ngẫu nhiên
+regular_wikipedia: Đọc trang này tại Wikipedia bình thường
+search_results: Kết quả tìm kiếm
+search_submit: Xem
+search_text: Tìm kiếm
+show_button: Hiện
+wikipedia: Wikipedia

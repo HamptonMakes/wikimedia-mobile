@@ -2,25 +2,10 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Iketsi
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipedia"
-
-? "home_button"
-: "Fran pes"
-
-? "nav_edit"
-: "Senisim"
-
-? "in_the_news"
-: "Nius"
-
-? "search_submit"
-: "Go"
-
-? "search_text"
-: "Painim"
-
-? "random_button"
-: "Wanpela pes"
-
+home_button: Fran pes
+in_the_news: Nius
+nav_edit: Senisim
+random_button: Wanpela pes
+search_submit: Go
+search_text: Painim
+wikipedia: Wikipedia

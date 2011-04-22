@@ -3,91 +3,32 @@
 # Export driver: syck-pecl
 # Author: Dbc334
 # Author: Smihael
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipedija"
-
-? "download_full_version"
-: "Prenos polne razli\xC4\x8Dice"
-
-? "nav_end"
-: "Dno"
-
-? "home_button"
-: "Domov"
-
-? "copyright"
-: "Besedilo je na razpolago pod <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\">dovoljenjem Creative Commons Priznanje avtorstva-Deljenje pod enakimi pogoji 3.0</a>; dodatni pogoji se lahko uveljavljajo. Glej <a href=\"http://wikimediafoundation.org/wiki/Terms_of_Use\">Pogoje uporabe</a> za podrobnosti. Wikipedia je registrirana blagovna znamka neprofitne organizacije <a href='http://www.wikimediafoundation.org/'>Foundacija Wikimedia, Inc.</a>"
-
-? "disable_button"
-: "Onemogo\xC4\x8Di"
-
-? "nav_edit"
-: "Uredi"
-
-? "in_the_news"
-: "V novicah"
-
-? "search_results"
-: "Rezultati iskanja"
-
-? "explain_disable"
-: "Ste prepri\xC4\x8Dani, da \xC5\xBEelite onemogo\xC4\x8Diti mobilno razli\xC4\x8Dico Wikipedije? \xC4\x8Ce izberete <b>Onemogo\xC4\x8Di</b>, od zdaj naprej, ko boste obiskali Wikipedijo, ne boste preusmerjeni na ta mobilni pogled Wikipedije."
-
-? "back_to_top_of_section"
-: "Sko\xC4\x8Di nazaj za oddelek"
-
-? "featured_article"
-: "Dana\xC5\xA1nji izbrani \xC4\x8Dlanek"
-
-? "nav_history"
-: "Zgodovina"
-
-? "error_page_text"
-: "Mobilna Wikipedija je \xC5\xA1e vedno v aktivnem razvoju in trudimo pri odpravljanju vseh na\xC5\xA1ih notranjih napak. O tej napaki smo bili obve\xC5\xA1\xC4\x8Deni  in jo bomo kmalu odpravili. Prosimo, obi\xC5\xA1\xC4\x8Dite nas kmalu!"
-
-? "file_namespace"
-: "Datoteka"
-
-? "perm_stop_redirect"
-: "Trajno onemogo\xC4\x8Di mobilno spletno stran"
-
-? "back_button"
-: "Nazaj"
-
-? "search_submit"
-: "Pojdi"
-
-? "no_article_found"
-: "Najden ni bil noben \xC4\x8Dlanek"
-
-? "show_button"
-: "poka\xC5\xBEi"
-
-? "regular_wikipedia"
-: "Oglejte si to stran v navadnem na\xC4\x8Dinu"
-
-? "contact_us"
-: "\xC4\x8Ce imate kakr\xC5\xA1na koli vpra\xC5\xA1anja ali pripombe, nam prosimo pi\xC5\xA1ite na mobile@wikipedia.org"
-
-? "error_page_title"
-: "Imamo problem!"
-
-? "search_text"
-: "Iskanje"
-
-? "nav_top"
-: "Vrh"
-
-? "author_link"
-: "Oglejte si to predstavnostno datoteko na redni Wikipediji za vpogled v informacije o avtorstvu, licenciranju in dodatnih opisih."
-
-? "are_you_sure"
-: "Ali ste prepri\xC4\x8Dani?"
-
-? "hide_button"
-: "skrij"
-
-? "random_button"
-: "Naklju\xC4\x8Dno"
-
+are_you_sure: Ali ste prepričani?
+author_link: Oglejte si to predstavnostno datoteko na redni Wikipediji za vpogled v informacije o avtorstvu, licenciranju in dodatnih opisih.
+back_button: Nazaj
+back_to_top_of_section: Skoči nazaj za oddelek
+contact_us: Če imate kakršna koli vprašanja ali pripombe, nam prosimo pišite na mobile@wikipedia.org
+copyright: Besedilo je na razpolago pod <a href="http://creativecommons.org/licenses/by-sa/3.0/">dovoljenjem Creative Commons Priznanje avtorstva-Deljenje pod enakimi pogoji 3.0</a>; dodatni pogoji se lahko uveljavljajo. Glej <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Pogoje uporabe</a> za podrobnosti. Wikipedia je registrirana blagovna znamka neprofitne organizacije <a href='http://www.wikimediafoundation.org/'>Foundacija Wikimedia, Inc.</a>
+disable_button: Onemogoči
+download_full_version: Prenos polne različice
+error_page_text: Mobilna Wikipedija je še vedno v aktivnem razvoju in trudimo pri odpravljanju vseh naših notranjih napak. O tej napaki smo bili obveščeni  in jo bomo kmalu odpravili. Prosimo, obiščite nas kmalu!
+error_page_title: Imamo problem!
+explain_disable: Ste prepričani, da želite onemogočiti mobilno različico Wikipedije? Če izberete <b>Onemogoči</b>, od zdaj naprej, ko boste obiskali Wikipedijo, ne boste preusmerjeni na ta mobilni pogled Wikipedije.
+featured_article: Današnji izbrani članek
+file_namespace: Datoteka
+hide_button: skrij
+home_button: Domov
+in_the_news: V novicah
+nav_edit: Uredi
+nav_end: Dno
+nav_history: Zgodovina
+nav_top: Vrh
+no_article_found: Najden ni bil noben članek
+perm_stop_redirect: Trajno onemogoči mobilno spletno stran
+random_button: Naključno
+regular_wikipedia: Oglejte si to stran v navadnem načinu
+search_results: Rezultati iskanja
+search_submit: Pojdi
+search_text: Iskanje
+show_button: pokaži
+wikipedia: Wikipedija

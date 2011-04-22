@@ -2,79 +2,28 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Better
---- %YAML:1.0 
-? "nav_end"
-: "Fin"
-
-? "home_button"
-: "Encetu"
-
-? "copyright"
-: "El testu est\xC3\xA1 disponibri baju la <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Lic\xC3\xA9ncia Creative Commons Attribution/Share-Alike</a>; cl\xC3\xA1usulas adicionalis pu\xC3\xA9n apricalsi. Guipai <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> pa conocel m\xC3\xA1s detallis. G\xC3\xBCiquipeya es una marca rustria la <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, una olganizaci\xC3\xB3n sin \xC3\xA1nimu de lucru."
-
-? "disable_button"
-: "Esatival"
-
-? "nav_edit"
-: "Eital"
-
-? "in_the_news"
-: "Oga\xC3\xB1u"
-
-? "search_results"
-: "Resurtaus del landeu"
-
-? "explain_disable"
-: "Estas siguru de que qui\xC3\xA9s esatival la velsi\xC3\xB3n m\xC3\xB3vil la G\xC3\xBCiquipeya? Si lihis <b>Esatival</b>, a partil d'agora, cuandu vesitis G\xC3\xBCiquipeya, nu sedr\xC3\xA1s rederihiu a la vista m\xC3\xB3vil de G\xC3\xBCiquipeya."
-
-? "back_to_top_of_section"
-: "Dil alatr\xC3\xA1s un apaltihu"
-
-? "featured_article"
-: "Art\xC3\xADculu destacau"
-
-? "nav_history"
-: "Estorial"
-
-? "error_page_text"
-: "La velsi\xC3\xB3n m\xC3\xB3vil de G\xC3\xBCiquipeya est\xC3\xA1 entovia en esarrollu i estamus labutandu entensamenti p'arregral los marrus entelnus. Amus recibiu esti marru i lo arregraremus de que mos vagui. Pol favol, echali una guipaina de vidi en cuandu \xC3\xA1 si el marru \xC3\xA1 siu solventau."
-
-? "perm_stop_redirect"
-: "Esatival el m\xC3\xB3 m\xC3\xB3vil remanentementi"
-
-? "back_button"
-: "Alatr\xC3\xA1s"
-
-? "search_submit"
-: "Dil"
-
-? "no_article_found"
-: "Art\xC3\xADculu nu alcuentrau"
-
-? "show_button"
-: "Muestral"
-
-? "regular_wikipedia"
-: "Guipal esta p\xC3\xA1hina ena G\xC3\xBCiquipeya est\xC3\xA1ndal"
-
-? "contact_us"
-: "Si ti\xC3\xA9s anguna pregunta u suher\xC3\xA9ncia, emp\xC3\xBAntala a mobile@wikipedia.org"
-
-? "error_page_title"
-: "Tenemus un pobrema!"
-
-? "search_text"
-: "Landeal"
-
-? "nav_top"
-: "Arriba"
-
-? "are_you_sure"
-: "Est\xC3\xA1s siguru?"
-
-? "hide_button"
-: "A\xC3\xA7onchal"
-
-? "random_button"
-: "Aleat\xC3\xB3riu"
-
+are_you_sure: Estás siguru?
+back_button: Alatrás
+back_to_top_of_section: Dil alatrás un apaltihu
+contact_us: Si tiés anguna pregunta u suheréncia, empúntala a mobile@wikipedia.org
+copyright: El testu está disponibri baju la <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Licéncia Creative Commons Attribution/Share-Alike</a>; cláusulas adicionalis puén apricalsi. Guipai <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> pa conocel más detallis. Güiquipeya es una marca rustria la <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, una olganización sin ánimu de lucru.
+disable_button: Esatival
+error_page_text: La velsión móvil de Güiquipeya está entovia en esarrollu i estamus labutandu entensamenti p'arregral los marrus entelnus. Amus recibiu esti marru i lo arregraremus de que mos vagui. Pol favol, echali una guipaina de vidi en cuandu á si el marru á siu solventau.
+error_page_title: Tenemus un pobrema!
+explain_disable: Estas siguru de que quiés esatival la velsión móvil la Güiquipeya? Si lihis <b>Esatival</b>, a partil d'agora, cuandu vesitis Güiquipeya, nu sedrás rederihiu a la vista móvil de Güiquipeya.
+featured_article: Artículu destacau
+hide_button: Açonchal
+home_button: Encetu
+in_the_news: Ogañu
+nav_edit: Eital
+nav_end: Fin
+nav_history: Estorial
+nav_top: Arriba
+no_article_found: Artículu nu alcuentrau
+perm_stop_redirect: Esatival el mó móvil remanentementi
+random_button: Aleatóriu
+regular_wikipedia: Guipal esta páhina ena Güiquipeya estándal
+search_results: Resurtaus del landeu
+search_submit: Dil
+search_text: Landeal
+show_button: Muestral

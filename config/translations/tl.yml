@@ -3,91 +3,32 @@
 # Export driver: syck-pecl
 # Author: AnakngAraw
 # Author: Sky Harbor
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipedia"
-
-? "download_full_version"
-: "Ikargang Paibaba ang Buong Bersyon"
-
-? "nav_end"
-: "Wakas"
-
-? "home_button"
-: "Tahanan"
-
-? "copyright"
-: "Makukuha ang teksto sa ilalim ng Lisensyang <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike</a>; maaaring ginagamitan ng karagdagang mga termino. Tingnan <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Mga Termino ng Paggamit</a> para sa mga detalye.  Ang Wikipedia ay isang rehistradong tatak ng <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, isang hindi kumikinabang na organisasyon."
-
-? "disable_button"
-: "Huwag paganahin"
-
-? "nav_edit"
-: "Baguhin"
-
-? "in_the_news"
-: "Mga Kasalukuyang Kaganapan"
-
-? "search_results"
-: "Mga Resulta ng Paghahanap"
-
-? "explain_disable"
-: "Nakatitiyak ka bang nais mong huwag paganahin ang bersyong mobil ng Wikipedia ? Kapag pinili mo ang <b>Huwag paganahin</b> magmula ngayon, kapag dinalaw mo ang Wikipedia, hindi ka dadalhin sa tanawing mobil ng Wikipedia."
-
-? "back_to_top_of_section"
-: "Tumalong Pabalik Ng Isang Seksyon"
-
-? "featured_article"
-: "Napiling Artikulo Ngayon"
-
-? "nav_history"
-: "Kasaysayan"
-
-? "error_page_text"
-: "Ang mobil na Wikipedia ay nasa ilalim pa rin ng masiglang pagpapaunlad at sinisikap naming ayusin ang lahat ng mga kamaliang panloob.  Ipinaalam sa amin ang tungkol sa kamaliang ito at itatama namin ito agad.  Dumalaw na lamang muli!"
-
-? "file_namespace"
-: "Talaksan"
-
-? "perm_stop_redirect"
-: "Pangmatagalang huwag paganahin ang sityong mobil"
-
-? "back_button"
-: "Bumalik"
-
-? "search_submit"
-: "Gawin"
-
-? "no_article_found"
-: "Walang Natagpuang Artikulo"
-
-? "show_button"
-: "Ipakita"
-
-? "regular_wikipedia"
-: "Tingnan ang pahinang sa karaniwang Wikipedia"
-
-? "contact_us"
-: "Kung mayroon kang mga katanungan o mga puna malaya kang magpadala ng e-liham sa mobile@wikipedia.org"
-
-? "error_page_title"
-: "Mayroon kaming suliranin!"
-
-? "search_text"
-: "Maghanap"
-
-? "nav_top"
-: "Itaas"
-
-? "author_link"
-: "Tingnan ang talaksang ito sa regular na Wikipedia upang matingnan ang impormasyon tungkol sa pagkatha, paglilisensiya at mga karagdagang paglalarawan."
-
-? "are_you_sure"
-: "Nakatitiyak ka ba?"
-
-? "hide_button"
-: "Itago"
-
-? "random_button"
-: "Alin man"
-
+are_you_sure: Nakatitiyak ka ba?
+author_link: Tingnan ang talaksang ito sa regular na Wikipedia upang matingnan ang impormasyon tungkol sa pagkatha, paglilisensiya at mga karagdagang paglalarawan.
+back_button: Bumalik
+back_to_top_of_section: Tumalong Pabalik Ng Isang Seksyon
+contact_us: Kung mayroon kang mga katanungan o mga puna malaya kang magpadala ng e-liham sa mobile@wikipedia.org
+copyright: Makukuha ang teksto sa ilalim ng Lisensyang <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike</a>; maaaring ginagamitan ng karagdagang mga termino. Tingnan <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Mga Termino ng Paggamit</a> para sa mga detalye.  Ang Wikipedia ay isang rehistradong tatak ng <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, isang hindi kumikinabang na organisasyon.
+disable_button: Huwag paganahin
+download_full_version: Ikargang Paibaba ang Buong Bersyon
+error_page_text: Ang mobil na Wikipedia ay nasa ilalim pa rin ng masiglang pagpapaunlad at sinisikap naming ayusin ang lahat ng mga kamaliang panloob.  Ipinaalam sa amin ang tungkol sa kamaliang ito at itatama namin ito agad.  Dumalaw na lamang muli!
+error_page_title: Mayroon kaming suliranin!
+explain_disable: Nakatitiyak ka bang nais mong huwag paganahin ang bersyong mobil ng Wikipedia ? Kapag pinili mo ang <b>Huwag paganahin</b> magmula ngayon, kapag dinalaw mo ang Wikipedia, hindi ka dadalhin sa tanawing mobil ng Wikipedia.
+featured_article: Napiling Artikulo Ngayon
+file_namespace: Talaksan
+hide_button: Itago
+home_button: Tahanan
+in_the_news: Mga Kasalukuyang Kaganapan
+nav_edit: Baguhin
+nav_end: Wakas
+nav_history: Kasaysayan
+nav_top: Itaas
+no_article_found: Walang Natagpuang Artikulo
+perm_stop_redirect: Pangmatagalang huwag paganahin ang sityong mobil
+random_button: Alin man
+regular_wikipedia: Tingnan ang pahinang sa karaniwang Wikipedia
+search_results: Mga Resulta ng Paghahanap
+search_submit: Gawin
+search_text: Maghanap
+show_button: Ipakita
+wikipedia: Wikipedia

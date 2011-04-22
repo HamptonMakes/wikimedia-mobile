@@ -2,43 +2,16 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Kasahorow
---- %YAML:1.0 
-? "home_button"
-: "Fie"
-
-? "in_the_news"
-: "W\xC9\x94 Nkaab\xC9\x94 Mu"
-
-? "search_results"
-: "Ahwehw\xC9\x9Bfarebae"
-
-? "featured_article"
-: "Aatikel a \xC6\x90w\xC9\x94 So Nd\xC9\x9B"
-
-? "error_page_text"
-: "Y\xC9\x9Bda so risiesie Wikipedia mobael na y\xC9\x9Bda so reb\xC9\x94 mb\xC9\x94den papaapa s\xC9\x9B y\xC9\x9Bbeyi mfomso biara a w\xC9\x94w\xC9\x94 y\xC9\x9Bn afa nyinara. Y\xC9\x9Bn aso ate mfomso yi da, nti y\xC9\x9Bbedi ho dwuma a \xC9\x9Brennky\xC9\x9Br koraa. Y\xC9\x9Bsr\xC9\x9B wo san b\xC9\x9Bhw\xC9\x9B ekyiri yi!"
-
-? "perm_stop_redirect"
-: "Si mobael saet kwan afeb\xC9\x94\xC9\x94"
-
-? "search_submit"
-: "K\xC9\x94"
-
-? "no_article_found"
-: "Ennhu Aatikel Biara"
-
-? "show_button"
-: "Kyer\xC9\x9B"
-
-? "regular_wikipedia"
-: "Hw\xC9\x9B krataafa yi w\xC9\x94 Wikipedia a yenim dada so"
-
-? "error_page_title"
-: "As\xC9\x9Bm w\xC9\x94 h\xC9\x94!"
-
-? "hide_button"
-: "Suma"
-
-? "random_button"
-: "Rand\xC9\x94m"
-
+error_page_text: Yɛda so risiesie Wikipedia mobael na yɛda so rebɔ mbɔden papaapa sɛ yɛbeyi mfomso biara a wɔwɔ yɛn afa nyinara. Yɛn aso ate mfomso yi da, nti yɛbedi ho dwuma a ɛrennkyɛr koraa. Yɛsrɛ wo san bɛhwɛ ekyiri yi!
+error_page_title: Asɛm wɔ hɔ!
+featured_article: Aatikel a Ɛwɔ So Ndɛ
+hide_button: Suma
+home_button: Fie
+in_the_news: Wɔ Nkaabɔ Mu
+no_article_found: Ennhu Aatikel Biara
+perm_stop_redirect: Si mobael saet kwan afebɔɔ
+random_button: Randɔm
+regular_wikipedia: Hwɛ krataafa yi wɔ Wikipedia a yenim dada so
+search_results: Ahwehwɛfarebae
+search_submit: Kɔ
+show_button: Kyerɛ

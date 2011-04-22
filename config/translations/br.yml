@@ -3,91 +3,32 @@
 # Export driver: syck-pecl
 # Author: Fulup
 # Author: Y-M D
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipedia"
-
-? "download_full_version"
-: "Pellgarga\xC3\xB1 ar stumm klok"
-
-? "nav_end"
-: "Fin"
-
-? "home_button"
-: "Degemer"
-
-? "copyright"
-: "Gallout a reer ober gant an destenn-ma\xC3\xB1 zo diouzh an <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Aotre Creative Commons/Aotre Ranna\xC3\xB1 He\xC3\xB1vel</a>; diferadurio\xC3\xB9 ouzhpenn a c'hall talvezout ivez. Gwelet <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>an doare implijout</a> evit gouzout hiroc'h. Ur merk marilhet gant <a href='http://www.wikimediafoundation.org/'>Diazezadur Wikimedia, Inc.</a>, anezha\xC3\xB1 un aozadur hep pal arc'hant, eo Wikipedia."
-
-? "disable_button"
-: "Diweredekaat"
-
-? "nav_edit"
-: "Kemma\xC3\xB1"
-
-? "in_the_news"
-: "Er C'heleier"
-
-? "search_results"
-: "Disoc'ho\xC3\xB9 klask"
-
-? "explain_disable"
-: "Ha sur oc'h e fell deoc'h diweredekaat stumm hezoug Wikipedia ? Ma tibabit <b>Diweredekaat</b>, neuze ne viot ket adkaset war-zu ar stumm hezoug ken pa'z it war Wikipedia."
-
-? "back_to_top_of_section"
-: "Lammat ur rann war-gil"
-
-? "featured_article"
-: "Un tamm sell war..."
-
-? "nav_history"
-: "Istor"
-
-? "error_page_text"
-: "Emeur atav o diorren a-zevri Wikipedia hezoug ha striva\xC3\xB1 a reomp evit diskoulma\xC3\xB1 ar fazio\xC3\xB9 diabarzh. Kelaouet omp bet eus ar fazi-ma\xC3\xB1 ha talet e vo outa\xC3\xB1 prestik. Klaskit en-dro a-raok pell !"
-
-? "file_namespace"
-: "Restr"
-
-? "perm_stop_redirect"
-: "Diweredekaat al lec'hienn hezoug da vat"
-
-? "back_button"
-: "Distrei\xC3\xB1"
-
-? "search_submit"
-: "Mont"
-
-? "no_article_found"
-: "Pennad ebet kavet"
-
-? "show_button"
-: "Diskouez"
-
-? "regular_wikipedia"
-: "Diskouez ar bajenn-ma\xC3\xB1 war ar Wikipedia boas"
-
-? "contact_us"
-: "M'o peus goulenno\xC3\xB9 pe evezhiadenno\xC3\xB9 deuit e darempred ganeomp d'ar chomlec'h mobile@wikipedia.org"
-
-? "error_page_title"
-: "Bastik, ur gudenn zo !"
-
-? "search_text"
-: "Klask"
-
-? "nav_top"
-: "Krec'h"
-
-? "author_link"
-: "Diskwel ar restr-ma\xC3\xB1 war Wikipedia evit gwelet an titouro\xC3\xB9 diwar-benn e oberour, e aotre-implijout ha deskrivadurio\xC3\xB9 ouzhpenn."
-
-? "are_you_sure"
-: "Ha sur oc'h ?"
-
-? "hide_button"
-: "Kuzhat"
-
-? "random_button"
-: "Dargouezhek"
-
+are_you_sure: Ha sur oc'h ?
+author_link: Diskwel ar restr-mañ war Wikipedia evit gwelet an titouroù diwar-benn e oberour, e aotre-implijout ha deskrivadurioù ouzhpenn.
+back_button: Distreiñ
+back_to_top_of_section: Lammat ur rann war-gil
+contact_us: M'o peus goulennoù pe evezhiadennoù deuit e darempred ganeomp d'ar chomlec'h mobile@wikipedia.org
+copyright: Gallout a reer ober gant an destenn-mañ zo diouzh an <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Aotre Creative Commons/Aotre Rannañ Heñvel</a>; diferadurioù ouzhpenn a c'hall talvezout ivez. Gwelet <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>an doare implijout</a> evit gouzout hiroc'h. Ur merk marilhet gant <a href='http://www.wikimediafoundation.org/'>Diazezadur Wikimedia, Inc.</a>, anezhañ un aozadur hep pal arc'hant, eo Wikipedia.
+disable_button: Diweredekaat
+download_full_version: Pellgargañ ar stumm klok
+error_page_text: Emeur atav o diorren a-zevri Wikipedia hezoug ha strivañ a reomp evit diskoulmañ ar fazioù diabarzh. Kelaouet omp bet eus ar fazi-mañ ha talet e vo outañ prestik. Klaskit en-dro a-raok pell !
+error_page_title: Bastik, ur gudenn zo !
+explain_disable: Ha sur oc'h e fell deoc'h diweredekaat stumm hezoug Wikipedia ? Ma tibabit <b>Diweredekaat</b>, neuze ne viot ket adkaset war-zu ar stumm hezoug ken pa'z it war Wikipedia.
+featured_article: Un tamm sell war...
+file_namespace: Restr
+hide_button: Kuzhat
+home_button: Degemer
+in_the_news: Er C'heleier
+nav_edit: Kemmañ
+nav_end: Fin
+nav_history: Istor
+nav_top: Krec'h
+no_article_found: Pennad ebet kavet
+perm_stop_redirect: Diweredekaat al lec'hienn hezoug da vat
+random_button: Dargouezhek
+regular_wikipedia: Diskouez ar bajenn-mañ war ar Wikipedia boas
+search_results: Disoc'hoù klask
+search_submit: Mont
+search_text: Klask
+show_button: Diskouez
+wikipedia: Wikipedia

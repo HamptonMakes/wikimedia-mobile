@@ -3,91 +3,32 @@
 # Export driver: syck-pecl
 # Author: Hcatlin
 # Author: Michawiki
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipedija"
-
-? "download_full_version"
-: "Po\xC5\x82nu wersiju s\xC4\x87ahny\xC4\x87"
-
-? "nav_end"
-: "K\xC3\xB3nc"
-
-? "home_button"
-: "Domoj"
-
-? "copyright"
-: "Tekst steji pod <a href=\"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License\">Creative Commons Attribution/Share-Alike License</a> k dispoziciji; p\xC5\x99idatne wum\xC4\x9Bnjenja m\xC3\xB3\xC5\xBEeja so na\xC5\x82o\xC5\xBEowa\xC4\x87. Hlej <a href=\"http://wikimediafoundation.org/wiki/Nutzungsbedingungen\">Wu\xC5\xBEiwanske wum\xC4\x9Bnjenja</a> za podrobnos\xC4\x87e. Wikipedija je zapisane wikowanske znamjo za\xC5\x82o\xC5\xBEby <a href=\"http://www.wikimediafoundation.org/\">Wikimedia Foundation, Inc.</a>, pow\xC5\xA1itkownos\xC4\x87i wu\xC5\xBEitneje organizacije."
-
-? "disable_button"
-: "Znjem\xC3\xB3\xC5\xBEni\xC4\x87"
-
-? "nav_edit"
-: "Wobd\xC5\xBA\xC4\x9B\xC5\x82a\xC4\x87"
-
-? "in_the_news"
-: "W nowinkach"
-
-? "search_results"
-: "Pytanske wusl\xC4\x9Bdki"
-
-? "explain_disable"
-: "Chce\xC5\xA1 woprawd\xC5\xBAe mobilnu wersiji Wikipedije znjem\xC3\xB3\xC5\xBEni\xC4\x87? Jeli wubjerje\xC5\xA1 <b>Znjem\xC3\xB3\xC5\xBEni\xC4\x87</b>, da njesposr\xC4\x9Bdkuje\xC5\xA1 wot toho \xC4\x8Dasa, hdy\xC5\xBE wopytuje\xC5\xA1 Wikipediju, k mobilnemu napohladej Wikipedije."
-
-? "back_to_top_of_section"
-: "Wotr\xC4\x9Bzk wr\xC3\xB3\xC4\x87o sko\xC4\x8Di\xC4\x87"
-
-? "featured_article"
-: "Nastawk dnja"
-
-? "nav_history"
-: "Historija"
-
-? "error_page_text"
-: "Mobilna Wikipedija so hi\xC5\xA1\xC4\x87e aktiwnje wuwiwa a d\xC5\xBA\xC4\x9B\xC5\x82amy kru\xC4\x87e, zo bychmy w\xC5\xA1\xC4\x9B interne zmylki wotstronili. Nam je tut\xC3\xB3n zmylk znaty a bud\xC5\xBAemy j\xC3\xB3n b\xC3\xB3rze wotstronje\xC4\x87. Pro\xC5\xA1u skontroluj potom hi\xC5\xA1\xC4\x87e raz!"
-
-? "file_namespace"
-: "Dataja"
-
-? "perm_stop_redirect"
-: "Mobilne syd\xC5\x82o na p\xC5\x99eco znjem\xC3\xB3\xC5\xBEni\xC4\x87"
-
-? "back_button"
-: "Wr\xC3\xB3\xC4\x87o"
-
-? "search_submit"
-: "Pyta\xC4\x87"
-
-? "no_article_found"
-: "\xC5\xBDadyn nastawk namakany"
-
-? "show_button"
-: "Pokaza\xC4\x87"
-
-? "regular_wikipedia"
-: "Tutu stronu sej we Wikipediji wobhlada\xC4\x87"
-
-? "contact_us"
-: "Jeli ma\xC5\xA1 pra\xC5\xA1enja abo komentary, m\xC3\xB3\xC5\xBEe\xC5\xA1 rady e-mejlku na mobile@wikipedia.org p\xC3\xB3s\xC5\x82a\xC4\x87"
-
-? "error_page_title"
-: "Mamy problem!"
-
-? "search_text"
-: "Pyta\xC4\x87"
-
-? "nav_top"
-: "Horjeka"
-
-? "author_link"
-: "Tutu medijowu dataju w normalnej Wikipediji zwobrazni\xC4\x87, zo by wid\xC5\xBAi\xC5\xA1 informacije wo awtorstwje, licencowanju a p\xC5\x99idatnych wopisanjach."
-
-? "are_you_sure"
-: "Sy sej w\xC4\x9Bsty?"
-
-? "hide_button"
-: "Schowa\xC4\x87"
-
-? "random_button"
-: "P\xC5\x99ipadna"
-
+are_you_sure: Sy sej wěsty?
+author_link: Tutu medijowu dataju w normalnej Wikipediji zwobraznić, zo by widźiš informacije wo awtorstwje, licencowanju a přidatnych wopisanjach.
+back_button: Wróćo
+back_to_top_of_section: Wotrězk wróćo skočić
+contact_us: Jeli maš prašenja abo komentary, móžeš rady e-mejlku na mobile@wikipedia.org pósłać
+copyright: Tekst steji pod <a href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution/Share-Alike License</a> k dispoziciji; přidatne wuměnjenja móžeja so nałožować. Hlej <a href="http://wikimediafoundation.org/wiki/Nutzungsbedingungen">Wužiwanske wuměnjenja</a> za podrobnosće. Wikipedija je zapisane wikowanske znamjo załožby <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, powšitkownosći wužitneje organizacije.
+disable_button: Znjemóžnić
+download_full_version: Połnu wersiju sćahnyć
+error_page_text: Mobilna Wikipedija so hišće aktiwnje wuwiwa a dźěłamy kruće, zo bychmy wšě interne zmylki wotstronili. Nam je tutón zmylk znaty a budźemy jón bórze wotstronjeć. Prošu skontroluj potom hišće raz!
+error_page_title: Mamy problem!
+explain_disable: Chceš woprawdźe mobilnu wersiji Wikipedije znjemóžnić? Jeli wubjerješ <b>Znjemóžnić</b>, da njesposrědkuješ wot toho časa, hdyž wopytuješ Wikipediju, k mobilnemu napohladej Wikipedije.
+featured_article: Nastawk dnja
+file_namespace: Dataja
+hide_button: Schować
+home_button: Domoj
+in_the_news: W nowinkach
+nav_edit: Wobdźěłać
+nav_end: Kónc
+nav_history: Historija
+nav_top: Horjeka
+no_article_found: Žadyn nastawk namakany
+perm_stop_redirect: Mobilne sydło na přeco znjemóžnić
+random_button: Připadna
+regular_wikipedia: Tutu stronu sej we Wikipediji wobhladać
+search_results: Pytanske wuslědki
+search_submit: Pytać
+search_text: Pytać
+show_button: Pokazać
+wikipedia: Wikipedija

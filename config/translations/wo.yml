@@ -3,34 +3,13 @@
 # Export driver: syck-pecl
 # Author: Hcatlin
 # Author: Ibou
---- %YAML:1.0 
-? "home_button"
-: " x\xC3\xABt wu nj\xC3\xABkk"
-
-? "in_the_news"
-: "Xew-xew"
-
-? "search_results"
-: "Njureefu ceet gi"
-
-? "featured_article"
-: "Jukkib b\xC3\xA9s bi"
-
-? "search_submit"
-: "Ayca"
-
-? "no_article_found"
-: "Giseesul benn jukki"
-
-? "show_button"
-: "Wone"
-
-? "regular_wikipedia"
-: "Wone x\xC3\xABt wi ci Wikipedia wees baaxoo"
-
-? "error_page_title"
-: "Danoo ami jafe-jafe!"
-
-? "hide_button"
-: "N\xC3\xABbb"
-
+error_page_title: Danoo ami jafe-jafe!
+featured_article: Jukkib bés bi
+hide_button: Nëbb
+home_button: " xët wu njëkk"
+in_the_news: Xew-xew
+no_article_found: Giseesul benn jukki
+regular_wikipedia: Wone xët wi ci Wikipedia wees baaxoo
+search_results: Njureefu ceet gi
+search_submit: Ayca
+show_button: Wone

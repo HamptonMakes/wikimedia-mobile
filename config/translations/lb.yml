@@ -3,91 +3,32 @@
 # Export driver: syck-pecl
 # Author: Les Meloures
 # Author: Robby
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipedia"
-
-? "download_full_version"
-: "Vollversioun eroflueden"
-
-? "nav_end"
-: "Schluss"
-
-? "home_button"
-: "Haapts\xC3\xA4it"
-
-? "copyright"
-: "Den Text ass \xC3\xABnnert der <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike Lizenz</a> disponibel; zous\xC3\xA4tzlech Konditioune k\xC3\xABnne g\xC3\xABllen. Kuckt <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Benotzungsbedingungen</a> fir m\xC3\xA9i Detailer. Wikipedia ass eng registr\xC3\xA9iert Marque vun der <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, enger Organisatioun ouni Gew\xC3\xABnnzweck."
-
-? "disable_button"
-: "Ausschalten"
-
-? "nav_edit"
-: "\xC3\x84nneren"
-
-? "in_the_news"
-: "An den Noriichten"
-
-? "search_results"
-: "Reaultater vun der Sich"
-
-? "explain_disable"
-: "Sidd Dir s\xC3\xA9cher datt Dir d\xC3\xA9i mobil Versioun vu Wikipedia ausschalte w\xC3\xABllt? Wann Dir <b>Ausschalten</b> wielt, da gitt Dir vun dann un, wann dir Wikipedia besicht, net m\xC3\xA9i op d\xC3\xABs mobil Versioun vu Wikipedia virugeleet."
-
-? "back_to_top_of_section"
-: "En Abschnitt zr\xC3\xA9cksprangen"
-
-? "featured_article"
-: "Den Artikel vum Dag"
-
-? "nav_history"
-: "Versiounen"
-
-? "error_page_text"
-: "Wikipedia-Mobil g\xC3\xABtt nach \xC3\xABmmer weiderentw\xC3\xA9ckelt a mir schaffen drun fir all eis intern Feeler ze verbesseren. Mir goufe vun d\xC3\xABsem Feeler inform\xC3\xA9iert a w\xC3\xA4erten en esou s\xC3\xA9ier w\xC3\xA9i m\xC3\xA9iglech verbesseren. Versicht et w.e.g. geschw\xC3\xABnn nachemol!"
-
-? "file_namespace"
-: "Fichier"
-
-? "perm_stop_redirect"
-: "Mobile Site dauerhaft ausschalten"
-
-? "back_button"
-: "Zr\xC3\xA9ck"
-
-? "search_submit"
-: "Lass"
-
-? "no_article_found"
-: "Keen Artikel fonnt"
-
-? "show_button"
-: "Weisen"
-
-? "regular_wikipedia"
-: "D\xC3\xABs S\xC3\xA4it als klassesch Wikiedia-S\xC3\xA4it weisen"
-
-? "contact_us"
-: "Wann Dir Froen oder Bemierkungen hutt dann z\xC3\xA9ckt net fir eis op mobile@wikipedia.org ze mailen"
-
-? "error_page_title"
-: "Mir hunn e Problem!"
-
-? "search_text"
-: "Sichen"
-
-? "nav_top"
-: "Uewen"
-
-? "author_link"
-: "Kuckt d\xC3\xABse Medie-Fichier op der normaler Wikipedia fir Informatiounen iwwer d'Auteuren, d'Lizenz an d'zous\xC3\xA4tzlech Beschreiwungen ze kr\xC3\xA9ien."
-
-? "are_you_sure"
-: "Sidd Dir s\xC3\xA9cher?"
-
-? "hide_button"
-: "Verstoppen"
-
-? "random_button"
-: "Zoufall"
-
+are_you_sure: Sidd Dir sécher?
+author_link: Kuckt dëse Medie-Fichier op der normaler Wikipedia fir Informatiounen iwwer d'Auteuren, d'Lizenz an d'zousätzlech Beschreiwungen ze kréien.
+back_button: Zréck
+back_to_top_of_section: En Abschnitt zrécksprangen
+contact_us: Wann Dir Froen oder Bemierkungen hutt dann zéckt net fir eis op mobile@wikipedia.org ze mailen
+copyright: Den Text ass ënnert der <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike Lizenz</a> disponibel; zousätzlech Konditioune kënne gëllen. Kuckt <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Benotzungsbedingungen</a> fir méi Detailer. Wikipedia ass eng registréiert Marque vun der <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, enger Organisatioun ouni Gewënnzweck.
+disable_button: Ausschalten
+download_full_version: Vollversioun eroflueden
+error_page_text: Wikipedia-Mobil gëtt nach ëmmer weiderentwéckelt a mir schaffen drun fir all eis intern Feeler ze verbesseren. Mir goufe vun dësem Feeler informéiert a wäerten en esou séier wéi méiglech verbesseren. Versicht et w.e.g. geschwënn nachemol!
+error_page_title: Mir hunn e Problem!
+explain_disable: Sidd Dir sécher datt Dir déi mobil Versioun vu Wikipedia ausschalte wëllt? Wann Dir <b>Ausschalten</b> wielt, da gitt Dir vun dann un, wann dir Wikipedia besicht, net méi op dës mobil Versioun vu Wikipedia virugeleet.
+featured_article: Den Artikel vum Dag
+file_namespace: Fichier
+hide_button: Verstoppen
+home_button: Haaptsäit
+in_the_news: An den Noriichten
+nav_edit: Änneren
+nav_end: Schluss
+nav_history: Versiounen
+nav_top: Uewen
+no_article_found: Keen Artikel fonnt
+perm_stop_redirect: Mobile Site dauerhaft ausschalten
+random_button: Zoufall
+regular_wikipedia: Dës Säit als klassesch Wikiedia-Säit weisen
+search_results: Reaultater vun der Sich
+search_submit: Lass
+search_text: Sichen
+show_button: Weisen
+wikipedia: Wikipedia

@@ -5,91 +5,32 @@
 # Author: Paucabot
 # Author: SMP
 # Author: Toniher
---- %YAML:1.0 
-? "wikipedia"
-: "Viquip\xC3\xA8dia"
-
-? "download_full_version"
-: "Baixa la versi\xC3\xB3 sencera"
-
-? "nav_end"
-: "Fi"
-
-? "home_button"
-: "Inici"
-
-? "copyright"
-: "El text est\xC3\xA0 disponible sota la <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.ca'>Llic\xC3\xA8ncia de Creative Commons Reconeixement/Compartir-Igual</a>; es poden aplicar termes addicionals. Vegeu <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>els Termes d'\xC3\xBAs</a> per a m\xC3\xA9s informaci\xC3\xB3. Wikipedia \xC3\xA9s marca registrada de <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, una organitzaci\xC3\xB3 sense \xC3\xA0nim de lucre."
-
-? "disable_button"
-: "Inhabilita"
-
-? "nav_edit"
-: "Edita"
-
-? "in_the_news"
-: "Actualitat"
-
-? "search_results"
-: "Resultats de la cerca"
-
-? "explain_disable"
-: "Esteu segur que voleu inhabilitar la versi\xC3\xB3 m\xC3\xB2bil de la Viquip\xC3\xA8dia? Si trieu <b>Inhabilita</b>, a partir d'aleshores, quan visiteu la Viquip\xC3\xA8dia, no se us redirigir\xC3\xA0 a la versi\xC3\xB3 m\xC3\xB2bil."
-
-? "back_to_top_of_section"
-: "Salteu enrere una secci\xC3\xB3"
-
-? "featured_article"
-: "Article destacat d'avui"
-
-? "nav_history"
-: "Historial"
-
-? "error_page_text"
-: "Wikipedia mobile encara est\xC3\xA0 en desenvolupament i estem treballant per a resoldre tots els errors interns. Hem estat notificats d'aquest error i el repararem aviat. Si us plau, torneu-ho a intentar!"
-
-? "file_namespace"
-: "Fitxer"
-
-? "perm_stop_redirect"
-: "Inhabilita permanentment la versi\xC3\xB3 m\xC3\xB2bil"
-
-? "back_button"
-: "Enrere"
-
-? "search_submit"
-: "V\xC3\xA9s-hi"
-
-? "no_article_found"
-: "Cap article trobat"
-
-? "show_button"
-: "Mostra"
-
-? "regular_wikipedia"
-: "Vegeu aquesta p\xC3\xA0gina a la Viquip\xC3\xA8dia"
-
-? "contact_us"
-: "Si teniu cap pregunta o comentari, no dubteu a contactar-nos per correu a mobile@wikipedia.org"
-
-? "error_page_title"
-: "Tenim un problema!"
-
-? "search_text"
-: "Cerca"
-
-? "nav_top"
-: "A dalt"
-
-? "author_link"
-: "Vegeu aquest fitxer multim\xC3\xA8dia a la Viquip\xC3\xA8dia normal per veure informaci\xC3\xB3 de l'autoria, llic\xC3\xA8ncia i descripcions addicionals."
-
-? "are_you_sure"
-: "N'esteu segur?"
-
-? "hide_button"
-: "Amaga"
-
-? "random_button"
-: "Aleatori"
-
+are_you_sure: N'esteu segur?
+author_link: Vegeu aquest fitxer multimèdia a la Viquipèdia normal per veure informació de l'autoria, llicència i descripcions addicionals.
+back_button: Enrere
+back_to_top_of_section: Salteu enrere una secció
+contact_us: Si teniu cap pregunta o comentari, no dubteu a contactar-nos per correu a mobile@wikipedia.org
+copyright: El text està disponible sota la <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.ca'>Llicència de Creative Commons Reconeixement/Compartir-Igual</a>; es poden aplicar termes addicionals. Vegeu <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>els Termes d'ús</a> per a més informació. Wikipedia és marca registrada de <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, una organització sense ànim de lucre.
+disable_button: Inhabilita
+download_full_version: Baixa la versió sencera
+error_page_text: Wikipedia mobile encara està en desenvolupament i estem treballant per a resoldre tots els errors interns. Hem estat notificats d'aquest error i el repararem aviat. Si us plau, torneu-ho a intentar!
+error_page_title: Tenim un problema!
+explain_disable: Esteu segur que voleu inhabilitar la versió mòbil de la Viquipèdia? Si trieu <b>Inhabilita</b>, a partir d'aleshores, quan visiteu la Viquipèdia, no se us redirigirà a la versió mòbil.
+featured_article: Article destacat d'avui
+file_namespace: Fitxer
+hide_button: Amaga
+home_button: Inici
+in_the_news: Actualitat
+nav_edit: Edita
+nav_end: Fi
+nav_history: Historial
+nav_top: A dalt
+no_article_found: Cap article trobat
+perm_stop_redirect: Inhabilita permanentment la versió mòbil
+random_button: Aleatori
+regular_wikipedia: Vegeu aquesta pàgina a la Viquipèdia
+search_results: Resultats de la cerca
+search_submit: Vés-hi
+search_text: Cerca
+show_button: Mostra
+wikipedia: Viquipèdia

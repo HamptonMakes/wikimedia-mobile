@@ -1,93 +1,34 @@
-# Messages for Dusun Bundu-liwan (Dusun Bundu-liwan)
+# Messages for Central Dusun (Dusun Bundu-liwan)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: FRANCIS5091
 # Author: FRANELYA
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipodia"
-
-? "download_full_version"
-: "Potuhuno Dolinan Poingonop"
-
-? "nav_end"
-: "Nopupusan"
-
-? "home_button"
-: "Damin"
-
-? "copyright"
-: "Oguno o tik id siriba <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Tinimungan Pogiompinaian Gonsupu/Lisin Miagal-Mogiolos</a>; kikooturon poinruhang milo pokionuon. Intaai <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Kooturan Pomogunaan</a> montok kointalangan. Wikipodia nopo nga tanda poniagaan <a href='http://www.wikimediafoundation.org/'>Yayasan Wikimodia, Pinoingkakat.</a>, tinimungan awu mokiuntung."
-
-? "disable_button"
-: "Pisoko"
-
-? "nav_edit"
-: "Idito"
-
-? "in_the_news"
-: "Poinsuang Kaakabar"
-
-? "search_results"
-: "Nihuman"
-
-? "explain_disable"
-: "Otopot toi do pisokonnu borsi kibitpaun do Wikipodia? Nung pilionnu <b>Pisoko</b>, tumimpuun baino, soira ko do tumombului id Wikipodia, awu ko nodi potilombuson hilo id pongitanan kibitbaun do Wikipodia."
-
-? "back_to_top_of_section"
-: "Poningguli Id Boogian A"
-
-? "featured_article"
-: "Babasaon Tadau Diti"
-
-? "nav_history"
-: "Susuyan"
-
-? "error_page_text"
-: "Kibitpaun Wikipodia maso po do poingkakaton om minsontob poh yahai do kumaraja momogonop oinsanan kosilapan poinsuang. Nosunudan noh yahai do kiinosilapan diti om maan dahai gonopo do tiinu. Porisaon kawagu kio!"
-
-? "file_namespace"
-: "Pail"
-
-? "perm_stop_redirect"
-: "Damin mobail toririmo pinisok"
-
-? "back_button"
-: "Guli"
-
-? "search_submit"
-: "Ibok"
-
-? "no_article_found"
-: "Ingaa Sinuratan"
-
-? "show_button"
-: "Popokito"
-
-? "regular_wikipedia"
-: "Intaai bolikon koubasanan Wikipodia"
-
-? "contact_us"
-: "Haro nopo ponguhatan toi tongopasonnu, siwatai no do posurat-i kumaa dahai id mobile@wikipedia.org"
-
-? "error_page_title"
-: "Haro kobolingkahangan dahai!"
-
-? "search_text"
-: "Ihumo"
-
-? "nav_top"
-: "Panansawat"
-
-? "author_link"
-: "Intaai iti pail modia id Wikipodia koubasanan do mongintong kointalangan kokomoi monunurat, pongolisinan, om pongintalangan poinruhang."
-
-? "are_you_sure"
-: "Kopio?"
-
-? "hide_button"
-: "Popolisok"
-
-? "random_button"
-: "Songko"
-
+are_you_sure: Kopio?
+author_link: Intaai iti pail modia id Wikipodia koubasanan do mongintong kointalangan kokomoi monunurat, pongolisinan, om pongintalangan poinruhang.
+back_button: Guli
+back_to_top_of_section: Poningguli Id Boogian A
+contact_us: Haro nopo ponguhatan toi tongopasonnu, siwatai no do posurat-i kumaa dahai id mobile@wikipedia.org
+copyright: Oguno o tik id siriba <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Tinimungan Pogiompinaian Gonsupu/Lisin Miagal-Mogiolos</a>; kikooturon poinruhang milo pokionuon. Intaai <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Kooturan Pomogunaan</a> montok kointalangan. Wikipodia nopo nga tanda poniagaan <a href='http://www.wikimediafoundation.org/'>Yayasan Wikimodia, Pinoingkakat.</a>, tinimungan awu mokiuntung.
+disable_button: Pisoko
+download_full_version: Potuhuno Dolinan Poingonop
+error_page_text: Kibitpaun Wikipodia maso po do poingkakaton om minsontob poh yahai do kumaraja momogonop oinsanan kosilapan poinsuang. Nosunudan noh yahai do kiinosilapan diti om maan dahai gonopo do tiinu. Porisaon kawagu kio!
+error_page_title: Haro kobolingkahangan dahai!
+explain_disable: Otopot toi do pisokonnu borsi kibitpaun do Wikipodia? Nung pilionnu <b>Pisoko</b>, tumimpuun baino, soira ko do tumombului id Wikipodia, awu ko nodi potilombuson hilo id pongitanan kibitbaun do Wikipodia.
+featured_article: Babasaon Tadau Diti
+file_namespace: Pail
+hide_button: Popolisok
+home_button: Damin
+in_the_news: Poinsuang Kaakabar
+nav_edit: Idito
+nav_end: Nopupusan
+nav_history: Susuyan
+nav_top: Panansawat
+no_article_found: Ingaa Sinuratan
+perm_stop_redirect: Damin mobail toririmo pinisok
+random_button: Songko
+regular_wikipedia: Intaai bolikon koubasanan Wikipodia
+search_results: Nihuman
+search_submit: Ibok
+search_text: Ihumo
+show_button: Popokito
+wikipedia: Wikipodia

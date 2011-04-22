@@ -7,91 +7,32 @@
 # Author: Per
 # Author: Sertion
 # Author: Tobulos1
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipedia"
-
-? "download_full_version"
-: "Ladda ner Full Version"
-
-? "nav_end"
-: "Slutet"
-
-? "home_button"
-: "Huvudsida"
-
-? "copyright"
-: "Text \xC3\xA4r tillg\xC3\xA4nglig under <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.sv'>Creative Commons Erk\xC3\xA4nnande/Dela Lika-licens</a>; ytterligare villkor kan g\xC3\xA4lla. Se <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Villkor</a> f\xC3\xB6r detaljer. Wikipedia \xC3\xA4r ett registrerat varum\xC3\xA4rke av den ideella organisationen <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>"
-
-? "disable_button"
-: "Inaktivera"
-
-? "nav_edit"
-: "Redigera"
-
-? "in_the_news"
-: "P\xC3\xA5 nyheterna"
-
-? "search_results"
-: "S\xC3\xB6kresultat"
-
-? "explain_disable"
-: "\xC3\x84r du s\xC3\xA4ker p\xC3\xA5 att du vill inaktivera den mobila versionen av Wikipedia? Om du v\xC3\xA4ljer <b>Inaktivera</b>, kommer du fr\xC3\xA5n och med nu, varje g\xC3\xA5ng du bes\xC3\xB6ker Wikipedia, inte bli omdirigerad till denna mobila version av Wikipedia."
-
-? "back_to_top_of_section"
-: "Hoppa ett avsnitt bak\xC3\xA5t"
-
-? "featured_article"
-: "Dagens utvalda artikel"
-
-? "nav_history"
-: "Historik"
-
-? "error_page_text"
-: "Wikipedia mobil \xC3\xA4r fortfarande under aktiv utveckling och vi jobbar h\xC3\xA5rt for att fixa alla interna fel. Vi har blivit meddelade om detta fel och kommer att fixa det snart. Kom g\xC3\xA4rna tillbaka lite senare!"
-
-? "file_namespace"
-: "Fil"
-
-? "perm_stop_redirect"
-: "Deaktivera mobilsidan permanent"
-
-? "back_button"
-: "Tillbaka"
-
-? "search_submit"
-: "G\xC3\xA5 till"
-
-? "no_article_found"
-: "Ingen artikel funnen"
-
-? "show_button"
-: "Visa"
-
-? "regular_wikipedia"
-: "Visa denna sida p\xC3\xA5 vanliga Wikipedia"
-
-? "contact_us"
-: "Om du har n\xC3\xA5gra fr\xC3\xA5gor eller kommentarer f\xC3\xA5r du g\xC3\xA4rna skicka ett e-post till mobile@wikipedia.org"
-
-? "error_page_title"
-: "Vi har ett problem!"
-
-? "search_text"
-: "S\xC3\xB6k"
-
-? "nav_top"
-: "Toppen"
-
-? "author_link"
-: "Visa den h\xC3\xA4r mediefilen p\xC3\xA5 Wikipedia f\xC3\xB6r att se information om dess upphovsman, licensiering och ytterligare beskrivningar."
-
-? "are_you_sure"
-: "\xC3\x84r du s\xC3\xA4ker?"
-
-? "hide_button"
-: "G\xC3\xB6m"
-
-? "random_button"
-: "Slumpartikel"
-
+are_you_sure: Är du säker?
+author_link: Visa den här mediefilen på Wikipedia för att se information om dess upphovsman, licensiering och ytterligare beskrivningar.
+back_button: Tillbaka
+back_to_top_of_section: Hoppa ett avsnitt bakåt
+contact_us: Om du har några frågor eller kommentarer får du gärna skicka ett e-post till mobile@wikipedia.org
+copyright: Text är tillgänglig under <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.sv'>Creative Commons Erkännande/Dela Lika-licens</a>; ytterligare villkor kan gälla. Se <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Villkor</a> för detaljer. Wikipedia är ett registrerat varumärke av den ideella organisationen <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>
+disable_button: Inaktivera
+download_full_version: Ladda ner Full Version
+error_page_text: Wikipedia mobil är fortfarande under aktiv utveckling och vi jobbar hårt for att fixa alla interna fel. Vi har blivit meddelade om detta fel och kommer att fixa det snart. Kom gärna tillbaka lite senare!
+error_page_title: Vi har ett problem!
+explain_disable: Är du säker på att du vill inaktivera den mobila versionen av Wikipedia? Om du väljer <b>Inaktivera</b>, kommer du från och med nu, varje gång du besöker Wikipedia, inte bli omdirigerad till denna mobila version av Wikipedia.
+featured_article: Dagens utvalda artikel
+file_namespace: Fil
+hide_button: Göm
+home_button: Huvudsida
+in_the_news: På nyheterna
+nav_edit: Redigera
+nav_end: Slutet
+nav_history: Historik
+nav_top: Toppen
+no_article_found: Ingen artikel funnen
+perm_stop_redirect: Deaktivera mobilsidan permanent
+random_button: Slumpartikel
+regular_wikipedia: Visa denna sida på vanliga Wikipedia
+search_results: Sökresultat
+search_submit: Gå till
+search_text: Sök
+show_button: Visa
+wikipedia: Wikipedia

@@ -5,91 +5,32 @@
 # Author: Iketsi
 # Author: Leinad
 # Author: Sp5uhe
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipedia"
-
-? "download_full_version"
-: "Pobierz pe\xC5\x82n\xC4\x85 wersj\xC4\x99"
-
-? "nav_end"
-: "Zako\xC5\x84cz"
-
-? "home_button"
-: "G\xC5\x82\xC3\xB3wna"
-
-? "copyright"
-: "Tekst udost\xC4\x99pniany na <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.pl'>licencji Creative Commons: uznanie autorstwa, na tych samych warunkach</a>, z mo\xC5\xBCliwo\xC5\x9Bci\xC4\x85 obowi\xC4\x85zywania dodatkowych ogranicze\xC5\x84. Zobacz szczeg\xC3\xB3\xC5\x82owe informacje o <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>warunkach korzystania</a>."
-
-? "disable_button"
-: "Wy\xC5\x82\xC4\x85cz"
-
-? "nav_edit"
-: "Edytuj"
-
-? "in_the_news"
-: "Aktualno\xC5\x9Bci"
-
-? "search_results"
-: "Wyniki wyszukiwania"
-
-? "explain_disable"
-: "Czy na pewno chcesz wy\xC5\x82\xC4\x85czy\xC4\x87 mobiln\xC4\x85 wersj\xC4\x99 Wikipedii? Je\xC5\x9Bli wybierzesz opcj\xC4\x99 <b>Wy\xC5\x82\xC4\x85cz</b>, to nast\xC4\x99pnym razem odwiedzaj\xC4\x85c Wikipedi\xC4\x99, nie zostaniesz przekierowany do obecnie w\xC5\x82\xC4\x85czonej wersji mobilnej Wikipedii."
-
-? "back_to_top_of_section"
-: "Wr\xC3\xB3\xC4\x87 do wcze\xC5\x9Bniejszej sekcji"
-
-? "featured_article"
-: "Wyr\xC3\xB3\xC5\xBCniony artyku\xC5\x82"
-
-? "nav_history"
-: "Historia"
-
-? "error_page_text"
-: "Mobilna wersja Wikipedii jest w ci\xC4\x85g\xC5\x82ym rozwoju i intensywnie pracujemy nad napraw\xC4\x85 wszystkich b\xC5\x82\xC4\x99d\xC3\xB3w. Zostali\xC5\x9Bmy poinformowani o tym b\xC5\x82\xC4\x99dzie i nied\xC5\x82ugo go naprawimy. Wr\xC3\xB3\xC4\x87 p\xC3\xB3\xC5\xBAniej aby sprawdzi\xC4\x87 czy ju\xC5\xBC dzia\xC5\x82a!"
-
-? "file_namespace"
-: "Plik"
-
-? "perm_stop_redirect"
-: "Trwale wy\xC5\x82\xC4\x85cz mobiln\xC4\x85 wersj\xC4\x99 strony"
-
-? "back_button"
-: "Powr\xC3\xB3t"
-
-? "search_submit"
-: "Przejd\xC5\xBA"
-
-? "no_article_found"
-: "Artyku\xC5\x82u nie odnaleziono"
-
-? "show_button"
-: "Poka\xC5\xBC"
-
-? "regular_wikipedia"
-: "Zobacz t\xC4\x99 stron\xC4\x99 w standardowej Wikipedii"
-
-? "contact_us"
-: "Je\xC5\x9Bli masz jakie\xC5\x9B pytania lub uwagi, prosimy o kontakt na adres mobile@wikipedia.org"
-
-? "error_page_title"
-: "Wyst\xC4\x85pi\xC5\x82 problem!"
-
-? "search_text"
-: "Szukaj"
-
-? "nav_top"
-: "Do g\xC3\xB3ry"
-
-? "author_link"
-: "Sprawd\xC5\xBA plik w samej Wikipedii, aby uzyska\xC4\x87 informacje o autorach, licencji i dodatkowy opis."
-
-? "are_you_sure"
-: "Czy jeste\xC5\x9B pewien?"
-
-? "hide_button"
-: "Ukryj"
-
-? "random_button"
-: "Losuj"
-
+are_you_sure: Czy jesteś pewien?
+author_link: Sprawdź plik w samej Wikipedii, aby uzyskać informacje o autorach, licencji i dodatkowy opis.
+back_button: Powrót
+back_to_top_of_section: Wróć do wcześniejszej sekcji
+contact_us: Jeśli masz jakieś pytania lub uwagi, prosimy o kontakt na adres mobile@wikipedia.org
+copyright: "Tekst udostępniany na <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.pl'>licencji Creative Commons: uznanie autorstwa, na tych samych warunkach</a>, z możliwością obowiązywania dodatkowych ograniczeń. Zobacz szczegółowe informacje o <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>warunkach korzystania</a>."
+disable_button: Wyłącz
+download_full_version: Pobierz pełną wersję
+error_page_text: Mobilna wersja Wikipedii jest w ciągłym rozwoju i intensywnie pracujemy nad naprawą wszystkich błędów. Zostaliśmy poinformowani o tym błędzie i niedługo go naprawimy. Wróć później aby sprawdzić czy już działa!
+error_page_title: Wystąpił problem!
+explain_disable: Czy na pewno chcesz wyłączyć mobilną wersję Wikipedii? Jeśli wybierzesz opcję <b>Wyłącz</b>, to następnym razem odwiedzając Wikipedię, nie zostaniesz przekierowany do obecnie włączonej wersji mobilnej Wikipedii.
+featured_article: Wyróżniony artykuł
+file_namespace: Plik
+hide_button: Ukryj
+home_button: Główna
+in_the_news: Aktualności
+nav_edit: Edytuj
+nav_end: Zakończ
+nav_history: Historia
+nav_top: Do góry
+no_article_found: Artykułu nie odnaleziono
+perm_stop_redirect: Trwale wyłącz mobilną wersję strony
+random_button: Losuj
+regular_wikipedia: Zobacz tę stronę w standardowej Wikipedii
+search_results: Wyniki wyszukiwania
+search_submit: Przejdź
+search_text: Szukaj
+show_button: Pokaż
+wikipedia: Wikipedia

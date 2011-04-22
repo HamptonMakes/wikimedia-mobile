@@ -6,91 +6,32 @@
 # Author: Gianfranco
 # Author: Melos
 # Author: Ninniuz
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipedia"
-
-? "download_full_version"
-: "Scarica la versione completa"
-
-? "nav_end"
-: "Fine"
-
-? "home_button"
-: "Pagina principale"
-
-? "copyright"
-: "Il testo \xC3\xA8 disponibile secondo la <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>licenza Creative Commons Attribuzione-Condividi allo stesso modo</a>; possono applicarsi condizioni ulteriori. Vedi le <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>condizioni d'uso</a> per i dettagli. Wikipedia \xC3\xA8 un marchio registrato della <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, un'organizzazione non a scopo di lucro."
-
-? "disable_button"
-: "Disabilita"
-
-? "nav_edit"
-: "Modifica"
-
-? "in_the_news"
-: "Novit\xC3\xA0"
-
-? "search_results"
-: "Risultati della ricerca"
-
-? "explain_disable"
-: "Vuoi davvero disabilitare la versione mobile di Wikipedia? Se scegli <b>Disabilita</b>, d'ora in poi ogni volta che visiti Wikipedia non sarai pi\xC3\xB9 reindirizzato alla versione mobile di Wikipedia."
-
-? "back_to_top_of_section"
-: "Vai a inizio sezione"
-
-? "featured_article"
-: "Vetrina"
-
-? "nav_history"
-: "Cronologia"
-
-? "error_page_text"
-: "Wikipedia mobile \xC3\xA8 ancora in fase di sviluppo attivo e stiamo lavorando sodo per risolvere tutti gli errori interni. Questo errore \xC3\xA8 gi\xC3\xA0 stato notificato e verr\xC3\xA0 presto corretto. Ricontrolla a breve."
-
-? "file_namespace"
-: "File"
-
-? "perm_stop_redirect"
-: "Disabilitare permanentemente sito per dispositivi mobili"
-
-? "back_button"
-: "Indietro"
-
-? "search_submit"
-: "Vai"
-
-? "no_article_found"
-: "Nessuna corrispondenza"
-
-? "show_button"
-: "Mostra"
-
-? "regular_wikipedia"
-: "Visualizza questa pagina su Wikipedia normale"
-
-? "contact_us"
-: "Se avete domande o commenti potete contattarci via email all'indirizzo mobile@wikipedia.org"
-
-? "error_page_title"
-: "Si \xC3\xA8 verificato un problema!"
-
-? "search_text"
-: "Cerca"
-
-? "nav_top"
-: "Inizio"
-
-? "author_link"
-: "Visualizza questo file multimediale sulla Wikipedia normale per vedere le informazioni sull'autore, la licenza ed ulteriori dettagli."
-
-? "are_you_sure"
-: "Sei sicuro?"
-
-? "hide_button"
-: "Nascondi"
-
-? "random_button"
-: "Casuale"
-
+are_you_sure: Sei sicuro?
+author_link: Visualizza questo file multimediale sulla Wikipedia normale per vedere le informazioni sull'autore, la licenza ed ulteriori dettagli.
+back_button: Indietro
+back_to_top_of_section: Vai a inizio sezione
+contact_us: Se avete domande o commenti potete contattarci via email all'indirizzo mobile@wikipedia.org
+copyright: Il testo è disponibile secondo la <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>licenza Creative Commons Attribuzione-Condividi allo stesso modo</a>; possono applicarsi condizioni ulteriori. Vedi le <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>condizioni d'uso</a> per i dettagli. Wikipedia è un marchio registrato della <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, un'organizzazione non a scopo di lucro.
+disable_button: Disabilita
+download_full_version: Scarica la versione completa
+error_page_text: Wikipedia mobile è ancora in fase di sviluppo attivo e stiamo lavorando sodo per risolvere tutti gli errori interni. Questo errore è già stato notificato e verrà presto corretto. Ricontrolla a breve.
+error_page_title: Si è verificato un problema!
+explain_disable: Vuoi davvero disabilitare la versione mobile di Wikipedia? Se scegli <b>Disabilita</b>, d'ora in poi ogni volta che visiti Wikipedia non sarai più reindirizzato alla versione mobile di Wikipedia.
+featured_article: Vetrina
+file_namespace: File
+hide_button: Nascondi
+home_button: Pagina principale
+in_the_news: Novità
+nav_edit: Modifica
+nav_end: Fine
+nav_history: Cronologia
+nav_top: Inizio
+no_article_found: Nessuna corrispondenza
+perm_stop_redirect: Disabilitare permanentemente sito per dispositivi mobili
+random_button: Casuale
+regular_wikipedia: Visualizza questa pagina su Wikipedia normale
+search_results: Risultati della ricerca
+search_submit: Vai
+search_text: Cerca
+show_button: Mostra
+wikipedia: Wikipedia

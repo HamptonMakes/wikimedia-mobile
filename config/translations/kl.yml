@@ -2,82 +2,29 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Qaqqalik
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipedia"
-
-? "nav_end"
-: "Naanera"
-
-? "home_button"
-: "Angerlamut"
-
-? "copyright"
-: "Allatat ilaatinneqarput  <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike-licensen</a> ataani; allat piumasaqaatit atuutinneqarsinnaapput. Takuuk <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>brugsbetingelserne</a> paasissutissaanerusut. Wikipedia nioqqutissiatut nalunaaqqutserneqarsimavoq suliniuteqarfittut una <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>."
-
-? "disable_button"
-: "Atorunnaaruk"
-
-? "nav_edit"
-: "Aaqqissoruk"
-
-? "in_the_news"
-: "Maannakkut pisut"
-
-? "search_results"
-: "Ujaasinermi inernerit"
-
-? "explain_disable"
-: "Qularinngilat Wikipedia mobil atorunnaassallugu? <b>Atorunnaaruk</b> qinerukku, maannamiit Wikipedia iseraangakku Wikipedia mobil-imut ingerlateqqinneqartassanngilatit"
-
-? "back_to_top_of_section"
-: "Immikkoortup qulaanut"
-
-? "featured_article"
-: "Allaaserisaq ullumi"
-
-? "nav_history"
-: "Oqaluttuassartaa"
-
-? "error_page_text"
-: "Wikipedia mobil suli ineriartortinneqarpoq suliniutigivarpullu kukkusoornerit iluarsiniartarlugit. Ajoqut tiguarput, iluarsiniapallassavarpullu. Uteqqinniarna kingusinnerusukkut!"
-
-? "perm_stop_redirect"
-: "Mobil quppernera atorunnaarsiviguk"
-
-? "back_button"
-: "Utimut"
-
-? "search_submit"
-: "Tassunngarit"
-
-? "no_article_found"
-: "Allaaserisaq nassaassaanngilaq"
-
-? "show_button"
-: "Saqqummiuk"
-
-? "regular_wikipedia"
-: "Takutiguk Wikipedia naliginnaasumut"
-
-? "contact_us"
-: "Apeqqutit oqaaseqaatillu uunga tikilluaqqusaapput mobile@wikipedia.org"
-
-? "error_page_title"
-: "Ajornartorsiuteqarpugut!"
-
-? "search_text"
-: "Ujarlerit"
-
-? "nav_top"
-: "Qulaanut"
-
-? "are_you_sure"
-: "Qularinngiliuk?"
-
-? "hide_button"
-: "Assequt"
-
-? "random_button"
-: "Nalaatsornikkut"
-
+are_you_sure: Qularinngiliuk?
+back_button: Utimut
+back_to_top_of_section: Immikkoortup qulaanut
+contact_us: Apeqqutit oqaaseqaatillu uunga tikilluaqqusaapput mobile@wikipedia.org
+copyright: Allatat ilaatinneqarput  <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike-licensen</a> ataani; allat piumasaqaatit atuutinneqarsinnaapput. Takuuk <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>brugsbetingelserne</a> paasissutissaanerusut. Wikipedia nioqqutissiatut nalunaaqqutserneqarsimavoq suliniuteqarfittut una <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>.
+disable_button: Atorunnaaruk
+error_page_text: Wikipedia mobil suli ineriartortinneqarpoq suliniutigivarpullu kukkusoornerit iluarsiniartarlugit. Ajoqut tiguarput, iluarsiniapallassavarpullu. Uteqqinniarna kingusinnerusukkut!
+error_page_title: Ajornartorsiuteqarpugut!
+explain_disable: Qularinngilat Wikipedia mobil atorunnaassallugu? <b>Atorunnaaruk</b> qinerukku, maannamiit Wikipedia iseraangakku Wikipedia mobil-imut ingerlateqqinneqartassanngilatit
+featured_article: Allaaserisaq ullumi
+hide_button: Assequt
+home_button: Angerlamut
+in_the_news: Maannakkut pisut
+nav_edit: Aaqqissoruk
+nav_end: Naanera
+nav_history: Oqaluttuassartaa
+nav_top: Qulaanut
+no_article_found: Allaaserisaq nassaassaanngilaq
+perm_stop_redirect: Mobil quppernera atorunnaarsiviguk
+random_button: Nalaatsornikkut
+regular_wikipedia: Takutiguk Wikipedia naliginnaasumut
+search_results: Ujaasinermi inernerit
+search_submit: Tassunngarit
+search_text: Ujarlerit
+show_button: Saqqummiuk
+wikipedia: Wikipedia

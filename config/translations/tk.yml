@@ -2,4 +2,5 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Hanberke
---- %YAML:1.0 {"search_submit": "Git", "show_button": "G\xC3\xB6rkez"}
+search_submit: Git
+show_button: Görkez

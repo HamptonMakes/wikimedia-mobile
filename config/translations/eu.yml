@@ -2,91 +2,32 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: An13sa
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipedia"
-
-? "download_full_version"
-: "Bertsio Osoa jaitsi"
-
-? "nav_end"
-: "Amaiera"
-
-? "home_button"
-: "Azala"
-
-? "copyright"
-: "Testua ondorengo lizentziapean dago <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Atribuzioa/Partekatu-Alike Lizentzia</a>. Informazio gehiagorako <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Erabilpen-baldintzak</a> ikusi. Wikipedia <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, erakundearen irabazi-asmorik gabeko erregistratutako proiektua da."
-
-? "disable_button"
-: "Ezgaitu"
-
-? "nav_edit"
-: "Aldatu"
-
-? "in_the_news"
-: "Albisteetan"
-
-? "search_results"
-: "Bilaketaren emaitzak"
-
-? "explain_disable"
-: "Ziur zaude Wikipediako mugikorrerako bertsioa ezgaitu nahi duzula? <b>Ezgaitu</b> aukeratzen baduzu, hemendik aurrera, Wikipedia bisitatzen duzunean, Wikipediaren mugikorrerako orri honetara ez zara birzuzendua izango."
-
-? "back_to_top_of_section"
-: "Atal Bat Atzera Joan"
-
-? "featured_article"
-: "Gaur Nabarmendutako Artikulua"
-
-? "nav_history"
-: "Historia"
-
-? "error_page_text"
-: "Wikipedia mobile garapen prozesuan dago oraindik eta lanean ari gara ezodein barne-errore konpontzeko. Errore hau jakinarazi digute eta laister konponduko dugu. Mesedez itzuli beranduago!"
-
-? "file_namespace"
-: "Fitxategia"
-
-? "perm_stop_redirect"
-: "Mugikorrerako gunea betirako ezgaitu"
-
-? "back_button"
-: "Atzera"
-
-? "search_submit"
-: "Joan"
-
-? "no_article_found"
-: "Ez da artikulurik aurkitu"
-
-? "show_button"
-: "Erakutsi"
-
-? "regular_wikipedia"
-: "Ikusi orrialde hau Wikipedia arruntean"
-
-? "contact_us"
-: "Edozein galdera edo zalantza baduzu mesedez bidali iezaiguzu eposta bat mobile@wikipedia.org helbidera"
-
-? "error_page_title"
-: "Arazo bat dugu!"
-
-? "search_text"
-: "Bilatu"
-
-? "nav_top"
-: "Gora"
-
-? "author_link"
-: "Fitxategi hau Wikipedia arruntean ikusi egilea, lizentzia eta bestelako informazioa ikusteko."
-
-? "are_you_sure"
-: "Ziur zaude ?"
-
-? "hide_button"
-: "Ezkutatu"
-
-? "random_button"
-: "Ausazkoa"
-
+are_you_sure: Ziur zaude ?
+author_link: Fitxategi hau Wikipedia arruntean ikusi egilea, lizentzia eta bestelako informazioa ikusteko.
+back_button: Atzera
+back_to_top_of_section: Atal Bat Atzera Joan
+contact_us: Edozein galdera edo zalantza baduzu mesedez bidali iezaiguzu eposta bat mobile@wikipedia.org helbidera
+copyright: Testua ondorengo lizentziapean dago <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Atribuzioa/Partekatu-Alike Lizentzia</a>. Informazio gehiagorako <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Erabilpen-baldintzak</a> ikusi. Wikipedia <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, erakundearen irabazi-asmorik gabeko erregistratutako proiektua da.
+disable_button: Ezgaitu
+download_full_version: Bertsio Osoa jaitsi
+error_page_text: Wikipedia mobile garapen prozesuan dago oraindik eta lanean ari gara ezodein barne-errore konpontzeko. Errore hau jakinarazi digute eta laister konponduko dugu. Mesedez itzuli beranduago!
+error_page_title: Arazo bat dugu!
+explain_disable: Ziur zaude Wikipediako mugikorrerako bertsioa ezgaitu nahi duzula? <b>Ezgaitu</b> aukeratzen baduzu, hemendik aurrera, Wikipedia bisitatzen duzunean, Wikipediaren mugikorrerako orri honetara ez zara birzuzendua izango.
+featured_article: Gaur Nabarmendutako Artikulua
+file_namespace: Fitxategia
+hide_button: Ezkutatu
+home_button: Azala
+in_the_news: Albisteetan
+nav_edit: Aldatu
+nav_end: Amaiera
+nav_history: Historia
+nav_top: Gora
+no_article_found: Ez da artikulurik aurkitu
+perm_stop_redirect: Mugikorrerako gunea betirako ezgaitu
+random_button: Ausazkoa
+regular_wikipedia: Ikusi orrialde hau Wikipedia arruntean
+search_results: Bilaketaren emaitzak
+search_submit: Joan
+search_text: Bilatu
+show_button: Erakutsi
+wikipedia: Wikipedia

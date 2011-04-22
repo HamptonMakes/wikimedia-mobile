@@ -2,73 +2,26 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Enzoreg
---- %YAML:1.0 
-? "wikipedia"
-: "Wikip\xC3\xA9dya"
-
-? "download_full_version"
-: "T\xC3\xA9l\xC3\xA9\xC4\x8Barji l-versyon kamla"
-
-? "nav_end"
-: "Nihaya"
-
-? "home_button"
-: "S\xE1\xB9\xABiqbal"
-
-? "disable_button"
-: "\xE1\xB8\xAAiyyed"
-
-? "nav_edit"
-: "\xE1\xB9\xA2ayeb"
-
-? "in_the_news"
-: "\xC4\x8Ano men jdid ?"
-
-? "search_results"
-: "N-Na\xE1\xB9\xABa'ij dyal l-be\xE1\xB8\xAB\xE1\xB9\xAB"
-
-? "back_to_top_of_section"
-: "\xE1\xB9\x9Aje\xC4\x9D s-s\xC3\xA9ksyon li men qbel"
-
-? "featured_article"
-: "L-Maqal dyal lyoma"
-
-? "nav_history"
-: "\xE1\xB9\xAAari\xC4\xA5"
-
-? "file_namespace"
-: "Werqa"
-
-? "back_button"
-: "Rje\xC4\x9D"
-
-? "search_submit"
-: "Sir"
-
-? "no_article_found"
-: "Ma kayen \xE1\xB8\xAB\xE1\xB9\xABa \xC4\x8Bi maqal mnaseb le l-be\xE1\xB8\xAB\xE1\xB9\xAB dyalek"
-
-? "show_button"
-: "Werri"
-
-? "regular_wikipedia"
-: "Qra had \xE1\xB9\xA3-\xE1\xB9\xA3ef\xE1\xB8\xABa fe l-Wikip\xC3\xA9dya l-\xC4\x9Dadi"
-
-? "error_page_title"
-: "Sme\xE1\xB8\xAB lna \xC4\x9Dendna \xC4\x8Bi mo\xC4\x8Bkil !"
-
-? "search_text"
-: "Qelleb"
-
-? "nav_top"
-: "L-Foq"
-
-? "are_you_sure"
-: "Wa\xC4\x8B m\xE1\xB9\xABiqqen ?"
-
-? "hide_button"
-: "\xC4\xA4ebbi"
-
-? "random_button"
-: "\xC4\x9Cel l-lah"
-
+are_you_sure: Waċ mṫiqqen ?
+back_button: Rjeĝ
+back_to_top_of_section: Ṛjeĝ s-séksyon li men qbel
+disable_button: Ḫiyyed
+download_full_version: Téléċarji l-versyon kamla
+error_page_title: Smeḫ lna ĝendna ċi moċkil !
+featured_article: L-Maqal dyal lyoma
+file_namespace: Werqa
+hide_button: Ĥebbi
+home_button: Sṫiqbal
+in_the_news: Ċno men jdid ?
+nav_edit: Ṣayeb
+nav_end: Nihaya
+nav_history: Ṫariĥ
+nav_top: L-Foq
+no_article_found: Ma kayen ḫṫa ċi maqal mnaseb le l-beḫṫ dyalek
+random_button: Ĝel l-lah
+regular_wikipedia: Qra had ṣ-ṣefḫa fe l-Wikipédya l-ĝadi
+search_results: N-Naṫa'ij dyal l-beḫṫ
+search_submit: Sir
+search_text: Qelleb
+show_button: Werri
+wikipedia: Wikipédya

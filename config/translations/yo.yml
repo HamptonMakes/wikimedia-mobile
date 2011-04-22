@@ -2,46 +2,17 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Demmy
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipedia"
-
-? "nav_end"
-: "\xC3\x92pin"
-
-? "home_button"
-: "\xC3\x8Cb\xE1\xBA\xB9\xCC\x80r\xE1\xBA\xB9\xCC\x80"
-
-? "nav_edit"
-: "\xC3\x80t\xC3\xBAn\xE1\xB9\xA3e"
-
-? "search_results"
-: "\xC3\x80w\xE1\xBB\x8Dn \xC3\x88s\xC3\xAC \xC3\x80w\xC3\xA1r\xC3\xAD"
-
-? "nav_history"
-: "\xC3\x8Ct\xC3\xA0n"
-
-? "back_button"
-: "\xE1\xB9\xA2\xE1\xBA\xB9\xCC\x81y\xC3\xACn"
-
-? "search_submit"
-: "L\xE1\xBB\x8D"
-
-? "show_button"
-: "Fih\xC3\xA0n"
-
-? "search_text"
-: "\xE1\xB9\xA2\xC3\xA0w\xC3\xA1r\xC3\xAD"
-
-? "nav_top"
-: "L\xC3\xB3k\xC3\xA8"
-
-? "are_you_sure"
-: "\xE1\xB9\xA2\xC3\xB3d\xC3\xA1yin l\xC3\xB3j\xC3\xBA?"
-
-? "hide_button"
-: "B\xC3\xB2m\xE1\xBB\x8D\xCC\x81l\xE1\xBA\xB9\xCC\x80"
-
-? "random_button"
-: "Oj\xC3\xBAew\xC3\xA9 \xC3\xA0r\xC3\xACnn\xC3\xA0k\xC3\xB2"
-
+are_you_sure: Ṣódáyin lójú?
+back_button: Ṣẹ́yìn
+hide_button: Bòmọ́lẹ̀
+home_button: Ìbẹ̀rẹ̀
+nav_edit: Àtúnṣe
+nav_end: Òpin
+nav_history: Ìtàn
+nav_top: Lókè
+random_button: Ojúewé àrìnnàkò
+search_results: Àwọn Èsì Àwárí
+search_submit: Lọ
+search_text: Ṣàwárí
+show_button: Fihàn
+wikipedia: Wikipedia

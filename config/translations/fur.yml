@@ -2,91 +2,32 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Klenje
---- %YAML:1.0 
-? "wikipedia"
-: "Vichipedie"
-
-? "download_full_version"
-: "Discjame la version complete"
-
-? "nav_end"
-: "In somp"
-
-? "home_button"
-: "Cjase"
-
-? "copyright"
-: "Il test al \xC3\xA8 disponibil sot de <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; a podin aplic\xC3\xA2si altris tiermins. Cjale <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Tiermins dal \xC3\xBBs</a> pai detais. Wikipedia e je une marcje regjistrade de <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, une organizazion cence fin di lucri."
-
-? "disable_button"
-: "Disative"
-
-? "nav_edit"
-: "Cambie"
-
-? "in_the_news"
-: "Gnovis"
-
-? "search_results"
-: "Risult\xC3\xA2ts de ricercje"
-
-? "explain_disable"
-: "S\xC3\xAAstu sig\xC3\xBBr di vol\xC3\xAA disativ\xC3\xA2 la version mobile de Vichipedie? Se tu sielzis <b>Disative</b> di cum\xC3\xB2 in devant, cuant che tu visitis la Vichipedie, no tu sar\xC3\xA2s torn\xC3\xA2t a mand\xC3\xA2 su la version mobile."
-
-? "back_to_top_of_section"
-: "Salte inda\xC3\xBBr di une sezion"
-
-? "featured_article"
-: "Articul in vitrine di vu\xC3\xAA"
-
-? "nav_history"
-: "Storic"
-
-? "error_page_text"
-: "Wikipedia mobile \xC3\xA8 je ancjem\xC3\xB2 in vie di disvilup e o sin da\xC3\xBBr a lavor\xC3\xA2 fuart par comed\xC3\xA2 ducj i er\xC3\xB4rs internis. O sin st\xC3\xA2ts za vis\xC3\xA2ts di chest er\xC3\xB4r e lu comedar\xC3\xACn daurman. Torne a prov\xC3\xA2!"
-
-? "file_namespace"
-: "File"
-
-? "perm_stop_redirect"
-: "Disative in m\xC3\xBBt permanent la version mobile"
-
-? "back_button"
-: "Inda\xC3\xBBr"
-
-? "search_submit"
-: "Va"
-
-? "no_article_found"
-: "Nissun articul cjat\xC3\xA2t"
-
-? "show_button"
-: "Mostre"
-
-? "regular_wikipedia"
-: "Vi\xC3\xB4t cheste pagjine te Vichipedie"
-
-? "contact_us"
-: "Se tu \xC3\xA2s cualsisei domande o coment, no st\xC3\xA2 v\xC3\xAA pore di contat\xC3\xA2nus ae direzion mobile@wikipedia.org"
-
-? "error_page_title"
-: "O vin un probleme!"
-
-? "search_text"
-: "C\xC3\xAEr"
-
-? "nav_top"
-: "In alt"
-
-? "author_link"
-: "Vi\xC3\xB4t chest file multimedi\xC3\xA2l su la Vichipedie norm\xC3\xA2l par v\xC3\xAA informazions su aut\xC3\xB4rs, licence e altris descrizions."
-
-? "are_you_sure"
-: "S\xC3\xAAstu sig\xC3\xBBr?"
-
-? "hide_button"
-: "Plate"
-
-? "random_button"
-: "Casu\xC3\xA2l"
-
+are_you_sure: Sêstu sigûr?
+author_link: Viôt chest file multimediâl su la Vichipedie normâl par vê informazions su autôrs, licence e altris descrizions.
+back_button: Indaûr
+back_to_top_of_section: Salte indaûr di une sezion
+contact_us: Se tu âs cualsisei domande o coment, no stâ vê pore di contatânus ae direzion mobile@wikipedia.org
+copyright: Il test al è disponibil sot de <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; a podin aplicâsi altris tiermins. Cjale <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Tiermins dal ûs</a> pai detais. Wikipedia e je une marcje regjistrade de <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, une organizazion cence fin di lucri.
+disable_button: Disative
+download_full_version: Discjame la version complete
+error_page_text: Wikipedia mobile è je ancjemò in vie di disvilup e o sin daûr a lavorâ fuart par comedâ ducj i erôrs internis. O sin stâts za visâts di chest erôr e lu comedarìn daurman. Torne a provâ!
+error_page_title: O vin un probleme!
+explain_disable: Sêstu sigûr di volê disativâ la version mobile de Vichipedie? Se tu sielzis <b>Disative</b> di cumò in devant, cuant che tu visitis la Vichipedie, no tu sarâs tornât a mandâ su la version mobile.
+featured_article: Articul in vitrine di vuê
+file_namespace: File
+hide_button: Plate
+home_button: Cjase
+in_the_news: Gnovis
+nav_edit: Cambie
+nav_end: In somp
+nav_history: Storic
+nav_top: In alt
+no_article_found: Nissun articul cjatât
+perm_stop_redirect: Disative in mût permanent la version mobile
+random_button: Casuâl
+regular_wikipedia: Viôt cheste pagjine te Vichipedie
+search_results: Risultâts de ricercje
+search_submit: Va
+search_text: Cîr
+show_button: Mostre
+wikipedia: Vichipedie

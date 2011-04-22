@@ -3,91 +3,32 @@
 # Export driver: syck-pecl
 # Author: Cedric31
 # Author: Jfblanc
---- %YAML:1.0 
-? "wikipedia"
-: "Wikip\xC3\xA8dia"
-
-? "download_full_version"
-: "Descargar la version compl\xC3\xA8ta"
-
-? "nav_end"
-: "Fin"
-
-? "home_button"
-: "Acu\xC3\xA8lh"
-
-? "copyright"
-: "<a class='internal' href='/wiki/Wikip\xC3\xA8dia:Drech_d%27autor' title='Drech d'autor'>Drech d'autor</a> : Los t\xC3\xA8xtes son disponibles jos <a href='http://creativecommons.org/licenses/by-sa/3.0/'>lic\xC3\xA9ncia Creative Commons atribucion pertatge a l\xE2\x80\x99identic</a> ; d\xE2\x80\x99autres t\xC3\xA8rmes se p\xC3\xB2don aplicar. Vejatz los <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>t\xC3\xA8rmes d\xE2\x80\x99utilizacion</a> per mai de detalhs. Wikipedia\xC2\xAE es una marca depausada de la <a href='http://wikimediafoundation.org/wiki/Acu\xC3\xA8lh' title='Wikimedia Foundation'>Wikimedia Foundation, Inc.</a>, organizacion de benfasen\xC3\xA7a regida pel paragraf <a class='internal' href='/wiki/501c' title='501c'>501(c)(3)</a> del c\xC3\xB2de fiscal dels Estats Units."
-
-? "disable_button"
-: "Desactivar"
-
-? "nav_edit"
-: "Modificar"
-
-? "in_the_news"
-: "Actualitats e eveniments"
-
-? "search_results"
-: "Resultats de la rec\xC3\xA8rca"
-
-? "explain_disable"
-: "S\xC3\xA8tz segur que vol\xC3\xA8tz desactivar la version mobila de Wikip\xC3\xA8dia ? Se causiss\xC3\xA8tz <b>Desactivar</b>, a cada c\xC3\xB2p que visitaretz Wikip\xC3\xA8dia, seretz pas redirigit cap a aquesta version mobila de Wikip\xC3\xA8dia."
-
-? "back_to_top_of_section"
-: "Tornar d'una seccion"
-
-? "featured_article"
-: "Lutz sus..."
-
-? "nav_history"
-: "Istoric"
-
-? "error_page_text"
-: "Wikip\xC3\xA8dia mobil es encara en desvolopament actiu e nos esfor\xC3\xA7am de res\xC3\xB2lvre n\xC3\xB2stras errors int\xC3\xA8rnas. S\xC3\xA8m estats avisats d'aquesta error e l'anam corregir rapidament. Tornatz ensajar l\xC3\xA8u !"
-
-? "file_namespace"
-: "Fichi\xC3\xA8r"
-
-? "perm_stop_redirect"
-: "Desactivra lo site mobil d'un biais permanent"
-
-? "back_button"
-: "En arri\xC3\xA8r"
-
-? "search_submit"
-: "Consultar"
-
-? "no_article_found"
-: "Cap de t\xC3\xADtol de pagina correspond pas a la rec\xC3\xA8rca"
-
-? "show_button"
-: "Afichar"
-
-? "regular_wikipedia"
-: "Afichar aquesta pagina sus Wikip\xC3\xA8dia classica"
-
-? "contact_us"
-: "S'av\xC3\xA8tz de questions o de comentaris trantalhetz pas a nos contactar a mobile@wikipedia.org"
-
-? "error_page_title"
-: "I a quic\xC3\xB2m que truca !"
-
-? "search_text"
-: "Recercar"
-
-? "nav_top"
-: "Naut"
-
-? "author_link"
-: "Afichar  aquel fichi\xC3\xA8r sus la Wikip\xC3\xA8dia web per mai d'informacion suls dreches d'autor e la lic\xC3\xA9ncia, e mai de descripcion"
-
-? "are_you_sure"
-: "S\xC3\xA8tz segur ?"
-
-? "hide_button"
-: "Amagar"
-
-? "random_button"
-: "A l'azard"
-
+are_you_sure: Sètz segur ?
+author_link: Afichar  aquel fichièr sus la Wikipèdia web per mai d'informacion suls dreches d'autor e la licéncia, e mai de descripcion
+back_button: En arrièr
+back_to_top_of_section: Tornar d'una seccion
+contact_us: S'avètz de questions o de comentaris trantalhetz pas a nos contactar a mobile@wikipedia.org
+copyright: "<a class='internal' href='/wiki/Wikipèdia:Drech_d%27autor' title='Drech d'autor'>Drech d'autor</a> : Los tèxtes son disponibles jos <a href='http://creativecommons.org/licenses/by-sa/3.0/'>licéncia Creative Commons atribucion pertatge a l’identic</a> ; d’autres tèrmes se pòdon aplicar. Vejatz los <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>tèrmes d’utilizacion</a> per mai de detalhs. Wikipedia® es una marca depausada de la <a href='http://wikimediafoundation.org/wiki/Acuèlh' title='Wikimedia Foundation'>Wikimedia Foundation, Inc.</a>, organizacion de benfasença regida pel paragraf <a class='internal' href='/wiki/501c' title='501c'>501(c)(3)</a> del còde fiscal dels Estats Units."
+disable_button: Desactivar
+download_full_version: Descargar la version complèta
+error_page_text: Wikipèdia mobil es encara en desvolopament actiu e nos esforçam de resòlvre nòstras errors intèrnas. Sèm estats avisats d'aquesta error e l'anam corregir rapidament. Tornatz ensajar lèu !
+error_page_title: I a quicòm que truca !
+explain_disable: Sètz segur que volètz desactivar la version mobila de Wikipèdia ? Se causissètz <b>Desactivar</b>, a cada còp que visitaretz Wikipèdia, seretz pas redirigit cap a aquesta version mobila de Wikipèdia.
+featured_article: Lutz sus...
+file_namespace: Fichièr
+hide_button: Amagar
+home_button: Acuèlh
+in_the_news: Actualitats e eveniments
+nav_edit: Modificar
+nav_end: Fin
+nav_history: Istoric
+nav_top: Naut
+no_article_found: Cap de títol de pagina correspond pas a la recèrca
+perm_stop_redirect: Desactivra lo site mobil d'un biais permanent
+random_button: A l'azard
+regular_wikipedia: Afichar aquesta pagina sus Wikipèdia classica
+search_results: Resultats de la recèrca
+search_submit: Consultar
+search_text: Recercar
+show_button: Afichar
+wikipedia: Wikipèdia

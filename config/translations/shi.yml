@@ -2,79 +2,28 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Dalinanir
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipidya"
-
-? "download_full_version"
-: "Srbu alqm izunn"
-
-? "nav_end"
-: "Isala"
-
-? "home_button"
-: "Asbrk"
-
-? "copyright"
-: "<a class='internal' href='/wiki/Wikip%C3%A9dia:Izrfan n umgay' title='Izrfan n umgay'>Izrfan n umgay</a> : I\xE1\xB9\xAD\xE1\xB9\x9Bi\xE1\xB9\xA3n rad tn taft \xC9\xA3id  <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.fr'>taragt n usnufl Commons tib\xE1\xB8\x8Dit\xE2\x80\x93baba iga zund</a> ;s tiwtilin lli f fllasn ittuyskarn. Z\xE1\xB9\x9B f mayad \xC9\xA3 <a href='http://wikimediafoundation.org/wiki/Conditions_d'utilisation'>tiwtlin  n uskr </a> bac a taft isisfin frurin ya\xE1\xB8\x8Dn . Wikipedia\xC2\xAE est une marque d\xC3\xA9pos\xC3\xA9e de la <a href='http://wikimediafoundation.org/wiki/Accueil' title='Wikimedia Foundation'>Wikimedia Foundation, Inc.</a>, tga yat tamaddast lli dar awttas bla ti\xC9\xA3rad."
-
-? "disable_button"
-: "Ssns"
-
-? "nav_edit"
-: "Sbadl"
-
-? "in_the_news"
-: "In\xC9\xA3misn d immussutn"
-
-? "search_results"
-: "Imyakkatn n icnubc"
-
-? "explain_disable"
-: "Is nit trit ad tssnst alqm ammussu n wikipidya"
-
-? "back_to_top_of_section"
-: "Urrid s yan wayyaw"
-
-? "featured_article"
-: "Isisfiwn f ..."
-
-? "nav_history"
-: "Amzruy"
-
-? "file_namespace"
-: "Asdaw"
-
-? "perm_stop_redirect"
-: "Ssns asit ammussu (a\xE1\xBA\x93iraz) s mamnk am\xC9\xA3lal"
-
-? "back_button"
-: "Urri"
-
-? "no_article_found"
-: "Ur nufa kra n umli \xC9\xA3id"
-
-? "show_button"
-: "Mel"
-
-? "regular_wikipedia"
-: "Ml tasna yad \xC9\xA3 wikipidya tamqrant"
-
-? "contact_us"
-: "I\xC9\xA3 dark kra n isqqsitn ni iwnnan (i\xC9\xA3fiwaliwn). Asna\xC9\xA3t nid tarata\xC9\xA3 \xC9\xA3id mobile@wikipedia.org"
-
-? "error_page_title"
-: "Surfa\xC9\xA3 ! darn\xC9\xA3 tamukrist"
-
-? "search_text"
-: "Sigl"
-
-? "nav_top"
-: "Attuy"
-
-? "are_you_sure"
-: "Is nit t\xC9\xA3\xE1\xBA\x93ant ?"
-
-? "hide_button"
-: "\xE1\xB8\xA4bu"
-
+are_you_sure: Is nit tɣẓant ?
+back_button: Urri
+back_to_top_of_section: Urrid s yan wayyaw
+contact_us: Iɣ dark kra n isqqsitn ni iwnnan (iɣfiwaliwn). Asnaɣt nid tarataɣ ɣid mobile@wikipedia.org
+copyright: "<a class='internal' href='/wiki/Wikip%C3%A9dia:Izrfan n umgay' title='Izrfan n umgay'>Izrfan n umgay</a> : Iṭṛiṣn rad tn taft ɣid  <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.fr'>taragt n usnufl Commons tibḍit–baba iga zund</a> ;s tiwtilin lli f fllasn ittuyskarn. Zṛ f mayad ɣ <a href='http://wikimediafoundation.org/wiki/Conditions_d'utilisation'>tiwtlin  n uskr </a> bac a taft isisfin frurin yaḍn . Wikipedia® est une marque déposée de la <a href='http://wikimediafoundation.org/wiki/Accueil' title='Wikimedia Foundation'>Wikimedia Foundation, Inc.</a>, tga yat tamaddast lli dar awttas bla tiɣrad."
+disable_button: Ssns
+download_full_version: Srbu alqm izunn
+error_page_title: Surfaɣ ! darnɣ tamukrist
+explain_disable: Is nit trit ad tssnst alqm ammussu n wikipidya
+featured_article: Isisfiwn f ...
+file_namespace: Asdaw
+hide_button: Ḥbu
+home_button: Asbrk
+in_the_news: Inɣmisn d immussutn
+nav_edit: Sbadl
+nav_end: Isala
+nav_history: Amzruy
+nav_top: Attuy
+no_article_found: Ur nufa kra n umli ɣid
+perm_stop_redirect: Ssns asit ammussu (aẓiraz) s mamnk amɣlal
+regular_wikipedia: Ml tasna yad ɣ wikipidya tamqrant
+search_results: Imyakkatn n icnubc
+search_text: Sigl
+show_button: Mel
+wikipedia: Wikipidya

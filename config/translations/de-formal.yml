@@ -2,4 +2,5 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Umherirrender
---- %YAML:1.0 {"explain_disable": "Sind Sie sich sicher, die mobile Wikipedia-Version zu deaktivieren? Wenn Sie <b>Deaktivieren</b> w\xC3\xA4hlen, werden Sie von nun an bei einem Besuch von Wikipedia, nicht mehr automatisch auf die mobile Wikipedia-Version weitergeleitet.", "are_you_sure": "Sind Sie sich sicher?"}
+are_you_sure: Sind Sie sich sicher?
+explain_disable: Sind Sie sich sicher, die mobile Wikipedia-Version zu deaktivieren? Wenn Sie <b>Deaktivieren</b> wählen, werden Sie von nun an bei einem Besuch von Wikipedia, nicht mehr automatisch auf die mobile Wikipedia-Version weitergeleitet.

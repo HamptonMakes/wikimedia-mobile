@@ -2,82 +2,29 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Sdm1985
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipedia"
-
-? "nav_end"
-: "Fin"
-
-? "home_button"
-: "P\xC3\xA1gina Prinsipal"
-
-? "copyright"
-: "Teksto ta disponibel bou di e a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; otro rekisitonan por ta aplikabel. Mira <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Rekisitonan pa uso</a> pa detayenan. Wikipedia ta un marka registr\xC3\xA1 di e <a href='http://www.wikimediafoundation.org/'>Fundashon Wikimedia, Inc.</a>, un organisashon k\xC3\xA1ritativo."
-
-? "disable_button"
-: "Desaktiv\xC3\xA1"
-
-? "nav_edit"
-: "Kambia"
-
-? "in_the_news"
-: "Den Notisia"
-
-? "search_results"
-: "Buska Resultadonan"
-
-? "explain_disable"
-: "Bo tin sigur ku bo kier desaktiv\xC3\xA1 e vershon mobil di Wikipedia? Si bo skohe <b>Disable</b>, di awor pa dilanti ora bo bishit\xC3\xA1 Wikipedia lo bo no w\xC3\xB2rdu dirigi na e p\xC3\xA1gina mobil di Wikipedia aki."
-
-? "back_to_top_of_section"
-: "Bai un sekshon patras"
-
-? "featured_article"
-: "E Art\xC3\xADkulo Estelar Di Awe"
-
-? "nav_history"
-: "Historia"
-
-? "error_page_text"
-: "Nos ta trahando duru pa feks tur e foutnan interno di Wikipedia mobil. Nos a w\xC3\xB2rdu notifik\xC3\xA1 di e fout aki i lo feks e pronto. Por fabor sigui bini b\xC3\xA8k na e p\xC3\xA1gina aki!"
-
-? "perm_stop_redirect"
-: "Desaktiv\xC3\xA1 e p\xC3\xA1gina mobil permanentemente"
-
-? "back_button"
-: "Bai B\xC3\xA8k"
-
-? "search_submit"
-: "Buska"
-
-? "no_article_found"
-: "No a Ha\xC3\xB1a ningun Art\xC3\xADkulo"
-
-? "show_button"
-: "Mustra"
-
-? "regular_wikipedia"
-: "Mira e p\xC3\xA1gina aki riba un base regular"
-
-? "contact_us"
-: "Si  bo tin kualkier pregunta \xC3\xB2f komentario por fabor manda un e-mail na mobile@wikipedia.org"
-
-? "error_page_title"
-: "Nos tin un problema"
-
-? "search_text"
-: "Buska"
-
-? "nav_top"
-: "Kabes"
-
-? "are_you_sure"
-: "Bo tin sigur?"
-
-? "hide_button"
-: "Skonde"
-
-? "random_button"
-: "Kualkier"
-
+are_you_sure: Bo tin sigur?
+back_button: Bai Bèk
+back_to_top_of_section: Bai un sekshon patras
+contact_us: Si  bo tin kualkier pregunta òf komentario por fabor manda un e-mail na mobile@wikipedia.org
+copyright: Teksto ta disponibel bou di e a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; otro rekisitonan por ta aplikabel. Mira <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Rekisitonan pa uso</a> pa detayenan. Wikipedia ta un marka registrá di e <a href='http://www.wikimediafoundation.org/'>Fundashon Wikimedia, Inc.</a>, un organisashon káritativo.
+disable_button: Desaktivá
+error_page_text: Nos ta trahando duru pa feks tur e foutnan interno di Wikipedia mobil. Nos a wòrdu notifiká di e fout aki i lo feks e pronto. Por fabor sigui bini bèk na e página aki!
+error_page_title: Nos tin un problema
+explain_disable: Bo tin sigur ku bo kier desaktivá e vershon mobil di Wikipedia? Si bo skohe <b>Disable</b>, di awor pa dilanti ora bo bishitá Wikipedia lo bo no wòrdu dirigi na e página mobil di Wikipedia aki.
+featured_article: E Artíkulo Estelar Di Awe
+hide_button: Skonde
+home_button: Página Prinsipal
+in_the_news: Den Notisia
+nav_edit: Kambia
+nav_end: Fin
+nav_history: Historia
+nav_top: Kabes
+no_article_found: No a Haña ningun Artíkulo
+perm_stop_redirect: Desaktivá e página mobil permanentemente
+random_button: Kualkier
+regular_wikipedia: Mira e página aki riba un base regular
+search_results: Buska Resultadonan
+search_submit: Buska
+search_text: Buska
+show_button: Mustra
+wikipedia: Wikipedia

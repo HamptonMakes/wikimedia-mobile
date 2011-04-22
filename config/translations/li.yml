@@ -2,92 +2,32 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Pahles
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipedia"
-
-? "download_full_version"
-: "Volledige versie downloade"
-
-? "nav_end"
-: "\xC3\x93ngeraan"
-
-? "home_button"
-: "Veurblaad"
-
-? "copyright"
-: "De teks is besjikbaar \xC3\xB3nger de <a href=\"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License\">Creative Commons Naomsvermelding/Geliek Deile</a> licentie. 't Is m\xC3\xA4\xC3\xB6gelik dat aanv\xC3\xB6llende veurwaarde van toepassing zeen. Betrach de <a href=\"http://wikimediafoundation.org/wiki/Terms_of_Use\">Algemein Veurwaarde</a> veur mie informatie."
-
-? "disable_button"
-: "Oetsjakele"
-
-? "nav_edit"
-: "Bewirk"
-
-? "in_the_news"
-: "In 't nuujs"
-
-? "search_results"
-: "Zeukrizzeltate"
-
-? "explain_disable"
-: "Bis doe zeker dets doe de mobiel versie van Wikipedia w\xC3\xA8ls oetsjakele? Es doe <b>Oetsjakele</b> kees, dan waers doe vanaaf noe neet doorverweze nao dees mobiel versie van Wikipedia es doe Wikipedia bezeuks."
-
-? "back_to_top_of_section"
-: "Ein k\xC3\xB6pke tr\xC3\xB6ksjpringe"
-
-? "featured_article"
-: "Sjterartikel"
-
-? "nav_history"
-: "Gesjiedenis"
-
-? "error_page_text"
-: "Wikipedia mobile is in ontwikkeling en d'r weurt hel gewirk om alle foute op te losse. V'r h\xC3\xB6bbe dees fout \xC3\xB3ntvange en goon dees zoe sjnel wie m\xC3\xA4\xC3\xB6gelik verhelpe.\n\
-  Betrach dit later nog ins!"
-
-? "file_namespace"
-: "Besjtand"
-
-? "perm_stop_redirect"
-: "Gebroek ummer de normale layout"
-
-? "back_button"
-: "Tr\xC3\xB6k"
-
-? "search_submit"
-: "Gank"
-
-? "no_article_found"
-: "Gein rizzeltaat gev\xC3\xB3nje"
-
-? "show_button"
-: "Tuin"
-
-? "regular_wikipedia"
-: "Betrach dees pagina in de normale layout"
-
-? "contact_us"
-: "Es doe vraoge of opmerkinge h\xC3\xB6bs, num dan via e-mail kontak op met \xC3\xB3s via mobile@wikipedia.org"
-
-? "error_page_title"
-: "D'r is 'n probleem!"
-
-? "search_text"
-: "Zeuk"
-
-? "nav_top"
-: "Bovenaan"
-
-? "author_link"
-: "Bekiek dit mediabesjtand op de reguliere Wikipedia um infermasie te zien euver out\xC3\xA4\xC3\xB6rsjap, licentie en euverige besjrievinge."
-
-? "are_you_sure"
-: "Bis doe zeker?"
-
-? "hide_button"
-: "Versjtaek"
-
-? "random_button"
-: "Willek\xC3\xA4\xC3\xB6rig"
-
+are_you_sure: Bis doe zeker?
+author_link: Bekiek dit mediabesjtand op de reguliere Wikipedia um infermasie te zien euver outäörsjap, licentie en euverige besjrievinge.
+back_button: Trök
+back_to_top_of_section: Ein köpke tröksjpringe
+contact_us: Es doe vraoge of opmerkinge höbs, num dan via e-mail kontak op met ós via mobile@wikipedia.org
+copyright: De teks is besjikbaar ónger de <a href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Naomsvermelding/Geliek Deile</a> licentie. 't Is mäögelik dat aanvöllende veurwaarde van toepassing zeen. Betrach de <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Algemein Veurwaarde</a> veur mie informatie.
+disable_button: Oetsjakele
+download_full_version: Volledige versie downloade
+error_page_text: "Wikipedia mobile is in ontwikkeling en d'r weurt hel gewirk om alle foute op te losse. V'r höbbe dees fout óntvange en goon dees zoe sjnel wie mäögelik verhelpe.\nBetrach dit later nog ins!"
+error_page_title: D'r is 'n probleem!
+explain_disable: Bis doe zeker dets doe de mobiel versie van Wikipedia wèls oetsjakele? Es doe <b>Oetsjakele</b> kees, dan waers doe vanaaf noe neet doorverweze nao dees mobiel versie van Wikipedia es doe Wikipedia bezeuks.
+featured_article: Sjterartikel
+file_namespace: Besjtand
+hide_button: Versjtaek
+home_button: Veurblaad
+in_the_news: In 't nuujs
+nav_edit: Bewirk
+nav_end: Óngeraan
+nav_history: Gesjiedenis
+nav_top: Bovenaan
+no_article_found: Gein rizzeltaat gevónje
+perm_stop_redirect: Gebroek ummer de normale layout
+random_button: Willekäörig
+regular_wikipedia: Betrach dees pagina in de normale layout
+search_results: Zeukrizzeltate
+search_submit: Gank
+search_text: Zeuk
+show_button: Tuin
+wikipedia: Wikipedia

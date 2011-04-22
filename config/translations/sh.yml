@@ -2,79 +2,28 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: OC Ripper
---- %YAML:1.0 
-? "nav_end"
-: "Kraj"
-
-? "home_button"
-: "Po\xC4\x8Detna"
-
-? "copyright"
-: "Tekst je dostupan pod <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike licencom</a>; mogu se primjeniti i dodatna pravila. Pogledajte <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Pravila upotrebe</a> za vi\xC5\xA1e detalja. Wikipedia je registrirana trgova\xC4\x8Dka marka od <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, neprofitne organizacije."
-
-? "disable_button"
-: "Onemogu\xC4\x87i"
-
-? "nav_edit"
-: "Uredi"
-
-? "in_the_news"
-: "Vijesti"
-
-? "search_results"
-: "Rezultati pretrage"
-
-? "explain_disable"
-: "Da li ste sigurni da \xC5\xBEelite onemogu\xC4\x87iti mobilnu verziju Wikipedije ? Ako odaberete <b>Onemogu\xC4\x87i</b>, poslije toga, pri posjeti Wikipediji, ne\xC4\x87ete biti preusmjereni na ovu mobilnu Wikipediju."
-
-? "back_to_top_of_section"
-: "Sko\xC4\x8Di nazad za jednu sekciju"
-
-? "featured_article"
-: "Odabrani \xC4\x8Dlanak"
-
-? "nav_history"
-: "Historija"
-
-? "error_page_text"
-: "Wikipedia mobile je jo\xC5\xA1 uvijek u fazi aktivnog razvoja i mi svakodnevno radimo na ispravci svih unutra\xC5\xA1njih gre\xC5\xA1aka. Obavje\xC5\xA1teni smo o ovoj gre\xC5\xA1ci i uskoro \xC4\x87emo je ispraviti. Molimo poku\xC5\xA1ajte kasnije!"
-
-? "perm_stop_redirect"
-: "Trajno onemogu\xC4\x87i mobilni sajt"
-
-? "back_button"
-: "Nazad"
-
-? "search_submit"
-: "Idi"
-
-? "no_article_found"
-: "Nije prona\xC4\x91en nijedan \xC4\x8Dlanak"
-
-? "show_button"
-: "Poka\xC5\xBEi"
-
-? "regular_wikipedia"
-: "Pogledaj ovu stranicu na obi\xC4\x8Dnoj Wikipediji"
-
-? "contact_us"
-: "Ako imate pitanja ili komentare slobodno nam po\xC5\xA1aljite E-mail na mobile@wikipedia.org"
-
-? "error_page_title"
-: "Imamo problem!"
-
-? "search_text"
-: "Tra\xC5\xBEi"
-
-? "nav_top"
-: "Vrh"
-
-? "are_you_sure"
-: "Da li ste sigurni ???"
-
-? "hide_button"
-: "Sakrij"
-
-? "random_button"
-: "Slu\xC4\x8Dajna"
-
+are_you_sure: Da li ste sigurni ???
+back_button: Nazad
+back_to_top_of_section: Skoči nazad za jednu sekciju
+contact_us: Ako imate pitanja ili komentare slobodno nam pošaljite E-mail na mobile@wikipedia.org
+copyright: Tekst je dostupan pod <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike licencom</a>; mogu se primjeniti i dodatna pravila. Pogledajte <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Pravila upotrebe</a> za više detalja. Wikipedia je registrirana trgovačka marka od <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, neprofitne organizacije.
+disable_button: Onemogući
+error_page_text: Wikipedia mobile je još uvijek u fazi aktivnog razvoja i mi svakodnevno radimo na ispravci svih unutrašnjih grešaka. Obavješteni smo o ovoj grešci i uskoro ćemo je ispraviti. Molimo pokušajte kasnije!
+error_page_title: Imamo problem!
+explain_disable: Da li ste sigurni da želite onemogućiti mobilnu verziju Wikipedije ? Ako odaberete <b>Onemogući</b>, poslije toga, pri posjeti Wikipediji, nećete biti preusmjereni na ovu mobilnu Wikipediju.
+featured_article: Odabrani članak
+hide_button: Sakrij
+home_button: Početna
+in_the_news: Vijesti
+nav_edit: Uredi
+nav_end: Kraj
+nav_history: Historija
+nav_top: Vrh
+no_article_found: Nije pronađen nijedan članak
+perm_stop_redirect: Trajno onemogući mobilni sajt
+random_button: Slučajna
+regular_wikipedia: Pogledaj ovu stranicu na običnoj Wikipediji
+search_results: Rezultati pretrage
+search_submit: Idi
+search_text: Traži
+show_button: Pokaži

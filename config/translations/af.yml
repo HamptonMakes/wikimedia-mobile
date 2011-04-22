@@ -2,95 +2,32 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Naudefj
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipedia"
-
-? "download_full_version"
-: "Laai volledige weergawe af"
-
-? "nav_end"
-: "Onderaan"
-
-? "home_button"
-: "Tuisblad"
-
-? "copyright"
-: "Die teks is beskikbaar onder die <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Erkenning-Insgelyks Deel</a> lisensie. Dit is moontlik dat aanvullende voorwaardes van toepassing is. Sien die <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Algemene Voorwaardes</a> vir meer inligting."
-
-? "disable_button"
-: "Afskakel"
-
-? "nav_edit"
-: "Wysig"
-
-? "in_the_news"
-: "Aktueel"
-
-? "search_results"
-: "Soekresultate"
-
-? "explain_disable"
-: "Is u seker u wil die selfoon weergawe van Wikipedia afskakel? As u <b>afskakel</b> kies, sal u vanaf daai oomblik, as u Wikpedia besoek nie meer na die mobiele weergawe aangestuur word nie."
-
-? "back_to_top_of_section"
-: "Spring een opskrif terug"
-
-? "featured_article"
-: "Uitgelig"
-
-? "nav_history"
-: "Geskiedenis"
-
-? "error_page_text"
-: >-
-  Wikipedia mobiel is onder ontwikkeling en daar word hard gewerk om alle probleme op
-  te los.
-
-  Ons het die fout ontvang en sal dit spoedig regmaak. Besoek ons weer binnekort!
-
-? "file_namespace"
-: "L\xC3\xAAer"
-
-? "perm_stop_redirect"
-: "Gebruik altyd die gewone Wikipedia"
-
-? "back_button"
-: "Terug"
-
-? "search_submit"
-: "Soek"
-
-? "no_article_found"
-: "Geen resultate gevind nie"
-
-? "show_button"
-: "Wys"
-
-? "regular_wikipedia"
-: "Wys blad op die gewone Wikipedia"
-
-? "contact_us"
-: "As u enige vrae of kommentaar het kan u ons gerus kontak by mobile@wikipedia.org"
-
-? "error_page_title"
-: "Ons het 'n probleem!"
-
-? "search_text"
-: "Soek"
-
-? "nav_top"
-: "Boaan"
-
-? "author_link"
-: "Kyk na die medial\xC3\xAAer op die gewone Wikipedia om inligting oor outeurskap, lisensies, en addisionele beskrywings te sien."
-
-? "are_you_sure"
-: "Is u seker?"
-
-? "hide_button"
-: "Versteek"
-
-? "random_button"
-: "Lukrake blad"
-
+are_you_sure: Is u seker?
+author_link: Kyk na die medialêer op die gewone Wikipedia om inligting oor outeurskap, lisensies, en addisionele beskrywings te sien.
+back_button: Terug
+back_to_top_of_section: Spring een opskrif terug
+contact_us: As u enige vrae of kommentaar het kan u ons gerus kontak by mobile@wikipedia.org
+copyright: Die teks is beskikbaar onder die <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Erkenning-Insgelyks Deel</a> lisensie. Dit is moontlik dat aanvullende voorwaardes van toepassing is. Sien die <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Algemene Voorwaardes</a> vir meer inligting.
+disable_button: Afskakel
+download_full_version: Laai volledige weergawe af
+error_page_text: "Wikipedia mobiel is onder ontwikkeling en daar word hard gewerk om alle probleme op te los.\nOns het die fout ontvang en sal dit spoedig regmaak. Besoek ons weer binnekort!"
+error_page_title: Ons het 'n probleem!
+explain_disable: Is u seker u wil die selfoon weergawe van Wikipedia afskakel? As u <b>afskakel</b> kies, sal u vanaf daai oomblik, as u Wikpedia besoek nie meer na die mobiele weergawe aangestuur word nie.
+featured_article: Uitgelig
+file_namespace: Lêer
+hide_button: Versteek
+home_button: Tuisblad
+in_the_news: Aktueel
+nav_edit: Wysig
+nav_end: Onderaan
+nav_history: Geskiedenis
+nav_top: Boaan
+no_article_found: Geen resultate gevind nie
+perm_stop_redirect: Gebruik altyd die gewone Wikipedia
+random_button: Lukrake blad
+regular_wikipedia: Wys blad op die gewone Wikipedia
+search_results: Soekresultate
+search_submit: Soek
+search_text: Soek
+show_button: Wys
+wikipedia: Wikipedia

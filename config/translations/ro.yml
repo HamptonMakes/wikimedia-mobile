@@ -9,91 +9,32 @@
 # Author: Minisarm
 # Author: Misterr
 # Author: Stelistcristi
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipedia"
-
-? "download_full_version"
-: "Descarc\xC4\x83 versiunea complet\xC4\x83"
-
-? "nav_end"
-: "Sf\xC3\xA2r\xC8\x99it"
-
-? "home_button"
-: "Acas\xC4\x83"
-
-? "copyright"
-: "Acest text este disponibil sub licen\xC8\x9Ba <a href=\"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License\">Creative Commons cu atribuire \xC8\x99i distribuire \xC3\xAEn condi\xC8\x9Bii identice</a>; pot exista \xC8\x99i clauze suplimentare. Vede\xC8\x9Bi detalii la <a href=\"http://wikimediafoundation.org/wiki/Terms_of_Use\">Termenii de utilizare</a>. Wikipedia este o marc\xC4\x83 \xC3\xAEnregistrat\xC4\x83 a organiza\xC8\x9Biei nonprofit <a href='http://www.wikimediafoundation.org/'>Funda\xC8\x9Bia Wikimedia, Inc.</a>."
-
-? "disable_button"
-: "Dezactiveaz\xC4\x83"
-
-? "nav_edit"
-: "Modificare"
-
-? "in_the_news"
-: "\xC8\x98tiri"
-
-? "search_results"
-: "Rezultatele c\xC4\x83ut\xC4\x83rii"
-
-? "explain_disable"
-: "Sunte\xC8\x9Bi sigur c\xC4\x83 dori\xC8\x9Bi s\xC4\x83 dezactiva\xC8\x9Bi versiunea mobil\xC4\x83 a Wikipediei? Dac\xC4\x83 alege\xC8\x9Bi <b>Dezactiveaz\xC4\x83</b>, de acum, atunci c\xC3\xA2nd ve\xC8\x9Bi vizita Wikipedia, nu ve\xC8\x9Bi mai fi redirec\xC8\x9Bionat c\xC4\x83tre acest sit dedicat dispozitivelor mobile."
-
-? "back_to_top_of_section"
-: "Mergi \xC3\xAEn urm\xC4\x83 cu o sec\xC8\x9Biune"
-
-? "featured_article"
-: "Articolul de calitate al zilei"
-
-? "nav_history"
-: "Istoric"
-
-? "error_page_text"
-: "Wikipedia mobil\xC4\x83 este \xC3\xAEnc\xC4\x83 \xC3\xAEn curs de dezvoltare \xC8\x99i lucr\xC4\x83m din greu pentru a repara orice eroare intern\xC4\x83. Am fost anun\xC8\x9Ba\xC8\x9Bi despre aceast\xC4\x83 eroare \xC8\x99i va fi \xC3\xAEn cur\xC3\xA2nd \xC3\xAEndreptat\xC4\x83. V\xC4\x83 rug\xC4\x83m s\xC4\x83 verifica\xC8\x9Bi din nou!"
-
-? "file_namespace"
-: "Fi\xC8\x99ier"
-
-? "perm_stop_redirect"
-: "Dezactiveaz\xC4\x83 permanent situl pentru mobil"
-
-? "back_button"
-: "\xC3\x8Enapoi"
-
-? "search_submit"
-: "Du-te"
-
-? "no_article_found"
-: "Nu au fost g\xC4\x83site articole"
-
-? "show_button"
-: "Arat\xC4\x83"
-
-? "regular_wikipedia"
-: "Vezi aceast\xC4\x83 pagin\xC4\x83 pe Wikipedia"
-
-? "contact_us"
-: "Dac\xC4\x83 ave\xC8\x9Bi o \xC3\xAEntrebare sau un comentariu v\xC4\x83 rug\xC4\x83m s\xC4\x83 ne trimite\xC8\x9Bi un e-mail la mobile@wikipedia.org"
-
-? "error_page_title"
-: "Avem o problem\xC4\x83!"
-
-? "search_text"
-: "C\xC4\x83utare"
-
-? "nav_top"
-: "Sus"
-
-? "author_link"
-: "Vizualiza\xC8\x9Bi acest fi\xC8\x99ier media pe Wikipedia pentru acces la informa\xC8\x9Bii despre autor, licen\xC8\x9Biere \xC8\x99i descrieri suplimentare."
-
-? "are_you_sure"
-: "Sunte\xC8\x9Bi sigur?"
-
-? "hide_button"
-: "Ascunde"
-
-? "random_button"
-: "Aleatoriu"
-
+are_you_sure: Sunteți sigur?
+author_link: Vizualizați acest fișier media pe Wikipedia pentru acces la informații despre autor, licențiere și descrieri suplimentare.
+back_button: Înapoi
+back_to_top_of_section: Mergi în urmă cu o secțiune
+contact_us: Dacă aveți o întrebare sau un comentariu vă rugăm să ne trimiteți un e-mail la mobile@wikipedia.org
+copyright: Acest text este disponibil sub licența <a href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons cu atribuire și distribuire în condiții identice</a>; pot exista și clauze suplimentare. Vedeți detalii la <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Termenii de utilizare</a>. Wikipedia este o marcă înregistrată a organizației nonprofit <a href='http://www.wikimediafoundation.org/'>Fundația Wikimedia, Inc.</a>.
+disable_button: Dezactivează
+download_full_version: Descarcă versiunea completă
+error_page_text: Wikipedia mobilă este încă în curs de dezvoltare și lucrăm din greu pentru a repara orice eroare internă. Am fost anunțați despre această eroare și va fi în curând îndreptată. Vă rugăm să verificați din nou!
+error_page_title: Avem o problemă!
+explain_disable: Sunteți sigur că doriți să dezactivați versiunea mobilă a Wikipediei? Dacă alegeți <b>Dezactivează</b>, de acum, atunci când veți vizita Wikipedia, nu veți mai fi redirecționat către acest sit dedicat dispozitivelor mobile.
+featured_article: Articolul de calitate al zilei
+file_namespace: Fișier
+hide_button: Ascunde
+home_button: Acasă
+in_the_news: Știri
+nav_edit: Modificare
+nav_end: Sfârșit
+nav_history: Istoric
+nav_top: Sus
+no_article_found: Nu au fost găsite articole
+perm_stop_redirect: Dezactivează permanent situl pentru mobil
+random_button: Aleatoriu
+regular_wikipedia: Vezi această pagină pe Wikipedia
+search_results: Rezultatele căutării
+search_submit: Du-te
+search_text: Căutare
+show_button: Arată
+wikipedia: Wikipedia

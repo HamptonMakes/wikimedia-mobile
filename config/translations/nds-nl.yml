@@ -2,88 +2,29 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Servien
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipedie"
-
-? "nav_end"
-: "Einde"
-
-? "home_button"
-: "Veurpagina"
-
-? "copyright"
-: "De tekse is beschikbaor onder de licentie <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Naamvermelding/Gelieke delen</a>. 't Kan ween dat der anvullende veurweerden van toepassing bin. Zie de <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>algemene veurweerden</a> veur meer infermasie."
-
-? "disable_button"
-: "Uutschakelen"
-
-? "nav_edit"
-: "Bewarken"
-
-? "in_the_news"
-: "In 't niejs"
-
-? "search_results"
-: "Zeukrisseltaoten"
-
-? "explain_disable"
-: "Bi-j der wisse van da-j de mobiele versie van Wikipedie uut willen schakelen? A-j <b>Uutschakelen</b> kiezen, dan w\xC3\xB6-j vanof dat mement neet deurverwezen naor disse mobiele versie van Wikipedie a-j Wikipedie bezeuken."
-
-? "back_to_top_of_section"
-: "Gao naor 't veurige kopjen"
-
-? "featured_article"
-: "Artikel van vandage"
-
-? "nav_history"
-: "Geschiedenisse"
-
-? "error_page_text"
-: >-
-  De mobiele versie van Wikipedie is in ontwikkeling en wie bin hard an 't wark um alle
-  fouten op te lossen.
-
-  Wie hemmen al berich ehad over disse fout en zullen 't zo gauw meugelijk verhelpen.
-
-  Vorttemee zie-j hier 't risseltaot.
-
-? "perm_stop_redirect"
-: "Altied de standardweergave gebruken"
-
-? "back_button"
-: "Weerumme"
-
-? "search_submit"
-: "Artikel"
-
-? "no_article_found"
-: "Gien artikel evunnen"
-
-? "show_button"
-: "Bekieken"
-
-? "regular_wikipedia"
-: "Disse pagina in de standardweergave bekieken"
-
-? "contact_us"
-: "A-j nog vragen of opmarkingen hemmen, stuur ons gerus een berichjen op 't adres mobile@wikipedia.org"
-
-? "error_page_title"
-: "Der geet effen wat mis!"
-
-? "search_text"
-: "Zeuken"
-
-? "nav_top"
-: "Begin"
-
-? "are_you_sure"
-: "Bi-j daor wisse van?"
-
-? "hide_button"
-: "Verbargen"
-
-? "random_button"
-: "Willekeurig"
-
+are_you_sure: Bi-j daor wisse van?
+back_button: Weerumme
+back_to_top_of_section: Gao naor 't veurige kopjen
+contact_us: A-j nog vragen of opmarkingen hemmen, stuur ons gerus een berichjen op 't adres mobile@wikipedia.org
+copyright: De tekse is beschikbaor onder de licentie <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Naamvermelding/Gelieke delen</a>. 't Kan ween dat der anvullende veurweerden van toepassing bin. Zie de <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>algemene veurweerden</a> veur meer infermasie.
+disable_button: Uutschakelen
+error_page_text: "De mobiele versie van Wikipedie is in ontwikkeling en wie bin hard an 't wark um alle fouten op te lossen.\nWie hemmen al berich ehad over disse fout en zullen 't zo gauw meugelijk verhelpen.\nVorttemee zie-j hier 't risseltaot."
+error_page_title: Der geet effen wat mis!
+explain_disable: Bi-j der wisse van da-j de mobiele versie van Wikipedie uut willen schakelen? A-j <b>Uutschakelen</b> kiezen, dan wö-j vanof dat mement neet deurverwezen naor disse mobiele versie van Wikipedie a-j Wikipedie bezeuken.
+featured_article: Artikel van vandage
+hide_button: Verbargen
+home_button: Veurpagina
+in_the_news: In 't niejs
+nav_edit: Bewarken
+nav_end: Einde
+nav_history: Geschiedenisse
+nav_top: Begin
+no_article_found: Gien artikel evunnen
+perm_stop_redirect: Altied de standardweergave gebruken
+random_button: Willekeurig
+regular_wikipedia: Disse pagina in de standardweergave bekieken
+search_results: Zeukrisseltaoten
+search_submit: Artikel
+search_text: Zeuken
+show_button: Bekieken
+wikipedia: Wikipedie

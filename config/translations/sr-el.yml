@@ -5,91 +5,32 @@
 # Author: Michaello
 # Author: Rancher
 # Author: Жељко Тодоровић
---- %YAML:1.0 
-? "wikipedia"
-: "Vikipedija"
-
-? "download_full_version"
-: "Preuzmi celo izdanje"
-
-? "nav_end"
-: "Kraj"
-
-? "home_button"
-: "Po\xC4\x8Detak"
-
-? "copyright"
-: "Ovaj tekst je dostupan pod licencom <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Krijejtiv komons Autorstvo-Deliti pod istim uslovima </a>; mogao bi biti podlo\xC5\xBEan i dodatnim uslovima. Pogledajte <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>uslove kori\xC5\xA1\xC4\x87enja</a> za detalje. Vikipedija je registrovani znak <a href='http://www.wikimediafoundation.org/'>Vikimedijine fondacije</a>, neprofitne organizacije."
-
-? "disable_button"
-: "Onemogu\xC4\x87i"
-
-? "nav_edit"
-: "Uredi"
-
-? "in_the_news"
-: "Vesti"
-
-? "search_results"
-: "Rezultati pretrage"
-
-? "explain_disable"
-: "\xC5\xBDelite li da onemogu\xC4\x87ite mobilno izdanje Vikipedije? Ako izaberete <i>Onemogu\xC4\x87i</i>, od sada pa nadalje ne\xC4\x87ete biti preusmeravani na ovaj mobilni prikaz kada posetite Vikipediju."
-
-? "back_to_top_of_section"
-: "Nazad na prethodni odeljak"
-
-? "featured_article"
-: "Dana\xC5\xA1nji izabrani \xC4\x8Dlanak"
-
-? "nav_history"
-: "Istorija"
-
-? "error_page_text"
-: "Mobilna Vikipedija je jo\xC5\xA1 uvek u fazi aktivnog razvoja i radimo naporno na popravci svih unutra\xC5\xA1njih gre\xC5\xA1aka. Obave\xC5\xA1teni smo o ovoj gre\xC5\xA1ci i ispravi\xC4\x87emo je uskoro. Svratite nam opet!"
-
-? "file_namespace"
-: "Datoteka"
-
-? "perm_stop_redirect"
-: "Trajno onemogu\xC4\x87i mobilni prikaz"
-
-? "back_button"
-: "Nazad"
-
-? "search_submit"
-: "Pre\xC4\x91i"
-
-? "no_article_found"
-: "\xC4\x8Clanak nije prona\xC4\x91en."
-
-? "show_button"
-: "Prika\xC5\xBEi"
-
-? "regular_wikipedia"
-: "Pogledaj ovu stranicu na obi\xC4\x8Dnoj Vikipediji"
-
-? "contact_us"
-: "Ako imate bilo kakva pitanja ili primedbe, slobodno nam pi\xC5\xA1ite na mobile@wikipedia.org"
-
-? "error_page_title"
-: "Do\xC5\xA1lo je do problema!"
-
-? "search_text"
-: "Pretraga"
-
-? "nav_top"
-: "Vrh"
-
-? "author_link"
-: "Pogledajte ovu datoteku na obi\xC4\x8Dnoj Vikipediji za pregled podataka o autorskim pravima, licenciranju i dodatnim opisima."
-
-? "are_you_sure"
-: "Jeste li sigurni?"
-
-? "hide_button"
-: "Sakrij"
-
-? "random_button"
-: "Nasumice"
-
+are_you_sure: Jeste li sigurni?
+author_link: Pogledajte ovu datoteku na običnoj Vikipediji za pregled podataka o autorskim pravima, licenciranju i dodatnim opisima.
+back_button: Nazad
+back_to_top_of_section: Nazad na prethodni odeljak
+contact_us: Ako imate bilo kakva pitanja ili primedbe, slobodno nam pišite na mobile@wikipedia.org
+copyright: Ovaj tekst je dostupan pod licencom <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Krijejtiv komons Autorstvo-Deliti pod istim uslovima </a>; mogao bi biti podložan i dodatnim uslovima. Pogledajte <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>uslove korišćenja</a> za detalje. Vikipedija je registrovani znak <a href='http://www.wikimediafoundation.org/'>Vikimedijine fondacije</a>, neprofitne organizacije.
+disable_button: Onemogući
+download_full_version: Preuzmi celo izdanje
+error_page_text: Mobilna Vikipedija je još uvek u fazi aktivnog razvoja i radimo naporno na popravci svih unutrašnjih grešaka. Obavešteni smo o ovoj grešci i ispravićemo je uskoro. Svratite nam opet!
+error_page_title: Došlo je do problema!
+explain_disable: Želite li da onemogućite mobilno izdanje Vikipedije? Ako izaberete <i>Onemogući</i>, od sada pa nadalje nećete biti preusmeravani na ovaj mobilni prikaz kada posetite Vikipediju.
+featured_article: Današnji izabrani članak
+file_namespace: Datoteka
+hide_button: Sakrij
+home_button: Početak
+in_the_news: Vesti
+nav_edit: Uredi
+nav_end: Kraj
+nav_history: Istorija
+nav_top: Vrh
+no_article_found: Članak nije pronađen.
+perm_stop_redirect: Trajno onemogući mobilni prikaz
+random_button: Nasumice
+regular_wikipedia: Pogledaj ovu stranicu na običnoj Vikipediji
+search_results: Rezultati pretrage
+search_submit: Idi
+search_text: Pretraga
+show_button: Prikaži
+wikipedia: Vikipedija

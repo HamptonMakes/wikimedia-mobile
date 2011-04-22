@@ -2,4 +2,7 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Xqt
---- %YAML:1.0 {"back_button": "Zerrick", "search_submit": "Geh los", "show_button": "Zeig", "search_text": "Uffgucke"}
+back_button: Zerrick
+search_submit: Geh los
+search_text: Uffgucke
+show_button: Zeig

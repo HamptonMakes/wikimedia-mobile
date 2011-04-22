@@ -2,70 +2,25 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Candalua
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipedia"
-
-? "nav_end"
-: "Fine"
-
-? "home_button"
-: "Inissio"
-
-? "copyright"
-: "El testo el xe disponibile soto la <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>licensa Creative Commons Attribution/Share-Alike</a>; podar\xC3\xAC\xC3\xA0 aplicarse condission ulteriori. Varda le <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>condission d'uso</a> par i detagli. Wikipedia la xe un marchio registr\xC3\xA0 de la <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, na organixassion non a scopo de lucro."
-
-? "nav_edit"
-: "Mod\xC3\xACfega"
-
-? "in_the_news"
-: "Novit\xC3\xA0"
-
-? "search_results"
-: "Risultati de la riserca"
-
-? "featured_article"
-: "Vetrina"
-
-? "nav_history"
-: "Cronologia"
-
-? "error_page_text"
-: "Wikipedia mobile la semo 'ncora drio svilupar e semo drio laorar come i mussi par ris\xC3\xB2lvar tuti i nostri erori interni. Gavemo z\xC3\xA0 avis\xC3\xA0 de sto eror e presto el vegnar\xC3\xA0 sistem\xC3\xA0. Pr\xC3\xB3a da novo pi vanti!"
-
-? "perm_stop_redirect"
-: "Disabilita permanentemente sito par dispositivi mobili"
-
-? "back_button"
-: "Indr\xC3\xACo"
-
-? "search_submit"
-: "V\xC3\xA0"
-
-? "no_article_found"
-: "Nissuna corispondensa cat\xC3\xA0"
-
-? "show_button"
-: "Mostra"
-
-? "regular_wikipedia"
-: "Varda sta pagina su la Wikipedia normale"
-
-? "error_page_title"
-: "Gavemo un problema!"
-
-? "search_text"
-: "Serca"
-
-? "nav_top"
-: "Scominsio"
-
-? "are_you_sure"
-: "Sito sicuro?"
-
-? "hide_button"
-: "Scondi"
-
-? "random_button"
-: "A caso"
-
+are_you_sure: Sito sicuro?
+back_button: Indrìo
+copyright: El testo el xe disponibile soto la <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>licensa Creative Commons Attribution/Share-Alike</a>; podarìà aplicarse condission ulteriori. Varda le <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>condission d'uso</a> par i detagli. Wikipedia la xe un marchio registrà de la <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, na organixassion non a scopo de lucro.
+error_page_text: Wikipedia mobile la semo 'ncora drio svilupar e semo drio laorar come i mussi par risòlvar tuti i nostri erori interni. Gavemo zà avisà de sto eror e presto el vegnarà sistemà. Próa da novo pi vanti!
+error_page_title: Gavemo un problema!
+featured_article: Vetrina
+hide_button: Scondi
+home_button: Inissio
+in_the_news: Novità
+nav_edit: Modìfega
+nav_end: Fine
+nav_history: Cronologia
+nav_top: Scominsio
+no_article_found: Nissuna corispondensa catà
+perm_stop_redirect: Disabilita permanentemente sito par dispositivi mobili
+random_button: A caso
+regular_wikipedia: Varda sta pagina su la Wikipedia normale
+search_results: Risultati de la riserca
+search_submit: Và
+search_text: Serca
+show_button: Mostra
+wikipedia: Wikipedia

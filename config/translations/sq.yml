@@ -3,92 +3,32 @@
 # Export driver: syck-pecl
 # Author: Olsi
 # Author: Techlik
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipedia"
-
-? "download_full_version"
-: "Shkarko versionin e plot\xC3\xAB"
-
-? "nav_end"
-: "Shko n\xC3\xAB fund"
-
-? "home_button"
-: "Kryefaqja"
-
-? "copyright"
-: "P\xC3\xABrmbajtja \xC3\xABsht\xC3\xAB n\xC3\xAB dispozicion n\xC3\xABn <a href='http://en.wikipedia.org/wiki/Wikipedia:\n\
-  Text_of_Creative_Commons_Attribution_ShareAlike_3.0_Unported_License'>Krijuesi i  atributeve t\xC3\xAB p\xC3\xABrbashk\xC3\xABta/License e ndar\xC3\xAB nj\xC3\xABsoj</a>; kushte shtes\xC3\xAB mund t\xC3\xAB aplikohen. Shiko <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Kushtet e p\xC3\xABrdorimit</a> p\xC3\xABr detaje. Wikipedia \xC3\xABsht\xC3\xAB nj\xC3\xAB mark\xC3\xAB e regjistruar e <a href='http://www.wikimediafoundation.org/'> Wikimedia Foundation, Inc.</a>, nj\xC3\xAB organizat\xC3\xAB jo fitim prur\xC3\xABse."
-
-? "disable_button"
-: "\xC3\x87aktivizo"
-
-? "nav_edit"
-: "Redakto"
-
-? "in_the_news"
-: "N\xC3\xAB lajme"
-
-? "search_results"
-: "Rezultatet e k\xC3\xABrkimit"
-
-? "explain_disable"
-: "Je i/e sigurt q\xC3\xAB d\xC3\xABshiron te \xC3\xA7aktivizozh versionin e Wikipedia-s n\xC3\xAB telefon? N.q.s. zgjedh <b>\xC3\x87aktivizo</b> nga ky moment, kur ti t\xC3\xAB vizitosh Wikipedia-n, nuk do t\xC3\xAB ridrejtohesh m\xC3\xAB tek versioni i telefonit t\xC3\xAB Wikipedia-s."
-
-? "back_to_top_of_section"
-: "Kalo n\xC3\xAB seksionin A"
-
-? "featured_article"
-: "Artikulli i dit\xC3\xABs"
-
-? "nav_history"
-: "Historiku"
-
-? "error_page_text"
-: "Wikipedia n\xC3\xAB telefon \xC3\xABsht\xC3\xAB ende n\xC3\xAB zhvillim e sip\xC3\xABr dhe ne po punojm\xC3\xAB shum\xC3\xAB p\xC3\xABr t\xC3\xAB zgjidhur t\xC3\xAB gjitha problemet tona t\xC3\xAB brendshme. Ne kemi qen\xC3\xAB n\xC3\xAB dijeni t\xC3\xAB k\xC3\xABtij problemi dhe do ta zgjidhim at\xC3\xAB shum\xC3\xAB shpejt. T\xC3\xAB lutemi kontrollo p\xC3\xABrseri m\xC3\xAB von\xC3\xAB!"
-
-? "file_namespace"
-: "Skedar\xC3\xAB"
-
-? "perm_stop_redirect"
-: "\xC3\x87aktivizo p\xC3\xABrgjithmon\xC3\xAB Wikipedia-n n\xC3\xAB telefon"
-
-? "back_button"
-: "Prapa"
-
-? "search_submit"
-: "Shko"
-
-? "no_article_found"
-: "Nuk u gjet asnj\xC3\xAB artikull"
-
-? "show_button"
-: "Shfaq"
-
-? "regular_wikipedia"
-: "Shiko k\xC3\xABt\xC3\xAB faqe n\xC3\xAB versionin e rregullt t\xC3\xAB Wikpedia-s."
-
-? "contact_us"
-: "N.q.s. ke ndonj\xC3\xAB pyetje apo koment mos nguro t\xC3\xAB na d\xC3\xABrgosh email n\xC3\xAB mobile@wikipedia.org"
-
-? "error_page_title"
-: "Ne kemi nj\xC3\xAB problem!"
-
-? "search_text"
-: "K\xC3\xABrko"
-
-? "nav_top"
-: "Ngjitu n\xC3\xAB krye"
-
-? "author_link"
-: "Shiko k\xC3\xABt\xC3\xAB media skedar\xC3\xAB n\xC3\xAB Wikipedia t\xC3\xAB zakonshme p\xC3\xABr t\xC3\xAB shikuar informata rreth autor\xC3\xABsis\xC3\xAB, licencimit dhe p\xC3\xABrshkrimeve tjera shtes\xC3\xAB."
-
-? "are_you_sure"
-: "Je i/e sigurt?"
-
-? "hide_button"
-: "Fshih"
-
-? "random_button"
-: "I rastit"
-
+are_you_sure: Je i/e sigurt?
+author_link: Shiko këtë media skedarë në Wikipedia të zakonshme për të shikuar informata rreth autorësisë, licencimit dhe përshkrimeve tjera shtesë.
+back_button: Prapa
+back_to_top_of_section: Kalo në seksionin A
+contact_us: N.q.s. ke ndonjë pyetje apo koment mos nguro të na dërgosh email në mobile@wikipedia.org
+copyright: "Përmbajtja është në dispozicion nën <a href='http://en.wikipedia.org/wiki/Wikipedia:\nText_of_Creative_Commons_Attribution_ShareAlike_3.0_Unported_License'>Krijuesi i  atributeve të përbashkëta/License e ndarë njësoj</a>; kushte shtesë mund të aplikohen. Shiko <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Kushtet e përdorimit</a> për detaje. Wikipedia është një markë e regjistruar e <a href='http://www.wikimediafoundation.org/'> Wikimedia Foundation, Inc.</a>, një organizatë jo fitim prurëse."
+disable_button: Çaktivizo
+download_full_version: Shkarko versionin e plotë
+error_page_text: Wikipedia në telefon është ende në zhvillim e sipër dhe ne po punojmë shumë për të zgjidhur të gjitha problemet tona të brendshme. Ne kemi qenë në dijeni të këtij problemi dhe do ta zgjidhim atë shumë shpejt. Të lutemi kontrollo përseri më vonë!
+error_page_title: Ne kemi një problem!
+explain_disable: Je i/e sigurt që dëshiron te çaktivizozh versionin e Wikipedia-s në telefon? N.q.s. zgjedh <b>Çaktivizo</b> nga ky moment, kur ti të vizitosh Wikipedia-n, nuk do të ridrejtohesh më tek versioni i telefonit të Wikipedia-s.
+featured_article: Artikulli i ditës
+file_namespace: Skedarë
+hide_button: Fshih
+home_button: Kryefaqja
+in_the_news: Në lajme
+nav_edit: Redakto
+nav_end: Shko në fund
+nav_history: Historiku
+nav_top: Ngjitu në krye
+no_article_found: Nuk u gjet asnjë artikull
+perm_stop_redirect: Çaktivizo përgjithmonë Wikipedia-n në telefon
+random_button: I rastit
+regular_wikipedia: Shiko këtë faqe në versionin e rregullt të Wikpedia-s.
+search_results: Rezultatet e kërkimit
+search_submit: Shko
+search_text: Kërko
+show_button: Shfaq
+wikipedia: Wikipedia

@@ -2,100 +2,32 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Lloffiwr
---- %YAML:1.0 
-? "wikipedia"
-: "Wicipedia"
-
-? "download_full_version"
-: "Islwytho'r fersiwn cyflawn"
-
-? "nav_end"
-: "Diwedd"
-
-? "home_button"
-: "Hafan"
-
-? "copyright"
-: >-
-  Rhoddir testun y dudalen ar gael ar delerau'r drwydded <a href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative
-  Commons Attribution/Share-Alike</a>;
-
-  gall fod telerau ychwanegol yn perthyn i'r testun.
-
-  Gweler <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Telerau Defnyddio'r
-  Drwydded</a> am fanylion pellach. Mae Wikipedia yn nod masnachol cofrestredig, y mae'r
-  sefydliad di-elw <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation,
-  Inc.</a> yn berchen arno.
-
-? "disable_button"
-: "Analluogi"
-
-? "nav_edit"
-: "Golygu"
-
-? "in_the_news"
-: "Ar y newyddion"
-
-? "search_results"
-: "Canlyniadau'r chwilio"
-
-? "explain_disable"
-: "Ydych chi'n bendant am analluogi fersiwn Wicipedia ar gyfer ffonau symudol? Os y dewiswch <b>Analluogi</b>, yna pan ymwelwch \xC3\xA2 Wicipedia, ni chewch eich ailgyfeirio at y wedd hon o Wicipedia ar gyfer ffonau symudol."
-
-? "back_to_top_of_section"
-: "Neidio Un Adran Am N\xC3\xB4l"
-
-? "featured_article"
-: "Erthygl y Dydd"
-
-? "nav_history"
-: "Hanes pori"
-
-? "error_page_text"
-: "Y mae Wicipedia symudol yn dal i gael ei ddatblygu ac rydym wrthi'n ddiwyd yn cywiro'r gwallau mewnol. Rydym wedi cael gwybod am y gwall hwn ac fe fyddwn yn ei gywiro'n fuan. Rhowch gynnig arall arni yn y man."
-
-? "file_namespace"
-: "Ffeil"
-
-? "perm_stop_redirect"
-: "Analluogi'r cysylltiad at y fersiwn ar gyfer ff\xC3\xB4n symudol am byth"
-
-? "back_button"
-: "Yn \xC3\xB4l"
-
-? "search_submit"
-: "Eler"
-
-? "no_article_found"
-: "Dim Erthygl I'w Gael"
-
-? "show_button"
-: "Dangos"
-
-? "regular_wikipedia"
-: "Gweld y dudalen hon ar y Wicipedia arferol"
-
-? "contact_us"
-: "Os oes gennych unrhyw gwestiynau neu sylwadau mae croeso ichi anfon e-bost atom yn mobile@wikipedia.org"
-
-? "error_page_title"
-: "Cafwyd problem!"
-
-? "search_text"
-: "Chwilio"
-
-? "nav_top"
-: "Brig"
-
-? "author_link"
-: "Edrychwch ar y ffeil gyfrwng hon ar y Wikipedia arferol er mwyn cael gwybodaeth am yr awduron, y drwydded a disgrifiadau ychwanegol."
-
-? "are_you_sure"
-: "Ydych chi'n bendant am wneud hyn ?"
-
-? "hide_button"
-: "Cuddio"
-
-? "random_button"
-: "Ar hap"
-
+are_you_sure: Ydych chi'n bendant am wneud hyn ?
+author_link: Edrychwch ar y ffeil gyfrwng hon ar y Wikipedia arferol er mwyn cael gwybodaeth am yr awduron, y drwydded a disgrifiadau ychwanegol.
+back_button: Yn ôl
+back_to_top_of_section: Neidio Un Adran Am Nôl
+contact_us: Os oes gennych unrhyw gwestiynau neu sylwadau mae croeso ichi anfon e-bost atom yn mobile@wikipedia.org
+copyright: "Rhoddir testun y dudalen ar gael ar delerau'r drwydded <a href=\"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike</a>;\ngall fod telerau ychwanegol yn perthyn i'r testun.\nGweler <a href=\"http://wikimediafoundation.org/wiki/Terms_of_Use\">Telerau Defnyddio'r Drwydded</a> am fanylion pellach. Mae Wikipedia yn nod masnachol cofrestredig, y mae'r sefydliad di-elw <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a> yn berchen arno."
+disable_button: Analluogi
+download_full_version: Islwytho'r fersiwn cyflawn
+error_page_text: Y mae Wicipedia symudol yn dal i gael ei ddatblygu ac rydym wrthi'n ddiwyd yn cywiro'r gwallau mewnol. Rydym wedi cael gwybod am y gwall hwn ac fe fyddwn yn ei gywiro'n fuan. Rhowch gynnig arall arni yn y man.
+error_page_title: Cafwyd problem!
+explain_disable: Ydych chi'n bendant am analluogi fersiwn Wicipedia ar gyfer ffonau symudol? Os y dewiswch <b>Analluogi</b>, yna pan ymwelwch â Wicipedia, ni chewch eich ailgyfeirio at y wedd hon o Wicipedia ar gyfer ffonau symudol.
+featured_article: Erthygl y Dydd
+file_namespace: Ffeil
+hide_button: Cuddio
+home_button: Hafan
+in_the_news: Ar y newyddion
+nav_edit: Golygu
+nav_end: Diwedd
+nav_history: Hanes pori
+nav_top: Brig
+no_article_found: Dim Erthygl I'w Gael
+perm_stop_redirect: Analluogi'r cysylltiad at y fersiwn ar gyfer ffôn symudol am byth
+random_button: Ar hap
+regular_wikipedia: Gweld y dudalen hon ar y Wicipedia arferol
+search_results: Canlyniadau'r chwilio
+search_submit: Eler
+search_text: Chwilio
+show_button: Dangos
+wikipedia: Wicipedia

@@ -3,91 +3,32 @@
 # Export driver: syck-pecl
 # Author: Lloffiwr
 # Author: Muddyb Blast Producer
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipedia"
-
-? "download_full_version"
-: "Pakua faili la kikamilifu"
-
-? "nav_end"
-: "Mwisho"
-
-? "home_button"
-: "Mwanzo"
-
-? "copyright"
-: "Nakala inapatikana chini ya <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; masuala ya ziada yanaweza kukubalika. Tazama <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Masharti ya Utumiaji</a> kwa maelezo zaidi. Wikipedia ni nembo iliosajiliwa na <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, asasi isiyokuwa ya kifaida."
-
-? "disable_button"
-: "Lemaza"
-
-? "nav_edit"
-: "Hariri"
-
-? "in_the_news"
-: "Katika Habari"
-
-? "search_results"
-: "Matokeo ya utafutaji"
-
-? "explain_disable"
-: "Una uhakika kwamba unataka kusimamisha toleo la Wikipedia la mobile? Iwapo utachagua <b>Lemaza</b>, basi kuanzia sasa, pindi utembeleapo Wikipedia, hauto elekezewa hapa kwenye mtazamo huu wa mobile  Wikipedia."
-
-? "back_to_top_of_section"
-: "Rudi Sehemu A"
-
-? "featured_article"
-: "Makala Bora ya Leo"
-
-? "nav_history"
-: "Historia ya kuvinjari"
-
-? "error_page_text"
-: "Wikipedia mobile bado ipo chini ya maendelezo hai na tunafanya kazi kwa juhudi kumaliza hitilafu zetu zote za ndani. Tulitaarifiwa kuhusu hitilafu hii na tutarekebisha hivi punde. Tafadhali rudi tena baadaye!"
-
-? "file_namespace"
-: "Faili"
-
-? "perm_stop_redirect"
-: "Lemaza kabisa tovuti ya mobile"
-
-? "back_button"
-: "Rudi"
-
-? "search_submit"
-: "Nenda"
-
-? "no_article_found"
-: "Hakuna Makala Iliyopatikana"
-
-? "show_button"
-: "Onyesha"
-
-? "regular_wikipedia"
-: "Onesha ukurasa huu katika Wikipedia ya kawaida"
-
-? "contact_us"
-: "Kama una maswali au maoni yoyote tafadhali jisikie huru kututumia barua-pepe kupitia anwani ya mobile@wikipedia.org"
-
-? "error_page_title"
-: "Tuna tatizo!"
-
-? "search_text"
-: "Tafuta"
-
-? "nav_top"
-: "Juu"
-
-? "author_link"
-: "Tazama faili hili katika Wikipedia ya kawaida ili uone taarifa zake za waliolitengeneza, leseni, na maelezo mengine."
-
-? "are_you_sure"
-: "Una uhakika ?"
-
-? "hide_button"
-: "Ficha"
-
-? "random_button"
-: "Bahatisha"
-
+are_you_sure: Una uhakika ?
+author_link: Tazama faili hili katika Wikipedia ya kawaida ili uone taarifa zake za waliolitengeneza, leseni, na maelezo mengine.
+back_button: Rudi
+back_to_top_of_section: Rudi Sehemu A
+contact_us: Kama una maswali au maoni yoyote tafadhali jisikie huru kututumia barua-pepe kupitia anwani ya mobile@wikipedia.org
+copyright: Nakala inapatikana chini ya <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; masuala ya ziada yanaweza kukubalika. Tazama <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Masharti ya Utumiaji</a> kwa maelezo zaidi. Wikipedia ni nembo iliosajiliwa na <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, asasi isiyokuwa ya kifaida.
+disable_button: Lemaza
+download_full_version: Pakua faili la kikamilifu
+error_page_text: Wikipedia mobile bado ipo chini ya maendelezo hai na tunafanya kazi kwa juhudi kumaliza hitilafu zetu zote za ndani. Tulitaarifiwa kuhusu hitilafu hii na tutarekebisha hivi punde. Tafadhali rudi tena baadaye!
+error_page_title: Tuna tatizo!
+explain_disable: Una uhakika kwamba unataka kusimamisha toleo la Wikipedia la mobile? Iwapo utachagua <b>Lemaza</b>, basi kuanzia sasa, pindi utembeleapo Wikipedia, hauto elekezewa hapa kwenye mtazamo huu wa mobile  Wikipedia.
+featured_article: Makala Bora ya Leo
+file_namespace: Faili
+hide_button: Ficha
+home_button: Mwanzo
+in_the_news: Katika Habari
+nav_edit: Hariri
+nav_end: Mwisho
+nav_history: Historia ya kuvinjari
+nav_top: Juu
+no_article_found: Hakuna Makala Iliyopatikana
+perm_stop_redirect: Lemaza kabisa tovuti ya mobile
+random_button: Bahatisha
+regular_wikipedia: Onesha ukurasa huu katika Wikipedia ya kawaida
+search_results: Matokeo ya utafutaji
+search_submit: Nenda
+search_text: Tafuta
+show_button: Onyesha
+wikipedia: Wikipedia

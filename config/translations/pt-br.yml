@@ -6,91 +6,32 @@
 # Author: Hamilton Abreu
 # Author: Luckas Blade
 # Author: Marcionunes
---- %YAML:1.0 
-? "wikipedia"
-: "Wikip\xC3\xA9dia"
-
-? "download_full_version"
-: "Download da Vers\xC3\xA3o Completa"
-
-? "nav_end"
-: "Fim"
-
-? "home_button"
-: "In\xC3\xADcio"
-
-? "copyright"
-: "O texto est\xC3\xA1 dispon\xC3\xADvel sob a licen\xC3\xA7a <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; condi\xC3\xA7\xC3\xB5es adicionais podem-se aplicar. Veja <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Condi\xC3\xA7\xC3\xB5es de Uso</a> para detalhes. Wikipedia \xC3\xA9 uma marca registrada da <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, uma organiza\xC3\xA7\xC3\xA3o sem fins lucrativos."
-
-? "disable_button"
-: "Desativar"
-
-? "nav_edit"
-: "Editar"
-
-? "in_the_news"
-: "Eventos recentes"
-
-? "search_results"
-: "Resultados de pesquisa"
-
-? "explain_disable"
-: "Voc\xC3\xAA tem certeza de que quer desativar a vers\xC3\xA3o m\xC3\xB3vel da Wikip\xC3\xA9dia? Se escolher <b>Desativar</b>, a partir de agora, quando visitar a Wikip\xC3\xA9dia, voc\xC3\xAA n\xC3\xA3o ser\xC3\xA1 redirecionado para esta vers\xC3\xA3o m\xC3\xB3vel."
-
-? "back_to_top_of_section"
-: "Retroceder Uma Se\xC3\xA7\xC3\xA3o"
-
-? "featured_article"
-: "Artigo em destaque"
-
-? "nav_history"
-: "Hist\xC3\xB3rico"
-
-? "error_page_text"
-: "Wikip\xC3\xA9dia m\xC3\xB3vel ainda est\xC3\xA1 sob desenvolvimento ativo e estamos trabalhando duro para corrigir todos os nossos erros internos. Fomos notificados sobre esse erro e ele ser\xC3\xA1 corrigido em breve. Por favor, d\xC3\xAA retorno!"
-
-? "file_namespace"
-: "Arquivo"
-
-? "perm_stop_redirect"
-: "Desabilitar o site m\xC3\xB3vel permanentemente"
-
-? "back_button"
-: "Voltar"
-
-? "search_submit"
-: "Ir"
-
-? "no_article_found"
-: "Nenhum artigo encontrado"
-
-? "show_button"
-: "Mostrar"
-
-? "regular_wikipedia"
-: "Ver esta p\xC3\xA1gina na Wikip\xC3\xA9dia normal"
-
-? "contact_us"
-: "Para perguntas ou coment\xC3\xA1rios, sinta-se \xC3\xA0 vontade em nos contactar pelo email mobile@wikipedia.org"
-
-? "error_page_title"
-: "Temos um problema!"
-
-? "search_text"
-: "Pesquisar"
-
-? "nav_top"
-: "Topo"
-
-? "author_link"
-: "Visualize este arquivo na Wikip\xC3\xA9dia normal para ver informa\xC3\xA7\xC3\xA3o sobre a autoria, licenciamento e descri\xC3\xA7\xC3\xB5es adicionais."
-
-? "are_you_sure"
-: "Voc\xC3\xAA tem certeza ?"
-
-? "hide_button"
-: "Esconder"
-
-? "random_button"
-: "Aleat\xC3\xB3rio"
-
+are_you_sure: Você tem certeza ?
+author_link: Visualize este arquivo na Wikipédia normal para ver informação sobre a autoria, licenciamento e descrições adicionais.
+back_button: Voltar
+back_to_top_of_section: Retroceder Uma Seção
+contact_us: Para perguntas ou comentários, sinta-se à vontade em nos contactar pelo email mobile@wikipedia.org
+copyright: O texto está disponível sob a licença <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; condições adicionais podem-se aplicar. Veja <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Condições de Uso</a> para detalhes. Wikipedia é uma marca registrada da <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, uma organização sem fins lucrativos.
+disable_button: Desativar
+download_full_version: Download da Versão Completa
+error_page_text: Wikipédia móvel ainda está sob desenvolvimento ativo e estamos trabalhando duro para corrigir todos os nossos erros internos. Fomos notificados sobre esse erro e ele será corrigido em breve. Por favor, dê retorno!
+error_page_title: Temos um problema!
+explain_disable: Você tem certeza de que quer desativar a versão móvel da Wikipédia? Se escolher <b>Desativar</b>, a partir de agora, quando visitar a Wikipédia, você não será redirecionado para esta versão móvel.
+featured_article: Artigo em destaque
+file_namespace: Arquivo
+hide_button: Esconder
+home_button: Início
+in_the_news: Eventos recentes
+nav_edit: Editar
+nav_end: Fim
+nav_history: Histórico
+nav_top: Topo
+no_article_found: Nenhum artigo encontrado
+perm_stop_redirect: Desabilitar o site móvel permanentemente
+random_button: Aleatório
+regular_wikipedia: Ver esta página na Wikipédia normal
+search_results: Resultados de pesquisa
+search_submit: Ir
+search_text: Pesquisar
+show_button: Mostrar
+wikipedia: Wikipédia

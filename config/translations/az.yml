@@ -3,55 +3,20 @@
 # Export driver: syck-pecl
 # Author: PPerviz
 # Author: Sortilegus
---- %YAML:1.0 
-? "wikipedia"
-: "Vikipediya"
-
-? "nav_end"
-: "Son"
-
-? "home_button"
-: "Ana s\xC9\x99hif\xC9\x99"
-
-? "nav_edit"
-: "Redakt\xC9\x99"
-
-? "in_the_news"
-: "X\xC9\x99b\xC9\x99rl\xC9\x99r"
-
-? "search_results"
-: "Axtar\xC4\xB1\xC5\x9F\xC4\xB1n n\xC9\x99tic\xC9\x99l\xC9\x99ri"
-
-? "featured_article"
-: "G\xC3\xBCn\xC3\xBCn se\xC3\xA7ilmi\xC5\x9F m\xC9\x99qal\xC9\x99si"
-
-? "nav_history"
-: "Tarix\xC3\xA7\xC9\x99"
-
-? "file_namespace"
-: "Fayl"
-
-? "back_button"
-: "Geri"
-
-? "search_submit"
-: "Get"
-
-? "no_article_found"
-: "M\xC9\x99qal\xC9\x99 tap\xC4\xB1lmad\xC4\xB1"
-
-? "show_button"
-: "G\xC3\xB6st\xC9\x99r"
-
-? "error_page_title"
-: "Bizim problemimiz var!"
-
-? "search_text"
-: "Axtar"
-
-? "hide_button"
-: "Gizl\xC9\x99t"
-
-? "random_button"
-: "T\xC9\x99sad\xC3\xBCfi"
-
+back_button: Geri
+error_page_title: Bizim problemimiz var!
+featured_article: Günün seçilmiş məqaləsi
+file_namespace: Fayl
+hide_button: Gizlət
+home_button: Ana səhifə
+in_the_news: Xəbərlər
+nav_edit: Redaktə
+nav_end: Son
+nav_history: Tarixçə
+no_article_found: Məqalə tapılmadı
+random_button: Təsadüfi
+search_results: Axtarışın nəticələri
+search_submit: Get
+search_text: Axtar
+show_button: Göstər
+wikipedia: Vikipediya

@@ -2,82 +2,29 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Kandar
---- %YAML:1.0 
-? "wikipedia"
-: "Wikip\xC3\xA9dia"
-
-? "nav_end"
-: "Tungtung"
-
-? "home_button"
-: "Tepas"
-
-? "copyright"
-: "Tulisan ditangtayungan ku <a href='http://id.wikipedia.org/wiki/Wikipedia:Teks_Lisensi_Creative_Commons_Atribusi-PembagianSerupa_3.0'>Lis\xC3\xA9nsi Creative Commons Atribusi-PembagianSerupa</a>; sarta bisa aya katangtuan \xC3\xA9mbohna. Pikeun lengkepna, mangga baca <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Katangtuan Mak\xC3\xA9</a>. Wikip\xC3\xA9dia mangrupakeun m\xC3\xA9rek dagang ti organisasi nirlaba <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>."
-
-? "disable_button"
-: "Tumpurkeun"
-
-? "nav_edit"
-: "\xC3\x89dit"
-
-? "in_the_news"
-: "Dina Warta"
-
-? "search_results"
-: "Hasil Nyungsi"
-
-? "explain_disable"
-: "Anjeun yakin r\xC3\xA9k numpurkeun Wikip\xC3\xA9dia v\xC3\xA9rsi ''mobile''? Lamun anjeun milih <b>Disable</b>, mangka ti mimiti ayeuna, mun anjeun nganjang ka Wikip\xC3\xA9dia, anjeun moal diarahkeun ka ieu v\xC3\xA9rsi."
-
-? "back_to_top_of_section"
-: "Balik ka Bagian Sam\xC3\xA9m\xC3\xA9hna"
-
-? "featured_article"
-: "Artikel Petingan Po\xC3\xA9 Ieu"
-
-? "nav_history"
-: "Jujutan"
-
-? "error_page_text"
-: "Wikip\xC3\xA9dia gerak kakara mekar, sarta keur ditar\xC3\xA9kahan pikeun ngungkulan masalah-masalahna. Ieu masalah geus aya laporanana, ayeuna keur diopr\xC3\xA9k k\xC3\xA9n\xC3\xA9h. Diantos ba\xC3\xA9!"
-
-? "perm_stop_redirect"
-: "Tumpurkeun loka gerak salilana"
-
-? "back_button"
-: "Balik deui"
-
-? "search_submit"
-: "Jung"
-
-? "no_article_found"
-: "Can Aya Artikelna"
-
-? "show_button"
-: "T\xC3\xA9mbongkeun"
-
-? "regular_wikipedia"
-: "Pidangkeun ieu kaca dina Wikip\xC3\xA9dia biasa"
-
-? "contact_us"
-: "Lamun aya nu r\xC3\xA9k ditanyakeun atawa r\xC3\xA9k mairan, mangga kirim sur\xC3\xA9l\xC3\xA9k ka mobile@wikipedia.org"
-
-? "error_page_title"
-: "Aya masalah!"
-
-? "search_text"
-: "Sungsi"
-
-? "nav_top"
-: "Luhur"
-
-? "are_you_sure"
-: "Nyaan?"
-
-? "hide_button"
-: "Sumputkeun"
-
-? "random_button"
-: "Acak"
-
+are_you_sure: Nyaan?
+back_button: Balik deui
+back_to_top_of_section: Balik ka Bagian Saméméhna
+contact_us: Lamun aya nu rék ditanyakeun atawa rék mairan, mangga kirim surélék ka mobile@wikipedia.org
+copyright: Tulisan ditangtayungan ku <a href='http://id.wikipedia.org/wiki/Wikipedia:Teks_Lisensi_Creative_Commons_Atribusi-PembagianSerupa_3.0'>Lisénsi Creative Commons Atribusi-PembagianSerupa</a>; sarta bisa aya katangtuan émbohna. Pikeun lengkepna, mangga baca <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Katangtuan Maké</a>. Wikipédia mangrupakeun mérek dagang ti organisasi nirlaba <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>.
+disable_button: Tumpurkeun
+error_page_text: Wikipédia gerak kakara mekar, sarta keur ditarékahan pikeun ngungkulan masalah-masalahna. Ieu masalah geus aya laporanana, ayeuna keur dioprék kénéh. Diantos baé!
+error_page_title: Aya masalah!
+explain_disable: Anjeun yakin rék numpurkeun Wikipédia vérsi ''mobile''? Lamun anjeun milih <b>Disable</b>, mangka ti mimiti ayeuna, mun anjeun nganjang ka Wikipédia, anjeun moal diarahkeun ka ieu vérsi.
+featured_article: Artikel Petingan Poé Ieu
+hide_button: Sumputkeun
+home_button: Tepas
+in_the_news: Dina Warta
+nav_edit: Édit
+nav_end: Tungtung
+nav_history: Jujutan
+nav_top: Luhur
+no_article_found: Can Aya Artikelna
+perm_stop_redirect: Tumpurkeun loka gerak salilana
+random_button: Acak
+regular_wikipedia: Pidangkeun ieu kaca dina Wikipédia biasa
+search_results: Hasil Nyungsi
+search_submit: Jung
+search_text: Sungsi
+show_button: Témbongkeun
+wikipedia: Wikipédia

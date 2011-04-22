@@ -2,91 +2,32 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Als-Holder
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipedia"
-
-? "download_full_version"
-: "Vollversion abelade"
-
-? "nav_end"
-: "\xC3\x84nd"
-
-? "home_button"
-: "Start"
-
-? "copyright"
-: "Dr Text isch unter dr Lizenz <a class='internal' href='http://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Commons_Attribution-ShareAlike_3.0_Unported'>\xE2\x80\x9ECreative Commons Attribution/Share-Alike\xE2\x80\x9C</a> verfiegbar; zues\xC3\xA4tzligi Bedingunge chenne aaw\xC3\xA4ndbar syy. Luege d <a class='internal' href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Nutzigsbedingige</a> fir Einzelheite. Wikipedia\xC2\xAE isch e yytraiti Marke vu dr Wikimedia Foundation Inc."
-
-? "disable_button"
-: "Abstelle"
-
-? "nav_edit"
-: "\xC3\x84ndere"
-
-? "in_the_news"
-: "In dr Nochrichte"
-
-? "search_results"
-: "Suechergebnis"
-
-? "explain_disable"
-: "Bisch sicher, ass Du d Mobilversion vu dr Wikipedia witt abstelle? W\xC3\xA4nn Du <b>Abstelle</b> uuswehlsch, no wirsch ab jetze nimi wytergleitet zue d\xC3\xA4re Mobilaasicht vu dr Wikipedia, w\xC3\xA4nn Du uf d Wikipedia gohsch."
-
-? "back_to_top_of_section"
-: "Ei Abschnitt zruckgumpe"
-
-? "featured_article"
-: "Artikel vum Tag"
-
-? "nav_history"
-: "Gschicht"
-
-? "error_page_text"
-: "Di mobil Wikipedia-Version isch no in dr Entwicklig un mir bemiejen is, ass F\xC3\xA4hler, wu s no het, glest w\xC3\xA4re. Mir sin iber d\xC3\xA4\xC3\xA4 F\xC3\xA4hler informiert wore un lese des Probl\xC3\xA4m bal. Bitte versuech s speter nonemol."
-
-? "file_namespace"
-: "Datei"
-
-? "perm_stop_redirect"
-: "Mobili Version duurhaft deaktiviere"
-
-? "back_button"
-: "Zruck"
-
-? "search_submit"
-: "Gang"
-
-? "no_article_found"
-: "Kei Artikel gfunde"
-
-? "show_button"
-: "Zeige"
-
-? "regular_wikipedia"
-: "Zue dr klassische Wikipedia-Version w\xC3\xA4gsle"
-
-? "contact_us"
-: "W\xC3\xA4nn du Froge oder Aamerkige hesch, nimm bitte Kontakt zuen is uf unter dr Mail-Adr\xC3\xA4ss mobile@wikipedia.org"
-
-? "error_page_title"
-: "S git e Probl\xC3\xA4m!"
-
-? "search_text"
-: "Sueche"
-
-? "nav_top"
-: "No obe"
-
-? "author_link"
-: "Die Datei in dr regul\xC3\xA4re Wikipedia aazeige go Informatione iber Autore, Liz\xC3\xA4nz un erwytereti Bschryybige s\xC3\xA4h"
-
-? "are_you_sure"
-: "Bisch sicher?"
-
-? "hide_button"
-: "Uusbl\xC3\xA4nde"
-
-? "random_button"
-: "Zuefall"
-
+are_you_sure: Bisch sicher?
+author_link: Die Datei in dr reguläre Wikipedia aazeige go Informatione iber Autore, Lizänz un erwytereti Bschryybige säh
+back_button: Zruck
+back_to_top_of_section: Ei Abschnitt zruckgumpe
+contact_us: Wänn du Froge oder Aamerkige hesch, nimm bitte Kontakt zuen is uf unter dr Mail-Adräss mobile@wikipedia.org
+copyright: Dr Text isch unter dr Lizenz <a class='internal' href='http://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Commons_Attribution-ShareAlike_3.0_Unported'>„Creative Commons Attribution/Share-Alike“</a> verfiegbar; zuesätzligi Bedingunge chenne aawändbar syy. Luege d <a class='internal' href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Nutzigsbedingige</a> fir Einzelheite. Wikipedia® isch e yytraiti Marke vu dr Wikimedia Foundation Inc.
+disable_button: Abstelle
+download_full_version: Vollversion abelade
+error_page_text: Di mobil Wikipedia-Version isch no in dr Entwicklig un mir bemiejen is, ass Fähler, wu s no het, glest wäre. Mir sin iber dää Fähler informiert wore un lese des Probläm bal. Bitte versuech s speter nonemol.
+error_page_title: S git e Probläm!
+explain_disable: Bisch sicher, ass Du d Mobilversion vu dr Wikipedia witt abstelle? Wänn Du <b>Abstelle</b> uuswehlsch, no wirsch ab jetze nimi wytergleitet zue däre Mobilaasicht vu dr Wikipedia, wänn Du uf d Wikipedia gohsch.
+featured_article: Artikel vum Tag
+file_namespace: Datei
+hide_button: Uusblände
+home_button: Start
+in_the_news: In dr Nochrichte
+nav_edit: Ändere
+nav_end: Änd
+nav_history: Gschicht
+nav_top: No obe
+no_article_found: Kei Artikel gfunde
+perm_stop_redirect: Mobili Version duurhaft deaktiviere
+random_button: Zuefall
+regular_wikipedia: Zue dr klassische Wikipedia-Version wägsle
+search_results: Suechergebnis
+search_submit: Gang
+search_text: Sueche
+show_button: Zeige
+wikipedia: Wikipedia

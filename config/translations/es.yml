@@ -4,91 +4,32 @@
 # Author: Dferg
 # Author: Locos epraix
 # Author: VegaDark
---- %YAML:1.0 
-? "wikipedia"
-: "Wikipedia"
-
-? "download_full_version"
-: "Descargar la versi\xC3\xB3n completa"
-
-? "nav_end"
-: "Fin"
-
-? "home_button"
-: "Inicio"
-
-? "copyright"
-: "El texto est\xC3\xA1 disponible bajo la <a href='http://es.wikipedia.org/wiki/Wikipedia:Texto de la Licencia Creative Commons Atribuci\xC3\xB3n/Compartir-Igual 3.0'>Licencia Creative Commons Atribuci\xC3\xB3n/Compartir-Igual</a>; cl\xC3\xA1usulas adicionales pueden aplicar. V\xC3\xA9ase <a href='http://wikimediafoundation.org/wiki/T\xC3\xA9rminos_de_Uso'>los t\xC3\xA9rminos de uso</a> para m\xC3\xA1s detalles. Wikipedia es una marca registrada de la <a href='http://wikimediafoundation.org/'>Fundaci\xC3\xB3n Wikimedia, Inc.</a>, una organizaci\xC3\xB3n sin \xC3\xA1nimo de lucro."
-
-? "disable_button"
-: "Deshabilitar"
-
-? "nav_edit"
-: "Editar"
-
-? "in_the_news"
-: "Actualidad"
-
-? "search_results"
-: "Resultados de la b\xC3\xBAsqueda"
-
-? "explain_disable"
-: "\xC2\xBFEstas seguro que deseas desactivar la versi\xC3\xB3n m\xC3\xB3vil de Wikipedia? Si escoges <b>Desactivar</b>, de ahora en adelante, cuando visites Wikipedia, no ser\xC3\xA1s redirigido a esta vista m\xC3\xB3vil de Wikipedia."
-
-? "back_to_top_of_section"
-: "Ir atr\xC3\xA1s una secci\xC3\xB3n"
-
-? "featured_article"
-: "Art\xC3\xADculo destacado"
-
-? "nav_history"
-: "Historial"
-
-? "error_page_text"
-: "Wikipedia para m\xC3\xB3viles est\xC3\xA1 todav\xC3\xADa bajo desarrollo activo y estamos trabajando intensamente para arreglar todos nuestros errores internos. Hemos sido notificados de este error y lo arreglaremos pronto. Por favor, revise regularmente si la petici\xC3\xB3n ha sido o no atendida."
-
-? "file_namespace"
-: "Archivo"
-
-? "perm_stop_redirect"
-: "Desactivar permanentemente el sitio m\xC3\xB3vil"
-
-? "back_button"
-: "Atr\xC3\xA1s"
-
-? "search_submit"
-: "Ir"
-
-? "no_article_found"
-: "No hay coincidencias"
-
-? "show_button"
-: "Mostrar"
-
-? "regular_wikipedia"
-: "Ver esta p\xC3\xA1gina en Wikipedia est\xC3\xA1ndar"
-
-? "contact_us"
-: "Si tienes alguna pregunta o comentario si\xC3\xA9ntete libre de enviarnos un correo electr\xC3\xB3nico a mobile@wikipedia.org"
-
-? "error_page_title"
-: "\xC2\xA1Tenemos un problema!"
-
-? "search_text"
-: "Buscar"
-
-? "nav_top"
-: "Arriba"
-
-? "author_link"
-: "Ver este archivo de media en Wikipedia para ver la informaci\xC3\xB3n sobre la autor\xC3\xADa, licencia y descripciones adicionales."
-
-? "are_you_sure"
-: "\xC2\xBFEst\xC3\xA1s seguro?"
-
-? "hide_button"
-: "Ocultar"
-
-? "random_button"
-: "Aleatorio"
-
+are_you_sure: ¿Estás seguro?
+author_link: Ver este archivo de media en Wikipedia para ver la información sobre la autoría, licencia y descripciones adicionales.
+back_button: Atrás
+back_to_top_of_section: Ir atrás una sección
+contact_us: Si tienes alguna pregunta o comentario siéntete libre de enviarnos un correo electrónico a mobile@wikipedia.org
+copyright: El texto está disponible bajo la <a href='http://es.wikipedia.org/wiki/Wikipedia:Texto de la Licencia Creative Commons Atribución/Compartir-Igual 3.0'>Licencia Creative Commons Atribución/Compartir-Igual</a>; cláusulas adicionales pueden aplicar. Véase <a href='http://wikimediafoundation.org/wiki/Términos_de_Uso'>los términos de uso</a> para más detalles. Wikipedia es una marca registrada de la <a href='http://wikimediafoundation.org/'>Fundación Wikimedia, Inc.</a>, una organización sin ánimo de lucro.
+disable_button: Deshabilitar
+download_full_version: Descargar la versión completa
+error_page_text: Wikipedia para móviles está todavía bajo desarrollo activo y estamos trabajando intensamente para arreglar todos nuestros errores internos. Hemos sido notificados de este error y lo arreglaremos pronto. Por favor, revise regularmente si la petición ha sido o no atendida.
+error_page_title: ¡Tenemos un problema!
+explain_disable: ¿Estas seguro que deseas desactivar la versión móvil de Wikipedia? Si escoges <b>Desactivar</b>, de ahora en adelante, cuando visites Wikipedia, no serás redirigido a esta vista móvil de Wikipedia.
+featured_article: Artículo destacado
+file_namespace: Archivo
+hide_button: Ocultar
+home_button: Inicio
+in_the_news: Actualidad
+nav_edit: Editar
+nav_end: Fin
+nav_history: Historial
+nav_top: Arriba
+no_article_found: No hay coincidencias
+perm_stop_redirect: Desactivar permanentemente el sitio móvil
+random_button: Aleatorio
+regular_wikipedia: Ver esta página en Wikipedia estándar
+search_results: Resultados de la búsqueda
+search_submit: Ir
+search_text: Buscar
+show_button: Mostrar
+wikipedia: Wikipedia

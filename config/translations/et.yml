@@ -4,65 +4,23 @@
 # Author: Avjoska
 # Author: Hendrik
 # Author: Pikne
---- %YAML:1.0 
-? "wikipedia"
-: "Vikipeedia"
-
-? "home_button"
-: "Esileht"
-
-? "copyright"
-: "Tekst on kasutatav Creative Commonsi litsentsi <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Attribution/Share-Alike</a> tingimustel; sellele v\xC3\xB5ivad lisanduda t\xC3\xA4iendavad tingimused.\n\
-  \xC3\x9Cksikasjad leiad <a href=\"http://wikimediafoundation.org/wiki/Terms_of_Use\">Wikimedia kasutustingimustest</a>. Wikipedia on mittetulundusliku organisatsiooni <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc</a> registreeritud kaubam\xC3\xA4rk."
-
-? "disable_button"
-: "Keela"
-
-? "in_the_news"
-: "Pressi\xC3\xBClevaade"
-
-? "search_results"
-: "Otsingu tulemused"
-
-? "explain_disable"
-: "Oled kindel, et soovid Vikipeedia mobiiliversiooni keelata? P\xC3\xA4rast <b>Keela</b> valimist ei \xC3\xBCmber suunata sind enam Vikipeedia mobiilivaatesse, kui k\xC3\xBClastad Vikipeediat."
-
-? "nav_history"
-: "Ajalugu"
-
-? "perm_stop_redirect"
-: "Keela mobiiliversioon j\xC3\xA4\xC3\xA4davalt"
-
-? "back_button"
-: "Tagasi"
-
-? "no_article_found"
-: "Artiklit ei leitud"
-
-? "show_button"
-: "N\xC3\xA4ita"
-
-? "regular_wikipedia"
-: "Vaata lehek\xC3\xBClge harilikus Vikipeedias"
-
-? "contact_us"
-: "Saatke oma k\xC3\xBCsimused ja kommentaarid meie e-posti aadressile mobile@wikipedia.org"
-
-? "error_page_title"
-: "Meil on probleem"
-
-? "search_text"
-: "Otsi"
-
-? "nav_top"
-: "\xC3\x9Cles"
-
-? "are_you_sure"
-: "Oled Sa kindel ?"
-
-? "hide_button"
-: "Peida"
-
-? "random_button"
-: "Juhuslik"
-
+are_you_sure: Oled Sa kindel ?
+back_button: Tagasi
+contact_us: Saatke oma küsimused ja kommentaarid meie e-posti aadressile mobile@wikipedia.org
+copyright: "Tekst on kasutatav Creative Commonsi litsentsi <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Attribution/Share-Alike</a> tingimustel; sellele võivad lisanduda täiendavad tingimused.\nÜksikasjad leiad <a href=\"http://wikimediafoundation.org/wiki/Terms_of_Use\">Wikimedia kasutustingimustest</a>. Wikipedia on mittetulundusliku organisatsiooni <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc</a> registreeritud kaubamärk."
+disable_button: Keela
+error_page_title: Meil on probleem
+explain_disable: Oled kindel, et soovid Vikipeedia mobiiliversiooni keelata? Pärast <b>Keela</b> valimist ei ümber suunata sind enam Vikipeedia mobiilivaatesse, kui külastad Vikipeediat.
+hide_button: Peida
+home_button: Esileht
+in_the_news: Pressiülevaade
+nav_history: Ajalugu
+nav_top: Üles
+no_article_found: Artiklit ei leitud
+perm_stop_redirect: Keela mobiiliversioon jäädavalt
+random_button: Juhuslik
+regular_wikipedia: Vaata lehekülge harilikus Vikipeedias
+search_results: Otsingu tulemused
+search_text: Otsi
+show_button: Näita
+wikipedia: Vikipeedia

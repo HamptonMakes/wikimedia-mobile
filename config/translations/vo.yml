@@ -2,4 +2,8 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Malafaya
---- %YAML:1.0 {"wikipedia": "V\xC3\xBCkiped", "nav_edit": "Redak\xC3\xB6n", "search_results": "Sukaseks", "error_page_title": "Labob s\xC3\xA4k\xC3\xA4di!", "search_text": "Suk\xC3\xB6n"}
+error_page_title: Labob säkädi!
+nav_edit: Redakön
+search_results: Sukaseks
+search_text: Sukön
+wikipedia: Vükiped

@@ -2,28 +2,11 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Mirzali
---- %YAML:1.0 
-? "nav_end"
-: "Pey"
-
-? "nav_edit"
-: "B\xC4\xB1vurne"
-
-? "search_submit"
-: "\xC5\x9Eo"
-
-? "show_button"
-: "B\xC4\xB1mocne"
-
-? "search_text"
-: "C\xC4\xB1geyre"
-
-? "nav_top"
-: "Ser"
-
-? "hide_button"
-: "B\xC4\xB1n\xC4\xB1mne"
-
-? "random_button"
-: "Ra\xC5\x9Ftamae"
-
+hide_button: Bınımne
+nav_edit: Bıvurne
+nav_end: Pey
+nav_top: Ser
+random_button: Raştamae
+search_submit: Şo
+search_text: Cıgeyre
+show_button: Bımocne

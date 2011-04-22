@@ -3,4 +3,5 @@
 # Export driver: syck-pecl
 # Author: Crazymadlover
 # Author: Omnipaedista
---- %YAML:1.0 {"home_button": "\xCE\x9A\xCF\x85\xCF\x81\xCE\xAF\xCE\xB1", "search_submit": "\xE1\xBC\xB8\xCE\xAD\xCE\xBD\xCE\xB1\xCE\xB9"}
+home_button: Κυρία
+search_submit: Ἰέναι
