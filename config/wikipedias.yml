@@ -46,6 +46,12 @@ de:
     featured_article: "#hauptseite-artikel .inhalt"
     news_items: "#hauptseite-nachrichten .inhalt"
 
+ku:
+  main_page: Destpêk
+  selectors: 
+    news_items: "#hauptseite-wikipedia .inhalt"
+    featured_picture: "#hauptseite-verstorbene .inhalt"
+
 ru:
   main_page: Заглавная_страница
   selectors:
