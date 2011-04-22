@@ -205,8 +205,6 @@ ro:
   mobile_main_page: Portal:Mobil
 ka:
   mobile_main_page: %E1%83%9E%E1%83%9D%E1%83%A0%E1%83%A2%E1%83%90%E1%83%9A%E1%83%98%3A%E1%83%9B%E1%83%97%E1%83%90%E1%83%95%E1%83%90%E1%83%A0%E1%83%98_%E1%83%92%E1%83%95%E1%83%94%E1%83%A0%E1%83%93%E1%83%98_%28%E1%83%9B%E1%83%9D%E1%83%91%E1%83%98%E1%83%9A%E1%83%A3%E1%83%A0%E1%83%98%29
-krc:
-  mobile_main_page: %D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F%3A%D0%91%D0%B0%D1%88%20%D0%B1%D0%B5%D1%82%20%28%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%29
 ca:
   main_page: Portada
   selectors:
