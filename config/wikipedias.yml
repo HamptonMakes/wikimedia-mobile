@@ -207,6 +207,8 @@ ka:
   mobile_main_page: %E1%83%9E%E1%83%9D%E1%83%A0%E1%83%A2%E1%83%90%E1%83%9A%E1%83%98%3A%E1%83%9B%E1%83%97%E1%83%90%E1%83%95%E1%83%90%E1%83%A0%E1%83%98_%E1%83%92%E1%83%95%E1%83%94%E1%83%A0%E1%83%93%E1%83%98_%28%E1%83%9B%E1%83%9D%E1%83%91%E1%83%98%E1%83%9A%E1%83%A3%E1%83%A0%E1%83%98%29
 sq:
   mobile_main_page: Portal:Faqja_Kryesore_(telefon)
+fa:
+  mobile_main_page: %D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%AF%DB%8C%D8%A7%3A%D8%B5%D9%81%D8%AD%D9%87_%D8%A7%D8%B5%D9%84%DB%8C_%28%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84
 ca:
   main_page: Portada
   selectors:
