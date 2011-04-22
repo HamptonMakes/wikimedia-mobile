@@ -1,18 +1,69 @@
 # Messages for Croatian (Hrvatski)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Ex13
-copyright: Tekst je dostupan pod licencijom <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Imenovanje/Dijeli pod istim uvjetima</a>; dodatni uvjeti mogu se primijenjivati. Pogledajte <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Uvjete uporabe</a> za detalje. Wikipedija je registrirani zaštitni znak <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, neprofitne organizacije.
-error_page_text: Mobilna Wikipedija još uvijek je u razvoju te stalno radimo na otklanjanju svih naših grešaka. Obaviješteni smo o ovoj greški, te će biti popravljena uskoro. Molimo provjerite kasnije!
-error_page_title: Imamo problem!
-featured_article: Današnji izabrani članak
-hide_button: Sakrij
-home_button: Početna
-in_the_news: U novostima
-no_article_found: Nije pronađen članak
-perm_stop_redirect: Trajno onesposobi stranicu za mobitel
-random_button: Slučajna stranica
-regular_wikipedia: Vidi ovu stranicu na redovnoj Wikipediji
-search_results: Rezultati pretraživanja
-search_submit: Idi
-show_button: Prikaži
+# Author: Herr Mlinka
+--- %YAML:1.0 
+? "wikipedia"
+: "Wikipedija"
+
+? "home_button"
+: "Po\xC4\x8Detna"
+
+? "copyright"
+: "Tekst je dostupan pod licencijom <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Imenovanje/Dijeli pod istim uvjetima</a>; dodatni uvjeti mogu se primijenjivati. Pogledajte <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Uvjete uporabe</a> za detalje. Wikipedija je registrirani za\xC5\xA1titni znak <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, neprofitne organizacije."
+
+? "disable_button"
+: "Onemogu\xC4\x87i"
+
+? "nav_edit"
+: "Uredi"
+
+? "in_the_news"
+: "U novostima"
+
+? "search_results"
+: "Rezultati pretra\xC5\xBEivanja"
+
+? "featured_article"
+: "Dana\xC5\xA1nji izabrani \xC4\x8Dlanak"
+
+? "error_page_text"
+: "Mobilna Wikipedija jo\xC5\xA1 uvijek je u razvoju te stalno radimo na otklanjanju svih na\xC5\xA1ih gre\xC5\xA1aka. Obavije\xC5\xA1teni smo o ovoj gre\xC5\xA1ki, te \xC4\x87e biti popravljena uskoro. Molimo provjerite kasnije!"
+
+? "file_namespace"
+: "Datoteka"
+
+? "perm_stop_redirect"
+: "Trajno onesposobi stranicu za mobitel"
+
+? "back_button"
+: "Natrag"
+
+? "search_submit"
+: "Idi"
+
+? "no_article_found"
+: "Nije prona\xC4\x91en \xC4\x8Dlanak"
+
+? "show_button"
+: "Prika\xC5\xBEi"
+
+? "regular_wikipedia"
+: "Vidi ovu stranicu na redovnoj Wikipediji"
+
+? "error_page_title"
+: "Imamo problem!"
+
+? "search_text"
+: "Tra\xC5\xBEi"
+
+? "are_you_sure"
+: "Jeste li sigurni?"
+
+? "hide_button"
+: "Sakrij"
+
+? "random_button"
+: "Slu\xC4\x8Dajna stranica"
+

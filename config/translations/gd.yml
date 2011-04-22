@@ -1,0 +1,92 @@
+# Messages for Scottish Gaelic (Gàidhlig)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Akerbeltz
+--- %YAML:1.0 
+? "wikipedia"
+: "An Uicipeid"
+
+? "download_full_version"
+: "Luchdaich a-nuas an tionndadh iomlan"
+
+? "nav_end"
+: "Deireadh"
+
+? "home_button"
+: "Dhachaigh"
+
+? "copyright"
+: "Tha an teacsa seo ri fhaighinn fo <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'Cheadachas Creative Commons Attribution/Share-Alike</a>; faodaidh gu bheil teirmichean a bharrachd buailteach. Faic <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Teirmichean a' Chleachdaicd</a> airson mion-fhiosrachadh. Tha Uicipeid 'na chomharra-malairt cl\xC3\xA0raichte aig <a href='http://www.wikimediafoundation.org/'>Fonndas Meadhanan nan Uici, Earr.</a>, buidheann neo-phrothaideach."
+
+? "disable_button"
+: "Cuir \xC3\xA0 comas"
+
+? "nav_edit"
+: "Deasaich"
+
+? "in_the_news"
+: "Sna naidheachdan"
+
+? "search_results"
+: "Toraidhean rannsachaidh"
+
+? "explain_disable"
+: "A bheil thu cinnteach gu bheil thu airson tionndadh gluasadach na h-Uicipeid a chur \xC3\xA0 comas? Ma chuireas tu romhad a chur <b>\xC3\xA0 comas</b>, cha d\xC3\xA8id do ghluasad gun t-sealladh seo dhen Uicipeid airson f\xC3\xB2naichean-l\xC3\xA0imhe a-mach o seo."
+
+? "back_to_top_of_section"
+: "Leum earrann air ais"
+
+? "featured_article"
+: "Artaigil taghta an-diugh"
+
+? "nav_history"
+: "Eachdraidh"
+
+? "error_page_text"
+: "Tha an tionndadh dhen Uicipeid airson f\xC3\xB2naichean-l\xC3\xA0imhe 'ga leasachadh fhathast is tha sinn ag obair gu cruaidh gus gach mearachd a r\xC3\xA8iteachadh ann. Fhuair sinn fios mun mhearachd seo 's cuiridh sinn ceart e cho luath 's a ghabhas. Na bi fada gun tilleadh!"
+
+? "file_namespace"
+: "Faidhle"
+
+? "perm_stop_redirect"
+: "Cuir \xC3\xA0 comas an l\xC3\xA0rach gluasadach gu buan"
+
+? "back_button"
+: "Air ais"
+
+? "search_submit"
+: "Rach"
+
+? "no_article_found"
+: "Cha deach artaigil a lorg"
+
+? "show_button"
+: "Seall"
+
+? "regular_wikipedia"
+: "Seall an duilleag seo air an Uicipeid \xC3\xA0bhaisteach"
+
+? "contact_us"
+: "Ma tha ceist no beachd sam bith agad, tha f\xC3\xA0ilte romhad sgr\xC3\xACobhadh thugainn aig mobile@wikipedia.org"
+
+? "error_page_title"
+: "Mu chreach, abair mearachd!"
+
+? "search_text"
+: "Lorg"
+
+? "nav_top"
+: "Barr"
+
+? "author_link"
+: "Seall am faidhle mheadhanan seo air an Uicipeid \xC3\xA0bhaisteach airson fiosrachadh mun \xC3\xB9ghdar, ceadachasan 's fiosrachadh eile."
+
+? "are_you_sure"
+: "A bheil thu cinnteach?"
+
+? "hide_button"
+: "Falaich"
+
+? "random_button"
+: "Air thuaiream"
+

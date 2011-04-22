@@ -1,6 +1,6 @@
 # Messages for French (Français)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Dalinanir
 # Author: Dodoïste
 # Author: IAlex
@@ -8,32 +8,92 @@
 # Author: Kropotkine 113
 # Author: Peter17
 # Author: Verdy p
-are_you_sure: Êtes-vous certain ?
-author_link: Afficher ce fichier sur Wikipédia pour voir les informations sur son auteur, sa licence et des descriptions supplémentaires.
-back_button: En arrière
-back_to_top_of_section: Revenir d'une section
-contact_us: Si vous avez des questions ou des commentaires n'hésitez pas à nous contacter à mobile@wikipedia.org
-copyright: "<a class='internal' href='/wiki/Wikip%C3%A9dia:Droit_d%27auteur' title='Droit d'auteur'>Droit d'auteur</a> : les textes sont disponibles sous <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.fr'>licence Creative Commons paternité–partage à l’identique</a> ; d’autres conditions peuvent s’appliquer. Voyez les <a href='http://wikimediafoundation.org/wiki/Conditions_d'utilisation'>conditions d’utilisation</a> pour plus de détails. Wikipedia® est une marque déposée de la <a href='http://wikimediafoundation.org/wiki/Accueil' title='Wikimedia Foundation'>Wikimedia Foundation, Inc.</a>, une organisation à but non lucratif."
-disable_button: Désactiver
-download_full_version: Télécharger la version complète
-error_page_text: Wikipédia mobile est toujours en développement actif et nous nous efforçons de résoudre nos erreurs internes. Nous avons été avisés de cette erreur et nous allons la corriger rapidement. Réessayez bientôt !
-error_page_title: Désolé ! Nous avons un problème.
-explain_disable: Êtes-vous certain de vouloir désactiver la version mobile de Wikipédia ? Si vous choisissez <b>Désactiver</b>, vous ne serez plus redirigé vers la version mobile lorsque vous visiterez Wikipédia.
-featured_article: Lumière sur...
-file_namespace: Fichier
-hide_button: Masquer
-home_button: Accueil
-in_the_news: Actualités et événements
-nav_edit: Modifier
-nav_end: Fin
-nav_history: Historique
-nav_top: Haut
-no_article_found: Aucun titre de page ne correspond à la recherche
-perm_stop_redirect: Désactiver le site mobile de manière permanente
-random_button: S zhr.
-regular_wikipedia: Afficher cette page sur Wikipédia classique
-search_results: Résultats de la recherche
-search_submit: Ftu siǧl
-search_text: Rechercher
-show_button: Afficher
-wikipedia: Wikipédia
+# Author: Wyz
+--- %YAML:1.0 
+? "wikipedia"
+: "Wikip\xC3\xA9dia"
+
+? "download_full_version"
+: "T\xC3\xA9l\xC3\xA9charger la version compl\xC3\xA8te"
+
+? "nav_end"
+: "Fin"
+
+? "home_button"
+: "Accueil"
+
+? "copyright"
+: "<a class='internal' href='/wiki/Wikip%C3%A9dia:Droit_d%27auteur' title='Droit d'auteur'>Droit d'auteur</a> : les textes sont disponibles sous <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.fr'>licence Creative Commons paternit\xC3\xA9\xE2\x80\x93partage \xC3\xA0 l\xE2\x80\x99identique</a> ; d\xE2\x80\x99autres conditions peuvent s\xE2\x80\x99appliquer. Voyez les <a href='http://wikimediafoundation.org/wiki/Conditions_d'utilisation'>conditions d\xE2\x80\x99utilisation</a> pour plus de d\xC3\xA9tails. Wikipedia\xC2\xAE est une marque d\xC3\xA9pos\xC3\xA9e de la <a href='http://wikimediafoundation.org/wiki/Accueil' title='Wikimedia Foundation'>Wikimedia Foundation, Inc.</a>, une organisation \xC3\xA0 but non lucratif."
+
+? "disable_button"
+: "D\xC3\xA9sactiver"
+
+? "nav_edit"
+: "Modifier"
+
+? "in_the_news"
+: "Actualit\xC3\xA9s et \xC3\xA9v\xC3\xA9nements"
+
+? "search_results"
+: "R\xC3\xA9sultats de la recherche"
+
+? "explain_disable"
+: "\xC3\x8Ates-vous certain de vouloir d\xC3\xA9sactiver la version mobile de Wikip\xC3\xA9dia ? Si vous choisissez <b>D\xC3\xA9sactiver</b>, vous ne serez plus redirig\xC3\xA9 vers la version mobile lorsque vous visiterez Wikip\xC3\xA9dia."
+
+? "back_to_top_of_section"
+: "Revenir d'une section"
+
+? "featured_article"
+: "Lumi\xC3\xA8re sur..."
+
+? "nav_history"
+: "Historique"
+
+? "error_page_text"
+: "Wikip\xC3\xA9dia mobile est toujours en d\xC3\xA9veloppement actif et nous nous effor\xC3\xA7ons de r\xC3\xA9soudre nos erreurs internes. Nous avons \xC3\xA9t\xC3\xA9 avis\xC3\xA9s de cette erreur et nous allons la corriger rapidement. R\xC3\xA9essayez bient\xC3\xB4t !"
+
+? "file_namespace"
+: "Fichier"
+
+? "perm_stop_redirect"
+: "D\xC3\xA9sactiver le site mobile de mani\xC3\xA8re permanente"
+
+? "back_button"
+: "En arri\xC3\xA8re"
+
+? "search_submit"
+: "Ftu si\xC7\xA7l"
+
+? "no_article_found"
+: "Aucun titre de page ne correspond \xC3\xA0 la recherche"
+
+? "show_button"
+: "Afficher"
+
+? "regular_wikipedia"
+: "Afficher cette page sur Wikip\xC3\xA9dia classique"
+
+? "contact_us"
+: "Si vous avez des questions ou des commentaires n'h\xC3\xA9sitez pas \xC3\xA0 nous contacter \xC3\xA0 mobile@wikipedia.org"
+
+? "error_page_title"
+: "D\xC3\xA9sol\xC3\xA9 ! Nous avons un probl\xC3\xA8me."
+
+? "search_text"
+: "Rechercher"
+
+? "nav_top"
+: "Haut"
+
+? "author_link"
+: "Afficher ce fichier sur Wikip\xC3\xA9dia pour voir les informations sur son auteur, sa licence et des descriptions suppl\xC3\xA9mentaires."
+
+? "are_you_sure"
+: "\xC3\x8Ates-vous certain ?"
+
+? "hide_button"
+: "Masquer"
+
+? "random_button"
+: "Au hasard"
+

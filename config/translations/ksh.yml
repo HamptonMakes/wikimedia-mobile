@@ -1,30 +1,94 @@
 # Messages for Colognian (Ripoarisch)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Hcatlin
 # Author: Merlissimo
 # Author: Purodha
-are_you_sure: Bes De Der Sescher?
-back_button: Retuur
-back_to_top_of_section: Jangk ene Afschnett zerök
-copyright: Dä Täx shtäjt unger dä <a href="http://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Commons_Attribution-ShareAlike_3.0_Unported"><span lang="de">Creative Commons Attribution/Share-Alike</span> Lizänz</a>; un et künnt noch mieh Bestemmunge doför jävve. Loor op de <a href="http://wikimediafoundation.org/wiki/Nutzungsbedingungen">Sigg met de Bedengunge</a> noh der Einzelheite. Wikipedia es e ennjedraare Waarezeiche vun de <a href="http://www.wikimediafoundation.org/">Wikimedia Shtefftung</a>, en Ojanisazuhn, di kei Jeld verdeent.
-disable_button: Ußschallde
-error_page_text: De mobile Wikkipedija ier Täschnek es noch onfäädesch un en Ärbeit, un mer sen draan am werreke, wat ennedren noch nit flupp op de Reih ze krijje. Mer wesse öm dä Fähler un mer wääde en demnääx loss hann. Kumm ens widder loore!
-error_page_title: Mer hann_e Probleem!
-explain_disable: Bes De sescher, dat De de mobile Wikipedija afschallde wells? Wann De <b>Ußschallde</b> wähls, dann wees De vun doh aan nit mieh op de mobile Wikipedija ömjeleijdt, wann De op de Wikipedija jeihß.
-featured_article: Der Atikel vum Daach
-hide_button: Vershteishe!
-home_button: Houpsigg
-in_the_news: En de Präß
-nav_edit: Ändere
-nav_end: Ängk
-nav_history: Vörijje Sigge
-nav_top: Bovve
-no_article_found: Keine Atikel jefonge
-perm_stop_redirect: Donn dä mobile Zohjang op Duur ußschallde
-random_button: Zohfallsigg
-regular_wikipedia: Bekik heh di Sigg en de nomaale Wikipedija
-search_results: Beim Söhke kohm eruß
-search_submit: Lohß Jonn!
-search_text: Söhke
-show_button: Zeisch!
+--- %YAML:1.0 
+? "wikipedia"
+: "Wikipedija"
+
+? "download_full_version"
+: "Voll Version Runger Laade"
+
+? "nav_end"
+: "\xC3\x84ngk"
+
+? "home_button"
+: "Houpsigg"
+
+? "copyright"
+: "D\xC3\xA4 T\xC3\xA4x sht\xC3\xA4jt unger d\xC3\xA4 <a href=\"http://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Commons_Attribution-ShareAlike_3.0_Unported\"><span lang=\"de\">Creative Commons Attribution/Share-Alike</span> Liz\xC3\xA4nz</a>; un et k\xC3\xBCnnt noch mieh Bestemmunge dof\xC3\xB6r j\xC3\xA4vve. Loor op de <a href=\"http://wikimediafoundation.org/wiki/Nutzungsbedingungen\">Sigg met de Bedengunge</a> noh der Einzelheite. Wikipedia es e ennjedraare Waarezeiche vun de <a href=\"http://www.wikimediafoundation.org/\">Wikimedia Shtefftung</a>, en Ojanisazuhn, di kei Jeld verdeent."
+
+? "disable_button"
+: "U\xC3\x9Fschallde"
+
+? "nav_edit"
+: "\xC3\x84ndere"
+
+? "in_the_news"
+: "En de Pr\xC3\xA4\xC3\x9F"
+
+? "search_results"
+: "Beim S\xC3\xB6hke kohm eru\xC3\x9F"
+
+? "explain_disable"
+: "Bes De sescher, dat De de mobile Wikipedija afschallde wells? Wann De <b>U\xC3\x9Fschallde</b> w\xC3\xA4hls, dann wees De vun doh aan nit mieh op de mobile Wikipedija \xC3\xB6mjeleijdt, wann De op de Wikipedija jeih\xC3\x9F."
+
+? "back_to_top_of_section"
+: "Jangk ene Afschnett zer\xC3\xB6k"
+
+? "featured_article"
+: "Der Atikel vum Daach"
+
+? "nav_history"
+: "V\xC3\xB6rijje Sigge"
+
+? "error_page_text"
+: "De mobile Wikkipedija ier T\xC3\xA4schnek es noch onf\xC3\xA4\xC3\xA4desch un en \xC3\x84rbeit, un mer sen draan am werreke, wat ennedren noch nit flupp op de Reih ze krijje. Mer wesse \xC3\xB6m d\xC3\xA4 F\xC3\xA4hler un mer w\xC3\xA4\xC3\xA4de en demn\xC3\xA4\xC3\xA4x loss hann. Kumm ens widder loore!"
+
+? "file_namespace"
+: "Datei"
+
+? "perm_stop_redirect"
+: "Donn d\xC3\xA4 mobile Zohjang op Duur u\xC3\x9Fschallde"
+
+? "back_button"
+: "Retuur"
+
+? "search_submit"
+: "Loh\xC3\x9F Jonn!"
+
+? "no_article_found"
+: "Keine Atikel jefonge"
+
+? "show_button"
+: "Zeisch!"
+
+? "regular_wikipedia"
+: "Bekik heh di Sigg en de nomaale Wikipedija"
+
+? "contact_us"
+: "Wann De Frore udder Bemerkung h\xC3\xA4s, donn us <i lang=\"en\">e-mail</i> aan mobile@wikipedia.org schecke"
+
+? "error_page_title"
+: "Mer hann_e Probleem!"
+
+? "search_text"
+: "S\xC3\xB6hke"
+
+? "nav_top"
+: "Bovve"
+
+? "author_link"
+: "Beloor heh di Meedija-Dattei en de nomaale Wikipedija, \xC3\xB6m mieh \xC3\xB6vver d\xC3\xA4 ier Maacher, Liz\xC3\xA4nze un Beschrievunge ze l\xC3\xA4sse."
+
+? "are_you_sure"
+: "Bes De Der Sescher?"
+
+? "hide_button"
+: "Vershteishe!"
+
+? "random_button"
+: "Zohfallsigg"
+

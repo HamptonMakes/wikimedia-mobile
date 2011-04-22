@@ -1,7 +1,5 @@
 # Messages for Maori (Māori)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Iketsi
-search_submit: Haere
-search_text: Rapua
-wikipedia: Wikipedia
+--- %YAML:1.0 {"wikipedia": "Wikipedia", "search_submit": "Haere", "search_text": "Rapua"}

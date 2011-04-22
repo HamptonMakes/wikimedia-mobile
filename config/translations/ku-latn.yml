@@ -1,0 +1,62 @@
+# Messages for Kurdish (Latin) (Kurdî (Latin))
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: George Animal
+--- %YAML:1.0 
+? "wikipedia"
+: "W\xC3\xAEk\xC3\xAEpedia"
+
+? "nav_end"
+: "Daw\xC3\xAE"
+
+? "home_button"
+: "Mal"
+
+? "disable_button"
+: "Seqet"
+
+? "nav_edit"
+: "Biguher\xC3\xAEne"
+
+? "in_the_news"
+: "Di n\xC3\xBB\xC3\xA7eyan de"
+
+? "search_results"
+: "Encam\xC3\xAAn l\xC3\xAAger\xC3\xAEn\xC3\xAA"
+
+? "nav_history"
+: "D\xC3\xAErok"
+
+? "file_namespace"
+: "Dosye"
+
+? "back_button"
+: "Pa\xC5\x9Fve bi\xC3\xA7e"
+
+? "search_submit"
+: "Bi\xC3\xA7e"
+
+? "no_article_found"
+: "Tu gotar nehate d\xC3\xAEtin"
+
+? "show_button"
+: "N\xC3\xAE\xC5\x9Fan bide"
+
+? "regular_wikipedia"
+: "V\xC3\xAA r\xC3\xBBpel\xC3\xAA di W\xC3\xAEk\xC3\xAEpediya asay\xC3\xAE de bib\xC3\xAEne"
+
+? "error_page_title"
+: "Pirsgir\xC3\xAAka me heye!"
+
+? "search_text"
+: "L\xC3\xAAbigere"
+
+? "are_you_sure"
+: "Tu misoger \xC3\xAE?"
+
+? "hide_button"
+: "Ve\xC5\x9F\xC3\xAAre"
+
+? "random_button"
+: "Tesaduf\xC3\xAE"
+

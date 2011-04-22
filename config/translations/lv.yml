@@ -1,18 +1,45 @@
 # Messages for Latvian (Latviešu)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Marozols
 # Author: Xil
-error_page_text: Vikipēdijas mobilā versija joprojām tiek aktīvi izstrādāta, un mēs ieguldām lielu darbu, lai novērstu visas iekšējās kļūmes. Mēs esam saņēmuši informāciju par šo kļūdu un ceram to drīz novērst. Lūdzu, pamēģiniet vēlreiz pēc kāda laiciņa!
-error_page_title: Mums ir radusies problēma!
-featured_article: Vērtīgais raksts
-hide_button: Paslēpt
-home_button: Sākumlapa
-in_the_news: Ziņas
-no_article_found: Neviens raksts netika atrasts
-perm_stop_redirect: Turpmāk izmantot parasto Vikipēdiju
-random_button: Nejaušs raksts
-regular_wikipedia: Apskatīt šo lapu parastajā Vikipēdijā
-search_results: Meklēšanas rezultāti
-search_submit: Meklēt
-show_button: Parādīt
+--- %YAML:1.0 
+? "home_button"
+: "S\xC4\x81kumlapa"
+
+? "in_the_news"
+: "Zi\xC5\x86as"
+
+? "search_results"
+: "Mekl\xC4\x93\xC5\xA1anas rezult\xC4\x81ti"
+
+? "featured_article"
+: "V\xC4\x93rt\xC4\xABgais raksts"
+
+? "error_page_text"
+: "Vikip\xC4\x93dijas mobil\xC4\x81 versija joproj\xC4\x81m tiek akt\xC4\xABvi izstr\xC4\x81d\xC4\x81ta, un m\xC4\x93s ieguld\xC4\x81m lielu darbu, lai nov\xC4\x93rstu visas iek\xC5\xA1\xC4\x93j\xC4\x81s k\xC4\xBC\xC5\xABmes. M\xC4\x93s esam sa\xC5\x86\xC4\x93mu\xC5\xA1i inform\xC4\x81ciju par \xC5\xA1o k\xC4\xBC\xC5\xABdu un ceram to dr\xC4\xABz nov\xC4\x93rst. L\xC5\xABdzu, pam\xC4\x93\xC4\xA3iniet v\xC4\x93lreiz p\xC4\x93c k\xC4\x81da laici\xC5\x86a!"
+
+? "perm_stop_redirect"
+: "Turpm\xC4\x81k izmantot parasto Vikip\xC4\x93diju"
+
+? "search_submit"
+: "Mekl\xC4\x93t"
+
+? "no_article_found"
+: "Neviens raksts netika atrasts"
+
+? "show_button"
+: "Par\xC4\x81d\xC4\xABt"
+
+? "regular_wikipedia"
+: "Apskat\xC4\xABt \xC5\xA1o lapu parastaj\xC4\x81 Vikip\xC4\x93dij\xC4\x81"
+
+? "error_page_title"
+: "Mums ir radusies probl\xC4\x93ma!"
+
+? "hide_button"
+: "Pasl\xC4\x93pt"
+
+? "random_button"
+: "Nejau\xC5\xA1s raksts"
+

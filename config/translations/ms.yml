@@ -1,30 +1,94 @@
 # Messages for Malay (Bahasa Melayu)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
+# Author: Anakmalaysia
 # Author: Aurora
-are_you_sure: Adakah anda pasti?
-back_button: Kembali
-back_to_top_of_section: Undur Satu Bahagian
-contact_us: Jika anda mempunyai pertanyaan atau ulasan sila e-mel kami di mobile@wikipedia.org
-copyright: Teks boleh didapati di bawah <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Lesen Creative Commons Attribution/Share-Alike</a>; syarat tambahan mungkin terpakai. Lihat <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terma Penggunaan</a> untuk perincian. Wikipedia merupakan tanda dagangan berdaftar <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, sebuah pertubuhan bukan untung.
-disable_button: Lumpuhkan
-error_page_text: "''Wikipedia mobile'' masih dalam pembangunan aktif dan kami sedang berusaha keras memperbaiki semua ralat dalaman kami. Kami telah dimaklumkan mengenai ralat ini dan akan segera memperbaikinya. Sila semak semula nanti!"
-error_page_title: Kami mempunyai masalah!
-explain_disable: Adakah anda pasti anda hendak melumpuhkan versi bergerak Wikipedia? Jika anda memilih <b>Lumpuhkan</b>, maka dari sekarang, apabila anda melawat Wikipedia, anda tidak akan dilencongkan ke paparan bergerak Wikipedia ini.
-featured_article: Rencana Pilihan
-hide_button: Sorok
-home_button: Rumah
-in_the_news: Dalam Berita
-nav_edit: Sunting
-nav_end: Tamat
-nav_history: Sejarah
-nav_top: Atas
-no_article_found: Tiada Rencana Ditemui
-perm_stop_redirect: Lumpuhkan versi bergerak secara kekal
-random_button: Rawak
-regular_wikipedia: Lihat laman ini di Wikipedia biasa
-search_results: Keputusan Carian
-search_submit: Pergi
-search_text: Gelintar
-show_button: Papar
-wikipedia: Wikipedia
+# Author: Kurniasan
+--- %YAML:1.0 
+? "wikipedia"
+: "Wikipedia"
+
+? "download_full_version"
+: "Muat Turun Versi Penuh"
+
+? "nav_end"
+: "Tamat"
+
+? "home_button"
+: "Halaman"
+
+? "copyright"
+: "Teks boleh didapati di bawah <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Lesen Creative Commons Attribution/Share-Alike</a>; syarat tambahan mungkin terpakai. Lihat <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terma Penggunaan</a> untuk perincian. Wikipedia merupakan tanda dagangan berdaftar <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, sebuah pertubuhan bukan untung."
+
+? "disable_button"
+: "Lumpuhkan"
+
+? "nav_edit"
+: "Sunting"
+
+? "in_the_news"
+: "Dalam Berita"
+
+? "search_results"
+: "Hasil carian"
+
+? "explain_disable"
+: "Adakah anda pasti anda hendak melumpuhkan versi bergerak Wikipedia? Jika anda memilih <b>Lumpuhkan</b>, maka dari sekarang, apabila anda melawat Wikipedia, anda tidak akan dilencongkan ke paparan bergerak Wikipedia ini."
+
+? "back_to_top_of_section"
+: "Undur Satu Bahagian"
+
+? "featured_article"
+: "Rencana Pilihan"
+
+? "nav_history"
+: "Sejarah"
+
+? "error_page_text"
+: "''Wikipedia mobile'' masih dalam pembangunan aktif dan kami sedang berusaha keras memperbaiki semua ralat dalaman kami. Kami telah dimaklumkan mengenai ralat ini dan akan segera memperbaikinya. Sila semak semula nanti!"
+
+? "file_namespace"
+: "Fail"
+
+? "perm_stop_redirect"
+: "Lumpuhkan versi bergerak secara kekal"
+
+? "back_button"
+: "Kembali"
+
+? "search_submit"
+: "Pergi"
+
+? "no_article_found"
+: "Tiada Rencana Ditemui"
+
+? "show_button"
+: "Tunjuk"
+
+? "regular_wikipedia"
+: "Lihat laman ini di Wikipedia biasa"
+
+? "contact_us"
+: "Jika anda mempunyai pertanyaan atau ulasan sila e-mel kami di mobile@wikipedia.org"
+
+? "error_page_title"
+: "Kami mempunyai masalah!"
+
+? "search_text"
+: "Gelintar"
+
+? "nav_top"
+: "Puncak"
+
+? "author_link"
+: "Paparkan fail media ini dalam Wikipedia biasa untuk melihat maklumat pembuat, perlesenan dan huraian tambahannya."
+
+? "are_you_sure"
+: "Adakah anda pasti?"
+
+? "hide_button"
+: "Sorok"
+
+? "random_button"
+: "Rawak"
+

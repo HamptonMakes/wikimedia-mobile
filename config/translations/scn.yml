@@ -1,29 +1,80 @@
 # Messages for Sicilian (Sicilianu)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Gmelfi
-are_you_sure: Si sicuru?
-back_button: Narreri
-back_to_top_of_section: Vai â ccuminzata dû paràgrufu
-contact_us: Siddu aviti quistioni o cummenti putiti cuntattarini via email ô nnirizzu mobile@wikipedia.org
-copyright: Lu testu è dispunibbili secunnu la <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>licenza Creative Commons Attribuzione-Condividi allo stesso modo</a>; si ponnu applicari àutri cunnizzioni. Talia li <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>cunnizziuni d'usu</a> pi li dittagghi. Wikipedia è nu marchiu arriggistratu dâ <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, n'urganizzazzioni senza scopu di lucru
-disable_button: Disabbìlita
-error_page_text: Wikipedia mòbbili è ancora n fasi di sviluppu attivu e stapemu travagghiannu pi risòrviri tutti li nostri errura nterni. St'erruri fu ggià nutificatu. Veni taliatu e curriggiutu annunca. Cuntrolla n'autra vota.
-error_page_title: Si virificau nu prubblema!
-explain_disable: Vòi pi daveru disabbilitari la virsioni mòbbili di Wikipedia? Siddu scegghi <b>Disabbìlita</b>, d'oranavanzi, ogni vota ca vìsiti Wikipedia nun si cchiù direttu ntâ virsioni mòbbili di Wikipedia.
-featured_article: Vitrina
-hide_button: Ammuccia
-home_button: Pàggina principali
-in_the_news: Ntê nuvitati
-nav_edit: Cancia
-nav_end: Fini
-nav_history: Crunuluggìa
-nav_top: Accuminzata
-no_article_found: Nuddu articulu truvatu
-perm_stop_redirect: Disabbilitari di manera pirmanenti lu situ pu dispusitivi môbbili
-random_button: Casuali
-regular_wikipedia: Visualizza sta pàggina supra Wikipedia nurmali
-search_results: Risurtati dâ circata
-search_submit: Và trova
-search_text: Và cerca
-show_button: Ammustra
+--- %YAML:1.0 
+? "nav_end"
+: "Fini"
+
+? "home_button"
+: "P\xC3\xA0ggina principali"
+
+? "copyright"
+: "Lu testu \xC3\xA8 dispunibbili secunnu la <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>licenza Creative Commons Attribuzione-Condividi allo stesso modo</a>; si ponnu applicari \xC3\xA0utri cunnizzioni. Talia li <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>cunnizziuni d'usu</a> pi li dittagghi. Wikipedia \xC3\xA8 nu marchiu arriggistratu d\xC3\xA2 <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, n'urganizzazzioni senza scopu di lucru"
+
+? "disable_button"
+: "Disabb\xC3\xAClita"
+
+? "nav_edit"
+: "Cancia"
+
+? "in_the_news"
+: "Nt\xC3\xAA nuvitati"
+
+? "search_results"
+: "Risurtati d\xC3\xA2 circata"
+
+? "explain_disable"
+: "V\xC3\xB2i pi daveru disabbilitari la virsioni m\xC3\xB2bbili di Wikipedia? Siddu scegghi <b>Disabb\xC3\xAClita</b>, d'oranavanzi, ogni vota ca v\xC3\xACsiti Wikipedia nun si cchi\xC3\xB9 direttu nt\xC3\xA2 virsioni m\xC3\xB2bbili di Wikipedia."
+
+? "back_to_top_of_section"
+: "Vai \xC3\xA2 ccuminzata d\xC3\xBB par\xC3\xA0grufu"
+
+? "featured_article"
+: "Vitrina"
+
+? "nav_history"
+: "Crunulugg\xC3\xACa"
+
+? "error_page_text"
+: "Wikipedia m\xC3\xB2bbili \xC3\xA8 ancora n fasi di sviluppu attivu e stapemu travagghiannu pi ris\xC3\xB2rviri tutti li nostri errura nterni. St'erruri fu ggi\xC3\xA0 nutificatu. Veni taliatu e curriggiutu annunca. Cuntrolla n'autra vota."
+
+? "perm_stop_redirect"
+: "Disabbilitari di manera pirmanenti lu situ pu dispusitivi m\xC3\xB4bbili"
+
+? "back_button"
+: "Narreri"
+
+? "search_submit"
+: "V\xC3\xA0 trova"
+
+? "no_article_found"
+: "Nuddu articulu truvatu"
+
+? "show_button"
+: "Ammustra"
+
+? "regular_wikipedia"
+: "Visualizza sta p\xC3\xA0ggina supra Wikipedia nurmali"
+
+? "contact_us"
+: "Siddu aviti quistioni o cummenti putiti cuntattarini via email \xC3\xB4 nnirizzu mobile@wikipedia.org"
+
+? "error_page_title"
+: "Si virificau nu prubblema!"
+
+? "search_text"
+: "V\xC3\xA0 cerca"
+
+? "nav_top"
+: "Accuminzata"
+
+? "are_you_sure"
+: "Si sicuru?"
+
+? "hide_button"
+: "Ammuccia"
+
+? "random_button"
+: "Casuali"
+

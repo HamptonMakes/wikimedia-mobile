@@ -1,8 +1,5 @@
 # Messages for Kirmanjki (Kırmancki)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Mirzali
-hide_button: Bınımne
-random_button: Rastamae
-search_submit: So
-show_button: Bıasne
+--- %YAML:1.0 {"search_submit": "So", "show_button": "B\xC4\xB1asne", "hide_button": "B\xC4\xB1n\xC4\xB1mne", "random_button": "Rastamae"}

@@ -1,30 +1,83 @@
 # Messages for Võro (Võro)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Võrok
-are_you_sure: Kas olõt kimmäs?
-back_button: Tagasi
-back_to_top_of_section: Mineq tagasi  jakko A
-contact_us: Ku sul om midägi küssüq vai kommõntiiriq, sis kirodaq aadrõsi pääle mobile@wikipedia.org
-copyright: Tekst om ilmutõt <a href="http://fi.wikipedia.org/wiki/Wikipedia:Creative_Commons_Attribution-Share_Alike_3.0_Unported_-lisenssiehdot">Creative Commons Attribution/Share-Alike</a> litsendsi perrä; kost või löüdäq lisateedüst. Kaeq <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> ligembält siist. Vikipeediä om <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.:n</a>, mittetullosaamisütisüse kirjäpant kaubamärk.
-disable_button: Keeläq
-error_page_text: Wikipedia mobiilikujjo arõndõdas edesi ja tetäs tüüd kõiki tallitusviko parandamisõs. Mi tiiä taad vika ja parandami taa pia ärq. Proomiq mõni tõõnõ kõrd viil.
-error_page_title: Tallitusviga
-explain_disable: Kas olõt kimmäs, et tahat Vikipeediä mobiilikujjo ärq keeldäq? Perän <b>Keeläq</b> valimist saadõta-ai sinno Vikipeediä kaemisõs inämb ümbre Vikipeediä mobiilikaehustõ.
-featured_article: Täämbädse päävä artikli
-hide_button: Käkiq
-home_button: Pääleht
-in_the_news: Miä vahtsõt
-nav_edit: Toimõndaq
-nav_end: Lõppu
-nav_history: Aolugu
-nav_top: Üles
-no_article_found: Lövvä-äs säänest artiklit
-perm_stop_redirect: Võtaq mobiilileht käügist maaha
-random_button: Johuslinõ leht
-regular_wikipedia: Näütäq seod lehte hariligun Vikipeediän
-search_results: Otsmisõ tulõmiq
-search_submit: Mineq
-search_text: Otsiq
-show_button: Näütäq
-wikipedia: Vikipeediä
+--- %YAML:1.0 
+? "wikipedia"
+: "Vikipeedi\xC3\xA4"
+
+? "nav_end"
+: "L\xC3\xB5ppu"
+
+? "home_button"
+: "P\xC3\xA4\xC3\xA4leht"
+
+? "copyright"
+: "Tekst om ilmut\xC3\xB5t <a href=\"http://fi.wikipedia.org/wiki/Wikipedia:Creative_Commons_Attribution-Share_Alike_3.0_Unported_-lisenssiehdot\">Creative Commons Attribution/Share-Alike</a> litsendsi perr\xC3\xA4; kost v\xC3\xB5i l\xC3\xB6\xC3\xBCd\xC3\xA4q lisateed\xC3\xBCst. Kaeq <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> ligemb\xC3\xA4lt siist. Vikipeedi\xC3\xA4 om <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.:n</a>, mittetullosaamis\xC3\xBCtis\xC3\xBCse kirj\xC3\xA4pant kaubam\xC3\xA4rk."
+
+? "disable_button"
+: "Keel\xC3\xA4q"
+
+? "nav_edit"
+: "Toim\xC3\xB5ndaq"
+
+? "in_the_news"
+: "Mi\xC3\xA4 vahts\xC3\xB5t"
+
+? "search_results"
+: "Otsmis\xC3\xB5 tul\xC3\xB5miq"
+
+? "explain_disable"
+: "Kas ol\xC3\xB5t kimm\xC3\xA4s, et tahat Vikipeedi\xC3\xA4 mobiilikujjo \xC3\xA4rq keeld\xC3\xA4q? Per\xC3\xA4n <b>Keel\xC3\xA4q</b> valimist saad\xC3\xB5ta-ai sinno Vikipeedi\xC3\xA4 kaemis\xC3\xB5s in\xC3\xA4mb \xC3\xBCmbre Vikipeedi\xC3\xA4 mobiilikaehust\xC3\xB5."
+
+? "back_to_top_of_section"
+: "Mineq tagasi  jakko A"
+
+? "featured_article"
+: "T\xC3\xA4\xC3\xA4mb\xC3\xA4dse p\xC3\xA4\xC3\xA4v\xC3\xA4 artikli"
+
+? "nav_history"
+: "Aolugu"
+
+? "error_page_text"
+: "Wikipedia mobiilikujjo ar\xC3\xB5nd\xC3\xB5das edesi ja tet\xC3\xA4s t\xC3\xBC\xC3\xBCd k\xC3\xB5iki tallitusviko parandamis\xC3\xB5s. Mi tii\xC3\xA4 taad vika ja parandami taa pia \xC3\xA4rq. Proomiq m\xC3\xB5ni t\xC3\xB5\xC3\xB5n\xC3\xB5 k\xC3\xB5rd viil."
+
+? "perm_stop_redirect"
+: "V\xC3\xB5taq mobiilileht k\xC3\xA4\xC3\xBCgist maaha"
+
+? "back_button"
+: "Tagasi"
+
+? "search_submit"
+: "Mineq"
+
+? "no_article_found"
+: "L\xC3\xB6vv\xC3\xA4-\xC3\xA4s s\xC3\xA4\xC3\xA4nest artiklit"
+
+? "show_button"
+: "N\xC3\xA4\xC3\xBCt\xC3\xA4q"
+
+? "regular_wikipedia"
+: "N\xC3\xA4\xC3\xBCt\xC3\xA4q seod lehte hariligun Vikipeedi\xC3\xA4n"
+
+? "contact_us"
+: "Ku sul om mid\xC3\xA4gi k\xC3\xBCss\xC3\xBCq vai komm\xC3\xB5ntiiriq, sis kirodaq aadr\xC3\xB5si p\xC3\xA4\xC3\xA4le mobile@wikipedia.org"
+
+? "error_page_title"
+: "Tallitusviga"
+
+? "search_text"
+: "Otsiq"
+
+? "nav_top"
+: "\xC3\x9Cles"
+
+? "are_you_sure"
+: "Kas ol\xC3\xB5t kimm\xC3\xA4s?"
+
+? "hide_button"
+: "K\xC3\xA4kiq"
+
+? "random_button"
+: "Johuslin\xC3\xB5 leht"
+

@@ -1,33 +1,92 @@
 # Messages for Achinese (Acèh)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Si Gam Acèh
-are_you_sure: Keubietneuh?
-author_link: Eu beureukaih nyoe bak Wikipedia biasa keu jak eu keutrangan bhah ureueng peugot, lisensi ngon keutrangan teunamah.
-back_button: Riwang
-back_to_top_of_section: Riwang u bagian sigoh nyoe
-contact_us: Meunyo Droeneuh na teunanyong atawa beunalaih neupeu'et laju surat ubak kamoe bak mobile@wikipedia.org
-copyright: Teks na di yup <ahref='http://ace.wikipedia.org/wiki/Wikipedia:Teks_Lisensi_Creative_Commons_Atribusi-PembagianSerupa_3.0'>Lisensi Creative Commons Atribusi-PembagianSerupa</a>; syarat teunamah kadang na. Eu <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Cara Nguy</a> keu leubeh rinci. Wikipedia nakeuh saboh cap meukat teudapeuta nibak <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, saboh teunuboh hana mita laba.
-disable_button: Pumate
-download_full_version: Cok Seunalen Peunoh
-error_page_text: Wikipedia seluler mantong lam tahap peukeumang. Kamoe meubuet kreueh keu meupeuseuleusoe seunalah-seunalah dalam nyang na. kamoe ka geubri thee bhah seunalah nyoe dan akan sigra kamoe peuseuleusoe. Neutulong riwang lom eunteuk!
-error_page_title: Na masalah!
-explain_disable: Peue Droeneuh yakin neujak pumate versi seluler Wikipedia? Meunyo neupileh <b>Pumate</b>, maka mulai jinoe, 'oh watee neusaweue halaman Wikipedia, Droeneuh hana geupeuarah le u versi seluler Wikipedia nyoe.
-featured_article: Teunuleh Peunileh Uroe Nyoe
-file_namespace: Beureukaih
-hide_button: Peusom
-home_button: Keue
-in_the_news: Haba Baro
-nav_edit: Andam
-nav_end: Akhe
-nav_history: Atra u likôt
-nav_top: Ateueh
-no_article_found: Teunuleh hana meurumpok
-perm_stop_redirect: Sabe pumate situh seluler
-random_button: Beurangkari
-regular_wikipedia: Eu on nyoe bak Wikipedia biyasa
-search_results: Hasé mita
-search_submit: Jak u
-search_text: Mita
-show_button: Peuleumah
-wikipedia: Wikipedia
+--- %YAML:1.0 
+? "wikipedia"
+: "Wikipedia"
+
+? "download_full_version"
+: "Cok Seunalen Peunoh"
+
+? "nav_end"
+: "Akhe"
+
+? "home_button"
+: "Keue"
+
+? "copyright"
+: "Teks na di yup <ahref='http://ace.wikipedia.org/wiki/Wikipedia:Teks_Lisensi_Creative_Commons_Atribusi-PembagianSerupa_3.0'>Lisensi Creative Commons Atribusi-PembagianSerupa</a>; syarat teunamah kadang na. Eu <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Cara Nguy</a> keu leubeh rinci. Wikipedia nakeuh saboh cap meukat teudapeuta nibak <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, saboh teunuboh hana mita laba."
+
+? "disable_button"
+: "Pumate"
+
+? "nav_edit"
+: "Andam"
+
+? "in_the_news"
+: "Haba Baro"
+
+? "search_results"
+: "Has\xC3\xA9 mita"
+
+? "explain_disable"
+: "Peue Droeneuh yakin neujak pumate versi seluler Wikipedia? Meunyo neupileh <b>Pumate</b>, maka mulai jinoe, 'oh watee neusaweue halaman Wikipedia, Droeneuh hana geupeuarah le u versi seluler Wikipedia nyoe."
+
+? "back_to_top_of_section"
+: "Riwang u bagian sigoh nyoe"
+
+? "featured_article"
+: "Teunuleh Peunileh Uroe Nyoe"
+
+? "nav_history"
+: "Atra u lik\xC3\xB4t"
+
+? "error_page_text"
+: "Wikipedia seluler mantong lam tahap peukeumang. Kamoe meubuet kreueh keu meupeuseuleusoe seunalah-seunalah dalam nyang na. kamoe ka geubri thee bhah seunalah nyoe dan akan sigra kamoe peuseuleusoe. Neutulong riwang lom eunteuk!"
+
+? "file_namespace"
+: "Beureukaih"
+
+? "perm_stop_redirect"
+: "Sabe pumate situh seluler"
+
+? "back_button"
+: "Riwang"
+
+? "search_submit"
+: "Jak u"
+
+? "no_article_found"
+: "Teunuleh hana meurumpok"
+
+? "show_button"
+: "Peuleumah"
+
+? "regular_wikipedia"
+: "Eu on nyoe bak Wikipedia biyasa"
+
+? "contact_us"
+: "Meunyo Droeneuh na teunanyong atawa beunalaih neupeu'et laju surat ubak kamoe bak mobile@wikipedia.org"
+
+? "error_page_title"
+: "Na masalah!"
+
+? "search_text"
+: "Mita"
+
+? "nav_top"
+: "Ateueh"
+
+? "author_link"
+: "Eu beureukaih nyoe bak Wikipedia biasa keu jak eu keutrangan bhah ureueng peugot, lisensi ngon keutrangan teunamah."
+
+? "are_you_sure"
+: "Keubietneuh?"
+
+? "hide_button"
+: "Peusom"
+
+? "random_button"
+: "Beurangkari"
+

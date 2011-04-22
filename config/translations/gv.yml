@@ -1,30 +1,81 @@
 # Messages for Manx (Gaelg)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: MacTire02
 # Author: Shimmin Beg
-are_you_sure: Vel oo shickyr ???
-back_button: Erash
-back_to_top_of_section: Goll Erash Un Rheynn
-contact_us: My ta feyshtyn ny smooinaghtyn ayd, failt ort post-l y chur dooin ec mobile@wikipedia.org
-copyright: Ta'n teks ry-gheddyn fo'n <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Chiedoonys Creative Commons Attribution/Share-Alike</a>; foddee dy vel tooilley conaantyn currit rish. Jeeagh er <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Conaantyn Ymmyd</a> son tooilley mynphoyntyn. She cowrey keirdey jeh'n reagheydys neu-vondeishagh <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a> ee Wikipedia.
-disable_button: Martarey
-error_page_text: Ta shin foast gobbraghey er Wikipedia shooylagh, as kiartaghey dagh marranys.  Ta fys ain er y varranys shoh as neemayd eshyn y chiartaghey dy leah.  Tar erash, my saillt!
-error_page_title: Ta crampys ain!
-explain_disable: Vel oo shickyr dy by vie lhiat Wikipedia shooylagh y vartarey  My reihys uss <b>Martarey</b>, tra hed uss lesh shilley er Wikipedia, cha jed oo er aastiurey dys y chummey shooylagh shoh arragh.
-featured_article: Yn Art Reiht Jiu
-hide_button: Follaghey
-home_button: Balley
-in_the_news: "'Sy Naight"
-nav_edit: Reaghey
-nav_end: Jerrey
-nav_history: Shennaghys
-nav_top: Kione
-no_article_found: Cha row yn art feddynit
-perm_stop_redirect: Cur bac beayn er yn ynnyd-eggey raghidey
-random_button: Gyn tort
-regular_wikipedia: Jeeagh er y duillag shoh er Wikipedia chadjin
-search_results: Eiyrtyssyn y ronsaghey
-search_submit: Gow
-search_text: Ronsaghey
-show_button: Taishbyney
+--- %YAML:1.0 
+? "nav_end"
+: "Jerrey"
+
+? "home_button"
+: "Balley"
+
+? "copyright"
+: "Ta'n teks ry-gheddyn fo'n <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Chiedoonys Creative Commons Attribution/Share-Alike</a>; foddee dy vel tooilley conaantyn currit rish. Jeeagh er <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Conaantyn Ymmyd</a> son tooilley mynphoyntyn. She cowrey keirdey jeh'n reagheydys neu-vondeishagh <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a> ee Wikipedia."
+
+? "disable_button"
+: "Martarey"
+
+? "nav_edit"
+: "Reaghey"
+
+? "in_the_news"
+: "'Sy Naight"
+
+? "search_results"
+: "Eiyrtyssyn y ronsaghey"
+
+? "explain_disable"
+: "Vel oo shickyr dy by vie lhiat Wikipedia shooylagh y vartarey  My reihys uss <b>Martarey</b>, tra hed uss lesh shilley er Wikipedia, cha jed oo er aastiurey dys y chummey shooylagh shoh arragh."
+
+? "back_to_top_of_section"
+: "Goll Erash Un Rheynn"
+
+? "featured_article"
+: "Yn Art Reiht Jiu"
+
+? "nav_history"
+: "Shennaghys"
+
+? "error_page_text"
+: "Ta shin foast gobbraghey er Wikipedia shooylagh, as kiartaghey dagh marranys.  Ta fys ain er y varranys shoh as neemayd eshyn y chiartaghey dy leah.  Tar erash, my saillt!"
+
+? "perm_stop_redirect"
+: "Cur bac beayn er yn ynnyd-eggey raghidey"
+
+? "back_button"
+: "Erash"
+
+? "search_submit"
+: "Gow"
+
+? "no_article_found"
+: "Cha row yn art feddynit"
+
+? "show_button"
+: "Taishbyney"
+
+? "regular_wikipedia"
+: "Jeeagh er y duillag shoh er Wikipedia chadjin"
+
+? "contact_us"
+: "My ta feyshtyn ny smooinaghtyn ayd, failt ort post-l y chur dooin ec mobile@wikipedia.org"
+
+? "error_page_title"
+: "Ta crampys ain!"
+
+? "search_text"
+: "Ronsaghey"
+
+? "nav_top"
+: "Kione"
+
+? "are_you_sure"
+: "Vel oo shickyr ???"
+
+? "hide_button"
+: "Follaghey"
+
+? "random_button"
+: "Gyn tort"
+

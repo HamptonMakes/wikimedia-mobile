@@ -1,5 +1,5 @@
 # Messages for Pälzisch (Pälzisch)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Xqt
-nav_edit: Bearwaide
+--- %YAML:1.0 {"nav_edit": "Bearwaide"}

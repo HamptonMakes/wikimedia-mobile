@@ -1,33 +1,92 @@
 # Messages for Lower Sorbian (Dolnoserbski)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Michawiki
-are_you_sure: Sy se wěsty?
-author_link: Toś tu medijowu dataju w regularnej Wikipediji pokazaś, aby se woglědał informacije wó awtorstwje, licencowanju a pśidatne wopisanje.
-back_button: Slědk
-back_to_top_of_section: Wótrězk slědk skócyś
-contact_us: Jolic maš pšašanja abo komentary, pósćel pšosym  e-mail na mobile@wikipedia.org
-copyright: Tekst stoj pód <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a> k dispoziciji; pśidatne wuměnjenja mógu se nałožowaś. Glědaj <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Wužywańske wuměnjenja</a> za drobnostki. Wikipedija jo zregistrěrowana wikowańska marka załožby <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, za wše wužytneje organizacije.
-disable_button: Znjemóžniś
-download_full_version: Połnu wersiju ześěgnuś
-error_page_text: Mobilna Wikipedija se hyšći wuwija a źěłamy žurnje, aby my wše naše interne zmólki wótpórali. Smy se wó toś tej zmólce informěrowali a wótpórajomy jen skóro. Pšosym wopytaj pózdźej hyšći raz!
-error_page_title: Mamy problem!
-explain_disable: Coš napšawdu mobilnu wersiju Wikipedije znjemóžniś? Jolic wuběraš <b>Znjemóžniś</b>, njebuźoš se wot togo casa k mobilnemu naglědoju Wikipedije dalej pósrědnjaś, gaž woglědujoš se Wikipediju.
-featured_article: Nastawk dnja
-file_namespace: Dataja
-hide_button: Schowaś
-home_button: Głowny bok
-in_the_news: W nowosćach
-nav_edit: Wobźěłaś
-nav_end: Kóńc
-nav_history: Historija
-nav_top: Górjejce
-no_article_found: Žeden nastawk namakany
-perm_stop_redirect: Mobilne sedło na pśecej znjemóžniś
-random_button: Pśipadny
-regular_wikipedia: Toś ten bok se w normalnej Wikipediji woglědaś
-search_results: Pytańske wuslědki
-search_submit: Wótpósłaś
-search_text: Pytaś
-show_button: Pokazaś
-wikipedia: Wikipedija
+--- %YAML:1.0 
+? "wikipedia"
+: "Wikipedija"
+
+? "download_full_version"
+: "Po\xC5\x82nu wersiju ze\xC5\x9B\xC4\x9Bgnu\xC5\x9B"
+
+? "nav_end"
+: "K\xC3\xB3\xC5\x84c"
+
+? "home_button"
+: "G\xC5\x82owny bok"
+
+? "copyright"
+: "Tekst stoj p\xC3\xB3d <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a> k dispoziciji; p\xC5\x9Bidatne wum\xC4\x9Bnjenja m\xC3\xB3gu se na\xC5\x82o\xC5\xBEowa\xC5\x9B. Gl\xC4\x9Bdaj <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Wu\xC5\xBEywa\xC5\x84ske wum\xC4\x9Bnjenja</a> za drobnostki. Wikipedija jo zregistr\xC4\x9Browana wikowa\xC5\x84ska marka za\xC5\x82o\xC5\xBEby <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, za w\xC5\xA1e wu\xC5\xBEytneje organizacije."
+
+? "disable_button"
+: "Znjem\xC3\xB3\xC5\xBEni\xC5\x9B"
+
+? "nav_edit"
+: "Wob\xC5\xBA\xC4\x9B\xC5\x82a\xC5\x9B"
+
+? "in_the_news"
+: "W nowos\xC4\x87ach"
+
+? "search_results"
+: "Pyta\xC5\x84ske wusl\xC4\x9Bdki"
+
+? "explain_disable"
+: "Co\xC5\xA1 nap\xC5\xA1awdu mobilnu wersiju Wikipedije znjem\xC3\xB3\xC5\xBEni\xC5\x9B? Jolic wub\xC4\x9Bra\xC5\xA1 <b>Znjem\xC3\xB3\xC5\xBEni\xC5\x9B</b>, njebu\xC5\xBAo\xC5\xA1 se wot togo casa k mobilnemu nagl\xC4\x9Bdoju Wikipedije dalej p\xC3\xB3sr\xC4\x9Bdnja\xC5\x9B, ga\xC5\xBE wogl\xC4\x9Bdujo\xC5\xA1 se Wikipediju."
+
+? "back_to_top_of_section"
+: "W\xC3\xB3tr\xC4\x9Bzk sl\xC4\x9Bdk sk\xC3\xB3cy\xC5\x9B"
+
+? "featured_article"
+: "Nastawk dnja"
+
+? "nav_history"
+: "Historija"
+
+? "error_page_text"
+: "Mobilna Wikipedija se hy\xC5\xA1\xC4\x87i wuwija a \xC5\xBA\xC4\x9B\xC5\x82amy \xC5\xBEurnje, aby my w\xC5\xA1e na\xC5\xA1e interne zm\xC3\xB3lki w\xC3\xB3tp\xC3\xB3rali. Smy se w\xC3\xB3 to\xC5\x9B tej zm\xC3\xB3lce inform\xC4\x9Browali a w\xC3\xB3tp\xC3\xB3rajomy jen sk\xC3\xB3ro. P\xC5\xA1osym wopytaj p\xC3\xB3zd\xC5\xBAej hy\xC5\xA1\xC4\x87i raz!"
+
+? "file_namespace"
+: "Dataja"
+
+? "perm_stop_redirect"
+: "Mobilne sed\xC5\x82o na p\xC5\x9Becej znjem\xC3\xB3\xC5\xBEni\xC5\x9B"
+
+? "back_button"
+: "Sl\xC4\x9Bdk"
+
+? "search_submit"
+: "W\xC3\xB3tp\xC3\xB3s\xC5\x82a\xC5\x9B"
+
+? "no_article_found"
+: "\xC5\xBDeden nastawk namakany"
+
+? "show_button"
+: "Pokaza\xC5\x9B"
+
+? "regular_wikipedia"
+: "To\xC5\x9B ten bok se w normalnej Wikipediji wogl\xC4\x9Bda\xC5\x9B"
+
+? "contact_us"
+: "Jolic ma\xC5\xA1 p\xC5\xA1a\xC5\xA1anja abo komentary, p\xC3\xB3s\xC4\x87el p\xC5\xA1osym  e-mail na mobile@wikipedia.org"
+
+? "error_page_title"
+: "Mamy problem!"
+
+? "search_text"
+: "Pyta\xC5\x9B"
+
+? "nav_top"
+: "G\xC3\xB3rjejce"
+
+? "author_link"
+: "To\xC5\x9B tu medijowu dataju w regularnej Wikipediji pokaza\xC5\x9B, aby se wogl\xC4\x9Bda\xC5\x82 informacije w\xC3\xB3 awtorstwje, licencowanju a p\xC5\x9Bidatne wopisanje."
+
+? "are_you_sure"
+: "Sy se w\xC4\x9Bsty?"
+
+? "hide_button"
+: "Schowa\xC5\x9B"
+
+? "random_button"
+: "P\xC5\x9Bipadny"
+

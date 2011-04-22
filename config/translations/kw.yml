@@ -1,32 +1,85 @@
 # Messages for Cornish (Kernowek)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Kernoweger
 # Author: Kw-Moon
 # Author: Nicky.ker
-are_you_sure: Owgh why sur?
-back_button: Dhe-dre
-back_to_top_of_section: Lamma dhe-dre unn tregh
-contact_us: Mars eus govynnadow dhewgh, mar pleg gwrewgh omglewes rydh dhe gestevewgh orthyn dhe mobile@wikipedia.org
-copyright: Cavadow yw an text yn-dann an <a href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Cubmyas Creative Commons Attribution/Share-Alike</a>; termynyow keworransel a alja bos omvyskys. Gwelewgh <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Termynyow Devnydh</a> rag manylyon. Wikipedia yw merk-kenwerth a <a href='http://www.wikimediafoundation.org/'>Fondyans Wikimedia, Inc.</a>, restrans heb budh.
-disable_button: Dialosegy
-error_page_text: Wikipedya kellgowsel yw whath yn displegyans, hag yth ero'whi owth obery yn cales dhe fastya oll agan gwallow pervedhel. Gwarnyes on a'n gwall-ma ha ni a vedn y fastya yn scon. Mar pleg, gwrewgh dewheles!
-error_page_title: Yma caletter dhyn!
-explain_disable: Owgh why sur dr'eus whans dhewgh dialosegy an versyon kellgowser a Wikipedya? Mar qwresse'why dewis <b>Dialosegy</b>, ytho alebma, pan vysytyewgh Wikipedya, ny vedno'why bos daswedyes dhe'n gwel kellgowser-ma a Wikipedya.
-featured_article: Erthygel disqwedhys hedhyw
-hide_button: Cudha
-home_button: Pennfolen
-in_the_news: E'n nowodhow
-nav_edit: Chanjya
-nav_end: Diwedh
-nav_history: Istory
-nav_top: Gwartha
-no_article_found: Erthygel vyth kevys
-perm_stop_redirect: Dialosegi yn fast an wiasva pellgowsel
-random_button: Dre jons
-regular_wikipedia: Gweles an folen-ma war Wikipedya kemmyn
-search_results: Sewyansow whilans
-search_submit: Ke
-search_text: Whila
-show_button: Disqwedhes
-wikipedia: Wikipedya
+--- %YAML:1.0 
+? "wikipedia"
+: "Wikipedya"
+
+? "nav_end"
+: "Diwedh"
+
+? "home_button"
+: "Pennfolen"
+
+? "copyright"
+: "Cavadow yw an text yn-dann an <a href=\"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License\">Cubmyas Creative Commons Attribution/Share-Alike</a>; termynyow keworransel a alja bos omvyskys. Gwelewgh <a href=\"http://wikimediafoundation.org/wiki/Terms_of_Use\">Termynyow Devnydh</a> rag manylyon. Wikipedia yw merk-kenwerth a <a href='http://www.wikimediafoundation.org/'>Fondyans Wikimedia, Inc.</a>, restrans heb budh."
+
+? "disable_button"
+: "Dialosegy"
+
+? "nav_edit"
+: "Chanjya"
+
+? "in_the_news"
+: "E'n nowodhow"
+
+? "search_results"
+: "Sewyansow whilans"
+
+? "explain_disable"
+: "Owgh why sur dr'eus whans dhewgh dialosegy an versyon kellgowser a Wikipedya? Mar qwresse'why dewis <b>Dialosegy</b>, ytho alebma, pan vysytyewgh Wikipedya, ny vedno'why bos daswedyes dhe'n gwel kellgowser-ma a Wikipedya."
+
+? "back_to_top_of_section"
+: "Lamma dhe-dre unn tregh"
+
+? "featured_article"
+: "Erthygel disqwedhys hedhyw"
+
+? "nav_history"
+: "Istory"
+
+? "error_page_text"
+: "Wikipedya kellgowsel yw whath yn displegyans, hag yth ero'whi owth obery yn cales dhe fastya oll agan gwallow pervedhel. Gwarnyes on a'n gwall-ma ha ni a vedn y fastya yn scon. Mar pleg, gwrewgh dewheles!"
+
+? "perm_stop_redirect"
+: "Dialosegi yn fast an wiasva pellgowsel"
+
+? "back_button"
+: "Dhe-dre"
+
+? "search_submit"
+: "Ke"
+
+? "no_article_found"
+: "Erthygel vyth kevys"
+
+? "show_button"
+: "Disqwedhes"
+
+? "regular_wikipedia"
+: "Gweles an folen-ma war Wikipedya kemmyn"
+
+? "contact_us"
+: "Mars eus govynnadow dhewgh, mar pleg gwrewgh omglewes rydh dhe gestevewgh orthyn dhe mobile@wikipedia.org"
+
+? "error_page_title"
+: "Yma caletter dhyn!"
+
+? "search_text"
+: "Whila"
+
+? "nav_top"
+: "Gwartha"
+
+? "are_you_sure"
+: "Owgh why sur?"
+
+? "hide_button"
+: "Cudha"
+
+? "random_button"
+: "Dre jons"
+

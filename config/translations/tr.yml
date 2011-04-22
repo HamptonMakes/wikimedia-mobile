@@ -1,36 +1,95 @@
 # Messages for Turkish (Türkçe)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Emperyan
 # Author: Homonihilis
 # Author: Joseph
 # Author: Vito Genovese
-are_you_sure: Emin misiniz ?
-author_link: Bu medya dosyasını Vikipedi'de yazarlık, lisans ve ek açıklamaları hakkında bilgi için görüntüleyin.
-back_button: Geri
-back_to_top_of_section: Bir Bölüm Geri Atla
-contact_us: Eğer herhangi bir sorunuz veya yorumunuz varsa lütfen bize mobile@wikipedia.org adresinde e-posta göndermekten çekinmeyin
-copyright: Metin <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike Lisansı</a> altındadır; ek koşullar uygulanabilir. Ayrıntılar için <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Kullanım Koşulları</a>na bakın. Wikipedia kar-gütmeyen bir kuruluş olan <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>'in tescilli markasıdır.
-disable_button: Devre dışı bırak
-download_full_version: Tam Sürümü İndir
-error_page_text: Mobil Vikipedi hala etkin geliştirme altında ve tüm dahili hatalarımızı düzeltmek için çalışıyoruz. Bu hata hakkında bilgilendirildik ve yakında düzeltiyor olacağız. Lütfen tekrar kontrol edin!
-error_page_title: Bir problem var!
-explain_disable: Vikipedinin mobil sürümünü devre dışı bırakmak istediğinize emin misiniz? Eğer <b>Devre dışı bırak</b>'ı seçerseniz, bundan sonra, Vikipediyi ziyaret ettiğinizde, Vikipedinin bu mobil görünümüne yönlendirilmeyeceksiniz.
-featured_article: Haftanın Seçkin Maddesi
-file_namespace: Dosya
-hide_button: Gizle
-home_button: Ana
-in_the_news: Haberlerde
-nav_edit: Değiştir
-nav_end: Son
-nav_history: Geçmiş
-nav_top: En üst
-no_article_found: Hiç Madde Bulunamadı
-perm_stop_redirect: Mobil siteyi kalıcı olarak devre dışı bırak
-random_button: Rasgele
-regular_wikipedia: Bu sayfayı normal Vikipedi'de görüntüle
-search_results: Arama Sonuçları
-search_submit: Git
-search_text: Ara
-show_button: Göster
-wikipedia: Vikipedi
+--- %YAML:1.0 
+? "wikipedia"
+: "Vikipedi"
+
+? "download_full_version"
+: "Tam S\xC3\xBCr\xC3\xBCm\xC3\xBC \xC4\xB0ndir"
+
+? "nav_end"
+: "Son"
+
+? "home_button"
+: "Ana"
+
+? "copyright"
+: "Metin <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike Lisans\xC4\xB1</a> alt\xC4\xB1ndad\xC4\xB1r; ek ko\xC5\x9Fullar uygulanabilir. Ayr\xC4\xB1nt\xC4\xB1lar i\xC3\xA7in <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Kullan\xC4\xB1m Ko\xC5\x9Fullar\xC4\xB1</a>na bak\xC4\xB1n. Wikipedia kar-g\xC3\xBCtmeyen bir kurulu\xC5\x9F olan <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>'in tescilli markas\xC4\xB1d\xC4\xB1r."
+
+? "disable_button"
+: "Devre d\xC4\xB1\xC5\x9F\xC4\xB1 b\xC4\xB1rak"
+
+? "nav_edit"
+: "De\xC4\x9Fi\xC5\x9Ftir"
+
+? "in_the_news"
+: "Haberlerde"
+
+? "search_results"
+: "Arama Sonu\xC3\xA7lar\xC4\xB1"
+
+? "explain_disable"
+: "Vikipedinin mobil s\xC3\xBCr\xC3\xBCm\xC3\xBCn\xC3\xBC devre d\xC4\xB1\xC5\x9F\xC4\xB1 b\xC4\xB1rakmak istedi\xC4\x9Finize emin misiniz? E\xC4\x9Fer <b>Devre d\xC4\xB1\xC5\x9F\xC4\xB1 b\xC4\xB1rak</b>'\xC4\xB1 se\xC3\xA7erseniz, bundan sonra, Vikipediyi ziyaret etti\xC4\x9Finizde, Vikipedinin bu mobil g\xC3\xB6r\xC3\xBCn\xC3\xBCm\xC3\xBCne y\xC3\xB6nlendirilmeyeceksiniz."
+
+? "back_to_top_of_section"
+: "Bir B\xC3\xB6l\xC3\xBCm Geri Atla"
+
+? "featured_article"
+: "Haftan\xC4\xB1n Se\xC3\xA7kin Maddesi"
+
+? "nav_history"
+: "Ge\xC3\xA7mi\xC5\x9F"
+
+? "error_page_text"
+: "Mobil Vikipedi hala etkin geli\xC5\x9Ftirme alt\xC4\xB1nda ve t\xC3\xBCm dahili hatalar\xC4\xB1m\xC4\xB1z\xC4\xB1 d\xC3\xBCzeltmek i\xC3\xA7in \xC3\xA7al\xC4\xB1\xC5\x9F\xC4\xB1yoruz. Bu hata hakk\xC4\xB1nda bilgilendirildik ve yak\xC4\xB1nda d\xC3\xBCzeltiyor olaca\xC4\x9F\xC4\xB1z. L\xC3\xBCtfen tekrar kontrol edin!"
+
+? "file_namespace"
+: "Dosya"
+
+? "perm_stop_redirect"
+: "Mobil siteyi kal\xC4\xB1c\xC4\xB1 olarak devre d\xC4\xB1\xC5\x9F\xC4\xB1 b\xC4\xB1rak"
+
+? "back_button"
+: "Geri"
+
+? "search_submit"
+: "Git"
+
+? "no_article_found"
+: "Hi\xC3\xA7 Madde Bulunamad\xC4\xB1"
+
+? "show_button"
+: "G\xC3\xB6ster"
+
+? "regular_wikipedia"
+: "Bu sayfay\xC4\xB1 normal Vikipedi'de g\xC3\xB6r\xC3\xBCnt\xC3\xBCle"
+
+? "contact_us"
+: "E\xC4\x9Fer herhangi bir sorunuz veya yorumunuz varsa l\xC3\xBCtfen bize mobile@wikipedia.org adresinde e-posta g\xC3\xB6ndermekten \xC3\xA7ekinmeyin"
+
+? "error_page_title"
+: "Bir problem var!"
+
+? "search_text"
+: "Ara"
+
+? "nav_top"
+: "En \xC3\xBCst"
+
+? "author_link"
+: "Bu medya dosyas\xC4\xB1n\xC4\xB1 Vikipedi'de yazarl\xC4\xB1k, lisans ve ek a\xC3\xA7\xC4\xB1klamalar\xC4\xB1 hakk\xC4\xB1nda bilgi i\xC3\xA7in g\xC3\xB6r\xC3\xBCnt\xC3\xBCleyin."
+
+? "are_you_sure"
+: "Emin misiniz ?"
+
+? "hide_button"
+: "Gizle"
+
+? "random_button"
+: "Rasgele"
+

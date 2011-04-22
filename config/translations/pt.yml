@@ -1,6 +1,6 @@
 # Messages for Portuguese (Português)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Capmo
 # Author: Giro720
 # Author: Hamilton Abreu
@@ -8,32 +8,91 @@
 # Author: Luckas Blade
 # Author: Malafaya
 # Author: Waldir
-are_you_sure: Tem a certeza ?
-author_link: Visione este ficheiro na Wikipédia normal para ver informação sobre a autoria, licenciamento e descrições adicionais.
-back_button: Voltar
-back_to_top_of_section: Retroceder Uma Secção
-contact_us: Para perguntas ou comentários, sinta-se à vontade em nos contactar pelo email mobile@wikipedia.org
-copyright: Este texto é disponibilizado nos termos da licença <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; pode estar sujeito a condições adicionais. Consulte as <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Condições de Uso</a> para mais detalhes. Wikipedia é uma marca registrada da <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, uma organização sem fins lucrativos.
-disable_button: Desactivar
-download_full_version: Download da Versão Completa
-error_page_text: A Wikipédia móvel ainda está em desenvolvimento e estamos corrigindo os erros internos. Fomos notificados deste erro e ele será corrigido brevemente. Por favor, verifique dentro de algum tempo se a correcção já está disponivel!
-error_page_title: Temos um problema!
-explain_disable: Tem a certeza de que pretende desactivar a versão móvel da Wikipédia? Se escolher <b>Desactivar</b>, a partir de agora ao visitar a Wikipédia deixará de ser reencaminhado para esta versão móvel.
-featured_article: Artigo em Destaque
-file_namespace: Ficheiro
-hide_button: Esconder
-home_button: Início
-in_the_news: Actualidades
-nav_edit: Editar
-nav_end: Fim
-nav_history: Navegação
-nav_top: Topo
-no_article_found: Nenhum Artigo Encontrado
-perm_stop_redirect: Desactivar permanentemente o site móvel
-random_button: Aleatório
-regular_wikipedia: Ver esta página na Wikipédia normal
-search_results: Resultados da Pesquisa
-search_submit: Ir
-search_text: Pesquisar
-show_button: Mostrar
-wikipedia: Wikipédia
+--- %YAML:1.0 
+? "wikipedia"
+: "Wikip\xC3\xA9dia"
+
+? "download_full_version"
+: "Download da Vers\xC3\xA3o Completa"
+
+? "nav_end"
+: "Fim"
+
+? "home_button"
+: "In\xC3\xADcio"
+
+? "copyright"
+: "Este texto \xC3\xA9 disponibilizado nos termos da licen\xC3\xA7a <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; pode estar sujeito a condi\xC3\xA7\xC3\xB5es adicionais. Consulte as <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Condi\xC3\xA7\xC3\xB5es de Uso</a> para mais detalhes. Wikipedia \xC3\xA9 uma marca registrada da <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, uma organiza\xC3\xA7\xC3\xA3o sem fins lucrativos."
+
+? "disable_button"
+: "Desactivar"
+
+? "nav_edit"
+: "Editar"
+
+? "in_the_news"
+: "Actualidades"
+
+? "search_results"
+: "Resultados da Pesquisa"
+
+? "explain_disable"
+: "Tem a certeza de que pretende desactivar a vers\xC3\xA3o m\xC3\xB3vel da Wikip\xC3\xA9dia? Se escolher <b>Desactivar</b>, a partir de agora ao visitar a Wikip\xC3\xA9dia deixar\xC3\xA1 de ser reencaminhado para esta vers\xC3\xA3o m\xC3\xB3vel."
+
+? "back_to_top_of_section"
+: "Retroceder Uma Sec\xC3\xA7\xC3\xA3o"
+
+? "featured_article"
+: "Artigo em Destaque"
+
+? "nav_history"
+: "Navega\xC3\xA7\xC3\xA3o"
+
+? "error_page_text"
+: "A Wikip\xC3\xA9dia m\xC3\xB3vel ainda est\xC3\xA1 em desenvolvimento e estamos corrigindo os erros internos. Fomos notificados deste erro e ele ser\xC3\xA1 corrigido brevemente. Por favor, verifique dentro de algum tempo se a correc\xC3\xA7\xC3\xA3o j\xC3\xA1 est\xC3\xA1 disponivel!"
+
+? "file_namespace"
+: "Ficheiro"
+
+? "perm_stop_redirect"
+: "Desactivar permanentemente o site m\xC3\xB3vel"
+
+? "back_button"
+: "Voltar"
+
+? "search_submit"
+: "Ir"
+
+? "no_article_found"
+: "Nenhum Artigo Encontrado"
+
+? "show_button"
+: "Mostrar"
+
+? "regular_wikipedia"
+: "Ver esta p\xC3\xA1gina na Wikip\xC3\xA9dia normal"
+
+? "contact_us"
+: "Para perguntas ou coment\xC3\xA1rios, sinta-se \xC3\xA0 vontade em nos contactar pelo email mobile@wikipedia.org"
+
+? "error_page_title"
+: "Temos um problema!"
+
+? "search_text"
+: "Pesquisar"
+
+? "nav_top"
+: "Topo"
+
+? "author_link"
+: "Visione este ficheiro na Wikip\xC3\xA9dia normal para ver informa\xC3\xA7\xC3\xA3o sobre a autoria, licenciamento e descri\xC3\xA7\xC3\xB5es adicionais."
+
+? "are_you_sure"
+: "Tem a certeza ?"
+
+? "hide_button"
+: "Esconder"
+
+? "random_button"
+: "Aleat\xC3\xB3rio"
+

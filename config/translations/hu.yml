@@ -1,34 +1,91 @@
 # Messages for Hungarian (Magyar)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Dani
 # Author: Glanthor Reviol
 # Author: Tgr
-are_you_sure: Biztos vagy benne?
-back_button: Vissza
-back_to_top_of_section: Vissza egy bekezdést
-contact_us: Ha bármilyen kérdésed vagy megjegyzésed van, írd meg a mobile@wikipedia.org címre
-copyright: A lap szövege a <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Nevezd meg!-Így add tovább! Licenc</a> alatt van; egyes esetekben más módon is felhasználható. Részletekért lásd a <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>felhasználási feltételeket</a>. A Wikipédia a <a href='http://www.wikimediafoundation.org/'>Wikimedia, Inc.</a> nonprofit szervezet védjegye.
-disable_button: Letiltás
-download_full_version: Nagy változat letöltése
-error_page_text: A mobilos Wikipédia még mindig fejlesztés alatt áll, folyamatosan dolgozunk a hibák javításán. Értesítve lettünk a hibáról, és hamarosan javítjuk. Kérlek, nézz vissza később!
-error_page_title: Hiba történt!
-explain_disable: Biztos vagy benne, hogy le szeretnéd tiltani a Wikipédia mobil változatát? Ha a <b>letiltás</b>t választod, onnantól kezdve ha meglátogatod a Wikipédiát, nem leszel átirányítva erre a mobil nézetre.
-featured_article: A nap kiemelt szócikke
-file_namespace: Fájl
-hide_button: Elrejtés
-home_button: Kezdőlap
-in_the_news: Hírek
-nav_edit: Szerkesztés
-nav_end: Végére
-nav_history: Laptörténet
-nav_top: Elejére
-no_article_found: Nem találtam egyetlen szócikket sem
-perm_stop_redirect: Mobiloldal letiltása
-random_button: Véletlen lap
-regular_wikipedia: Lap megtekintése a szokásos Wikipédián
-search_results: Keresési eredmények
-search_submit: Menj
-search_text: Keresés
-show_button: Mutasd
-wikipedia: Wikipédia
+--- %YAML:1.0 
+? "wikipedia"
+: "Wikip\xC3\xA9dia"
+
+? "download_full_version"
+: "Nagy v\xC3\xA1ltozat let\xC3\xB6lt\xC3\xA9se"
+
+? "nav_end"
+: "V\xC3\xA9g\xC3\xA9re"
+
+? "home_button"
+: "Kezd\xC5\x91lap"
+
+? "copyright"
+: "A lap sz\xC3\xB6vege a <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Nevezd meg!-\xC3\x8Dgy add tov\xC3\xA1bb! Licenc</a> alatt van; egyes esetekben m\xC3\xA1s m\xC3\xB3don is felhaszn\xC3\xA1lhat\xC3\xB3. R\xC3\xA9szletek\xC3\xA9rt l\xC3\xA1sd a <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>felhaszn\xC3\xA1l\xC3\xA1si felt\xC3\xA9teleket</a>. A Wikip\xC3\xA9dia a <a href='http://www.wikimediafoundation.org/'>Wikimedia, Inc.</a> nonprofit szervezet v\xC3\xA9djegye."
+
+? "disable_button"
+: "Letilt\xC3\xA1s"
+
+? "nav_edit"
+: "Szerkeszt\xC3\xA9s"
+
+? "in_the_news"
+: "H\xC3\xADrek"
+
+? "search_results"
+: "Keres\xC3\xA9si eredm\xC3\xA9nyek"
+
+? "explain_disable"
+: "Biztos vagy benne, hogy le szeretn\xC3\xA9d tiltani a Wikip\xC3\xA9dia mobil v\xC3\xA1ltozat\xC3\xA1t? Ha a <b>letilt\xC3\xA1s</b>t v\xC3\xA1lasztod, onnant\xC3\xB3l kezdve ha megl\xC3\xA1togatod a Wikip\xC3\xA9di\xC3\xA1t, nem leszel \xC3\xA1tir\xC3\xA1ny\xC3\xADtva erre a mobil n\xC3\xA9zetre."
+
+? "back_to_top_of_section"
+: "Vissza egy bekezd\xC3\xA9st"
+
+? "featured_article"
+: "A nap kiemelt sz\xC3\xB3cikke"
+
+? "nav_history"
+: "Lapt\xC3\xB6rt\xC3\xA9net"
+
+? "error_page_text"
+: "A mobilos Wikip\xC3\xA9dia m\xC3\xA9g mindig fejleszt\xC3\xA9s alatt \xC3\xA1ll, folyamatosan dolgozunk a hib\xC3\xA1k jav\xC3\xADt\xC3\xA1s\xC3\xA1n. \xC3\x89rtes\xC3\xADtve lett\xC3\xBCnk a hib\xC3\xA1r\xC3\xB3l, \xC3\xA9s hamarosan jav\xC3\xADtjuk. K\xC3\xA9rlek, n\xC3\xA9zz vissza k\xC3\xA9s\xC5\x91bb!"
+
+? "file_namespace"
+: "F\xC3\xA1jl"
+
+? "perm_stop_redirect"
+: "Mobiloldal letilt\xC3\xA1sa"
+
+? "back_button"
+: "Vissza"
+
+? "search_submit"
+: "Menj"
+
+? "no_article_found"
+: "Nem tal\xC3\xA1ltam egyetlen sz\xC3\xB3cikket sem"
+
+? "show_button"
+: "Mutasd"
+
+? "regular_wikipedia"
+: "Lap megtekint\xC3\xA9se a szok\xC3\xA1sos Wikip\xC3\xA9di\xC3\xA1n"
+
+? "contact_us"
+: "Ha b\xC3\xA1rmilyen k\xC3\xA9rd\xC3\xA9sed vagy megjegyz\xC3\xA9sed van, \xC3\xADrd meg a mobile@wikipedia.org c\xC3\xADmre"
+
+? "error_page_title"
+: "Hiba t\xC3\xB6rt\xC3\xA9nt!"
+
+? "search_text"
+: "Keres\xC3\xA9s"
+
+? "nav_top"
+: "Elej\xC3\xA9re"
+
+? "are_you_sure"
+: "Biztos vagy benne?"
+
+? "hide_button"
+: "Elrejt\xC3\xA9s"
+
+? "random_button"
+: "V\xC3\xA9letlen lap"
+

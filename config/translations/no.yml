@@ -1,36 +1,95 @@
 # Messages for Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Hcatlin
 # Author: Jon Harald Søby
 # Author: Laaknor
 # Author: Nghtwlkr
-are_you_sure: Er du sikker?
-author_link: Vis denne mediafilen i vanlig Wikipedia for å se informasjon om forfatterskap, lisensiering og ytterligere beskrivelser.
-back_button: Tilbake
-back_to_top_of_section: Gå ett avsnitt tilbake
-contact_us: Om du har spørsmål eller kommentarer, send oss en e-post på mobile@wikipedia.org
-copyright: Tekst er tilgjengelig under <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike Lisens</a>. Tillegg til lisensen kan gjelde. Se  <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>bruksvilkår</a> for detaljer. Wikipedia er et registrert varemerk av den ideele organisasjonen <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>.
-disable_button: Deaktiver
-download_full_version: Last ned fullversjon
-error_page_text: Wikipedia mobil er fortsatt under aktiv utvikling og vi jobber hardt med å fikse alle våre interne feil. Vi har blitt varslet om denne feilen, og vil fikse den snart. Kom gjerne tilbake senere!
-error_page_title: Vi har et problem!
-explain_disable: Er du sikker på at du vil deaktivere den mobile utgaven av Wikipedia? Dersom du velger <b>Deaktiver</b> vil du fra nå av, hver gang du besøker Wikipedia, ikke lenger bli omdirigert til denne mobilvisningen av Wikipedia.
-featured_article: Dagens utvalgte artikkel
-file_namespace: Fil
-hide_button: Skjul
-home_button: Hjem
-in_the_news: I nyhetene
-nav_edit: Rediger
-nav_end: Slutt
-nav_history: Historikk
-nav_top: Topp
-no_article_found: Ingen artikler funnet
-perm_stop_redirect: Deaktiver mobilside permanent
-random_button: Tilfeldig
-regular_wikipedia: Vis denne siden på vanlig Wikipedia
-search_results: Søkeresultater
-search_submit: Gå
-search_text: Søk
-show_button: Vis
-wikipedia: Wikipedia
+--- %YAML:1.0 
+? "wikipedia"
+: "Wikipedia"
+
+? "download_full_version"
+: "Last ned fullversjon"
+
+? "nav_end"
+: "Slutt"
+
+? "home_button"
+: "Hjem"
+
+? "copyright"
+: "Tekst er tilgjengelig under <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike Lisens</a>. Tillegg til lisensen kan gjelde. Se  <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>bruksvilk\xC3\xA5r</a> for detaljer. Wikipedia er et registrert varemerk av den ideele organisasjonen <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>."
+
+? "disable_button"
+: "Deaktiver"
+
+? "nav_edit"
+: "Rediger"
+
+? "in_the_news"
+: "I nyhetene"
+
+? "search_results"
+: "S\xC3\xB8keresultater"
+
+? "explain_disable"
+: "Er du sikker p\xC3\xA5 at du vil deaktivere den mobile utgaven av Wikipedia? Dersom du velger <b>Deaktiver</b> vil du fra n\xC3\xA5 av, hver gang du bes\xC3\xB8ker Wikipedia, ikke lenger bli omdirigert til denne mobilvisningen av Wikipedia."
+
+? "back_to_top_of_section"
+: "G\xC3\xA5 ett avsnitt tilbake"
+
+? "featured_article"
+: "Dagens utvalgte artikkel"
+
+? "nav_history"
+: "Historikk"
+
+? "error_page_text"
+: "Wikipedia mobil er fortsatt under aktiv utvikling og vi jobber hardt med \xC3\xA5 fikse alle v\xC3\xA5re interne feil. Vi har blitt varslet om denne feilen, og vil fikse den snart. Kom gjerne tilbake senere!"
+
+? "file_namespace"
+: "Fil"
+
+? "perm_stop_redirect"
+: "Deaktiver mobilside permanent"
+
+? "back_button"
+: "Tilbake"
+
+? "search_submit"
+: "G\xC3\xA5"
+
+? "no_article_found"
+: "Ingen artikler funnet"
+
+? "show_button"
+: "Vis"
+
+? "regular_wikipedia"
+: "Vis denne siden p\xC3\xA5 vanlig Wikipedia"
+
+? "contact_us"
+: "Om du har sp\xC3\xB8rsm\xC3\xA5l eller kommentarer, send oss en e-post p\xC3\xA5 mobile@wikipedia.org"
+
+? "error_page_title"
+: "Vi har et problem!"
+
+? "search_text"
+: "S\xC3\xB8k"
+
+? "nav_top"
+: "Topp"
+
+? "author_link"
+: "Vis denne mediafilen i vanlig Wikipedia for \xC3\xA5 se informasjon om forfatterskap, lisensiering og ytterligere beskrivelser."
+
+? "are_you_sure"
+: "Er du sikker?"
+
+? "hide_button"
+: "Skjul"
+
+? "random_button"
+: "Tilfeldig"
+

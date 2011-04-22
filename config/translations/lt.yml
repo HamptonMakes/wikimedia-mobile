@@ -1,0 +1,92 @@
+# Messages for Lithuanian (Lietuvių)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hugo.arg
+--- %YAML:1.0 
+? "wikipedia"
+: "Vikipedija"
+
+? "download_full_version"
+: "Atsisi\xC5\xB3sti piln\xC4\x85 versij\xC4\x85"
+
+? "nav_end"
+: "Pabaiga"
+
+? "home_button"
+: "Prad\xC5\xBEia"
+
+? "copyright"
+: "Tekstas pateikiamas pagal <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution / Share-Alike</a> ; gali b\xC5\xABti taikomos papildomos s\xC4\x85lygos. \xC5\xBDi\xC5\xABr\xC4\x97kite <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Naudojimo s\xC4\x85lygas</a> nor\xC4\x97dami gauti daugiau informacijos. Vikipedija yra pelno nesiekian\xC4\x8Dios organizacijos <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc</a> registruotas prekinis \xC5\xBEenklas."
+
+? "disable_button"
+: "I\xC5\xA1jungti"
+
+? "nav_edit"
+: "Redaguoti"
+
+? "in_the_news"
+: "Naujienos"
+
+? "search_results"
+: "Paie\xC5\xA1kos rezultatai"
+
+? "explain_disable"
+: "Ar esate tikri, kad norite i\xC5\xA1jungti mobili\xC4\x85j\xC4\x85 Vikipedijos versij\xC4\x85? Jei pasirinksite <b>I\xC5\xA1jungti,</b> tuomet nuo\xC5\xA1iol, kai tik aplankysite Vikipedij\xC4\x85, nebeb\xC5\xABsite nukreipti \xC4\xAF \xC5\xA1i\xC4\x85 mobili\xC4\x85j\xC4\x85 Vikipedijos per\xC5\xBEi\xC5\xABr\xC4\x85."
+
+? "back_to_top_of_section"
+: "Per\xC5\xA1okti atgal sekcija"
+
+? "featured_article"
+: "Dienos straipsnis"
+
+? "nav_history"
+: "Istorija"
+
+? "error_page_text"
+: "Mobilioji Vikipedija vis dar yra k\xC5\xABrimo b\xC5\xABsenoje ir mes uoliai dirbame bandydami sutvarkyti visas vidines klaidas. Mums buvo prane\xC5\xA1ta apie \xC5\xA1i\xC4\x85 klaid\xC4\x85 ir ji bus greitu laiku pataisyta. Bandykite dar kart\xC4\x85!"
+
+? "file_namespace"
+: "Byla"
+
+? "perm_stop_redirect"
+: "Visam laikui i\xC5\xA1jungti mobili\xC4\x85 svetain\xC4\x99"
+
+? "back_button"
+: "Atgal"
+
+? "search_submit"
+: "Eiti"
+
+? "no_article_found"
+: "Straipsni\xC5\xB3 nerasta"
+
+? "show_button"
+: "Rodyti"
+
+? "regular_wikipedia"
+: "Per\xC5\xBEi\xC5\xABr\xC4\x97ti \xC5\xA1\xC4\xAF puslap\xC4\xAF \xC4\xAFprastoje Vikipedijoje"
+
+? "contact_us"
+: "Jei turite koki\xC5\xB3 nors klausim\xC5\xB3 ar komentar\xC5\xB3, pra\xC5\xA1ome nedvejodami ra\xC5\xA1yti mums adresu mobile@wikipedia.org"
+
+? "error_page_title"
+: "Mes turime problem\xC5\xB3!"
+
+? "search_text"
+: "Paie\xC5\xA1ka"
+
+? "nav_top"
+: "\xC4\xAE vir\xC5\xA1\xC5\xB3"
+
+? "author_link"
+: "Per\xC5\xBEi\xC5\xABr\xC4\x97kite \xC5\xA1\xC4\xAF fail\xC4\x85 \xC4\xAFprastoje Vikipedijoje nor\xC4\x97dami pamatyti informacij\xC4\x85 apie autoryst\xC4\x99, licencijavim\xC4\x85 ir papildomus apra\xC5\xA1us."
+
+? "are_you_sure"
+: "Ar esate tikra(s)?"
+
+? "hide_button"
+: "Sl\xC4\x97pti"
+
+? "random_button"
+: "Atsitiktinis"
+

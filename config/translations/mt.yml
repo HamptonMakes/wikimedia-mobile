@@ -1,31 +1,86 @@
 # Messages for Maltese (Malti)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Chrisportelli
-are_you_sure: Inti żgur?
-back_button: Lura
-back_to_top_of_section: Aqbeż sezzjoni lura
-contact_us: Jekk għandek xi mistoqsijiet jew kummenti, ħossok liberu li tikkuntatjana fuq mobile@wikipedia.org
-copyright: It-test hu disponibbli taħt il-<a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Liċenzja Creative Commons Attribution/Share-Alike</a>; termini addizjonali jistgħu japplikaw. Ara t-<a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>termini ta' użu</a> għal aktar dettalji. Il-Wikipedija hija trejdmark reġistrata mill-<a href='http://www.wikimediafoundation.org/'>Fondazzjoni Wikimedia, Inc.</a>, organizzazzjoni mingħajr ebda fini ta' profitt.
-disable_button: Invalida
-error_page_text: Wikipedia mobile għadu f'fażi ta' żvilupp u qegħdin naħdmu biex insolvu l-iżbalji interni tagħna. Diġà ġejna notifikati b'dan l-iżball u se nagħmlu l-almu tagħna biex insolvuh. Erġa' agħti daqqa t'għajn lura minn hawn u ftit ieħor!
-error_page_title: Għandna problema!
-explain_disable: Inti ċert li tixtieq tinvalida l-verżjoni tal-mowbajl tal-Wikipedija? Jekk tagħżel <b>Invalida</b>, minn issa 'l quddiem, meta żżur 'l-Wikipedija, mintix se tiġi rindirizzat għall-verżjoni tal-mowbajl tal-Wikipedija.
-featured_article: Vetrina
-file_namespace: Fajl
-hide_button: Aħbi
-home_button: Daħla
-in_the_news: L-aħħar aħbarijiet
-nav_edit: Editja
-nav_end: Tmiem
-nav_history: Kronoloġija
-nav_top: Fuq
-no_article_found: L-ebda artiklu ma nstab
-perm_stop_redirect: Invalida għal dejjem is-sit għall-mowbajl
-random_button: Paġna kwalunkwe
-regular_wikipedia: Ara din il-paġna fuq il-Wikipedija normali
-search_results: Riżultati tat-tfittxija
-search_submit: Mur
-search_text: Fittex
-show_button: Uri
-wikipedia: Wikipedija
+--- %YAML:1.0 
+? "wikipedia"
+: "Wikipedija"
+
+? "nav_end"
+: "Tmiem"
+
+? "home_button"
+: "Da\xC4\xA7la"
+
+? "copyright"
+: "It-test hu disponibbli ta\xC4\xA7t il-<a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Li\xC4\x8Benzja Creative Commons Attribution/Share-Alike</a>; termini addizjonali jistg\xC4\xA7u japplikaw. Ara t-<a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>termini ta' u\xC5\xBCu</a> g\xC4\xA7al aktar dettalji. Il-Wikipedija hija trejdmark re\xC4\xA1istrata mill-<a href='http://www.wikimediafoundation.org/'>Fondazzjoni Wikimedia, Inc.</a>, organizzazzjoni ming\xC4\xA7ajr ebda fini ta' profitt."
+
+? "disable_button"
+: "Invalida"
+
+? "nav_edit"
+: "Editja"
+
+? "in_the_news"
+: "L-a\xC4\xA7\xC4\xA7ar a\xC4\xA7barijiet"
+
+? "search_results"
+: "Ri\xC5\xBCultati tat-tfittxija"
+
+? "explain_disable"
+: "Inti \xC4\x8Bert li tixtieq tinvalida l-ver\xC5\xBCjoni tal-mowbajl tal-Wikipedija? Jekk tag\xC4\xA7\xC5\xBCel <b>Invalida</b>, minn issa 'l quddiem, meta \xC5\xBC\xC5\xBCur 'l-Wikipedija, mintix se ti\xC4\xA1i rindirizzat g\xC4\xA7all-ver\xC5\xBCjoni tal-mowbajl tal-Wikipedija."
+
+? "back_to_top_of_section"
+: "Aqbe\xC5\xBC sezzjoni lura"
+
+? "featured_article"
+: "Vetrina"
+
+? "nav_history"
+: "Kronolo\xC4\xA1ija"
+
+? "error_page_text"
+: "Wikipedia mobile g\xC4\xA7adu f'fa\xC5\xBCi ta' \xC5\xBCvilupp u qeg\xC4\xA7din na\xC4\xA7dmu biex insolvu l-i\xC5\xBCbalji interni tag\xC4\xA7na. Di\xC4\xA1\xC3\xA0 \xC4\xA1ejna notifikati b'dan l-i\xC5\xBCball u se nag\xC4\xA7mlu l-almu tag\xC4\xA7na biex insolvuh. Er\xC4\xA1a' ag\xC4\xA7ti daqqa t'g\xC4\xA7ajn lura minn hawn u ftit ie\xC4\xA7or!"
+
+? "file_namespace"
+: "Fajl"
+
+? "perm_stop_redirect"
+: "Invalida g\xC4\xA7al dejjem is-sit g\xC4\xA7all-mowbajl"
+
+? "back_button"
+: "Lura"
+
+? "search_submit"
+: "Mur"
+
+? "no_article_found"
+: "L-ebda artiklu ma nstab"
+
+? "show_button"
+: "Uri"
+
+? "regular_wikipedia"
+: "Ara din il-pa\xC4\xA1na fuq il-Wikipedija normali"
+
+? "contact_us"
+: "Jekk g\xC4\xA7andek xi mistoqsijiet jew kummenti, \xC4\xA7ossok liberu li tikkuntatjana fuq mobile@wikipedia.org"
+
+? "error_page_title"
+: "G\xC4\xA7andna problema!"
+
+? "search_text"
+: "Fittex"
+
+? "nav_top"
+: "Fuq"
+
+? "are_you_sure"
+: "Inti \xC5\xBCgur?"
+
+? "hide_button"
+: "A\xC4\xA7bi"
+
+? "random_button"
+: "Pa\xC4\xA1na kwalunkwe"
+

@@ -1,35 +1,94 @@
 # Messages for Czech (Česky)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Kuvaly
 # Author: Mormegil
 # Author: Reaperman
-are_you_sure: Chcete to udělat ?
-author_link: Informace o autorství, licenci a další popis získáte zobrazením tohoto souboru na klasické Wikipedii.
-back_button: Zpět
-back_to_top_of_section: Skočit zpět o sekci
-contact_us: Pokud máte nějaké dotazy či připomínky, neváhejte nás kontaktovat na mobile@wikimedia.org
-copyright: Text je dostupný pod <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.cs">licencí Creative Commons Uveďte autora&nbsp;– Zachovejte licenci</a>, případně za dalších podmínek. Podrobnosti naleznete na stránce <a href="http://wikimediafoundation.org/wiki/Podmínky_užití">Podmínky užití</a>. Wikipedia je registrovaná ochranná známka neziskové organizace <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>
-disable_button: Vypnout
-download_full_version: Plná verze ke stažení
-error_page_text: Wikipedia Mobile se stále aktivně vyvíjí a my tvrdě pracujeme, abychom odstranili všechny chyby. O nastalém problému se už odeslalo hlášení, za chvilku to zkusíme opravit. Zkuste to znovu za chvíli!
-error_page_title: Máme problém!
-explain_disable: Chcete skutečně vypnout mobilní verzi Wikipedie? Pokud vyberete <b>Vypnout<b>, nebudete už při dalších návštěvách Wikipedie přesměrováni na tuto mobilní verzi Wikipedie.
-featured_article: Článek dne
-file_namespace: Soubor
-hide_button: Skrýt
-home_button: Domů
-in_the_news: Aktuality
-nav_edit: Upravit
-nav_end: Konec
-nav_history: Historie
-nav_top: Nahoru
-no_article_found: Článek nenalezen
-perm_stop_redirect: Natrvalo deaktivovat mobilní verzi
-random_button: Náhodně
-regular_wikipedia: Prohlédnout si tuto stránku na klasické Wikipedii
-search_results: Výsledky hledání
-search_submit: Hledat
-search_text: Vyhledávat
-show_button: Zobrazit
-wikipedia: Wikipedie
+--- %YAML:1.0 
+? "wikipedia"
+: "Wikipedie"
+
+? "download_full_version"
+: "Pln\xC3\xA1 verze ke sta\xC5\xBEen\xC3\xAD"
+
+? "nav_end"
+: "Konec"
+
+? "home_button"
+: "Dom\xC5\xAF"
+
+? "copyright"
+: "Text je dostupn\xC3\xBD pod <a href=\"http://creativecommons.org/licenses/by-sa/3.0/deed.cs\">licenc\xC3\xAD Creative Commons Uve\xC4\x8Fte autora&nbsp;\xE2\x80\x93 Zachovejte licenci</a>, p\xC5\x99\xC3\xADpadn\xC4\x9B za dal\xC5\xA1\xC3\xADch podm\xC3\xADnek. Podrobnosti naleznete na str\xC3\xA1nce <a href=\"http://wikimediafoundation.org/wiki/Podm\xC3\xADnky_u\xC5\xBEit\xC3\xAD\">Podm\xC3\xADnky u\xC5\xBEit\xC3\xAD</a>. Wikipedia je registrovan\xC3\xA1 ochrann\xC3\xA1 zn\xC3\xA1mka neziskov\xC3\xA9 organizace <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>"
+
+? "disable_button"
+: "Vypnout"
+
+? "nav_edit"
+: "Upravit"
+
+? "in_the_news"
+: "Aktuality"
+
+? "search_results"
+: "V\xC3\xBDsledky hled\xC3\xA1n\xC3\xAD"
+
+? "explain_disable"
+: "Chcete skute\xC4\x8Dn\xC4\x9B vypnout mobiln\xC3\xAD verzi Wikipedie? Pokud vyberete <b>Vypnout<b>, nebudete u\xC5\xBE p\xC5\x99i dal\xC5\xA1\xC3\xADch n\xC3\xA1v\xC5\xA1t\xC4\x9Bv\xC3\xA1ch Wikipedie p\xC5\x99esm\xC4\x9Brov\xC3\xA1ni na tuto mobiln\xC3\xAD verzi Wikipedie."
+
+? "back_to_top_of_section"
+: "Sko\xC4\x8Dit zp\xC4\x9Bt o sekci"
+
+? "featured_article"
+: "\xC4\x8Cl\xC3\xA1nek dne"
+
+? "nav_history"
+: "Historie"
+
+? "error_page_text"
+: "Wikipedia Mobile se st\xC3\xA1le aktivn\xC4\x9B vyv\xC3\xADj\xC3\xAD a my tvrd\xC4\x9B pracujeme, abychom odstranili v\xC5\xA1echny chyby. O nastal\xC3\xA9m probl\xC3\xA9mu se u\xC5\xBE odeslalo hl\xC3\xA1\xC5\xA1en\xC3\xAD, za chvilku to zkus\xC3\xADme opravit. Zkuste to znovu za chv\xC3\xADli!"
+
+? "file_namespace"
+: "Soubor"
+
+? "perm_stop_redirect"
+: "Natrvalo deaktivovat mobiln\xC3\xAD verzi"
+
+? "back_button"
+: "Zp\xC4\x9Bt"
+
+? "search_submit"
+: "Hledat"
+
+? "no_article_found"
+: "\xC4\x8Cl\xC3\xA1nek nenalezen"
+
+? "show_button"
+: "Zobrazit"
+
+? "regular_wikipedia"
+: "Prohl\xC3\xA9dnout si tuto str\xC3\xA1nku na klasick\xC3\xA9 Wikipedii"
+
+? "contact_us"
+: "Pokud m\xC3\xA1te n\xC4\x9Bjak\xC3\xA9 dotazy \xC4\x8Di p\xC5\x99ipom\xC3\xADnky, nev\xC3\xA1hejte n\xC3\xA1s kontaktovat na mobile@wikimedia.org"
+
+? "error_page_title"
+: "M\xC3\xA1me probl\xC3\xA9m!"
+
+? "search_text"
+: "Vyhled\xC3\xA1vat"
+
+? "nav_top"
+: "Nahoru"
+
+? "author_link"
+: "Informace o autorstv\xC3\xAD, licenci a dal\xC5\xA1\xC3\xAD popis z\xC3\xADsk\xC3\xA1te zobrazen\xC3\xADm tohoto souboru na klasick\xC3\xA9 Wikipedii."
+
+? "are_you_sure"
+: "Chcete to ud\xC4\x9Blat ?"
+
+? "hide_button"
+: "Skr\xC3\xBDt"
+
+? "random_button"
+: "N\xC3\xA1hodn\xC4\x9B"
+

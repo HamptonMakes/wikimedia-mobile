@@ -1,36 +1,91 @@
 # Messages for Finnish (Suomi)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Ainali
 # Author: Centerlink
 # Author: Crt
 # Author: Nike
 # Author: Silvonen
 # Author: Str4nd
-are_you_sure: Oletko varma?
-back_button: Takaisin
-back_to_top_of_section: Palaa takaisin osioon A
-contact_us: Jos sinulla on kysyttävää tai kommentoitavaa, ota yhteyttä sähköpostitse osoitteeseen mobile@wikipedia.org
-copyright: Teksti on saatavilla <a href="http://fi.wikipedia.org/wiki/Wikipedia:Creative_Commons_Attribution-Share_Alike_3.0_Unported_-lisenssiehdot">Creative Commons Attribution/Share-Alike</a> -lisenssillä; lisäehtoja voi sisältyä. Katso <a href="http://wikimediafoundation.org/wiki/Käyttöehdot">käyttöehdot</a>. Wikipedia on <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.:n</a>, voittoa tavoittelemattoman yleishyödyllisen järjestön rekisteröimä tavaramerkki.
-disable_button: Poista käytöstä
-error_page_text: Wikipedian mobiiliversiota kehitetään jatkuvasti, ja työskentelemme ahkerasti kaikkien sisäisten virheiden korjaamiseksi. Tiedämme tästä virheestä ja korjaamme sen pian. Yritä myöhemmin uudelleen.
-error_page_title: Virhetilanne
-explain_disable: Oletko varma, että haluat poistaa mobiiliversion Wikipediasta? Jos valitset <b>Poista käytöstä</b>, niin tästä lähtien, kun käyt Wikipediassa, et ohjaudu tähän Wikipedian mobiilinäkymään.
-featured_article: Suositeltu artikkeli
-file_namespace: Tiedosto
-hide_button: Piilota
-home_button: Etusivu
-in_the_news: Ajankohtaista
-nav_edit: Muokkaa
-nav_end: Alas
-nav_history: Historia
-nav_top: Ylös
-no_article_found: Artikkelia ei löytynyt
-perm_stop_redirect: Ota mobiilisivusto pois käytöstä pysyvästi
-random_button: Satunnainen
-regular_wikipedia: Näytä tämä normaalissa Wikipediassa
-search_results: Etsi
-search_submit: Siirry
-search_text: Etsi
-show_button: Näytä
-wikipedia: Wikipedia
+--- %YAML:1.0 
+? "wikipedia"
+: "Wikipedia"
+
+? "nav_end"
+: "Alas"
+
+? "home_button"
+: "Etusivu"
+
+? "copyright"
+: "Teksti on saatavilla <a href=\"http://fi.wikipedia.org/wiki/Wikipedia:Creative_Commons_Attribution-Share_Alike_3.0_Unported_-lisenssiehdot\">Creative Commons Attribution/Share-Alike</a> -lisenssill\xC3\xA4; lis\xC3\xA4ehtoja voi sis\xC3\xA4lty\xC3\xA4. Katso <a href=\"http://wikimediafoundation.org/wiki/K\xC3\xA4ytt\xC3\xB6ehdot\">k\xC3\xA4ytt\xC3\xB6ehdot</a>. Wikipedia on <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.:n</a>, voittoa tavoittelemattoman yleishy\xC3\xB6dyllisen j\xC3\xA4rjest\xC3\xB6n rekister\xC3\xB6im\xC3\xA4 tavaramerkki."
+
+? "disable_button"
+: "Poista k\xC3\xA4yt\xC3\xB6st\xC3\xA4"
+
+? "nav_edit"
+: "Muokkaa"
+
+? "in_the_news"
+: "Ajankohtaista"
+
+? "search_results"
+: "Etsi"
+
+? "explain_disable"
+: "Oletko varma, ett\xC3\xA4 haluat poistaa mobiiliversion Wikipediasta? Jos valitset <b>Poista k\xC3\xA4yt\xC3\xB6st\xC3\xA4</b>, niin t\xC3\xA4st\xC3\xA4 l\xC3\xA4htien, kun k\xC3\xA4yt Wikipediassa, et ohjaudu t\xC3\xA4h\xC3\xA4n Wikipedian mobiilin\xC3\xA4kym\xC3\xA4\xC3\xA4n."
+
+? "back_to_top_of_section"
+: "Palaa takaisin osioon A"
+
+? "featured_article"
+: "Suositeltu artikkeli"
+
+? "nav_history"
+: "Historia"
+
+? "error_page_text"
+: "Wikipedian mobiiliversiota kehitet\xC3\xA4\xC3\xA4n jatkuvasti, ja ty\xC3\xB6skentelemme ahkerasti kaikkien sis\xC3\xA4isten virheiden korjaamiseksi. Tied\xC3\xA4mme t\xC3\xA4st\xC3\xA4 virheest\xC3\xA4 ja korjaamme sen pian. Yrit\xC3\xA4 my\xC3\xB6hemmin uudelleen."
+
+? "file_namespace"
+: "Tiedosto"
+
+? "perm_stop_redirect"
+: "Ota mobiilisivusto pois k\xC3\xA4yt\xC3\xB6st\xC3\xA4 pysyv\xC3\xA4sti"
+
+? "back_button"
+: "Takaisin"
+
+? "search_submit"
+: "Siirry"
+
+? "no_article_found"
+: "Artikkelia ei l\xC3\xB6ytynyt"
+
+? "show_button"
+: "N\xC3\xA4yt\xC3\xA4"
+
+? "regular_wikipedia"
+: "N\xC3\xA4yt\xC3\xA4 t\xC3\xA4m\xC3\xA4 normaalissa Wikipediassa"
+
+? "contact_us"
+: "Jos sinulla on kysytt\xC3\xA4v\xC3\xA4\xC3\xA4 tai kommentoitavaa, ota yhteytt\xC3\xA4 s\xC3\xA4hk\xC3\xB6postitse osoitteeseen mobile@wikipedia.org"
+
+? "error_page_title"
+: "Virhetilanne"
+
+? "search_text"
+: "Etsi"
+
+? "nav_top"
+: "Yl\xC3\xB6s"
+
+? "are_you_sure"
+: "Oletko varma?"
+
+? "hide_button"
+: "Piilota"
+
+? "random_button"
+: "Satunnainen"
+

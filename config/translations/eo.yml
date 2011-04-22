@@ -1,38 +1,97 @@
 # Messages for Esperanto (Esperanto)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Iketsi
 # Author: Lucas
 # Author: Michawiki
 # Author: Mihxil
 # Author: Petrus Adamus
 # Author: Yekrats
-are_you_sure: Ĉu vi certas ?
-author_link: Spektu tiun ĉi aŭdvidan dosieron je normala Vikipedio por vidu informojn pri aŭtoro, permisloj kaj kromaj priskriboj.
-back_button: Reen
-back_to_top_of_section: Je sekcio reen
-contact_us: Se vi havas iujn ajn demandojn aŭ komentojn, bonvolu retpoŝti nin ĉe mobile@wikipedia.org
-copyright: Teksto estas disponebla laŭ la permesilo <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Krea Komunaĵo Atribuite-Samkondiĉe</a>; eble validas aldonaj kondiĉoj. Vidu la <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Uzokondiĉojn</a> por detaloj. Vikipedio estas registrita varmarko de la <a href='http://www.wikimediafoundation.org/'>Fondaĵo Vikimedio</a>, senprofita organizaĵo.
-disable_button: Malŝalti
-download_full_version: Elŝuti Plenan Version
-error_page_text: Movebla Vikipedio ankoraŭ estas evoluigata kaj ni tre klopodas por ripari ĉiujn internajn erarojn. Ni estas informitaj pri ĉi tiu eraro kaj riparos ĝin baldaŭ. Bonvolu kontroli poste denove!
-error_page_title: Ni havas problemon!
-explain_disable: Ĉu vi vere volas malfunkciigi la moveblan version de Vikipedio? Se vi elektas <b>Malfunkciigi</b> tiam de nun vi ne plu estas redirektata al ĉi tiu movebla vido de Vikipedio, kiam vi vizitas Vikipedion.
-featured_article: Artikolo prezentita hodiaŭ
-file_namespace: Dosiero
-hide_button: Kaŝi
-home_button: Ĉefpaĝo
-in_the_news: Aktuale
-nav_edit: Redakti
-nav_end: Fino
-nav_history: Historio
-nav_top: Supre
-no_article_found: Artikolo ne trovita
-perm_stop_redirect: Daŭre malŝalti ĉeltelefonan version
-random_button: Hazarde
-regular_wikipedia: Vidi ĉi tiun paĝon en norma Vikipedio
-search_results: Serĉaj rezultoj
-search_submit: Ek
-search_text: Serĉi
-show_button: Montri
-wikipedia: Vikipedio
+--- %YAML:1.0 
+? "wikipedia"
+: "Vikipedio"
+
+? "download_full_version"
+: "El\xC5\x9Duti Plenan Version"
+
+? "nav_end"
+: "Fino"
+
+? "home_button"
+: "\xC4\x88efpa\xC4\x9Do"
+
+? "copyright"
+: "Teksto estas disponebla la\xC5\xAD la permesilo <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Krea Komuna\xC4\xB5o Atribuite-Samkondi\xC4\x89e</a>; eble validas aldonaj kondi\xC4\x89oj. Vidu la <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Uzokondi\xC4\x89ojn</a> por detaloj. Vikipedio estas registrita varmarko de la <a href='http://www.wikimediafoundation.org/'>Fonda\xC4\xB5o Vikimedio</a>, senprofita organiza\xC4\xB5o."
+
+? "disable_button"
+: "Mal\xC5\x9Dalti"
+
+? "nav_edit"
+: "Redakti"
+
+? "in_the_news"
+: "Aktuale"
+
+? "search_results"
+: "Ser\xC4\x89aj rezultoj"
+
+? "explain_disable"
+: "\xC4\x88u vi vere volas malfunkciigi la moveblan version de Vikipedio? Se vi elektas <b>Malfunkciigi</b> tiam de nun vi ne plu estas redirektata al \xC4\x89i tiu movebla vido de Vikipedio, kiam vi vizitas Vikipedion."
+
+? "back_to_top_of_section"
+: "Je sekcio reen"
+
+? "featured_article"
+: "Artikolo prezentita hodia\xC5\xAD"
+
+? "nav_history"
+: "Historio"
+
+? "error_page_text"
+: "Movebla Vikipedio ankora\xC5\xAD estas evoluigata kaj ni tre klopodas por ripari \xC4\x89iujn internajn erarojn. Ni estas informitaj pri \xC4\x89i tiu eraro kaj riparos \xC4\x9Din balda\xC5\xAD. Bonvolu kontroli poste denove!"
+
+? "file_namespace"
+: "Dosiero"
+
+? "perm_stop_redirect"
+: "Da\xC5\xADre mal\xC5\x9Dalti \xC4\x89eltelefonan version"
+
+? "back_button"
+: "Reen"
+
+? "search_submit"
+: "Ek"
+
+? "no_article_found"
+: "Artikolo ne trovita"
+
+? "show_button"
+: "Montri"
+
+? "regular_wikipedia"
+: "Vidi \xC4\x89i tiun pa\xC4\x9Don en norma Vikipedio"
+
+? "contact_us"
+: "Se vi havas iujn ajn demandojn a\xC5\xAD komentojn, bonvolu retpo\xC5\x9Dti nin \xC4\x89e mobile@wikipedia.org"
+
+? "error_page_title"
+: "Ni havas problemon!"
+
+? "search_text"
+: "Ser\xC4\x89i"
+
+? "nav_top"
+: "Supre"
+
+? "author_link"
+: "Spektu tiun \xC4\x89i a\xC5\xADdvidan dosieron je normala Vikipedio por vidu informojn pri a\xC5\xADtoro, permisloj kaj kromaj priskriboj."
+
+? "are_you_sure"
+: "\xC4\x88u vi certas ?"
+
+? "hide_button"
+: "Ka\xC5\x9Di"
+
+? "random_button"
+: "Hazarde"
+

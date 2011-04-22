@@ -1,33 +1,92 @@
 # Messages for Romansh (Rumantsch)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Gion-andri
-are_you_sure: Es ti segir?
-author_link: Vesair questa datoteca sin la Vichipedia regulara per vesair infurmaziuns davart ils auturs, la licenza ed ulteriuras descripziuns.
-back_button: Enavos
-back_to_top_of_section: Siglir enavos in chapitel
-contact_us: Sche ti has dumondas u commentaris ans contactescha per e-mail sin mobile@wikipedia.org
-copyright: Il text è disponibel sut la licenza <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike</a>; ulteriuras cundiziuns pon esser applitgablas. Detagls chattas ti en las <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>cundiziuns d'utilisaziun</a>. Wikipedia è ina marca registrada da la <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, ina organisaziun senza finamira da profit.
-disable_button: Deactivar
-download_full_version: Telechargiar la versiun gronda
-error_page_text: La versiun mobila da da Vichipedia è anc en construcziun e nus lavurain londervi dad eliminar tut nossas errurs internas. Nuss essan vegnids infurmads davart questa errur ed la reparain bainprest. Emprova pli tard anc ina giada.
-error_page_title: I dat in problem!
-explain_disable: Es ti segir che ti vuls deactivar la versiun mobila da la Vichipedia? Sche ti tschernas <b>Deactivar</b> na vegns ti en futur betg pli renvià a la versiun mobila da la Vichipedia.
-featured_article: Artitgels dal di
-file_namespace: Datoteca
-hide_button: Zuppentar
-home_button: Chasa
-in_the_news: En las novitads
-nav_edit: Modifitgar
-nav_end: Fin
-nav_history: Cronologia
-nav_top: Sissum
-no_article_found: Chattà nagin artitgel
-perm_stop_redirect: Deactivar permanentamain la versiun mobila
-random_button: Casual
-regular_wikipedia: Visitar questa pagina sin la Vichipedia regulara
-search_results: Resultats da tschertga
-search_submit: Dai
-search_text: Tschertgar
-show_button: Mussar
-wikipedia: Vichipedia
+--- %YAML:1.0 
+? "wikipedia"
+: "Vichipedia"
+
+? "download_full_version"
+: "Telechargiar la versiun gronda"
+
+? "nav_end"
+: "Fin"
+
+? "home_button"
+: "Chasa"
+
+? "copyright"
+: "Il text \xC3\xA8 disponibel sut la licenza <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike</a>; ulteriuras cundiziuns pon esser applitgablas. Detagls chattas ti en las <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>cundiziuns d'utilisaziun</a>. Wikipedia \xC3\xA8 ina marca registrada da la <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, ina organisaziun senza finamira da profit."
+
+? "disable_button"
+: "Deactivar"
+
+? "nav_edit"
+: "Modifitgar"
+
+? "in_the_news"
+: "En las novitads"
+
+? "search_results"
+: "Resultats da tschertga"
+
+? "explain_disable"
+: "Es ti segir che ti vuls deactivar la versiun mobila da la Vichipedia? Sche ti tschernas <b>Deactivar</b> na vegns ti en futur betg pli renvi\xC3\xA0 a la versiun mobila da la Vichipedia."
+
+? "back_to_top_of_section"
+: "Siglir enavos in chapitel"
+
+? "featured_article"
+: "Artitgels dal di"
+
+? "nav_history"
+: "Cronologia"
+
+? "error_page_text"
+: "La versiun mobila da da Vichipedia \xC3\xA8 anc en construcziun e nus lavurain londervi dad eliminar tut nossas errurs internas. Nuss essan vegnids infurmads davart questa errur ed la reparain bainprest. Emprova pli tard anc ina giada."
+
+? "file_namespace"
+: "Datoteca"
+
+? "perm_stop_redirect"
+: "Deactivar permanentamain la versiun mobila"
+
+? "back_button"
+: "Enavos"
+
+? "search_submit"
+: "Dai"
+
+? "no_article_found"
+: "Chatt\xC3\xA0 nagin artitgel"
+
+? "show_button"
+: "Mussar"
+
+? "regular_wikipedia"
+: "Visitar questa pagina sin la Vichipedia regulara"
+
+? "contact_us"
+: "Sche ti has dumondas u commentaris ans contactescha per e-mail sin mobile@wikipedia.org"
+
+? "error_page_title"
+: "I dat in problem!"
+
+? "search_text"
+: "Tschertgar"
+
+? "nav_top"
+: "Sissum"
+
+? "author_link"
+: "Vesair questa datoteca sin la Vichipedia regulara per vesair infurmaziuns davart ils auturs, la licenza ed ulteriuras descripziuns."
+
+? "are_you_sure"
+: "Es ti segir?"
+
+? "hide_button"
+: "Zuppentar"
+
+? "random_button"
+: "Casual"
+

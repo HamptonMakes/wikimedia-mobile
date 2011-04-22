@@ -1,30 +1,83 @@
 # Messages for Lumbaart (Lumbaart)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Dakrismeno
-are_you_sure: Seet segür?
-back_button: Indree
-back_to_top_of_section: Sàlta Indree d'una Sezión
-contact_us: Se te gh'heet di dumand o cument, gh'abia mia gena de scrivess a mobile@wikipedia.org
-copyright: El test a l'è dispunìbil suta la <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; pödass che s'àplichen anca cundizión adiziunaj. Varda <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> per i detaj. Wikipedia a l'è un march argistraa de la <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, un urganizazion non-profit.
-disable_button: Desabìlita
-error_page_text: Wikipedia "mòbil" a l'è anmò adree a vess desvilüpada e sem adree a lavurà fort per resolv tüt i nòster erur intèren. Quel erur chì l'è giamò staa nutifegaa e 'l sarà metüü in quader a la svelta. Per piasè pröva turna da chì a un poo!
-error_page_title: Gh'è un prublema!
-explain_disable: Seet segür de vurè desabilità la versión mòbil de Wikipedia?  Se te scerniss  <b>Desabìlita</b>, da chì a andà inanz, quand che te visitet Wikipedia, te sarè pü redireziunaa a la versión mòbil de Wikipedia.
-featured_article: Vedrína
-hide_button: Scund
-home_button: Pagina principala
-in_the_news: Nuvità
-nav_edit: Mudifega
-nav_end: Fín
-nav_history: Crunulugìa
-nav_top: Principi
-no_article_found: Nissön artìcul curespundent
-perm_stop_redirect: Desabìlita permanentement el sit "mòbil"
-random_button: A cas
-regular_wikipedia: Varda 'sta pagina chì in sü la Wikipedia nurmala
-search_results: Risültaa de la recerca.
-search_submit: Inanz
-search_text: Cerca
-show_button: Fàm vedè
-wikipedia: Wikipedia
+--- %YAML:1.0 
+? "wikipedia"
+: "Wikipedia"
+
+? "nav_end"
+: "F\xC3\xADn"
+
+? "home_button"
+: "Pagina principala"
+
+? "copyright"
+: "El test a l'\xC3\xA8 dispun\xC3\xACbil suta la <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; p\xC3\xB6dass che s'\xC3\xA0plichen anca cundizi\xC3\xB3n adiziunaj. Varda <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> per i detaj. Wikipedia a l'\xC3\xA8 un march argistraa de la <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, un urganizazion non-profit."
+
+? "disable_button"
+: "Desab\xC3\xAClita"
+
+? "nav_edit"
+: "Mudifega"
+
+? "in_the_news"
+: "Nuvit\xC3\xA0"
+
+? "search_results"
+: "Ris\xC3\xBCltaa de la recerca."
+
+? "explain_disable"
+: "Seet seg\xC3\xBCr de vur\xC3\xA8 desabilit\xC3\xA0 la versi\xC3\xB3n m\xC3\xB2bil de Wikipedia?  Se te scerniss  <b>Desab\xC3\xAClita</b>, da ch\xC3\xAC a and\xC3\xA0 inanz, quand che te visitet Wikipedia, te sar\xC3\xA8 p\xC3\xBC redireziunaa a la versi\xC3\xB3n m\xC3\xB2bil de Wikipedia."
+
+? "back_to_top_of_section"
+: "S\xC3\xA0lta Indree d'una Sezi\xC3\xB3n"
+
+? "featured_article"
+: "Vedr\xC3\xADna"
+
+? "nav_history"
+: "Crunulug\xC3\xACa"
+
+? "error_page_text"
+: "Wikipedia \"m\xC3\xB2bil\" a l'\xC3\xA8 anm\xC3\xB2 adree a vess desvil\xC3\xBCpada e sem adree a lavur\xC3\xA0 fort per resolv t\xC3\xBCt i n\xC3\xB2ster erur int\xC3\xA8ren. Quel erur ch\xC3\xAC l'\xC3\xA8 giam\xC3\xB2 staa nutifegaa e 'l sar\xC3\xA0 met\xC3\xBC\xC3\xBC in quader a la svelta. Per pias\xC3\xA8 pr\xC3\xB6va turna da ch\xC3\xAC a un poo!"
+
+? "perm_stop_redirect"
+: "Desab\xC3\xAClita permanentement el sit \"m\xC3\xB2bil\""
+
+? "back_button"
+: "Indree"
+
+? "search_submit"
+: "Inanz"
+
+? "no_article_found"
+: "Niss\xC3\xB6n art\xC3\xACcul curespundent"
+
+? "show_button"
+: "F\xC3\xA0m ved\xC3\xA8"
+
+? "regular_wikipedia"
+: "Varda 'sta pagina ch\xC3\xAC in s\xC3\xBC la Wikipedia nurmala"
+
+? "contact_us"
+: "Se te gh'heet di dumand o cument, gh'abia mia gena de scrivess a mobile@wikipedia.org"
+
+? "error_page_title"
+: "Gh'\xC3\xA8 un prublema!"
+
+? "search_text"
+: "Cerca"
+
+? "nav_top"
+: "Principi"
+
+? "are_you_sure"
+: "Seet seg\xC3\xBCr?"
+
+? "hide_button"
+: "Scund"
+
+? "random_button"
+: "A cas"
+

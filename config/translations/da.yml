@@ -1,34 +1,93 @@
 # Messages for Danish (Dansk)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Gorbi
 # Author: Jan Friberg
-are_you_sure: Er du sikker?
-author_link: Se denne mediefil på den almindelige Wikipedia for at se information om oprindelse, licens og yderlige beskrivelser.
-back_button: Tilbage
-back_to_top_of_section: Til toppen af afsnittet
-contact_us: Hvis du har nogle spørgsmål eller kommentarer, er du velkommen til at kontakte os på mobile@wikipedia.org
-copyright: Tekst er tilgængelig under <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike-licensen</a>; yderligere betingelser kan være gældende. Se <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>brugsbetingelserne</a> for flere oplysninger. Wikipedia er et registreret varemærke under den ideelle organisation <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>.
-disable_button: Deaktivér
-download_full_version: Hent fuld version
-error_page_text: Wikipedia mobil er fortsat under aktiv udvikling og vi arbejder hårdt med at fikse alle vore interne fejl. Vi er blevet advaret om denne fejl, og vi vil retter den hurtigst muligt. Kom gerne tilbage senere!
-error_page_title: Vi har et problem!
-explain_disable: Er du sikker på at du vil deaktivere den mobile udgave af Wikipedia? Hvis du vælger <b>Deaktivér</b> vil du fra nu af, hver gang du besøger Wikipedia, ikke længere blive omdirigeret til denne mobilvisningen af Wikipedia.
-featured_article: Dagens artikel
-file_namespace: Fil
-hide_button: Skjul
-home_button: Hjem
-in_the_news: Aktuelle begivenheder
-nav_edit: Redigér
-nav_end: Slut
-nav_history: Historik
-nav_top: Til toppen
-no_article_found: Ingen artikler fundet
-perm_stop_redirect: Deaktivér mobilsiden permanent
-random_button: Tilfældig
-regular_wikipedia: Vis denne side på normale Wikipedia
-search_results: Søgeresultater
-search_submit: Gå til
-search_text: Søg
-show_button: Vis
-wikipedia: Wikipedia
+--- %YAML:1.0 
+? "wikipedia"
+: "Wikipedia"
+
+? "download_full_version"
+: "Hent fuld version"
+
+? "nav_end"
+: "Slut"
+
+? "home_button"
+: "Hjem"
+
+? "copyright"
+: "Tekst er tilg\xC3\xA6ngelig under <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike-licensen</a>; yderligere betingelser kan v\xC3\xA6re g\xC3\xA6ldende. Se <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>brugsbetingelserne</a> for flere oplysninger. Wikipedia er et registreret varem\xC3\xA6rke under den ideelle organisation <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>."
+
+? "disable_button"
+: "Deaktiv\xC3\xA9r"
+
+? "nav_edit"
+: "Redig\xC3\xA9r"
+
+? "in_the_news"
+: "Aktuelle begivenheder"
+
+? "search_results"
+: "S\xC3\xB8geresultater"
+
+? "explain_disable"
+: "Er du sikker p\xC3\xA5 at du vil deaktivere den mobile udgave af Wikipedia? Hvis du v\xC3\xA6lger <b>Deaktiv\xC3\xA9r</b> vil du fra nu af, hver gang du bes\xC3\xB8ger Wikipedia, ikke l\xC3\xA6ngere blive omdirigeret til denne mobilvisningen af Wikipedia."
+
+? "back_to_top_of_section"
+: "Til toppen af afsnittet"
+
+? "featured_article"
+: "Dagens artikel"
+
+? "nav_history"
+: "Historik"
+
+? "error_page_text"
+: "Wikipedia mobil er fortsat under aktiv udvikling og vi arbejder h\xC3\xA5rdt med at fikse alle vore interne fejl. Vi er blevet advaret om denne fejl, og vi vil retter den hurtigst muligt. Kom gerne tilbage senere!"
+
+? "file_namespace"
+: "Fil"
+
+? "perm_stop_redirect"
+: "Deaktiv\xC3\xA9r mobilsiden permanent"
+
+? "back_button"
+: "Tilbage"
+
+? "search_submit"
+: "G\xC3\xA5 til"
+
+? "no_article_found"
+: "Ingen artikler fundet"
+
+? "show_button"
+: "Vis"
+
+? "regular_wikipedia"
+: "Vis denne side p\xC3\xA5 normale Wikipedia"
+
+? "contact_us"
+: "Hvis du har nogle sp\xC3\xB8rgsm\xC3\xA5l eller kommentarer, er du velkommen til at kontakte os p\xC3\xA5 mobile@wikipedia.org"
+
+? "error_page_title"
+: "Vi har et problem!"
+
+? "search_text"
+: "S\xC3\xB8g"
+
+? "nav_top"
+: "Til toppen"
+
+? "author_link"
+: "Se denne mediefil p\xC3\xA5 den almindelige Wikipedia for at se information om oprindelse, licens og yderlige beskrivelser."
+
+? "are_you_sure"
+: "Er du sikker?"
+
+? "hide_button"
+: "Skjul"
+
+? "random_button"
+: "Tilf\xC3\xA6ldig"
+

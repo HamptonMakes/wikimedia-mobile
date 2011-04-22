@@ -1,5 +1,5 @@
 # Messages for Norwegian Bokmål (‪Norsk (bokmål)‬)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Ainali
-wikipedia: Wikipedia
+--- %YAML:1.0 {"wikipedia": "Wikipedia"}

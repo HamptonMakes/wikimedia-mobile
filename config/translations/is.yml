@@ -1,13 +1,32 @@
 # Messages for Icelandic (Íslenska)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Maxí
-featured_article: Grein mánaðarins
-hide_button: Fela
-home_button: Forsíða
-no_article_found: Engin grein fannst
-perm_stop_redirect: Gera farsímasíðuna óvirka til frambúðar
-regular_wikipedia: Sýna þessa síða á venjulegri Wikipediu
-search_results: Leitarniðurstöður
-search_submit: Áfram
-show_button: Sýna
+--- %YAML:1.0 
+? "home_button"
+: "Fors\xC3\xAD\xC3\xB0a"
+
+? "search_results"
+: "Leitarni\xC3\xB0urst\xC3\xB6\xC3\xB0ur"
+
+? "featured_article"
+: "Grein m\xC3\xA1na\xC3\xB0arins"
+
+? "perm_stop_redirect"
+: "Gera fars\xC3\xADmas\xC3\xAD\xC3\xB0una \xC3\xB3virka til framb\xC3\xBA\xC3\xB0ar"
+
+? "search_submit"
+: "\xC3\x81fram"
+
+? "no_article_found"
+: "Engin grein fannst"
+
+? "show_button"
+: "S\xC3\xBDna"
+
+? "regular_wikipedia"
+: "S\xC3\xBDna \xC3\xBEessa s\xC3\xAD\xC3\xB0a \xC3\xA1 venjulegri Wikipediu"
+
+? "hide_button"
+: "Fela"
+

@@ -1,18 +1,47 @@
 # Messages for Hiligaynon (Ilonggo)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Tagimata
-copyright: Ang ini nga teksto ay makita sa idalum <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; ang nadugang nga impormasyon ay pwede ma-aply. Tan-awa <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> para sa mga detalye. Ang Wikipedya ay rehistrado trademark sang <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, wala profidad nga organisasyon.
-error_page_text: Sa Subong ang Wikipedya mobil ay ginahimo pa kag ginapangabudlayan ang pag-obra para makayo ang tanan nga internal nga eror. Nahibal-an na ini namon ang parte sa sini nga eror kag amon ini pagakayuhon sa madali nga tinuon. Palihog lang lantaw sa dasun!
-error_page_title: May ara kita problema!
-featured_article: Subong nga Napili na Artikulo
-hide_button: Taguon
-home_button: Balay
-in_the_news: Sa Mga Balita
-no_article_found: Indi Makita ang Artikulo
-perm_stop_redirect: Permanente nga di pwede magamit ang mobile site
-random_button: Randum
-regular_wikipedia: Tan-awon ini nga pahina sa regular na Wikipedya
-search_results: Resulta sang Pagpangita
-search_submit: Lakat
-show_button: Ipakita
+--- %YAML:1.0 
+? "home_button"
+: "Balay"
+
+? "copyright"
+: "Ang ini nga teksto ay makita sa idalum <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; ang nadugang nga impormasyon ay pwede ma-aply. Tan-awa <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> para sa mga detalye. Ang Wikipedya ay rehistrado trademark sang <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, wala profidad nga organisasyon."
+
+? "in_the_news"
+: "Sa Mga Balita"
+
+? "search_results"
+: "Resulta sang Pagpangita"
+
+? "featured_article"
+: "Subong nga Napili na Artikulo"
+
+? "error_page_text"
+: "Sa Subong ang Wikipedya mobil ay ginahimo pa kag ginapangabudlayan ang pag-obra para makayo ang tanan nga internal nga eror. Nahibal-an na ini namon ang parte sa sini nga eror kag amon ini pagakayuhon sa madali nga tinuon. Palihog lang lantaw sa dasun!"
+
+? "perm_stop_redirect"
+: "Permanente nga di pwede magamit ang mobile site"
+
+? "search_submit"
+: "Lakat"
+
+? "no_article_found"
+: "Indi Makita ang Artikulo"
+
+? "show_button"
+: "Ipakita"
+
+? "regular_wikipedia"
+: "Tan-awon ini nga pahina sa regular na Wikipedya"
+
+? "error_page_title"
+: "May ara kita problema!"
+
+? "hide_button"
+: "Taguon"
+
+? "random_button"
+: "Randum"
+

@@ -1,29 +1,80 @@
 # Messages for Hausa (هَوُسَ)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Mladanali
-are_you_sure: Ashe dai, kun tabbata?
-back_button: Baya
-back_to_top_of_section: A tsallaka baya sashe guda
-contact_us: Idan kuna son ƙarin bayani ko kuna da wani ra'ayi, don Allah ku tuntuɓe mu a mobile@wikipedia.org
-copyright: Matanin ya samu ne a ƙarƙashin lasisin <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike</a>; tana yiyuwa wasu ƙa'idoji su yi tasiri. A duba <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> don ƙarin bayani. Wikipedia sunan kasuwanci ne mai rajista na <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, haƙuma wadda ba ta neman riba ba.
-disable_button: A gurgunta
-error_page_text: Muna cikin sarrafa shirin Wikipedia tafi-da-gidanka, kuma muna ƙoƙarin gyara duk wasu kurakuranmu. An shaida mana wannan kuskure kuma za mu gyara shi nan gaba kaɗan. Don Allah ku sake ziyartarmu.
-error_page_title: Wata matsala ta kunno kai!
-explain_disable: Kun tabbatar kuna son gurgunta shirin tafi-da-gidanka na Wikipedia? Idan kuka zaɓi <b>Gurgunta</b>, ba za a saka ku hanyar shirin tafi-da-gidanka ba randa kuka ziyarci Wikipedia.
-featured_article: Zaɓaɓɓar maƙala ta yau
-hide_button: Ɓoye
-home_button: Marhabin
-in_the_news: Labaru
-nav_edit: Gyarawa
-nav_end: Ƙarshe
-nav_history: Tarihi
-nav_top: Sama
-no_article_found: Babu shafin da ya dace
-perm_stop_redirect: A gurgunta dandalin tafi-da-gidanka gaba-ɗaya
-random_button: Randam
-regular_wikipedia: A duba wannan shafi a kan Wikipedia na kullum
-search_results: Sakamakon bincike
-search_submit: Mu je
-search_text: Nema
-show_button: Nuna
+--- %YAML:1.0 
+? "nav_end"
+: "\xC6\x98arshe"
+
+? "home_button"
+: "Marhabin"
+
+? "copyright"
+: "Matanin ya samu ne a \xC6\x99ar\xC6\x99ashin lasisin <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike</a>; tana yiyuwa wasu \xC6\x99a'idoji su yi tasiri. A duba <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> don \xC6\x99arin bayani. Wikipedia sunan kasuwanci ne mai rajista na <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, ha\xC6\x99uma wadda ba ta neman riba ba."
+
+? "disable_button"
+: "A gurgunta"
+
+? "nav_edit"
+: "Gyarawa"
+
+? "in_the_news"
+: "Labaru"
+
+? "search_results"
+: "Sakamakon bincike"
+
+? "explain_disable"
+: "Kun tabbatar kuna son gurgunta shirin tafi-da-gidanka na Wikipedia? Idan kuka za\xC9\x93i <b>Gurgunta</b>, ba za a saka ku hanyar shirin tafi-da-gidanka ba randa kuka ziyarci Wikipedia."
+
+? "back_to_top_of_section"
+: "A tsallaka baya sashe guda"
+
+? "featured_article"
+: "Za\xC9\x93a\xC9\x93\xC9\x93ar ma\xC6\x99ala ta yau"
+
+? "nav_history"
+: "Tarihi"
+
+? "error_page_text"
+: "Muna cikin sarrafa shirin Wikipedia tafi-da-gidanka, kuma muna \xC6\x99o\xC6\x99arin gyara duk wasu kurakuranmu. An shaida mana wannan kuskure kuma za mu gyara shi nan gaba ka\xC9\x97an. Don Allah ku sake ziyartarmu."
+
+? "perm_stop_redirect"
+: "A gurgunta dandalin tafi-da-gidanka gaba-\xC9\x97aya"
+
+? "back_button"
+: "Baya"
+
+? "search_submit"
+: "Mu je"
+
+? "no_article_found"
+: "Babu shafin da ya dace"
+
+? "show_button"
+: "Nuna"
+
+? "regular_wikipedia"
+: "A duba wannan shafi a kan Wikipedia na kullum"
+
+? "contact_us"
+: "Idan kuna son \xC6\x99arin bayani ko kuna da wani ra'ayi, don Allah ku tuntu\xC9\x93e mu a mobile@wikipedia.org"
+
+? "error_page_title"
+: "Wata matsala ta kunno kai!"
+
+? "search_text"
+: "Nema"
+
+? "nav_top"
+: "Sama"
+
+? "are_you_sure"
+: "Ashe dai, kun tabbata?"
+
+? "hide_button"
+: "\xC6\x81oye"
+
+? "random_button"
+: "Randam"
+

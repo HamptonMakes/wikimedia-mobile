@@ -1,30 +1,83 @@
 # Messages for Lazuri (Lazuri)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Bombola
-are_you_sure: Mtinite ginoni?
-back_button: Uk'uni
-back_to_top_of_section: Ar burme uk'uni idi
-contact_us: Eger k'itxalape varna k'omment'epe giğunna, Mu iqven! mobile@wikipedia.org coxoni emailis k'ont'akt'i qvit.
-copyright: Tekst'i <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike Lisansi</a>şi doloxe ren; çkva şeyepeti ixvenen. Detayepe şeni <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Oxmaruşi K'aidepe</a>s o3'k'edit. Vik'ip'edia mogapa na var ikips ar k'idala na ren <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>-şi tesciloni mark'a muşi ren.
-disable_button: Tilifoniş versiyoni ip't'ali qvi
-error_page_text: Xolo Tilifoniş vik'ip'edia versiyoni şeni viçalişept do mtel çilatape oktiru şeni viçalişept. Am çilata miçkinan do yakini oras çilatape viktiraten. Mu iqven xolo ik'ont'rolit!
-error_page_title: Ar p'roblemi ren!
-explain_disable: Vik'ip'ediaşi tilifoniş versiyoni ip't'ali oqvapu ginoni? Egeri <b>Tilifoniş versiyoni ip't'ali qvi</b> t'uşis gebaz'ga na, a3'işk'ule, Vik'ip'ediaşa na moxti ora, Vik'ip'ediaşi am tilifoni versiyonişa var idare.
-featured_article: Dolonişi Favori St'at'ia
-hide_button: Doşinaxi
-home_button: Dudi
-in_the_news: Ambarepes
-nav_edit: Doktiri
-nav_end: Çodina
-nav_history: Tarixi
-nav_top: Dudi
-no_article_found: Çkar but'k'a va ren
-perm_stop_redirect: Tilifoniş sait'i mtelurot ip't'ali qvi
-random_button: Randomi
-regular_wikipedia: Am but'k'a normaluri Vik'ip'edias ko3'iri
-search_results: Ogoru sonucepe
-search_submit: İgzali
-search_text: Mgori
-show_button: Ko3'iri
-wikipedia: Vik'ip'edia
+--- %YAML:1.0 
+? "wikipedia"
+: "Vik'ip'edia"
+
+? "nav_end"
+: "\xC3\x87odina"
+
+? "home_button"
+: "Dudi"
+
+? "copyright"
+: "Tekst'i <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike Lisansi</a>\xC5\x9Fi doloxe ren; \xC3\xA7kva \xC5\x9Feyepeti ixvenen. Detayepe \xC5\x9Feni <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Oxmaru\xC5\x9Fi K'aidepe</a>s o3'k'edit. Vik'ip'edia mogapa na var ikips ar k'idala na ren <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>-\xC5\x9Fi tesciloni mark'a mu\xC5\x9Fi ren."
+
+? "disable_button"
+: "Tilifoni\xC5\x9F versiyoni ip't'ali qvi"
+
+? "nav_edit"
+: "Doktiri"
+
+? "in_the_news"
+: "Ambarepes"
+
+? "search_results"
+: "Ogoru sonucepe"
+
+? "explain_disable"
+: "Vik'ip'edia\xC5\x9Fi tilifoni\xC5\x9F versiyoni ip't'ali oqvapu ginoni? Egeri <b>Tilifoni\xC5\x9F versiyoni ip't'ali qvi</b> t'u\xC5\x9Fis gebaz'ga na, a3'i\xC5\x9Fk'ule, Vik'ip'edia\xC5\x9Fa na moxti ora, Vik'ip'edia\xC5\x9Fi am tilifoni versiyoni\xC5\x9Fa var idare."
+
+? "back_to_top_of_section"
+: "Ar burme uk'uni idi"
+
+? "featured_article"
+: "Doloni\xC5\x9Fi Favori St'at'ia"
+
+? "nav_history"
+: "Tarixi"
+
+? "error_page_text"
+: "Xolo Tilifoni\xC5\x9F vik'ip'edia versiyoni \xC5\x9Feni vi\xC3\xA7ali\xC5\x9Fept do mtel \xC3\xA7ilatape oktiru \xC5\x9Feni vi\xC3\xA7ali\xC5\x9Fept. Am \xC3\xA7ilata mi\xC3\xA7kinan do yakini oras \xC3\xA7ilatape viktiraten. Mu iqven xolo ik'ont'rolit!"
+
+? "perm_stop_redirect"
+: "Tilifoni\xC5\x9F sait'i mtelurot ip't'ali qvi"
+
+? "back_button"
+: "Uk'uni"
+
+? "search_submit"
+: "\xC4\xB0gzali"
+
+? "no_article_found"
+: "\xC3\x87kar but'k'a va ren"
+
+? "show_button"
+: "Ko3'iri"
+
+? "regular_wikipedia"
+: "Am but'k'a normaluri Vik'ip'edias ko3'iri"
+
+? "contact_us"
+: "Eger k'itxalape varna k'omment'epe gi\xC4\x9Funna, Mu iqven! mobile@wikipedia.org coxoni emailis k'ont'akt'i qvit."
+
+? "error_page_title"
+: "Ar p'roblemi ren!"
+
+? "search_text"
+: "Mgori"
+
+? "nav_top"
+: "Dudi"
+
+? "are_you_sure"
+: "Mtinite ginoni?"
+
+? "hide_button"
+: "Do\xC5\x9Finaxi"
+
+? "random_button"
+: "Randomi"
+

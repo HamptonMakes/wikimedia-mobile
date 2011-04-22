@@ -1,8 +1,5 @@
 # Messages for Deitsch (Deitsch)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Xqt
-back_button: Zerrick
-search_submit: Geh los
-search_text: Uffgucke
-show_button: Zeig
+--- %YAML:1.0 {"back_button": "Zerrick", "search_submit": "Geh los", "show_button": "Zeig", "search_text": "Uffgucke"}

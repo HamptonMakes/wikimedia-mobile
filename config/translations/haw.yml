@@ -1,33 +1,92 @@
 # Messages for Hawaiian (Hawai`i)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Kolonahe
-are_you_sure: He ʻoiaʻiʻo kēnā?
-author_link: ʻIke i kēia faila pāpaho ma Wikipikia maʻamau i hiki ke ʻike i nā nū hou e pili ana i nā mea kākau, nā laikini a me nā kikoʻī ʻē aʻe.
-back_button: I Hope
-back_to_top_of_section: Hoʻi i ka Māhele ma mua
-contact_us: Inā loaʻa nā nīnau a i ʻole nā manaʻo hoʻopuka, e ʻoluʻolu, e lekauila maiā mākou ma mobile@wikipedia.org
-copyright: Loaʻa nā kikokikona i loko o <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; hiki paha kekahi mau mea ʻē aʻe ke pili. ʻIke i <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> no nā kikoʻī. ʻO Wikipikia kekahi Kunikia i kāinoa ʻia e <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, he ʻahahui uku ʻole ia.
-disable_button: Mākaukau ʻole
-download_full_version: Hoʻoili i ka Mana piha
-error_page_text: Ke kūkulu wale nei ʻo Wikipikia mopile i kēia manawa. Ke hoʻopololei nei mākou i nā pilikia a pau i loko o kahi. Ua hōʻike ʻia ka pilikia a e hoʻopololei ana ia mea. E kipa mai hou ma kekahi manawa ʻē aʻe, ke ʻoluʻolu!
-error_page_title: Loaʻa i ka Pilikia!
-explain_disable: He ʻoiaʻiʻo kēlā mākaukau ʻole ʻana o ka mana mopile o Wikipikia? Inā koho i <b>Mākaukau ʻOle<b>, mai kēiā manawa, i kou kipa ʻana mai i Wikipikia, ʻaʻole hele pololei i kēia ʻikena mopile o ia wahi.
-featured_article: Ka ʻAtikala Nui o Kēia Lā
-file_namespace: Faila
-hide_button: Hūnā
-home_button: Home
-in_the_news: I Ka Nū hou
-nav_edit: Hoʻololi
-nav_end: Hopena
-nav_history: Mōʻaukala
-nav_top: Wēkiu
-no_article_found: ʻAʻohe ʻAtikala i ʻimi ʻia
-perm_stop_redirect: Mākaukau ʻole paʻa i ka wahi mopile
-random_button: ʻOhi Kaulele
-regular_wikipedia: Nānā kēia ʻaoʻao ma Wikipikia maʻamau
-search_results: Hopena ʻImina
-search_submit: Hele
-search_text: ʻImi
-show_button: Hōʻike
-wikipedia: Wikipikia
+--- %YAML:1.0 
+? "wikipedia"
+: "Wikipikia"
+
+? "download_full_version"
+: "Ho\xCA\xBBoili i ka Mana piha"
+
+? "nav_end"
+: "Hopena"
+
+? "home_button"
+: "Home"
+
+? "copyright"
+: "Loa\xCA\xBBa n\xC4\x81 kikokikona i loko o <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; hiki paha kekahi mau mea \xCA\xBB\xC4\x93 a\xCA\xBBe ke pili. \xCA\xBBIke i <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> no n\xC4\x81 kiko\xCA\xBB\xC4\xAB. \xCA\xBBO Wikipikia kekahi Kunikia i k\xC4\x81inoa \xCA\xBBia e <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, he \xCA\xBBahahui uku \xCA\xBBole ia."
+
+? "disable_button"
+: "M\xC4\x81kaukau \xCA\xBBole"
+
+? "nav_edit"
+: "Ho\xCA\xBBololi"
+
+? "in_the_news"
+: "I Ka N\xC5\xAB hou"
+
+? "search_results"
+: "Hopena \xCA\xBBImina"
+
+? "explain_disable"
+: "He \xCA\xBBoia\xCA\xBBi\xCA\xBBo k\xC4\x93l\xC4\x81 m\xC4\x81kaukau \xCA\xBBole \xCA\xBBana o ka mana mopile o Wikipikia? In\xC4\x81 koho i <b>M\xC4\x81kaukau \xCA\xBBOle<b>, mai k\xC4\x93i\xC4\x81 manawa, i kou kipa \xCA\xBBana mai i Wikipikia, \xCA\xBBa\xCA\xBBole hele pololei i k\xC4\x93ia \xCA\xBBikena mopile o ia wahi."
+
+? "back_to_top_of_section"
+: "Ho\xCA\xBBi i ka M\xC4\x81hele ma mua"
+
+? "featured_article"
+: "Ka \xCA\xBBAtikala Nui o K\xC4\x93ia L\xC4\x81"
+
+? "nav_history"
+: "M\xC5\x8D\xCA\xBBaukala"
+
+? "error_page_text"
+: "Ke k\xC5\xABkulu wale nei \xCA\xBBo Wikipikia mopile i k\xC4\x93ia manawa. Ke ho\xCA\xBBopololei nei m\xC4\x81kou i n\xC4\x81 pilikia a pau i loko o kahi. Ua h\xC5\x8D\xCA\xBBike \xCA\xBBia ka pilikia a e ho\xCA\xBBopololei ana ia mea. E kipa mai hou ma kekahi manawa \xCA\xBB\xC4\x93 a\xCA\xBBe, ke \xCA\xBBolu\xCA\xBBolu!"
+
+? "file_namespace"
+: "Faila"
+
+? "perm_stop_redirect"
+: "M\xC4\x81kaukau \xCA\xBBole pa\xCA\xBBa i ka wahi mopile"
+
+? "back_button"
+: "I Hope"
+
+? "search_submit"
+: "Hele"
+
+? "no_article_found"
+: "\xCA\xBBA\xCA\xBBohe \xCA\xBBAtikala i \xCA\xBBimi \xCA\xBBia"
+
+? "show_button"
+: "H\xC5\x8D\xCA\xBBike"
+
+? "regular_wikipedia"
+: "N\xC4\x81n\xC4\x81 k\xC4\x93ia \xCA\xBBao\xCA\xBBao ma Wikipikia ma\xCA\xBBamau"
+
+? "contact_us"
+: "In\xC4\x81 loa\xCA\xBBa n\xC4\x81 n\xC4\xABnau a i \xCA\xBBole n\xC4\x81 mana\xCA\xBBo ho\xCA\xBBopuka, e \xCA\xBBolu\xCA\xBBolu, e lekauila mai\xC4\x81 m\xC4\x81kou ma mobile@wikipedia.org"
+
+? "error_page_title"
+: "Loa\xCA\xBBa i ka Pilikia!"
+
+? "search_text"
+: "\xCA\xBBImi"
+
+? "nav_top"
+: "W\xC4\x93kiu"
+
+? "author_link"
+: "\xCA\xBBIke i k\xC4\x93ia faila p\xC4\x81paho ma Wikipikia ma\xCA\xBBamau i hiki ke \xCA\xBBike i n\xC4\x81 n\xC5\xAB hou e pili ana i n\xC4\x81 mea k\xC4\x81kau, n\xC4\x81 laikini a me n\xC4\x81 kiko\xCA\xBB\xC4\xAB \xCA\xBB\xC4\x93 a\xCA\xBBe."
+
+? "are_you_sure"
+: "He \xCA\xBBoia\xCA\xBBi\xCA\xBBo k\xC4\x93n\xC4\x81?"
+
+? "hide_button"
+: "H\xC5\xABn\xC4\x81"
+
+? "random_button"
+: "\xCA\xBBOhi Kaulele"
+

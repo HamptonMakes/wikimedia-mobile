@@ -1,34 +1,93 @@
 # Messages for Piedmontese (Piemontèis)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Borichèt
 # Author: Dragonòt
-are_you_sure: Ses-to sicur ?
-author_link: Vëdde cost archivi multimedial dzora na Wikipedia regolar për lese j'anformassion su autor, licensa, e le descrission adissionaj.
-back_button: André
-back_to_top_of_section: Sàuta andré ëd na Session
-contact_us: S'a l'has qualsëssìa chestion o coment, për piasì ch'a l'abia pa gena a scrivne a mobile@wikipedia.org
-copyright: Ël test a l'é disponìbil sota la <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; condission adissionaj a peulo aplichesse. Varda <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> për ij detaj. Wikipedia a l'é un march argistrà ëd la <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, n'organisassion non-profit.
-disable_button: Disabìlita
-download_full_version: Dëscarié la version Completa
-error_page_text: Wikipedia "mobile" a l'é ancó sota ativ dësvilup e i stoma travajand sech për fissé tùit ij nòst eror antern. Noi i soma stàit avisà dë sto eror-sì e i lo fisseroma prest. Për piasì torna prové!
-error_page_title: I l'oma un problema!
-explain_disable: Ses-to sicur ëd vorèj disabilité la version mòbil ëd Wikipedia? S'it serne <b>Disabìlita</b>, da col moment an peui, quand it vìsite Wikipedia, is saras pa ridiressionà a sta version mòbil ëd Wikipedia.
-featured_article: Artìcol dël dì
-file_namespace: Archivi
-hide_button: Stërma
-home_button: Pàgina Prinsipal
-in_the_news: Ant le Neuve
-nav_edit: Modìfica
-nav_end: Fin
-nav_history: Stòria
-nav_top: Inissi
-no_article_found: Pa gnun artìcoj trovà
-perm_stop_redirect: Disabilité permanentement ël sit "mobile"
-random_button: A cas
-regular_wikipedia: Varda sta pàgina-sì an Wikipedia regolar
-search_results: Arzultà dl'arserca
-search_submit: Va
-search_text: Sërca
-show_button: Mosta
-wikipedia: Wikipedia
+--- %YAML:1.0 
+? "wikipedia"
+: "Wikipedia"
+
+? "download_full_version"
+: "D\xC3\xABscari\xC3\xA9 la version Completa"
+
+? "nav_end"
+: "Fin"
+
+? "home_button"
+: "P\xC3\xA0gina Prinsipal"
+
+? "copyright"
+: "\xC3\x8Bl test a l'\xC3\xA9 dispon\xC3\xACbil sota la <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; condission adissionaj a peulo aplichesse. Varda <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> p\xC3\xABr ij detaj. Wikipedia a l'\xC3\xA9 un march argistr\xC3\xA0 \xC3\xABd la <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, n'organisassion non-profit."
+
+? "disable_button"
+: "Disab\xC3\xAClita"
+
+? "nav_edit"
+: "Mod\xC3\xACfica"
+
+? "in_the_news"
+: "Ant le Neuve"
+
+? "search_results"
+: "Arzult\xC3\xA0 dl'arserca"
+
+? "explain_disable"
+: "Ses-to sicur \xC3\xABd vor\xC3\xA8j disabilit\xC3\xA9 la version m\xC3\xB2bil \xC3\xABd Wikipedia? S'it serne <b>Disab\xC3\xAClita</b>, da col moment an peui, quand it v\xC3\xACsite Wikipedia, is saras pa ridiression\xC3\xA0 a sta version m\xC3\xB2bil \xC3\xABd Wikipedia."
+
+? "back_to_top_of_section"
+: "S\xC3\xA0uta andr\xC3\xA9 \xC3\xABd na Session"
+
+? "featured_article"
+: "Art\xC3\xACcol d\xC3\xABl d\xC3\xAC"
+
+? "nav_history"
+: "St\xC3\xB2ria"
+
+? "error_page_text"
+: "Wikipedia \"mobile\" a l'\xC3\xA9 anc\xC3\xB3 sota ativ d\xC3\xABsvilup e i stoma travajand sech p\xC3\xABr fiss\xC3\xA9 t\xC3\xB9it ij n\xC3\xB2st eror antern. Noi i soma st\xC3\xA0it avis\xC3\xA0 d\xC3\xAB sto eror-s\xC3\xAC e i lo fisseroma prest. P\xC3\xABr pias\xC3\xAC torna prov\xC3\xA9!"
+
+? "file_namespace"
+: "Archivi"
+
+? "perm_stop_redirect"
+: "Disabilit\xC3\xA9 permanentement \xC3\xABl sit \"mobile\""
+
+? "back_button"
+: "Andr\xC3\xA9"
+
+? "search_submit"
+: "Va"
+
+? "no_article_found"
+: "Pa gnun art\xC3\xACcoj trov\xC3\xA0"
+
+? "show_button"
+: "Mosta"
+
+? "regular_wikipedia"
+: "Varda sta p\xC3\xA0gina-s\xC3\xAC an Wikipedia regolar"
+
+? "contact_us"
+: "S'a l'has quals\xC3\xABss\xC3\xACa chestion o coment, p\xC3\xABr pias\xC3\xAC ch'a l'abia pa gena a scrivne a mobile@wikipedia.org"
+
+? "error_page_title"
+: "I l'oma un problema!"
+
+? "search_text"
+: "S\xC3\xABrca"
+
+? "nav_top"
+: "Inissi"
+
+? "author_link"
+: "V\xC3\xABdde cost archivi multimedial dzora na Wikipedia regolar p\xC3\xABr lese j'anformassion su autor, licensa, e le descrission adissionaj."
+
+? "are_you_sure"
+: "Ses-to sicur ?"
+
+? "hide_button"
+: "St\xC3\xABrma"
+
+? "random_button"
+: "A cas"
+

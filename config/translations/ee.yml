@@ -1,17 +1,44 @@
 # Messages for Ewe (Eʋegbe)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Natsubee
-are_you_sure: Wò kã ɖe edzia?
-back_button: Megbe
-contact_us: Ne babia aɖe alo nya aɖe le ame aɖe si la, woatenu aɖoe ɖe mobile@wikipedia.org
-hide_button: Ɣlae
-nav_edit: Trɔ asi le eŋu
-nav_end: Nuwuwu
-nav_top: Dzime
-no_article_found: Womekpɔ Nuŋɔŋlɔ Aɖeke O
-random_button: Ɖesiaɖe ko
-regular_wikipedia: Kpɔ axa sia le Wikipedia ŋutɔ dzi
-search_submit: Yi
-search_text: Dii
-show_button: Fia
+--- %YAML:1.0 
+? "nav_end"
+: "Nuwuwu"
+
+? "nav_edit"
+: "Tr\xC9\x94 asi le e\xC5\x8Bu"
+
+? "back_button"
+: "Megbe"
+
+? "search_submit"
+: "Yi"
+
+? "no_article_found"
+: "Womekp\xC9\x94 Nu\xC5\x8B\xC9\x94\xC5\x8Bl\xC9\x94 A\xC9\x96eke O"
+
+? "show_button"
+: "Fia"
+
+? "regular_wikipedia"
+: "Kp\xC9\x94 axa sia le Wikipedia \xC5\x8But\xC9\x94 dzi"
+
+? "contact_us"
+: "Ne babia a\xC9\x96e alo nya a\xC9\x96e le ame a\xC9\x96e si la, woatenu a\xC9\x96oe \xC9\x96e mobile@wikipedia.org"
+
+? "search_text"
+: "Dii"
+
+? "nav_top"
+: "Dzime"
+
+? "are_you_sure"
+: "W\xC3\xB2 k\xC3\xA3 \xC9\x96e edzia?"
+
+? "hide_button"
+: "\xC6\x94lae"
+
+? "random_button"
+: "\xC6\x89esia\xC9\x96e ko"
+

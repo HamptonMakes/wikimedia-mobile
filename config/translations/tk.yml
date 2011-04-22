@@ -1,6 +1,5 @@
 # Messages for Turkmen (Türkmençe)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Hanberke
-search_submit: Git
-show_button: Görkez
+--- %YAML:1.0 {"search_submit": "Git", "show_button": "G\xC3\xB6rkez"}

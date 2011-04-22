@@ -1,19 +1,84 @@
 # Messages for Slovak (Slovenčina)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Helix84
 # Author: Rudko
-copyright: Tento text je dostupný za podmienok licencie <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; môžu sa naň vzťahovať dodatočné ďalšie podmienky. Podrobnosti nájdete v <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Podmienkach používania</a>. Wikipédia je registrovaná obchodná značka neziskovej organizácie <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>
-error_page_text: Wikipedia mobile je v aktívnom vývoji a my sa snažíme odtrániť všetky naše interné chyby. O tejto chybe sme boli informovaní a problém v krátkosti odstránime. Skúste sa vrátiť o chvíľu!
-error_page_title: Vyskytol sa problém!
-featured_article: Článok dňa
-hide_button: Skryť
-home_button: Hlavná stránka
-in_the_news: V novinkách
-no_article_found: Nenašiel sa žiadny článok
-perm_stop_redirect: Trvalo deaktivovať mobilnú stránku
-random_button: Náhodná
-regular_wikipedia: Zobraziť stránku na klasickej Wikipédii
-search_results: Výsledky vyhľadávania
-search_submit: Ísť na
-show_button: Zobraziť
+--- %YAML:1.0 
+? "wikipedia"
+: "Wikipedia"
+
+? "download_full_version"
+: "Stiahnite si pln\xC3\xBA verziu"
+
+? "nav_end"
+: "Koniec"
+
+? "home_button"
+: "Hlavn\xC3\xA1 str\xC3\xA1nka"
+
+? "copyright"
+: "Tento text je dostupn\xC3\xBD za podmienok licencie <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; m\xC3\xB4\xC5\xBEu sa na\xC5\x88 vz\xC5\xA5ahova\xC5\xA5 dodato\xC4\x8Dn\xC3\xA9 \xC4\x8Fal\xC5\xA1ie podmienky. Podrobnosti n\xC3\xA1jdete v <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Podmienkach pou\xC5\xBE\xC3\xADvania</a>. Wikip\xC3\xA9dia je registrovan\xC3\xA1 obchodn\xC3\xA1 zna\xC4\x8Dka neziskovej organiz\xC3\xA1cie <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>"
+
+? "disable_button"
+: "Deaktivova\xC5\xA5"
+
+? "nav_edit"
+: "Upravi\xC5\xA5"
+
+? "in_the_news"
+: "V novink\xC3\xA1ch"
+
+? "search_results"
+: "V\xC3\xBDsledky vyh\xC4\xBEad\xC3\xA1vania"
+
+? "featured_article"
+: "\xC4\x8Cl\xC3\xA1nok d\xC5\x88a"
+
+? "nav_history"
+: "Hist\xC3\xB3ria"
+
+? "error_page_text"
+: "Wikipedia mobile je v akt\xC3\xADvnom v\xC3\xBDvoji a my sa sna\xC5\xBE\xC3\xADme odtr\xC3\xA1ni\xC5\xA5 v\xC5\xA1etky na\xC5\xA1e intern\xC3\xA9 chyby. O tejto chybe sme boli informovan\xC3\xAD a probl\xC3\xA9m v kr\xC3\xA1tkosti odstr\xC3\xA1nime. Sk\xC3\xBAste sa vr\xC3\xA1ti\xC5\xA5 o chv\xC3\xAD\xC4\xBEu!"
+
+? "file_namespace"
+: "S\xC3\xBAbor"
+
+? "perm_stop_redirect"
+: "Trvalo deaktivova\xC5\xA5 mobiln\xC3\xBA str\xC3\xA1nku"
+
+? "back_button"
+: "Sp\xC3\xA4\xC5\xA5"
+
+? "search_submit"
+: "\xC3\x8Ds\xC5\xA5 na"
+
+? "no_article_found"
+: "Nena\xC5\xA1iel sa \xC5\xBEiadny \xC4\x8Dl\xC3\xA1nok"
+
+? "show_button"
+: "Zobrazi\xC5\xA5"
+
+? "regular_wikipedia"
+: "Zobrazi\xC5\xA5 str\xC3\xA1nku na klasickej Wikip\xC3\xA9dii"
+
+? "contact_us"
+: "Ak m\xC3\xA1te nejak\xC3\xA9 ot\xC3\xA1zky alebo pripomienky pros\xC3\xADm nev\xC3\xA1hajte n\xC3\xA1s kontaktova\xC5\xA5 na mobile@wikipedia.org"
+
+? "error_page_title"
+: "Vyskytol sa probl\xC3\xA9m!"
+
+? "search_text"
+: "Vyh\xC4\xBEad\xC3\xA1vanie"
+
+? "nav_top"
+: "Hore"
+
+? "are_you_sure"
+: "Ste si ist\xC3\xBD?"
+
+? "hide_button"
+: "Skry\xC5\xA5"
+
+? "random_button"
+: "N\xC3\xA1hodn\xC3\xA1"
+

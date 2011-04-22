@@ -1,33 +1,92 @@
 # Messages for Galician (Galego)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Toliño
-are_you_sure: Está seguro?
-author_link: Ollar este ficheiro na Wikipedia normal para ver a información sobre a autoría, a licenza e calquera descrición adicional.
-back_button: Volver
-back_to_top_of_section: Volver ao comezo da sección
-contact_us: Se ten calquera pregunta, comentario ou dúbida, síntase libre de enviarnos un correo electrónico a mobile@wikipedia.org
-copyright: Todo o texto está dispoñible baixo a <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.gl'>licenza Creative Commons recoñecemento compartir igual 3.0</a>; pódense aplicar termos adicionais. Consulte os <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>termos de uso</a> para obter máis información. Wikipedia é unha marca rexistrada da <a href='http://www.wikimediafoundation.org/wiki/Portada_galega'>Wikimedia Foundation, Inc.</a>, unha organización sen fins lucrativos.
-disable_button: Desactivar
-download_full_version: Descargar a versión completa
-error_page_text: Wikipedia móbil aínda está en desenvolvemento activo e estamos a traballar arreo para arranxar os nosos erros internos. Xa se nos avisou deste erro e axiña o resolveremos. Ata a próxima!
-error_page_title: Vaites, temos un problema!
-explain_disable: Está seguro de querer desactivar a versión móbil da Wikipedia? Se escolle a opción "<b>Desactivar</b>", a partir de entón, cando visite a Wikipedia, non será redirixido a esta versión móbil da Wikipedia.
-featured_article: Artigo destacado
-file_namespace: Ficheiro
-hide_button: Agochar
-home_button: Portada
-in_the_news: Actualidade
-nav_edit: Editar
-nav_end: Fin
-nav_history: Historial
-nav_top: Comezo
-no_article_found: Non se atopou ningún artigo
-perm_stop_redirect: Desactivar permanentemente o sitio móbil
-random_button: Ao chou
-regular_wikipedia: Ver esta páxina na Wikipedia normal
-search_results: Resultados da procura
-search_submit: Ir
-search_text: Procurar
-show_button: Mostrar
-wikipedia: Wikipedia
+--- %YAML:1.0 
+? "wikipedia"
+: "Wikipedia"
+
+? "download_full_version"
+: "Descargar a versi\xC3\xB3n completa"
+
+? "nav_end"
+: "Fin"
+
+? "home_button"
+: "Portada"
+
+? "copyright"
+: "Todo o texto est\xC3\xA1 dispo\xC3\xB1ible baixo a <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.gl'>licenza Creative Commons reco\xC3\xB1ecemento compartir igual 3.0</a>; p\xC3\xB3dense aplicar termos adicionais. Consulte os <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>termos de uso</a> para obter m\xC3\xA1is informaci\xC3\xB3n. Wikipedia \xC3\xA9 unha marca rexistrada da <a href='http://www.wikimediafoundation.org/wiki/Portada_galega'>Wikimedia Foundation, Inc.</a>, unha organizaci\xC3\xB3n sen fins lucrativos."
+
+? "disable_button"
+: "Desactivar"
+
+? "nav_edit"
+: "Editar"
+
+? "in_the_news"
+: "Actualidade"
+
+? "search_results"
+: "Resultados da procura"
+
+? "explain_disable"
+: "Est\xC3\xA1 seguro de querer desactivar a versi\xC3\xB3n m\xC3\xB3bil da Wikipedia? Se escolle a opci\xC3\xB3n \"<b>Desactivar</b>\", a partir de ent\xC3\xB3n, cando visite a Wikipedia, non ser\xC3\xA1 redirixido a esta versi\xC3\xB3n m\xC3\xB3bil da Wikipedia."
+
+? "back_to_top_of_section"
+: "Volver ao comezo da secci\xC3\xB3n"
+
+? "featured_article"
+: "Artigo destacado"
+
+? "nav_history"
+: "Historial"
+
+? "error_page_text"
+: "Wikipedia m\xC3\xB3bil a\xC3\xADnda est\xC3\xA1 en desenvolvemento activo e estamos a traballar arreo para arranxar os nosos erros internos. Xa se nos avisou deste erro e axi\xC3\xB1a o resolveremos. Ata a pr\xC3\xB3xima!"
+
+? "file_namespace"
+: "Ficheiro"
+
+? "perm_stop_redirect"
+: "Desactivar permanentemente o sitio m\xC3\xB3bil"
+
+? "back_button"
+: "Volver"
+
+? "search_submit"
+: "Ir"
+
+? "no_article_found"
+: "Non se atopou ning\xC3\xBAn artigo"
+
+? "show_button"
+: "Mostrar"
+
+? "regular_wikipedia"
+: "Ver esta p\xC3\xA1xina na Wikipedia normal"
+
+? "contact_us"
+: "Se ten calquera pregunta, comentario ou d\xC3\xBAbida, s\xC3\xADntase libre de enviarnos un correo electr\xC3\xB3nico a mobile@wikipedia.org"
+
+? "error_page_title"
+: "Vaites, temos un problema!"
+
+? "search_text"
+: "Procurar"
+
+? "nav_top"
+: "Comezo"
+
+? "author_link"
+: "Ollar este ficheiro na Wikipedia normal para ver a informaci\xC3\xB3n sobre a autor\xC3\xADa, a licenza e calquera descrici\xC3\xB3n adicional."
+
+? "are_you_sure"
+: "Est\xC3\xA1 seguro?"
+
+? "hide_button"
+: "Agochar"
+
+? "random_button"
+: "Ao chou"
+

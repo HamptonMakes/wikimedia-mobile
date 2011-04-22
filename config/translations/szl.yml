@@ -1,10 +1,5 @@
 # Messages for Silesian (Ślůnski)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Byulent
-file_namespace: Plik
-home_button: Přodńo zajta
-in_the_news: Nowiny
-nav_edit: Sprowjej
-search_text: Šnupej
-wikipedia: Wikipedyjo
+--- %YAML:1.0 {"wikipedia": "Wikipedyjo", "home_button": "P\xC5\x99od\xC5\x84o zajta", "nav_edit": "Sprowjej", "in_the_news": "Nowiny", "file_namespace": "Plik", "search_text": "\xC5\xA0nupej"}

@@ -1,7 +1,4 @@
 # Messages for Igbo (Igbo)
 # Exported from translatewiki.net
-# Export driver: syck
-hide_button: Zonari
-nav_edit: Rüwa
-search_text: Chöwá
-show_button: Zi
+# Export driver: syck-pecl
+--- %YAML:1.0 {"nav_edit": "R\xC3\xBCwa", "show_button": "Zi", "search_text": "Ch\xC3\xB6w\xC3\xA1", "hide_button": "Zonari"}
