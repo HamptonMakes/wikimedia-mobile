@@ -100,7 +100,7 @@ class Articles < Application
           json = ""
         end
       end
-      send_data json, :format => :json, :disposition => "attachment"
+      send_data json, :type => 'application/json', :filename => 'data.js', :disposition => "attachment"
     else
       case content_type
       when :wml
