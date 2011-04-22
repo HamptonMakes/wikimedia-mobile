@@ -31,7 +31,8 @@ module Parsers
                           "#coordinates",
                           "#top",
                           ".hiddenStructure",
-                          ".noprint"
+                          ".noprint",
+                          "#ogg_player_1"
                         ]
 
       page = article.raw_document || Nokogiri::XML(article.raw_html)

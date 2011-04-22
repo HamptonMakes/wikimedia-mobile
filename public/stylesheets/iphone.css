@@ -274,6 +274,9 @@ button.section_heading.hide {
   background: white;
   padding: 0 5px 5px 5px; }
 
+#ogg_player_1 {
+  display: none; }
+
 #searchbox {
   width: 292px;
   padding: 5px;
