@@ -8,7 +8,6 @@ class Articles < Application
     # This whole block is cached here in the controller
     # instead of the Article level... as articles are done.
     cache_block do
-      
       request.action_name = "home"
       
       # If we have a specific mobile_main_page
@@ -21,6 +20,7 @@ class Articles < Application
         show
         # Rendering is handled by show
       else
+        
         # This is if we have a specific set of selectors for 
         # the general-purpose main page
         if current_wiki['selectors']
