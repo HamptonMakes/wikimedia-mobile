@@ -2,19 +2,23 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Harish
+# Author: Htt
 # Author: Jyothis
 # Author: Mahitgar
 # Author: कोल्हापुरी
 are_you_sure: नक्की?
+author_link: नेहमीच्या विकिपीडीयावर ही मीडिया संचिका पहा. लेखक, परवाने व आणखी विवरण तेथे मिळेल.
 back_button: मागे
 back_to_top_of_section: एक विभाग मागे जा
 contact_us: कोणत्याही प्रश्न  किंवा सुचनांसाठी mobile@wikipedia.org येथे विरोप (इमेल) पाठवा
 copyright: लेख <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>; नुसार उपलब्ध आहेत, अधिक अटी असू शकतात. विशेष माहितीसाठी <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> पाहा. विकीपिडीया हे <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a> या ना-नफा तत्त्वावर चालणार्‍या संस्थेचे नोंदणीकृत व्यवसायचिन्ह आहे.
 disable_button: अक्षम करा
+download_full_version: पूर्ण आवृत्ती उतरवून घ्या
 error_page_text: विकिपीडिया मोबाइल संकेतस्थळ पूर्ण झालेले नाही, आणि आम्ही आमच्या अंतर्गत चुका दुरूस्त करत आहोत. आम्हाला या चुकीबद्दल खबर मिळाली आहे आणि लवकरच ती दुरुस्त केली जाईल . कृपया पुन्हा पाहा!
 error_page_title: काहीतरी विपरित घडले !
 explain_disable: तुम्हाला नक्की विकीपीडिया मोबाईल आवृत्ती अक्षम करायची आहे का? तुम्ही <b>अक्षम</b> केल्यानंतर तुम्ही विकीपीडियाला भेट द्याल तेंव्हा तुम्हाला विकीपीडिया मोबाईल आवृत्तीवर  पाठवले जाणार नाही.
 featured_article: आजचा लेख
+file_namespace: संचिका
 hide_button: लपवा
 home_button: मुखपृष्ठ
 in_the_news: बातम्यांमध्ये

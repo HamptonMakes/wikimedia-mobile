@@ -2,21 +2,32 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Amikeco
-are_you_sure: Æцæгæй?
+# Author: Bouron
+are_you_sure: Æцæг дæ фæнды?
+author_link: Бакæс ацы файл хуымæтæджы Википедийы цæмæй фенай информаци автор, лицензи æмæ æндæр миниуджытыл.
 back_button: Фæстæмæ
+back_to_top_of_section: Раздæх иу хай фæстæмæ
 contact_us: Фыссут нæм мобилон версийы тыххæй мæнæ ацы адрисыл mobile@wikipedia.org
-error_page_text: Мобильная Википедия ещё находится в стадии активной разработки, и мы прилагаем максимум усилий, чтобы исправить все наши внутренние ошибки. Мы были уведомлены об этой ошибке и планируем её вскоре исправить. Пожалуйста, проверьте через некоторое время!
+copyright: Текст у сæрибар<a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a> лицензимæ гæсгæ; гæнæн ис æндæр æм ис. Бæстондæр бакæс <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Пайда гæныны домæнтæ</a>. Wikipedia у<a href='http://www.wikimediafoundation.org/'> Викимеди фондыон</a> регистраци гонд нысан.
+disable_button: Ахицæн кæн
+download_full_version: Раппар æй нæхъæнæй
+error_page_text: Мобилон Википеди нырмадæр кæронмæ арызт нæу, æмæ мах кусæм нæ мидæггаг рæдыддытæ раст кæныныл. Мах фехъусын кодтой ацы рæдыды тыххæй æмæ йæ тагъд хъуамæ сраст кæнæм. Дæ хорзæхæй, фæстæдæр та бафæлвар!
 error_page_title: Цыдæр нæ фæрæстмæ!
+explain_disable: Æцæг дæ фæнды мобилон Википеди ахицæн кæнын? Кæд равзарай <b>Ахицæн кæн</b>, уæд умæй фæстæ Википедимæ куы хизай, уæд нал уыдзæ рвыст ацы мобилон Википедимæ.
+featured_article: Боны сæрмагонд статья
+file_namespace: Файл
 hide_button: Бамбæхс
 home_button: Райдианмæ
-nav_edit: Баив æй
+in_the_news: Нæуæг хабæртты
+nav_edit: Баив
 nav_end: Кæронмæ
 nav_history: Истори
 nav_top: Райдианмæ
-no_article_found: Нæй ахæм статья
-perm_stop_redirect: Отключить мобильный сайт
+no_article_found: Иу статья дæр нæ разынд
+perm_stop_redirect: Мобилон сайт ахицæн кæн!
 random_button: Æнæбары æвзæрст
-regular_wikipedia: Ацы фарс фен хуымæтæджы интерфейсы
+regular_wikipedia: Фен ацы фарс хуымæтæджы Википедийы
+search_results: Агуырды фæстиуæгтæ
 search_submit: Агур
 search_text: Агуырд
 show_button: Равдис

@@ -8,11 +8,13 @@
 # Author: Silvonen
 # Author: Str4nd
 are_you_sure: Oletko varma?
+author_link: Näet tietoa tekijästä, lisensoinnista ja muita lisätietoja katsomalla tämän tiedoston sivua tavallisessa Wikipediassa.
 back_button: Takaisin
 back_to_top_of_section: Palaa takaisin osioon A
 contact_us: Jos sinulla on kysyttävää tai kommentoitavaa, ota yhteyttä sähköpostitse osoitteeseen mobile@wikipedia.org
 copyright: Teksti on saatavilla <a href="http://fi.wikipedia.org/wiki/Wikipedia:Creative_Commons_Attribution-Share_Alike_3.0_Unported_-lisenssiehdot">Creative Commons Attribution/Share-Alike</a> -lisenssillä; lisäehtoja voi sisältyä. Katso <a href="http://wikimediafoundation.org/wiki/Käyttöehdot">käyttöehdot</a>. Wikipedia on <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.:n</a>, voittoa tavoittelemattoman yleishyödyllisen järjestön rekisteröimä tavaramerkki.
 disable_button: Poista käytöstä
+download_full_version: Lataa täysversio
 error_page_text: Wikipedian mobiiliversiota kehitetään jatkuvasti, ja työskentelemme ahkerasti kaikkien sisäisten virheiden korjaamiseksi. Tiedämme tästä virheestä ja korjaamme sen pian. Yritä myöhemmin uudelleen.
 error_page_title: Virhetilanne
 explain_disable: Oletko varma, että haluat poistaa mobiiliversion Wikipediasta? Jos valitset <b>Poista käytöstä</b>, niin tästä lähtien, kun käyt Wikipediassa, et ohjaudu tähän Wikipedian mobiilinäkymään.

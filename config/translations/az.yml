@@ -1,10 +1,21 @@
 # Messages for Azerbaijani (Azərbaycanca)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Cekli829
 # Author: PPerviz
 # Author: Sortilegus
+# Author: Vago
+are_you_sure: Əminsinizmi?
+author_link: Bu media-faylın müəllifi, lisenziyası və haqqında digər məlumatları bilmək üçün ona adi Vikipediyada baxın.
 back_button: Geri
+back_to_top_of_section: Bir bölüm geriyə dön
+contact_us: Əgər hər hansı bir sualınız və ya təklifiniz varsa, lütfən bizə - mobile@wikipedia.org ünvanına e-məktub göndərməkdən çəkinməyin
+copyright: "Mətn <a href=\"http://creativecommons.org/licenses/by-sa/3.0/deed.az\">Creative Commons Attribution/Share-Alike lisenziyası</a> üzrə icazəlidir, xüsusi hallarda digər şərtlər də əlavə ola bilər. Daha ətraflı bax: <a href='http://wikimediafoundation.org/wiki/Terms_of_Use/az'>İstifadə şərtləri</a>. «Wikipedia» — «<a href='http://www.wikimediafoundation.org/'>Vikimediya Fondu</a>» qeyri-kommersiya təşkilatının qeydə alınmış ticarət markasıdır."
+disable_button: Kənarda saxla
+download_full_version: Full Versiyanı yüklə
+error_page_text: Mobil Vikipediya hələ də aktivləşdirilmə mərhələsindədir və bütün daxili səhvlərimizi düzəltmək üçün çalışırıq. Bu xəta haqqında məlumatlandırıldıq və yaxın zamanda düzəldiləcəkdir. Lütfən təkrar yoxlayın!
 error_page_title: Bizim problemimiz var!
+explain_disable: Vikipediyanın mobil versiyasını söndürmək istəməyinizə əminsinizmi? Əgər siz <b>Ayır</b> düyməsini seçsəniz, onda Vikipediyaya növbəti daxil olmada saytın mobil qurğular üçün olan versiyasına istiqamətləndirilməyəcəksiniz.
 featured_article: Günün seçilmiş məqaləsi
 file_namespace: Fayl
 hide_button: Gizlət
@@ -13,8 +24,11 @@ in_the_news: Xəbərlər
 nav_edit: Redaktə
 nav_end: Son
 nav_history: Tarixçə
+nav_top: Ən üst
 no_article_found: Məqalə tapılmadı
+perm_stop_redirect: Mobil saytı istifadəçi olaraq kənarda saxla
 random_button: Təsadüfi
+regular_wikipedia: Bu səhifəni normal Vikipediyada görüntülə
 search_results: Axtarışın nəticələri
 search_submit: Get
 search_text: Axtar

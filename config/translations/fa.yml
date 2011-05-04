@@ -8,13 +8,13 @@ are_you_sure: آیا مطمئن هستید؟
 author_link: نمایش این پرونده رسانه‌ای در ویکی‌پدیای معمولی برای دیدن اطلاعات درباره مؤلف، مجوز و توضیحات اضافی.
 back_button: بازگشت
 back_to_top_of_section: بازگشت به بخش قبلی
-contact_us: در صورت داشتن هرگونه سوال یا نظر لطفا با ایمیل با ما در mobile@wikipedia.org تماس بگیرید.
-copyright: همه نوشته ها تحت <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>مجوز Creative Commons Attribution/Share-Alike</a> قابل دسترسی می باشد ؛ شرایط اضافی ممکن است بعدها اضافه شود. مشاهده <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>قوانین و مقررات استفاده</a> برای جزئیات بیشتر. ویکیپدیا یک علامت تجاری <a href='http://www.wikimediafoundation.org/'>بنیاد ویکیمدیا</a> ، یک سازمان غیر انتفاعی است.
+contact_us: در صورت داشتن هرگونه سوال یا نظر لطفا با ما به نشانی mobile@wikipedia.org تماس بگیرید.
+copyright: همه نوشته ها تحت <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>مجوز Creative Commons Attribution/Share-Alike</a> قابل دسترسی هستند؛ شرایط اضافی ممکن است بعدها اضافه شود. برای جزئیات بیشتر <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>قوانین و مقررات استفاده</a> را ببینید. ویکی‌پدیا یک علامت تجاری ثبت شده <a href='http://www.wikimediafoundation.org/'>بنیاد ویکی‌مدیا</a> است که یک سازمان غیر انتفاعی است.
 disable_button: غیر فعال کردن
 download_full_version: بارگیری نسخه کامل
-error_page_text: نسخه موبایل ویکیپدیا در حال توسعه و گسترش است و به در حال تلاش برای رفع تمامی نواقص و خطاها هستیم . ما در مورد بسیاری از خطاها مطلع هستیم , تمام تلاش خود را برای رفع آن به کار می بریم . بزودی دوباره بررسی کنید !
+error_page_text: نسخه موبایل ویکی‌پدیا در حال توسعه و گسترش است و ما در حال تلاش برای رفع تمامی نواقص و خطاها هستیم. ما در مورد بسیاری از خطاها مطلع هستیم و تمام تلاش خود را برای رفع آن به کار می بریم. لطفاً به زودی مشکل را دوباره بررسی کنید!
 error_page_title: مشکلی رخ داده است!
-explain_disable: آیا مطمئن هستید که می خواهید  نسخه موبایل ویکیپدیا را غیر فعال کنید؟ اگر شما <b>غیر فعال کردن</b> انتخاب کنید ، از این به بعد  ، در زمان مشاهده ویکیپدیا به نسخه موبایل هدایت نخواهید شد..
+explain_disable: آیا مطمئن هستید که می خواهید  نسخه موبایل ویکی‌پدیا را غیر فعال کنید؟ اگر شما <b>غیر فعال کردن</b> را انتخاب کنید، از این به بعد در زمان مشاهده ویکی‌پدیا به نسخه موبایل هدایت نخواهید شد.
 featured_article: مقاله برگزیده امروز
 file_namespace: پرونده
 hide_button: نهفتن
@@ -27,7 +27,7 @@ nav_top: بالا
 no_article_found: مقاله پیدا نشد
 perm_stop_redirect: غیر فعال کردن همیشگی نسخه موبایل
 random_button: تصادفی
-regular_wikipedia: نمایش این صفحه در خود ویکیپدیا
+regular_wikipedia: نمایش این صفحه در خود ویکی‌پدیا
 search_results: نتایج جستجو
 search_submit: برو
 search_text: جستجو

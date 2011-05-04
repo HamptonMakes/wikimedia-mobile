@@ -3,16 +3,20 @@
 # Export driver: syck-pecl
 # Author: Eirik
 # Author: Harald Khan
+# Author: Nghtwlkr
 are_you_sure: Er du sikker?
+author_link: Syn denne mediafila på vanleg Wikipedia for å sjå informasjon om forfattarskap, lisensar og andre bekrivingar.
 back_button: Attende
 back_to_top_of_section: Gå éin bolk tilbake
 contact_us: Om du har spørsmål eller kommentarar, kontakt oss gjerne gjennom e-post på mobile@wikipedia.org.
 copyright: Teksten er tilgjengeleg under <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike-lisensen</a>, med eventuelle tillegg. Sjå <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>vilkåra</a> for detaljar. Wikipedia er eit registrert varemerke som tilhøyrer <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a>, som er ein ideell organisasjon.
 disable_button: Deaktiver
+download_full_version: Last ned fullversjon
 error_page_text: Wikipedia for mobil er framleis under utvikling, og vi jobbar hardt med å fikse alle internfeil. Vi har vorte varsla om denne feilen og vil fikse han snart. Kom gjerne tilbake seinare!
 error_page_title: Vi har eit problem
 explain_disable: Er du sikker på at du ynskjer å avslutte den mobile utgåva av Wikipedia? Om du vel <b>Deaktiver</b>, vil du frå no av, kvar gong du vitjar Wikipedia, ikkje verte omdirigert til denne mobilvisinga av Wikipedia.
 featured_article: Dagens artikkel
+file_namespace: Fil
 hide_button: Gøym
 home_button: Heim
 in_the_news: I nyheitene
