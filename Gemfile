@@ -7,8 +7,8 @@ merb_gems_version = "1.1.3"
 gem "dalli"
 gem "nokogiri", "1.3.3"
 gem "mime-types", :require => "mime/types"
-gem "json", '1.4.6'
-gem "haml", "3.0.21"
+gem "json"
+gem "haml"
 gem "curb"
 
 gem "merb-core",        merb_gems_version
