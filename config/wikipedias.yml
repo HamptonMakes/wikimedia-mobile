@@ -36,9 +36,9 @@ en:
   selectors: &defaults
     featured_article: "#mp-tfa"
     news_items: "#mp-itn"
-    #on_this_day: "#mp-otd"
+    on_this_day: "#mp-otd"
     featured_picture: "#mp-tfp"
-    #facts: "#mp-dyk"
+    facts: "#mp-dyk"
 
 de: 
   main_page: Wikipedia:Hauptseite
@@ -155,7 +155,16 @@ br:
     facts: "#mp-dyk"
     good_article: "#mp-tfga"
     quote_of_the_day: "#mp-qotd"
-
+km:
+  main_page: %2Fwiki%2F%E1%9E%91%E1%9F%86%E1%9E%96%E1%9F%90%E1%9E%9A%E1%9E%8A%E1%9E%BE%E1%9E%98
+  selectors:
+    featured_article: "#mp-tfa"
+    news_items: "#mp-itn"
+    on_this_day: "#mp-otd"
+    featured_picture: "#mp-tfp"
+    facts: "#mp-dyk"
+    good_article: "#mp-tfga"
+    quote_of_the_day: "#mp-qotd"
 tr:
   mobile_main_page: Vikipedi:Ana_Sayfa_%28mobil%29
 it: 
