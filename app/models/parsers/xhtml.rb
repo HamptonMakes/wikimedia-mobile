@@ -32,7 +32,8 @@ module Parsers
                           "#top",
                           ".hiddenStructure",
                           ".noprint",
-                          "#ogg_player_1"
+                          "#ogg_player_1",
+                          ".nomobile"
                         ]
 
       page = article.raw_document || Nokogiri::XML(article.raw_html)
