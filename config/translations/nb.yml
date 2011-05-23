@@ -2,13 +2,13 @@
 <html lang=en dir=ltr>
 <title>Translate - translatewiki.net</title>
 <meta charset=UTF-8>
-<meta name=generator content="MediaWiki 1.18alpha">
+<meta name=generator content="MediaWiki 1.19alpha">
 <meta name=robots content=noindex,nofollow>
 <link rel="shortcut icon" href="/favicon.ico">
 <link rel=search type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title=Translatewiki.net>
 <link rel=EditURI type="application/rsd+xml" href="http://translatewiki.net/w/api.php?action=rsd">
-<link rel=alternate type="application/atom+xml" title="translatewiki.net Atom feed" href="/w/i.php?title=Special:RecentChanges&amp;feed=atom">
-<link rel=stylesheet href="/w/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%7Cmediawiki.legacy.shared%7Cskins.vector&amp;only=styles&amp;skin=vector">
+<link rel=alternate type="application/atom+xml" title="translatewiki.net Atom feed" href="/wiki/Special:RecentChanges?feed=atom">
+<link rel=stylesheet href="/w/load.php?debug=false&amp;lang=en&amp;modules=mediawiki%21legacy%21commonPrint%2Cshared%7Cskins%21vector&amp;only=styles&amp;skin=vector">
 <meta name=ResourceLoaderDynamicStyles content="">
 <link rel=stylesheet href="/w/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector">
 <style>a.new,#quickbar a.new{color:#ba0000}
@@ -16,7 +16,7 @@
 /* cache key: mediawiki-bw_:resourceloader:filter:minify-css:4:f2a9127573a22335c2a9102b208c73e7 */</style>
 <script src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
 <script>if ( window.mediaWiki ) {
-	mediaWiki.config.set({"wgCanonicalNamespace": "Special", "wgCanonicalSpecialPageName": "Translate", "wgNamespaceNumber": -1, "wgPageName": "Special:Translate", "wgTitle": "Translate", "wgCurRevisionId": 0, "wgArticleId": 0, "wgIsArticle": false, "wgAction": "view", "wgUserName": null, "wgUserGroups": ["*"], "wgCategories": [], "wgBreakFrames": true, "wgIsMainPage": false, "wgSearchNamespaces": [0, 1214, 1242, 1236, 1202, 1218, 1228, 1210, 8, 1230, 1212, 1204, 1220, 1234, 1216, 1222, 1238, 1226, 1208, 1240, 1200, 1232, 1206, 1224], "wgVectorEnabledModules": {"collapsiblenav": true, "collapsibletabs": true, "editwarning": false, "expandablesearch": false, "footercleanup": false, "sectioneditlinks": false, "simplesearch": true, "experiments": true}, "wgNarayamAvailableSchemes": []});
+	mw.config.set({"wgCanonicalNamespace": "Special", "wgCanonicalSpecialPageName": "Translate", "wgNamespaceNumber": -1, "wgPageName": "Special:Translate", "wgTitle": "Translate", "wgCurRevisionId": 0, "wgArticleId": 0, "wgIsArticle": false, "wgAction": "view", "wgUserName": null, "wgUserGroups": ["*"], "wgCategories": [], "wgBreakFrames": true, "wgIsMainPage": false, "wgSearchNamespaces": [0, 1214, 1242, 1236, 1202, 1218, 1228, 1210, 8, 1230, 1212, 1204, 1220, 1234, 1216, 1222, 1238, 1226, 1208, 1240, 1200, 1232, 1206, 1224], "wgWebFonts": {"fonts": {"RufScript": {"eot": "/w/extensions/WebFonts/fonts/en/Rufscript.eot", "ttf": "/w/extensions/WebFonts/fonts/en/Rufscript.ttf", "woff": "/w/extensions/WebFonts/fonts/en/Rufscript.woff"}, "Perizia": {"eot": "/w/extensions/WebFonts/fonts/en/Perizia.eot", "ttf": "/w/extensions/WebFonts/fonts/en/Perizia.ttf", "woff": "/w/extensions/WebFonts/fonts/en/Perizia.woff"}, "Ubuntu": {"eot": "/w/extensions/WebFonts/fonts/en/ubuntu-r-webfont.eot", "ttf": "/w/extensions/WebFonts/fonts/en/ubuntu-r.ttf", "woff": "/w/extensions/WebFonts/fonts/en/ubuntu-r-webfont.woff", "svg": "/w/extensions/WebFonts/fonts/en/ubuntu-r-webfont.svg"}, "AnjaliOldLipi": {"eot": "/w/extensions/WebFonts/fonts/ml/AnjaliOldLipi.eot", "ttf": "/w/extensions/WebFonts/fonts/ml/AnjaliOldLipi.ttf", "woff": "/w/extensions/WebFonts/fonts/ml/AnjaliOldLipi.woff"}, "Meera": {"eot": "/w/extensions/WebFonts/fonts/ml/Meera.eot", "ttf": "/w/extensions/WebFonts/fonts/ml/Meera.ttf", "woff": "/w/extensions/WebFonts/fonts/ml/Meera.woff", "scale": 1.5, "normalization": {"ൾ": "ള്\u200d", "ൻ": "ന്\u200d", "ർ": "ര്\u200d", "ൺ ": "ണ്\u200d", "ൽ": "ല്\u200d", "ൿ": "ക്\u200d ", "ൻ\u200dറ": "ന്റ", "ന്\u200dറെ": "ന്റെ"}}, "Rachana": {"eot": "/w/extensions/WebFonts/fonts/ml/Rachana.eot", "ttf": "/w/extensions/WebFonts/fonts/ml/Rachana.ttf", "woff": "/w/extensions/WebFonts/fonts/ml/Rachana.woff", "normalization": {"ൾ": "ള്\u200d", "ൻ": "ന്\u200d", "ർ": "ര്\u200d", "ൺ ": "ണ്\u200d", "ൽ": "ല്\u200d", "ൿ": "ക്\u200d ", "ൻ\u200dറ": "ന്റ", "ന്\u200dറെ": "ന്റെ"}}, "RaghuMalayalam": {"eot": "/w/extensions/WebFonts/fonts/ml/RaghuMalayalam.eot", "ttf": "/w/extensions/WebFonts/fonts/ml/RaghuMalayalam.ttf", "woff": "/w/extensions/WebFonts/fonts/ml/RaghuMalayalam.woff", "normalization": {"ൾ": "ള്\u200d", "ൻ": "ന്\u200d", "ർ": "ര്\u200d", "ൺ ": "ണ്\u200d", "ൽ": "ല്\u200d", "ൿ": "ക്\u200d ", "ൻ\u200dറ": "ന്റ", "ന്\u200dറെ": "ന്റെ"}}, "Lohit Oriya": {"eot": "/w/extensions/WebFonts/fonts/or/Lohit-Oriya.eot", "ttf": "/w/extensions/WebFonts/fonts/or/Lohit-Oriya.ttf", "woff": "/w/extensions/WebFonts/fonts/or/Lohit-Oriya.woff"}, "Lohit Tamil": {"eot": "/w/extensions/WebFonts/fonts/ta/Lohit-Tamil.eot", "ttf": "/w/extensions/WebFonts/fonts/ta/Lohit-Tamil.ttf", "woff": "/w/extensions/WebFonts/fonts/ta/Lohit-Tamil.woff"}, "Lohit Telugu": {"eot": "/w/extensions/WebFonts/fonts/te/LohitTelugu.eot", "ttf": "/w/extensions/WebFonts/fonts/te/LohitTelugu.ttf", "woff": "/w/extensions/WebFonts/fonts/te/LohitTelugu.woff"}, "Lohit Bengali": {"eot": "/w/extensions/WebFonts/fonts/bn/LohitBengali.eot", "ttf": "/w/extensions/WebFonts/fonts/bn/LohitBengali.ttf", "woff": "/w/extensions/WebFonts/fonts/bn/LohitBengali.woff"}, "Samyak Gujarati": {"eot": "/w/extensions/WebFonts/fonts/gu/SamyakGujarati.eot", "ttf": "/w/extensions/WebFonts/fonts/gu/SamyakGujarati.ttf", "woff": "/w/extensions/WebFonts/fonts/gu/SamyakGujarati.woff"}, "Lohit Hindi": {"eot": "/w/extensions/WebFonts/fonts/hi/LohitHindi.eot", "ttf": "/w/extensions/WebFonts/fonts/hi/LohitHindi.ttf", "woff": "/w/extensions/WebFonts/fonts/hi/LohitHindi.woff"}, "Samyak Devanagari": {"eot": "/w/extensions/WebFonts/fonts/hi/SamyakDevanagari.eot", "ttf": "/w/extensions/WebFonts/fonts/hi/SamyakDevanagari.ttf", "woff": "/w/extensions/WebFonts/fonts/hi/SamyakDevanagari.woff"}, "David CLM": {"eot": "/w/extensions/WebFonts/fonts/he/DavidCLM-Medium.eot", "ttf": "/w/extensions/WebFonts/fonts/he/DavidCLM-Medium.ttf", "woff": "/w/extensions/WebFonts/fonts/he/DavidCLM-Medium.woff"}, "Hadasim CLM": {"eot": "/w/extensions/WebFonts/fonts/he/HadasimCLM-Regular.eot", "ttf": "/w/extensions/WebFonts/fonts/he/HadasimCLM-Regular.ttf", "woff": "/w/extensions/WebFonts/fonts/he/HadasimCLM-Regular.woff"}, "Ezra SIL": {"eot": "/w/extensions/WebFonts/fonts/he/EzraSILSR.eot", "ttf": "/w/extensions/WebFonts/fonts/he/EzraSILSR.ttf", "woff": "/w/extensions/WebFonts/fonts/he/EzraSILSR.woff"}, "Taamey Frank CLM": {"eot": "/w/extensions/WebFonts/fonts/he/TaameyFrankCLM.eot", "ttf": "/w/extensions/WebFonts/fonts/he/TaameyFrankCLM.ttf", "woff": "/w/extensions/WebFonts/fonts/he/TaameyFrankCLM.woff", "svg": "/w/extensions/WebFonts/fonts/he/TaameyFrankCLM.svg"}, "Kedage": {"eot": "/w/extensions/WebFonts/fonts/kn/Kedage.eot", "ttf": "/w/extensions/WebFonts/fonts/kn/Kedage.ttf", "woff": "/w/extensions/WebFonts/fonts/kn/Kedage.woff"}, "Lohit Kannada": {"eot": "/w/extensions/WebFonts/fonts/kn/LohitKannada.eot", "ttf": "/w/extensions/WebFonts/fonts/kn/LohitKannada.ttf", "woff": "/w/extensions/WebFonts/fonts/kn/LohitKannada.woff"}, "Masterpiece Uni Sans": {"eot": "/w/extensions/WebFonts/fonts/my/MasterpieceUniSans.eot", "ttf": "/w/extensions/WebFonts/fonts/my/MasterpieceUniSans.ttf", "woff": "/w/extensions/WebFonts/fonts/my/MasterpieceUniSans.woff", "svg": "/w/extensions/WebFonts/fonts/my/MasterpieceUniSans.svg"}, "Padauk-Regular": {"eot": "/w/extensions/WebFonts/fonts/my/Padauk-Regular.eot", "ttf": "/w/extensions/WebFonts/fonts/my/Padauk-Regular.ttf", "woff": "/w/extensions/WebFonts/fonts/my/Padauk-Regular.woff", "svg": "/w/extensions/WebFonts/fonts/my/Padauk-Regular.svg"}, "Myanmar3": {"eot": "/w/extensions/WebFonts/fonts/my/Myanmar3.eot", "ttf": "/w/extensions/WebFonts/fonts/my/Myanmar3.ttf", "woff": "/w/extensions/WebFonts/fonts/my/Myanmar3.woff", "svg": "/w/extensions/WebFonts/fonts/my/Myanmar3.svg"}, "Yunghkio": {"eot": "/w/extensions/WebFonts/fonts/my/Yunghkio.eot", "ttf": "/w/extensions/WebFonts/fonts/my/Yunghkio.ttf", "woff": "/w/extensions/WebFonts/fonts/my/Yunghkio.woff", "svg": "/w/extensions/WebFonts/fonts/my/Yunghkio.svg"}, "KhmerOSbattambang": {"eot": "/w/extensions/WebFonts/fonts/km/KhmerOSbattambang.eot", "ttf": "/w/extensions/WebFonts/fonts/km/KhmerOSbattambang.ttf", "woff": "/w/extensions/WebFonts/fonts/km/KhmerOSbattambang.woff", "svg": "/w/extensions/WebFonts/fonts/km/KhmerOSbattambang.svg"}, "KhmerOSbokor": {"eot": "/w/extensions/WebFonts/fonts/km/KhmerOSbokor.eot", "ttf": "/w/extensions/WebFonts/fonts/km/KhmerOSbokor.ttf", "woff": "/w/extensions/WebFonts/fonts/km/KhmerOSbokor.woff", "svg": "/w/extensions/WebFonts/fonts/km/KhmerOSbokor.svg"}, "KhmerOS": {"eot": "/w/extensions/WebFonts/fonts/km/KhmerOS.eot", "ttf": "/w/extensions/WebFonts/fonts/km/KhmerOS.ttf", "woff": "/w/extensions/WebFonts/fonts/km/KhmerOS.woff", "svg": "/w/extensions/WebFonts/fonts/km/KhmerOS.svg"}, "KhmerOSsiemreap": {"eot": "/w/extensions/WebFonts/fonts/km/KhmerOSsiemreap.eot", "ttf": "/w/extensions/WebFonts/fonts/km/KhmerOSsiemreap.ttf", "woff": "/w/extensions/WebFonts/fonts/km/KhmerOSsiemreap.woff", "svg": "/w/extensions/WebFonts/fonts/km/KhmerOSsiemreap.svg"}, "KhmerOSmuollight": {"eot": "/w/extensions/WebFonts/fonts/km/KhmerOSmuollight.eot", "ttf": "/w/extensions/WebFonts/fonts/km/KhmerOSmuollight.ttf", "woff": "/w/extensions/WebFonts/fonts/km/KhmerOSmuollight.woff", "svg": "/w/extensions/WebFonts/fonts/km/KhmerOSmuollight.svg"}, "KhmerOSmuol": {"eot": "/w/extensions/WebFonts/fonts/km/KhmerOSmuol.eot", "ttf": "/w/extensions/WebFonts/fonts/km/KhmerOSmuol.ttf", "woff": "/w/extensions/WebFonts/fonts/km/KhmerOSmuol.woff", "svg": "/w/extensions/WebFonts/fonts/km/KhmerOSmuol.svg"}, "KhmerOSmuolpali": {"eot": "/w/extensions/WebFonts/fonts/km/KhmerOSmuolpali.eot", "ttf": "/w/extensions/WebFonts/fonts/km/KhmerOSmuolpali.ttf", "woff": "/w/extensions/WebFonts/fonts/km/KhmerOSmuolpali.woff", "svg": "/w/extensions/WebFonts/fonts/km/KhmerOSmuolpali.svg"}, "KhmerOSfreehand": {"eot": "/w/extensions/WebFonts/fonts/km/KhmerOSfreehand.eot", "ttf": "/w/extensions/WebFonts/fonts/km/KhmerOSfreehand.ttf", "woff": "/w/extensions/WebFonts/fonts/km/KhmerOSfreehand.woff", "svg": "/w/extensions/WebFonts/fonts/km/KhmerOSfreehand.svg"}, "KhmerOSfasthand": {"eot": "/w/extensions/WebFonts/fonts/km/KhmerOSfasthand.eot", "ttf": "/w/extensions/WebFonts/fonts/km/KhmerOSfasthand.ttf", "woff": "/w/extensions/WebFonts/fonts/km/KhmerOSfasthand.woff", "svg": "/w/extensions/WebFonts/fonts/km/KhmerOSfasthand.svg"}, "Pagul": {"eot": "/w/extensions/WebFonts/fonts/saz/Pagul.eot", "ttf": "/w/extensions/WebFonts/fonts/saz/Pagul.ttf", "woff": "/w/extensions/WebFonts/fonts/saz/Pagul.woff"}, "AbyssinicaSIL": {"eot": "/w/extensions/WebFonts/fonts/gez/AbyssinicaSIL-R.eot", "ttf": "/w/extensions/WebFonts/fonts/gez/AbyssinicaSIL-R.ttf", "woff": "/w/extensions/WebFonts/fonts/gez/AbyssinicaSIL-R.woff"}}, "languages": {"ml": ["AnjaliOldLipi", "Meera", "Rachana", "RaghuMalayalam"], "or": ["Lohit Oriya"], "ta": ["Lohit Tamil"], "te": ["Lohit Telugu"], "bn": ["Lohit Bengali"], "as": ["Lohit Bengali"], "gu": ["Samyak Gujarati"], "hi": ["Samyak Devanagari", "Lohit Hindi"], "mr": ["Samyak Devanagari", "Lohit Hindi"], "ks": ["Samyak Devanagari", "Lohit Hindi"], "he": ["Ezra SIL", "David CLM", "Hadasim CLM", "Taamey Frank CLM"], "kn": ["Kedage", "Lohit Kannada"], "my": ["Masterpiece Uni Sans", "Padauk-Regular", "Myanmar3", "Yunghkio"], "km": ["KhmerOSbattambang", "KhmerOSsiemreap", "KhmerOS", "KhmerOSbokor", "KhmerOSmuollight", "KhmerOSmuol", "KhmerOSmuolpali", "KhmerOSfreehand", "KhmerOSfasthand"], "saz": ["Pagul"], "am": ["AbyssinicaSIL"], "ti": ["AbyssinicaSIL"]}}, "wgWebFontsAvailable": [], "wgVectorEnabledModules": {"collapsiblenav": true, "collapsibletabs": true, "editwarning": false, "expandablesearch": false, "footercleanup": false, "sectioneditlinks": false, "simplesearch": true, "experiments": true}, "wgNarayamAvailableSchemes": []});
 }
 </script>
 <!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/skins/vector/csshover.min.htc")}</style><![endif]--><body class="mediawiki ltr ns--1 ns-special mw-special-Translate page-Special_Translate skin-vector">
@@ -28,8 +28,8 @@
 			<div id="mw-js-message" style="display:none;"></div>
 						<!-- sitenotice -->
 			<div id="siteNotice"><div id="localNotice"><div style="text-align:center;font-size:x-small;" class="plainlinks ltr" dir="ltr">
-<p>2011-05-01: The <a href="/wiki/Thread:Project_talk:Rally-2011-04/Results" title="Thread:Project talk:Rally-2011-04/Results">April 2011 Translation Rally has great results</a>. Thank you to all participants!<br/>
-2011-04-20: translatewiki.net staff has mailed out its <a href="/wiki/Project:News/Newsletter_2011-04" title="Project:News/Newsletter 2011-04">April 2011 newsletter</a>. You did not get it? <a href="/wiki/Special:Preferences" title=Special:Preferences>Confirm your e-mail address</a>! (<a href="/wiki/Project:News" title=Project:News>Other news...</a>)
+<p>2011-05-17: The <a href="/wiki/Special:Translate/core-0-mostused" title="Special:Translate/core-0-mostused">most often used messages for MediaWiki</a> have been updated. Make sure they have been translated!<br/>
+2011-05-11: Please help in translating the <a href="/wiki/Special:Translate/ext-uploadwizard" title="Special:Translate/ext-uploadwizard">MediaWiki Upload Wizard</a>. (<a href="/wiki/Project:News" title=Project:News>Other news...</a>)
 </p>
 </div>
 </div></div>
@@ -58,8 +58,10 @@
 <option value="export-as-po">Export translations for off-line translation</option>
 <option value="export-to-file" selected="selected">Export translations to file</option></select></td></tr><tr><td><label for="group">Group</label></td><td><select name="group" id="group"><option value="core">MediaWiki</option>
 <option value="core-0-mostused">MediaWiki (most used)</option>
+<option value="core-0-mostused-old">MediaWiki (most used - 2009)</option>
 <option value="core-1.16">MediaWiki 1.16</option>
 <option value="core-1.17">MediaWiki 1.17</option>
+<option value="core-1.18">MediaWiki 1.18</option>
 <option value="ext-0-all">MediaWiki extensions</option>
 <option value="ext-0-wikimedia">Extensions used by Wikimedia</option>
 <option value="ext-0-wikimedia-main">Extensions used by Wikimedia - Main</option>
@@ -79,6 +81,7 @@
 <option value="ext-antibot">Anti Bot</option>
 <option value="ext-antispoof">Anti Spoof</option>
 <option value="ext-apc">APC</option>
+<option value="ext-apisandbox">Api Sandbox</option>
 <option value="ext-apisvgproxy">Api SVG Proxy</option>
 <option value="ext-approvedrevs">Approved Revs</option>
 <option value="ext-arrayextension">Array Extension</option>
@@ -181,6 +184,7 @@
 <option value="ext-editsimilar">Edit Similar</option>
 <option value="ext-editsubpages">Edit Subpages</option>
 <option value="ext-edituser">Edit User</option>
+<option value="ext-elmeasyref">Elm Easy Ref</option>
 <option value="ext-emailaddressimage">Email Address Image</option>
 <option value="ext-emailcapture">Email Capture</option>
 <option value="ext-emailpage">Email Page</option>
@@ -198,7 +202,6 @@
 <option value="ext-fileattach">File Attach</option>
 <option value="ext-filepagemasking">File Page Masking</option>
 <option value="ext-findspam">Find Spam</option>
-<option value="ext-firefoggchunkedupload">Firefogg Chunked Upload</option>
 <option value="ext-fixedimage">Fixed Image</option>
 <option value="ext-flaggedrevs-0-all">All Flagged Revs messages</option>
 <option value="ext-flaggedrevs-configuredpages">Flagged Revisions - Configured Pages</option>
@@ -337,9 +340,11 @@
 <option value="ext-povwatch">POV Watch</option>
 <option value="ext-prefstats">Pref Stats</option>
 <option value="ext-preloader">Preloader</option>
+<option value="ext-privatedomains">Private Domains</option>
 <option value="ext-profilemonitor">Profile Monitor</option>
 <option value="ext-proofreadpage">Proofread Page</option>
 <option value="ext-protectsection">Protect Section</option>
+<option value="ext-protectsite">Protect Site</option>
 <option value="ext-proxyconnect">Proxy Connect</option>
 <option value="ext-psinotocnum">PSI NoTocNum</option>
 <option value="ext-purewikideletion">Pure Wiki Deletion</option>
@@ -370,6 +375,7 @@
 <option value="ext-replaceset">Replace Set</option>
 <option value="ext-replacetext">Replace Text</option>
 <option value="ext-researchtools">Research Tools</option>
+<option value="ext-resumableupload">Resumable Upload</option>
 <option value="ext-rightfunctions">Right Functions</option>
 <option value="ext-rped">RPED</option>
 <option value="ext-rss">RSS</option>
@@ -391,6 +397,7 @@
 <option value="ext-semanticprojectmanagement">Semantic Project Management</option>
 <option value="ext-semanticresultformats">Semantic Result Formats</option>
 <option value="ext-semantictasks">Semantic Tasks</option>
+<option value="ext-semanticwatchlist">Semantic Watchlist</option>
 <option value="ext-sendmailtowiki">Sendmail To Wiki</option>
 <option value="ext-shareduserrights">Shared User Rights</option>
 <option value="ext-showprocesslist">Show Processlist</option>
@@ -500,6 +507,7 @@
 <option value="ext-webstore">Web Store</option>
 <option value="ext-whatismyip">What Is My IP</option>
 <option value="ext-whitelistedit">White List Edit</option>
+<option value="ext-whitelistpages">Whitelist Pages</option>
 <option value="ext-whoiswatching">Who Is Watching</option>
 <option value="ext-whosonline">Whos Online</option>
 <option value="ext-widgets">Widgets</option>
@@ -508,15 +516,18 @@
 <option value="ext-wikibhasha">WikiBhasha</option>
 <option value="ext-wikidata">Wikidata</option>
 <option value="ext-wikieditor">WikiEditor</option>
+<option value="ext-wikiforum">Wiki Forum</option>
 <option value="ext-wikihiero">Wikihiero</option>
 <option value="ext-wikilog">Wikilog</option>
 <option value="ext-wikilogfeed">Wikilog Feed</option>
+<option value="ext-wikilove">Wiki Love</option>
 <option value="ext-wikimediaincubator">Wikimedia Incubator</option>
 <option value="ext-wikimedialicensetexts">Wikimedia License Texts</option>
 <option value="ext-wikimediamessages">Wikimedia Messages</option>
 <option value="ext-wikimediamobile">Wikimedia Mobile</option>
 <option value="ext-wikisync">Wiki Sync</option>
 <option value="ext-wikitextloggedinout">Wiki Text Logged In Out</option>
+<option value="ext-wikitweet">Wiki Tweet</option>
 <option value="ext-woopra">Woopra</option>
 <option value="ext-xmlrc">XMLRC</option>
 <option value="ext-youtube">YouTube</option>
@@ -781,6 +792,7 @@
 <option value="out-statusnet-plugin-directory">StatusNet - Directory</option>
 <option value="out-statusnet-plugin-diskcache">StatusNet - DiskCache</option>
 <option value="out-statusnet-plugin-disqus">StatusNet - Disqus</option>
+<option value="out-statusnet-plugin-domainstatusnetwork">StatusNet - DomainStatusNetwork</option>
 <option value="out-statusnet-plugin-domainwhitelist">StatusNet - DomainWhitelist</option>
 <option value="out-statusnet-plugin-echo">StatusNet - Echo</option>
 <option value="out-statusnet-plugin-emailauthentication">StatusNet - EmailAuthentication</option>
@@ -804,6 +816,7 @@
 <option value="out-statusnet-plugin-irc">StatusNet - Irc</option>
 <option value="out-statusnet-plugin-ldapauthentication">StatusNet - LdapAuthentication</option>
 <option value="out-statusnet-plugin-ldapauthorization">StatusNet - LdapAuthorization</option>
+<option value="out-statusnet-plugin-ldapcommon">StatusNet - LdapCommon</option>
 <option value="out-statusnet-plugin-lilurl">StatusNet - LilUrl</option>
 <option value="out-statusnet-plugin-linkback">StatusNet - Linkback</option>
 <option value="out-statusnet-plugin-linkpreview">StatusNet - LinkPreview</option>
@@ -822,6 +835,7 @@
 <option value="out-statusnet-plugin-openexternallinktarget">StatusNet - OpenExternalLinkTarget</option>
 <option value="out-statusnet-plugin-openid">StatusNet - OpenID</option>
 <option value="out-statusnet-plugin-openx">StatusNet - OpenX</option>
+<option value="out-statusnet-plugin-orbited">StatusNet - Orbited</option>
 <option value="out-statusnet-plugin-ostatus">StatusNet - OStatus</option>
 <option value="out-statusnet-plugin-piwikanalytics">StatusNet - PiwikAnalytics</option>
 <option value="out-statusnet-plugin-poll">StatusNet - Poll</option>
@@ -908,6 +922,7 @@
 <option value="wikia-createnewwiki">Create New Wiki</option>
 <option value="wikia-createpage">Create Page</option>
 <option value="wikia-editaccount">Edit Account</option>
+<option value="wikia-editpagelayout">Edit Page Layout</option>
 <option value="wikia-ezapi">Ez API</option>
 <option value="wikia-follow">Follow</option>
 <option value="wikia-founderemails">Founder Emails</option>
@@ -925,6 +940,9 @@
 <option value="wikia-logger">Logger</option>
 <option value="wikia-lookupcontribs">Lookup Contribs</option>
 <option value="wikia-masthead">Masthead</option>
+<option value="wikia-mobile-gameguides">Mobile - Game Guides</option>
+<option value="wikia-mobile-lyricwiki">Mobile - Lyric Wiki</option>
+<option value="wikia-mobile-wikiapad">Mobile - Wikia Pad</option>
 <option value="wikia-mostpopularcategories">Most Popular Categories</option>
 <option value="wikia-mostvisitedpages">Most Visited Pages</option>
 <option value="wikia-multitasks">Multi Tasks</option>
@@ -1029,6 +1047,7 @@
 <option value="bfq">bfq - படகா</option>
 <option value="bg">bg - Bulgarian</option>
 <option value="bh">bh - Bihari</option>
+<option value="bho">bho - Bhojpuri</option>
 <option value="bi">bi - Bislama</option>
 <option value="bjn">bjn - Bahasa Banjar</option>
 <option value="bm">bm - Bambara</option>
@@ -1438,11 +1457,11 @@ Reason:
 				<div class="printfooter">
 				Retrieved from "<a href="http://translatewiki.net/wiki/Special:Translate">http://translatewiki.net/wiki/Special:Translate</a>"				</div>
 				<!-- /printfooter -->
-								<!-- debughtml -->
-								<!-- /debughtml -->
-								<!-- catlinks -->
+												<!-- catlinks -->
 				<div id='catlinks' class='catlinks catlinks-allhidden'></div>				<!-- /catlinks -->
 												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
 			</div>
 			<!-- /bodyContent -->
 		</div>
@@ -1454,7 +1473,7 @@ Reason:
 <div id="p-personal" class="">
 	<h5>Personal tools</h5>
 	<ul>
-		<li id=pt-login><a href="/w/i.php?title=Special:UserLogin&amp;returnto=Special:Translate&amp;returntoquery=task%3Dexport-to-file%26group%3Dout-wikimediamobile%26language%3Dnb" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey=o>Log in / create account</a>
+		<li id=pt-login><a href="/wiki/Special:UserLogin?returnto=Special:Translate&amp;returntoquery=task%3Dexport-to-file%26group%3Dout-wikimediamobile%26language%3Dnb" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey=o>Log in / create account</a>
 	</ul>
 </div>
 
@@ -1521,7 +1540,7 @@ Reason:
 		<!-- panel -->
 			<div id="mw-panel" class="noprint">
 				<!-- logo -->
-					<div id="p-logo"><a style="background-image: url(//translatewiki.net/static/logo.png);" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+					<div id="p-logo"><a style="background-image: url(//translatewiki.net/static/logo.png);" href="/wiki/Main_Page" Array></a></div>
 				<!-- /logo -->
 				
 <!-- SEARCH -->
@@ -1534,9 +1553,9 @@ Reason:
 	<div class="body">
 		<ul>
 			<li id=n-bw-sidebar-intro><a href="/wiki/Special:FirstSteps">Introduction</a>
-			<li id=n-bw-sidebar-translate><a href="http://translatewiki.net/w/i.php?title=Special:LanguageStats&amp;suppresscomplete=1">Translation tool</a>
+			<li id=n-bw-sidebar-translate><a href="http://translatewiki.net/wiki/Special:LanguageStats?suppresscomplete=1">Translation tool</a>
 			<li id=n-bw-sidebar-portal><a href="/wiki/Portal:En">Portal for English</a>
-			<li id=n-bw-sidebar-changes-lang><a href="http://translatewiki.net/w/i.php?title=Special:RecentChanges&amp;translations=only&amp;trailer=/en">Translations in English</a>
+			<li id=n-bw-sidebar-changes-lang><a href="http://translatewiki.net/wiki/Special:RecentChanges?translations=only&amp;trailer=/en">Translations in English</a>
 			<li id=n-bw-sidebar-languages><a href="/wiki/Translating:Languages">Maintained languages</a>
 		</ul>
 	</div>
@@ -1553,7 +1572,7 @@ Reason:
 			<li id=n-bw-sidebar-news><a href="/wiki/Project:News">News</a>
 			<li id=n-bw-mainpage-support-title><a href="/wiki/Support">Support</a>
 			<li id=n-bw-sidebar-chat><a href="/wiki/Special:WebChat">Chat</a>
-			<li id=n-bw-sidebar-changes-wiki><a href="http://translatewiki.net/w/i.php?title=Special:RecentChanges&amp;translations=filter">Site changes</a>
+			<li id=n-bw-sidebar-changes-wiki><a href="http://translatewiki.net/wiki/Special:RecentChanges?translations=filter">Site changes</a>
 		</ul>
 	</div>
 </div>
@@ -1616,19 +1635,18 @@ src="//pagead2.googleadservices.com/pagead/show_ads.js">
 		<!-- fixalpha -->
 		<script type="text/javascript"> if ( window.isMSIE55 ) fixalpha(); </script>
 		<!-- /fixalpha -->
-		<script src="/w/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector"></script>
+		<script src="/w/load.php?debug=false&amp;lang=en&amp;modules=skins%21vector&amp;only=scripts&amp;skin=vector"></script>
 <script>if ( window.mediaWiki ) {
-	mw.loader.load(["ext.translate.special.translate", "mediawiki.util", "mediawiki.legacy.wikibits", "mediawiki.legacy.ajax", "mediawiki.legacy.mwsuggest", "ext.vector.collapsibleNav", "ext.vector.collapsibleTabs", "ext.vector.simpleSearch"]);
-	mw.loader.go();
+	mw.loader.load(["ext.translate.special.translate", "mediawiki.user", "mediawiki.util", "mediawiki.action.view.tablesorting", "mediawiki.legacy.wikibits", "mediawiki.legacy.ajax", "mediawiki.legacy.mwsuggest", "webfonts", "ext.vector.collapsibleNav", "ext.vector.collapsibleTabs", "ext.vector.simpleSearch"]);
 }
 </script>
 <script src="/w/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector"></script>
 <script>if ( window.mediaWiki ) {
 	mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":1,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":1,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,
 	"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"translate":0,"translate-editlangs":"default","translate-jsedit":1,"lqtnotifytalk":false,"lqtdisplaydepth":5,"lqtdisplaycount":25,"lqtcustomsignatures":true,"lqt-watch-threads":true,"vector-simplesearch":1,"variant":"en","language":"en","searchNs0":true,"searchNs14":false,"searchNs15":false,"searchNs6":false,"searchNs7":false,"searchNs420":false,"searchNs421":false,"searchNs100":false,"searchNs101":false,"searchNs4":false,"searchNs5":false,"searchNs92":false,"searchNs93":false,"searchNs1":false,"searchNs10":false,"searchNs11":false,"searchNs90":false,"searchNs91":false,"searchNs1102":false,"searchNs1103":false,"searchNs2":false,"searchNs3":false,"searchNs1214":true,"searchNs1215":false,"searchNs1242":true,"searchNs1243":false,"searchNs1236":true,"searchNs1237":false,"searchNs1202":true,"searchNs1203":false,"searchNs1218":true,"searchNs1219":
-	false,"searchNs1228":true,"searchNs1229":false,"searchNs1210":true,"searchNs1211":false,"searchNs8":true,"searchNs9":false,"searchNs1230":true,"searchNs1231":false,"searchNs1212":true,"searchNs1213":false,"searchNs1204":true,"searchNs1205":false,"searchNs1220":true,"searchNs1221":false,"searchNs1234":true,"searchNs1235":false,"searchNs1216":true,"searchNs1217":false,"searchNs1222":true,"searchNs1223":false,"searchNs1238":true,"searchNs1239":false,"searchNs1226":true,"searchNs1227":false,"searchNs1208":true,"searchNs1209":false,"searchNs1240":true,"searchNs1241":false,"searchNs1198":false,"searchNs1199":false,"searchNs1200":true,"searchNs1201":false,"searchNs1232":true,"searchNs1233":false,"searchNs1206":true,"searchNs1207":false,"searchNs1224":true,"searchNs1225":false});;mw.loader.state({"user.options":"ready"});
+	false,"searchNs1228":true,"searchNs1229":false,"searchNs1210":true,"searchNs1211":false,"searchNs8":true,"searchNs9":false,"searchNs1230":true,"searchNs1231":false,"searchNs1212":true,"searchNs1213":false,"searchNs1204":true,"searchNs1205":false,"searchNs1220":true,"searchNs1221":false,"searchNs1234":true,"searchNs1235":false,"searchNs1216":true,"searchNs1217":false,"searchNs1222":true,"searchNs1223":false,"searchNs1238":true,"searchNs1239":false,"searchNs1226":true,"searchNs1227":false,"searchNs1208":true,"searchNs1209":false,"searchNs1240":true,"searchNs1241":false,"searchNs1198":false,"searchNs1199":false,"searchNs1200":true,"searchNs1201":false,"searchNs1232":true,"searchNs1233":false,"searchNs1206":true,"searchNs1207":false,"searchNs1224":true,"searchNs1225":false});;mw.user.tokens.set({"editToken":"+\\","watchToken":false});;mw.loader.state({"user.options":"ready","user.tokens":"ready"});
 	
-	/* cache key: mediawiki-bw_:resourceloader:filter:minify-js:4:c55a79e4a94488f1d03975aab8f8df6f */
+	/* cache key: mediawiki-bw_:resourceloader:filter:minify-js:4:b939616c21986bcb30d4636ad783298f */
 }
 </script><script>  var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-22456371-1']);
@@ -1639,6 +1657,6 @@ src="//pagead2.googleadservices.com/pagead/show_ads.js">
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();</script><!-- Served in 0.308 secs. -->
+  })();</script><!-- Served in 0.294 secs. -->
 	</body>
 </html>

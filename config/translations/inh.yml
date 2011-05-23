@@ -2,7 +2,9 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Sapral Mikail
+are_you_sure: БIубенна дий шо?
 back_button: Юхавала/яла
+back_to_top_of_section: Цхьанна дакъахь юхавала/яла
 contact_us: Хаттараш е леткъамаш дале, дехар да, mobile@wikipedia.org Д-фошта тIа хоам бе.
 disable_button: ДIайоае
 download_full_version: Деррига доржам чудаккха
@@ -17,6 +19,8 @@ nav_end: Чаккхенга
 nav_history: Искар
 nav_top: Хьалхенга
 no_article_found: Цхьаккха йоазувнаш корадаьдац
+perm_stop_redirect: ТIурзIы йола вебоагIув дIайоае
+random_button: Цаховша цхьа
 regular_wikipedia: Ер оагIув Вкипадечу хьажа
 search_results: Тахкама гIулакххилар
 search_submit: Дехьавала/яла

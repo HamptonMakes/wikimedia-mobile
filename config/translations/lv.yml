@@ -1,18 +1,35 @@
 # Messages for Latvian (Latviešu)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Karlis
 # Author: Marozols
 # Author: Xil
+are_you_sure: Vai esat pārliecināts?
+author_link: Apskatiet šo multivides failu parastajā Vikipēdijā, lai redzētu informāciju par autortiesībām, licencēšanu un papildu aprakstus.
+back_button: Atpakaļ
+back_to_top_of_section: Pāriet atpakaļ sekciju
+contact_us: Ja jums ir kādi jautājumi vai komentāri, lūdzu, rakstiet e-pastu uz mobile@wikipedia.org
+copyright: Teksts ir pieejams saskaņā ar <a href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution/Share-Alike licenci</a>; var tikt piemēroti papildu noteikumi. Plašāku informāciju skatiet <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Lietošanas noteikumi</a> . Vikipēdija ir reģistrēta bezpeļņas organizācijas <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a> preču zīme.
+disable_button: Atslēgt
+download_full_version: Lejupielādēt pilno versiju
 error_page_text: Vikipēdijas mobilā versija joprojām tiek aktīvi izstrādāta, un mēs ieguldām lielu darbu, lai novērstu visas iekšējās kļūmes. Mēs esam saņēmuši informāciju par šo kļūdu un ceram to drīz novērst. Lūdzu, pamēģiniet vēlreiz pēc kāda laiciņa!
 error_page_title: Mums ir radusies problēma!
+explain_disable: Vai tiešām vēlaties atslēgt Vikipēdijas mobilo versiju? Izvēloties <b>Atslēgt</b>, no šī brīža apmeklējot Vikipēdiju, jūs netiksiet novirzīts uz Vikipēdijas mobilo skatu.
 featured_article: Vērtīgais raksts
+file_namespace: Fails
 hide_button: Paslēpt
 home_button: Sākumlapa
 in_the_news: Ziņas
+nav_edit: Rediģēt
+nav_end: Beigas
+nav_history: Vēsture
+nav_top: Sākums
 no_article_found: Neviens raksts netika atrasts
 perm_stop_redirect: Turpmāk izmantot parasto Vikipēdiju
 random_button: Nejaušs raksts
 regular_wikipedia: Apskatīt šo lapu parastajā Vikipēdijā
 search_results: Meklēšanas rezultāti
 search_submit: Meklēt
+search_text: Meklēt
 show_button: Parādīt
+wikipedia: Vikipēdija

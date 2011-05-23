@@ -3,12 +3,15 @@
 # Export driver: syck-pecl
 # Author: Calcey
 # Author: Singhalawap
+# Author: පසිඳු කාවින්ද
 are_you_sure: ඔබට විශ්වාසද ?
+author_link: ආරම්භය, බලපත්‍රදායකය, සහ අතිරේක විස්තර ගැන තොරතුරු සදහා මෙම මාධ්‍ය ගොනුව ස්ථීර විකිපීඩියාවෙහි නරඹන්න.
 back_button: ආපසු
 back_to_top_of_section: කොටසක් ආපසු යන්න
 contact_us: ඔබට යම් ප්‍රශ්න හෝ අදහස් ඇත්නම් කරුණාකර mobile@wikipedia.org වෙත අපට විද්‍යුත් තැපැල් කිරීමට නොපැකිළෙන්න
-copyright: <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>Creative Commons Attribution/Share-Alike License</a>යටතේ පෙළ ලබා ගත හැක;අමතර කොන්දේසි සහිතයි.විස්තර සඳහා <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>Terms of Use</a> බලන්න.විකිපීඩියා යනු,ලාභ නොඋපදවන සංවිධානයක් වූ <a href='http://www.wikimediafoundation.org/'>Wikimedia Foundation, Inc.</a> හි ලියාපදිංචි වෙළඳ ලකුණකි.
+copyright: මෙම පාඨය  <a href='http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License'>නිර්මාණාත්මක පොදුජන ගුණනාමය/කොටස්කාර-සමානව බලපත්‍රය</a> යටතේ ලබාගත හැක; අමතර කොන්දේසි අදාළ විය හැක. තොරතුරු සදහා <a href='http://wikimediafoundation.org/wiki/Terms_of_Use'>පරිහරණයෙහි කොන්දේසි</a> බලන්න. විකිපීඩියා යනු ලාභ නොලබන සංවිධානයක් වන <a href='http://www.wikimediafoundation.org/'>විකිමාධ්‍ය පදනමෙහි</a> ලියාපදිංචි වූ වෙළඳ ලකුණයි.
 disable_button: අක්‍රීය කරන්න
+download_full_version: පූර්ණ අනුවාදය අවපතනය කරන්න
 error_page_text: ජංගම විකිපීඩියාව තවමත් සංවර්ධනය කරමින් පවතින අතර අභ්‍යන්තර දෝෂ සමනය කිරීමට අපි කටයුතු කරමින් සිටිමු.අපට මෙම දෝෂය පිළිබඳ දන්වනු ලැබ ඇති අතර එය ඉක්මනින් නිවැරදි කරනු ඇත.කරුණාකර නැවත පරීක්ෂා කරන්න!
 error_page_title: අපට ප්‍රශ්නයක් තිබේ!
 explain_disable: ඔබට නිසැකවම විකිපීඩියාවල ජංගම අනුවාදය අක්‍රීය කිරීමට අවශ්‍ය ද?ඔබ <b>අක්‍රීය කරන්න</b> තෝරාගනු ලැබුවහොත්,මෙතැන් සිට,ඔබ විකිපීඩියා වෙත පිවිසෙන විට,ඔබ මෙම විකිපීඩියා ජංගම දසුන වෙත ආපසු හරවා නොයවනු ඇත.
