@@ -7,6 +7,7 @@ class Articles < Application
   def home
     # This whole block is cached here in the controller
     # instead of the Article level... as articles are done.
+    @direction = current_wiki['direction'] || "ltr"
     cache_block do
       request.action_name = "home"
       

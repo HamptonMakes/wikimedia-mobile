@@ -9,6 +9,14 @@ module Merb
       @article ? @article.variant : "wiki"
     end
     
+    def direction
+      if @article
+        @article.dir
+      else
+        @direction ||= "ltr"
+      end
+    end
+    
     # This decides what populates the search bar on any given
     # page
     #

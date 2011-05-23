@@ -125,6 +125,7 @@ eo:
 
 he:
   main_page: "%D7%A2%D7%9E%D7%95%D7%93_%D7%A8%D7%90%D7%A9%D7%99"
+  direction: rtl
   selectors:
     featured_article: "#mp-tfa"
     news_items: "#mp-itn"
@@ -216,6 +217,7 @@ sq:
 sl:
   mobile_main_page: Portal:Glavna_stran_(mobitel)
 fa:
+  direction: rtl
   mobile_main_page: %D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%AF%DB%8C%D8%A7%3A%D8%B5%D9%81%D8%AD%D9%87_%D8%A7%D8%B5%D9%84%DB%8C_%28%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84
 te:
   mobile_main_page: %E0%B0%AE%E0%B1%8A%E0%B0%A6%E0%B0%9F%E0%B0%BF%20%E0%B0%AA%E0%B1%87%E0%B0%9C%E0%B1%80%20%28%E0%B0%AE%E0%B1%8A%E0%B0%AC%E0%B1%88%E0%B0%B2%E0%B1%81%29
