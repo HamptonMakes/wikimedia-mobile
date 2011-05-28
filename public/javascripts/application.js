@@ -51,7 +51,7 @@ window.onorientationchange = updateOrientation;
 
 
 function wm_reveal_for_hash( hash ) {
- var targetel = $(hash)
+ var targetel = $('div.content_block [id]').filter(function(i){ return $(this).attr('id') === hash.substring(1); }).eq(0); 
  if(targetel) {
    var parentdiv = targetel.parents("div.content_block")
    if(parentdiv.length > 0 && ! parentdiv.is(':visible')) {
