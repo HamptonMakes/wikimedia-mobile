@@ -10,7 +10,7 @@ set :branch, "stable"
 set :use_sudo, false
 set :deploy_via, :remote_cache
 
-role :app, "mobile1.wikimedia.org", "mobile2.wikimedia.org", "mobile3.wikimedia.org"
+role :app, "mobile1.wikimedia.org", "mobile2.wikimedia.org", "mobile3.wikimedia.org", "mobile4.wikimedia.org", "mobile5.wikimedia.org"
 
 bin = "/var/lib/gems/1.9.1/bin"
 
