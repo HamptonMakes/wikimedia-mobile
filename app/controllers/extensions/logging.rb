@@ -29,7 +29,7 @@ module ControllerExtensions
                      :ip_address => request.remote_ip
                      }
 
-       $access_logger.warn("#{Time.now.to_f} #{request.language_code} #{logged_data[:action_time]} #{request.device.format_name}")
+       $access_logger.warn("#{request.language_code} #{URI::unescape(request.path).force_encoding('UTF-8')} #{logged_data[:action_time]} #{request.device.format_name}")
     end
   end
 end
