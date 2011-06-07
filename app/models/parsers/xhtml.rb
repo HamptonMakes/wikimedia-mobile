@@ -39,7 +39,12 @@ module Parsers
       page = article.raw_document || Nokogiri::XML(article.raw_html)
       article.dir = page.css("html").first[:dir]
 
-      #language_stuff = page.css("div#p-lang div").first
+      # Fix extensions
+      page.css("img[@src]").each do |node|
+        if node["src"][0..2] == "/w/"
+          node["src"] = "http://" + article.server.host + node["src"]
+        end
+      end
       
       # Parse the document in our XML parser. Immediately cut out everything that isn't inside
       # the #content div of the page.
