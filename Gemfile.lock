@@ -58,8 +58,8 @@ PLATFORMS
 DEPENDENCIES
   curb
   dalli
-  haml (= 3.0.21)
-  json (= 1.4.6)
+  haml
+  json
   merb-assets (= 1.1.3)
   merb-core (= 1.1.3)
   merb-haml (= 1.1.3)
