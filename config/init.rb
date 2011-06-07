@@ -21,6 +21,8 @@ end
 
 $request_count = 0
 
+$access_logger = Logger.new(Merb.root / 'log' / 'production.log')
+
 use_test :rspec
 use_template_engine :haml
  
