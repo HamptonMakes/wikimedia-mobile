@@ -1,6 +1,6 @@
 Merb.logger.info("Loaded PRODUCTION Environment...")
 Merb::Config.use { |c|
-  c[:exception_details] = true
+  c[:exception_details] = false
   c[:reload_classes] = false
   c[:log_level] = :warn
   c[:default_cookie_domain] = ".wikipedia.org"
