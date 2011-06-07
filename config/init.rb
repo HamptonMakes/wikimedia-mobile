@@ -10,6 +10,7 @@ require 'sass'
 require 'cgi'
 require 'merb-haml'
 require 'socket'
+require 'logger'
 
 if is19?
   Encoding.default_internal = Encoding.default_external = "UTF-8"
