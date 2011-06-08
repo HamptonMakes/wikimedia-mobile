@@ -41,7 +41,7 @@ module Parsers
 
       # Fix extensions
       page.css("img[@src]").each do |node|
-        if node["src"] && (node["src"][0..2] == "/w/")
+        if node && node["src"].is_a?(String) && (node["src"][0..2] == "/w/")
           node["src"] = "http://" + article.server.host + node["src"]
         end
       end
