@@ -8,9 +8,9 @@
     <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
     
     - if request.device.disable_zoom
-      <meta name = "viewport" content = "width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+      <meta name = "viewport" content = "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     - else
-      <meta name = "viewport" content = "width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
+      <meta name = "viewport" content = "width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     <link rel="apple-touch-icon" href="http://en.m.wikipedia.org/apple-touch-icon.png" />
     - if request.device.supports_javascript
       = partial "layout/javascript"
