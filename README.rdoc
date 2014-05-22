@@ -1,6 +1,6 @@
 = Wikimedia Mobile
 
-This is the new mobile project brought to you by the fine folks at Wikimedia.
+This is the 2010 mobile project brought to you by the fine folks at Wikimedia.
 
 The goal of the project is to give access to Wikipedia to all sorts
 of different mobile devices in all sorts of different languages.
