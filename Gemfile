@@ -5,7 +5,7 @@ source :gemcutter
 merb_gems_version = "1.1.3"
 
 gem "dalli"
-gem "nokogiri", "1.3.3"
+gem "nokogiri", "1.13.2"
 gem "mime-types", :require => "mime/types"
 gem "json"
 gem "haml"
