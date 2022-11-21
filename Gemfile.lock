@@ -4,7 +4,7 @@ GEM
     abstract (1.0.0)
     curb (0.7.8)
     daemons (1.1.0)
-    dalli (0.11.2)
+    dalli (3.2.3)
     diff-lcs (1.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
